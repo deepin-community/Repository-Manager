@@ -673,4 +673,7 @@ repos:
   - repo: nexttrace
     group: deepin-sysdev-team
     info: An open source visual routing tool that pursues light weight, developed using Golang.
-    
+
+  - repo: realmd
+    group: deepin-sysdev-team
+    info: a D-Bus system service that manages discovery and enrollment in realms/domains like Active Directory or IPA.

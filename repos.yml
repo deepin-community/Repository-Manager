@@ -673,4 +673,8 @@ repos:
   - repo: nexttrace
     group: deepin-sysdev-team
     info: An open source visual routing tool that pursues light weight, developed using Golang.
+
+  - repo: librust-bytemuck-dev
+    group: deepin-sysdev-team
+    info: A package contains the source for the Rust bytemuck crate, packaged by debcargo for use with cargo and dh-cargo.
     

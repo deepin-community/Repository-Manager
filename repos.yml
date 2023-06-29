@@ -673,4 +673,12 @@ repos:
   - repo: nexttrace
     group: deepin-sysdev-team
     info: An open source visual routing tool that pursues light weight, developed using Golang.
+
+  - repo: apt-rdepends
+    group: deepin-sysdev-team
+    info: Performs recursive dependency listings similar to apt-cache.
+
+  - repo: librust-bitflags-dev
+    group: deepin-sysdev-team
+    info: A dependency of rust.
     

@@ -677,4 +677,7 @@ repos:
   - repo: wipe
     group: deepin-sysdev-team
     info: Provides secure file deletion
-    
+
+  - repo: librust-cfg-if-0.1-dev
+    group: deepin-sysdev-team
+    info:  Macro to ergonomically define an item depending on a large number of #[cfg] parameters - feature "core"

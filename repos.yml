@@ -677,4 +677,9 @@ repos:
   - repo: librust-bytemuck-dev
     group: deepin-sysdev-team
     info: A package contains the source for the Rust bytemuck crate, packaged by debcargo for use with cargo and dh-cargo.
+
+  - repo: wipe
+    group: deepin-sysdev-team
+    info: Provides secure file deletion
+
     

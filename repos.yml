@@ -682,3 +682,6 @@ repos:
     group: deepin-sysdev-team
     info: 'the source for the Rust quote crate'
     
+  - repo: librust-which-dev
+    group: deepin-sysdev-team
+    info: 'add librust-which-dev'

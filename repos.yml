@@ -678,7 +678,7 @@ repos:
     group: deepin-sysdev-team
     info: Provides secure file deletion
 
-  - repo: librust-quote-dev
+    repo: librust-quote-dev
     group: deepin-sysdev-team
     info: 'the source for the Rust quote crate'
     

@@ -1,0 +1,10 @@
+Package: which
+Version: 4.2.5-1
+Architecture: amd64
+Maintainer: unknown <packages@deepin.com>
+Installed-Size: 12
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

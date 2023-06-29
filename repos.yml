@@ -678,3 +678,6 @@ repos:
     group: deepin-sysdev-team
     info: Provides secure file deletion
     
+  - repo: librust-which-dev
+    group: deepin-sysdev-team
+    info: 'add librust-which-dev'

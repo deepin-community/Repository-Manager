@@ -1,0 +1,5 @@
+which (4.2.5-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- unknown <packages@deepin.com>  Thu, 29 Jun 2023 17:08:49 +0800

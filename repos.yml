@@ -681,6 +681,10 @@ repos:
   - repo: rephrase
     group: deepin-sysdev-team
     info: Specialized passphrase recovery tool for GnuPG
+
+  - repo: apt-rdepends
+    group: deepin-sysdev-team
+    info: This utility can recursively list package dependencies, either forwards or in reverse.
     
   - repo: rust-bytemuck
     group: deepin-sysdev-team

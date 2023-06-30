@@ -9,11 +9,11 @@ repos:
 
   - repo: htop
     group: deepin-pkg
-    info: Htop 是一个基于 ncurse 的进程查看器，类似于 top
+    info: Htop 是一个基�? ncurse 的进程查看器，类似于 top
 
   - repo: rsync
     group: deepin-pkg
-    info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
+    info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远�? 站点之间传输文件
 
   - repo: ruby-afm
     group: deepin-pkg
@@ -134,7 +134,7 @@ repos:
 
   - repo: .guide.deepin.org
     group: sig-deepin-doc-doc-go
-    info: deepin系统的用户手册 https://guide.deepin.org
+    info: deepin系统的用户手�? https://guide.deepin.org
 
   - repo: sbuild
     group: deepin-sysdev-team
@@ -258,7 +258,7 @@ repos:
 
   - repo: debootstrap
     group: deepin-sysdev-team
-    info: 自举建立一个基本 Debian 系统
+    info: 自举建立一个基�? Debian 系统
 
   - repo: mmdebstrap
     group: deepin-sysdev-team
@@ -274,7 +274,7 @@ repos:
 
   - repo: deepin-unstable-source
     group: deepin-sysdev-team
-    info: v23 内测源
+    info: v23 内测�?
 
   - repo: powertop
     group: deepin-sysdev-team
@@ -664,7 +664,7 @@ repos:
 
   - repo: chromium #community
     group: deepin-sysdev-team
-    info: 'chromium 网页浏览器'
+    info: 'chromium 网页浏览�?'
     
   - repo: generate-ninja #community
     group: deepin-sysdev-team
@@ -701,3 +701,27 @@ repos:
   - repo: rust-libc
     group: deepin-sysdev-team
     info: This package contains the source for the Rust libc crate.
+
+  - repo: rust-cfg-if
+    group: deepin-sysdev-team
+    info: Macro to ergonomically define an item depending on a large number of #[cfg] parameters - feature "core"
+
+  - repo: rust-unicode-xid
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust unicode-xid crate, packaged by debcargo for use with cargo and dh-cargo.
+    
+  - repo: rust-nom
+    group: deepin-sysdev-team
+    info: Byte-oriented, zero-copy, parser combinators
+  
+  - repo: rust-quote
+    group: deepin-sysdev-team
+    info: 'the source for the Rust quote crate'
+
+  - repo: rust-proc-macro2
+    group: deepin-sysdev-team
+    info: 'the source for the Rust proc-macro2 crate'
+
+  - repo: rust-unicode-ident
+    group: deepin-sysdev-team
+    info: 'the source for the Rust unicode-ident crate'

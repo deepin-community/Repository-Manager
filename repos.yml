@@ -701,3 +701,8 @@ repos:
   - repo: rust-libc
     group: deepin-sysdev-team
     info: This package contains the source for the Rust libc crate.
+
+  - repo: rust-cfg-if
+    group: deepin-sysdev-team
+    info: Macro to ergonomically define an item depending on a large number of #[cfg] parameters - feature "core"
+

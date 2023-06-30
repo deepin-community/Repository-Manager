@@ -678,3 +678,6 @@ repos:
     group: deepin-sysdev-team
     info: Provides secure file deletion
     
+  - repo: rephrase
+    group: deepin-sysdev-team
+    info: Specialized passphrase recovery tool for GnuPG

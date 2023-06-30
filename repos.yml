@@ -693,3 +693,7 @@ repos:
   - repo: realmd
     group: deepin-sysdev-team
     info: a D-Bus system service that manages discovery and enrollment in realms/domains like Active Directory or IPA.
+
+  - repo: rust-memchr
+    group: deepin-sysdev-team
+    info: Rust development package for memchr library integration.

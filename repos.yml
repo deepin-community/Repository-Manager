@@ -709,4 +709,8 @@ repos:
   - repo: rust-unicode-xid
     group: deepin-sysdev-team
     info: This package contains the source for the Rust unicode-xid crate, packaged by debcargo for use with cargo and dh-cargo.
-
+    
+  - repo: rust-nom
+    group: deepin-sysdev-team
+    info: Byte-oriented, zero-copy, parser combinators
+    

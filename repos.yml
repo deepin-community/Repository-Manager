@@ -677,6 +677,10 @@ repos:
   - repo: wipe
     group: deepin-sysdev-team
     info: Provides secure file deletion
+
+  - repo: rephrase
+    group: deepin-sysdev-team
+    info: Specialized passphrase recovery tool for GnuPG
     
   - repo: rust-nom
     group: deepin-sysdev-team

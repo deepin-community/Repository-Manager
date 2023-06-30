@@ -1,4 +1,4 @@
-#Repository-manager
+# Repository-Manager
 
 ## 简介
 旨在承接deepin github仓库生命周期相关管理和维护工作。
@@ -9,6 +9,5 @@
 
 ## 规划
 
-1. 根据[deepin社区草案4](https://github.com/deepin-community/rfcs/pull/4)的提议新增仓库退出流程
-
-未完待续...
+1. 根据[deepin社区草案4](https://github.com/deepin-community/rfcs/pull/4)的提议新增仓库退出流程；
+2. 未完待续...

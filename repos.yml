@@ -701,7 +701,7 @@ repos:
   - repo: rust-libc
     group: deepin-sysdev-team
     info: This package contains the source for the Rust libc crate.
-    
+
   - repo: librust-unicode-xid-dev
     group: deepin-sysdev-team
     info: This package contains the source for the Rust unicode-xid crate, packaged by debcargo for use with cargo and dh-cargo.

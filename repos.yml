@@ -694,10 +694,6 @@ repos:
     group: deepin-sysdev-team
     info: a D-Bus system service that manages discovery and enrollment in realms/domains like Active Directory or IPA.
 
-  - repo: rust-memchr
-    group: deepin-sysdev-team
-    info: Rust development package for memchr library integration.
-
   - repo: librust-unicode-xid-dev
     group: deepin-sysdev-team
     info: This package contains the source for the Rust unicode-xid crate, packaged by debcargo for use with cargo and dh-cargo. Adapt to  deepin23, Transplant author Cruise_zrz.

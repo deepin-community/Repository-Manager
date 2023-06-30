@@ -697,3 +697,7 @@ repos:
   - repo: rust-memchr
     group: deepin-sysdev-team
     info: Rust development package for memchr library integration.
+
+  - repo: rust-libc
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust libc crate.

@@ -682,3 +682,14 @@ repos:
     group: deepin-sysdev-team
     info: Specialized passphrase recovery tool for GnuPG
     
+  - repo: librust-quote-dev
+    group: deepin-sysdev-team
+    info: 'the source for the Rust quote crate'
+
+  - repo: librust-proc-macro2-dev
+    group: deepin-sysdev-team
+    info: 'the source for the Rust proc-macro2 crate'
+
+  - repo: librust-unicode-ident-dev
+    group: deepin-sysdev-team
+    info: 'the source for the Rust unicode-ident crate'

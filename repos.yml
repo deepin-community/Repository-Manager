@@ -706,3 +706,6 @@ repos:
     group: deepin-sysdev-team
     info: Macro to ergonomically define an item depending on a large number of #[cfg] parameters - feature "core"
 
+  - repo: rust-unicode-xid
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust unicode-xid crate, packaged by debcargo for use with cargo and dh-cargo.

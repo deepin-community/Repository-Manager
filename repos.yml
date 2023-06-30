@@ -690,6 +690,6 @@ repos:
     group: deepin-sysdev-team
     info: This package contains the source for the Rust bytemuck crate, packaged by debcargo for use with cargo and dh-cargo.
 
-  - repo: rust-bytemuck
+  - repo: realmd
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust bytemuck crate, packaged by debcargo for use with cargo and dh-cargo.
+    info: a D-Bus system service that manages discovery and enrollment in realms/domains like Active Directory or IPA.

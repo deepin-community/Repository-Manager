@@ -685,3 +685,7 @@ repos:
   - repo: rust-bytemuck
     group: deepin-sysdev-team
     info: This package contains the source for the Rust bytemuck crate, packaged by debcargo for use with cargo and dh-cargo.
+
+  - repo: rust-bytemuck
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust bytemuck crate, packaged by debcargo for use with cargo and dh-cargo.

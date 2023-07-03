@@ -729,4 +729,7 @@ repos:
   - repo: rust-unicode-ident
     group: deepin-sysdev-team
     info: 'the source for the Rust unicode-ident crate'
-    
+
+  - repo: ruby-nokogiri
+    group: deepin-sysdev-team
+    info: HTML, XML, SAX, and Reader parser for Ruby

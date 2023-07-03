@@ -762,3 +762,6 @@ repos:
     group: deepin-sysdev-team
     info: generates programs menu for all menu-aware applications
 
+  - repo: rust-rustc-hash
+    group: deepin-sysdev-team
+    info: Speed, non-cryptographic hash used in rustc - Rust source code

@@ -757,3 +757,8 @@ repos:
   - repo: fonts-lxgw-wenkai
     group: deepin-sysdev-team
     info: 'lxgw-wenkai is a font drives from Fontworks Klee One , which is a free open source font'
+
+  - repo: menu
+    group: deepin-sysdev-team
+    info: generates programs menu for all menu-aware applications
+

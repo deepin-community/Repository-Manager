@@ -769,4 +769,16 @@ repos:
   - repo: parole
     group: deepin-sysdev-team
     info: Development files for Parole media player
+
+  - repo: rust-version-check
+    group: deepin-sysdev-team
+    info: Tiny crate to check the version of the installed/running rustc - Rust source code
+
+  - repo: rust-glob
+    group: deepin-sysdev-team
+    info: Support for matching file paths against Unix shell style patterns - Rust source code
+
+  - repo: rust-lazy-static
+    group: deepin-sysdev-team
+    info: Macro for declaring lazily evaluated statics in Rust - Rust source code
     

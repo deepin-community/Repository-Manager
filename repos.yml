@@ -785,4 +785,8 @@ repos:
   - repo: rust-unicode-width
     group: deepin-sysdev-team
     info: This metapackage enables feature "compiler_builtins" for the Rust unicode-width crate, by pulling in any additional dependencies needed by that feature.
+    
+  - repo: rust-strsim
+    group: deepin-sysdev-team
+    info: Implementations of string similarity metrics - Rust source code
 

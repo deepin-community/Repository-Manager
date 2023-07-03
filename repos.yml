@@ -746,3 +746,7 @@ repos:
     group: deepin-sysdev-team
     info: convert a dictionary file type to another dictionary file type
 
+  - repo: intel-one-mono
+    group: deepin-sysdev-team
+    info: an expressive monospaced font family that’s built with clarity, legibility, and the needs of developers in mind.
+    

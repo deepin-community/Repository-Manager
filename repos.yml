@@ -765,3 +765,8 @@ repos:
   - repo: rust-rustc-hash
     group: deepin-sysdev-team
     info: Speed, non-cryptographic hash used in rustc - Rust source code
+
+  - repo: parole
+    group: deepin-sysdev-team
+    info: Development files for Parole media player
+    

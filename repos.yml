@@ -714,3 +714,7 @@ repos:
     group: deepin-sysdev-team
     info: Byte-oriented, zero-copy, parser combinators
     
+  - repo: rust-which
+    group: deepin-sysdev-team
+    info: Locate installed executable in cross platforms.
+

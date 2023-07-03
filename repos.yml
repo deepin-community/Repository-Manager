@@ -786,3 +786,11 @@ repos:
     group: deepin-sysdev-team
     info: This metapackage enables feature "compiler_builtins" for the Rust unicode-width crate, by pulling in any additional dependencies needed by that feature.
 
+  - repo: rust-ansi-term
+    group: deepin-sysdev-team
+    info: Rust crate for ANSI terminal color manipulation.
+
+  - repo: rust-winapi
+    group: deepin-sysdev-team
+    info: Rust bindings for Windows API functions.
+

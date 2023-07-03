@@ -782,3 +782,7 @@ repos:
     group: deepin-sysdev-team
     info: Macro for declaring lazily evaluated statics in Rust - Rust source code
     
+  - repo: rust-unicode-width
+    group: deepin-sysdev-team
+    info: This metapackage enables feature "compiler_builtins" for the Rust unicode-width crate, by pulling in any additional dependencies needed by that feature.
+

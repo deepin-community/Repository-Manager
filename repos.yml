@@ -742,3 +742,7 @@ repos:
     group: deepin-sysdev-team
     info: 'This package contains the source for the Rust shlex crate, packaged by debcargo for use with cargo and dh-cargo.'
 
+  - repo: dictconv
+    group: deepin-sysdev-team
+    info: convert a dictionary file type to another dictionary file type
+

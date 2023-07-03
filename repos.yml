@@ -750,3 +750,10 @@ repos:
     group: deepin-sysdev-team
     info: an expressive monospaced font family that’s built with clarity, legibility, and the needs of developers in mind.
     
+  - repo: rust-bitflags
+    group: deepin-sysdev-team
+    info: 'source for the Rust bitflags crate'
+
+  - repo: fonts-lxgw-wenkai
+    group: deepin-sysdev-team
+    info: 'lxgw-wenkai is a font drives from Fontworks Klee One , which is a free open source font'

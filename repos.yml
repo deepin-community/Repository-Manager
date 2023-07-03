@@ -797,4 +797,8 @@ repos:
   - repo: fonts-intel-one-mono
     group: deepin-sysdev-team
     info: an expressive monospaced font family that’s built with clarity, legibility, and the needs of developers in mind.
-    
+
+  - repo: discus
+    group: deepin-sysdev-team
+    info: Discus aims to make df prettier, with features such as color, graphs, and smart formatting of numbers.
+

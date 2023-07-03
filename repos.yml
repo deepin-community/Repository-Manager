@@ -734,3 +734,6 @@ repos:
     group: deepin-sysdev-team
     info: Byte-oriented, zero-copy, parser combinators
     
+  - repo: rust-aho-corasick
+    group: deepin-sysdev-team
+    info: Efficient string matching library for Rust.

@@ -531,6 +531,10 @@ repos:
     group: deepin-sysdev-team
     info: Neofetch with LGBTQ+ pride flags!
 
+  - repo: icu
+    group: deepin-sysdev-team
+    info: ICU is a C++ and C library that provides robust and full-featured Unicode and locale support.
+
   - repo: iftop
     group: deepin-sysdev-team
     info: displays bandwidth usage information on an network interface
@@ -1253,6 +1257,10 @@ repos:
     info: This metapackage enables feature "serde" for the Rust either crate, by pulling
       in any additional dependencies needed by that feature.
 
+  - repo: rust-env-logger
+    group: deepin-sysdev-team
+    info: the source for the Rust env_logger crate
+
   - repo: rust-erased-serde
     group: deepin-sysdev-team
     info: Type-erased Serialize and Serializer traits.
@@ -1699,3 +1707,4 @@ repos:
   - repo: zutty
     group: deepin-sysdev-team
     info: Efficient full-featured X11 terminal emulator
+    

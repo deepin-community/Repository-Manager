@@ -813,7 +813,7 @@ repos:
   - repo: rust-scopeguard
     group: deepin-sysdev-team
     info: Defines the macros `defer!`, `defer_on_unwind!`, `defer_on_success!` as shorthands for guards with one of the implemented strategies.
-  
+
   - repo: rust-minimal-lexical
     group: deepin-sysdev-team
     info: This package contains the source for the Rust minimal-lexical crate, packaged by debcargo for use with cargo and dh-cargo.
@@ -821,7 +821,7 @@ repos:
   - repo: rust-log
     group: deepin-sysdev-team
     info: This package contains the source for the Rust log crate, packaged by debcargo for use with cargo and dh-cargo.
-
+    
   - repo: rust-lazycell
     group: deepin-sysdev-team
     info: It provides a struct similar to Cell that can be lazily filled.
@@ -853,4 +853,8 @@ repos:
   - repo: rust-winapi-util
     group: deepin-sysdev-team
     info: Dumping ground for high level safe wrappers over winapi.
+
+  - repo: html2ps
+    group: deepin-sysdev-team
+    info: HTML to PostScript converter
 

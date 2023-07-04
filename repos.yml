@@ -894,3 +894,6 @@ repos:
     group: deepin-sysdev-team
     info: Synaptic is a graphical package management tool based on GTK+ and APT.
 
+  - repo: wofi
+    group: deepin-sysdev-team
+    info: application launcher for wlroots based wayland compositors

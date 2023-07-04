@@ -834,3 +834,23 @@ repos:
     group: deepin-sysdev-team
     info: Rust target for the Windows operating system, used for building Rust applications that run on 64-bit Windows systems using the GNU toolchain.
 
+  - repo: rust-clap
+    group: deepin-sysdev-team
+    info: Rust Command Line Argument Parser.
+
+  - repo: rust-clap-lex
+    group: deepin-sysdev-team
+    info: Minimal, flexible command line parser.
+
+  - repo: rust-termcolor
+    group: deepin-sysdev-team
+    info: Simple cross platform library for writing colored text to a terminal.
+
+  - repo: rust-os-str-bytes
+    group: deepin-sysdev-team
+    info: Utilities for converting between byte sequences and platform-native strings.
+
+  - repo: rust-winapi-util
+    group: deepin-sysdev-team
+    info: Dumping ground for high level safe wrappers over winapi.
+

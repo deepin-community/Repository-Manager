@@ -810,3 +810,7 @@ repos:
     group: deepin-sysdev-team
     info: Rust crate for FFI bindings to all of Windows API.
 
+  - repo: rust-scopeguard
+    group: deepin-sysdev-team
+    info: Defines the macros `defer!`, `defer_on_unwind!`, `defer_on_success!` as shorthands for guards with one of the implemented strategies.
+    

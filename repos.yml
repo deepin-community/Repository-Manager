@@ -802,3 +802,7 @@ repos:
     group: deepin-sysdev-team
     info: Discus aims to make df prettier, with features such as color, graphs, and smart formatting of numbers.
 
+  - repo: rust-either
+    group: deepin-sysdev-team
+    info: This metapackage enables feature "serde" for the Rust either crate, by pulling in any additional dependencies needed by that feature.
+

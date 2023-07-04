@@ -1468,6 +1468,10 @@ repos:
     info: This package contains the source for the Rust atty crate, packaged by debcargo
       for use with cargo and dh-cargo.
 
+  - repo: rust-autocfg
+    group: deepin-sysdev-team
+    info: the source for the Rust autocfg crate
+
   - repo: rust-bitflags
     group: deepin-sysdev-team
     info: source for the Rust bitflags crate
@@ -1617,6 +1621,10 @@ repos:
   - repo: rust-libm
     group: deepin-sysdev-team
     info: the source for the Rust libm crate
+
+  - repo: rust-lock-api
+    group: deepin-sysdev-team
+    info: the source for the Rust lock_api crate
 
   - repo: rust-log
     group: deepin-sysdev-team

@@ -866,3 +866,11 @@ repos:
     group: deepin-sysdev-team
     info: This package contains the source for the Rust lexical-core crate.
     
+  - repo: bpython
+    group: deepin-sysdev-team
+    info: fancy interface to the Python 3 interpreter
+
+  - repo: butt
+    group: deepin-sysdev-team
+    info: an easy to use, multi OS streaming tool.
+

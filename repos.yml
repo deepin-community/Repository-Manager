@@ -858,3 +858,11 @@ repos:
     group: deepin-sysdev-team
     info: HTML to PostScript converter
 
+  - repo: add rust-cexpr
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust cexpr crate.
+
+  - repo: rust-lexical-core
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust lexical-core crate.
+    

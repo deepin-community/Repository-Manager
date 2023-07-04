@@ -889,3 +889,8 @@ repos:
   - repo: exim4
     group: deepin-sysdev-team
     info: metapackage to ease Exim MTA (v4) installation
+
+  - repo: synaptic
+    group: deepin-sysdev-team
+    info: Synaptic is a graphical package management tool based on GTK+ and APT.
+

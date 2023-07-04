@@ -902,3 +902,23 @@ repos:
     group: deepin-sysdev-team
     info: Firacode is a free monospaced font with programming ligatures.
 
+  - repo: fail2ban
+    group: deepin-sysdev-team
+    info: ban hosts that cause multiple authentication errors
+
+  - repo: xfburn
+    group: deepin-sysdev-team
+    info: CD-burner application for Xfce Desktop Environment
+
+  - repo: tix
+    group: deepin-sysdev-team
+    info: library for Tk -- development package
+
+  - repo: iftop
+    group: deepin-sysdev-team
+    info: displays bandwidth usage information on an network interface
+
+  - repo: ristretto
+    group: deepin-sysdev-team
+    info: lightweight picture-viewer for the Xfce desktop environment
+

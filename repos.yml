@@ -858,7 +858,7 @@ repos:
     group: deepin-sysdev-team
     info: HTML to PostScript converter
 
-  - repo: add rust-cexpr
+  - repo: rust-cexpr
     group: deepin-sysdev-team
     info: This package contains the source for the Rust cexpr crate.
 
@@ -978,3 +978,39 @@ repos:
     group: deepin-sysdev-team
     info: Friso is an open source high performance Chinese word splitter.
 
+  - repo: rust-dtoa
+    group: deepin-sysdev-team
+    info: the source for the Rust dtoa crate
+  
+  - repo: rust-libm
+    group: deepin-sysdev-team
+    info: the source for the Rust libm crate
+  
+  - repo: rust-rustc-version
+    group: deepin-sysdev-team
+    info: the source for the Rust rustc_version crate
+  
+  - repo: rust-ryu
+    group: deepin-sysdev-team
+    info: the source for the Rust ryu crate
+  
+  - repo: rust-semver
+    group: deepin-sysdev-team
+    info: the source for the Rust semver crate
+    
+  - repo: rust-stackvector
+    group: deepin-sysdev-team
+    info: the source for the Rust stackvector crate
+
+  - repo: rust-static-assertions
+    group: deepin-sysdev-team
+    info: the source for the Rust static_assertions crate
+  
+  - repo: rust-unreachable
+    group: deepin-sysdev-team
+    info: the source for the Rust unreachable crate
+  
+  - repo: rust-void
+    group: deepin-sysdev-team
+    info: the source for the Rust void crate
+    

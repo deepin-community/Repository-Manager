@@ -813,8 +813,12 @@ repos:
   - repo: rust-scopeguard
     group: deepin-sysdev-team
     info: Defines the macros `defer!`, `defer_on_unwind!`, `defer_on_success!` as shorthands for guards with one of the implemented strategies.
-    
+  
   - repo: rust-minimal-lexical
     group: deepin-sysdev-team
     info: This package contains the source for the Rust minimal-lexical crate, packaged by debcargo for use with cargo and dh-cargo.
+
+  - repo: rust-log
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust log crate, packaged by debcargo for use with cargo and dh-cargo.
 

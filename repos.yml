@@ -830,3 +830,7 @@ repos:
     group: deepin-sysdev-team
     info: This package contains the source for the Rust cloudabi crate, packaged by debcargo for use with cargo and dh-cargo.
   
+  - repo: rust-winapi-x86-64-pc-windows-gnu
+    group: deepin-sysdev-team
+    info: Rust target for the Windows operating system, used for building Rust applications that run on 64-bit Windows systems using the GNU toolchain.
+

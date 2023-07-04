@@ -874,3 +874,6 @@ repos:
     group: deepin-sysdev-team
     info: an easy to use, multi OS streaming tool.
 
+  - repo: rust-cfg-if-1.0
+    group: deepin-sysdev-team
+    info: This metapackage enables feature "core" for the Rust cfg-if crate, by pulling in any additional dependencies needed by that feature.

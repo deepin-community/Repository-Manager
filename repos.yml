@@ -874,3 +874,7 @@ repos:
     group: deepin-sysdev-team
     info: an easy to use, multi OS streaming tool.
 
+  - repo: rust-clang-sys
+    group: deepin-sysdev-team
+    info: Rust crate that provides bindings for libclang, the C interface to the Clang compiler.
+

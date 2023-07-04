@@ -806,3 +806,7 @@ repos:
     group: deepin-sysdev-team
     info: This metapackage enables feature "serde" for the Rust either crate, by pulling in any additional dependencies needed by that feature.
 
+  - repo: rust-winapi-i686-pc-windows-gnu
+    group: deepin-sysdev-team
+    info: Rust crate for FFI bindings to all of Windows API.
+

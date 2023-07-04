@@ -897,3 +897,8 @@ repos:
   - repo: wofi
     group: deepin-sysdev-team
     info: application launcher for wlroots based wayland compositors
+
+  - repo: fonts-firacode
+    group: deepin-sysdev-team
+    info: Firacode is a free monospaced font with programming ligatures.
+

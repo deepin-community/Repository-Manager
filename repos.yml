@@ -822,3 +822,7 @@ repos:
     group: deepin-sysdev-team
     info: This package contains the source for the Rust log crate, packaged by debcargo for use with cargo and dh-cargo.
 
+  - repo: rust-lazycell
+    group: deepin-sysdev-team
+    info: It provides a struct similar to Cell that can be lazily filled.
+

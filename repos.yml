@@ -958,3 +958,23 @@ repos:
     group: deepin-sysdev-team
     info: Raleway is an elegant sans-serif typeface family.
 
+  - repo: toilet
+    group: deepin-sysdev-team
+    info: TOIlet prints text using large characters made of smaller characters.
+
+  - repo: larch
+    group: deepin-sysdev-team
+    info: Larch is a tool to copy messages from one IMAP server to another quickly and safely.
+
+  - repo: swtpm
+    group: deepin-sysdev-team
+    info: The swtpm package provides TPM emulators that listen for TPM commands on sockets, character devices, or CUSE devices.
+
+  - repo: nyacc
+    group: deepin-sysdev-team
+    info: NYACC is set of guile modules for generating parsers and lexical analyzers.
+
+  - repo: friso
+    group: deepin-sysdev-team
+    info: Friso is an open source high performance Chinese word splitter.
+

@@ -922,3 +922,7 @@ repos:
     group: deepin-sysdev-team
     info: lightweight picture-viewer for the Xfce desktop environment
 
+  - repo: mdbtools
+    group: deepin-sysdev-team
+    info: These are various tools for manipulating JET / MS Access database (MDB) files.
+

@@ -934,3 +934,11 @@ repos:
     group: deepin-sysdev-team
     info: python-tokenize-rt is a wrapper around the Python stdlib `tokenize` which roundtrips.
 
+  - repo: fonts-rocknroll
+    group: deepin-sysdev-team
+    info: a pop-style font
+
+  - repo: fonts-tuffy
+    group: deepin-sysdev-team
+    info: the Tuffy Truetype Font Family
+

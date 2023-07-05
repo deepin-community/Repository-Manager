@@ -922,3 +922,7 @@ repos:
     group: deepin-sysdev-team
     info: These are various tools for manipulating JET / MS Access database (MDB) files.
 
+  - repo: nss
+    group: deepin-sysdev-team
+    info: This is a set of libraries designed to support cross-platform development of security-enabled client and server applications.
+

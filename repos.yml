@@ -946,3 +946,15 @@ repos:
     group: deepin-sysdev-team
     info: It peeking_take_while peeks at the next item in the iterator and runs the predicate on that peeked item.
 
+  - repo: rust-thread-local
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust thread_local crate, packaged by debcargo for use with cargo and dh-cargo.
+
+  - repo: acpi
+    group: deepin-sysdev-team
+    info: This package shows the information of the ACPI device.
+
+  - repo: fonts-raleway
+    group: deepin-sysdev-team
+    info: Raleway is an elegant sans-serif typeface family.
+

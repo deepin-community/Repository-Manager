@@ -874,6 +874,7 @@ repos:
     group: deepin-sysdev-team
     info: an easy to use, multi OS streaming tool.
 
+<<<<<<< HEAD
   - repo: rust-clang-sys
     group: deepin-sysdev-team
     info: Rust crate that provides bindings for libclang, the C interface to the Clang compiler.
@@ -901,4 +902,8 @@ repos:
   - repo: fonts-firacode
     group: deepin-sysdev-team
     info: Firacode is a free monospaced font with programming ligatures.
+
+  - repo: safe-iop
+    group: deepin-sysdev-team
+    info: Safe integer operation library for C
 

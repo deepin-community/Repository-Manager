@@ -922,3 +922,11 @@ repos:
     group: deepin-sysdev-team
     info: These are various tools for manipulating JET / MS Access database (MDB) files.
 
+  - repo: golang-github-openprinting-goipp
+    group: deepin-sysdev-team
+    info: IPP core protocol in pure Go Library (RFC 8010)
+
+  - repo: python-tokenize-rt
+    group: deepin-sysdev-team
+    info: wrapper around the Python stdlib `tokenize` which roundtrips
+

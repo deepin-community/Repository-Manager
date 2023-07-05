@@ -926,3 +926,11 @@ repos:
     group: deepin-sysdev-team
     info: This package provides a PEM file reader for Network Security Services (NSS), implemented as a PKCS#11 module.
 
+  - repo: golang-github-openprinting-goipp
+    group: deepin-sysdev-team
+    info: golang-github-openprinting-goipp is an IPP core protocol in pure Go Library (RFC 8010).
+
+  - repo: python-tokenize-rt
+    group: deepin-sysdev-team
+    info: python-tokenize-rt is a wrapper around the Python stdlib `tokenize` which roundtrips.
+

@@ -922,3 +922,7 @@ repos:
     group: deepin-sysdev-team
     info: These are various tools for manipulating JET / MS Access database (MDB) files.
 
+  - repo: nss-pem
+    group: deepin-sysdev-team
+    info: This package provides a PEM file reader for Network Security Services (NSS), implemented as a PKCS#11 module.
+

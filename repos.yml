@@ -878,10 +878,6 @@ repos:
     group: deepin-sysdev-team
     info: Rust crate that provides bindings for libclang, the C interface to the Clang compiler.
 
-  - repo: fonts-google-noto-sans-simplified-chinese
-    group: deepin-sysdev-team
-    info: Noto Sans SC is an unmodulated (“sans serif”) design for languages in mainland China that use the Simplified Chinese variant of the Han ideograms.
-
   - repo: iotop
     group: deepin-sysdev-team
     info: simple top-like I/O monitor

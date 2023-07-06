@@ -858,7 +858,7 @@ repos:
     group: deepin-sysdev-team
     info: HTML to PostScript converter
 
-  - repo: add rust-cexpr
+  - repo: rust-cexpr
     group: deepin-sysdev-team
     info: This package contains the source for the Rust cexpr crate.
 
@@ -877,10 +877,6 @@ repos:
   - repo: rust-clang-sys
     group: deepin-sysdev-team
     info: Rust crate that provides bindings for libclang, the C interface to the Clang compiler.
-
-  - repo: fonts-google-noto-sans-simplified-chinese
-    group: deepin-sysdev-team
-    info: Noto Sans SC is an unmodulated (“sans serif”) design for languages in mainland China that use the Simplified Chinese variant of the Han ideograms.
 
   - repo: iotop
     group: deepin-sysdev-team
@@ -921,4 +917,212 @@ repos:
   - repo: ristretto
     group: deepin-sysdev-team
     info: lightweight picture-viewer for the Xfce desktop environment
+
+  - repo: mdbtools
+    group: deepin-sysdev-team
+    info: These are various tools for manipulating JET / MS Access database (MDB) files.
+
+  - repo: nss-pem
+    group: deepin-sysdev-team
+    info: This package provides a PEM file reader for Network Security Services (NSS), implemented as a PKCS#11 module.
+
+  - repo: golang-github-openprinting-goipp
+    group: deepin-sysdev-team
+    info: golang-github-openprinting-goipp is an IPP core protocol in pure Go Library (RFC 8010).
+
+  - repo: python-tokenize-rt
+    group: deepin-sysdev-team
+    info: python-tokenize-rt is a wrapper around the Python stdlib `tokenize` which roundtrips.
+
+  - repo: fonts-rocknroll
+    group: deepin-sysdev-team
+    info: a pop-style font
+
+  - repo: fonts-tuffy
+    group: deepin-sysdev-team
+    info: the Tuffy Truetype Font Family
+
+  - repo: rust-peeking-take-while
+    group: deepin-sysdev-team
+    info: It peeking_take_while peeks at the next item in the iterator and runs the predicate on that peeked item.
+
+  - repo: rust-thread-local
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust thread_local crate, packaged by debcargo for use with cargo and dh-cargo.
+
+  - repo: acpi
+    group: deepin-sysdev-team
+    info: This package shows the information of the ACPI device.
+
+  - repo: fonts-raleway
+    group: deepin-sysdev-team
+    info: Raleway is an elegant sans-serif typeface family.
+
+  - repo: toilet
+    group: deepin-sysdev-team
+    info: TOIlet prints text using large characters made of smaller characters.
+
+  - repo: larch
+    group: deepin-sysdev-team
+    info: Larch is a tool to copy messages from one IMAP server to another quickly and safely.
+
+  - repo: swtpm
+    group: deepin-sysdev-team
+    info: The swtpm package provides TPM emulators that listen for TPM commands on sockets, character devices, or CUSE devices.
+
+  - repo: nyacc
+    group: deepin-sysdev-team
+    info: NYACC is set of guile modules for generating parsers and lexical analyzers.
+
+  - repo: friso
+    group: deepin-sysdev-team
+    info: Friso is an open source high performance Chinese word splitter.
+
+  - repo: rust-dtoa
+    group: deepin-sysdev-team
+    info: the source for the Rust dtoa crate
+  
+  - repo: rust-libm
+    group: deepin-sysdev-team
+    info: the source for the Rust libm crate
+  
+  - repo: rust-rustc-version
+    group: deepin-sysdev-team
+    info: the source for the Rust rustc_version crate
+  
+  - repo: rust-ryu
+    group: deepin-sysdev-team
+    info: the source for the Rust ryu crate
+  
+  - repo: rust-semver
+    group: deepin-sysdev-team
+    info: the source for the Rust semver crate
+    
+  - repo: rust-stackvector
+    group: deepin-sysdev-team
+    info: the source for the Rust stackvector crate
+
+  - repo: rust-static-assertions
+    group: deepin-sysdev-team
+    info: the source for the Rust static_assertions crate
+  
+  - repo: rust-unreachable
+    group: deepin-sysdev-team
+    info: the source for the Rust unreachable crate
+  
+  - repo: rust-void
+    group: deepin-sysdev-team
+    info: the source for the Rust void crate
+    
+  - repo: rust-serde
+    group: deepin-sysdev-team
+    info: a framework for serializing and deserializing Rust data structures efficiently and generically.
+    
+  - repo: rust-arbitrary
+    group: deepin-sysdev-team
+    info: The Arbitrary crate lets you construct arbitrary instances of a type.
+    
+  - repo: analog
+    group: deepin-sysdev-team
+    info: Analog is a fast log file processor that generates usage statistic reports for web servers.
+
+  - repo: kwrited
+    group: deepin-sysdev-team
+    info: Kwrited captures console output (e.g. broadcast messages) and prints it in a X window.
+
+  - repo: nfacct
+    group: deepin-sysdev-team
+    info: This is the command line tool to create/retrieve/delete netfilter accounting objects.
+
+  - repo: libnetfilter-acct
+    group: deepin-sysdev-team
+    info: libnetfilter_acct is a userspace library providing an interface to the extended netfilter accounting infrastructure.
+
+  - repo: fping
+    group: deepin-sysdev-team
+    info: sends ICMP ECHO_REQUEST packets to network hosts
+
+  - repo: termit
+    group: deepin-sysdev-team
+    info: Simple terminal emulator based on vte library, embedded Lua
+
+  - repo: aha
+    group: deepin-sysdev-team
+    info: ANSI color to HTML converter
+
+  - repo: pbzip2
+    group: deepin-sysdev-team
+    info: parallel bzip2 implementation
+
+  - repo: rust-regex-syntax
+    group: deepin-sysdev-team
+    info: It is a library for parsing, compiling, and executing regular expressions.
+
+  - repo: hexchat
+    group: deepin-sysdev-team
+    info: IRC client for X based on X-Chat 2.
+
+  - repo: xcvt
+    group: deepin-sysdev-team
+    info: library for SSA/ASS subtitles rendering.
+
+  - repo: xserver-xorg
+    group: deepin-sysdev-team
+    info: Xorg X server - core server: This package is built from the X.org xserver module.
+
+  - repo: libss
+    group: deepin-sysdev-team
+    info: Command line interface Parsing library.
+
+  - repo: rust-compiler-builtins
+    group: deepin-sysdev-team
+    info: Compiler intrinsics used by the Rust compiler
+
+  - repo: rust-rustc-std-workspace-core
+    group: deepin-sysdev-team
+    info: Explicitly empty crate for rust-lang/rust integration
+
+  - repo: rust-atty
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust atty crate, packaged by debcargo for use with cargo and dh-cargo.
+
+  - repo: petsc
+    group: deepin-sysdev-team
+    info: Portable Extensible Toolkit for Scientific Computation
+
+  - repo: isochron
+    group: deepin-sysdev-team
+    info: A real-time application for testing Time Sensitive Networking equipment.
+
+  - repo: ktx
+    group: deepin-sysdev-team
+    info: A popular QuakeWorld server modification, adding numerous features to the core features of the server.
+
+  - repo: mctc-lib
+    group: deepin-sysdev-team
+    info: A modular computation tool chain library (development files)
+
+  - repo: distance
+    group: deepin-sysdev-team
+    info: A Python library for comparing sequences
+
+  - repo: libtpms
+    group: deepin-sysdev-team
+    info: A library that provides TPM functionality
+
+  - repo: java-sip-api
+    group: deepin-sysdev-team
+    info: SIP API for Java
+
+  - repo: libsis-base-java
+    group: deepin-sysdev-team
+    info: Base libraries used by software from the SIS division at ETH Zurich
+
+  - repo: libsis-jhdf5-java
+    group: deepin-sysdev-team
+    info: easy-to-use HDF library for Java
+
+  - repo: sitemesh 
+    group: deepin-sysdev-team
+    info: web-page layout and decoration framework
 

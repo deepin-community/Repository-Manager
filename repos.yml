@@ -942,3 +942,7 @@ repos:
     group: deepin-sysdev-team
     info: the Tuffy Truetype Font Family
 
+  - repo: rust-peeking-take-while
+    group: deepin-sysdev-team
+    info: It peeking_take_while peeks at the next item in the iterator and runs the predicate on that peeked item.
+

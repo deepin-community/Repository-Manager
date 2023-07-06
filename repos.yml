@@ -1205,11 +1205,7 @@ repos:
   - repo: fonts-beteckna
     group: deepin-sysdev-team
     info: geometric Futura-like sans-serif TrueType font
-    
-  - repo: rust-humantime
-    group: deepin-sysdev-team
-    info: Parser and formatter for std::time::{Duration, SystemTime}
-   
+     
   - repo: fort-validator
     group: deepin-sysdev-team
     info: FORT validator performs the validation of the RPKI repository and serves the ROAs to the routers.

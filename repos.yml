@@ -1166,3 +1166,19 @@ repos:
     group: deepin-sysdev-team
     info: program for typesetting sheet music
     
+  - repo: fonts-linex
+    group: deepin-sysdev-team
+    info: Fonts-linex provides fonts suitable for education and institutional use.
+
+  - repo: fonts-ecolier-court
+    group: deepin-sysdev-team
+    info: Fonts-ecolier-court provides a cursive font covering the basic latin range with a ink and dip pen style.
+
+  - repo: fonts-femkeklaver
+    group: deepin-sysdev-team
+    info: Fonts-femkeklaver is a simple handwriting font with strong repeated tracing.
+
+  - repo: fonts-mplus
+    group: deepin-sysdev-team
+    info: Fonts-mplus is a collection of sans serif fonts with different weights, including Japanese glyphs.
+

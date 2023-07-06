@@ -1058,3 +1058,6 @@ repos:
     group: deepin-sysdev-team
     info: It is a library for parsing, compiling, and executing regular expressions.
 
+  - repo: petsc
+    group: deepin-sysdev-team
+    info: Portable Extensible Toolkit for Scientific Computation

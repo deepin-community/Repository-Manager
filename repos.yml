@@ -1130,3 +1130,27 @@ repos:
     group: deepin-sysdev-team
     info: simple and lightweight SOAP Library (Python 3)
 
+  - repo: rust-smawk
+    group: deepin-sysdev-team
+    info: Functions for finding row-minima in a totally monotone matrix.
+
+  - repo: rust-fnv
+    group: deepin-sysdev-team
+    info: Fowler–Noll–Vo hash function.
+
+  - repo: rust-getrandom
+    group: deepin-sysdev-team
+    info: Retrieve random data from system source.
+
+  - repo: rust-hex
+    group: deepin-sysdev-team
+    info: Encoding and decoding data into/from hexadecimal representation.
+
+  - repo: rust-seahash
+    group: deepin-sysdev-team
+    info: Blazingly fast, portable hash function with proven statistical guarantees.
+
+  - repo: rust-serde-json
+    group: deepin-sysdev-team
+    info: JSON serialization file format.
+

@@ -1202,3 +1202,11 @@ repos:
     group: deepin-sysdev-team
     info: This is a typeface specially designed for user interfaces with focus on high legibility of small-to-medium sized text on computer screens.
 
+  - repo: fonts-beteckna
+    group: deepin-sysdev-team
+    info: geometric Futura-like sans-serif TrueType font
+    
+  - repo: rust-humantime
+    group: deepin-sysdev-team
+    info: Parser and formatter for std::time::{Duration, SystemTime}
+   

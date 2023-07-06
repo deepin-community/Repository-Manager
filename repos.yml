@@ -1158,3 +1158,7 @@ repos:
     group: deepin-sysdev-team
     info: Free and Open Music Notation Editor
     
+  - repo: libkdegames
+    group: deepin-sysdev-team
+    info: Development files for the KDE games library.
+

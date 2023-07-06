@@ -1014,3 +1014,11 @@ repos:
     group: deepin-sysdev-team
     info: the source for the Rust void crate
     
+  - repo: rust-serde
+    group: deepin-sysdev-team
+    info: a framework for serializing and deserializing Rust data structures efficiently and generically.
+    
+  - repo: rust-arbitrary
+    group: deepin-sysdev-team
+    info: The Arbitrary crate lets you construct arbitrary instances of a type.
+    

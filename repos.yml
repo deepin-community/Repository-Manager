@@ -1082,3 +1082,7 @@ repos:
     group: deepin-sysdev-team
     info: Explicitly empty crate for rust-lang/rust integration
 
+  - repo: rust-atty
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust atty crate, packaged by debcargo for use with cargo and dh-cargo.
+

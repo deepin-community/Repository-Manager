@@ -1022,3 +1022,34 @@ repos:
     group: deepin-sysdev-team
     info: The Arbitrary crate lets you construct arbitrary instances of a type.
     
+  - repo: analog
+    group: deepin-sysdev-team
+    info: Analog is a fast log file processor that generates usage statistic reports for web servers.
+
+  - repo: kwrited
+    group: deepin-sysdev-team
+    info: Kwrited captures console output (e.g. broadcast messages) and prints it in a X window.
+
+  - repo: nfacct
+    group: deepin-sysdev-team
+    info: This is the command line tool to create/retrieve/delete netfilter accounting objects.
+
+  - repo: libnetfilter-acct
+    group: deepin-sysdev-team
+    info: libnetfilter_acct is a userspace library providing an interface to the extended netfilter accounting infrastructure.
+
+  - repo: fping
+    group: deepin-sysdev-team
+    info: sends ICMP ECHO_REQUEST packets to network hosts
+
+  - repo: termit
+    group: deepin-sysdev-team
+    info: Simple terminal emulator based on vte library, embedded Lua
+
+  - repo: aha
+    group: deepin-sysdev-team
+    info: ANSI color to HTML converter
+
+  - repo: pbzip2
+    group: deepin-sysdev-team
+    info: parallel bzip2 implementation

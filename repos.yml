@@ -1074,3 +1074,11 @@ repos:
     group: deepin-sysdev-team
     info: Command line interface Parsing library.
 
+  - repo: rust-compiler-builtins
+    group: deepin-sysdev-team
+    info: Compiler intrinsics used by the Rust compiler
+
+  - repo: rust-rustc-std-workspace-core
+    group: deepin-sysdev-team
+    info: Explicitly empty crate for rust-lang/rust integration
+

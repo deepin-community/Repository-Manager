@@ -1090,3 +1090,23 @@ repos:
     group: deepin-sysdev-team
     info: Portable Extensible Toolkit for Scientific Computation
 
+  - repo: isochron
+    group: deepin-sysdev-team
+    info: A real-time application for testing Time Sensitive Networking equipment.
+
+  - repo: ktx
+    group: deepin-sysdev-team
+    info: A popular QuakeWorld server modification, adding numerous features to the core features of the server.
+
+  - repo: mctc-lib
+    group: deepin-sysdev-team
+    info: A modular computation tool chain library (development files)
+
+  - repo: distance
+    group: deepin-sysdev-team
+    info: A Python library for comparing sequences
+
+  - repo: libtpms
+    group: deepin-sysdev-team
+    info: A library that provides TPM functionality
+

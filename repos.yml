@@ -1165,7 +1165,7 @@ repos:
   - repo: lilypond
     group: deepin-sysdev-team
     info: program for typesetting sheet music
-    
+
   - repo: fonts-linex
     group: deepin-sysdev-team
     info: Fonts-linex provides fonts suitable for education and institutional use.
@@ -1181,4 +1181,24 @@ repos:
   - repo: fonts-mplus
     group: deepin-sysdev-team
     info: Fonts-mplus is a collection of sans serif fonts with different weights, including Japanese glyphs.
+
+  - repo: fonts-wqy-microhei
+    group: deepin-sysdev-team
+    info: WenQuanYi Micro Hei font family is a sans-serif style (also known as Hei, Gothic or Dotum among the Chinese/Japanese/Korean users) high quality CJK outline font.
+
+  - repo: fonts-gfs-bodoni-classic
+    group: deepin-sysdev-team
+    info: Giambattista Bodoni was the most prolific Italian typecutter of the 18th century.
+
+  - repo: fonts-gfs-theokritos
+    group: deepin-sysdev-team
+    info: In the late 50's Yannis Kefallinos (1894-1958) designed and published an exquisite book with engraved illustrations of the ancient white funerary pottery in Attica in collaboration with Varlamos, Montesanto, Damianakis.
+
+  - repo: fonts-sil-andika
+    group: deepin-sysdev-team
+    info: Andika is a sans serif, Unicode-compliant font designed especially for literacy use, taking into account the needs of beginning readers.
+
+  - repo: fonts-inter
+    group: deepin-sysdev-team
+    info: This is a typeface specially designed for user interfaces with focus on high legibility of small-to-medium sized text on computer screens.
 

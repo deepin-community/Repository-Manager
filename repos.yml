@@ -1154,3 +1154,7 @@ repos:
     group: deepin-sysdev-team
     info: JSON serialization file format.
 
+  - repo: denemo
+    group: deepin-sysdev-team
+    info: Free and Open Music Notation Editor
+    

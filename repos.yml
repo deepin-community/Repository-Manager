@@ -1126,3 +1126,7 @@ repos:
     group: deepin-sysdev-team
     info: web-page layout and decoration framework
 
+  - repo: pysimplesoap
+    group: deepin-sysdev-team
+    info: simple and lightweight SOAP Library (Python 3)
+

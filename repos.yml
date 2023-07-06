@@ -1110,3 +1110,19 @@ repos:
     group: deepin-sysdev-team
     info: A library that provides TPM functionality
 
+  - repo: java-sip-api
+    group: deepin-sysdev-team
+    info: SIP API for Java
+
+  - repo: libsis-base-java
+    group: deepin-sysdev-team
+    info: Base libraries used by software from the SIS division at ETH Zurich
+
+  - repo: libsis-jhdf5-java
+    group: deepin-sysdev-team
+    info: easy-to-use HDF library for Java
+
+  - repo: sitemesh 
+    group: deepin-sysdev-team
+    info: web-page layout and decoration framework
+

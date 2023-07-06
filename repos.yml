@@ -1058,6 +1058,35 @@ repos:
     group: deepin-sysdev-team
     info: It is a library for parsing, compiling, and executing regular expressions.
 
+  - repo: hexchat
+    group: deepin-sysdev-team
+    info: IRC client for X based on X-Chat 2.
+
+  - repo: xcvt
+    group: deepin-sysdev-team
+    info: library for SSA/ASS subtitles rendering.
+
+  - repo: xserver-xorg
+    group: deepin-sysdev-team
+    info: Xorg X server - core server: This package is built from the X.org xserver module.
+
+  - repo: libss
+    group: deepin-sysdev-team
+    info: Command line interface Parsing library.
+
+  - repo: rust-compiler-builtins
+    group: deepin-sysdev-team
+    info: Compiler intrinsics used by the Rust compiler
+
+  - repo: rust-rustc-std-workspace-core
+    group: deepin-sysdev-team
+    info: Explicitly empty crate for rust-lang/rust integration
+
+  - repo: rust-atty
+    group: deepin-sysdev-team
+    info: This package contains the source for the Rust atty crate, packaged by debcargo for use with cargo and dh-cargo.
+
   - repo: petsc
     group: deepin-sysdev-team
     info: Portable Extensible Toolkit for Scientific Computation
+

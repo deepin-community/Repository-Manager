@@ -1222,3 +1222,7 @@ repos:
     group: deepin-sysdev-team
     info: Kconfiglib is a Kconfig implementation in Python.
 
+  - repo: fonts-hack
+    group: deepin-sysdev-team
+    info: Hack is designed to be a workhorse typeface for source code.
+

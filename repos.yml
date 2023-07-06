@@ -978,7 +978,6 @@ repos:
     group: deepin-sysdev-team
     info: Friso is an open source high performance Chinese word splitter.
 
-<<<<<<< HEAD
   - repo: rust-dtoa
     group: deepin-sysdev-team
     info: the source for the Rust dtoa crate

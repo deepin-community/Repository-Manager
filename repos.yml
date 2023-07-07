@@ -1270,3 +1270,7 @@ repos:
     group: deepin-sysdev-team
     info: JSON serialization file format.
 
+  - repo: odt2txt
+    group: deepin-sysdev-team
+    info: It is a command-line tool which extracts the text out of OpenDocument Texts, as produced by OpenOffice.org, KOffice, StarOffice and others.
+

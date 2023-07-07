@@ -1150,10 +1150,6 @@ repos:
     group: deepin-sysdev-team
     info: Blazingly fast, portable hash function with proven statistical guarantees.
 
-  - repo: rust-serde-json
-    group: deepin-sysdev-team
-    info: JSON serialization file format.
-
   - repo: denemo
     group: deepin-sysdev-team
     info: Free and Open Music Notation Editor
@@ -1269,4 +1265,8 @@ repos:
   - repo: libpillowfight 
     group: deepin-sysdev-team
     info: Python 3 bindings for libpillowfight
+
+  - repo: rust-serde-json
+    group: deepin-sysdev-team
+    info: JSON serialization file format.
 

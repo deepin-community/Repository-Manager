@@ -1369,3 +1369,16 @@ repos:
   - repo: rust-no-panic
     group: deepin-sysdev-team
     info: Attribute macro to require a function can't ever panic
+
+  - repo: wrk
+    group: deepin-sysdev-team
+    info: HTTP benchmarking tool
+
+  - repo: motif
+    group: deepin-sysdev-team
+    info: Motif - development files
+
+  - repo: xball
+    group: deepin-sysdev-team
+    info: Simulate bouncing balls in a window
+

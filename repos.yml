@@ -1226,3 +1226,7 @@ repos:
     group: deepin-sysdev-team
     info: Hack is designed to be a workhorse typeface for source code.
 
+  - repo: boolstuff
+    group: deepin-sysdev-team
+    info: It is a C++ library that supports a few operations on boolean expression binary trees.
+

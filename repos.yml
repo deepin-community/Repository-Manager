@@ -1230,3 +1230,23 @@ repos:
     group: deepin-sysdev-team
     info: It is a C++ library that supports a few operations on boolean expression binary trees.
 
+  - repo: erfs
+    group: deepin-sysdev-team
+    info: An easy-to-use, easy-to-setup, hassle-free secure file system with the encrypted data being stored on a remote cloud server without having to trust the server. 
+
+  - repo: gamgi
+    group: deepin-sysdev-team
+    info: GAMGI is a graphical interface tool used to establish, view, and analyze atomic structures. 
+
+  - repo: gliese
+    group: deepin-sysdev-team
+    info: stellar data set from the Third Catalogue of Nearby Stars.
+
+  - repo: netdata
+    group: deepin-sysdev-team
+    info: real-time performance monitoring (metapackage).
+
+  - repo: socket
+    group: deepin-sysdev-team
+    info: The socket program is a simple tool for socket based connections. It can be used to create simple daemons (in both standalone and inetd mode), to connect to other daemons or to redirect ports.
+

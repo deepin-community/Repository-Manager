@@ -1382,3 +1382,15 @@ repos:
     group: deepin-sysdev-team
     info: Simulate bouncing balls in a window
 
+  - repo: libspnav
+    group: deepin-sysdev-team
+    info: provides alternative to the proprietary 3Dconnexion SDK for their 3D input devices
+
+  - repo: log4cplus
+    group: deepin-sysdev-team
+    info: C++ logging API providing control over log management and configuration.
+
+  - repo: imath
+    group: deepin-sysdev-team
+    info: C++ representation of 2D and 3D vectors and matrices and other objects
+

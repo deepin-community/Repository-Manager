@@ -1274,3 +1274,15 @@ repos:
     group: deepin-sysdev-team
     info: It is a command-line tool which extracts the text out of OpenDocument Texts, as produced by OpenOffice.org, KOffice, StarOffice and others.
 
+  - repo: rust-regex
+    group: deepin-sysdev-team
+    info: Regular expressions for Rust.
+
+  - repo: rust-fxhash
+    group: deepin-sysdev-team
+    info: RFast, non-secure, hashing algorithm.
+
+  - repo: rust-byteorder
+    group: deepin-sysdev-team
+    info: Reading/writing numbers in big-endian and little-endian.
+

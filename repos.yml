@@ -1366,3 +1366,6 @@ repos:
     group: deepin-sysdev-team
     info: Modern and colorful command line resource monitor that shows usage and stats
 
+  - repo: rust-no-panic
+    group: deepin-sysdev-team
+    info: Attribute macro to require a function can't ever panic

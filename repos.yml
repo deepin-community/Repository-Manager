@@ -1341,3 +1341,20 @@ repos:
   - repo: exif
     group: deepin-sysdev-team
     info: command-line utility to show EXIF information in JPEG files
+
+  - repo: opensubdiv
+    group: deepin-sysdev-team
+    info: open source libraries that implement high performance subdivision surface (subdiv) evaluation
+
+  - repo: libspnav
+    group: deepin-sysdev-team
+    info: free, compatible alternative to the proprietary 3Dconnexion SDK for their 3D input devices
+
+  - repo: log4cplus
+    group: deepin-sysdev-team
+    info: C++ logging API providing thread-safe, flexible, and arbitrarily granular control over log management and configuration
+
+  - repo: imath
+    group: deepin-sysdev-team
+    info: C++ representation of 2D and 3D vectors and matrices and other simple but usefulmathematical objects
+

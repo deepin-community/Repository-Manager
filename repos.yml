@@ -1306,3 +1306,15 @@ repos:
     group: deepin-sysdev-team
     info: Reads and parses Linux device tree images
     
+  - repo: mate-submodules
+    group: deepin-sysdev-team
+    info: MATE code components provided as Git submodule repository
+
+  - repo: gla11y
+    group: deepin-sysdev-team
+    info: Automatic check of accessibility of .ui files
+
+  - repo: pluma
+    group: deepin-sysdev-team
+    info: official text editor of the MATE desktop environment
+

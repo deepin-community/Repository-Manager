@@ -1318,3 +1318,26 @@ repos:
     group: deepin-sysdev-team
     info: official text editor of the MATE desktop environment
 
+  - repo: atop
+    group: deepin-sysdev-team
+    info: Monitor for system resources and process activity
+
+  - repo: meld
+    group: deepin-sysdev-team
+    info: graphical tool to diff and merge files
+
+  - repo: xdelta3
+    group: deepin-sysdev-team
+    info: Diff utility which works with binary files
+
+  - repo: pixz
+    group: deepin-sysdev-team
+    info: parallel, indexing XZ compressor/decompressor
+
+  - repo: cppcheck
+    group: deepin-sysdev-team
+    info: tool for static C/C++ code analysis (CLI)
+
+  - repo: exif
+    group: deepin-sysdev-team
+    info: command-line utility to show EXIF information in JPEG files

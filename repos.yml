@@ -1358,3 +1358,23 @@ repos:
     group: deepin-sysdev-team
     info: C++ representation of 2D and 3D vectors and matrices and other simple but usefulmathematical objects
 
+  - repo: babeld
+    group: deepin-sysdev-team
+    info: loop-free distance-vector routing protocol
+
+  - repo: bird2
+    group: deepin-sysdev-team
+    info: Internet routing daemon with full support for all the major routing protocols
+
+  - repo: bird
+    group: deepin-sysdev-team
+    info: Internet routing daemon with full support for all the major routing protocols
+
+  - repo: base16384
+    group: deepin-sysdev-team
+    info: Encode binary files to printable utf16be
+
+  - repo: btop
+    group: deepin-sysdev-team
+    info: Modern and colorful command line resource monitor that shows usage and stats
+

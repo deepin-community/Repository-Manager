@@ -1394,3 +1394,23 @@ repos:
     group: deepin-sysdev-team
     info: C++ representation of 2D and 3D vectors and matrices and other objects
 
+  - repo: fonts-arundina
+    group: deepin-sysdev-team
+    info: Thai DejaVu-compatible fonts
+
+  - repo: fonts-mlym
+    group: deepin-sysdev-team
+    info: Meta package to install all Malayalam fonts
+
+  - repo: fonts-uralic
+    group: deepin-sysdev-team
+    info: Truetype fonts for Cyrillic-based Uralic languages
+
+  - repo: fonts-arphic-ukai
+    group: deepin-sysdev-team
+    info: AR PL UKai Chinese Unicode TrueType font collection Kaiti style
+
+  - repo: fonts-material-design-icons-iconfont
+    group: deepin-sysdev-team
+    info: Material Design Icons DX
+

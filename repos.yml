@@ -1502,3 +1502,23 @@ repos:
     group: deepin-sysdev-team
     info: This library provides routines for packing and unpacking nv pairs for transporting data across process boundaries, transporting between kernel and userland, and possibly saving onto disk files.
 
+  - repo: kpcli
+    group: deepin-sysdev-team
+    info: command line interface to KeePassX password manager databases
+
+  - repo: libsort-naturally-perl
+    group: deepin-sysdev-team
+    info: Sort naturally - sort lexically except for numerical parts
+
+  - repo: libterm-shellui-perl
+    group: deepin-sysdev-team
+    info: Perl module for fully-featured shell-like command line environment
+
+  - repo: libfile-keepass-perl
+    group: deepin-sysdev-team
+    info: interface to KeePass V1 and V2 database files
+
+  - repo: libterm-readline-gnu-perl
+    group: deepin-sysdev-team
+    info: Perl extension for the GNU ReadLine/History Library
+

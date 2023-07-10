@@ -1482,3 +1482,19 @@ repos:
     group: deepin-sysdev-team
     info: Attribute macro to require a function can't ever panic.
 
+  - repo: fonts-sil-annapurna
+    group: deepin-sysdev-team
+    info: smart font for languages using Devanagari script
+
+  - repo: fonts-alee
+    group: deepin-sysdev-team
+    info: free Hangul TrueType fonts
+
+  - repo: fonts-dzongkha
+    group: deepin-sysdev-team
+    info: TrueType fonts for Dzongkha language
+
+  - repo: fonts-bpg-georgian
+    group: deepin-sysdev-team
+    info: BPG Georgian fonts
+

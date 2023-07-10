@@ -1438,3 +1438,7 @@ repos:
     group: deepin-sysdev-team
     info: It is a process for converting text (strings) into data structures.
 
+  - repo: debiandoc-sgml
+    group: deepin-sysdev-team
+    info: DebianDoc SGML DTD and formatting tools
+

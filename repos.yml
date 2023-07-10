@@ -1522,3 +1522,7 @@ repos:
     group: deepin-sysdev-team
     info: Perl extension for the GNU ReadLine/History Library
 
+  - repo: libnetfilter-acct
+    group: deepin-sysdev-team
+    info: a userspace library providing an interface to the extended netfilter accounting infrastructure.
+

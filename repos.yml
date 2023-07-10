@@ -1414,3 +1414,23 @@ repos:
     group: deepin-sysdev-team
     info: Material Design Icons DX
 
+  - repo: ipp-usb
+    group: deepin-sysdev-team
+    info: ipp-usb is a userland driver for USB devices supporting the IPP over USB protocol.
+
+  - repo: evilwm
+    group: deepin-sysdev-team
+    info: evilwm is based on aewm by Decklin Foster.
+
+  - repo: python-arrow
+    group: deepin-sysdev-team
+    info: python-arrow is a Python3 library to manipulate dates, times, and timestamps
+
+  - repo: python-exif
+    group: deepin-sysdev-team
+    info: python-exif is a Python library to extract Exif information from digital camera image files.
+
+  - repo: python-pefile
+    group: deepin-sysdev-team
+    info: pefile is a Python module to read and work with Portable Executable (PE) files.
+

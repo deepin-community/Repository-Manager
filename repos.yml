@@ -1526,3 +1526,6 @@ repos:
     group: deepin-sysdev-team
     info: a userspace library providing an interface to the extended netfilter accounting infrastructure.
 
+  - repo: wlroots-git
+    group: deepin-sysdev-team
+    info: A modular Wayland compositor library. git version.

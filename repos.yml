@@ -1534,3 +1534,23 @@ repos:
     group: deepin-sysdev-team
     info: This is an interface to the GNU Compiler Collection for the collection and analysis of compiler-generated binaries.
 
+  - repo: python-termcolor
+    group: deepin-sysdev-team
+    info: The termcolor Python module provides ANSII Color formatting for output in terminal.
+
+  - repo: geographiclib
+    group: deepin-sysdev-team
+    info: Geographiclib is a C++ library to solve some geodesic problems
+
+  - repo: python-prov
+    group: deepin-sysdev-team
+    info: python-prov is a library for W3C Provenance Data Model supporting PROV-JSON and PROV-XML import/export.
+
+  - repo: python-geojson
+    group: deepin-sysdev-team
+    info: python-geojson contains Python 3 bindings and utilities for GeoJSON
+
+  - repo: python-gmpy2
+    group: deepin-sysdev-team
+    info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
+

@@ -1434,3 +1434,7 @@ repos:
     group: deepin-sysdev-team
     info: pefile is a Python module to read and work with Portable Executable (PE) files.
 
+  - repo: parser
+    group: deepin-sysdev-team
+    info: It is a process for converting text (strings) into data structures.
+

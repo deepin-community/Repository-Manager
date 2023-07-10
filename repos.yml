@@ -1498,3 +1498,7 @@ repos:
     group: deepin-sysdev-team
     info: BPG Georgian fonts
 
+  - repo: zfs-linux
+    group: deepin-sysdev-team
+    info: This library provides routines for packing and unpacking nv pairs for transporting data across process boundaries, transporting between kernel and userland, and possibly saving onto disk files.
+

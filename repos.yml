@@ -1529,3 +1529,8 @@ repos:
   - repo: wlroots-git
     group: deepin-sysdev-team
     info: A modular Wayland compositor library. git version.
+
+  - repo: libabigail
+    group: deepin-sysdev-team
+    info: This is an interface to the GNU Compiler Collection for the collection and analysis of compiler-generated binaries.
+

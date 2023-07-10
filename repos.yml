@@ -1554,3 +1554,19 @@ repos:
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
 
+  - repo: golang-github-go-macaron-toolbox
+    group: deepin-sysdev-team
+    info: Rhealth check, pprof, profile and statistic services for Macaro
+
+  - repo: golang-github-unknwon-com
+    group: deepin-sysdev-team
+    info: commonly used functions for Golang
+
+  - repo: golang-gopkg-macaron-macaron
+    group: deepin-sysdev-team
+    info: modular web framework in Go
+
+  - repo: golang-github-go-macaron-inject
+    group: deepin-sysdev-team
+    info: utilities for mapping and injecting dependencies
+

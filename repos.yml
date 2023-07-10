@@ -1617,3 +1617,12 @@ repos:
   - repo: arp-scan
     group: deepin-sysdev-team
     info: arp scanning and fingerprinting tool
+
+  - repo: jq
+    group: deepin-sysdev-team
+    info: lightweight and flexible command-line JSON processor.
+
+  - repo: mc
+    group: deepin-sysdev-team
+    info: Midnight Commander - a powerful file manager.
+

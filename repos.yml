@@ -1473,3 +1473,12 @@ repos:
   - repo: arp-scan
     group: deepin-sysdev-team
     info: arp scanning and fingerprinting tool
+
+  - repo: rust-hashbrown
+    group: deepin-sysdev-team
+    info: Rust port of Google's SwissTable hash map.
+
+  - repo: rust-once-cell
+    group: deepin-sysdev-team
+    info: Attribute macro to require a function can't ever panic.
+

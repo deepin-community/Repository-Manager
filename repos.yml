@@ -1442,3 +1442,34 @@ repos:
     group: deepin-sysdev-team
     info: DebianDoc SGML DTD and formatting tools
 
+  - repo: zutty
+    group: deepin-sysdev-team
+    info: Efficient full-featured X11 terminal emulator
+
+  - repo: arping
+    group: deepin-sysdev-team
+    info: sends IP and/or ARP pings (to the MAC address)
+
+  - repo: speedtest-cli
+    group: deepin-sysdev-team
+    info: Command line interface for testing internet bandwidth using speedtest.net
+
+  - repo: plocate
+    group: deepin-sysdev-team
+    info: much faster locate
+
+  - repo: plzip
+    group: deepin-sysdev-team
+    info: parallel, lossless data compressor based on the LZMA algorithm
+
+  - repo: ncftp
+    group: deepin-sysdev-team
+    info: User-friendly and well-featured FTP client
+
+  - repo: memtester
+    group: deepin-sysdev-team
+    info: Utility for testing the memory subsystem
+
+  - repo: arp-scan
+    group: deepin-sysdev-team
+    info: arp scanning and fingerprinting tool

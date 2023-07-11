@@ -1010,6 +1010,10 @@ repos:
     maintainer: 8MiYile
     info: OBS Studio - Free and open source software for live streaming and screen recording
 
+  - repo: odc
+    maintainer: deepin-sysdev-team
+    info: Tools for the Observational Data Processing (ODB)
+
   - repo: odt2txt
     group: deepin-sysdev-team
     info: It is a command-line tool which extracts the text out of OpenDocument Texts,

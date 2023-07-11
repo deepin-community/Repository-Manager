@@ -1081,6 +1081,10 @@ repos:
     group: deepin-sysdev-team
     info: Simple, correct PEP517 package builder (Python 3)
 
+  - repo: python-characteristic
+    group: deepin-sysdev-team
+    info: characteristic is Python package with class decorators that ease the chores of implementing the most common attribute-related object protocols.
+
   - repo: python-exif
     group: deepin-sysdev-team
     info: python-exif is a Python library to extract Exif information from digital camera
@@ -1094,9 +1098,25 @@ repos:
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
 
+  - repo: python-mailer
+    group: deepin-sysdev-team
+    info: mailer is a Python module that simplifies sending email (Python 3)
+
+  - repo: python-meld3
+    group: deepin-sysdev-team
+    info: meld3 is an HTML/XML templating system for Python 2.3+
+
+  - repo: python-netaddr
+    group: deepin-sysdev-team
+    info: netaddr is a Python library for the manipulation of various common network address notations and representations.
+
   - repo: python-pefile
     group: deepin-sysdev-team
     info: pefile is a Python module to read and work with Portable Executable (PE) files.
+
+  - repo: python-progressbar
+    group: deepin-sysdev-team
+    info: progressbar is a text progress bar library for Python (Python 3)
 
   - repo: python-prov
     group: deepin-sysdev-team

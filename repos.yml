@@ -1574,3 +1574,47 @@ repos:
     group: deepin-sysdev-team
     info: GNOME library to manage keyboard configuration
 
+  - repo: rust-itoa
+    group: deepin-sysdev-team
+    info: Fast functions printing integer primitives to io::Write.s
+
+  - repo: rust-once-cell
+    group: deepin-sysdev-team
+    info: Attribute macro to require a function can't ever panic.
+
+  - repo: rust-erased-serde
+    group: deepin-sysdev-team
+    info: Type-erased Serialize and Serializer traits.
+
+  - repo: rust-serde-fmt
+    group: deepin-sysdev-team
+    info: write any serde::Serialize using standard formatting APIs.
+
+  - repo: rust-ctor
+    group: deepin-sysdev-team
+    info: __attribute__((constructor)) for Rust.
+
+  - repo: rust-value-bag
+    group: deepin-sysdev-team
+    info: Anonymous structured values.
+
+  - repo: rust-sval-derive
+    group: deepin-sysdev-team
+    info: Custom derive for sval.
+
+  - repo: rust-sval
+    group: deepin-sysdev-team
+    info: This metapackage enables feature "sval_derive" for the Rust sval crate.
+
+  - repo: rust-ppv-lite86
+    group: deepin-sysdev-team
+    info: crypto-simd API for x86.
+
+  - repo: rust-rand-core
+    group: deepin-sysdev-team
+    info: Core random number generator traits and tools.
+
+  - repo: rust-rand-chacha
+    group: deepin-sysdev-team
+    info: ChaCha random number generator.
+

@@ -1225,6 +1225,10 @@ repos:
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization
 
+  - repo: rdesktop
+    group: deepin-sysdev-team
+    info: rdesktop is an open source client for Windows NT/2000 Terminal Server and Windows Server 2003/2008. 
+
   - repo: realmd
     group: deepin-sysdev-team
     info: a D-Bus system service that manages discovery and enrollment in realms/domains

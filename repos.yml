@@ -267,6 +267,10 @@ repos:
     group: deepin-sysdev-team
     info: simple way to put Python packages and modules on PyPI (PEP 517)
 
+  - repo: fonts-agave
+    group: deepin-sysdev-team
+    info: agave is a fixed-width outline typeface, designed and produced by type agaric.
+
   - repo: fonts-alee
     group: deepin-sysdev-team
     info: free Hangul TrueType fonts
@@ -335,6 +339,14 @@ repos:
     group: deepin-sysdev-team
     info: This is a typeface specially designed for user interfaces with focus on high
       legibility of small-to-medium sized text on computer screens.
+
+  - repo: fonts-jura
+    group: deepin-sysdev-team
+    info: Jura Font Project by Daniel Johnson.
+
+  - repo: fonts-lemonada
+    group: deepin-sysdev-team
+    info: Lemonada is a modern Arabic and Latin typeface family.
 
   - repo: fonts-linex
     group: deepin-sysdev-team

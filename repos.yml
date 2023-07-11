@@ -454,6 +454,10 @@ repos:
     group: deepin-sysdev-team
     info: GNUstep Base library - common files
 
+  - repo: gnutls28
+    group: deepin-sysdev-team
+    info: GNU TLS library - main runtime library
+
   - repo: golang-1.15
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage
@@ -706,6 +710,10 @@ repos:
   - repo: libfilesys-notify-simple-perl
     group: deepin-sysdev-team
     info: simple file system monitor
+
+  - repo: libgcrypt20
+    group: deepin-sysdev-team
+    info: 遵循 LGPL 的加密库 - 运行库
 
   - repo: libgnomekbd
     group: deepin-sysdev-team
@@ -1741,6 +1749,10 @@ repos:
   - repo: webkit2gtk
     group: deepin-sysdev-team
     info: Web content engine library for GTK.
+
+  - repo: weechat
+    group: deepin-sysdev-team
+    info: Fast, light and extensible chat client (metapackage)
 
   - repo: wipe
     group: deepin-sysdev-team

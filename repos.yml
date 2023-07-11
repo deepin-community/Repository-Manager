@@ -108,6 +108,10 @@ repos:
     group: deepin-sysdev-team
     info: generate block-diagram image file from spec-text file
 
+  - repo: blop
+    group: deepin-sysdev-team
+    info: Bandlimited wavetable-based oscillator plugins for LADSPA hosts
+
   - repo: boolstuff
     group: deepin-sysdev-team
     info: It is a C++ library that supports a few operations on boolean expression binary
@@ -116,6 +120,10 @@ repos:
   - repo: bpython
     group: deepin-sysdev-team
     info: fancy interface to the Python 3 interpreter
+
+  - repo: braa
+    group: deepin-sysdev-team
+    info: Braa is a mass snmp scanner.
 
   - repo: brise
     group: deepin-sysdev-team
@@ -143,6 +151,10 @@ repos:
     group: deepin-sysdev-team
     info: chromium 网页浏览器
 
+  - repo: colortest
+    group: deepin-sysdev-team
+    info: utilities to test color capabilities of terminal
+
   - repo: corkscrew
     group: deepin-sysdev-team
     info: corkscrew is a simple tool for tunneling SSH through HTTP proxies
@@ -154,6 +166,10 @@ repos:
   - repo: db-defaults
     group: deepin-sysdev-team
     info: Berkeley Database Utilities
+
+  - repo: ddate
+    group: deepin-sysdev-team
+    info: convert Gregorian dates to Discordian dates
 
   - repo: debiandoc-sgml
     group: deepin-sysdev-team
@@ -266,6 +282,10 @@ repos:
   - repo: fonts-bpg-georgian
     group: deepin-sysdev-team
     info: BPG Georgian fonts
+
+  - repo: fonts-cabinsketch
+    group: deepin-sysdev-team
+    info: Fonts-cabinsketch is a playful sister of the Cabin font family.
 
   - repo: fonts-cascadia-code
     group: deepin-sysdev-team
@@ -978,6 +998,10 @@ repos:
     group: deepin-sysdev-team
     info: real-time performance monitoring (metapackage).
 
+  - repo: netmask
+    group: deepin-sysdev-team
+    info: helps determine network masks
+
   - repo: nexttrace
     group: deepin-sysdev-team
     info: An open source visual routing tool that pursues light weight, developed using
@@ -1059,6 +1083,10 @@ repos:
   - repo: petsc
     group: deepin-sysdev-team
     info: Portable Extensible Toolkit for Scientific Computation
+
+  - repo: pgpgpg
+    group: deepin-sysdev-team
+    info: Pgpgpg is a wrapper around GNU Privacy Guard which takes PGP 2.6 command line options, translate them and then call GnuPG to perform the desired action.
 
   - repo: pixz
     group: deepin-sysdev-team
@@ -1201,6 +1229,10 @@ repos:
   - repo: responses
     group: deepin-sysdev-team
     info: Utility library for mocking out the requests Python 3 library
+
+  - repo: ripit
+    group: deepin-sysdev-team
+    info: Ripit is a textbased audio CD ripper.
 
   - repo: ristretto
     group: deepin-sysdev-team

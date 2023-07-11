@@ -482,6 +482,14 @@ repos:
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage
 
+  - repo: golang-github-akamensky-argparse
+    group: deepin-sysdev-team
+    info: Argparse for golang.
+
+  - repo: golang-github-fatih-color
+    group: deepin-sysdev-team
+    info: Color package for Go (golang)
+
   - repo: golang-github-go-macaron-inject
     group: deepin-sysdev-team
     info: utilities for mapping and injecting dependencies
@@ -489,6 +497,14 @@ repos:
   - repo: golang-github-go-macaron-toolbox
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
+
+  - repo: golang-github-google-gopacket
+    group: deepin-sysdev-team
+    info: This library provides packet processing capabilities for Go
+
+  - repo: golang-github-gorilla-websocket
+    group: deepin-sysdev-team
+    info: A fast, well-tested and widely used WebSocket implementation for Go.
 
   - repo: golang-github-josharian-native
     group: deepin-sysdev-team
@@ -506,6 +522,26 @@ repos:
     group: deepin-sysdev-team
     info: golang-github-openprinting-goipp is an IPP core protocol in pure Go Library
       (RFC 8010).
+
+  - repo: golang-github-oschwald-maxminddb-golang
+    group: deepin-sysdev-team
+    info: This library provides a reader for the MaxMind DB file format.
+
+  - repo: golang-github-pelletier-go-buffruneio
+    group: deepin-sysdev-team
+    info: This library provides rune-based buffered input.
+
+  - repo: golang-github-rodaine-table
+    group: deepin-sysdev-team
+    info: Go CLI Table Generator
+
+  - repo: golang-github-spf13-viper
+    group: deepin-sysdev-team
+    info: Go configuration with fangs
+
+  - repo: golang-github-tidwall-gjson
+    group: deepin-sysdev-team
+    info: JSON parser for Go
 
   - repo: golang-github-unknwon-com
     group: deepin-sysdev-team

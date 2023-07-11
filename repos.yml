@@ -615,6 +615,10 @@ repos:
     group: deepin-sysdev-team
     info: This package builds kpartloader and kuiviewer.
 
+  - repo: kdeedu-data
+    group: deepin-sysdev-team
+    info: KVTML files for KDE-Edu programs
+
   - repo: kpat
     group: deepin-pkg
     info: solitaire card games

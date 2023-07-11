@@ -543,6 +543,10 @@ repos:
     group: deepin-sysdev-team
     info: displays bandwidth usage information on an network interface
 
+  - repo: imagemagick
+    group: deepin-sysdev-team
+    info: image manipulation programs
+
   - repo: imath
     group: deepin-sysdev-team
     info: C++ representation of 2D and 3D vectors and matrices and other objects

@@ -908,6 +908,10 @@ repos:
     info: RIST is a protocol for low-latency, high-quality, and secure streaming of
       audio and video
 
+  - repo: librsvg
+    group: deepin-sysdev-team
+    info: SAX-based renderer library for SVG files
+
   - repo: libsis-base-java
     group: deepin-sysdev-team
     info: Base libraries used by software from the SIS division at ETH Zurich

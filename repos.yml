@@ -68,6 +68,10 @@ repos:
     group: deepin-sysdev-team
     info: Scripts for installing Arch Linux
 
+  - repo: argyll
+    group: deepin-sysdev-team
+    info: Color Management System, calibrator and profiler
+
   - repo: arp-scan
     group: deepin-sysdev-team
     info: arp scanning and fingerprinting tool
@@ -598,6 +602,10 @@ repos:
   - repo: isochron
     group: deepin-sysdev-team
     info: A real-time application for testing Time Sensitive Networking equipment.
+
+  - repo: jam
+    group: deepin-sysdev-team
+    info: Software-build tool, replacement for make
 
   - repo: java-sip-api
     group: deepin-sysdev-team

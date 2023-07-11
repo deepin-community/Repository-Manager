@@ -463,8 +463,8 @@ repos:
   - repo: mathjax
     group: deepin-sysdev-team
     info: MathJax was designed with the goal of consolidating the recent advances in web
-    technologies into a single, definitive, math-on-the-web platform supporting
-    the major browsers and operating systems.
+      technologies into a single, definitive, math-on-the-web platform supporting
+      the major browsers and operating systems.
 
   - repo: lua-lpeg
     group: deepin-sysdev-team
@@ -548,7 +548,7 @@ repos:
 
   - repo: libasa-perl
     group: deepin-sysdev-team
-    info: 'Perl module for expanding a class or object's list of base classes'
+    info: Perl module for expanding a class or object's list of base classes
 
   - repo: libstream-buffered-perl
     group: deepin-sysdev-team

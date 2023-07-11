@@ -1570,3 +1570,7 @@ repos:
     group: deepin-sysdev-team
     info: Material Design Icons DX
 
+  - repo: libgnomekbd
+    group: deepin-sysdev-team
+    info: GNOME library to manage keyboard configuration
+

@@ -1011,7 +1011,7 @@ repos:
     info: OBS Studio - Free and open source software for live streaming and screen recording
 
   - repo: odc
-    maintainer: deepin-sysdev-team
+    group: deepin-sysdev-team
     info: Tools for the Observational Data Processing (ODB)
 
   - repo: odt2txt

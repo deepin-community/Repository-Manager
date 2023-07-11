@@ -228,6 +228,10 @@ repos:
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds
 
+  - repo: dvdisaster
+    group: deepin-sysdev-team
+    info: data loss/scratch/aging protection for CD/DVD media
+
   - repo: edk2
     group: deepin-sysdev-team
     info: EDK II is a modern, feature-rich, cross-platform firmware development environment
@@ -454,6 +458,10 @@ repos:
     group: deepin-sysdev-team
     info: Geographiclib is a C++ library to solve some geodesic problems
 
+  - repo: gifshuffle
+    group: deepin-sysdev-team
+    info: Steganography program to gif images
+
   - repo: git-buildpackage
     group: deepin-sysdev-team
     info: Suite to help with Debian packages in Git repositories
@@ -571,6 +579,10 @@ repos:
     group: deepin-sysdev-team
     info: modular web framework in Go
 
+  - repo: gprename
+    group: deepin-sysdev-team
+    info: complete batch renamer for Linux
+
   - repo: grub-efi-arm64-signed
     group: deepin-sysdev-team
     info: GRand Unified Bootloader, version 2 (arm64 UEFI signed by deepin)
@@ -599,9 +611,17 @@ repos:
     group: deepin-sysdev-team
     info: Access Unicode character database
 
+  - repo: hatop
+    group: deepin-sysdev-team
+    info: interactive ncurses client for haproxy
+
   - repo: hexchat
     group: deepin-sysdev-team
     info: IRC client for X based on X-Chat 2.
+
+  - repo: hicolor-icon-theme
+    group: deepin-sysdev-team
+    info: default fallback theme for FreeDesktop.org icon themes
 
   - repo: hotspot
     group: dde
@@ -993,6 +1013,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ logging API providing control over log management and configuration.
 
+  - repo: love
+    group: deepin-sysdev-team
+    info: 2D game development framework based on Lua and OpenGL
+
   - repo: lsof #main
     group: deepin-sysdev-team
     info: utility to list open files
@@ -1196,6 +1220,10 @@ repos:
   - repo: pristine-tar
     group: deepin-cicd
     info: regenerate pristine tarballs
+
+  - repo: psrip
+    group: deepin-sysdev-team
+    info: Extract images from PostScript files
 
   - repo: pycountry
     group: deepin-sysdev-team
@@ -1829,6 +1857,10 @@ repos:
   - repo: weechat
     group: deepin-sysdev-team
     info: Fast, light and extensible chat client (metapackage)
+
+  - repo: wfuzz
+    group: deepin-sysdev-team
+    info: Web application bruteforcer
 
   - repo: wipe
     group: deepin-sysdev-team

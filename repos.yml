@@ -434,6 +434,10 @@ repos:
     group: deepin-sysdev-team
     info: GNUstep Base library - common files
 
+  - repo: golang-1.15
+    group: deepin-sysdev-team
+    info: Go programming language compiler - metapackage
+
   - repo: golang-1.20
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage

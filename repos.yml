@@ -100,6 +100,10 @@ repos:
     group: deepin-sysdev-team
     info: Encode binary files to printable utf16be
 
+  - repo: bb
+    group: deepin-sysdev-team
+    info:  ASCII-art demo based on AAlib
+
   - repo: bird
     group: deepin-sysdev-team
     info: Internet routing daemon with full support for all the major routing protocols
@@ -262,6 +266,10 @@ repos:
   - repo: fdk-aac
     group: deepin-sysdev-team
     info: Fraunhofer FDK AAC Codec Library - frontend binary
+
+  - repo: flake
+    group: deepin-sysdev-team
+    info:  Alternative encoder for the Free Lossless Audio Codec
 
   - repo: flit
     group: deepin-sysdev-team
@@ -1036,6 +1044,10 @@ repos:
   - repo: menu
     group: deepin-sysdev-team
     info: generates programs menu for all menu-aware applications
+
+  - repo: missidentify
+    group: deepin-sysdev-team
+    info: find win32 applications
 
   - repo: mmdebstrap
     group: deepin-sysdev-team

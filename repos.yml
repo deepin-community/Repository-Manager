@@ -1614,3 +1614,7 @@ repos:
     group: deepin-sysdev-team
     info: This package builds kpartloader and kuiviewer.
 
+  - repo: hyfetch
+    group: deepin-sysdev-team
+    info: Neofetch with LGBTQ+ pride flags!
+

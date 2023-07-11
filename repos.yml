@@ -1398,22 +1398,6 @@ repos:
     group: deepin-sysdev-team
     info: Thai DejaVu-compatible fonts
 
-  - repo: fonts-mlym
-    group: deepin-sysdev-team
-    info: Meta package to install all Malayalam fonts
-
-  - repo: fonts-uralic
-    group: deepin-sysdev-team
-    info: Truetype fonts for Cyrillic-based Uralic languages
-
-  - repo: fonts-arphic-ukai
-    group: deepin-sysdev-team
-    info: AR PL UKai Chinese Unicode TrueType font collection Kaiti style
-
-  - repo: fonts-material-design-icons-iconfont
-    group: deepin-sysdev-team
-    info: Material Design Icons DX
-
   - repo: ipp-usb
     group: deepin-sysdev-team
     info: ipp-usb is a userland driver for USB devices supporting the IPP over USB protocol.
@@ -1569,4 +1553,20 @@ repos:
   - repo: golang-github-go-macaron-inject
     group: deepin-sysdev-team
     info: utilities for mapping and injecting dependencies
+
+  - repo: fonts-mlym
+    group: deepin-sysdev-team
+    info: Meta package to install all Malayalam fonts
+
+  - repo: fonts-uralic
+    group: deepin-sysdev-team
+    info: Truetype fonts for Cyrillic-based Uralic languages
+
+  - repo: fonts-arphic-ukai
+    group: deepin-sysdev-team
+    info: AR PL UKai Chinese Unicode TrueType font collection Kaiti style
+
+  - repo: fonts-material-design-icons-iconfont
+    group: deepin-sysdev-team
+    info: Material Design Icons DX
 

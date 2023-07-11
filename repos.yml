@@ -1477,6 +1477,10 @@ repos:
     group: deepin-sysdev-team
     info: the source for the Rust ryu crate
 
+  - repo: rust-same-file
+    group: deepin-sysdev-team
+    info: Simple crate for determining whether two file paths point to the same file
+
   - repo: rust-scopeguard
     group: deepin-sysdev-team
     info: Defines the macros `defer!`, `defer_on_unwind!`, `defer_on_success!` as shorthands
@@ -1581,6 +1585,10 @@ repos:
   - repo: rust-void
     group: deepin-sysdev-team
     info: the source for the Rust void crate
+
+  - repo: rust-walkdir
+    group: deepin-sysdev-team
+    info: Recursively walk a directory - Rust source code
 
   - repo: rust-which
     group: deepin-sysdev-team

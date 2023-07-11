@@ -647,6 +647,10 @@ repos:
     group: deepin-sysdev-team
     info: PSGI adapter for CGI
 
+  - repo: libcompress-raw-lzma-perl
+    group: deepin-sysdev-team
+    info: low-level interface to lzma compression library
+
   - repo: libcookie-baker-perl
     group: deepin-sysdev-team
     info: simple cookie string generator and parser
@@ -702,6 +706,10 @@ repos:
   - repo: libinsane
     group: deepin-sysdev-team
     info: Library to access scanner
+
+  - repo: libio-compress-brotli-perl
+    group: deepin-sysdev-team
+    info: modules to read/write Brotli buffers/streams
 
   - repo: libio-handle-util-perl
     group: deepin-sysdev-team
@@ -1735,4 +1743,4 @@ repos:
   - repo: zutty
     group: deepin-sysdev-team
     info: Efficient full-featured X11 terminal emulator
-    
+

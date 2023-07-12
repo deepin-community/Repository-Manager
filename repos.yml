@@ -546,6 +546,14 @@ repos:
     group: deepin-sysdev-team
     info: native byte order for Go
 
+  - repo: golang-github-lionsoul2014-ip2region-v1.0-binding-golang-ip2region
+    group: deepin-sysdev-team
+    info: Go binding for ip2region (version 1.0)
+
+  - repo: golang-github-mattn-go-runewidth
+    group: deepin-sysdev-team
+    info: functions to get fixed width of the character or string
+
   - repo: golang-github-mdlayher-netlink-dev
     group: deepin-sysdev-team
     info: This package provides low-level access to Linux netlink sockets (AF_NETLINK)
@@ -567,6 +575,10 @@ repos:
     group: deepin-sysdev-team
     info: This library provides rune-based buffered input.
 
+  - repo: golang-github-rivo-uniseg
+    group: deepin-sysdev-team
+    info: Unicode Text Segmentation for Go
+
   - repo: golang-github-rodaine-table
     group: deepin-sysdev-team
     info: Go CLI Table Generator
@@ -579,9 +591,21 @@ repos:
     group: deepin-sysdev-team
     info: JSON parser for Go
 
+  - repo: golang-github-tidwall-match
+    group: deepin-sysdev-team
+    info: simple string pattern matcher for Go
+
+  - repo: golang-github-tidwall-pretty
+    group: deepin-sysdev-team
+    info: Efficient JSON beautifier and compactor for Go
+
   - repo: golang-github-unknwon-com
     group: deepin-sysdev-team
     info: commonly used functions for Golang
+
+  - repo: golang-gocapability-dev
+    group: deepin-sysdev-team
+    info: Utilities for manipulating POSIX capabilities in Go
 
   - repo: golang-golang-x-arch
     group: deepin-sysdev-team

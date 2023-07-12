@@ -18,6 +18,10 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
+      - name: use node@18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: install depends for load scripts
         run: |
           npm install @octokit/rest

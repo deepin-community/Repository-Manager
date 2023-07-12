@@ -1476,6 +1476,10 @@ repos:
     group: deepin-sysdev-team
     info: source for the Rust bitflags crate
 
+  - repo: rust-bitflags-1
+    group: deepin-sysdev-team
+    info: Macro to generate structures which behave like bitflags - Rust source code
+
   - repo: rust-bytemuck
     group: deepin-sysdev-team
     info: This package contains the source for the Rust bytemuck crate, packaged by
@@ -1515,6 +1519,22 @@ repos:
     group: deepin-sysdev-team
     info: Compiler intrinsics used by the Rust compiler
 
+  - repo: rust-crossbeam-channel
+    group: deepin-sysdev-team
+    info: Multi-producer multi-consumer channels for message passing - Rust source code
+
+  - repo: rust-crossbeam-deque
+    group: deepin-sysdev-team
+    info: Concurrent work-stealing deque - Rust source code
+
+  - repo: rust-crossbeam-epoch
+    group: deepin-sysdev-team
+    info: Epoch-based garbage collection - feature "std" and 1 more
+
+  - repo: rust-crossbeam-utils
+    group: deepin-sysdev-team
+    info: Utilities for concurrent programming - Rust source code
+
   - repo: rust-ctor
     group: deepin-sysdev-team
     info: __attribute__((constructor)) for Rust.
@@ -1544,6 +1564,10 @@ repos:
   - repo: rust-erased-serde
     group: deepin-sysdev-team
     info: Type-erased Serialize and Serializer traits.
+
+  - repo: rust-fastrand
+    group: deepin-sysdev-team
+    info: Simple and fast random number generator - Rust source code
 
   - repo: rust-fnv
     group: deepin-sysdev-team
@@ -1607,6 +1631,10 @@ repos:
     group: deepin-sysdev-team
     info: Rust development package for memchr library integration.
 
+  - repo: rust-memoffset
+    group: deepin-sysdev-team
+    info: Offset_of functionality for Rust structs - Rust source code
+
   - repo: rust-minimal-lexical
     group: deepin-sysdev-team
     info: This package contains the source for the Rust minimal-lexical crate, packaged
@@ -1619,6 +1647,10 @@ repos:
   - repo: rust-nom
     group: deepin-sysdev-team
     info: Byte-oriented, zero-copy, parser combinators
+
+  - repo: rust-num-cpus
+    group: deepin-sysdev-team
+    info: Get the number of CPUs on a machine - Rust source code
 
   - repo: rust-once-cell
     group: deepin-sysdev-team
@@ -1657,6 +1689,18 @@ repos:
     group: deepin-sysdev-team
     info: Core random number generator traits and tools.
 
+  - repo: rust-rayon
+    group: deepin-sysdev-team
+    info: Simple work-stealing parallelism for Rust - Rust source code
+
+  - repo: rust-rayon-core
+    group: deepin-sysdev-team
+    info: Core APIs for Rayon - Rust source code
+
+  - repo: rust-redox-syscall
+    group: deepin-sysdev-team
+    info: Access raw Redox system calls - Rust source code
+
   - repo: rust-regex
     group: deepin-sysdev-team
     info: Regular expressions for Rust.
@@ -1664,6 +1708,10 @@ repos:
   - repo: rust-regex-syntax
     group: deepin-sysdev-team
     info: It is a library for parsing, compiling, and executing regular expressions.
+
+  - repo: rust-remove-dir-all
+    group: deepin-sysdev-team
+    info: Safe, reliable implementation of remove_dir_all for Windows - Rust source code
 
   - repo: rust-rustc-hash
     group: deepin-sysdev-team
@@ -1749,6 +1797,10 @@ repos:
     group: deepin-sysdev-team
     info: This package contains the source for the Rust syn crate, packaged by debcargo
       for use with cargo and dh-cargo.
+
+  - repo: rust-tempfile
+    group: deepin-sysdev-team
+    info: Managing temporary files and directories - Rust source code
 
   - repo: rust-termcolor
     group: deepin-sysdev-team

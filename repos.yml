@@ -12,6 +12,10 @@ repos:
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
 
+  - repo: aiofiles
+    group: deepin-sysdev-team
+    info: support for Python asyncio file operations
+
   - repo: analog
     group: deepin-sysdev-team
     info: Analog is a fast log file processor that generates usage statistic reports
@@ -663,6 +667,10 @@ repos:
     group: deepin-sysdev-team
     info: Neofetch with LGBTQ+ pride flags!
 
+  - repo: hypercorn
+    group: deepin-sysdev-team
+    info: ASGI Server based on Hyper (Python3 version)
+
   - repo: icu
     group: deepin-sysdev-team
     info: ICU is a C++ and C library that provides robust and full-featured Unicode and locale support.
@@ -1272,6 +1280,10 @@ repos:
     group: deepin-sysdev-team
     info: parallel, lossless data compressor based on the LZMA algorithm
 
+  - repo: poetry-core
+    group: deepin-sysdev-team
+    info: Poetry PEP 517 Build Backend
+
   - repo: powertop
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power
@@ -1330,6 +1342,14 @@ repos:
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
 
+  - repo: python-h11
+    group: deepin-sysdev-team
+    info: Pure-Python, bring-your-own-I/O implementation of HTTP/1.1 (Python 3)
+
+  - repo: python-h2
+    group: deepin-sysdev-team
+    info: Pure-Python3 HTTP/2 State-Machine based protocol implementation in Python
+
   - repo: python-iniparse
     group: deepin-sysdev-team
     info: python-iniparse could access and modify configuration data in INI files (Python 3)
@@ -1350,6 +1370,10 @@ repos:
     group: deepin-sysdev-team
     info: pefile is a Python module to read and work with Portable Executable (PE) files.
 
+  - repo: python-priority
+    group: deepin-sysdev-team
+    info: pure-Python implementation of the HTTP/2 priority tree (Python 3)
+
   - repo: python-progressbar
     group: deepin-sysdev-team
     info: progressbar is a text progress bar library for Python (Python 3)
@@ -1362,6 +1386,10 @@ repos:
   - repo: python-pyocr
     group: deepin-sysdev-team
     info: Python wrapper for OCR engines (Python 3)
+
+  - repo: python-pytest-trio
+    group: deepin-sysdev-team
+    info: Pytest plugin for trio (Python3 version)
 
   - repo: python-reportlab
     group: deepin-pkg
@@ -1388,6 +1416,10 @@ repos:
   - repo: python-utmp
     group: deepin-sysdev-team
     info: provides 3 modules to access utmp and wtmp records.
+
+  - repo: python-wsproto
+    group: deepin-sysdev-team
+    info: WebSockets state-machine based protocol implementation (Python3)
 
   - repo: python3-fontforge
     group: deepin-sysdev-team
@@ -1973,6 +2005,10 @@ repos:
   - repo: urwid
     group: deepin-sysdev-team
     info: Console user interface library for Python
+
+  - repo: uvloop
+    group: deepin-sysdev-team
+    info: fast implementation of asyncio event loop on top of libuv
 
   - repo: vte
     group: deepin-sysdev-team

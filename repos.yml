@@ -1452,6 +1452,10 @@ repos:
     group: deepin-sysdev-team
     info: source for the Rust bitflags crate
 
+  - repo: rust-bstr
+    group: deepin-sysdev-team
+    info: String type that is not required to be valid UTF-8
+
   - repo: rust-bytemuck
     group: deepin-sysdev-team
     info: This package contains the source for the Rust bytemuck crate, packaged by
@@ -1490,6 +1494,14 @@ repos:
   - repo: rust-compiler-builtins
     group: deepin-sysdev-team
     info: Compiler intrinsics used by the Rust compiler
+
+  - repo: rust-csv
+    group: deepin-sysdev-team
+    info: Fast CSV parsing with support for serde
+
+  - repo: rust-csv-core
+    group: deepin-sysdev-team
+    info: Bare bones CSV parsing with no_std support
 
   - repo: rust-ctor
     group: deepin-sysdev-team
@@ -1621,6 +1633,10 @@ repos:
     group: deepin-sysdev-team
     info: the source for the Rust proc-macro2 crate
 
+  - repo: rust-quickcheck
+    group: deepin-sysdev-team
+    info: Automatic property based testing with shrinking
+s
   - repo: rust-quote
     group: deepin-sysdev-team
     info: the source for the Rust quote crate
@@ -1636,6 +1652,10 @@ repos:
   - repo: rust-regex
     group: deepin-sysdev-team
     info: Regular expressions for Rust.
+
+  - repo: rust-regex-automata
+    group: deepin-sysdev-team
+    info: Automata construction and matching using regular expressions
 
   - repo: rust-regex-syntax
     group: deepin-sysdev-team
@@ -1752,6 +1772,10 @@ repos:
   - repo: rust-unreachable
     group: deepin-sysdev-team
     info: the source for the Rust unreachable crate
+
+  - repo: rust-utf8-ranges
+    group: deepin-sysdev-team
+    info: Use regex-syntax::utf8 submodule instead.
 
   - repo: rust-value-bag
     group: deepin-sysdev-team

@@ -159,6 +159,22 @@ repos:
     group: deepin-sysdev-team
     info: chromium 网页浏览器
 
+  - repo: cohomcalg
+    group: deepin-sysdev-team
+    info: It is a software package for computing sheaf cohomologies of line bundles on toric varieties.
+
+  - repo: coinor-bonmin
+    group: deepin-sysdev-team
+    info: It can solve general MINLP (Mixed Integer NonLinear Programming) problems.
+
+  - repo: coinor-csdp
+    group: deepin-sysdev-team
+    info: It is a software package for solving semidefinite programming problems.
+
+  - repo: coinor-dylp
+    group: deepin-sysdev-team
+    info: It is a software package for solving constrained linear mathematical optimization problems.
+
   - repo: colortest
     group: deepin-sysdev-team
     info: utilities to test color capabilities of terminal

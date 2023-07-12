@@ -102,7 +102,7 @@ repos:
 
   - repo: bb
     group: deepin-sysdev-team
-    info:  ASCII-art demo based on AAlib
+    info: ASCII-art demo based on AAlib
 
   - repo: bird
     group: deepin-sysdev-team
@@ -297,7 +297,7 @@ repos:
 
   - repo: flake
     group: deepin-sysdev-team
-    info:  Alternative encoder for the Free Lossless Audio Codec
+    info: Alternative encoder for the Free Lossless Audio Codec
 
   - repo: flit
     group: deepin-sysdev-team
@@ -538,10 +538,6 @@ repos:
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
 
-  - repo: golang-github-google-gopacket
-    group: deepin-sysdev-team
-    info: This library provides packet processing capabilities for Go
-
   - repo: golang-github-gorilla-websocket
     group: deepin-sysdev-team
     info: A fast, well-tested and widely used WebSocket implementation for Go.
@@ -602,6 +598,10 @@ repos:
   - repo: golang-gopkg-macaron-macaron
     group: deepin-sysdev-team
     info: modular web framework in Go
+
+  - repo: gopacket
+    group: deepin-sysdev-team
+    info: packet capturing and decoding library for Go
 
   - repo: gprename
     group: deepin-sysdev-team
@@ -1383,7 +1383,7 @@ repos:
 
   - repo: rdesktop
     group: deepin-sysdev-team
-    info: rdesktop is an open source client for Windows NT/2000 Terminal Server and Windows Server 2003/2008. 
+    info: rdesktop is an open source client for Windows NT/2000 Terminal Server and Windows Server 2003/2008.
 
   - repo: realmd
     group: deepin-sysdev-team

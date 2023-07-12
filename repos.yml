@@ -971,6 +971,26 @@ repos:
     info: a userspace library providing an interface to the extended netfilter accounting
       infrastructure.
 
+  - repo: libphp-adodb
+    group: deepin-sysdev-team
+    info: PHP's database class library.
+
+  - repo: libphp-jabber
+    group: deepin-sysdev-team
+    info: A complete cross protocol messaging solution.
+
+  - repo: libphp-phpmailer
+    group: deepin-sysdev-team
+    info: A full-featured email creation and transfer class for PHP.
+
+  - repo: libphp-snoopy
+    group: deepin-sysdev-team
+    info: A PHP class that simulates a web brosnoopy.
+
+  - repo: libphp-swiftmailer
+    group: deepin-sysdev-team
+    info: A component based mailing solution for PHP.
+
   - repo: libpillowfight
     group: deepin-sysdev-team
     info: Python 3 bindings for libpillowfight

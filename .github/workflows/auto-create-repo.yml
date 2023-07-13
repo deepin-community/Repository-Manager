@@ -52,6 +52,7 @@ jobs:
             core.setOutput('app_token', token)
       - name: init osc
         run: |
+          sudo apt update
           sudo apt install osc
           mkdir ~/.config/osc
           echo "${{ secrets.OSCRC }}" > ~/.config/osc/oscrc

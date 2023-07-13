@@ -262,6 +262,10 @@ repos:
     info: EL is a simple language designed to meet the needs of the presentation layer
       in Java web applications.
 
+  - repo: empire
+    group: deepin-sysdev-team
+    info: war game of the century
+
   - repo: equivs
     group: deepin-sysdev-team
     info: Circumvent Debian package dependencies
@@ -454,6 +458,10 @@ repos:
   - repo: friso
     group: deepin-sysdev-team
     info: Friso is an open source high performance Chinese word splitter.
+
+  - repo: fscrypt
+    group: deepin-sysdev-team
+    info: Tool for managing Linux filesystem encryption
 
   - repo: fstrcmp
     group: deepin-sysdev-team
@@ -1288,6 +1296,10 @@ repos:
     group: deepin-sysdev-team
     info: parallel, lossless data compressor based on the LZMA algorithm
 
+  - repo: pngcheck
+    group: deepin-sysdev-team
+    info: print info and check PNG, JNG and MNG files
+
   - repo: powertop
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power
@@ -1891,6 +1903,10 @@ repos:
     group: deepin-pkg
     info: Safe integer operation library for C
 
+  - repo: sakura
+    group: deepin-sysdev-team
+    info: simple but powerful libvte-based terminal emulator
+
   - repo: sbuild
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
@@ -1911,6 +1927,10 @@ repos:
     group: deepin-sysdev-team
     info: web-page layout and decoration framework
 
+  - repo: sm
+    group: deepin-sysdev-team
+    info: Displays a short text fullscreen
+
   - repo: socket
     group: deepin-sysdev-team
     info: The socket program is a simple tool for socket based connections. It can be
@@ -1924,6 +1944,10 @@ repos:
   - repo: speedtest-cli
     group: deepin-sysdev-team
     info: Command line interface for testing internet bandwidth using speedtest.net
+
+  - repo: ssh-tools
+    group: deepin-sysdev-team
+    info: collection of various tools using sshs
 
   - repo: sshpass
     group: deepin-sysdev-team
@@ -1953,6 +1977,10 @@ repos:
     group: deepin-sysdev-team
     info: The swtpm package provides TPM emulators that listen for TPM commands on sockets,
       character devices, or CUSE devices.
+
+  - repo: sxhkd
+    group: deepin-sysdev-team
+    info: Simple X hotkey daemon
 
   - repo: synaptic
     group: deepin-sysdev-team

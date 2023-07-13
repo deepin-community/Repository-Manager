@@ -18,6 +18,10 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
+      - name: use node@18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: install depends for load scripts
         run: |
           npm install @octokit/rest
@@ -27,6 +31,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
+            global["fetch"] = fetch
             const { Octokit } = require("@octokit/rest");
             const { createAppAuth } = require("@octokit/auth-app");
             const appOctokit = new Octokit({
@@ -47,6 +52,7 @@ jobs:
             core.setOutput('app_token', token)
       - name: init osc
         run: |
+          sudo apt update
           sudo apt install osc
           mkdir ~/.config/osc
           echo "${{ secrets.OSCRC }}" > ~/.config/osc/oscrc

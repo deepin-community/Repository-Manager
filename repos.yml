@@ -534,6 +534,10 @@ repos:
     group: deepin-sysdev-team
     info: utilities for mapping and injecting dependencies
 
+  - repo: golang-github-go-macaron-macaron
+    group: deepin-sysdev-team
+    info: modular web framework in Go
+
   - repo: golang-github-go-macaron-toolbox
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
@@ -598,10 +602,6 @@ repos:
   - repo: golang-golang-x-vuln
     group: deepin-sysdev-team
     info: Go Vulnerability Management
-
-  - repo: golang-gopkg-macaron-macaron
-    group: deepin-sysdev-team
-    info: modular web framework in Go
 
   - repo: gprename
     group: deepin-sysdev-team

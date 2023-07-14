@@ -155,6 +155,10 @@ repos:
     group: deepin-sysdev-team
     info: an easy to use, multi OS streaming tool.
 
+  - repo: cataclysm-dda
+    group: deepin-sysdev-team
+    info: post-apocalyptic roguelike game
+
   - repo: catch
     group: deepin-sysdev-team
     info: C++ Automated Test Cases in Headers

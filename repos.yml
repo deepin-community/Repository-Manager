@@ -779,6 +779,10 @@ repos:
     group: deepin-sysdev-team
     info: simple and consistent perl framework for authentication
 
+  - repo: libcamera
+    group: deepin-sysdev-team
+    info: complex camera support library
+
   - repo: libcgi-compile-perl
     group: deepin-sysdev-team
     info: module for compiling .cgi scripts to a code reference
@@ -822,6 +826,10 @@ repos:
   - repo: libfilesys-notify-simple-perl
     group: deepin-sysdev-team
     info: simple file system monitor
+
+  - repo: libfreeaptx
+    group: deepin-sysdev-team
+    info: Free implementation of aptX
 
   - repo: libgcrypt20
     group: deepin-sysdev-team
@@ -879,6 +887,10 @@ repos:
   - repo: libkkc-data
     group: deepin-sysdev-team
     info: language model data for libkkc
+
+  - repo: liblc3
+    group: deepin-sysdev-team
+    info: Low Complexity Communication Codec
 
   - repo: libliftoff
     group: deepin-sysdev-team

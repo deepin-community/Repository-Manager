@@ -2010,6 +2010,10 @@ repos:
     group: deepin-sysdev-team
     info: fast, modern, secure kernel VPN tunnel (metapackage)
 
+  - repo: wireplumber
+    group: deepin-sysdev-team
+    info: modular session / policy manager for PipeWire
+
   - repo: wlroots
     group: deepin-sysdev-team
     info: A modular Wayland compositor library

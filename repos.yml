@@ -1153,6 +1153,10 @@ repos:
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine
 
+  - repo: mtr
+    group: deepin-sysdev-team
+    info: Full screen ncurses and X11 traceroute tool
+
   - repo: ncdu
     group: deepin-sysdev-team
     info: Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use interface

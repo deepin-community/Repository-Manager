@@ -227,6 +227,10 @@ repos:
     group: deepin-sysdev-team
     info: Free and Open Music Notation Editor
 
+  - repo: dh-nss
+    group: deepin-sysdev-team
+    info: debhelper addon to inject NSS services into /etc/nsswitch.conf
+
   - repo: dictconv
     group: deepin-sysdev-team
     info: convert a dictionary file type to another dictionary file type

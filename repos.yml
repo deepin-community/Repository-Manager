@@ -1911,6 +1911,10 @@ repos:
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
 
+  - repo: schroot
+    group: deepin-sysdev-team
+    info: Execute commands in a chroot environment
+
   - repo: seatd
     group: deepin-sysdev-team
     info: A minimal seat management daemon

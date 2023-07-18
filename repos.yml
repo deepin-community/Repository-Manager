@@ -1292,6 +1292,10 @@ repos:
     group: deepin-sysdev-team
     info: parallel, indexing XZ compressor/decompressor
 
+  - repo: plantuml
+    group: deepin-sysdev-team
+    info: PlantUML is a program allowing to draw UML diagrams, using a simple human readable text description
+
   - repo: plocate
     group: deepin-sysdev-team
     info: much faster locate

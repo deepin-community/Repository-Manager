@@ -143,10 +143,6 @@ repos:
     info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input
       Method Engine.
 
-  - repo: bsdmainutils
-    group: deepin-sysdev-team
-    info: Transitional package for more utilities from FreeBSD.
-
   - repo: btop
     group: deepin-sysdev-team
     info: Modern and colorful command line resource monitor that shows usage and stats
@@ -286,10 +282,6 @@ repos:
   - repo: evilwm
     group: deepin-sysdev-team
     info: evilwm is based on aewm by Decklin Foster.
-
-  - repo: exfatprogs
-    group: deepin-sysdev-team
-    info: Tools to manage extended file allocation table filesystem. This package provides tools to create, check, dump and label the filesystem.
 
   - repo: exif
     group: deepin-sysdev-team
@@ -1222,10 +1214,6 @@ repos:
     info: This package provides a PEM file reader for Network Security Services (NSS),
       implemented as a PKCS#11 module.
 
-  - repo: ntpsec
-    group: deepin-sysdev-team
-    info: Network Time Protocol daemon/utilities (transitional package).
-
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team
     info: Nvidia driver
@@ -2001,10 +1989,6 @@ repos:
   - repo: synaptic
     group: deepin-sysdev-team
     info: Synaptic is a graphical package management tool based on GTK+ and APT.
-
-  - repo: tcpdump
-    group: deepin-sysdev-team
-    info: command-line network traffic analyzer.
 
   - repo: termit
     group: deepin-sysdev-team

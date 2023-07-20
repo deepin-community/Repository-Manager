@@ -734,6 +734,10 @@ repos:
     group: deepin-sysdev-team
     info: SIP API for Java
 
+  - repo: jpeg-xl
+    group: deepin-sysdev-team
+    info: jpeg-xl contains a reference implementation of JPEG XL (encoder and decoder)
+
   - repo: jpeginfo
     group: deepin-sysdev-team
     info: jpeginfo can be used to generate informative listings of jpeg files.

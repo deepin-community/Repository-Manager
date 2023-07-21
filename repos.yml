@@ -672,6 +672,10 @@ repos:
     group: dde
     info: GUI tool for performance analysis
 
+  - repo: hplip
+    group: deepin-sysdev-team
+    info: HP Linux Printing and Imaging System (HPLIP)
+
   - repo: html2ps
     group: deepin-sysdev-team
     info: HTML to PostScript converter

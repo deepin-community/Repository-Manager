@@ -2082,6 +2082,10 @@ repos:
     group: deepin-sysdev-team
     info: Highly customizable Wayland bar for Sway and Wlroots based compositors.
 
+  - repo: waypipe
+    group: deepin-sysdev-team
+    info: 
+
   - repo: webkit2gtk
     group: deepin-sysdev-team
     info: Web content engine library for GTK.

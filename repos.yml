@@ -1283,6 +1283,11 @@ repos:
     info: open source libraries that implement high performance subdivision surface
       (subdiv) evaluation
 
+  - repo: openvpn
+    group: deepin-sysdev-team
+    info: OpenVPN is an application to securely tunnel IP networks over a single UDP or TCP port.
+      It can be used to access remote sites, make secure point-to-point connections, enhance wireless security, etc.
+
   - repo: pango1.0
     group: deepin-sysdev-team
     info: Layout and rendering of internationalized text
@@ -2016,6 +2021,10 @@ repos:
   - repo: stress
     group: deepin-sysdev-team
     info: Stress test a computer system in various selectable ways
+
+  - repo: strongswan-nm
+    group: deepin-sysdev-team
+    info: The strongSwan VPN suite uses the native IPsec stack in the standard Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
 
   - repo: sway
     group: deepin-sysdev-team

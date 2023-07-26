@@ -69,6 +69,10 @@ repos:
     group: deepin-sysdev-team
     info: Scripts for installing Arch Linux
 
+  - repo: arch-test
+    group: deepin-sysdev-team
+    info: detect architectures supported by your machine/kernel
+
   - repo: argyll
     group: deepin-sysdev-team
     info: Color Management System, calibrator and profiler

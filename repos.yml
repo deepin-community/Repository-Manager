@@ -766,6 +766,10 @@ repos:
     group: deepin-sysdev-team
     info: KVTML files for KDE-Edu programs
 
+  - repo: kodi
+    group: deepin-sysdev-team
+    info: Open Source Home Theatre (executable binaries)
+
   - repo: kpat
     group: deepin-pkg
     info: solitaire card games
@@ -1289,8 +1293,9 @@ repos:
 
   - repo: openvpn
     group: deepin-sysdev-team
-    info: OpenVPN is an application to securely tunnel IP networks over a single UDP or TCP port.
-      It can be used to access remote sites, make secure point-to-point connections, enhance wireless security, etc.
+    info: OpenVPN is an application to securely tunnel IP networks over a single UDP
+      or TCP port. It can be used to access remote sites, make secure point-to-point
+      connections, enhance wireless security, etc.
 
   - repo: pango1.0
     group: deepin-sysdev-team
@@ -1529,7 +1534,7 @@ repos:
     info: This simple library can read Adobe Font Metrics (afm) files and use the
       data conveniently.
 
-  - repo: ruby-minitar #main
+  - repo: ruby-minitar
     group: deepin-sysdev-team
     info: Provides POSIX tarchive management for Ruby
 
@@ -2028,7 +2033,8 @@ repos:
 
   - repo: strongswan-nm
     group: deepin-sysdev-team
-    info: The strongSwan VPN suite uses the native IPsec stack in the standard Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+    info: The strongSwan VPN suite uses the native IPsec stack in the standard Linux
+      kernel. It supports both the IKEv1 and IKEv2 protocols.
 
   - repo: sway
     group: deepin-sysdev-team
@@ -2105,7 +2111,7 @@ repos:
 
   - repo: waypipe
     group: deepin-sysdev-team
-    info: 
+    info: Network transparency with Wayland
 
   - repo: webkit2gtk
     group: deepin-sysdev-team

@@ -60,14 +60,14 @@ repos:
     group: deepin-sysdev-team
     info: search for files in Debian packages
 
-  - repo: aptly
-    group: deepin-sysdev-team
-    info: Swiss army knife for Debian repository management
-
   - repo: apt-rdepends
     group: deepin-sysdev-team
     info: This utility can recursively list package dependencies, either forwards
       or in reverse.
+
+  - repo: aptly
+    group: deepin-sysdev-team
+    info: Swiss army knife for Debian repository management
 
   - repo: arch-install-scripts
     group: deepin-sysdev-team
@@ -605,19 +605,19 @@ repos:
 
   - repo: golang-github-go-playground-assert-v2
     group: deepin-sysdev-team
-    info:  basic assertion library for Go
+    info: basic assertion library for Go
 
   - repo: golang-github-go-playground-locales
     group: deepin-sysdev-team
-    info:  set of locales generated from the CLDR Project
+    info: set of locales generated from the CLDR Project
 
   - repo: golang-github-go-playground-universal-translator
     group: deepin-sysdev-team
-    info:  translator for Go using CLDR data and pluralization rules
+    info: translator for Go using CLDR data and pluralization rules
 
   - repo: golang-github-go-playground-validator-v10
     group: deepin-sysdev-team
-    info:  Go library for struct and field validation
+    info: Go library for struct and field validation
 
   - repo: golang-github-gorilla-websocket
     group: deepin-sysdev-team
@@ -625,11 +625,11 @@ repos:
 
   - repo: golang-github-hashicorp-go-multierror
     group: deepin-sysdev-team
-    info:  Go package for representing a list of errors as a single error
+    info: Go package for representing a list of errors as a single error
 
   - repo: golang-github-jlaffaye-ftp
     group: deepin-sysdev-team
-    info:  FTP client package for Go
+    info: FTP client package for Go
 
   - repo: golang-github-josharian-native
     group: deepin-sysdev-team
@@ -637,11 +637,11 @@ repos:
 
   - repo: golang-github-leodido-go-urn
     group: deepin-sysdev-team
-    info:  Go parser for Uniform Resource Names
+    info: Go parser for Uniform Resource Names
 
   - repo: golang-github-mattn-go-ieproxy
     group: deepin-sysdev-team
-    info:  Go package to detect the proxy settings on Windows platform (library)
+    info: Go package to detect the proxy settings on Windows platform (library)
 
   - repo: golang-github-mdlayher-netlink-dev
     group: deepin-sysdev-team
@@ -653,11 +653,11 @@ repos:
 
   - repo: golang-github-mkrautz-goar
     group: deepin-sysdev-team
-    info:  library for reading and writing ar archives in Go
+    info: library for reading and writing ar archives in Go
 
   - repo: golang-github-mxk-go-flowrate
     group: deepin-sysdev-team
-    info:  Go package for limiting and monitoring data flow rate
+    info: Go package for limiting and monitoring data flow rate
 
   - repo: golang-github-openprinting-goipp
     group: deepin-sysdev-team
@@ -670,7 +670,7 @@ repos:
 
   - repo: golang-github-pborman-uuid
     group: deepin-sysdev-team
-    info:  Go bindings to work with UUIDs
+    info: Go bindings to work with UUIDs
 
   - repo: golang-github-pelletier-go-buffruneio
     group: deepin-sysdev-team
@@ -678,7 +678,7 @@ repos:
 
   - repo: golang-github-pelletier-go-toml.v2
     group: deepin-sysdev-team
-    info:  Go library for the TOML format (go-toml v2)
+    info: Go library for the TOML format (go-toml v2)
 
   - repo: golang-github-rodaine-table
     group: deepin-sysdev-team
@@ -686,16 +686,15 @@ repos:
 
   - repo: golang-github-smira-commander
     group: deepin-sysdev-team
-    info:  library to provide command-line commands and sub-commands
+    info: library to provide command-line commands and sub-commands
 
   - repo: golang-github-smira-go-aws-auth
     group: deepin-sysdev-team
-    info:  signs requests to Amazon Web Services
+    info: signs requests to Amazon Web Services
 
   - repo: golang-github-smira-go-ftp-protocol
     group: deepin-sysdev-team
-    info:  plugin for http.Transport with support for ftp:// protocol
-
+    info: plugin for http.Transport with support for ftp:// protocol
 
   - repo: golang-github-spf13-viper
     group: deepin-sysdev-team
@@ -707,7 +706,7 @@ repos:
 
   - repo: golang-github-ugorji-go-codec
     group: deepin-sysdev-team
-    info:  idiomatic codec and rpc lib for msgpack, cbor, json
+    info: idiomatic codec and rpc lib for msgpack, cbor, json
 
   - repo: golang-github-unknwon-com
     group: deepin-sysdev-team
@@ -715,7 +714,7 @@ repos:
 
   - repo: golang-github-wsxiaoys-terminal
     group: deepin-sysdev-team
-    info:  Colorful terminal output for Golang
+    info: Colorful terminal output for Golang
 
   - repo: golang-golang-x-arch
     group: deepin-sysdev-team
@@ -731,11 +730,11 @@ repos:
 
   - repo: golang-goleveldb
     group: deepin-sysdev-team
-    info:  LevelDB key/value database in Go
+    info: LevelDB key/value database in Go
 
   - repo: golang-gopkg-h2non-filetype.v1
     group: deepin-sysdev-team
-    info:  Go package to infer file types based on the magic numbers header signature
+    info: Go package to infer file types based on the magic numbers header signature
 
   - repo: golang-gopkg-macaron-macaron
     group: deepin-sysdev-team
@@ -760,6 +759,10 @@ repos:
   - repo: gtk-layer-shell
     group: deepin-sysdev-team
     info: GTK library for layer-shell protocol
+
+  - repo: gtk-sharp3 #main
+    group: deepin-sysdev-team
+    info: CLI binding for the GTK+ toolkit 3.0
 
   - repo: gtkmm4.0
     group: deepin-sysdev-team
@@ -2181,6 +2184,10 @@ repos:
   - repo: termit
     group: deepin-sysdev-team
     info: Simple terminal emulator based on vte library, embedded Lua
+
+  - repo: tesseract
+    group: deepin-sysdev-team
+    info: Development files for the tesseract command line OCR tool
 
   - repo: texlive-bin
     group: deepin-sysdev-team

@@ -2147,11 +2147,6 @@ repos:
     group: deepin-sysdev-team
     info: Stress test a computer system in various selectable ways
 
-  - repo: strongswan-nm
-    group: deepin-sysdev-team
-    info: The strongSwan VPN suite uses the native IPsec stack in the standard Linux
-      kernel. It supports both the IKEv1 and IKEv2 protocols.
-
   - repo: sway
     group: deepin-sysdev-team
     info: i3-compatible Wayland compositor

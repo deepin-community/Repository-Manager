@@ -744,10 +744,6 @@ repos:
     group: deepin-sysdev-team
     info: modular web framework in Go
 
-  - repo: gopacket
-    group: deepin-sysdev-team
-    info: packet capturing and decoding library for Go
-
   - repo: gprename
     group: deepin-sysdev-team
     info: complete batch renamer for Linux

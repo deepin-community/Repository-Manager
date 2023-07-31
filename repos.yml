@@ -2,7 +2,7 @@ repos:
 
   - repo: .guide.deepin.org
     group: sig-deepin-doc-doc-go
-    info: deepin系统的用户手册 https://guide.deepin.org
+    info: deepin 系统的用户手册 https://guide.deepin.org
 
   - repo: acpi
     group: deepin-sysdev-team
@@ -318,6 +318,10 @@ repos:
   - repo: fail2ban
     group: deepin-sysdev-team
     info: ban hosts that cause multiple authentication errors
+
+  - repo: fastfetch
+    group: deepin-sysdev-team
+    info: Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. 
 
   - repo: fdk-aac
     group: deepin-sysdev-team

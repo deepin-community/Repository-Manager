@@ -643,9 +643,17 @@ repos:
     group: deepin-sysdev-team
     info: Go parser for Uniform Resource Names
 
+  - repo: golang-github-lionsoul2014-ip2region-v1.0-binding-golang-ip2region
+    group: deepin-sysdev-team
+    info: offline IP address manager framework and locator
+
   - repo: golang-github-mattn-go-ieproxy
     group: deepin-sysdev-team
     info: Go package to detect the proxy settings on Windows platform (library)
+
+  - repo: golang-github-mattn-go-runewidth
+    group: deepin-sysdev-team
+    info: functions to get fixed width of the character or string
 
   - repo: golang-github-mdlayher-netlink-dev
     group: deepin-sysdev-team
@@ -684,6 +692,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for the TOML format (go-toml v2)
 
+  - repo: golang-github-rivo-uniseg
+    group: deepin-sysdev-team
+    info: Unicode Text Segmentation for Go
+
   - repo: golang-github-rodaine-table
     group: deepin-sysdev-team
     info: Go CLI Table Generator
@@ -708,6 +720,14 @@ repos:
     group: deepin-sysdev-team
     info: JSON parser for Go
 
+  - repo: golang-github-tidwall-match
+    group: deepin-sysdev-team
+    info: simple string pattern matcher for Go
+
+  - repo: golang-github-tidwall-pretty
+    group: deepin-sysdev-team
+    info: Efficient JSON beautifier and compactor for Go
+
   - repo: golang-github-ugorji-go-codec
     group: deepin-sysdev-team
     info: idiomatic codec and rpc lib for msgpack, cbor, json
@@ -719,6 +739,10 @@ repos:
   - repo: golang-github-wsxiaoys-terminal
     group: deepin-sysdev-team
     info: Colorful terminal output for Golang
+
+  - repo: golang-gocapability
+    group: deepin-sysdev-team
+    info: Utilities for manipulating POSIX capabilities in Go
 
   - repo: golang-golang-x-arch
     group: deepin-sysdev-team

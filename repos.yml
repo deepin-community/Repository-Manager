@@ -321,7 +321,7 @@ repos:
 
   - repo: fastfetch
     group: deepin-sysdev-team
-    info: Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. 
+    info: Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way.
 
   - repo: fdk-aac
     group: deepin-sysdev-team
@@ -926,6 +926,10 @@ repos:
     group: deepin-sysdev-team
     info: A popular QuakeWorld server modification, adding numerous features to the
       core features of the server.
+
+  - repo: kruler
+    group: deepin-sysdev-team
+    info: KRuler is a tool for measuring the size, in pixels, of items on the screen.
 
   - repo: kwayland
     group: deepin-sysdev-team

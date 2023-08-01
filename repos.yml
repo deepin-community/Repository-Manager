@@ -2330,3 +2330,7 @@ repos:
   - repo: zutty
     group: deepin-sysdev-team
     info: Efficient full-featured X11 terminal emulator
+
+  - repo: sensors-applet
+    group: deepin-sysdev-team
+    info: Display readings from hardware sensors in your Gnome panel

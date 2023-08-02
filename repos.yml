@@ -910,6 +910,10 @@ repos:
     group: deepin-sysdev-team
     info: KVTML files for KDE-Edu programs
 
+  - repo: kdump-tools
+    group: deepin-sysdev-team
+    info: kdump is a mechanism to capture crash dumps for the Linux kernel.
+
   - repo: kexec-tools
     group: deepin-sysdev-team
     info: tools to support fast kexec reboots.

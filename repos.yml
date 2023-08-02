@@ -1102,6 +1102,10 @@ repos:
     info: It provides a modern, object-oriented methodology for object construction
       and class writing
 
+  - repo: libmoox-struct-perl
+    group: deepin-sysdev-team
+    info: simple lightweight record-like structures making sounds like cows
+
   - repo: libmpack
     group: deepin-sysdev-team
     info: MessagePack for C
@@ -1163,6 +1167,10 @@ repos:
   - repo: libposix-strftime-compiler-perl
     group: deepin-sysdev-team
     info: GNU C library compatible strftime for loggers and servers
+
+  - repo: libre-engine-re2-perl
+    group: deepin-sysdev-team
+    info: RE2 regex engine
 
   - repo: librist
     group: deepin-sysdev-team

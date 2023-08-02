@@ -910,6 +910,10 @@ repos:
     group: deepin-sysdev-team
     info: KVTML files for KDE-Edu programs
 
+  - repo: kexec-tools
+    group: deepin-sysdev-team
+    info: tools to support fast kexec reboots.
+
   - repo: kodi
     group: deepin-sysdev-team
     info: Open Source Home Theatre (executable binaries)

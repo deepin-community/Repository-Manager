@@ -13,3 +13,7 @@ repos:
     group: deepin-sysdev-team
     notes: python-setuptools is now setuptools. deepin dropped python2 so it should be removed.
 
+  - repo: ppx-tools-versioned
+    group: deepin-sysdev-team
+    notes: ppx-tools-versioned is an old library that do no longer compile with. current OCaml version 
+      https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1006355

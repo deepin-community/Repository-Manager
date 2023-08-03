@@ -1,0 +1,7 @@
+repos:
+
+  #example:
+
+  # - repo: .guide.deepin.org #main (Repository and componet name, use '#' as separator, default componet is main.)
+  #   group: sig-deepin-doc-doc-go
+  #   notes: no used add removed

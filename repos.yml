@@ -1470,6 +1470,10 @@ repos:
     group: deepin-sysdev-team
     info: Paperwork is a personal document manager
 
+  - repo: parmap #main
+    group: deepin-sysdev-team
+    info: small OCaml library allowing to exploit multicore architectures (development)
+
   - repo: parole
     group: deepin-sysdev-team
     info: Development files for Parole media player

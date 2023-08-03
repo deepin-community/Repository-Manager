@@ -321,7 +321,8 @@ repos:
 
   - repo: fastfetch
     group: deepin-sysdev-team
-    info: Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way.
+    info: Fastfetch is a neofetch-like tool for fetching system information and displaying
+      them in a pretty way.
 
   - repo: fdk-aac
     group: deepin-sysdev-team
@@ -820,6 +821,10 @@ repos:
     group: deepin-sysdev-team
     info: default fallback theme for FreeDesktop.org icon themes
 
+  - repo: highway
+    group: deepin-sysdev-team
+    info: Highway is a C++ library that provides portable SIMD/vector intrinsics.
+
   - repo: hotspot
     group: dde
     info: GUI tool for performance analysis
@@ -930,14 +935,14 @@ repos:
     group: deepin-sysdev-team
     info: command line interface to KeePassX password manager databases
 
+  - repo: kruler
+    group: deepin-sysdev-team
+    info: KRuler is a tool for measuring the size, in pixels, of items on the screen.
+
   - repo: ktx
     group: deepin-sysdev-team
     info: A popular QuakeWorld server modification, adding numerous features to the
       core features of the server.
-
-  - repo: kruler
-    group: deepin-sysdev-team
-    info: KRuler is a tool for measuring the size, in pixels, of items on the screen.
 
   - repo: kwayland
     group: deepin-sysdev-team
@@ -1075,6 +1080,10 @@ repos:
     group: deepin-sysdev-team
     info: libite holds useful functions and macros developed by both Finit and the
       OpenBSD project.
+
+  - repo: libjxl-testdata
+    group: deepin-sysdev-team
+    info: libjxl-testdata contains testdata for libjxl.
 
   - repo: libkdegames
     group: deepin-sysdev-team
@@ -1934,6 +1943,10 @@ repos:
     group: deepin-sysdev-team
     info: Core random number generator traits and tools.
 
+  - repo: rust-rav1e
+    group: deepin-sysdev-team
+    info: rav1e is an AV1 video encoder.
+
   - repo: rust-rayon
     group: deepin-sysdev-team
     info: Simple work-stealing parallelism for Rust - Rust source code
@@ -2141,6 +2154,10 @@ repos:
     group: deepin-sysdev-team
     info: A minimal seat management daemon
 
+  - repo: sensors-applet
+    group: deepin-sysdev-team
+    info: Display readings from hardware sensors in your Gnome panel
+
   - repo: sgml-data
     group: deepin-sysdev-team
     info: SGML infrastructure and SGML catalog file support
@@ -2337,7 +2354,3 @@ repos:
   - repo: zutty
     group: deepin-sysdev-team
     info: Efficient full-featured X11 terminal emulator
-
-  - repo: sensors-applet
-    group: deepin-sysdev-team
-    info: Display readings from hardware sensors in your Gnome panel

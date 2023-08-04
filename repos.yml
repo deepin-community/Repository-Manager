@@ -1439,6 +1439,11 @@ repos:
     info: OBS Studio - Free and open source software for live streaming and screen
       recording
 
+  - repo: ocaml-graphics #main
+    group: deepin-sysdev-team
+    info: The graphics library provides a set of portable drawing primitives.
+      Drawing takes place in a separate window that is created when Graphics.open_graph is called. 
+
   - repo: odc
     group: deepin-sysdev-team
     info: Tools for the Observational Data Processing (ODB)

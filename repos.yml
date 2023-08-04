@@ -164,6 +164,10 @@ repos:
     group: deepin-sysdev-team
     info: an easy to use, multi OS streaming tool.
 
+  - repo: camlp-streams
+    group: deepin-sysdev-team
+    info: OCaml library for programming with data streams
+
   - repo: cataclysm-dda
     group: deepin-sysdev-team
     info: post-apocalyptic roguelike game
@@ -1443,6 +1447,10 @@ repos:
     group: deepin-sysdev-team
     info: The graphics library provides a set of portable drawing primitives.
       Drawing takes place in a separate window that is created when Graphics.open_graph is called. 
+
+  - repo: ocaml-odoc-parser
+    group: deepin-sysdev-team
+    info: odoc is a documentation generator for OCaml.
 
   - repo: odc
     group: deepin-sysdev-team

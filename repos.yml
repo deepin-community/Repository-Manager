@@ -206,6 +206,11 @@ repos:
     group: deepin-sysdev-team
     info: tool for static C/C++ code analysis (CLI)
 
+  - repo: cpufrequtils
+    group: deepin-sysdev-team
+    info: This package contains two utilities for inspecting and setting the CPU frequency
+      through both the sysfs and procfs CPUFreq kernel interfaces.
+
   - repo: db-defaults
     group: deepin-sysdev-team
     info: Berkeley Database Utilities

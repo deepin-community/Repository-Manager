@@ -883,6 +883,10 @@ repos:
     group: deepin-sysdev-team
     info: simple top-like I/O monitor
 
+  - repo: iperf3
+    group: deepin-sysdev-team
+    info: Internet Protocol bandwidth measuring tool
+
   - repo: ipp-usb
     group: deepin-sysdev-team
     info: ipp-usb is a userland driver for USB devices supporting the IPP over USB

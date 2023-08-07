@@ -489,6 +489,10 @@ repos:
       Gothic or Dotum among the Chinese/Japanese/Korean users) high quality CJK outline
       font.
 
+  - repo: foot
+    group: deepin-sysdev-team
+    info: Fast, lightweight, and minimalistic Wayland terminal emulator
+
   - repo: fort-validator
     group: deepin-sysdev-team
     info: FORT validator performs the validation of the RPKI repository and serves

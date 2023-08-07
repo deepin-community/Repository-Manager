@@ -2015,6 +2015,10 @@ repos:
     info: The package provides a reporter for the Mocha JavaScript test framework
       in the LCOV format.
 
+  - repo: node-sinclair-typebox
+    group: deepin-sysdev-team
+    info: JSON Schema Type Builder with Static Type Resolution for TypeScript
+
   - repo: nss-pem
     group: deepin-sysdev-team
     info: This package provides a PEM file reader for Network Security Services (NSS),

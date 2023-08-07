@@ -113,6 +113,10 @@ repos:
     group: deepin-sysdev-team
     info: ASCII-art demo based on AAlib
 
+  - repo: bear
+    group: deepin-sysdev-team
+    info: Generate compilation database for clang tooling
+
   - repo: bird
     group: deepin-sysdev-team
     info: Internet routing daemon with full support for all the major routing protocols

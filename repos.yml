@@ -842,6 +842,10 @@ repos:
     group: deepin-sysdev-team
     info: HTML to PostScript converter
 
+  - repo: html-xml-utils
+    group: deepin-sysdev-team
+    info: HTML and XML manipulation utilities
+
   - repo: htop
     group: deepin-pkg
     info: Htop 是一个基于 ncurse 的进程查看器，类似于 top

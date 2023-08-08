@@ -2226,6 +2226,18 @@ repos:
     group: deepin-sysdev-team
     info: Command line interface for testing internet bandwidth using speedtest.net
 
+  - repo: spirv-headers #main
+    group: deepin-sysdev-team
+    info: Machine-readable files for the SPIR-V Registry
+
+  - repo: spirv-tools #main
+    group: deepin-sysdev-team
+    info: API and commands for processing SPIR-V modules
+
+  - repo: spirv-llvm-translator-14 #main
+    group: deepin-sysdev-team
+    info: bi-directional translator for LLVM/SPIRV
+
   - repo: ssh-tools
     group: deepin-sysdev-team
     info: collection of various tools using sshs

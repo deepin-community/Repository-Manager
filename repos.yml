@@ -337,6 +337,10 @@ repos:
     info: Fastfetch is a neofetch-like tool for fetching system information and displaying
       them in a pretty way.
 
+  - repo: fcft
+    group: deepin-sysdev-team
+    info: Simple library for font loading and glyph rasterization
+
   - repo: fdk-aac
     group: deepin-sysdev-team
     info: Fraunhofer FDK AAC Codec Library - frontend binary
@@ -2278,6 +2282,10 @@ repos:
   - repo: texlive-bin
     group: deepin-sysdev-team
     info: TeX Live binaries
+
+  - repo: tllist
+    group: deepin-sysdev-team
+    info: A C header file only implementation of a typed linked list
 
   - repo: tix
     group: deepin-sysdev-team

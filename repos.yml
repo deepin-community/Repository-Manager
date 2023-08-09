@@ -1202,6 +1202,10 @@ repos:
     info: a userspace library providing an interface to the extended netfilter accounting
       infrastructure.
 
+  - repo: libopenaptx
+    group: deepin-sysdev-team
+    info: Support for aptX and aptX HD codec variants.
+
   - repo: libparse-debian-packages-perl
     group: deepin-sysdev-team
     info: module for parsing the data from a Debian Packages.gz

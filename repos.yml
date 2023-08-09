@@ -529,6 +529,10 @@ repos:
     group: deepin-sysdev-team
     info: Tool for examining the internals of Qt application
 
+  - repo: gcc-11-cross
+    group: deepin-sysdev-team
+    info: GCC, the GNU Compiler Collection (cross compiler)
+
   - repo: gdk-pixbuf
     group: deepin-sysdev-team
     info: Image loading and manipulation library

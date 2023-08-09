@@ -12,6 +12,10 @@ repos:
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
 
+  - repo: aml
+    group: deepin-sysdev-team
+    info: An event loop library that aims at portability, utility and simplicity
+
   - repo: analog
     group: deepin-sysdev-team
     info: Analog is a fast log file processor that generates usage statistic reports
@@ -1414,6 +1418,10 @@ repos:
     group: deepin-sysdev-team
     info: User-friendly and well-featured FTP client
 
+  - repo: neatvnc
+    group: deepin-sysdev-team
+    info: Fast and neat VNC server library
+
   - repo: nemo-qml-plugin-dbus
     group: deepin-sysdev-team
     info: Nemo QML Plugin D-Bus
@@ -2342,6 +2350,10 @@ repos:
   - repo: vulkan-validationlayers
     group: deepin-sysdev-team
     info: Vulkan validation layers
+
+  - repo: wayland-utils
+    group: deepin-sysdev-team
+    info: Wayland utilities contains wayland-info
 
   - repo: waybar
     group: deepin-sysdev-team

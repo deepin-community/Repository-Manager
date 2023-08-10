@@ -280,6 +280,10 @@ repos:
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux
 
+  - repo: doctest
+    group: deepin-sysdev-team
+    info: Light and feature-rich C++ testing framework
+
   - repo: draco
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds
@@ -2459,6 +2463,14 @@ repos:
   - repo: vulkan-validationlayers
     group: deepin-sysdev-team
     info: Vulkan validation layers
+
+  - repo: wf-config
+    group: deepin-wayland-xorg
+    info: Wayfire-specific library for managing config files
+
+  - repo: wayfire
+    group: deepin-wayland-xorg
+    info: A modular and extensible wayland compositor
 
   - repo: waybar
     group: deepin-sysdev-team

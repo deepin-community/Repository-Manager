@@ -5,7 +5,11 @@ repos:
   # - repo: .guide.deepin.org #main (Repository and componet name, use '#' as separator, default componet is main.)
   #   group: sig-deepin-doc-doc-go
   #   notes: no used add removed
-
+  - repo: ldb
+    group: deepin-sysdev-team
+    notes: ldb related components have been merged into samba.
+    
   - repo: python-setuptools
     group: deepin-sysdev-team
     notes: python-setuptools is now setuptools. deepin dropped python2 so it should be removed.
+

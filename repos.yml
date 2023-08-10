@@ -2343,6 +2343,10 @@ repos:
     group: deepin-sysdev-team
     info: Terminal emulator widget for GTK+ 2.0
 
+  - repo: vte2.91
+    group: deepin-sysdev-team
+    info: VTE provides a virtual terminal widget for GTK applications.
+
   - repo: vulkan-tools
     group: deepin-sysdev-team
     info: Vulkan tools

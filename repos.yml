@@ -862,13 +862,13 @@ repos:
     group: dde
     info: GUI tool for performance analysis
 
-  - repo: html2ps
-    group: deepin-sysdev-team
-    info: HTML to PostScript converter
-
   - repo: html-xml-utils
     group: deepin-sysdev-team
     info: HTML and XML manipulation utilities
+
+  - repo: html2ps
+    group: deepin-sysdev-team
+    info: HTML to PostScript converter
 
   - repo: htop
     group: deepin-pkg
@@ -1485,8 +1485,9 @@ repos:
 
   - repo: ocaml-graphics #main
     group: deepin-sysdev-team
-    info: The graphics library provides a set of portable drawing primitives.
-      Drawing takes place in a separate window that is created when Graphics.open_graph is called. 
+    info: The graphics library provides a set of portable drawing primitives. Drawing
+      takes place in a separate window that is created when Graphics.open_graph is
+      called.
 
   - repo: ocaml-odoc-parser
     group: deepin-sysdev-team
@@ -1528,7 +1529,7 @@ repos:
     group: deepin-sysdev-team
     info: Paperwork is a personal document manager
 
-  - repo: parmap #main
+  - repo: parmap
     group: deepin-sysdev-team
     info: small OCaml library allowing to exploit multicore architectures (development)
 
@@ -2319,10 +2320,6 @@ repos:
     group: deepin-sysdev-team
     info: TeX Live binaries
 
-  - repo: tllist
-    group: deepin-sysdev-team
-    info: A C header file only implementation of a typed linked list
-
   - repo: tix
     group: deepin-sysdev-team
     info: library for Tk -- development package
@@ -2330,6 +2327,10 @@ repos:
   - repo: tl-expected
     group: deepin-pkg
     info: C++11/14/17 std::expected with functional-style extensions
+
+  - repo: tllist
+    group: deepin-sysdev-team
+    info: A C header file only implementation of a typed linked list
 
   - repo: toilet
     group: deepin-sysdev-team
@@ -2363,13 +2364,13 @@ repos:
     group: deepin-sysdev-team
     info: Vulkan validation layers
 
-  - repo: wayland-utils
-    group: deepin-sysdev-team
-    info: Wayland utilities contains wayland-info
-
   - repo: waybar
     group: deepin-sysdev-team
     info: Highly customizable Wayland bar for Sway and Wlroots based compositors.
+
+  - repo: wayland-utils
+    group: deepin-sysdev-team
+    info: Wayland utilities contains wayland-info
 
   - repo: waypipe
     group: deepin-sysdev-team
@@ -2430,6 +2431,10 @@ repos:
   - repo: xml-core
     group: deepin-sysdev-team
     info: XML infrastructure and XML catalog file support
+
+  - repo: xrdp
+    group: deepin-sysdev-team
+    info: Remote Desktop Protocol (RDP) server
 
   - repo: zfs-linux
     group: deepin-sysdev-team

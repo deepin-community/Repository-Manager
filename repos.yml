@@ -842,6 +842,14 @@ repos:
     group: deepin-sysdev-team
     info: Access Unicode character database
 
+  - repo: hatch-vcs #main
+    group: deepin-sysdev-team
+    info: Hatch plugin for versioning from VCS
+
+  - repo: hatchling #main
+    group: deepin-sysdev-team
+    info: Python package build backend used by Hatch
+
   - repo: hatop
     group: deepin-sysdev-team
     info: interactive ncurses client for haproxy
@@ -1353,6 +1361,10 @@ repos:
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support
 
+  - repo: markdown-it-py #main
+    group: deepin-sysdev-team
+    info: Python port of markdown-it and some its associated plugins
+
   - repo: mate-submodules
     group: deepin-sysdev-team
     info: MATE code components provided as Git submodule repository
@@ -1380,6 +1392,14 @@ repos:
     group: deepin-sysdev-team
     info: These are various tools for manipulating JET / MS Access database (MDB)
       files.
+
+  - repo: mdit-py-plugins #main
+    group: deepin-sysdev-team
+    info: Collection of plugins for markdown-it-py
+
+  - repo: mdurl #main
+    group: deepin-sysdev-team
+    info: Python port of the JavaScript mdurl package
 
   - repo: meld
     group: deepin-sysdev-team
@@ -1412,6 +1432,10 @@ repos:
   - repo: mtr
     group: deepin-sysdev-team
     info: Full screen ncurses and X11 traceroute tool
+
+  - repo: myst-parser #main
+    group: deepin-sysdev-team
+    info: rich and extensible flavor of Markdown for technical docs
 
   - repo: ncdu
     group: deepin-sysdev-team
@@ -1578,6 +1602,10 @@ repos:
     group: deepin-sysdev-team
     info: print info and check PNG, JNG and MNG files
 
+  - repo: poetry-core #main
+    group: deepin-sysdev-team
+    info: Poetry PEP 517 Build Backend
+
   - repo: powertop
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power
@@ -1607,10 +1635,18 @@ repos:
     group: deepin-sysdev-team
     info: Simple, correct PEP517 package builder (Python 3)
 
+  - repo: python-cattrs #main
+    group: deepin-sysdev-team
+    info: Complex custom class converters for attrs
+
   - repo: python-characteristic
     group: deepin-sysdev-team
     info: characteristic is Python package with class decorators that ease the chores
       of implementing the most common attribute-related object protocols.
+
+  - repo: python-click-default-group #main
+    group: deepin-sysdev-team
+    info: Extension for Python click adding default subcommand to group (Python 3)
 
   - repo: python-configargparse
     group: deepin-sysdev-team
@@ -1626,6 +1662,10 @@ repos:
     info: python-editor is a library that provides the editor module for programmatically
       interfacing with your system's $EDITOR.
 
+  - repo: python-exceptiongroup #main
+    group: deepin-sysdev-team
+    info: Backport of PEP 654 (exception groups)
+
   - repo: python-exif
     group: deepin-sysdev-team
     info: python-exif is a Python library to extract Exif information from digital
@@ -1638,6 +1678,10 @@ repos:
   - repo: python-gmpy2
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
+
+  - repo: python-hatch-fancy-pypi-readme #main
+    group: deepin-sysdev-team
+    info: Hatch metadata plugin for fancy PyPI READMEs
 
   - repo: python-iniparse
     group: deepin-sysdev-team
@@ -1696,6 +1740,14 @@ repos:
   - repo: python-tomli-w
     group: deepin-sysdev-team
     info: lil' TOML writer for Python
+
+  - repo: python-tomlkit #main
+    group: deepin-sysdev-team
+    info: style-preserving TOML library for Python
+
+  - repo: python-unicodedata2 #main
+    group: deepin-sysdev-team
+    info: backports and updates to Python's standard unicodedata
 
   - repo: python-utmp
     group: deepin-sysdev-team
@@ -2250,6 +2302,18 @@ repos:
     group: deepin-sysdev-team
     info: Command line interface for testing internet bandwidth using speedtest.net
 
+  - repo: sphinx-basic-ng #main
+    group: deepin-sysdev-team
+    info: modern base for Sphinx themes
+
+  - repo: sphinx-notfound-page #main
+    group: deepin-sysdev-team
+    info: Create a custom 404 page with absolute URLs hardcoded
+
+  - repo: sphinx-reredirects #main
+    group: deepin-sysdev-team
+    info: extension for Sphinx projects that handles redirects
+
   - repo: spirv-headers #main
     group: deepin-sysdev-team
     info: Machine-readable files for the SPIR-V Registry
@@ -2334,6 +2398,10 @@ repos:
   - repo: toilet
     group: deepin-sysdev-team
     info: TOIlet prints text using large characters made of smaller characters.
+
+  - repo: towncrier #main
+    group: deepin-sysdev-team
+    info: compiler for project news file
 
   - repo: trove-classifiers
     group: deepin-sysdev-team

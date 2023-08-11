@@ -1480,6 +1480,10 @@ repos:
       or TCP port. It can be used to access remote sites, make secure point-to-point
       connections, enhance wireless security, etc.
 
+  - repo: pacman-package-manager
+    group: deepin-sysdev-team
+    info: Simple library-based package manager
+
   - repo: pango1.0
     group: deepin-sysdev-team
     info: Layout and rendering of internationalized text

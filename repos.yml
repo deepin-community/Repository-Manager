@@ -524,6 +524,10 @@ repos:
       and arrays of bytes, including wide character strings and multi-byte character
       strings.
 
+  - repo: furo
+    group: deepin-sysdev-team
+    info: clean customisable Sphinx documentation theme
+
   - repo: gamgi
     group: deepin-sysdev-team
     info: GAMGI is a graphical interface tool used to establish, view, and analyze
@@ -2330,6 +2334,10 @@ repos:
   - repo: toilet
     group: deepin-sysdev-team
     info: TOIlet prints text using large characters made of smaller characters.
+
+  - repo: trove-classifiers
+    group: deepin-sysdev-team
+    info: Validates classifiers in packages for PyPI
 
   - repo: tslib
     group: deepin-pkg

@@ -899,6 +899,10 @@ repos:
     group: deepin-sysdev-team
     info: A program to configure the mouse wheel to send keypresses
 
+  - repo: intel-media-driver-non-free
+    group: deepin-sysdev-team
+    info: VAAPI driver for the Intel GEN8+ Graphics family
+
   - repo: intltool-debian
     group: deepin-sysdev-team
     info: Help i18n of RFC822 compliant config files

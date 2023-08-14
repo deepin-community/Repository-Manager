@@ -2436,6 +2436,10 @@ repos:
     group: deepin-sysdev-team
     info: XML infrastructure and XML catalog file support
 
+  - repo: xorgxrdp
+    group: deepin-sysdev-team
+    info: Remote Desktop Protocol (RDP) modules for X.org
+
   - repo: xrdp
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) server

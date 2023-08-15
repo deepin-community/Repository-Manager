@@ -365,6 +365,10 @@ repos:
     group: deepin-sysdev-team
     info: simple way to put Python packages and modules on PyPI (PEP 517)
 
+  - repo: flit-scm
+    group: deepin-sysdev-team
+    info: PEP 518 build backend that uses setuptools_scm and flit
+
   - repo: fonts-agave
     group: deepin-sysdev-team
     info: agave is a fixed-width outline typeface, designed and produced by type agaric.

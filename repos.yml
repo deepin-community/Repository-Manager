@@ -4,6 +4,10 @@ repos:
     group: sig-deepin-doc-doc-go
     info: deepin 系统的用户手册 https://guide.deepin.org
 
+  - repo: ack
+    group: deepin-sysdev-team
+    info: ack is a tool like grep, optimized for programmers
+
   - repo: acpi
     group: deepin-sysdev-team
     info: This package shows the information of the ACPI device.
@@ -870,6 +874,10 @@ repos:
     group: deepin-sysdev-team
     info: interactive ncurses client for haproxy
 
+  - repo: haveged #main
+    group: deepin-sysdev-team
+    info: Linux entropy source using the HAVEGE algorithm
+
   - repo: hexchat
     group: deepin-sysdev-team
     info: IRC client for X based on X-Chat 2.
@@ -1596,6 +1604,10 @@ repos:
   - repo: parser
     group: deepin-sysdev-team
     info: It is a process for converting text (strings) into data structures.
+
+  - repo: password-store
+    group: deepin-sysdev-team
+    info: simple password manager using GnuPG
 
   - repo: pbzip2
     group: deepin-sysdev-team

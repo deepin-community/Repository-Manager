@@ -301,6 +301,10 @@ repos:
     info: EDK II is a modern, feature-rich, cross-platform firmware development environment
       for the UEFI and UEFI Platform Initialization
 
+  - repo: eigen3
+    group: deepin-sysdev-team
+    info: C++ template library for linear algebra
+
   - repo: el-api
     group: deepin-sysdev-team
     info: EL is a simple language designed to meet the needs of the presentation layer
@@ -1561,6 +1565,10 @@ repos:
     group: deepin-sysdev-team
     info: It is a command-line tool which extracts the text out of OpenDocument Texts,
       as produced by OpenOffice.org, KOffice, StarOffice and others.
+
+  - repo: opencv
+    group: deepin-sysdev-team
+    info: Open Source Computer Vision Library
 
   - repo: openjdk-8
     group: deepin-sysdev-team

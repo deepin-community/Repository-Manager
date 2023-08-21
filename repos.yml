@@ -267,6 +267,10 @@ repos:
     group: deepin-sysdev-team
     info: debhelper addon to inject NSS services into /etc/nsswitch.conf
 
+  - repo: dh-vim-addon
+    group: deepin-sysdev-team
+    info: debhelper addon to handle vim addons
+
   - repo: dictconv
     group: deepin-sysdev-team
     info: convert a dictionary file type to another dictionary file type

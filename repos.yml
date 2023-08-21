@@ -2504,6 +2504,10 @@ repos:
     group: deepin-sysdev-team
     info: Network transparency with Wayland
 
+  - repo: wcag-contrast-ratio
+    group: deepin-sysdev-team
+    info: Library computing contrast ratios required by WCAG 2.0
+
   - repo: webkit2gtk
     group: deepin-sysdev-team
     info: Web content engine library for GTK.

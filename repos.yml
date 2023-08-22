@@ -251,6 +251,10 @@ repos:
     group: deepin-sysdev-team
     info: A tool to visualize the dependency tree of a Debian package
 
+  - repo: debugpy #main
+    group: deepin-sysdev-team
+    info: Implementation of the Debug Adapter Protocol for Python 3
+
   - repo: deepin-desktop-environment
     group: deepin-sysdev-team
     info: Deepin New Desktop Environment - Next

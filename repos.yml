@@ -190,7 +190,11 @@ repos:
 
   - repo: chromium
     group: deepin-sysdev-team
-    info: chromium 网页浏览器
+    info: chromium 
+    
+  - repo: cmatrix
+    group: deepin-sysdev-team
+    info: Screen saver for the terminal based in the movie "The Matrix".
 
   - repo: cohomcalg
     group: deepin-sysdev-team

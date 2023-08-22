@@ -2492,13 +2492,13 @@ repos:
     group: deepin-sysdev-team
     info: Vulkan validation layers
 
-  - repo: wf-config
-    group: deepin-wayland-xorg
-    info: Wayfire-specific library for managing config files
-
   - repo: wayfire
     group: deepin-wayland-xorg
     info: A modular and extensible wayland compositor
+
+  - repo: wayfire-plugins-extra
+    group: deepin-wayland-xorg
+    info: Additional plugins for Wayfire
 
   - repo: waybar
     group: deepin-sysdev-team
@@ -2516,6 +2516,10 @@ repos:
     group: deepin-sysdev-team
     info: Library computing contrast ratios required by WCAG 2.0
 
+  - repo: wcm
+    group: deepin-wayland-xorg
+    info: Wayfire Config Manager is a Gtk3 application to configure wayfire
+
   - repo: webkit2gtk
     group: deepin-sysdev-team
     info: Web content engine library for GTK.
@@ -2523,6 +2527,14 @@ repos:
   - repo: weechat
     group: deepin-sysdev-team
     info: Fast, light and extensible chat client (metapackage)
+
+  - repo: wf-config
+    group: deepin-wayland-xorg
+    info: Wayfire-specific library for managing config files
+
+  - repo: wf-shell
+    group: deepin-wayland-xorg
+    info: A GTK3-based panel for wayfire 
 
   - repo: wfuzz
     group: deepin-sysdev-team

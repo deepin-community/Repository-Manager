@@ -1236,6 +1236,10 @@ repos:
     info: It provides a modern, object-oriented methodology for object construction
       and class writing
 
+  - repo: libmoox-aliases-perl #main
+    group: deepin-sysdev-team
+    info: easy aliasing of methods and attributes in Moo
+
   - repo: libmoox-struct-perl
     group: deepin-sysdev-team
     info: simple lightweight record-like structures making sounds like cows

@@ -521,7 +521,7 @@ repos:
       Gothic or Dotum among the Chinese/Japanese/Korean users) high quality CJK outline
       font.
 
-  - repo: fonttools
+  - repo: fonttools #main
     group: deepin-sysdev-team
     info: Converts OpenType and TrueType fonts to and from XML
 

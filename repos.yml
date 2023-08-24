@@ -1897,7 +1897,11 @@ repos:
     group: deepin-sysdev-team
     info: lightweight picture-viewer for the Xfce desktop environment
 
-  - repo: rsync
+  - repo: rocm-smi-lib #main
+    group: deepin-sysdev-team
+    info: ROCm System Management Interface (ROCm SMI)
+
+  - repo: ristretto
     group: deepin-pkg
     info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
 

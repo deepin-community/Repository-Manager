@@ -235,6 +235,10 @@ repos:
     info: This package contains two utilities for inspecting and setting the CPU frequency
       through both the sysfs and procfs CPUFreq kernel interfaces.
 
+  - repo: cups-bjnp #main
+    group: deepin-sysdev-team
+    info: printer backend for Canon BJNP protocol
+
   - repo: db-defaults
     group: deepin-sysdev-team
     info: Berkeley Database Utilities
@@ -2411,13 +2415,13 @@ repos:
     group: deepin-sysdev-team
     info: Machine-readable files for the SPIR-V Registry
 
-  - repo: spirv-tools #main
-    group: deepin-sysdev-team
-    info: bi-directional translator for LLVM/SPIRV
-
   - repo: spirv-llvm-translator-14 #main
     group: deepin-sysdev-team
     info: API and commands for processing SPIR-V modules
+
+  - repo: spirv-tools #main
+    group: deepin-sysdev-team
+    info: bi-directional translator for LLVM/SPIRV
 
   - repo: ssh-tools
     group: deepin-sysdev-team

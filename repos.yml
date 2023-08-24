@@ -308,6 +308,10 @@ repos:
     group: deepin-sysdev-team
     info: data loss/scratch/aging protection for CD/DVD media
 
+  - repo: eckit #main
+    group: deepin-sysdev-team
+    info: C++ toolkit for ECMWF tools and applications
+
   - repo: edk2
     group: deepin-sysdev-team
     info: EDK II is a modern, feature-rich, cross-platform firmware development environment
@@ -972,6 +976,10 @@ repos:
     group: deepin-surface
     info: Userspace daemon for Intel Precise Touch & Stylus
 
+  - repo: ismrmrd #main
+    group: deepin-sysdev-team
+    info: ISMRM Raw Data Format
+
   - repo: isochron
     group: deepin-sysdev-team
     info: A real-time application for testing Time Sensitive Networking equipment.
@@ -1348,6 +1356,10 @@ repos:
     group: deepin-sysdev-team
     info: temporary buffer to store strings in a seekable filehandle
 
+  - repo: libstrophe #main
+    group: deepin-sysdev-team
+    info: Library for writing XMPP clients
+
   - repo: libterm-readline-gnu-perl
     group: deepin-sysdev-team
     info: Perl extension for the GNU ReadLine/History Library
@@ -1399,6 +1411,10 @@ repos:
   - repo: log4cplus
     group: deepin-sysdev-team
     info: C++ logging API providing control over log management and configuration.
+
+  - repo: loudmouth #main
+    group: deepin-sysdev-team
+    info: Lightweight C Jabber library
 
   - repo: love
     group: deepin-sysdev-team
@@ -1476,6 +1492,10 @@ repos:
   - repo: mmdebstrap
     group: deepin-sysdev-team
     info: create a Debian chroot
+
+  - repo: mongo-c-driver #main
+    group: deepin-sysdev-team
+    info: MongoDB C client library
 
   - repo: motif
     group: deepin-sysdev-team

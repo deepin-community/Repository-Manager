@@ -1284,6 +1284,10 @@ repos:
     group: deepin-sysdev-team
     info: simple lightweight record-like structures making sounds like cows
 
+  - repo: libmouse-perl #main
+    group: deepin-sysdev-team
+    info: lightweight object framework for Perl
+
   - repo: libmpack
     group: deepin-sysdev-team
     info: MessagePack for C

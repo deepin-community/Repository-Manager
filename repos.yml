@@ -308,6 +308,10 @@ repos:
     group: deepin-sysdev-team
     info: Light and feature-rich C++ testing framework
 
+  - repo: dot2tex #main
+    group: deepin-sysdev-team
+    info: Graphviz to LaTeX converter
+
   - repo: draco
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds

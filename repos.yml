@@ -389,6 +389,10 @@ repos:
     group: deepin-sysdev-team
     info: Alternative encoder for the Free Lossless Audio Codec
 
+  - repo: flatbuffers
+    group: deepin-sysdev-team
+    info: Memory Efficient Serialization Library
+
   - repo: flit
     group: deepin-sysdev-team
     info: simple way to put Python packages and modules on PyPI (PEP 517)
@@ -404,6 +408,10 @@ repos:
   - repo: fonts-alee
     group: deepin-sysdev-team
     info: free Hangul TrueType fonts
+
+  - repo: fonts-android
+    group: deepin-sysdev-team
+    info: Android OS fonts
 
   - repo: fonts-arphic-ukai
     group: deepin-sysdev-team
@@ -922,6 +930,10 @@ repos:
     group: dde
     info: GUI tool for performance analysis
 
+  - repo: howardhinnant-date
+    group: deepin-sysdev-team
+    info: A date and time library based on the C++11/14/17 <chrono> header
+
   - repo: html-xml-utils
     group: deepin-sysdev-team
     info: HTML and XML manipulation utilities
@@ -1032,6 +1044,10 @@ repos:
     group: deepin-sysdev-team
     info: tools to support fast kexec reboots.
 
+  - repo: kissfft
+    group: deepin-sysdev-team
+    info: A Fast Fourier Transform library
+
   - repo: kodi
     group: deepin-sysdev-team
     info: Open Source Home Theatre (executable binaries)
@@ -1091,6 +1107,10 @@ repos:
   - repo: libcamera
     group: deepin-sysdev-team
     info: complex camera support library
+
+  - repo: libcec
+    group: deepin-sysdev-team
+    info: USB CEC Adaptor communication Library (shared library)
 
   - repo: libcgi-compile-perl
     group: deepin-sysdev-team
@@ -2369,6 +2389,10 @@ repos:
     group: deepin-sysdev-team
     info: SGML infrastructure and SGML catalog file support
 
+  - repo: shairplay
+    group: deepin-sysdev-team
+    info: Apple airplay and raop protocol server
+
   - repo: shim-signed
     group: deepin-sysdev-team
     info: deepin uefi shim
@@ -2547,6 +2571,10 @@ repos:
   - repo: wayland-utils
     group: deepin-sysdev-team
     info: Wayland utilities contains wayland-info
+
+  - repo: waylandpp
+    group: deepin-sysdev-team
+    info: Wayland C++ bindings
 
   - repo: waypipe
     group: deepin-sysdev-team

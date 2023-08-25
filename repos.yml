@@ -239,6 +239,10 @@ repos:
     group: deepin-sysdev-team
     info: printer backend for Canon BJNP protocol
 
+  - repo: cups-pdf #main
+    group: deepin-sysdev-team
+    info: printer driver for PDF writing via CUPS
+
   - repo: db-defaults
     group: deepin-sysdev-team
     info: Berkeley Database Utilities
@@ -580,6 +584,10 @@ repos:
     group: deepin-sysdev-team
     info: clean customisable Sphinx documentation theme
 
+  - repo: fxlinuxprint #main
+    group: deepin-sysdev-team
+    info: printer driver for Fuji Xerox printers
+
   - repo: gamgi
     group: deepin-sysdev-team
     info: GAMGI is a graphical interface tool used to establish, view, and analyze
@@ -858,6 +866,10 @@ repos:
     group: deepin-sysdev-team
     info: modular web framework in Go
 
+  - repo: google-cloud-print-connector
+    group: deepin-sysdev-team
+    info: Google Cloud Print CUPS Connector
+
   - repo: gopacket
     group: deepin-sysdev-team
     info: packet capturing and decoding library for Go
@@ -991,6 +1003,10 @@ repos:
     group: deepin-sysdev-team
     info: ipp-usb is a userland driver for USB devices supporting the IPP over USB
       protocol.
+
+  - repo: ippusbxd #main
+    group: deepin-sysdev-team
+    info: Daemon for IPP USB printer support
 
   - repo: iptsd
     group: deepin-surface
@@ -1723,6 +1739,14 @@ repos:
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power
       management
+
+  - repo: printer-driver-indexbraille #main
+    group: deepin-sysdev-team
+    info: CUPS printing to Index Braille printers
+
+  - repo: printing-metas #main
+    group: deepin-sysdev-team
+    info: printer drivers metapackage
 
   - repo: pristine-tar
     group: deepin-cicd
@@ -2491,6 +2515,10 @@ repos:
   - repo: tcpdump
     group: deepin-sysdev-team
     info: command-line network traffic analyzer.
+
+  - repo: tea4cups #main
+    group: deepin-sysdev-team
+    info: Swiss Army's knife of advanced CUPS administrators
 
   - repo: termit
     group: deepin-sysdev-team

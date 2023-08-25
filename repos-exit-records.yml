@@ -17,3 +17,11 @@ repos:
     group: deepin-sysdev-team
     notes: ppx-tools-versioned is an old library that do no longer compile with. current OCaml version 
       https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1006355
+
+  - repo: llvm-toolchain-12
+    group: deepin-sysdev-team
+    notes: currently llvm-toolchain-14
+  - repo: llvm-toolchain-13
+    group: deepin-sysdev-team
+    notes: currently llvm-toolchain-14
+

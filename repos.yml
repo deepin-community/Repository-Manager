@@ -4,6 +4,10 @@ repos:
     group: sig-deepin-doc-doc-go
     info: deepin 系统的用户手册 https://guide.deepin.org
 
+  - repo: 3270font
+    group: deepin-sysdev-team
+    info: A 3270 font in a modern format
+
   - repo: ack
     group: deepin-sysdev-team
     info: ack is a tool like grep, optimized for programmers
@@ -221,6 +225,10 @@ repos:
   - repo: colortest
     group: deepin-sysdev-team
     info: utilities to test color capabilities of terminal
+
+  - repo: cool-retro-term
+    group: deepin-sysdev-team
+    info: A good looking terminal emulator which mimics the old cathode display.
 
   - repo: corkscrew
     group: deepin-sysdev-team
@@ -472,6 +480,10 @@ repos:
   - repo: fonts-hack
     group: deepin-sysdev-team
     info: Hack is designed to be a workhorse typeface for source code.
+
+  - repo: fonts-homecomputer
+    group: deepin-sysdev-team
+    info: Variable fonts based on the Commodore 64 and Amiga fonts.
 
   - repo: fonts-intel-one-mono
     group: deepin-sysdev-team
@@ -1886,6 +1898,10 @@ repos:
   - repo: qr-code-generator
     group: deepin-pkg
     info: QR Code generator library in multiple languages
+
+  - repo: qmltermwidget
+    group: deepin-sysdev-team
+    info: QML port of qtermwidget
 
   - repo: quart
     group: deepin-sysdev-team

@@ -2568,6 +2568,10 @@ repos:
     group: deepin-sysdev-team
     info: Convert the system to the merged /usr directories scheme
 
+  - repo: vfit
+    group: deepin-sysdev-team
+    info: generate backwards-compatible, static instances of variable fonts
+
   - repo: vte
     group: deepin-sysdev-team
     info: Terminal emulator widget for GTK+ 2.0

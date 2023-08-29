@@ -238,10 +238,22 @@ repos:
     group: deepin-sysdev-team
     info: tool for static C/C++ code analysis (CLI)
 
+  - repo: cpp-httplib
+    group: deepin-sysdev-team
+    info: A C++ header-only HTTP/HTTPS server and client library
+
+  - repo: cpp-jwt
+    group: deepin-sysdev-team
+    info: JSON Web Token library for C++
+
   - repo: cpufrequtils
     group: deepin-sysdev-team
     info: This package contains two utilities for inspecting and setting the CPU frequency
       through both the sysfs and procfs CPUFreq kernel interfaces.
+
+  - repo: cubeb
+    group: deepin-sysdev-team
+    info: Cubeb is a cross-platform audio library.
 
   - repo: cups-bjnp #main
     group: deepin-sysdev-team
@@ -332,6 +344,11 @@ repos:
     group: deepin-sysdev-team
     info: data loss/scratch/aging protection for CD/DVD media
 
+  - repo: dynarmic
+    group: deepin-sysdev-team
+    info: Dynarmic is a dynamic recompiler for emulating ARMv7-A and ARMv8-A (AArch64)
+      binaries.
+
   - repo: eckit #main
     group: deepin-sysdev-team
     info: C++ toolkit for ECMWF tools and applications
@@ -349,6 +366,10 @@ repos:
   - repo: empire
     group: deepin-sysdev-team
     info: war game of the century
+
+  - repo: enet
+    group: deepin-sysdev-team
+    info: thin network communication layer on top of UDP
 
   - repo: equivs
     group: deepin-sysdev-team
@@ -1561,6 +1582,10 @@ repos:
     group: deepin-sysdev-team
     info: generates programs menu for all menu-aware applications
 
+  - repo: microprofile
+    group: deepin-sysdev-team
+    info: MicroProfile is a specification for Enterprise Java microservices.  
+
   - repo: missidentify
     group: deepin-sysdev-team
     info: find win32 applications
@@ -2712,6 +2737,10 @@ repos:
     group: deepin-sysdev-team
     info: Simulate bouncing balls in a window
 
+  - repo: xbyak
+    group: deepin-sysdev-team
+    info: C++ header files for dynamic assembly code generation
+
   - repo: xdelta3
     group: deepin-sysdev-team
     info: Diff utility which works with binary files
@@ -2732,6 +2761,10 @@ repos:
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) server
 
+  - repo: yuzu
+    group: deepin-sysdev-team
+    info: Nintendo Switch emulator/debugger
+
   - repo: zfs-linux
     group: deepin-sysdev-team
     info: This library provides routines for packing and unpacking nv pairs for transporting
@@ -2745,3 +2778,7 @@ repos:
   - repo: zutty
     group: deepin-sysdev-team
     info: Efficient full-featured X11 terminal emulator
+
+  - repo: zydis
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library

@@ -89,6 +89,10 @@ repos:
     group: deepin-sysdev-team
     info: detect architectures supported by your machine/kernel
 
+  - repo: architecture-properties
+    group: deepin-sysdev-team
+    info: Declarative architecture constraints
+
   - repo: argyll
     group: deepin-sysdev-team
     info: Color Management System, calibrator and profiler

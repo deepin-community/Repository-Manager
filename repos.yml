@@ -437,6 +437,10 @@ repos:
     group: deepin-sysdev-team
     info: Thai DejaVu-compatible fonts
 
+  - repo: fonts-atarismall
+    group: deepin-sysdev-team
+    info: Very small 4 x 8 font
+
   - repo: fonts-beteckna
     group: deepin-sysdev-team
     info: geometric Futura-like sans-serif TrueType font

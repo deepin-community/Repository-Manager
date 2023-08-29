@@ -1768,6 +1768,10 @@ repos:
     group: deepin-sysdev-team
     info: printer drivers metapackage
 
+  - repo: prismlauncher
+    group: deepin-sysdev-team
+    info: FOSS Minecraft launcher supporting multiple instances and accounts
+
   - repo: pristine-tar
     group: deepin-cicd
     info: regenerate pristine tarballs

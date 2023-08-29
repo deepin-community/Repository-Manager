@@ -1350,6 +1350,10 @@ repos:
     info: a userspace library providing an interface to the extended netfilter accounting
       infrastructure.
 
+  - repo: libnvme #main
+    group: deepin-sysdev-team
+    info: NVMe management library
+
   - repo: libopenaptx
     group: deepin-sysdev-team
     info: Support for aptX and aptX HD codec variants.

@@ -1720,6 +1720,10 @@ repos:
     info: open source libraries that implement high performance subdivision surface
       (subdiv) evaluation
 
+  - repo: openttd
+    group: deepin-sysdev-team
+    info: reimplementation of Transport Tycoon Deluxe with enhancements
+
   - repo: openvpn
     group: deepin-sysdev-team
     info: OpenVPN is an application to securely tunnel IP networks over a single UDP

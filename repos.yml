@@ -336,6 +336,10 @@ repos:
     group: deepin-sysdev-team
     info: Graphviz to LaTeX converter
 
+  - repo: doxygen-awesome-css
+    group: deepin-sysdev-team
+    info: A CSS theme for Doxygen
+
   - repo: draco
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds
@@ -2764,6 +2768,10 @@ repos:
   - repo: yuzu
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger
+
+  - repo: zycore-c
+    group: deepin-sysdev-team
+    info: Zycore C library
 
   - repo: zfs-linux
     group: deepin-sysdev-team

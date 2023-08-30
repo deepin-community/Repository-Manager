@@ -2018,6 +2018,10 @@ repos:
     info: This simple library can read Adobe Font Metrics (afm) files and use the
       data conveniently.
 
+  - repo: ruby-mini-portile2
+    group: deepin-sysdev-team
+    info: simplistic port-like solution for developers
+
   - repo: ruby-minitar
     group: deepin-sysdev-team
     info: Provides POSIX tarchive management for Ruby

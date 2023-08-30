@@ -1233,6 +1233,10 @@ repos:
     group: deepin-sysdev-team
     info: GNOME library to manage keyboard configuration
 
+  - repo: libgssglue
+    group: deepin-sysdev-team
+    info: header files and docs for libgssglue
+
   - repo: libhash-multivalue-perl
     group: deepin-sysdev-team
     info: module for storing multiple values per key in a hash

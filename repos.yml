@@ -150,6 +150,10 @@ repos:
     info: It is a C++ library that supports a few operations on boolean expression
       binary trees.
 
+  - repo: boost1.81
+    group: deepin-sysdev-team
+    info: Boost provides free peer-reviewed portable C++ source libraries.
+
   - repo: bpython
     group: deepin-sysdev-team
     info: fancy interface to the Python 3 interpreter

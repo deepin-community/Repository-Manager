@@ -1434,6 +1434,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU C library compatible strftime for loggers and servers
 
+  - repo: libquazip1-qt6
+    group: deepin-sysdev-team
+    info: Qt/C++ wrapper over minizip
+
   - repo: libre-engine-re2-perl
     group: deepin-sysdev-team
     info: RE2 regex engine
@@ -1671,6 +1675,10 @@ repos:
     group: deepin-sysdev-team
     info: This is the command line tool to create/retrieve/delete netfilter accounting
       objects.
+
+  - repo: nlohmann-json3
+    group: deepin-sysdev-team
+    info: JSON for Modern C++
 
   - repo: node-esprima
     group: deepin-sysdev-team
@@ -2655,6 +2663,10 @@ repos:
   - repo: toilet
     group: deepin-sysdev-team
     info: TOIlet prints text using large characters made of smaller characters.
+
+  - repo: tomlplusplus
+    group: deepin-sysdev-team
+    info: TOML config parser and serializer for C++17
 
   - repo: towncrier #main
     group: deepin-sysdev-team

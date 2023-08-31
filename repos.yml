@@ -2760,6 +2760,10 @@ repos:
     group: deepin-sysdev-team
     info: Fast, light and extensible chat client (metapackage)
 
+  - repo: wesnoth-1.16
+    group: deepin-sysdev-team
+    info: fantasy turn-based strategy game (branch 1.16)
+
   - repo: wf-config
     group: deepin-wayland-xorg
     info: Wayfire-specific library for managing config files

@@ -1688,6 +1688,10 @@ repos:
     group: deepin-sysdev-team
     info: JSON for Modern C++
 
+  - repo: nml
+    group: deepin-sysdev-team
+    info: newgrf meta language compiler
+
   - repo: node-esprima
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis

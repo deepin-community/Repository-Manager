@@ -1376,6 +1376,10 @@ repos:
     group: deepin-sysdev-team
     info: method resolution order and method caching in general
 
+  - repo: libmypaint
+    group: deepin-sysdev-team
+    info: brush library for mypaint
+
   - repo: libnamespace-autoclean-perl
     group: deepin-sysdev-team
     info: module to remove imported symbols after compilation

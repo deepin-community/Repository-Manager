@@ -204,6 +204,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ Automated Test Cases in Headers
 
+  - repo: catcodec
+    group: deepin-sysdev-team
+    info: tool to decode/encode the sample catalogue for OpenTTD
+
   - repo: chromium
     group: deepin-sysdev-team
     info: chromium

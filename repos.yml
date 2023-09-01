@@ -1645,6 +1645,10 @@ repos:
     group: deepin-sysdev-team
     info: rich and extensible flavor of Markdown for technical docs
 
+  - repo: natsort #main
+    group: deepin-sysdev-team
+    info: Natural sorting for Python
+
   - repo: ncdu
     group: deepin-sysdev-team
     info: Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use interface

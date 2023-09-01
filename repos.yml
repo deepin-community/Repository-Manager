@@ -1940,6 +1940,10 @@ repos:
     group: deepin-sysdev-team
     info: python-iniparse could access and modify configuration data in INI files
       (Python 3)
+  
+  - repo: python-iptables
+    group: deepin-sysdev-team
+    info: Python bindings for iptables
 
   - repo: python-mailer
     group: deepin-sysdev-team

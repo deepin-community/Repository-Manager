@@ -1217,6 +1217,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module to parse Debian copyright files
 
+  - repo: libdecor-0
+    group: deepin-sysdev-team
+    info: libdecor is a library that can help Wayland clients draw window decorations for them. 
+
   - repo: libdevel-stacktrace-ashtml-perl
     group: deepin-sysdev-team
     info: module to display a stack trace in HTML
@@ -1458,6 +1462,10 @@ repos:
   - repo: librsvg
     group: deepin-sysdev-team
     info: SAX-based renderer library for SVG files
+
+  - repo: libsdl2
+    group: deepin-sysdev-team
+    info: Simple DirectMedia Layer
 
   - repo: libsis-base-java
     group: deepin-sysdev-team

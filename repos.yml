@@ -1976,6 +1976,10 @@ repos:
     group: deepin-sysdev-team
     info: Python wrapper for OCR engines (Python 3)
 
+  - repo: python-pyproject-hooks #main
+    group: deepin-sysdev-team
+    info: Wrappers to call pyproject.toml-based build backend hooks
+
   - repo: python-reportlab
     group: deepin-pkg
     info: Documentation for the ReportLab Python library

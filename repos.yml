@@ -662,6 +662,14 @@ repos:
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection (cross compiler)
 
+  - repo: gcc-12
+    group: deepin-sysdev-team
+    info: GCC, the GNU Compiler Collection
+
+  - repo: gcc-13
+    group: deepin-sysdev-team
+    info: GCC, the GNU Compiler Collection
+
   - repo: gdk-pixbuf
     group: deepin-sysdev-team
     info: Image loading and manipulation library

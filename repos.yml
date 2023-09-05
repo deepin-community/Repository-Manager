@@ -1661,6 +1661,10 @@ repos:
     group: deepin-sysdev-team
     info: create a Debian chroot
 
+  - repo: mold
+    group: deepin-sysdev-team
+    info: A Modern Linker
+
   - repo: mongo-c-driver #main
     group: deepin-sysdev-team
     info: MongoDB C client library

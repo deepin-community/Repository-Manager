@@ -1035,6 +1035,26 @@ repos:
     group: deepin-sysdev-team
     info: Neofetch with LGBTQ+ pride flags!
 
+  - repo: ibus-cangjie
+    group: deepin-sysdev-team
+    info: Cangjie and Quick Cangjie input methods for IBus
+
+  - repo: ibus-chewing
+    group: deepin-sysdev-team
+    info: Chewing engine for IBus
+
+  - repo: ibus-pinyin
+    group: deepin-sysdev-team
+    info: Intelligent Pinyin engine based on libpinyin for IBus
+
+  - repo: ibus-rime
+    group: deepin-sysdev-team
+    info: Rime engine for IBus
+  
+  - repo: ibus-sunpinyin
+    group: deepin-sysdev-team
+    info: Sunpinyin engine for IBus
+
   - repo: icu
     group: deepin-sysdev-team
     info: ICU is a C++ and C library that provides robust and full-featured Unicode
@@ -2835,6 +2855,10 @@ repos:
   - repo: xfburn
     group: deepin-sysdev-team
     info: CD-burner application for Xfce Desktop Environment
+
+  - repo: xkeyboard-config
+    group: deepin-sysdev-team
+    info: XKB data
 
   - repo: xml-core
     group: deepin-sysdev-team

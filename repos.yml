@@ -1076,6 +1076,10 @@ repos:
     group: deepin-sysdev-team
     info: A program to configure the mouse wheel to send keypresses
 
+  - repo: im-config
+    group: deepin-sysdev-team
+    info: Input method configuration framework
+
   - repo: intel-media-driver-non-free
     group: deepin-sysdev-team
     info: VAAPI driver for the Intel GEN8+ Graphics family

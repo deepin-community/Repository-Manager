@@ -1891,6 +1891,10 @@ repos:
     group: deepin-sysdev-team
     info: Poetry PEP 517 Build Backend
 
+  - repo: postgresql-15 #main
+    group: deepin-sysdev-team
+    info: The World's Most Advanced Open Source Relational Database
+
   - repo: powertop
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power

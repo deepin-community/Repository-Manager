@@ -17,3 +17,7 @@ repos:
     group: deepin-sysdev-team
     notes: ppx-tools-versioned is an old library that do no longer compile with. current OCaml version 
       https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1006355
+
+  - repo: python3-typed-ast
+    group: deepin-sysdev-team
+    notes: End of life. See https://github.com/python/typed_ast/issues/179

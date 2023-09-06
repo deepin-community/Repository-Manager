@@ -212,6 +212,10 @@ repos:
     group: deepin-sysdev-team
     info: chromium
 
+  - repo: cmake-fedora
+    group: deepin-sysdev-team
+    info: CMake helper modules for fedora developers
+
   - repo: cmatrix
     group: deepin-sysdev-team
     info: Screen saver for the terminal based in the movie "The Matrix".
@@ -718,6 +722,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU TLS library - main runtime library
 
+  - repo: gob2
+    group: deepin-sysdev-team
+    info: GTK+ Object Builder
+
   - repo: golang-1.15
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage
@@ -1220,6 +1228,10 @@ repos:
   - repo: libcamera
     group: deepin-sysdev-team
     info: complex camera support library
+
+  - repo: libcangjie
+    group: deepin-sysdev-team
+    info: Cangjie input method library
 
   - repo: libcec
     group: deepin-sysdev-team
@@ -1919,6 +1931,10 @@ repos:
   - repo: psrip
     group: deepin-sysdev-team
     info: Extract images from PostScript files
+
+  - repo: pycangjie
+    group: deepin-sysdev-team
+    info: Python bindings for libcangjie
 
   - repo: pycountry
     group: deepin-sysdev-team

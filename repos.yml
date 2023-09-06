@@ -176,6 +176,10 @@ repos:
     info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input
       Method Engine.
 
+  - repo: brltty
+    group: deepin-sysdev-team
+    info: Access software for a blind person using a braille display
+
   - repo: bsdmainutils
     group: deepin-sysdev-team
     info: Transitional package for more utilities from FreeBSD.
@@ -1116,6 +1120,10 @@ repos:
   - repo: iptsd
     group: deepin-surface
     info: Userspace daemon for Intel Precise Touch & Stylus
+
+  - repo: ipxe
+    group: deepin-sysdev-team
+    info: PXE boot firmware
 
   - repo: ismrmrd #main
     group: deepin-sysdev-team
@@ -2654,6 +2662,10 @@ repos:
   - repo: sphinx-reredirects #main
     group: deepin-sysdev-team
     info: extension for Sphinx projects that handles redirects
+
+  - repo: spice
+    group: deepin-sysdev-team
+    info: Implements the server side of the SPICE protocol
 
   - repo: spirv-headers #main
     group: deepin-sysdev-team

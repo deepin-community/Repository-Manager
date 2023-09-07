@@ -1915,6 +1915,10 @@ repos:
     group: deepin-sysdev-team
     info: The World's Most Advanced Open Source Relational Database
 
+  - repo: postgresql-common #main
+    group: deepin-sysdev-team
+    info: Multi-Version/Multi-Cluster PostgreSQL architecture
+
   - repo: powertop
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power

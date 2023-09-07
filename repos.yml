@@ -1333,6 +1333,10 @@ repos:
     group: deepin-sysdev-team
     info: Library to access scanner
 
+  - repo: intelrdfpmath #main
+    group: deepin-sysdev-team
+    info: Intel Decimal Floating-Point Math Library
+
   - repo: libio-compress-brotli-perl
     group: deepin-sysdev-team
     info: modules to read/write Brotli buffers/streams
@@ -1402,6 +1406,10 @@ repos:
   - repo: libmodule-runtime-perl
     group: deepin-sysdev-team
     info: Perl module for runtime module handling
+
+  - repo: libmongocrypt #main
+    group: deepin-sysdev-team
+    info: client-side field level encryption library
 
   - repo: libmoo-perl
     group: deepin-sysdev-team

@@ -360,6 +360,10 @@ repos:
     group: deepin-sysdev-team
     info: A CSS theme for Doxygen
 
+  - repo: dpatch
+    group: deepin-sysdev-team
+    info: patch maintenance system for Debian source packages
+
   - repo: draco
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds

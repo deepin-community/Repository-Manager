@@ -344,6 +344,10 @@ repos:
     group: deepin-sysdev-team
     info: A Python library for comparing sequences
 
+  - repo: distcc
+    group: deepin-sysdev-team
+    info: simple distributed compiler client and server
+
   - repo: distrobox
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux

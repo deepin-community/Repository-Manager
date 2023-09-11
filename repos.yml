@@ -368,6 +368,10 @@ repos:
     group: deepin-sysdev-team
     info: patch maintenance system for Debian source packages
 
+  - repo: dpkg-source-gitarchive
+    group: deepin-sysdev-team
+    info: dpkg source format for git repositories
+
   - repo: draco
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds

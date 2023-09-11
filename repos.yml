@@ -1604,6 +1604,18 @@ repos:
     group: deepin-sysdev-team
     info: kernel virtual package
 
+  - repo: llvm-toolchain-15 #main
+    group: deepin-sysdev-team
+    info: LLVM compiler infrastructure
+
+  - repo: llvm-toolchain-16 #main
+    group: deepin-sysdev-team
+    info: LLVM compiler infrastructure
+
+  - repo: llvm-toolchain-17
+    group: deepin-sysdev-team
+    info: LLVM compiler infrastructure
+
   - repo: log4cplus
     group: deepin-sysdev-team
     info: C++ logging API providing control over log management and configuration.

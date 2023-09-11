@@ -883,6 +883,10 @@ repos:
     group: deepin-sysdev-team
     info: Go CLI Table Generator
 
+  - repo: golang-github-satori-go.uuid
+    group: deepin-sysdev-team
+    info: Go package for creating and parsing UUID
+
   - repo: golang-github-smira-commander
     group: deepin-sysdev-team
     info: library to provide command-line commands and sub-commands
@@ -922,6 +926,10 @@ repos:
   - repo: golang-github-wsxiaoys-terminal
     group: deepin-sysdev-team
     info: Colorful terminal output for Golang
+
+  - repo: golang-go-xdg
+    group: deepin-sysdev-team
+    info: Go interface for XDG standards
 
   - repo: golang-gocapability
     group: deepin-sysdev-team
@@ -1066,7 +1074,7 @@ repos:
   - repo: ibus-rime
     group: deepin-sysdev-team
     info: Rime engine for IBus
-  
+
   - repo: ibus-sunpinyin
     group: deepin-sysdev-team
     info: Sunpinyin engine for IBus
@@ -1275,7 +1283,8 @@ repos:
 
   - repo: libdecor-0
     group: deepin-sysdev-team
-    info: libdecor is a library that can help Wayland clients draw window decorations for them. 
+    info: libdecor is a library that can help Wayland clients draw window decorations
+      for them.
 
   - repo: libdevel-stacktrace-ashtml-perl
     group: deepin-sysdev-team
@@ -1641,6 +1650,10 @@ repos:
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support
 
+  - repo: mariadb
+    group: deepin-sysdev-team
+    info: MariaDB Connector/C, compatibility symlinks
+
   - repo: markdown-it-py #main
     group: deepin-sysdev-team
     info: Python port of markdown-it and some its associated plugins
@@ -1695,7 +1708,7 @@ repos:
 
   - repo: microprofile
     group: deepin-sysdev-team
-    info: MicroProfile is a specification for Enterprise Java microservices.  
+    info: MicroProfile is a specification for Enterprise Java microservices.
 
   - repo: minetest
     group: deepin-sysdev-team
@@ -2044,7 +2057,7 @@ repos:
     group: deepin-sysdev-team
     info: python-iniparse could access and modify configuration data in INI files
       (Python 3)
-  
+
   - repo: python-iptables
     group: deepin-sysdev-team
     info: Python bindings for iptables
@@ -2147,6 +2160,10 @@ repos:
     group: deepin-sysdev-team
     info: rdesktop is an open source client for Windows NT/2000 Terminal Server and
       Windows Server 2003/2008.
+
+  - repo: readline5
+    group: deepin-sysdev-team
+    info: GNU readline and history libraries, development files
 
   - repo: realmd
     group: deepin-sysdev-team

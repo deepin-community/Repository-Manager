@@ -999,6 +999,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ wrappers for GTK4
 
+  - repo: gulkan
+    group: deepin-sysdev-team
+    info: Vulkan and OpenGL abstraction library
+
   - repo: gyp
     group: deepin-pkg
     info: Cross-platform build script generator.
@@ -2845,6 +2849,10 @@ repos:
     group: deepin-sysdev-team
     info: generate backwards-compatible, static instances of variable fonts
 
+  - repo: vkfft
+    group: deepin-sysdev-team
+    info: Vulkan Fast Fourier Transform library
+
   - repo: vte
     group: deepin-sysdev-team
     info: Terminal emulator widget for GTK+ 2.0
@@ -2860,6 +2868,10 @@ repos:
   - repo: vulkan-validationlayers
     group: deepin-sysdev-team
     info: Vulkan validation layers
+
+  - repo: vulkan-volk
+    group: deepin-sysdev-team
+    info: Meta package for Vulkan loader
 
   - repo: waybar
     group: deepin-sysdev-team
@@ -2956,6 +2968,10 @@ repos:
   - repo: xdelta3
     group: deepin-sysdev-team
     info: Diff utility which works with binary files
+
+  - repo: xdg-desktop-portal-wlr
+    group: deepin-sysdev-team
+    info: xdg-desktop-portal backend for wlroots
 
   - repo: xfburn
     group: deepin-sysdev-team

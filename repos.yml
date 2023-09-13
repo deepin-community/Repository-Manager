@@ -1601,6 +1601,10 @@ repos:
     group: deepin-sysdev-team
     info: Unique is a library for writing single instance application.
 
+  - repo: libvetrm
+    group: deepin-sysdev-team
+    info: libvetrm is a library that provides a virtual terminal emulator.
+
   - repo: libwacom-surface
     group: deepin-surface
     info: Patches to support Microsoft Surface Devices with libwacom
@@ -1653,6 +1657,10 @@ repos:
     group: deepin-sysdev-team
     info: LPeg is a pattern-matching library for Lua, based on Parsing Expression
       Grammars (PEGs)
+
+  - repo: lua-nvim
+    group: deepin-sysdev-team
+    info: Lua client for Neovim
 
   - repo: luceneplusplus
     group: deepin-sysdev-team
@@ -2096,6 +2104,10 @@ repos:
     group: deepin-sysdev-team
     info: python-prov is a library for W3C Provenance Data Model supporting PROV-JSON
       and PROV-XML import/export.
+
+  - repo: python-pynvim
+    group: deepin-sysdev-team
+    info: Python client and plugin host for Nvim
 
   - repo: python-pyocr
     group: deepin-sysdev-team
@@ -2836,6 +2848,10 @@ repos:
   - repo: towncrier #main
     group: deepin-sysdev-team
     info: compiler for project news file
+
+  - repo: tree-sitter
+    group: deepin-sysdev-team
+    info: Parser generator tool and incremental parsing library
 
   - repo: trove-classifiers
     group: deepin-sysdev-team

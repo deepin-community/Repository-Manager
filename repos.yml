@@ -192,6 +192,10 @@ repos:
     group: deepin-sysdev-team
     info: an easy to use, multi OS streaming tool.
 
+  - repo: byacc
+    group: deepin-sysdev-team
+    info: Berkeley Yacc, a parser generator
+
   - repo: c2050
     group: deepin-sysdev-team
     info: printer driver for Lexmark 2050 Color Jetprinter
@@ -1003,6 +1007,11 @@ repos:
     group: deepin-sysdev-team
     info: GSettings desktop-wide schemas
 
+  - repo: gsoap
+    group: deepin-sysdev-team
+    info: Development toolkit for SOAP/XML Web services and generic XML data bindings
+      in C & C++
+
   - repo: gtk-layer-shell
     group: deepin-sysdev-team
     info: GTK library for layer-shell protocol
@@ -1192,6 +1201,10 @@ repos:
   - repo: jtreg6
     group: deepin-sysdev-team
     info: Regression Test Harness for the OpenJDK platform
+
+  - repo: kbuild
+    group: deepin-sysdev-team
+    info: Framework for writing simple makefiles for complex tasks
 
   - repo: kconfiglib
     group: deepin-sysdev-team
@@ -1686,6 +1699,10 @@ repos:
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support
 
+  - repo: makeself
+    group: deepin-sysdev-team
+    info: utility to generate self-extractable archives
+
   - repo: mariadb
     group: deepin-sysdev-team
     info: MariaDB Connector/C, compatibility symlinks
@@ -1746,9 +1763,17 @@ repos:
     group: deepin-sysdev-team
     info: generates programs menu for all menu-aware applications
 
+  - repo: metro-policy
+    group: deepin-sysdev-team
+    info: Metro Policy is a policy engine for Metro.
+
   - repo: microprofile
     group: deepin-sysdev-team
     info: MicroProfile is a specification for Enterprise Java microservices.
+
+  - repo: mimepull
+    group: deepin-sysdev-team
+    info: Streaming MIME parsing library
 
   - repo: minetest
     group: deepin-sysdev-team
@@ -2685,6 +2710,10 @@ repos:
   - repo: s-tui
     group: deepin-sysdev-team
     info: Terminal based CPU stress and monitoring tool
+
+  - repo: saaj-ri
+    group: deepin-sysdev-team
+    info: SOAP with Attachments API for Java
 
   - repo: safe-iop
     group: deepin-pkg

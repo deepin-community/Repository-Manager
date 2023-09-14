@@ -718,6 +718,18 @@ repos:
     group: deepin-sysdev-team
     info: stellar data set from the Third Catalogue of Nearby Stars.
 
+  - repo: gmbal
+    group: deepin-sysdev-team
+    info: Gmbal is a JMX instrumentation and monitoring library.
+
+  - repo: gmbal-commons
+    group: deepin-sysdev-team
+    info: Gmbal-commons is a JMX instrumentation and monitoring library.
+
+  - repo: gmbal-pfl
+    group: deepin-sysdev-team
+    info: Gmbal-pfl is a JMX instrumentation and monitoring library.
+
   - repo: gnome-common
     group: deepin-sysdev-team
     info: common scripts and macros to develop with GNOME
@@ -1164,6 +1176,10 @@ repos:
   - repo: java-sip-api
     group: deepin-sysdev-team
     info: SIP API for Java
+
+  - repo: jaxws
+    group: deepin-sysdev-team
+    info: Java API for XML Web Services
 
   - repo: jpeg-xl
     group: deepin-sysdev-team
@@ -1687,6 +1703,10 @@ repos:
     info: MathJax was designed with the goal of consolidating the recent advances
       in web technologies into a single, definitive, math-on-the-web platform supporting
       the major browsers and operating systems.
+
+  - repo: maven-bundle-plugin
+    group: deepin-sysdev-team
+    info: Maven Bundle Plugin
 
   - repo: maven-debian-helper
     group: deepin-sysdev-team
@@ -2876,6 +2896,14 @@ repos:
   - repo: vfit
     group: deepin-sysdev-team
     info: generate backwards-compatible, static instances of variable fonts
+
+  - repo: virtualbox
+    group: deepin-sysdev-team
+    info: x86 virtualization solution - base binaries
+
+  - repo: virtualbox-ext-pack
+    group: deepin-sysdev-team
+    info: extra capabilities for VirtualBox, downloader.
 
   - repo: vkfft
     group: deepin-sysdev-team

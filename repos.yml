@@ -594,6 +594,10 @@ repos:
     info: Fonts-mplus is a collection of sans serif fonts with different weights,
       including Japanese glyphs.
 
+  - repo: fonts-nanum
+    group: deepin-sysdev-team
+    info: Nanum Korean fonts
+
   - repo: fonts-pc
     group: deepin-sysdev-team
     info: TrueType conversions of PC ROM fonts

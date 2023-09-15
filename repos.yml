@@ -2062,6 +2062,10 @@ repos:
     group: deepin-sysdev-team
     info: ISO databases accessible from Python 3
 
+  - repo: pyrad #main
+    group: deepin-sysdev-team
+    info: Python module for creating and decoding RADIUS packets
+
   - repo: pysimplesoap
     group: deepin-sysdev-team
     info: simple and lightweight SOAP Library (Python 3)
@@ -2130,6 +2134,10 @@ repos:
   - repo: python-iptables
     group: deepin-sysdev-team
     info: Python bindings for iptables
+
+  - repo: python-kdcproxy #main
+    group: deepin-sysdev-team
+    info: Kerberos KDC HTTP proxy WSGI module
 
   - repo: python-mailer
     group: deepin-sysdev-team

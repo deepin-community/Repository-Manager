@@ -3115,3 +3115,19 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: qwlroots
+    group: deepin-sysdev-team
+    info: wlroots qt binding
+
+  - repo: waylib
+    group: deepin-sysdev-team
+    info: A wrapper for wlroots based on Qt
+
+  - repo: treeland
+    group: deepin-sysdev-team
+    info: A display manager and wayland compositer based on waylib
+
+  - repo: dofi
+    group: deepin-sysdev-team
+    info: A smail launchpad

@@ -2233,6 +2233,10 @@ repos:
     info: FontForge is a font editor. Use it to create, edit and convert fonts in
       OpenType
 
+  - repo: qcoro
+    group: deepin-sysdev-team
+    info: C++ coroutine library for Qt
+
   - repo: qdirstat
     group: deepin-sysdev-team
     info: Qt-based directory statistics

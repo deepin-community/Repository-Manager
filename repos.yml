@@ -694,9 +694,17 @@ repos:
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection
 
+  - repo: gcc-12-cross #main
+    group: deepin-sysdev-team
+    info: GCC, the GNU Compiler Collection (cross compiler)
+
   - repo: gcc-13
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection
+
+  - repo: gcc-13-cross #main
+    group: deepin-sysdev-team
+    info: GCC, the GNU Compiler Collection (cross compiler)
 
   - repo: gdk-pixbuf
     group: deepin-sysdev-team

@@ -3098,6 +3098,10 @@ repos:
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) server
 
+  - repo: yamllint
+    group: deepin-sysdev-team
+    info: Linter for YAML files
+
   - repo: yuzu
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger

@@ -1822,6 +1822,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ logging API providing control over log management and configuration.
 
+  - repo: lolcat
+    group: deepin-sysdev-team
+    info: colorful cat
+
   - repo: loudmouth #main
     group: deepin-sysdev-team
     info: Lightweight C Jabber library
@@ -2001,6 +2005,10 @@ repos:
     group: deepin-sysdev-team
     info: This is the command line tool to create/retrieve/delete netfilter accounting
       objects.
+
+  - repo: nheko
+    group: deepin-sysdev-team
+    info: desktop IM client for the Matrix protocol
 
   - repo: nlohmann-json3
     group: deepin-sysdev-team
@@ -3126,6 +3134,10 @@ repos:
   - repo: synergy
     group: deepin-sysdev-team
     info: Share mouse, keyboard and clipboard over the network
+
+  - repo: tardiff
+    group: deepin-sysdev-team
+    info: Tarball file list comparison tool
 
   - repo: tcpdump
     group: deepin-sysdev-team

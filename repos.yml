@@ -2886,6 +2886,10 @@ repos:
     group: deepin-sysdev-team
     info: Synaptic is a graphical package management tool based on GTK+ and APT.
 
+  - repo: synergy
+    group: deepin-sysdev-team
+    info: Share mouse, keyboard and clipboard over the network
+
   - repo: tcpdump
     group: deepin-sysdev-team
     info: command-line network traffic analyzer.

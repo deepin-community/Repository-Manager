@@ -2767,6 +2767,10 @@ repos:
     group: deepin-sysdev-team
     info: A minimal seat management daemon
 
+  - repo: semver
+    group: deepin-sysdev-team
+    info: A header only c++ library of semver
+
   - repo: sensors-applet
     group: deepin-sysdev-team
     info: Display readings from hardware sensors in your Gnome panel

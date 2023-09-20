@@ -1190,6 +1190,10 @@ repos:
     group: deepin-sysdev-team
     info: PXE boot firmware
 
+  - repo: isa-support #main
+    group: deepin-sysdev-team
+    info: CPU feature checking 
+
   - repo: ismrmrd #main
     group: deepin-sysdev-team
     info: ISMRM Raw Data Format

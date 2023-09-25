@@ -2232,6 +2232,10 @@ repos:
     group: deepin-sysdev-team
     info: provides 3 modules to access utmp and wtmp records.
 
+  - repo: python-werkzeug
+    group: deepin-sysdev-team
+    info: collection of utilities for WSGI applications
+
   - repo: python3-fontforge
     group: deepin-sysdev-team
     info: FontForge is a font editor. Use it to create, edit and convert fonts in

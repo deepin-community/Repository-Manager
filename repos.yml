@@ -1936,6 +1936,10 @@ repos:
     info: It is a command-line tool which extracts the text out of OpenDocument Texts,
       as produced by OpenOffice.org, KOffice, StarOffice and others.
 
+  - repo: opencv
+    group: deepin-sysdev-team
+    info: development files for opencv
+
   - repo: openjdk-8
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)

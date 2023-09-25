@@ -2125,6 +2125,10 @@ repos:
     info: python-editor is a library that provides the editor module for programmatically
       interfacing with your system's $EDITOR.
 
+  - repo: python-ephemeral-port-reserve #main
+    group: deepin-sysdev-team
+    info: binds to an ephemeral port, force it into the TIME_WAIT state, and unbind it
+
   - repo: python-exceptiongroup #main
     group: deepin-sysdev-team
     info: Backport of PEP 654 (exception groups)
@@ -2232,7 +2236,7 @@ repos:
     group: deepin-sysdev-team
     info: provides 3 modules to access utmp and wtmp records.
 
-  - repo: python-werkzeug
+  - repo: python-werkzeug #main
     group: deepin-sysdev-team
     info: collection of utilities for WSGI applications
 

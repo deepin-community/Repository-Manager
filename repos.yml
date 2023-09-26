@@ -3261,3 +3261,7 @@ repos:
   - repo: dofi
     group: deepin-sysdev-team
     info: A smail launchpad
+
+  - repo: RyzenAdj
+    group: deepin-sysdev-team
+    info: Adjust power management settings for Ryzen Mobile Processors.

@@ -718,6 +718,10 @@ repos:
     group: deepin-sysdev-team
     info: Image loading and manipulation library
 
+  - repo: gdl
+    group: deepin-sysdev-team
+    info: GNOME DevTool libraries - development files
+
   - repo: generate-ninja
     group: deepin-sysdev-team
     info: meta-build system for ninja

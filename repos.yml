@@ -2098,6 +2098,10 @@ repos:
     group: deepin-sysdev-team
     info: simple and lightweight SOAP Library (Python 3)
 
+  - repo: pytest-mpl #main
+    group: deepin-sysdev-team
+    info: pytest plugin for Matplotlib image comparison
+
   - repo: python-arrow
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps

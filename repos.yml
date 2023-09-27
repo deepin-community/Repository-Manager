@@ -250,6 +250,10 @@ repos:
     group: deepin-sysdev-team
     info: utilities to test color capabilities of terminal
 
+  - repo: contourpy #main
+    group: deepin-sysdev-team
+    info: Python library for calculating contours of 2D quadrilateral grids
+
   - repo: cool-retro-term
     group: deepin-sysdev-team
     info: A good looking terminal emulator which mimics the old cathode display.
@@ -2020,6 +2024,10 @@ repos:
     info: Pgpgpg is a wrapper around GNU Privacy Guard which takes PGP 2.6 command
       line options, translate them and then call GnuPG to perform the desired action.
 
+  - repo: pikepdf #main
+    group: deepin-sysdev-team
+    info: Python library to read and write PDFs with QPDF
+
   - repo: pixz
     group: deepin-sysdev-team
     info: parallel, indexing XZ compressor/decompressor
@@ -2089,6 +2097,10 @@ repos:
   - repo: pycountry
     group: deepin-sysdev-team
     info: ISO databases accessible from Python 3
+
+  - repo: pypdf2 #main
+    group: deepin-sysdev-team
+    info: Pure-Python library built as a PDF toolkit
 
   - repo: pyrad #main
     group: deepin-sysdev-team
@@ -2807,6 +2819,10 @@ repos:
     group: deepin-sysdev-team
     info: deepin uefi shim
 
+  - repo: sip6 #main
+    group: deepin-sysdev-team
+    info: Python bindings generator for C/C++ libraries
+
   - repo: sitemesh
     group: deepin-sysdev-team
     info: web-page layout and decoration framework
@@ -3101,6 +3117,10 @@ repos:
   - repo: wrk
     group: deepin-sysdev-team
     info: HTTP benchmarking tool
+
+  - repo: wxpython4.0 #main
+    group: deepin-sysdev-team
+    info: Python 3 interface to the wxWidgets Cross-platform C++ GUI toolkit
 
   - repo: xball
     group: deepin-sysdev-team

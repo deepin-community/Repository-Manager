@@ -2022,9 +2022,13 @@ repos:
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis
 
-  - repo: node-source-map
+  - repo: node-html5shiv #main
     group: deepin-sysdev-team
-    info: Mozilla source map generator and consumer - Node.js module
+    info: enable use of HTML5 sectioning elements in legacy browser
+
+  - repo: node-lodash # main
+    group: deepin-sysdev-team
+    info: Lo-dash is a Node.js utility library
 
   - repo: node-mocha
     group: deepin-sysdev-team
@@ -2034,6 +2038,10 @@ repos:
   - repo: node-sinclair-typebox
     group: deepin-sysdev-team
     info: JSON Schema Type Builder with Static Type Resolution for TypeScript
+
+  - repo: node-source-map
+    group: deepin-sysdev-team
+    info: Mozilla source map generator and consumer - Node.js module
 
   - repo: nss-pem
     group: deepin-sysdev-team

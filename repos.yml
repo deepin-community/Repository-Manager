@@ -2853,7 +2853,7 @@ repos:
     group: deepin-sysdev-team
     info: Command line interface for testing internet bandwidth using speedtest.net
 
-  - repo: speexdesp
+  - repo: speexdsp
     group: deepin-sysdev-team
     info: Speex is an audio codec especially designed for compressing voice at low
       bit-rates for applications such as voice over IP (VoIP)

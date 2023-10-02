@@ -1906,6 +1906,10 @@ repos:
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis
 
+  - repo: node-source-map
+    group: deepin-sysdev-team
+    info: Mozilla source map generator and consumer - Node.js module
+
   - repo: node-mocha
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework

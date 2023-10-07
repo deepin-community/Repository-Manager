@@ -1060,6 +1060,10 @@ repos:
     group: deepin-pkg
     info: Cross-platform build script generator.
 
+  - repo: haskell-typed-process #main
+    group: deepin-sysdev-team
+    info: run external processes, with strong typing of streams
+
   - repo: haskell-unicode-collation
     group: deepin-sysdev-team
     info: Haskell implementation of the Unicode Collation Algorithm

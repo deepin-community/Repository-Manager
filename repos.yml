@@ -2077,6 +2077,10 @@ repos:
     group: deepin-sysdev-team
     info: The World's Most Advanced Open Source Relational Database
 
+  - repo: postgresql-16 #main
+    group: deepin-sysdev-team
+    info: The World's Most Advanced Open Source Relational Database
+
   - repo: postgresql-common #main
     group: deepin-sysdev-team
     info: Multi-Version/Multi-Cluster PostgreSQL architecture

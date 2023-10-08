@@ -1953,6 +1953,10 @@ repos:
     info: OBS Studio - Free and open source software for live streaming and screen
       recording
 
+  - repo: ocaml-bigarray-compat #main
+    group: deepin-sysdev-team
+    info: compatibility library for Stdlib.Bigarray
+
   - repo: ocaml-graphics #main
     group: deepin-sysdev-team
     info: The graphics library provides a set of portable drawing primitives. Drawing

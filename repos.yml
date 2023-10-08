@@ -1064,6 +1064,10 @@ repos:
     group: deepin-sysdev-team
     info: 'batteries-included conduit: adapters for common libraries'
 
+  - repo: haskell-timeit #main
+    group: deepin-sysdev-team
+    info: time a computation
+
   - repo: haskell-typed-process #main
     group: deepin-sysdev-team
     info: run external processes, with strong typing of streams

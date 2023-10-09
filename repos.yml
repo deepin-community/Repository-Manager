@@ -1324,6 +1324,10 @@ repos:
     group: deepin-sysdev-team
     info: Larch is a tool to copy messages from one IMAP server to another quickly
       and safely.
+      
+  - repo: lerc #main
+    group: deepin-sysdev-team
+    info: Limited Error Raster Compression library.
 
   - repo: libabigail
     group: deepin-sysdev-team

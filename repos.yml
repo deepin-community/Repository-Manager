@@ -3195,6 +3195,11 @@ repos:
     group: deepin-sysdev-team
     info: xdg-desktop-portal backend for wlroots
 
+  - repo: xdg-terminal-exec
+    group: deepin-sysdev-team
+    info: xdg-terminal-exec is an implementation of a proposed freedesktop.org
+      specification for launching a user's default terminal app
+
   - repo: xfburn
     group: deepin-sysdev-team
     info: CD-burner application for Xfce Desktop Environment

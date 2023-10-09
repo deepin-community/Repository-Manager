@@ -1088,6 +1088,10 @@ repos:
     group: deepin-sysdev-team
     info: Lua bindings for Haskell; documentation
 
+  - repo: haskell-hslua-marshalling #main
+    group: deepin-sysdev-team
+    info: Marshalling of values between Haskell and Lua; documentation
+
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation

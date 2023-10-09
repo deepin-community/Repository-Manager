@@ -1116,6 +1116,10 @@ repos:
     group: deepin-sysdev-team
     info: Lua bindings for Haskell; documentation
 
+  - repo: haskell-lua-arbitrary #main
+    group: deepin-sysdev-team
+    info: Arbitrary instances for Lua types; profiling libraries
+
   - repo: hatch-vcs #main
     group: deepin-sysdev-team
     info: Hatch plugin for versioning from VCS

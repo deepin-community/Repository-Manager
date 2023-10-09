@@ -1072,6 +1072,10 @@ repos:
     group: deepin-sysdev-team
     info: 'batteries-included conduit: adapters for common libraries'
 
+  - repo: haskell-commonmark #main
+    group: deepin-sysdev-team
+    info: Pure Haskell commonmark parser
+
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation

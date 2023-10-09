@@ -21,3 +21,8 @@ repos:
   - repo: python3-typed-ast
     group: deepin-sysdev-team
     notes: End of life. See https://github.com/python/typed_ast/issues/179
+
+  - repo: ldb
+    group: deepin-sysdev-team
+    notes: now part of samba
+

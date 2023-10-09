@@ -1112,6 +1112,10 @@ repos:
     group: deepin-sysdev-team
     info: A Haskell library for uniform type generic traversals
 
+  - repo: haskell-lua #main
+    group: deepin-sysdev-team
+    info: Lua bindings for Haskell; documentation
+
   - repo: hatch-vcs #main
     group: deepin-sysdev-team
     info: Hatch plugin for versioning from VCS

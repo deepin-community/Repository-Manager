@@ -1084,6 +1084,10 @@ repos:
     group: deepin-sysdev-team
     info: Pure Haskell commonmark parser extensions
 
+  - repo: haskell-hslua-core #main
+    group: deepin-sysdev-team
+    info: Lua bindings for Haskell; documentation
+
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation

@@ -2230,6 +2230,10 @@ repos:
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
 
+  - repo: python-glad
+    group: deepin-sysdev-team
+    info: GL/GLES/EGL/GLX/WGL Loader-Generator (Python 3)
+
   - repo: python-hatch-fancy-pypi-readme #main
     group: deepin-sysdev-team
     info: Hatch metadata plugin for fancy PyPI READMEs

@@ -1076,6 +1076,10 @@ repos:
     group: deepin-sysdev-team
     info: Pure Haskell commonmark parser
 
+  - repo: haskell-commonmark-pandoc #main
+    group: deepin-sysdev-team
+    info: Bridge between commonmark and pandoc AST
+
   - repo: haskell-commonmark-extensions #main
     group: deepin-sysdev-team
     info: Pure Haskell commonmark parser extensions

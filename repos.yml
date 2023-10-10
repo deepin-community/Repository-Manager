@@ -1100,6 +1100,10 @@ repos:
     group: deepin-sysdev-team
     info: Marshalling of values between Haskell and Lua; documentation
 
+  - repo: haskell-hslua-objectorientation #main
+    group: deepin-sysdev-team
+    info: Object orientation tools for HsLua
+
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation

@@ -762,6 +762,10 @@ repos:
     group: deepin-sysdev-team
     info: Automatic check of accessibility of .ui files
 
+  - repo: glances
+    group: deepin-sysdev-team
+    info: CLI curses based monitoring tool
+
   - repo: gliese
     group: deepin-sysdev-team
     info: stellar data set from the Third Catalogue of Nearby Stars.

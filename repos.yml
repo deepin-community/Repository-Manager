@@ -20,6 +20,10 @@ repos:
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
 
+  - repo: aiofiles #main
+    group: deepin-sysdev-team
+    info: Python asyncio file operations
+
   - repo: aml
     group: deepin-sysdev-team
     info: An event loop library that aims at portability, utility and simplicity
@@ -1196,6 +1200,10 @@ repos:
     group: deepin-sysdev-team
     info: Neofetch with LGBTQ+ pride flags!
 
+  - repo: hypercorn #main
+    group: deepin-sysdev-team
+    info: ASGI Server based on Hyper
+
   - repo: ibus-cangjie
     group: deepin-sysdev-team
     info: Cangjie and Quick Cangjie input methods for IBus
@@ -1746,6 +1754,10 @@ repos:
     group: deepin-sysdev-team
     info: Unique is a library for writing single instance application.
 
+  - repo: libuv1 #main
+    group: deepin-sysdev-team
+    info: asynchronous event notification library
+
   - repo: libvirt-python #main
     group: deepin-sysdev-team
     info: libvirt Python 3 bindings
@@ -2153,6 +2165,10 @@ repos:
     group: deepin-sysdev-team
     info: print info and check PNG, JNG and MNG files
 
+  - repo: poetry #main
+    group: deepin-sysdev-team
+    info: Python dependency management and packaging made easy
+
   - repo: poetry-core #main
     group: deepin-sysdev-team
     info: Poetry PEP 517 Build Backend
@@ -2278,9 +2294,25 @@ repos:
     group: deepin-sysdev-team
     info: GL/GLES/EGL/GLX/WGL Loader-Generator (Python 3)
 
+  - repo: python-h11 #main
+    group: deepin-sysdev-team
+    info: Pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+
+  - repo: python-h2 #main
+    group: deepin-sysdev-team
+    info: Pure-Python3 HTTP/2 State-Machine based protocol implementation in Python
+
   - repo: python-hatch-fancy-pypi-readme #main
     group: deepin-sysdev-team
     info: Hatch metadata plugin for fancy PyPI READMEs
+
+  - repo: python-hpack #main
+    group: deepin-sysdev-team
+    info: Pure-Python3 HTTP/2 header encoding (HPACK)
+
+  - repo: python-hyperframe #main
+    group: deepin-sysdev-team
+    info: Pure-Python3 HTTP/2 framing code
 
   - repo: python-iniparse
     group: deepin-sysdev-team
@@ -2313,6 +2345,10 @@ repos:
     info: pefile is a Python module to read and work with Portable Executable (PE)
       files.
 
+  - repo: python-priority #main
+    group: deepin-sysdev-team
+    info: pure-Python implementation of the HTTP/2 priority tree (Python 3)
+
   - repo: python-progressbar
     group: deepin-sysdev-team
     info: progressbar is a text progress bar library for Python (Python 3)
@@ -2333,6 +2369,10 @@ repos:
   - repo: python-pyproject-hooks #main
     group: deepin-sysdev-team
     info: Wrappers to call pyproject.toml-based build backend hooks
+
+  - repo: python-pytest-trio #main
+    group: deepin-sysdev-team
+    info: Pytest plugin for trio (Python3 version)
 
   - repo: python-reportlab
     group: deepin-pkg
@@ -2368,9 +2408,17 @@ repos:
     group: deepin-sysdev-team
     info: provides 3 modules to access utmp and wtmp records.
 
+  - repo: python-virtualenv #main
+    group: deepin-sysdev-team
+    info: Python virtual environment creator
+
   - repo: python-werkzeug #main
     group: deepin-sysdev-team
     info: collection of utilities for WSGI applications
+
+  - repo: python-wsproto #main
+    group: deepin-sysdev-team
+    info: WebSockets state-machine based protocol implementation
 
   - repo: python3-fontforge
     group: deepin-sysdev-team
@@ -2982,6 +3030,10 @@ repos:
     group: deepin-sysdev-team
     info: extension for Sphinx projects that handles redirects
 
+  - repo: sphinxcontrib-trio #main
+    group: deepin-sysdev-team
+    info: Make Sphinx better at documenting Python functions and methods
+
   - repo: spice
     group: deepin-sysdev-team
     info: Implements the server side of the SPICE protocol
@@ -3118,6 +3170,10 @@ repos:
   - repo: usrmerge #main
     group: deepin-sysdev-team
     info: Convert the system to the merged /usr directories scheme
+
+  - repo: uvloop #main
+    group: deepin-sysdev-team
+    info: fast implementation of asyncio event loop on top of libuv
 
   - repo: vfit
     group: deepin-sysdev-team

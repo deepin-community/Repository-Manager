@@ -93,6 +93,10 @@ repos:
     group: deepin-sysdev-team
     info: Declarative architecture constraints
 
+  - repo: argtable2
+    group: deepin-sysdev-team
+    info: Library for parsing GNU style command line arguments (development headers)
+
   - repo: argyll
     group: deepin-sysdev-team
     info: Color Management System, calibrator and profiler
@@ -1446,6 +1450,10 @@ repos:
   - repo: libdisplay-info
     group: deepin-sysdev-team
     info: This library parse EDID and DisplayID
+
+  - repo: libelfin
+    group: deepin-sysdev-team
+    info: C++11 ELF/DWARF parser (development files)
 
   - repo: libfcgi-procmanager-perl
     group: deepin-sysdev-team

@@ -1152,6 +1152,10 @@ repos:
     group: deepin-sysdev-team
     info: Arbitrary instances for Lua types; profiling libraries
 
+  - repo: haskell-pandoc-lua-marshal #main
+    group: deepin-sysdev-team
+    info: Use pandoc types in Lua; documentation
+
   - repo: hatch-vcs #main
     group: deepin-sysdev-team
     info: Hatch plugin for versioning from VCS

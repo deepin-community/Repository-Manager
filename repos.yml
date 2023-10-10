@@ -1104,6 +1104,10 @@ repos:
     group: deepin-sysdev-team
     info: Object orientation tools for HsLua
 
+  - repo: haskell-hslua-packaging #main
+    group: deepin-sysdev-team
+    info: Utilities to build Lua modules
+
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation

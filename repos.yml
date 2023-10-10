@@ -1120,6 +1120,10 @@ repos:
     group: deepin-sysdev-team
     info: Utilities to build Lua modules
 
+  - repo: haskell-lpeg #main
+    group: deepin-sysdev-team
+    info: LPeg – Parsing Expression Grammars For Lua; documentation
+
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation

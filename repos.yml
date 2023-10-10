@@ -1997,6 +1997,10 @@ repos:
     group: deepin-sysdev-team
     info: compatibility library for Stdlib.Bigarray
 
+  - repo: ocaml-bos #main
+    group: deepin-sysdev-team
+    info: basic OS interaction for OCaml
+
   - repo: ocaml-graphics #main
     group: deepin-sysdev-team
     info: The graphics library provides a set of portable drawing primitives. Drawing

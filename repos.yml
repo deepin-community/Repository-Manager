@@ -1660,6 +1660,10 @@ repos:
     group: deepin-sysdev-team
     info: NVMe management library
 
+  - repo: libocppi #main
+    group: black-desk
+    info: A C++ library for using/implement OCI runtime and distribution.
+
   - repo: libopenaptx
     group: deepin-sysdev-team
     info: Support for aptX and aptX HD codec variants.

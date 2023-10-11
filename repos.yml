@@ -1112,6 +1112,10 @@ repos:
     group: deepin-sysdev-team
     info: Marshalling of values between Haskell and Lua; documentation
 
+  - repo: haskell-hslua-module-path #main
+    group: deepin-sysdev-team
+    info: Lua module to work with file paths.; documentation
+
   - repo: haskell-hslua-module-version #main
     group: deepin-sysdev-team
     info: Lua module to work with version specifiers.; documentation

@@ -987,6 +987,10 @@ repos:
     group: deepin-sysdev-team
     info: Efficient JSON beautifier and compactor for Go
 
+  - repo: golang-github-tsosunchia-powclient
+    group: deepin-sysdev-team
+    info: NEXTTRACE project derived repository for implementing POW anti-crawling
+
   - repo: golang-github-ugorji-go-codec
     group: deepin-sysdev-team
     info: idiomatic codec and rpc lib for msgpack, cbor, json

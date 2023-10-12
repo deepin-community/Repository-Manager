@@ -1180,6 +1180,10 @@ repos:
     group: deepin-sysdev-team
     info: Use pandoc types in Lua; documentation
 
+  - repo: haskell-strict #main
+    group: deepin-sysdev-team
+    info: Strict variants of standard Haskell datatypes; documentation
+
   - repo: haskell-text-short #main
     group: deepin-sysdev-team
     info: memory-efficient representation of Unicode text strings; documentation

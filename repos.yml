@@ -1180,6 +1180,10 @@ repos:
     group: deepin-sysdev-team
     info: Use pandoc types in Lua; documentation
 
+  - repo: haskell-text-short #main
+    group: deepin-sysdev-team
+    info: memory-efficient representation of Unicode text strings; documentation
+
   - repo: hatch-vcs #main
     group: deepin-sysdev-team
     info: Hatch plugin for versioning from VCS

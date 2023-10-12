@@ -1434,6 +1434,10 @@ repos:
     group: deepin-sysdev-team
     info: simple and consistent perl framework for authentication
 
+  - repo: libcache-cache-perl #main
+    group: deepin-sysdev-team
+    info: Managed caches of persistent information
+
   - repo: libcamera
     group: deepin-sysdev-team
     info: complex camera support library
@@ -1453,6 +1457,14 @@ repos:
   - repo: libcgi-emulate-psgi-perl
     group: deepin-sysdev-team
     info: PSGI adapter for CGI
+
+  - repo: libcolor-ansi-util-perl #main
+    group: deepin-sysdev-team
+    info: routines for dealing with ANSI colors
+
+  - repo: libcolor-rgb-util-perl #main
+    group: deepin-sysdev-team
+    info: set of utilities related to RGB colors
 
   - repo: libcompress-raw-lzma-perl
     group: deepin-sysdev-team
@@ -1617,6 +1629,10 @@ repos:
     group: deepin-sysdev-team
     info: client-side field level encryption library
 
+  - repo: libmonkey-patch-action-perl #main
+    group: deepin-sysdev-team
+    info: module to monkey-patching subs from other packages, with restore
+
   - repo: libmoo-perl
     group: deepin-sysdev-team
     info: Minimalist Object Orientation library (with Moose compatibility)
@@ -1712,6 +1728,14 @@ repos:
     group: deepin-sysdev-team
     info: GNU C library compatible strftime for loggers and servers
 
+  - repo: libprogress-any-output-termprogressbarcolor-perl #main
+    group: deepin-sysdev-team
+    info: module to output progress to terminal as color bar
+
+  - repo: libprogress-any-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to record progress to any output
+
   - repo: libquazip1-qt6
     group: deepin-sysdev-team
     info: Qt/C++ wrapper over minizip
@@ -1754,9 +1778,17 @@ repos:
     group: deepin-sysdev-team
     info: temporary buffer to store strings in a seekable filehandle
 
+  - repo: libstring-elide-parts-perl #main
+    group: deepin-sysdev-team
+    info: module for eliding strings with multiple parts of different priorities
+
   - repo: libstrophe #main
     group: deepin-sysdev-team
     info: Library for writing XMPP clients
+
+  - repo: libsub-delete-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to delete subroutines
 
   - repo: libterm-readline-gnu-perl
     group: deepin-sysdev-team
@@ -1773,6 +1805,10 @@ repos:
   - repo: libtest-time-perl
     group: deepin-sysdev-team
     info: module to override the time() and sleep() functions for testing
+
+  - repo: libtext-ansi-util-perl #main
+    group: deepin-sysdev-team
+    info: routines for text containing ANSI color codes
 
   - repo: libtpms
     group: deepin-sysdev-team

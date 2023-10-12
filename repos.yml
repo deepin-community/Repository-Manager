@@ -1096,6 +1096,10 @@ repos:
     group: deepin-sysdev-team
     info: Pure Haskell commonmark parser
 
+  - repo: haskell-data-fix #main
+    group: deepin-sysdev-team
+    info: fixpoint data types; documentation
+
   - repo: haskell-commonmark-pandoc #main
     group: deepin-sysdev-team
     info: Bridge between commonmark and pandoc AST

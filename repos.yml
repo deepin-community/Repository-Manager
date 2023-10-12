@@ -1786,6 +1786,10 @@ repos:
     info: provides alternative to the proprietary 3Dconnexion SDK for their 3D input
       devices
 
+  - repo: libsys-cpuaffinity-perl
+    group: deepin-sysdev-team
+    info: module to set CPU affinity for processes
+
   - repo: libstream-buffered-perl
     group: deepin-sysdev-team
     info: temporary buffer to store strings in a seekable filehandle
@@ -3414,6 +3418,10 @@ repos:
   - repo: xbyak
     group: deepin-sysdev-team
     info: C++ header files for dynamic assembly code generation
+
+  - repo: xdelta
+    group: deepin-sysdev-team
+    info: A diff utility which works with binary files
 
   - repo: xdelta3
     group: deepin-sysdev-team

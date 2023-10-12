@@ -1810,6 +1810,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module for fully-featured shell-like command line environment
 
+  - repo: libtest-randomresult-perl #main
+    group: deepin-sysdev-team
+    info: module to test that results of a running code look random
+
   - repo: libtest-tcp-perl
     group: deepin-sysdev-team
     info: module to test TCP/IP programs

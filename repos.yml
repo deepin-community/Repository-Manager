@@ -1156,6 +1156,10 @@ repos:
     group: deepin-sysdev-team
     info: run external processes, with strong typing of streams
 
+  - repo: haskell-witherable #main
+    group: deepin-sysdev-team
+    info: filterable traversable for Haskell
+
   - repo: haskell-xml-conduit #main
     group: deepin-sysdev-team
     info: HTTP client package with conduit interface and HTTPS support

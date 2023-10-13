@@ -2094,9 +2094,17 @@ repos:
     group: deepin-sysdev-team
     info: newgrf meta language compiler
 
+  - repo: node-browserify-zlib #main
+    group: deepin-sysdev-team
+    info: Full zlib module for browserify
+
   - repo: node-esprima
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis
+
+  - repo: node-get-caller-file #main
+    group: deepin-sysdev-team
+    info: inspects the v8 stack trace
 
   - repo: node-html5shiv #main
     group: deepin-sysdev-team
@@ -2110,6 +2118,14 @@ repos:
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework
       in the LCOV format.
+
+  - repo: node-readable-stream #main
+    group: deepin-sysdev-team
+    info: stream compatibility library for Node.js and browser
+
+  - repo: node-require-main-filename #main
+    group: deepin-sysdev-team
+    info: shim for require.main.filename() that works in as many environments as possible
 
   - repo: node-sinclair-typebox
     group: deepin-sysdev-team

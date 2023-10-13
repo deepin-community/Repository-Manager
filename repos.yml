@@ -1180,6 +1180,10 @@ repos:
     group: deepin-sysdev-team
     info: Arbitrary instances for Lua types; profiling libraries
 
+  - repo: haskell-onetuple #main
+    group: deepin-sysdev-team
+    info: singleton tuple
+
   - repo: haskell-pandoc-lua-marshal #main
     group: deepin-sysdev-team
     info: Use pandoc types in Lua; documentation

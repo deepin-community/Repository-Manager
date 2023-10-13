@@ -1192,6 +1192,10 @@ repos:
     group: deepin-sysdev-team
     info: Use pandoc types in Lua; documentation
 
+  - repo: haskell-semialign #main
+    group: deepin-sysdev-team
+    info: Align and Zip type-classes from the common Semialign ancestor
+
   - repo: haskell-strict #main
     group: deepin-sysdev-team
     info: Strict variants of standard Haskell datatypes; documentation

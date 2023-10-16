@@ -1172,6 +1172,10 @@ repos:
     group: deepin-sysdev-team
     info: LPeg – Parsing Expression Grammars For Lua; documentation
 
+  - repo: haskell-th-compat #main
+    group: deepin-sysdev-team
+    info: Backward (and forward) compatible Quote and Code types
+
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation

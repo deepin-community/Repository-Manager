@@ -2191,6 +2191,10 @@ repos:
     group: deepin-sysdev-team
     info: odoc is a documentation generator for OCaml.
 
+  - repo: ocppi
+    group: deepin-sysdev-team
+    info: C++ library for OCI runtime and distribution.
+
   - repo: odc
     group: deepin-sysdev-team
     info: Tools for the Observational Data Processing (ODB)

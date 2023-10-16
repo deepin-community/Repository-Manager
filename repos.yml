@@ -1804,6 +1804,11 @@ repos:
   - repo: libsort-naturally-perl
     group: deepin-sysdev-team
     info: Sort naturally - sort lexically except for numerical parts
+    
+  - repo: libsoup3
+    group: deepin-sysdev-team
+    info: HTTP library implementation in C 
+
 
   - repo: libspnav
     group: deepin-sysdev-team

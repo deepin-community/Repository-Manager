@@ -3464,6 +3464,10 @@ repos:
     group: deepin-sysdev-team
     info: modular session / policy manager for PipeWire
 
+  - repo: wlr-protocols
+    group: deepin-sysdev-team
+    info: Wayland roots protocol extensions
+
   - repo: wlroots
     group: deepin-sysdev-team
     info: A modular Wayland compositor library

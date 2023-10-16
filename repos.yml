@@ -188,7 +188,7 @@ repos:
     group: deepin-sysdev-team
     info: Access software for a blind person using a braille display
 
-  - repo: bsdmainutils
+  - repo: bsdmainutils #main
     group: deepin-sysdev-team
     info: Transitional package for more utilities from FreeBSD.
 

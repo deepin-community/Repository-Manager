@@ -1108,6 +1108,10 @@ repos:
     group: deepin-sysdev-team
     info: Pure Haskell commonmark parser extensions
 
+  - repo: haskell-hslua-aeson #main
+    group: deepin-sysdev-team
+    info: Allow aeson data types to be used with Lua
+
   - repo: haskell-hslua-classes #main
     group: deepin-sysdev-team
     info: Type classes for HsLua

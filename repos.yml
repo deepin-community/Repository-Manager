@@ -1084,6 +1084,14 @@ repos:
     group: deepin-pkg
     info: Cross-platform build script generator.
 
+  - repo: haskell-appar #main
+    group: deepin-sysdev-team
+    info: A simple applicative parser in Parsec style
+
+  - repo: haskell-byteorder #main
+    group: deepin-sysdev-team
+    info: exposes the native endianness or byte ordering of the system
+
   - repo: haskell-citeproc #main
     group: deepin-sysdev-team
     info: Generates citations and bibliography from CSL styles
@@ -1147,6 +1155,10 @@ repos:
   - repo: haskell-indexed-traversable-instances #main
     group: deepin-sysdev-team
     info: Extra instances for indexed traversables in Haskell
+
+  - repo: haskell-iproute #main
+    group: deepin-sysdev-team
+    info: Haskell IP routing table
 
   - repo: haskell-lpeg #main
     group: deepin-sysdev-team

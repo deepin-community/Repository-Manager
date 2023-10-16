@@ -1805,7 +1805,7 @@ repos:
     group: deepin-sysdev-team
     info: Sort naturally - sort lexically except for numerical parts
     
-  - repo: libsoup3
+  - repo: libsoup3 #main
     group: deepin-sysdev-team
     info: HTTP library implementation in C 
 
@@ -3335,6 +3335,10 @@ repos:
   - repo: uvloop #main
     group: deepin-sysdev-team
     info: fast implementation of asyncio event loop on top of libuv
+
+  - repo: unifdef #main
+    group: deepin-sysdev-team
+    info: The unifdef utility selectively processes conditional cpp(1) directives.
 
   - repo: vfit
     group: deepin-sysdev-team

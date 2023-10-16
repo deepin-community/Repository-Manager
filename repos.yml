@@ -3586,3 +3586,7 @@ repos:
   - repo: RyzenAdj
     group: deepin-sysdev-team
     info: Adjust power management settings for Ryzen Mobile Processors.
+
+  - repo: ryzen-smu
+    group: deepin-sysdev-team
+    info: A Linux kernel driver that exposes access to the SMU (System Management Unit) for certain AMD Ryzen Processors

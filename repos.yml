@@ -3271,6 +3271,10 @@ repos:
     group: deepin-sysdev-team
     info: Non-interactive ssh password authentication
 
+  - repo: stdeb
+    group: deepin-sysdev-team
+    info: Python to Debian source package conversion utility
+
   - repo: stow
     group: deepin-sysdev-team
     info: Organizer for /usr/local software packages

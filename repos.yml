@@ -3573,10 +3573,6 @@ repos:
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger
 
-  - repo: yuzu
-    group: deepin-sysdev-team
-    info: Nintendo Switch emulator/debugger
-
   - repo: zope.authentication #main
     group: deepin-sysdev-team
     info: Definition of authentication basics for the Zope Framework

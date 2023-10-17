@@ -3573,10 +3573,118 @@ repos:
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger
 
-  - repo: zycore-c
+  - repo: yuzu
     group: deepin-sysdev-team
-    info: Zycore C library
+    info: Nintendo Switch emulator/debugger
 
+  - repo: zope.authentication #main
+    group: deepin-sysdev-team
+    info: Definition of authentication basics for the Zope Framework
+
+  - repo: zope.browser #main
+    group: deepin-sysdev-team
+    info: Shared Zope Toolkit browser components
+
+  - repo: zope.browser #main
+    group: deepin-sysdev-team
+    info: Shared Zope Toolkit browser components    
+
+  - repo: zope.cachedescriptors #main 
+    group: deepin-sysdev-team
+    info: Method and property caching decorators 
+
+  - repo: zope.component #main
+    group: deepin-sysdev-team
+    info: Zope Component Architecture
+
+  - repo: zope.configuration #main
+    group: deepin-sysdev-team
+    info: Zope Configuration Markup Language (ZCML)
+
+  - repo: zope.copy #main
+    group: deepin-sysdev-team
+    info: Pluggable object copying mechanism
+
+  - repo: zope.deprecation #main
+    group: deepin-sysdev-team
+    info: Zope Deprecation Infrastructure
+
+  - repo: zope.dottedname #main 
+    group: deepin-sysdev-team
+    info: Resolver for Python dotted names
+
+  - repo: zope.event #main
+    group: deepin-sysdev-team
+    info: Very basic event publishing system 
+
+  - repo: zope.exceptions #main
+    group: deepin-sysdev-team
+    info: Zope exceptions for Python
+
+  - repo: zope.fixers #main
+    group: deepin-sysdev-team
+    info: Fixers for Zope3 and the frameworks built with it
+
+  - repo: zope.hookable #main
+    group: deepin-sysdev-team
+    info: Hookable object support
+
+  - repo: zope.i18n #main
+    group: deepin-sysdev-team
+    info: Zope Internationalization Support   
+
+  - repo: zope.i18nmessageid #main
+    group: deepin-sysdev-team
+    info: Message Identifiers for internationalization
+    
+  - repo: zope.interface #main
+    group: deepin-sysdev-team
+    info: Interfaces for Python
+
+  - repo: zope.location #main
+    group: deepin-sysdev-team
+    info: Tools for working with object locations
+
+  - repo: zope.proxy #main
+    group: deepin-sysdev-team
+    info: Generic transparent proxies for Python  
+    
+  - repo: zope.publisher #main
+    group: deepin-sysdev-team
+    info: Zope publisher publishes Python objects on the web
+
+  - repo: zope.schema #main
+    group: deepin-sysdev-team
+    info: zope.interface extension for defining data schemas
+
+  - repo: zope.security #main
+    group: deepin-sysdev-team
+    info: Zope Security Framework
+
+  - repo: zope.sendmail #main
+    group: deepin-sysdev-team
+    info: Mail sending library for zope
+
+  - repo: zope.sqlalchemy #main
+    group: deepin-sysdev-team
+    info: Minimal Zope/SQLAlchemy transaction integration
+
+  - repo: zope.testbrowser #main
+    group: deepin-sysdev-team
+    info: Programmable browser for functional black-box tests
+
+  - repo: zope.testing #main
+    group: deepin-sysdev-team
+    info: Zope testing helpers
+
+  - repo: zope.testrunner #main
+    group: deepin-sysdev-team
+    info: Flexible test runner with layer support for Python
+
+  - repo: zope.traversing #main
+    group: deepin-sysdev-team
+    info: Resolving paths in the object hierarchy
+    
   - repo: zfs-linux
     group: deepin-sysdev-team
     info: This library provides routines for packing and unpacking nv pairs for transporting

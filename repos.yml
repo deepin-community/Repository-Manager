@@ -3332,6 +3332,10 @@ repos:
     group: deepin-sysdev-team
     info: A C header file only implementation of a typed linked list
 
+  - repo: tlp #mian
+    group: deepin-sysdev-team
+    info: Save battery power on laptops
+
   - repo: toilet
     group: deepin-sysdev-team
     info: TOIlet prints text using large characters made of smaller characters.

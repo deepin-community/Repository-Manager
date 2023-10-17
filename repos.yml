@@ -309,7 +309,7 @@ repos:
 
   - repo: debconf-kde #main
     group: deepin-sysdev-team
-    info:  Debconf KDE data files
+    info: Debconf KDE data files
 
   - repo: debiandoc-sgml
     group: deepin-sysdev-team

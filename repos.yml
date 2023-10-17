@@ -750,6 +750,10 @@ repos:
     group: deepin-sysdev-team
     info: Geographiclib is a C++ library to solve some geodesic problems
 
+  - repo: gh
+    group: deepin-sysdev-team
+    info: GitHub CLI, GitHub’s official command line tool
+
   - repo: gifshuffle
     group: deepin-sysdev-team
     info: Steganography program to gif images

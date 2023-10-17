@@ -2151,6 +2151,10 @@ repos:
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis
 
+  - repo: node-eventemitter3 #main
+    group: deepin-sysdev-team
+    info: high performance eventemitter for Node.js
+
   - repo: node-get-caller-file #main
     group: deepin-sysdev-team
     info: inspects the v8 stack trace
@@ -2158,6 +2162,10 @@ repos:
   - repo: node-html5shiv #main
     group: deepin-sysdev-team
     info: enable use of HTML5 sectioning elements in legacy browser
+
+  - repo: node-http-proxy # main
+    group: deepin-sysdev-team
+    info: HTTP programmable proxying library that supports websockets.
 
   - repo: node-lodash # main
     group: deepin-sysdev-team
@@ -2167,6 +2175,14 @@ repos:
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework
       in the LCOV format.
+
+  - repo: node-nock # main
+    group: deepin-sysdev-team
+    info: Nock is an HTTP mocking and expectations library for Node.js
+
+  - repo: node-propagate # main
+    group: deepin-sysdev-team
+    info: propagate events from one event emitter into another
 
   - repo: node-undici # main
     group: deepin-sysdev-team

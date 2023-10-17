@@ -306,7 +306,7 @@ repos:
   - repo: ddate
     group: deepin-sysdev-team
     info: convert Gregorian dates to Discordian dates
-    
+
   - repo: debconf-kde #main
     group: deepin-sysdev-team
     info:  Debconf KDE data files

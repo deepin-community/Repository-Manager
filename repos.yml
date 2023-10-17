@@ -482,6 +482,10 @@ repos:
     group: deepin-sysdev-team
     info: Fraunhofer FDK AAC Codec Library - frontend binary
 
+  - repo: filezilla
+    group: deepin-sysdev-team
+    info: Full-featured graphical FTP/FTPS/SFTP client
+
   - repo: flake
     group: deepin-sysdev-team
     info: Alternative encoder for the Free Lossless Audio Codec
@@ -1472,7 +1476,7 @@ repos:
     group: deepin-sysdev-team
     info: Larch is a tool to copy messages from one IMAP server to another quickly
       and safely.
-      
+
   - repo: lerc #main
     group: deepin-sysdev-team
     info: Limited Error Raster Compression library.
@@ -1570,6 +1574,10 @@ repos:
   - repo: libfile-keepass-perl
     group: deepin-sysdev-team
     info: interface to KeePass V1 and V2 database files
+
+  - repo: libfilezilla
+    group: deepin-sysdev-team
+    info: build high-performing platform-independent programs
 
   - repo: libfilesys-notify-simple-perl
     group: deepin-sysdev-team

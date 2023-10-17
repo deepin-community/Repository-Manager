@@ -2143,6 +2143,10 @@ repos:
     group: deepin-sysdev-team
     info: Full zlib module for browserify
 
+  - repo: node-cjs-module-lexer #main
+    group: deepin-sysdev-team
+    info: Fast lexer to extract named exports from CommonJS modules
+
   - repo: node-esprima
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis
@@ -2163,6 +2167,10 @@ repos:
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework
       in the LCOV format.
+
+  - repo: node-undici # main
+    group: deepin-sysdev-team
+    info: Node.js HTTP/1.1 client
 
   - repo: node-readable-stream #main
     group: deepin-sysdev-team

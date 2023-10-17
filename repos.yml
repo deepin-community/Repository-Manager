@@ -2443,6 +2443,10 @@ repos:
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps
 
+  - repo: python-autogui
+    group: deepin-sysdev-team
+    info: PyAutoGUI is a cross-platform GUI automation Python module for human beings
+
   - repo: python-build
     group: deepin-sysdev-team
     info: Simple, correct PEP517 package builder (Python 3)

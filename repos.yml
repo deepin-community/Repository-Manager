@@ -1329,6 +1329,10 @@ repos:
     group: deepin-sysdev-team
     info: displays bandwidth usage information on an network interface
 
+  - repo: ikiwiki
+    group: deepin-sysdev-team
+    info: wiki compiler
+
   - repo: imagemagick
     group: deepin-sysdev-team
     info: image manipulation programs

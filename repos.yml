@@ -858,6 +858,10 @@ repos:
     group: deepin-sysdev-team
     info: proxy for golang's io.Reader allowing you to use json as a config format
 
+  - repo: golang-github-evanw-esbuild #main
+    group: deepin-sysdev-team
+    info: extremely fast JavaScript bundler and minifier
+
   - repo: golang-github-fatih-color
     group: deepin-sysdev-team
     info: Color package for Go (golang)

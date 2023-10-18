@@ -3356,6 +3356,15 @@ repos:
     group: deepin-sysdev-team
     info: TeX Live binaries
 
+  - repo: tigervnc
+    group: deepin-sysdev-team
+    info: Virtual network computing; Common software needed by servers
+
+  - repo: tightvnc
+    group: deepin-sysdev-team
+    info: virtual network computing server software
+
+
   - repo: timeshift
     group: deepin-sysdev-team
     info: System restore utility
@@ -3476,6 +3485,10 @@ repos:
     group: deepin-sysdev-team
     info: Network transparency with Wayland
 
+  - repo: wayvnc
+    group: deepin-sysdev-team
+    info: VNC server for wlroots-based Wayland compositors
+
   - repo: wcag-contrast-ratio
     group: deepin-sysdev-team
     info: Library computing contrast ratios required by WCAG 2.0
@@ -3543,6 +3556,10 @@ repos:
   - repo: wxpython4.0 #main
     group: deepin-sysdev-team
     info: Python 3 interface to the wxWidgets Cross-platform C++ GUI toolkit
+
+  - repo: x11vnc
+    group: deepin-sysdev-team
+    info: VNC server to allow remote access to an existing X session
 
   - repo: xball
     group: deepin-sysdev-team

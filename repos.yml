@@ -1603,6 +1603,10 @@ repos:
     group: deepin-sysdev-team
     info: module for storing multiple values per key in a hash
 
+  - repo: libhtml-scrubber-perl
+    group: deepin-sysdev-team
+    info: Perl extension for scrubbing/sanitizing html
+
   - repo: libhttp-entity-parser-perl
     group: deepin-sysdev-team
     info: PSGI compliant HTTP Entity Parser

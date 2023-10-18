@@ -1059,6 +1059,10 @@ repos:
     group: deepin-sysdev-team
     info: complete batch renamer for Linux
 
+  - repo: graphene #main
+    group: deepin-sysdev-team
+    info: library of graphic data types (development files)
+
   - repo: grfcodec
     group: deepin-sysdev-team
     info: suite of programs to modify Transport Tycoon Deluxe's GRF files

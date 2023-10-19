@@ -125,6 +125,10 @@ repos:
     group: deepin-sysdev-team
     info: DEP-8 test control file generator
 
+  - repo: babel-minify #main
+    group: deepin-sysdev-team
+    info: ES6+ aware minifier based on the Babel toolchain
+
   - repo: babeld
     group: deepin-sysdev-team
     info: loop-free distance-vector routing protocol
@@ -140,6 +144,10 @@ repos:
   - repo: bear
     group: deepin-sysdev-team
     info: Generate compilation database for clang tooling
+
+  - repo: bignumber.js #main
+    group: deepin-sysdev-team
+    info: Arbitrary-precision decimal and non-decimal arithmetic
 
   - repo: bird
     group: deepin-sysdev-team
@@ -235,6 +243,10 @@ repos:
   - repo: cmatrix
     group: deepin-sysdev-team
     info: Screen saver for the terminal based in the movie "The Matrix".
+
+  - repo: coffeescript #main
+    group: deepin-sysdev-team
+    info: interpreter and compiler for the CoffeeScript language
 
   - repo: cohomcalg
     group: deepin-sysdev-team
@@ -2163,13 +2175,109 @@ repos:
     group: deepin-sysdev-team
     info: newgrf meta language compiler
 
+  - repo: node-ampproject-remapping #main
+    group: deepin-sysdev-team
+    info: Nodejs module to remap sequential sourcemaps through transformations
+
+  - repo: node-auto-bind #main
+    group: deepin-sysdev-team
+    info: Automatically bind methods to their class instance
+
+  - repo: node-ava #main
+    group: deepin-sysdev-team
+    info: Futuristic test runner
+
+  - repo: node-axios #main
+    group: deepin-sysdev-team
+    info: Promise based HTTP client for the browser and node.js
+
+  - repo: node-babel-polyfills #main
+    group: deepin-sysdev-team
+    info: node-babel plugin to generate polyfills
+
+  - repo: node-bluebird #main
+    group: deepin-sysdev-team
+    info: Fully featured Promises/A+ implementation for Node.js
+
+  - repo: node-blueimp-md5 #main
+    group: deepin-sysdev-team
+    info: JavaScript library implementing the MD5 hash algorithm
+
+  - repo: node-browser-pack #main
+    group: deepin-sysdev-team
+    info: pack node-style source files from a json stream into a browser bundle
+
+  - repo: node-browserify #main
+    group: deepin-sysdev-team
+    info: Node.js compiler for use in the browser
+
   - repo: node-browserify-zlib #main
     group: deepin-sysdev-team
     info: Full zlib module for browserify
 
+  - repo: node-bufferjs #main
+    group: deepin-sysdev-team
+    info: pure JavaScript Buffer utils
+
+  - repo: node-busboy #main
+    group: deepin-sysdev-team
+    info: Node.js module for parsing incoming HTML form data
+
+  - repo: node-cached-path-relative #main
+    group: deepin-sysdev-team
+    info: Memoize the results of the path.relative function
+
+  - repo: node-cbor #main
+    group: deepin-sysdev-team
+    info: Node.js modules to encode and parse data in CBOR data format
+
+  - repo: node-chai-as-promised #main
+    group: deepin-sysdev-team
+    info: Extends Chai with assertions about promises
+
   - repo: node-cjs-module-lexer #main
     group: deepin-sysdev-team
     info: Fast lexer to extract named exports from CommonJS modules
+
+  - repo: node-cli-truncate #main
+    group: deepin-sysdev-team
+    info: Truncate a string to a specific width in the terminal
+
+  - repo: node-combine-source-map #main
+    group: deepin-sysdev-team
+    info: Add source maps of multiple files and combine
+
+  - repo: node-concordance #main
+    group: deepin-sysdev-team
+    info: Node.js library to compare, format, diff and serialize any JavaScript value
+
+  - repo: node-cosmiconfig #main
+    group: deepin-sysdev-team
+    info: Find and load configuration from different locations
+
+  - repo: node-data-uri-to-buffer #main
+    group: deepin-sysdev-team
+    info: Generate a Buffer instance from a Data URI string
+
+  - repo: node-debbundle-insert-module-globals #main
+    group: deepin-sysdev-team
+    info: browserify transform for inserting global list of modules
+
+  - repo: node-deps-sort #main
+    group: deepin-sysdev-team
+    info: sort module depends for deterministic browserify bundles
+
+  - repo: node-ejs #main
+    group: deepin-sysdev-team
+    info: Embedded JavaScript templates
+
+  - repo: node-es-module-lexer #main
+    group: deepin-sysdev-team
+    info: Fast lexer to extract named exports from EcmaScript modules
+
+  - repo: node-es6-error #main
+    group: deepin-sysdev-team
+    info: Easily-extendable error for use with ES6 classes
 
   - repo: node-esprima
     group: deepin-sysdev-team
@@ -2179,6 +2287,10 @@ repos:
     group: deepin-sysdev-team
     info: high performance eventemitter for Node.js
 
+  - repo: node-fast-json-stable-stringify #main
+    group: deepin-sysdev-team
+    info: Deterministic JSON.stringify()
+
   - repo: node-get-caller-file #main
     group: deepin-sysdev-team
     info: inspects the v8 stack trace
@@ -2187,46 +2299,250 @@ repos:
     group: deepin-sysdev-team
     info: enable use of HTML5 sectioning elements in legacy browser
 
+  - repo: node-htmlescape #main
+    group: deepin-sysdev-team
+    info: escape string for safe use in html
+
   - repo: node-http-proxy # main
     group: deepin-sysdev-team
     info: HTTP programmable proxying library that supports websockets.
 
+  - repo: node-ignore-by-default #main
+    group: deepin-sysdev-team
+    info: List of directories you should ignore by default
+
+  - repo: node-irregular-plurals #main
+    group: deepin-sysdev-team
+    info: Map of nouns to their irregular plural form
+
+  - repo: node-jasmine #main
+    group: deepin-sysdev-team
+    info: Behavior Driven Development testing framework for JavaScript
+
+  - repo: node-jest #main
+    group: deepin-sysdev-team
+    info: Delightful JavaScript Testing
+
+  - repo: node-js-beautify #main
+    group: deepin-sysdev-team
+    info: JavaScript, CSS and HTML unobfuscator and beautifier
+
+  - repo: node-jschardet #main
+    group: deepin-sysdev-team
+    info: Character encoding auto-detection in JavaScript
+
+  - repo: node-jsonstream #main
+    group: deepin-sysdev-team
+    info: streaming JSON.parse and stringify
+
+  - repo: node-labeled-stream-splicer #main
+    group: deepin-sysdev-team
+    info: streaming pipeline with a mutable configuration and labels
+
+  - repo: node-livescript #main
+    group: deepin-sysdev-team
+    info: language which compiles to JavaScript
+
+  - repo: node-load-json-file #main
+    group: deepin-sysdev-team
+    info: read and parse a JSON file
+
   - repo: node-lodash # main
     group: deepin-sysdev-team
     info: Lo-dash is a Node.js utility library
+
+  - repo: node-log4js #main
+    group: deepin-sysdev-team
+    info: Conversion of the log4js framework to work with Node.js
+
+  - repo: node-matcher #main
+    group: deepin-sysdev-team
+    info: Simple wildcard matching
+
+  - repo: node-md5-hex #main
+    group: deepin-sysdev-team
+    info: Create a MD5 hash with hex encoding
+
+  - repo: node-md5-o-matic #main
+    group: deepin-sysdev-team
+    info: Fast and simple MD5 hashing utility with zero module dependencies
+
+  - repo: node-memfs #main
+    group: deepin-sysdev-team
+    info: In-memory filesystem with Node's API
+
+  - repo: node-minipass #main
+    group: deepin-sysdev-team
+    info: Minimal implementation of a PassThrough for Node.js
+
+  - repo: node-mkdirp-classic #main
+    group: deepin-sysdev-team
+    info: mkdirp with non promise interface
 
   - repo: node-mocha
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework
       in the LCOV format.
 
+  - repo: node-module-deps #main
+    group: deepin-sysdev-team
+    info: walk the dependency graph to generate json output for browser-pack
+
+  - repo: node-n3 #main
+    group: deepin-sysdev-team
+    info: fast asynchronous streaming RDF for JavaScript - Node library
+
   - repo: node-nock # main
     group: deepin-sysdev-team
     info: Nock is an HTTP mocking and expectations library for Node.js
+
+  - repo: node-parents #main
+    group: deepin-sysdev-team
+    info: Node.js module returning all the parent directories
+
+  - repo: node-parse5 #main
+    group: deepin-sysdev-team
+    info: HTML parser and serializer for Node.js
+
+  - repo: node-picocolors #main
+    group: deepin-sysdev-team
+    info: library for terminal output formatting with colors (Node.js module)
+
+  - repo: node-plur #main
+    group: deepin-sysdev-team
+    info: Pluralize a word
 
   - repo: node-propagate # main
     group: deepin-sysdev-team
     info: propagate events from one event emitter into another
 
-  - repo: node-undici # main
+  - repo: node-proxy-from-env #main
     group: deepin-sysdev-team
-    info: Node.js HTTP/1.1 client
+    info: offers getProxyForUrl to get the proxy URL for a URL
+
+  - repo: node-pure-rand #main
+    group: deepin-sysdev-team
+    info: Fast pseudorandom number generator for Node.js
+
+  - repo: node-querystringify #main
+    group: deepin-sysdev-team
+    info: Querystringify - Small, simple but powerful query string parser
+
+  - repo: node-re2 #main
+    group: deepin-sysdev-team
+    info: Node.js bindings for RE2, a fast and safe regular expression engine
+
+  - repo: node-read-only-stream #main
+    group: deepin-sysdev-team
+    info: Node.js read-only stream implementation
 
   - repo: node-readable-stream #main
     group: deepin-sysdev-team
     info: stream compatibility library for Node.js and browser
 
+  - repo: node-regenerator #main
+    group: deepin-sysdev-team
+    info: Functional JavaScript transformator
+
+  - repo: node-regex-not #main
+    group: deepin-sysdev-team
+    info: regex for matching everything except for the given string
+
+  - repo: node-require-from-string #main
+    group: deepin-sysdev-team
+    info: Require module from string
+
   - repo: node-require-main-filename #main
     group: deepin-sysdev-team
     info: shim for require.main.filename() that works in as many environments as possible
+
+  - repo: node-rollup-plugin-typescript2 #main
+    group: deepin-sysdev-team
+    info: Seamless integration between Rollup and TypeScript
+
+  - repo: node-shasum #main
+    group: deepin-sysdev-team
+    info: Pure javascript function that return the sha1sum
+
+  - repo: node-shell-quote #main
+    group: deepin-sysdev-team
+    info: quote and parse shell commands
 
   - repo: node-sinclair-typebox
     group: deepin-sysdev-team
     info: JSON Schema Type Builder with Static Type Resolution for TypeScript
 
+  - repo: node-socket.io-parser #main
+    group: deepin-sysdev-team
+    info: socket.io protocol parser
+
   - repo: node-source-map
     group: deepin-sysdev-team
     info: Mozilla source map generator and consumer - Node.js module
+
+  - repo: node-stack-trace #main
+    group: deepin-sysdev-team
+    info: Get v8 stack traces as an array of CallSite objects for Node.js
+
+  - repo: node-stream-combiner2 #main
+    group: deepin-sysdev-team
+    info: combine stream using stream3 Node.js API
+
+  - repo: node-stream-splicer #main
+    group: deepin-sysdev-team
+    info: streaming pipeline with a mutable configuration
+
+  - repo: node-subarg #main
+    group: deepin-sysdev-team
+    info: parse arguments with recursive contexts
+
+  - repo: node-syntax-error #main
+    group: deepin-sysdev-team
+    info: detect and report syntax errors for javascript source
+
+  - repo: node-tar-fs #main
+    group: deepin-sysdev-team
+    info: Node.js module that provides filesystem-like access to tar files
+
+  - repo: node-to-regex #main
+    group: deepin-sysdev-team
+    info: regex generator from string or array of strings
+
+  - repo: node-umd #main
+    group: deepin-sysdev-team
+    info: Universal Module Definition for use in automated build systems
+
+  - repo: node-undici # main
+    group: deepin-sysdev-team
+    info: Node.js HTTP/1.1 client
+
+  - repo: node-url-parse #main
+    group: deepin-sysdev-team
+    info: Parse URL in node using the URL module and in the browser using the DOM
+
+  - repo: node-uvu #main
+    group: deepin-sysdev-team
+    info: Extremely fast and lightweight test runner for Node.js and the browser
+
+  - repo: node-v8-compile-cache #main
+    group: deepin-sysdev-team
+    info: Leverage v8 compile cache to speedup loading of Node.js modules
+
+  - repo: node-webpack-merge #main
+    group: deepin-sysdev-team
+    info: merge designed for Webpack
+
+  - repo: node-ws-iconv #main
+    group: deepin-sysdev-team
+    info: A set of Node libraries for various filesystem-related functions
+
+  - repo: node-yarn-tool-resolve-package #main
+    group: deepin-sysdev-team
+    info: Resolve package root and package.json paths
+
+  - repo: node-zx #main
+    group: deepin-sysdev-team
+    info: tool to launch modern Javascript scripts
 
   - repo: nss-pem
     group: deepin-sysdev-team

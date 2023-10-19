@@ -1478,6 +1478,10 @@ repos:
     group: deepin-sysdev-team
     info: command line interface to KeePassX password manager databases
 
+  - repo: krfb
+    group: deepin-sysdev-team
+    info: Desktop Sharing for KDE
+
   - repo: kruler
     group: deepin-sysdev-team
     info: KRuler is a tool for measuring the size, in pixels, of items on the screen.

@@ -1478,6 +1478,10 @@ repos:
     group: deepin-sysdev-team
     info: command line interface to KeePassX password manager databases
 
+  - repo: kpipewire
+    group: deepin-sysdev-team
+    info: Components for rendering and recording PipeWire streams using Qt.
+
   - repo: krfb
     group: deepin-sysdev-team
     info: Desktop Sharing for KDE

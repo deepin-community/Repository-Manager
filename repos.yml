@@ -750,6 +750,10 @@ repos:
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection (cross compiler)
 
+  - repo: gdcm
+    group: deepin-sysdev-team
+    info: Grassroots DICOM runtime libraries
+
   - repo: gdk-pixbuf
     group: deepin-sysdev-team
     info: Image loading and manipulation library

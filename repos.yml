@@ -473,6 +473,10 @@ repos:
     group: deepin-sysdev-team
     info: Extract page mode and named destinations as PDFmark from PDF
 
+  - repo: eigen3 #main
+    group: deepin-sysdev-team
+    info: lightweight C++ template library for linear algebra
+
   - repo: fail2ban
     group: deepin-sysdev-team
     info: ban hosts that cause multiple authentication errors
@@ -3569,6 +3573,10 @@ repos:
     info: The socket program is a simple tool for socket based connections. It can
       be used to create simple daemons (in both standalone and inetd mode), to connect
       to other daemons or to redirect ports.
+
+  - repo: socketplusplus #main
+    group: deepin-sysdev-team
+    info: source for the C++ socket library
 
   - repo: spdx-licenses
     group: deepin-sysdev-team

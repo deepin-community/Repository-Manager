@@ -2668,6 +2668,10 @@ repos:
     group: deepin-sysdev-team
     info: Paperwork is a personal document manager
 
+  - repo: papyrus
+    group: deepin-sysdev-team
+    info: DICOM compatible file format library
+
   - repo: parmap
     group: deepin-sysdev-team
     info: small OCaml library allowing to exploit multicore architectures (development)

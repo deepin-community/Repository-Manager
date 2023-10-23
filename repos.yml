@@ -2796,6 +2796,10 @@ repos:
     group: deepin-sysdev-team
     info: ISO databases accessible from Python 3
 
+  - repo: pydevd #main
+    group: deepin-sysdev-team
+    info: Debugger used by debugpy
+
   - repo: pypdf2 #main
     group: deepin-sysdev-team
     info: Pure-Python library built as a PDF toolkit

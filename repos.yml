@@ -2621,6 +2621,10 @@ repos:
     group: deepin-sysdev-team
     info: oneAPI Video Processing Library
 
+  - repo: onetbb #main
+    group: deepin-sysdev-team
+    info: parallelism library for C++ - development files
+
   - repo: opencv #main
     group: deepin-sysdev-team
     info: development files for opencv

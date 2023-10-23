@@ -2872,6 +2872,22 @@ repos:
     group: deepin-sysdev-team
     info: python-geojson contains Python 3 bindings and utilities for GeoJSON
 
+  - repo: python-gevent #main
+    group: deepin-sysdev-team
+    info: gevent is a coroutine-based Python networking library
+
+  - repo: python-bytecode #main
+    group: deepin-sysdev-team
+    info: Python module to generate, modify and optimize Python bytecode
+
+  - repo: pandas #main
+    group: deepin-sysdev-team
+    info: Python module to generate, modify and optimize Python bytecode
+
+  - repo: python-untangle #main
+    group: deepin-sysdev-team
+    info:  Convert XML to a Python object
+
   - repo: python-gmpy2
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations

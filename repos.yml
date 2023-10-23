@@ -717,6 +717,11 @@ repos:
     group: deepin-sysdev-team
     info: printer driver for Fuji Xerox printers
 
+  - repo: ftgl #main
+    group: deepin-sysdev-team
+    info: development files for libftgl
+
+
   - repo: gamgi
     group: deepin-sysdev-team
     info: GAMGI is a graphical interface tool used to establish, view, and analyze

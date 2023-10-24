@@ -2376,6 +2376,10 @@ repos:
     group: deepin-sysdev-team
     info: streaming pipeline with a mutable configuration and labels
 
+  - repo: node-leveldown #main
+    group: deepin-sysdev-team
+    info: LevelDB bindings - Node.js module
+
   - repo: node-livescript #main
     group: deepin-sysdev-team
     info: language which compiles to JavaScript

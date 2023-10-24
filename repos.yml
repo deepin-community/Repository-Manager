@@ -421,6 +421,10 @@ repos:
     info: Dynarmic is a dynamic recompiler for emulating ARMv7-A and ARMv8-A (AArch64)
       binaries.
 
+  - repo: eb
+    group: deepin-sysdev-team
+    info: C library for accessing EB, EBG, EBXA, and EPWING CD-ROM dictionaries
+
   - repo: eckit #main
     group: deepin-sysdev-team
     info: C++ toolkit for ECMWF tools and applications
@@ -1075,6 +1079,10 @@ repos:
   - repo: golang-gopkg-macaron-macaron
     group: deepin-sysdev-team
     info: modular web framework in Go
+
+  - repo: goldendict
+    group: deepin-sysdev-team
+    info: feature-rich dictionary lookup program
 
   - repo: google-cloud-print-connector
     group: deepin-sysdev-team
@@ -2191,6 +2199,10 @@ repos:
   - repo: nheko
     group: deepin-sysdev-team
     info: desktop IM client for the Matrix protocol
+
+  - repo: nkf
+    group: deepin-sysdev-team
+    info: Network Kanji code conversion Filter
 
   - repo: nlohmann-json3
     group: deepin-sysdev-team

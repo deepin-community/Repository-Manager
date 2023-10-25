@@ -1722,6 +1722,10 @@ repos:
     group: deepin-sysdev-team
     info: module to log events to an array (reference)
 
+  - repo: libmbim #main
+    group: deepin-sysdev-team
+    info: Header files for adding MBIM support to applications that use glib
+
   - repo: libmodule-implementation-perl
     group: deepin-sysdev-team
     info: module for loading one of several alternate implementations of a module
@@ -1864,6 +1868,14 @@ repos:
   - repo: libprogress-any-perl #main
     group: deepin-sysdev-team
     info: Perl module to record progress to any output
+
+  - repo: libqmi #main
+    group: deepin-sysdev-team
+    info: Header files for adding QMI support to applications that use glib
+
+  - repo: libqrtr-glib #main
+    group: deepin-sysdev-team
+    info: Development files for libqrtr-glib
 
   - repo: libquazip1-qt6
     group: deepin-sysdev-team
@@ -2128,6 +2140,10 @@ repos:
   - repo: mmdebstrap
     group: deepin-sysdev-team
     info: create a Debian chroot
+
+  - repo: modemmanager #main
+    group: deepin-sysdev-team
+    info: D-Bus service for managing modems - library development files
 
   - repo: mold
     group: deepin-sysdev-team

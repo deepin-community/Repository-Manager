@@ -3059,6 +3059,13 @@ repos:
     info: FontForge is a font editor. Use it to create, edit and convert fonts in
       OpenType
 
+  - repo: python3.12
+    group: deepin-sysdev-team
+    info: >
+      Python is a high-level, interactive, object-oriented language. Its 3.12 version 
+      includes an extensive class library with lots of goodies for network programming, 
+      system administration, sounds and graphics. 
+
   - repo: qcoro
     group: deepin-sysdev-team
     info: C++ coroutine library for Qt

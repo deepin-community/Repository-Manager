@@ -3620,6 +3620,10 @@ repos:
     group: deepin-sysdev-team
     info: SGML infrastructure and SGML catalog file support
 
+  - repo: shaderc #main
+    group: deepin-sysdev-team
+    info: Command line compiler for GLSL/HLSL to SPIR-V
+
   - repo: shairplay
     group: deepin-sysdev-team
     info: Apple airplay and raop protocol server

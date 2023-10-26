@@ -3849,6 +3849,10 @@ repos:
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.
 
+  - repo: valgrind-if-available #main
+    group: deepin-sysdev-team
+    info: dependency package to pull in Valgrind if it's available
+
   - repo: vfit
     group: deepin-sysdev-team
     info: generate backwards-compatible, static instances of variable fonts

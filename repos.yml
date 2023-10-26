@@ -2670,6 +2670,10 @@ repos:
     group: deepin-sysdev-team
     info: development files for opencv
 
+  - repo: openh264
+    group: deepin-sysdev-team
+    info: OpenH264 Video Codec
+
   - repo: openjdk-8
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)

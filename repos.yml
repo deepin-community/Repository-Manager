@@ -1479,6 +1479,10 @@ repos:
     group: deepin-sysdev-team
     info: KVTML files for KDE-Edu programs
 
+  - repo: kdegraphics-mobipocket
+    group: deepin-sysdev-team
+    info: library for reading Mobipocket documents
+
   - repo: kdump-tools
     group: deepin-sysdev-team
     info: kdump is a mechanism to capture crash dumps for the Linux kernel.

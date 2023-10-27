@@ -1607,6 +1607,22 @@ repos:
     group: deepin-sysdev-team
     info: PSGI adapter for CGI
 
+  - repo: libcgi-formbuilder-perl #main
+    group: deepin-sysdev-team
+    info: Easily generate and process stateful CGI forms
+
+  - repo: libcgi-session-perl #main
+    group: deepin-sysdev-team
+    info: persistent session data in CGI applications
+
+  - repo: libcgi-ssi-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to use SSI from CGI scripts
+
+  - repo: libclass-errorhandler-perl #main
+    group: deepin-sysdev-team
+    info: Base class for error handling
+
   - repo: libcolor-ansi-util-perl #main
     group: deepin-sysdev-team
     info: routines for dealing with ANSI colors
@@ -1626,6 +1642,14 @@ repos:
   - repo: libcrypt-passwdmd5-perl
     group: deepin-sysdev-team
     info: interoperable MD5-based crypt() for Perl
+
+  - repo: libdatetime-format-natural-perl #main
+    group: deepin-sysdev-team
+    info: Perl module for parsing human-readable date/time strings
+
+  - repo: libdatetime-format-w3cdtf-perl #main
+    group: deepin-sysdev-team
+    info: module to parse and format W3CDTF datetime strings
 
   - repo: libdebian-copyright-perl
     group: deepin-sysdev-team
@@ -1691,6 +1715,10 @@ repos:
   - repo: libhtml-scrubber-perl
     group: deepin-sysdev-team
     info: Perl extension for scrubbing/sanitizing html
+
+  - repo: libhtml-simpleparse-perl #main
+    group: deepin-sysdev-team
+    info: bare-bones HTML parser
 
   - repo: libhttp-entity-parser-perl
     group: deepin-sysdev-team
@@ -1845,6 +1873,18 @@ repos:
     info: a userspace library providing an interface to the extended netfilter accounting
       infrastructure.
 
+  - repo: libnet-openid-common-perl #main
+    group: deepin-sysdev-team
+    info: libraries shared between Net::OpenID::Consumer and Net::OpenID::Server
+
+  - repo: libnet-openid-consumer-perl #main
+    group: deepin-sysdev-team
+    info: library for consumers of OpenID identities
+
+  - repo: libnet-openid-server-perl #main
+    group: deepin-sysdev-team
+    info: library for servers of OpenID identities
+
   - repo: libnvme #main
     group: deepin-sysdev-team
     info: NVMe management library
@@ -1917,6 +1957,10 @@ repos:
     group: deepin-sysdev-team
     info: RIST is a protocol for low-latency, high-quality, and secure streaming of
       audio and video
+
+  - repo: librpc-xml-perl #main
+    group: deepin-sysdev-team
+    info: Perl implementation of the XML-RPC protocol
 
   - repo: librsvg
     group: deepin-sysdev-team
@@ -2027,6 +2071,22 @@ repos:
   - repo: libwww-form-urlencoded-xs-perl
     group: deepin-sysdev-team
     info: XS implementation of application/x-www-form-urlencoded parser/builder
+
+  - repo: libxml-atom-perl #main
+    group: deepin-sysdev-team
+    info: module for manipulating Atom feeds
+
+  - repo: libxml-feed-perl #main
+    group: deepin-sysdev-team
+    info: syndication feed parser and auto-discovery Perl module
+
+  - repo: libxml-rss-libxml-perl #main
+    group: deepin-sysdev-team
+    info: module for creating, parsing, updating RSS files with XML::LibXML
+
+  - repo: libxml-rss-perl #main
+    group: deepin-sysdev-team
+    info: Perl module for managing RSS (RDF Site Summary) files
 
   - repo: lilypond
     group: deepin-sysdev-team

@@ -1644,6 +1644,10 @@ repos:
     group: deepin-sysdev-team
     info: Free implementation of aptX
 
+  - repo: libftdi #main
+    group: deepin-sysdev-team
+    info: Library to control and program the FTDI USB controller
+
   - repo: libgcrypt20
     group: deepin-sysdev-team
     info: 遵循 LGPL 的加密库 - 运行库

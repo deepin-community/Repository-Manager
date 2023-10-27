@@ -3071,6 +3071,10 @@ repos:
     group: deepin-sysdev-team
     info: provides 3 modules to access utmp and wtmp records.
 
+  - repo: python-versioneer #main
+    group: deepin-sysdev-team
+    info: etermine version from repository tag
+
   - repo: python-virtualenv #main
     group: deepin-sysdev-team
     info: Python virtual environment creator

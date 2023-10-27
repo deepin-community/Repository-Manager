@@ -3711,6 +3711,10 @@ repos:
     group: deepin-sysdev-team
     info: extension for Sphinx projects that handles redirects
 
+  - repo: sphinx-remove-toctrees #main
+    group: deepin-sysdev-team
+    info: Reduce sphinx documentation build times
+
   - repo: sphinxcontrib-trio #main
     group: deepin-sysdev-team
     info: Make Sphinx better at documenting Python functions and methods

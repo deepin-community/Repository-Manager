@@ -1390,7 +1390,7 @@ repos:
     group: deepin-sysdev-team
     info: displays bandwidth usage information on an network interface
 
-  - repo: ikiwiki
+  - repo: ikiwiki #main
     group: deepin-sysdev-team
     info: wiki compiler
 

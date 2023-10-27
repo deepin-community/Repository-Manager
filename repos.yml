@@ -236,6 +236,10 @@ repos:
     group: deepin-sysdev-team
     info: chromium
 
+  - repo: clutter-1.0 #main
+    group: deepin-sysdev-team
+    info: Open GL based interactive canvas library
+
   - repo: cmake-fedora
     group: deepin-sysdev-team
     info: CMake helper modules for fedora developers

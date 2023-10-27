@@ -3173,6 +3173,10 @@ repos:
     group: deepin-sysdev-team
     info: HTML, XML, SAX, and Reader parser for Ruby
 
+  - repo: ruby-pygments.rb #main
+    group: deepin-sysdev-team
+    info: pygments wrapper for Ruby
+
   - repo: rust-aho-corasick
     group: deepin-sysdev-team
     info: Efficient string matching library for Rust.

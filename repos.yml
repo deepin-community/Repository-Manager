@@ -3687,6 +3687,10 @@ repos:
     group: deepin-sysdev-team
     info: modern base for Sphinx themes
 
+  - repo: sphinx-design  #main
+    group: deepin-sysdev-team
+    info: A sphinx extension for designing beautiful, view size responsive web components.
+
   - repo: sphinx-inline-tabs #main
     group: deepin-sysdev-team
     info: Add inline tabbed content to your Sphinx documentation

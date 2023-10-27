@@ -8,6 +8,10 @@ repos:
     group: deepin-sysdev-team
     info: A 3270 font in a modern format
 
+  - repo: RyzenAdj
+    group: deepin-sysdev-team
+    info: Adjust power management settings for Ryzen Mobile Processors.
+
   - repo: ack
     group: deepin-sysdev-team
     info: ack is a tool like grep, optimized for programmers
@@ -286,10 +290,6 @@ repos:
     group: deepin-sysdev-team
     info: corkscrew is a simple tool for tunneling SSH through HTTP proxies
 
-  - repo: cppcheck
-    group: deepin-sysdev-team
-    info: tool for static C/C++ code analysis (CLI)
-
   - repo: cpp-httplib
     group: deepin-sysdev-team
     info: A C++ header-only HTTP/HTTPS server and client library
@@ -297,6 +297,10 @@ repos:
   - repo: cpp-jwt
     group: deepin-sysdev-team
     info: JSON Web Token library for C++
+
+  - repo: cppcheck
+    group: deepin-sysdev-team
+    info: tool for static C/C++ code analysis (CLI)
 
   - repo: cpufrequtils
     group: deepin-sysdev-team
@@ -314,6 +318,10 @@ repos:
   - repo: cups-pdf #main
     group: deepin-sysdev-team
     info: printer driver for PDF writing via CUPS
+
+  - repo: dask #main
+    group: deepin-sysdev-team
+    info: Minimal task scheduling abstraction
 
   - repo: db-defaults
     group: deepin-sysdev-team
@@ -359,10 +367,6 @@ repos:
     group: deepin-sysdev-team
     info: Free and Open Music Notation Editor
 
-  - repo: dask #main
-    group: deepin-sysdev-team
-    info: Minimal task scheduling abstraction
-
   - repo: dh-nss
     group: deepin-sysdev-team
     info: debhelper addon to inject NSS services into /etc/nsswitch.conf
@@ -399,6 +403,10 @@ repos:
   - repo: doctest
     group: deepin-sysdev-team
     info: Light and feature-rich C++ testing framework
+
+  - repo: dofi
+    group: deepin-sysdev-team
+    info: A smail launchpad
 
   - repo: dot2tex #main
     group: deepin-sysdev-team
@@ -442,6 +450,10 @@ repos:
     info: EDK II is a modern, feature-rich, cross-platform firmware development environment
       for the UEFI and UEFI Platform Initialization
 
+  - repo: eigen3 #main
+    group: deepin-sysdev-team
+    info: lightweight C++ template library for linear algebra
+
   - repo: el-api
     group: deepin-sysdev-team
     info: EL is a simple language designed to meet the needs of the presentation layer
@@ -484,10 +496,6 @@ repos:
   - repo: extractpdfmark
     group: deepin-sysdev-team
     info: Extract page mode and named destinations as PDFmark from PDF
-
-  - repo: eigen3 #main
-    group: deepin-sysdev-team
-    info: lightweight C++ template library for linear algebra
 
   - repo: fail2ban
     group: deepin-sysdev-team
@@ -721,6 +729,11 @@ repos:
       and arrays of bytes, including wide character strings and multi-byte character
       strings.
 
+  - repo: ftgl #main
+    group: deepin-sysdev-team
+    info: development files for libftgl
+
+
   - repo: furo
     group: deepin-sysdev-team
     info: clean customisable Sphinx documentation theme
@@ -728,11 +741,6 @@ repos:
   - repo: fxlinuxprint #main
     group: deepin-sysdev-team
     info: printer driver for Fuji Xerox printers
-
-  - repo: ftgl #main
-    group: deepin-sysdev-team
-    info: development files for libftgl
-
 
   - repo: gamgi
     group: deepin-sysdev-team
@@ -1124,10 +1132,6 @@ repos:
     group: deepin-sysdev-team
     info: Development toolkit for SOAP/XML Web services and generic XML data bindings
       in C & C++
-      
-  - repo: gtk4
-    group: deepin-sysdev-team
-    info: GTK graphical user interface library
 
   - repo: gtk-layer-shell
     group: deepin-sysdev-team
@@ -1136,6 +1140,10 @@ repos:
   - repo: gtk-sharp3 #main
     group: deepin-sysdev-team
     info: CLI binding for the GTK+ toolkit 3.0
+
+  - repo: gtk4
+    group: deepin-sysdev-team
+    info: GTK graphical user interface library
 
   - repo: gtkmm4.0
     group: deepin-sysdev-team
@@ -1161,25 +1169,25 @@ repos:
     group: deepin-sysdev-team
     info: Generates citations and bibliography from CSL styles
 
-  - repo: haskell-conduit-extra #main
-    group: deepin-sysdev-team
-    info: 'batteries-included conduit: adapters for common libraries'
-
   - repo: haskell-commonmark #main
     group: deepin-sysdev-team
     info: Pure Haskell commonmark parser
 
-  - repo: haskell-data-fix #main
+  - repo: haskell-commonmark-extensions #main
     group: deepin-sysdev-team
-    info: fixpoint data types; documentation
+    info: Pure Haskell commonmark parser extensions
 
   - repo: haskell-commonmark-pandoc #main
     group: deepin-sysdev-team
     info: Bridge between commonmark and pandoc AST
 
-  - repo: haskell-commonmark-extensions #main
+  - repo: haskell-conduit-extra #main
     group: deepin-sysdev-team
-    info: Pure Haskell commonmark parser extensions
+    info: 'batteries-included conduit: adapters for common libraries'
+
+  - repo: haskell-data-fix #main
+    group: deepin-sysdev-team
+    info: fixpoint data types; documentation
 
   - repo: haskell-hslua-aeson #main
     group: deepin-sysdev-team
@@ -1229,42 +1237,6 @@ repos:
     group: deepin-sysdev-team
     info: LPeg – Parsing Expression Grammars For Lua; documentation
 
-  - repo: haskell-th-compat #main
-    group: deepin-sysdev-team
-    info: Backward (and forward) compatible Quote and Code types
-
-  - repo: haskell-timeit #main
-    group: deepin-sysdev-team
-    info: time a computation
-
-  - repo: haskell-typed-process #main
-    group: deepin-sysdev-team
-    info: run external processes, with strong typing of streams
-
-  - repo: haskell-witherable #main
-    group: deepin-sysdev-team
-    info: filterable traversable for Haskell
-
-  - repo: haskell-xml-conduit #main
-    group: deepin-sysdev-team
-    info: HTTP client package with conduit interface and HTTPS support
-
-  - repo: haskell-xml-types #main
-    group: deepin-sysdev-team
-    info: basic types for representing XML
-
-  - repo: haskell-unicode-collation
-    group: deepin-sysdev-team
-    info: Haskell implementation of the Unicode Collation Algorithm
-
-  - repo: haskell-unicode-data
-    group: deepin-sysdev-team
-    info: Access Unicode character database
-
-  - repo: haskell-uniplate
-    group: deepin-sysdev-team
-    info: A Haskell library for uniform type generic traversals
-
   - repo: haskell-lua #main
     group: deepin-sysdev-team
     info: Lua bindings for Haskell; documentation
@@ -1292,6 +1264,42 @@ repos:
   - repo: haskell-text-short #main
     group: deepin-sysdev-team
     info: memory-efficient representation of Unicode text strings; documentation
+
+  - repo: haskell-th-compat #main
+    group: deepin-sysdev-team
+    info: Backward (and forward) compatible Quote and Code types
+
+  - repo: haskell-timeit #main
+    group: deepin-sysdev-team
+    info: time a computation
+
+  - repo: haskell-typed-process #main
+    group: deepin-sysdev-team
+    info: run external processes, with strong typing of streams
+
+  - repo: haskell-unicode-collation
+    group: deepin-sysdev-team
+    info: Haskell implementation of the Unicode Collation Algorithm
+
+  - repo: haskell-unicode-data
+    group: deepin-sysdev-team
+    info: Access Unicode character database
+
+  - repo: haskell-uniplate
+    group: deepin-sysdev-team
+    info: A Haskell library for uniform type generic traversals
+
+  - repo: haskell-witherable #main
+    group: deepin-sysdev-team
+    info: filterable traversable for Haskell
+
+  - repo: haskell-xml-conduit #main
+    group: deepin-sysdev-team
+    info: HTTP client package with conduit interface and HTTPS support
+
+  - repo: haskell-xml-types #main
+    group: deepin-sysdev-team
+    info: basic types for representing XML
 
   - repo: hatch-vcs #main
     group: deepin-sysdev-team
@@ -1382,6 +1390,10 @@ repos:
     group: deepin-sysdev-team
     info: wiki compiler
 
+  - repo: im-config
+    group: deepin-sysdev-team
+    info: Input method configuration framework
+
   - repo: imagemagick
     group: deepin-sysdev-team
     info: image manipulation programs
@@ -1394,13 +1406,13 @@ repos:
     group: deepin-sysdev-team
     info: A program to configure the mouse wheel to send keypresses
 
-  - repo: im-config
-    group: deepin-sysdev-team
-    info: Input method configuration framework
-
   - repo: intel-media-driver-non-free
     group: deepin-sysdev-team
     info: VAAPI driver for the Intel GEN8+ Graphics family
+
+  - repo: intelrdfpmath #main
+    group: deepin-sysdev-team
+    info: Intel Decimal Floating-Point Math Library
 
   - repo: intltool-debian
     group: deepin-sysdev-team
@@ -1433,7 +1445,7 @@ repos:
 
   - repo: isa-support #main
     group: deepin-sysdev-team
-    info: CPU feature checking 
+    info: CPU feature checking
 
   - repo: ismrmrd #main
     group: deepin-sysdev-team
@@ -1640,13 +1652,13 @@ repos:
     group: deepin-sysdev-team
     info: interface to KeePass V1 and V2 database files
 
-  - repo: libfilezilla
-    group: deepin-sysdev-team
-    info: build high-performing platform-independent programs
-
   - repo: libfilesys-notify-simple-perl
     group: deepin-sysdev-team
     info: simple file system monitor
+
+  - repo: libfilezilla
+    group: deepin-sysdev-team
+    info: build high-performing platform-independent programs
 
   - repo: libfreeaptx
     group: deepin-sysdev-team
@@ -1695,10 +1707,6 @@ repos:
   - repo: libinsane
     group: deepin-sysdev-team
     info: Library to access scanner
-
-  - repo: intelrdfpmath #main
-    group: deepin-sysdev-team
-    info: Intel Decimal Floating-Point Math Library
 
   - repo: libio-compress-brotli-perl
     group: deepin-sysdev-team
@@ -1925,20 +1933,16 @@ repos:
   - repo: libsort-naturally-perl
     group: deepin-sysdev-team
     info: Sort naturally - sort lexically except for numerical parts
-    
+
   - repo: libsoup3 #main
     group: deepin-sysdev-team
-    info: HTTP library implementation in C 
+    info: HTTP library implementation in C
 
 
   - repo: libspnav
     group: deepin-sysdev-team
     info: provides alternative to the proprietary 3Dconnexion SDK for their 3D input
       devices
-
-  - repo: libsys-cpuaffinity-perl
-    group: deepin-sysdev-team
-    info: module to set CPU affinity for processes
 
   - repo: libstream-buffered-perl
     group: deepin-sysdev-team
@@ -1955,6 +1959,10 @@ repos:
   - repo: libsub-delete-perl #main
     group: deepin-sysdev-team
     info: Perl module to delete subroutines
+
+  - repo: libsys-cpuaffinity-perl
+    group: deepin-sysdev-team
+    info: module to set CPU affinity for processes
 
   - repo: libterm-readline-gnu-perl
     group: deepin-sysdev-team
@@ -2670,13 +2678,13 @@ repos:
     info: It is a command-line tool which extracts the text out of OpenDocument Texts,
       as produced by OpenOffice.org, KOffice, StarOffice and others.
 
-  - repo: onevpl #main
-    group: deepin-sysdev-team
-    info: oneAPI Video Processing Library
-
   - repo: onetbb #main
     group: deepin-sysdev-team
     info: parallelism library for C++ - development files
+
+  - repo: onevpl #main
+    group: deepin-sysdev-team
+    info: oneAPI Video Processing Library
 
   - repo: opencv #main
     group: deepin-sysdev-team
@@ -2724,6 +2732,10 @@ repos:
   - repo: pacman-package-manager
     group: deepin-sysdev-team
     info: Simple library-based package manager
+
+  - repo: pandas #main
+    group: deepin-sysdev-team
+    info: Python module to generate, modify and optimize Python bytecode
 
   - repo: pango1.0
     group: deepin-sysdev-team
@@ -2880,6 +2892,10 @@ repos:
     group: deepin-sysdev-team
     info: Simple, correct PEP517 package builder (Python 3)
 
+  - repo: python-bytecode #main
+    group: deepin-sysdev-team
+    info: Python module to generate, modify and optimize Python bytecode
+
   - repo: python-cattrs #main
     group: deepin-sysdev-team
     info: Complex custom class converters for attrs
@@ -2909,7 +2925,8 @@ repos:
 
   - repo: python-ephemeral-port-reserve #main
     group: deepin-sysdev-team
-    info: binds to an ephemeral port, force it into the TIME_WAIT state, and unbind it
+    info: binds to an ephemeral port, force it into the TIME_WAIT state, and unbind
+      it
 
   - repo: python-exceptiongroup #main
     group: deepin-sysdev-team
@@ -2928,25 +2945,13 @@ repos:
     group: deepin-sysdev-team
     info: gevent is a coroutine-based Python networking library
 
-  - repo: python-bytecode #main
+  - repo: python-glad
     group: deepin-sysdev-team
-    info: Python module to generate, modify and optimize Python bytecode
-
-  - repo: pandas #main
-    group: deepin-sysdev-team
-    info: Python module to generate, modify and optimize Python bytecode
-
-  - repo: python-untangle #main
-    group: deepin-sysdev-team
-    info:  Convert XML to a Python object
+    info: GL/GLES/EGL/GLX/WGL Loader-Generator (Python 3)
 
   - repo: python-gmpy2
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
-
-  - repo: python-glad
-    group: deepin-sysdev-team
-    info: GL/GLES/EGL/GLX/WGL Loader-Generator (Python 3)
 
   - repo: python-h11 #main
     group: deepin-sysdev-team
@@ -3058,6 +3063,10 @@ repos:
     group: deepin-sysdev-team
     info: backports and updates to Python's standard unicodedata
 
+  - repo: python-untangle #main
+    group: deepin-sysdev-team
+    info: Convert XML to a Python object
+
   - repo: python-utmp
     group: deepin-sysdev-team
     info: provides 3 modules to access utmp and wtmp records.
@@ -3082,9 +3091,9 @@ repos:
   - repo: python3.12
     group: deepin-sysdev-team
     info: >
-      Python is a high-level, interactive, object-oriented language. Its 3.12 version 
-      includes an extensive class library with lots of goodies for network programming, 
-      system administration, sounds and graphics. 
+      Python is a high-level, interactive, object-oriented language. Its 3.12 version  includes
+      an extensive class library with lots of goodies for network programming,  system
+      administration, sounds and graphics. 
 
   - repo: qcoro
     group: deepin-sysdev-team
@@ -3094,17 +3103,21 @@ repos:
     group: deepin-sysdev-team
     info: Qt-based directory statistics
 
-  - repo: qr-code-generator
-    group: deepin-pkg
-    info: QR Code generator library in multiple languages
-
   - repo: qmltermwidget
     group: deepin-sysdev-team
     info: QML port of qtermwidget
 
+  - repo: qr-code-generator
+    group: deepin-pkg
+    info: QR Code generator library in multiple languages
+
   - repo: quart #main
     group: deepin-sysdev-team
     info: Python ASGI web microframework with the same API as Flask
+
+  - repo: qwlroots
+    group: deepin-sysdev-team
+    info: wlroots qt binding
 
   - repo: r-base
     group: deepin-sysdev-team
@@ -3600,6 +3613,10 @@ repos:
     group: deepin-sysdev-team
     info: The Rust Programming Language.
 
+  - repo: ryzen-smu
+    group: deepin-sysdev-team
+    info: A Linux kernel driver that exposes access to the SMU (System Management
+      Unit) for certain AMD Ryzen Processors
   - repo: s-tui
     group: deepin-sysdev-team
     info: Terminal based CPU stress and monitoring tool
@@ -3857,6 +3874,10 @@ repos:
     group: deepin-sysdev-team
     info: Parser generator tool and incremental parsing library
 
+  - repo: treeland
+    group: deepin-sysdev-team
+    info: A display manager and wayland compositer based on waylib
+
   - repo: trove-classifiers
     group: deepin-sysdev-team
     info: Validates classifiers in packages for PyPI
@@ -3864,6 +3885,10 @@ repos:
   - repo: tslib
     group: deepin-pkg
     info: Tslib is an abstraction layer for touchscreen panel events.
+
+  - repo: unifdef #main
+    group: deepin-sysdev-team
+    info: The unifdef utility selectively processes conditional cpp(1) directives.
 
   - repo: urwid
     group: deepin-sysdev-team
@@ -3876,10 +3901,6 @@ repos:
   - repo: uvloop #main
     group: deepin-sysdev-team
     info: fast implementation of asyncio event loop on top of libuv
-
-  - repo: unifdef #main
-    group: deepin-sysdev-team
-    info: The unifdef utility selectively processes conditional cpp(1) directives.
 
   - repo: valgrind-if-available #main
     group: deepin-sysdev-team
@@ -3940,6 +3961,10 @@ repos:
   - repo: waylandpp
     group: deepin-sysdev-team
     info: Wayland C++ bindings
+
+  - repo: waylib
+    group: deepin-sysdev-team
+    info: A wrapper for wlroots based on Qt
 
   - repo: waypipe
     group: deepin-sysdev-team
@@ -4043,8 +4068,8 @@ repos:
 
   - repo: xdg-terminal-exec
     group: deepin-sysdev-team
-    info: xdg-terminal-exec is an implementation of a proposed freedesktop.org
-      specification for launching a user's default terminal app
+    info: xdg-terminal-exec is an implementation of a proposed freedesktop.org specification
+      for launching a user's default terminal app
 
   - repo: xfburn
     group: deepin-sysdev-team
@@ -4074,6 +4099,12 @@ repos:
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger
 
+  - repo: zfs-linux
+    group: deepin-sysdev-team
+    info: This library provides routines for packing and unpacking nv pairs for transporting
+      data across process boundaries, transporting between kernel and userland, and
+      possibly saving onto disk files.
+
   - repo: zope.authentication #main
     group: deepin-sysdev-team
     info: Definition of authentication basics for the Zope Framework
@@ -4084,11 +4115,11 @@ repos:
 
   - repo: zope.browser #main
     group: deepin-sysdev-team
-    info: Shared Zope Toolkit browser components    
+    info: Shared Zope Toolkit browser components
 
   - repo: zope.cachedescriptors #main 
     group: deepin-sysdev-team
-    info: Method and property caching decorators 
+    info: Method and property caching decorators
 
   - repo: zope.component #main
     group: deepin-sysdev-team
@@ -4112,7 +4143,7 @@ repos:
 
   - repo: zope.event #main
     group: deepin-sysdev-team
-    info: Very basic event publishing system 
+    info: Very basic event publishing system
 
   - repo: zope.exceptions #main
     group: deepin-sysdev-team
@@ -4128,12 +4159,12 @@ repos:
 
   - repo: zope.i18n #main
     group: deepin-sysdev-team
-    info: Zope Internationalization Support   
+    info: Zope Internationalization Support
 
   - repo: zope.i18nmessageid #main
     group: deepin-sysdev-team
     info: Message Identifiers for internationalization
-    
+
   - repo: zope.interface #main
     group: deepin-sysdev-team
     info: Interfaces for Python
@@ -4144,8 +4175,8 @@ repos:
 
   - repo: zope.proxy #main
     group: deepin-sysdev-team
-    info: Generic transparent proxies for Python  
-    
+    info: Generic transparent proxies for Python
+
   - repo: zope.publisher #main
     group: deepin-sysdev-team
     info: Zope publisher publishes Python objects on the web
@@ -4181,12 +4212,6 @@ repos:
   - repo: zope.traversing #main
     group: deepin-sysdev-team
     info: Resolving paths in the object hierarchy
-    
-  - repo: zfs-linux
-    group: deepin-sysdev-team
-    info: This library provides routines for packing and unpacking nv pairs for transporting
-      data across process boundaries, transporting between kernel and userland, and
-      possibly saving onto disk files.
 
   - repo: zssh
     group: deepin-pkg
@@ -4200,26 +4225,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: qwlroots
-    group: deepin-sysdev-team
-    info: wlroots qt binding
-
-  - repo: waylib
-    group: deepin-sysdev-team
-    info: A wrapper for wlroots based on Qt
-
-  - repo: treeland
-    group: deepin-sysdev-team
-    info: A display manager and wayland compositer based on waylib
-
-  - repo: dofi
-    group: deepin-sysdev-team
-    info: A smail launchpad
-
-  - repo: RyzenAdj
-    group: deepin-sysdev-team
-    info: Adjust power management settings for Ryzen Mobile Processors.
-
-  - repo: ryzen-smu
-    group: deepin-sysdev-team
-    info: A Linux kernel driver that exposes access to the SMU (System Management Unit) for certain AMD Ryzen Processors

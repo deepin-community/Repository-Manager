@@ -355,6 +355,10 @@ repos:
     group: deepin-sysdev-team
     info: Free and Open Music Notation Editor
 
+  - repo: dask #main
+    group: deepin-sysdev-team
+    info: Minimal task scheduling abstraction
+
   - repo: dh-nss
     group: deepin-sysdev-team
     info: debhelper addon to inject NSS services into /etc/nsswitch.conf

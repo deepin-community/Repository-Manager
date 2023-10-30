@@ -1655,6 +1655,10 @@ repos:
     group: deepin-sysdev-team
     info: interoperable MD5-based crypt() for Perl
 
+  - repo: libdatetime-format-flexible-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to transform strings into DateTime objects
+
   - repo: libdatetime-format-natural-perl #main
     group: deepin-sysdev-team
     info: Perl module for parsing human-readable date/time strings
@@ -1691,6 +1695,10 @@ repos:
   - repo: libfcgi-procmanager-perl
     group: deepin-sysdev-team
     info: Perl module to help manage FastCGI applications
+
+  - repo: libfeed-find-perl #main
+    group: deepin-sysdev-team
+    info: Syndication feed auto-discovery
 
   - repo: libfile-keepass-perl
     group: deepin-sysdev-team
@@ -1794,6 +1802,10 @@ repos:
     group: deepin-sysdev-team
     info: module to log events to an array (reference)
 
+  - repo: liblwp-authen-wsse-perl #main
+    group: deepin-sysdev-team
+    info: library for enabling X-WSSE authentication in LWP
+
   - repo: libmbim #main
     group: deepin-sysdev-team
     info: Header files for adding MBIM support to applications that use glib
@@ -1829,6 +1841,10 @@ repos:
   - repo: libmodule-runtime-perl
     group: deepin-sysdev-team
     info: Perl module for runtime module handling
+
+  - repo: libmodule-scandeps-perl #main
+    group: deepin-sysdev-team
+    info: module to recursively scan Perl code for dependencies
 
   - repo: libmodule-util-perl #main
     group: deepin-sysdev-team
@@ -2075,6 +2091,10 @@ repos:
   - repo: libunique
     group: deepin-sysdev-team
     info: Unique is a library for writing single instance application.
+
+  - repo: liburi-fetch-perl #main
+    group: deepin-sysdev-team
+    info: smart URI fetching/caching client
 
   - repo: libuv1 #main
     group: deepin-sysdev-team

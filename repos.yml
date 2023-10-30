@@ -1467,6 +1467,10 @@ repos:
     group: deepin-sysdev-team
     info: SIP API for Java
 
+  - repo: javascript-common
+    group: deepin-sysdev-team
+    info: Base support for JavaScript library packages
+
   - repo: jaxws
     group: deepin-sysdev-team
     info: Java API for XML Web Services

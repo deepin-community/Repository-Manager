@@ -2006,6 +2006,10 @@ repos:
     group: deepin-sysdev-team
     info: SAX-based renderer library for SVG files
 
+  - repo: libsafe-isa-perl #main
+    group: deepin-sysdev-team
+    info: module for safely calling isa and friends on things that may not be objects
+
   - repo: libsdl2
     group: deepin-sysdev-team
     info: Simple DirectMedia Layer
@@ -2059,6 +2063,10 @@ repos:
   - repo: libterm-shellui-perl
     group: deepin-sysdev-team
     info: Perl module for fully-featured shell-like command line environment
+
+  - repo: libtest-lwp-useragent-perl #main
+    group: deepin-sysdev-team
+    info: module for simulating and testing network calls
 
   - repo: libtest-mocktime-hires-perl #main
     group: deepin-sysdev-team

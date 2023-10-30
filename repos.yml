@@ -1615,6 +1615,10 @@ repos:
     group: deepin-sysdev-team
     info: persistent session data in CGI applications
 
+  - repo: libcgi-simple-perl #main
+    group: deepin-sysdev-team
+    info: simple CGI.pm compatible OO CGI interface
+
   - repo: libcgi-ssi-perl #main
     group: deepin-sysdev-team
     info: Perl module to use SSI from CGI scripts
@@ -1639,6 +1643,10 @@ repos:
     group: deepin-sysdev-team
     info: simple cookie string generator and parser
 
+  - repo: libcrypt-dh-gmp-perl #main
+    group: deepin-sysdev-team
+    info: Crypt::DH replacement that uses GMP directly
+
   - repo: libcrypt-passwdmd5-perl
     group: deepin-sysdev-team
     info: interoperable MD5-based crypt() for Perl
@@ -1650,6 +1658,10 @@ repos:
   - repo: libdatetime-format-w3cdtf-perl #main
     group: deepin-sysdev-team
     info: module to parse and format W3CDTF datetime strings
+
+  - repo: libdatetime-hires-perl #main
+    group: deepin-sysdev-team
+    info: module for creating DateTime objects with sub-second current time resolution
 
   - repo: libdebian-copyright-perl
     group: deepin-sysdev-team
@@ -1813,6 +1825,10 @@ repos:
   - repo: libmodule-runtime-perl
     group: deepin-sysdev-team
     info: Perl module for runtime module handling
+
+  - repo: libmodule-util-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to manipulate Perl module names
 
   - repo: libmongocrypt #main
     group: deepin-sysdev-team
@@ -2019,6 +2035,14 @@ repos:
   - repo: libterm-shellui-perl
     group: deepin-sysdev-team
     info: Perl module for fully-featured shell-like command line environment
+
+  - repo: libtest-mocktime-hires-perl #main
+    group: deepin-sysdev-team
+    info: Time::HiRes compatible version of Test::MockTime
+
+  - repo: libtest-mocktime-perl #main
+    group: deepin-sysdev-team
+    info: module to simulate time in tests
 
   - repo: libtest-randomresult-perl #main
     group: deepin-sysdev-team

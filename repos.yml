@@ -3089,6 +3089,30 @@ repos:
     info: python-exif is a Python library to extract Exif information from digital
       camera image files.
 
+  - repo: python-git #main
+    group: deepin-sysdev-team
+    info: Python library to interact with Git repositories
+
+  - repo: sphinx-autobuild #main
+    group: deepin-sysdev-team
+    info: Automatically rebuild Sphinx documentation
+
+  - repo: sphinxext-opengraph #main
+    group: deepin-sysdev-team
+    info: Automatically rebuild Sphinx documentation
+
+  - repo: pytest-mock #main
+    group: deepin-sysdev-team
+    info: Thin wrapper around mock for easier use with pytest (Python 3 module）
+
+  - repo: pyproject-metadata #main
+    group: deepin-sysdev-team
+    info: Dataclass for PEP 621 metadata with support for [core metadata] generation
+
+  - repo: tqdm #main
+    group: deepin-sysdev-team
+    info: fast, extensible progress bar for Python 3 and CLI tool
+
   - repo: python-geojson
     group: deepin-sysdev-team
     info: python-geojson contains Python 3 bindings and utilities for GeoJSON

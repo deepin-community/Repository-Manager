@@ -3092,6 +3092,18 @@ repos:
   - repo: python-git #main
     group: deepin-sysdev-team
     info: Python library to interact with Git repositories
+    
+  - repo: python-gitdb #main
+    group: deepin-sysdev-team
+    info: pure-Python git object database
+
+  - repo: python-beniget #main
+    group: deepin-sysdev-team
+    info: collection of compile-time Python AST analyzers
+
+  - repo: guzzle-sphinx-theme #main
+    group: deepin-sysdev-team
+    info: Sphinx theme used by Guzzle
 
   - repo: sphinx-autobuild #main
     group: deepin-sysdev-team

@@ -2277,7 +2277,7 @@ repos:
     group: deepin-sysdev-team
     info: sphinx extension for creating panels in a grid layout
 
- - repo: meld
+  - repo: meld
     group: deepin-sysdev-team
     info: graphical tool to diff and merge files
 

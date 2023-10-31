@@ -2277,6 +2277,10 @@ repos:
     group: deepin-sysdev-team
     info: sphinx extension for creating panels in a grid layout
 
+ - repo: meld
+    group: deepin-sysdev-team
+    info: graphical tool to diff and merge files
+
   - repo: memtester
     group: deepin-sysdev-team
     info: Utility for testing the memory subsystem

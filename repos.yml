@@ -3888,6 +3888,10 @@ repos:
     group: deepin-sysdev-team
     info: bi-directional translator for LLVM/SPIRV
 
+  - repo: squashfuse #main
+    group: deepin-sysdev-team
+    info: FUSE filesystem to mount squashfs archives
+
   - repo: ssh-tools
     group: deepin-sysdev-team
     info: collection of various tools using sshs

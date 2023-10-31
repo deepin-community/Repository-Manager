@@ -4210,6 +4210,10 @@ repos:
     group: deepin-sysdev-team
     info: VNC server to allow remote access to an existing X session
 
+  - repo: xtl #main
+    group: deepin-sysdev-team
+    info: basic tools (containers, algorithms) used for xtensor and xeus
+
   - repo: xball
     group: deepin-sysdev-team
     info: Simulate bouncing balls in a window

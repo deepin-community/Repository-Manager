@@ -432,7 +432,7 @@ repos:
     group: deepin-sysdev-team
     info: data loss/scratch/aging protection for CD/DVD media
 
-  - repo: dwarves #mian
+  - repo: dwarves #main
     group: deepin-sysdev-team
     info: set of DWARF-based debugging tools
 

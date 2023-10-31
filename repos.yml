@@ -432,6 +432,10 @@ repos:
     group: deepin-sysdev-team
     info: data loss/scratch/aging protection for CD/DVD media
 
+  - repo: dwarves #mian
+    group: deepin-sysdev-team
+    info: set of DWARF-based debugging tools
+
   - repo: dynarmic
     group: deepin-sysdev-team
     info: Dynarmic is a dynamic recompiler for emulating ARMv7-A and ARMv8-A (AArch64)
@@ -3103,7 +3107,7 @@ repos:
 
   - repo: pytest-mock #main
     group: deepin-sysdev-team
-    info: Thin wrapper around mock for easier use with pytest (Python 3 module）
+    info: Thin wrapper around mock for easier use with pytest (Python 3 module)
 
   - repo: pyproject-metadata #main
     group: deepin-sysdev-team
@@ -4416,4 +4420,3 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-

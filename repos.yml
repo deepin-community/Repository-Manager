@@ -2253,9 +2253,29 @@ repos:
     group: deepin-sysdev-team
     info: Python port of the JavaScript mdurl package
 
-  - repo: meld
+  - repo: meson-python #main
     group: deepin-sysdev-team
-    info: graphical tool to diff and merge files
+    info: Meson PEP 517 Python build backend
+    
+  - repo: xsimd #main
+    group: deepin-sysdev-team
+    info: C++ wrappers for SIMD intrinsics
+
+  - repo: pooch #main
+    group: deepin-sysdev-team
+    info: Tools to manage Python library's data files
+
+  - repo: pytest-httpserver #main
+    group: deepin-sysdev-team
+    info: HTTP server for pytest to test HTTP clients
+
+  - repo: pythran #main
+    group: deepin-sysdev-team
+    info: ahead of time compiler for Python
+
+  - repo: sphinx-panels #main
+    group: deepin-sysdev-team
+    info: sphinx extension for creating panels in a grid layout
 
   - repo: memtester
     group: deepin-sysdev-team

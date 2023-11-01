@@ -4452,3 +4452,27 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: shellingham #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: shellingham #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: cachy #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: crashtest #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: deepdiff #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-httpretty #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11

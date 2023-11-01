@@ -306,6 +306,10 @@ repos:
     group: deepin-sysdev-team
     info: tool for static C/C++ code analysis (CLI)
 
+  - repo: cpputest #main
+    group: deepin-sysdev-team
+    info: C/C++ Unit Testing Framework
+
   - repo: cpufrequtils
     group: deepin-sysdev-team
     info: This package contains two utilities for inspecting and setting the CPU frequency

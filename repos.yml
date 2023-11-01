@@ -3024,6 +3024,10 @@ repos:
     group: deepin-sysdev-team
     info: Debugger used by debugpy
 
+  - repo: pydoctor #main
+    group: deepin-sysdev-team
+    info:  Python API document generator
+
   - repo: pypdf2 #main
     group: deepin-sysdev-team
     info: Pure-Python library built as a PDF toolkit

@@ -4457,10 +4457,6 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
-  - repo: shellingham #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
   - repo: cachy #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11

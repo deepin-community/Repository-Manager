@@ -3093,6 +3093,10 @@ repos:
     info: python-exif is a Python library to extract Exif information from digital
       camera image files.
 
+  - repo: python-gast #main
+    group: deepin-sysdev-team
+    info: compatibility layer for the AST of various Python versions (Python3 version)
+
   - repo: python-git #main
     group: deepin-sysdev-team
     info: Python library to interact with Git repositories

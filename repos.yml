@@ -3036,6 +3036,14 @@ repos:
     group: deepin-sysdev-team
     info: pytest plugin for Matplotlib image comparison
 
+  - repo: python-smmap #main
+    group: deepin-sysdev-team
+    info: pure Python implementation of a sliding window memory map manager
+
+  - repo: python-repoze.sphinx.autointerface #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to generate API docs from Zope interfaces
+
   - repo: python-arrow
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps

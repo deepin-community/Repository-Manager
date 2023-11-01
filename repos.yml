@@ -4476,3 +4476,15 @@ repos:
   - repo: python-httpretty #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-clevercsv #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: jsonpickle #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-ordered-set #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11

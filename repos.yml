@@ -236,6 +236,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to decode/encode the sample catalogue for OpenTTD
 
+  - repo: cherrytree
+    group: deepin-sysdev-team
+    info: hierarchical note taking application
+
   - repo: chromium
     group: deepin-sysdev-team
     info: chromium

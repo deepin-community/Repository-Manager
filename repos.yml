@@ -4488,3 +4488,35 @@ repos:
   - repo: python-ordered-set #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: feedparser #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-wilderness #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-fakeredis #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-flexmock #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: numba #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: pytables #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-zstandard #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: statsmodels #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11

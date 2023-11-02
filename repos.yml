@@ -4540,3 +4540,11 @@ repos:
   - repo: python-sure #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-graphviz #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-rednose #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11

@@ -3089,6 +3089,10 @@ repos:
     info: characteristic is Python package with class decorators that ease the chores
       of implementing the most common attribute-related object protocols.
 
+  - repo: python-cmarkgfm #main
+    group: deepin-sysdev-team
+    info: CMarkGFM is a Python wrapper for the cmark-gfm Markdown parser.
+
   - repo: python-click-default-group #main
     group: deepin-sysdev-team
     info: Extension for Python click adding default subcommand to group (Python 3)

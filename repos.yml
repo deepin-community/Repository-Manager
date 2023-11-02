@@ -1136,6 +1136,10 @@ repos:
     group: deepin-sysdev-team
     info: suite of programs to modify Transport Tycoon Deluxe's GRF files
 
+  - repo: grsync
+    group: deepin-sysdev-team
+    info: gui tool to synchronize GRF files between two machines
+
   - repo: grub-efi-arm64-signed
     group: deepin-sysdev-team
     info: GRand Unified Bootloader, version 2 (arm64 UEFI signed by deepin)

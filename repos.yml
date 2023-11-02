@@ -2208,6 +2208,10 @@ repos:
     group: deepin-sysdev-team
     info: 2D game development framework based on Lua and OpenGL
 
+  - repo: lirc #main
+    group: deepin-sysdev-team
+    info: Linux Infrared Remote Control Daemon
+
   - repo: lsof
     group: deepin-sysdev-team
     info: utility to list open files

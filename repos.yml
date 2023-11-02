@@ -1393,6 +1393,10 @@ repos:
     group: deepin-sysdev-team
     info: Sunpinyin engine for IBus
 
+  - repo: icecc #main
+    group: deepin-sysdev-team
+    info: IceCC is a distributed build system.
+
   - repo: icu
     group: deepin-sysdev-team
     info: ICU is a C++ and C library that provides robust and full-featured Unicode

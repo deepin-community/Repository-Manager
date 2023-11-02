@@ -4552,3 +4552,15 @@ repos:
   - repo: python-rednose #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: pytest-doctestplus #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: twitter-bootstrap4 #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: sphinx-prompt #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11

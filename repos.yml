@@ -4633,4 +4633,12 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11  
 
+  - repo: scikit-build #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
+
+  - repo: python-deprecated #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
+
     

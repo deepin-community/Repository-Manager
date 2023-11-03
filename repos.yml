@@ -4641,4 +4641,11 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11  
 
+  - repo: flake8-docstrings #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
+
+  - repo: python-tenacity #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
     

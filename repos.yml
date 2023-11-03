@@ -4616,3 +4616,15 @@ repos:
   - repo: pep8-naming #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11  
+
+  - repo: flake8-polyfill #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
+
+  - repo: python-rlpycairo #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11      
+
+  - repo: freetype-py #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11     

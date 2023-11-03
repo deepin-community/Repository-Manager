@@ -4628,3 +4628,9 @@ repos:
   - repo: python-setuptools-rust #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11  
+
+  - repo: python-skbuild #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
+
+    

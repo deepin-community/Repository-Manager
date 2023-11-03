@@ -1915,6 +1915,10 @@ repos:
     group: deepin-sysdev-team
     info: MessagePack for Lua
 
+  - repo: libmpc #main
+    group: deepin-sysdev-team
+    info: MusePack decoder
+
   - repo: libmro-compat-perl
     group: deepin-sysdev-team
     info: method resolution order and method caching in general

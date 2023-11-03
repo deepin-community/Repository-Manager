@@ -4625,6 +4625,6 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11      
 
-  - repo: freetype-py #main 
+  - repo: python-setuptools-rust #main 
     group: deepin-sysdev-team
-    info: python3-defaults 3.11     
+    info: python3-defaults 3.11  

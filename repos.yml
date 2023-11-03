@@ -955,6 +955,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for struct and field validation
 
+  - repo: golang-github-golang-protobuf-1-3 #main
+    group: deepin-sysdev-team
+    info: Go support for protocol buffers (version v1.3.x)
+
   - repo: golang-github-gorilla-websocket
     group: deepin-sysdev-team
     info: A fast, well-tested and widely used WebSocket implementation for Go.

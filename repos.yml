@@ -4601,4 +4601,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
     
-    
+  - repo: pycares #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
+
+  - repo: pep8-naming #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  

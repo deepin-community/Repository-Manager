@@ -4585,6 +4585,20 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
-  - repo: node-html5shiv #main 
+  - repo: aiosignal #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: aiodns #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+    
+  - repo: frozenlist #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-charset-normalizer #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+    
+    

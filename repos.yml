@@ -4656,3 +4656,7 @@ repos:
   - repo: golang-pault-go-debian #main 
     group: deepin-sysdev-team
     info: library to parse and handle common Debian file formats 
+    
+  - repo: jupyter-comm #main 
+    group: deepin-sysdev-team
+    info: Register a comm implementation in the Jupyter kernel 

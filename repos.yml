@@ -335,6 +335,10 @@ repos:
     group: deepin-sysdev-team
     info: Berkeley Database Utilities
 
+  - repo: dbus-c++
+    group: deepin-sysdev-team
+    info: C++ API for D-Bus (development package)
+
   - repo: ddate
     group: deepin-sysdev-team
     info: convert Gregorian dates to Discordian dates

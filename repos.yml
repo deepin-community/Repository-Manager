@@ -488,6 +488,10 @@ repos:
     info: An easy-to-use, easy-to-setup, hassle-free secure file system with the encrypted
       data being stored on a remote cloud server without having to trust the server.
 
+  - repo: erofs-utils #main
+    group: deepin-sysdev-team
+    info: Utilities for EROFS File System
+
   - repo: evilwm
     group: deepin-sysdev-team
     info: evilwm is based on aewm by Decklin Foster.

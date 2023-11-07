@@ -387,6 +387,10 @@ repos:
     group: deepin-sysdev-team
     info: convert a dictionary file type to another dictionary file type
 
+  - repo: dill #main
+    group: deepin-sysdev-team
+    info: Serialize all of Python 3
+
   - repo: discus
     group: deepin-sysdev-team
     info: Discus aims to make df prettier, with features such as color, graphs, and

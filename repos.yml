@@ -248,6 +248,10 @@ repos:
     group: deepin-sysdev-team
     info: chromium
 
+  - repo: clamav
+    group: deepin-sysdev-team
+    info: anti-virus utility for Unix
+
   - repo: clutter-1.0 #main
     group: deepin-sysdev-team
     info: Open GL based interactive canvas library

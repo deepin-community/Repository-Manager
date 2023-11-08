@@ -8,6 +8,10 @@ repos:
     group: deepin-sysdev-team
     info: A 3270 font in a modern format
 
+  - repo: 7zip
+    group: deepin-sysdev-team
+    info: 7-Zip is a file archiver with a high compression ratio.
+
   - repo: RyzenAdj
     group: deepin-sysdev-team
     info: Adjust power management settings for Ryzen Mobile Processors.

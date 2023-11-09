@@ -1943,6 +1943,10 @@ repos:
     group: deepin-sysdev-team
     info: MusePack decoder
 
+  - repo: libmpdclient
+    group: deepin-sysdev-team
+    info: client library for the Music Player Daemon (development files)
+
   - repo: libmro-compat-perl
     group: deepin-sysdev-team
     info: method resolution order and method caching in general

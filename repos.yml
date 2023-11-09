@@ -2520,6 +2520,10 @@ repos:
     group: deepin-sysdev-team
     info: Add source maps of multiple files and combine
 
+  - repo: node-compare-versions #main
+    group: deepin-sysdev-team
+    info: Version string comparison for Node.js
+
   - repo: node-concordance #main
     group: deepin-sysdev-team
     info: Node.js library to compare, format, diff and serialize any JavaScript value

@@ -1361,6 +1361,10 @@ repos:
     group: deepin-sysdev-team
     info: IRC client for X based on X-Chat 2.
 
+  - repo: hfst-ospell
+    group: deepin-sysdev-team
+    info: Spell checker library and tool based on HFST
+
   - repo: hicolor-icon-theme
     group: deepin-sysdev-team
     info: default fallback theme for FreeDesktop.org icon themes

@@ -2999,6 +2999,10 @@ repos:
     info: PlantUML is a program allowing to draw UML diagrams, using a simple human
       readable text description
 
+  - repo: playerctl
+    group: deepin-sysdev-team
+    info: utility to control media players via MPRIS (development files)
+
   - repo: plocate
     group: deepin-sysdev-team
     info: much faster locate

@@ -4720,3 +4720,7 @@ repos:
   - repo: mistune0 #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11  
+
+  - repo: python-termstyle #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  

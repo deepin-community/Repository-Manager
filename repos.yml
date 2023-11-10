@@ -1401,6 +1401,10 @@ repos:
     group: deepin-sysdev-team
     info: ASGI Server based on Hyper
 
+  - repo: hyprland
+    group: deepin-sysdev-team
+    info: A i3 like windows manager for linux.
+
   - repo: ibus-cangjie
     group: deepin-sysdev-team
     info: Cangjie and Quick Cangjie input methods for IBus

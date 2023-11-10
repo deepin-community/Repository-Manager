@@ -252,6 +252,10 @@ repos:
     group: deepin-sysdev-team
     info: anti-virus utility for Unix
 
+  - repo: clantk
+    group: deepin-sysdev-team
+    info: graphical front-end for ClamAV
+
   - repo: clutter-1.0 #main
     group: deepin-sysdev-team
     info: Open GL based interactive canvas library
@@ -870,6 +874,10 @@ repos:
   - repo: gnome-common
     group: deepin-sysdev-team
     info: common scripts and macros to develop with GNOME
+
+  - repo: gnome-icon-theme #main
+    group: deepin-sysdev-team
+    info: This package contains the default icon theme used by the GNOME
 
   - repo: gnome-pkg-tools
     group: deepin-sysdev-team
@@ -1954,6 +1962,10 @@ repos:
   - repo: libmro-compat-perl
     group: deepin-sysdev-team
     info: method resolution order and method caching in general
+
+  - repo: libmspack
+    group: deepin-sysdev-team
+    info: library for Microsoft compression formats
 
   - repo: libmypaint
     group: deepin-sysdev-team

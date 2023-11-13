@@ -252,7 +252,7 @@ repos:
     group: deepin-sysdev-team
     info: anti-virus utility for Unix
 
-  - repo: clantk
+  - repo: clamtk
     group: deepin-sysdev-team
     info: graphical front-end for ClamAV
 

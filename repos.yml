@@ -1531,6 +1531,11 @@ repos:
     group: deepin-sysdev-team
     info: Java API for XML Web Services
 
+  - repo: jerasure #main
+    group: deepin-sysdev-team
+    info: Jerasure is a shared library that been designed to be modular, fast and flexible.
+      It is used in storage systems such as Swift and Ceph to add fault tolerance.
+
   - repo: jpeg-xl
     group: deepin-sysdev-team
     info: jpeg-xl contains a reference implementation of JPEG XL (encoder and decoder)

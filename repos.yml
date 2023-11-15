@@ -240,6 +240,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to decode/encode the sample catalogue for OpenTTD
 
+  - repo: chafa #main
+    group: deepin-sysdev-team
+    info: ASCII art image generator
+
   - repo: cherrytree
     group: deepin-sysdev-team
     info: hierarchical note taking application

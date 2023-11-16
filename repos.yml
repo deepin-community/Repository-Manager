@@ -3424,6 +3424,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU R statistical computation and graphics system
 
+  - repo: r-cran-stringi #main
+    group: deepin-sysdev-team
+    info: GNU R character string processing facilities
+
   - repo: radeontop
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization

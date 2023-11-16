@@ -3222,6 +3222,10 @@ repos:
     group: deepin-sysdev-team
     info: Automatically rebuild Sphinx documentation
 
+  - repo: sphinx-favicon #main
+    group: deepin-sysdev-team
+    info: Sphinx Extension adding support for custom favicons
+
   - repo: sphinxext-opengraph #main
     group: deepin-sysdev-team
     info: Automatically rebuild Sphinx documentation

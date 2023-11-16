@@ -4785,4 +4785,8 @@ repos:
   - repo: softhsm2 #main 
     group: deepin-sysdev-team
     info: cryptographic store accessible through a PKCS #11  
+
+  - repo: python-editables #main 
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11  
     

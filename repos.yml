@@ -3214,6 +3214,10 @@ repos:
     group: deepin-sysdev-team
     info: Sphinx theme used by Guzzle
 
+  - repo: sphinx-argparse-cli #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to render CLI arguments defined by the argparse module
+
   - repo: sphinx-autobuild #main
     group: deepin-sysdev-team
     info: Automatically rebuild Sphinx documentation
@@ -3225,6 +3229,10 @@ repos:
   - repo: pytest-mock #main
     group: deepin-sysdev-team
     info: Thin wrapper around mock for easier use with pytest (Python 3 module)
+
+  - repo: pyproject-api #main
+    group: deepin-sysdev-team
+    info: API to interact with Python pyproject.toml-based projects
 
   - repo: pyproject-metadata #main
     group: deepin-sysdev-team

@@ -4797,3 +4797,11 @@ repos:
   - repo: python-colorlog #main 
     group: deepin-sysdev-team
     info: python3-defaults 3.11  
+
+  - repo: libavtp #main 
+    group: deepin-sysdev-team
+    info: Audio Video Transport Protocol
+
+  - repo: wpewebkit #main 
+    group: deepin-sysdev-team
+    info:  Web content engine for embedded devices  

@@ -4805,3 +4805,20 @@ repos:
   - repo: wpewebkit #main 
     group: deepin-sysdev-team
     info:  Web content engine for embedded devices  
+
+  - repo: python-cleo #main 
+    group: deepin-sysdev-team
+    info: create beautiful and testable command-line interfaces
+
+  - repo: pylev #main 
+    group: deepin-sysdev-team
+    info:  pure Python Levenshtein implementation 
+
+  - repo: clikit #main 
+    group: deepin-sysdev-team
+    info:  utilities to build beautiful command lines interfaces
+
+  - repo: pastel #main 
+    group: deepin-sysdev-team
+    info:  bring colors to your terminal
+    

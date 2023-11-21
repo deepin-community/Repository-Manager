@@ -3458,6 +3458,10 @@ repos:
     group: deepin-sysdev-team
     info: Debian package repository producer
 
+  - repo: resolvconf #main
+    group: deepin-sysdev-team
+    info: name server information handler
+
   - repo: responses
     group: deepin-sysdev-team
     info: Utility library for mocking out the requests Python 3 library

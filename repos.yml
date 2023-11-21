@@ -456,6 +456,10 @@ repos:
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds
 
+  - repo: duktape #amin
+    group: deepin-sysdev-team
+    info: embeddable Javascript engine, development files
+
   - repo: dvdisaster
     group: deepin-sysdev-team
     info: data loss/scratch/aging protection for CD/DVD media

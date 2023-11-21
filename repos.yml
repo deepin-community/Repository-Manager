@@ -4825,4 +4825,7 @@ repos:
   - repo: pastel #main 
     group: deepin-sysdev-team
     info:  bring colors to your terminal
-    
+
+  - repo: python-socksipy #main 
+    group: deepin-sysdev-team
+    info:  Python 3 SOCKS client module   

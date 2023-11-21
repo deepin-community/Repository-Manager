@@ -2062,6 +2062,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module to record progress to any output
 
+  - repo: libpyzy
+    group: deepin-sysdev-team
+    info: Chinese PinYin and Bopomofo conversion library
+
   - repo: libqmi #main
     group: deepin-sysdev-team
     info: Header files for adding QMI support to applications that use glib

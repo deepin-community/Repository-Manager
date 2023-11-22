@@ -2349,7 +2349,11 @@ repos:
   - repo: meson-python #main
     group: deepin-sysdev-team
     info: Meson PEP 517 Python build backend
-    
+
+  - repo: multistrap
+    group: deepin-sysdev-team
+    info: multiple repository bootstrap based on apt
+
   - repo: xsimd #main
     group: deepin-sysdev-team
     info: C++ wrappers for SIMD intrinsics

@@ -4275,6 +4275,10 @@ repos:
     group: deepin-sysdev-team
     info: extra capabilities for VirtualBox, downloader.
 
+  - repo: virt-viewer
+    group: deepin-sysdev-team
+    info: Displaying the graphical console of a virtual machine
+
   - repo: vkfft
     group: deepin-sysdev-team
     info: Vulkan Fast Fourier Transform library

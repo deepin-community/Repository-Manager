@@ -1039,6 +1039,10 @@ repos:
     group: deepin-sysdev-team
     info: Go package for limiting and monitoring data flow rate
 
+  - repo: golang-github-nxadm-tail
+    group: deepin-sysdev-team
+    info: Go package for reading from continuously updated files
+
   - repo: golang-github-openprinting-goipp
     group: deepin-sysdev-team
     info: golang-github-openprinting-goipp is an IPP core protocol in pure Go Library
@@ -1147,6 +1151,10 @@ repos:
   - repo: golang-gopkg-macaron-macaron
     group: deepin-sysdev-team
     info: modular web framework in Go
+
+  - repo: golang-gopkg-tomb.v1
+    group: deepin-sysdev-team
+    info: API to track the lifecyle of Golang goroutines, and provide clean termination
 
   - repo: goldendict
     group: deepin-sysdev-team

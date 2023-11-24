@@ -2099,6 +2099,10 @@ repos:
     group: deepin-sysdev-team
     info: module for safely calling isa and friends on things that may not be objects
 
+  - repo: libsbsms #main
+    group: deepin-sysdev-team
+    info: Subband Sinusoidal Modeling Synthesis
+
   - repo: libsdl2
     group: deepin-sysdev-team
     info: Simple DirectMedia Layer

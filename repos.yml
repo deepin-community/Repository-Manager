@@ -4865,3 +4865,8 @@ repos:
   - repo: scikit-build #main 
     group: deepin-sysdev-team
     info:  improved build system generator for Python C/C++/Fortran/Cython extensions 
+
+  - repo: libadwaita #main 
+    group: deepin-sysdev-team
+    info:  Library with GTK widgets for mobile phones
+    

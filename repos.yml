@@ -105,6 +105,10 @@ repos:
     group: deepin-sysdev-team
     info: Declarative architecture constraints
 
+  - repo: argparse-manpage #main
+    group: deepin-sysdev-team
+    info: Automatically build a manpage from argparse
+
   - repo: argtable2
     group: deepin-sysdev-team
     info: Library for parsing GNU style command line arguments (development headers)
@@ -259,6 +263,10 @@ repos:
   - repo: clamtk
     group: deepin-sysdev-team
     info: graphical front-end for ClamAV
+
+  - repo: cloud-sptheme #main
+    group: deepin-sysdev-team
+    info: Cloud Sphinx theme and related extensions
 
   - repo: clutter-1.0 #main
     group: deepin-sysdev-team
@@ -3345,6 +3353,10 @@ repos:
     info: pefile is a Python module to read and work with Portable Executable (PE)
       files.
 
+  - repo: python-pipx #main
+    group: deepin-sysdev-team
+    info: Install and Run Python Applications In Prefixes
+
   - repo: python-priority #main
     group: deepin-sysdev-team
     info: pure-Python implementation of the HTTP/2 priority tree (Python 3)
@@ -3407,6 +3419,10 @@ repos:
   - repo: python-untangle #main
     group: deepin-sysdev-team
     info: Convert XML to a Python object
+
+  - repo: python-userpath #main
+    group: deepin-sysdev-team
+    info: tool for adding locations to the user PATH
 
   - repo: python-utmp
     group: deepin-sysdev-team
@@ -4456,6 +4472,10 @@ repos:
     group: deepin-sysdev-team
     info: XML infrastructure and XML catalog file support
 
+  - repo: xonsh #main
+    group: deepin-sysdev-team
+    info: Python-powered, cross-platform, Unix-gazing shell language and command prompt
+
   - repo: xorgxrdp
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) modules for X.org
@@ -4490,7 +4510,7 @@ repos:
     group: deepin-sysdev-team
     info: Shared Zope Toolkit browser components
 
-  - repo: zope.cachedescriptors #main 
+  - repo: zope.cachedescriptors #main
     group: deepin-sysdev-team
     info: Method and property caching decorators
 

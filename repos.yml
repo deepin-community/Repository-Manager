@@ -2593,6 +2593,10 @@ repos:
     group: deepin-sysdev-team
     info: Truncate a string to a specific width in the terminal
 
+  - repo: node-clipboard #main
+    group: deepin-sysdev-team
+    info: Node.js module to copy to clipboard without flash
+
   - repo: node-combine-source-map #main
     group: deepin-sysdev-team
     info: Add source maps of multiple files and combine

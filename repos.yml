@@ -2770,6 +2770,10 @@ repos:
     group: deepin-sysdev-team
     info: Pluralize a word
 
+  - repo: node-prismjs # main
+    group: deepin-sysdev-team
+    info: Lightweight, robust, elegant syntax highlighting
+
   - repo: node-propagate # main
     group: deepin-sysdev-team
     info: propagate events from one event emitter into another

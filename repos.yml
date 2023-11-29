@@ -1821,6 +1821,10 @@ repos:
     group: deepin-sysdev-team
     info: header files and docs for libgssglue
 
+  - repo: libgweather4 #main
+    group: deepin-sysdev-team
+    info: GWeather development files
+
   - repo: libhash-multivalue-perl
     group: deepin-sysdev-team
     info: module for storing multiple values per key in a hash

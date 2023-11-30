@@ -2309,6 +2309,10 @@ repos:
     group: deepin-sysdev-team
     info: Linux Infrared Remote Control Daemon
 
+  - repo: lsb-release-minimal
+    group: deepin-sysdev-team
+    info: Linux Standard Base version reporting utility (minimal implementation)
+
   - repo: lsof
     group: deepin-sysdev-team
     info: utility to list open files

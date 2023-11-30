@@ -3141,6 +3141,10 @@ repos:
     group: deepin-cicd
     info: regenerate pristine tarballs
 
+  - repo: proot
+    group: deepin-sysdev-team
+    info: emulate chroot, bind mount and binfmt_misc for non-root users
+
   - repo: psrip
     group: deepin-sysdev-team
     info: Extract images from PostScript files

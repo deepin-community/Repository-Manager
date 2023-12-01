@@ -4030,6 +4030,10 @@ repos:
     group: deepin-sysdev-team
     info: Execute commands in a chroot environment
 
+  - repo: screen-message
+    group: deepin-sysdev-team
+    info: Displays a short text fullscreen
+
   - repo: seatd
     group: deepin-sysdev-team
     info: A minimal seat management daemon

@@ -3562,6 +3562,10 @@ repos:
     group: deepin-pkg
     info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
 
+  - repo: rst2pdf
+    group: deepin-sysdev-team
+    info: ReportLab-based reStructuredText to PDF renderer
+
   - repo: ruby-afm
     group: deepin-pkg
     info: This simple library can read Adobe Font Metrics (afm) files and use the

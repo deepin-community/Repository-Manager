@@ -4921,4 +4921,11 @@ repos:
   - repo: libadwaita #main 
     group: deepin-sysdev-team
     info:  Library with GTK widgets for mobile phones
-    
+
+  - repo: golang-github-leonelquinteros-gotext #main 
+    group: deepin-sysdev-team
+    info:  Go GNU gettext utilities package (library)
+
+  - repo: git-lfs #main 
+    group: deepin-sysdev-team
+    info:  Git Large File Support

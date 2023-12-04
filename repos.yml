@@ -4564,6 +4564,10 @@ repos:
   - repo: scikit-build #main
     group: deepin-sysdev-team
     info: improved build system generator for Python C/C++/Fortran/Cython extensions
+ 
+  - repo: screen-message
+    group: deepin-sysdev-team
+    info: Displays a short text fullscreen
 
   - repo: seatd
     group: deepin-sysdev-team

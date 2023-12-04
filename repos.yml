@@ -330,6 +330,14 @@ repos:
     group: deepin-sysdev-team
     info: utilities to test color capabilities of terminal
 
+  - repo: containerd #main
+    group: deepin-sysdev-team
+    info: open and reliable container runtime (development files)
+
+  - repo: continuity #main
+    group: deepin-sysdev-team
+    info: Externally reusable Go packages included with Continuity
+
   - repo: contourpy #main
     group: deepin-sysdev-team
     info: Python library for calculating contours of 2D quadrilateral grids
@@ -463,6 +471,14 @@ repos:
   - repo: distrobox
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux
+
+  - repo: docker-libkv #main
+    group: deepin-sysdev-team
+    info: Key/Value store abstraction library
+
+  - repo: docker-registry #main
+    group: deepin-sysdev-team
+    info: Docker toolset to pack, ship, store, and deliver content (source)
 
   - repo: docopt.cpp #main
     group: deepin-sysdev-team
@@ -990,6 +1006,10 @@ repos:
     group: deepin-sysdev-team
     info: helpers to get pointers to values of built-in types
 
+  - repo: golang-github-armon-go-metrics #main
+    group: deepin-sysdev-team
+    info: library for exporting performance and runtime metrics
+
   - repo: golang-github-awalterschulze-gographviz
     group: deepin-sysdev-team
     info: Graphviz DOT language in golang
@@ -1006,13 +1026,85 @@ repos:
     group: deepin-sysdev-team
     info: HTTP request pipeline suitable for use across multiple go-routines
 
+  - repo: golang-github-bsphere-le-go #main
+    group: deepin-sysdev-team
+    info: Golang library for logentries.com
+
   - repo: golang-github-cavaliergopher-grab
     group: deepin-sysdev-team
     info: Download manager package for Go (library)
 
+  - repo: golang-github-cilium-ebpf #main
+    group: deepin-sysdev-team
+    info: eBPF Library for Go
+
+  - repo: golang-github-cloudflare-cfssl #main
+    group: deepin-sysdev-team
+    info: CloudFlare's PKI and TLS toolkit
+
+  - repo: golang-github-containerd-cgroups #main
+    group: deepin-sysdev-team
+    info: cgroups package for Go
+
+  - repo: golang-github-containerd-console #main
+    group: deepin-sysdev-team
+    info: Console package for Go
+
+  - repo: golang-github-containerd-fifo #main
+    group: deepin-sysdev-team
+    info: fifo pkg for Go
+
+  - repo: golang-github-containerd-go-runc #main
+    group: deepin-sysdev-team
+    info: runc bindings for Go
+
+  - repo: golang-github-containerd-typeurl #main
+    group: deepin-sysdev-team
+    info: Go package for managing marshaled types to protobuf.Any
+
+  - repo: golang-github-coreos-bbolt #main
+    group: deepin-sysdev-team
+    info: low-level key/value database for Go, especially CoreOS's etcd
+
+  - repo: golang-github-cyphar-filepath-securejoin #main
+    group: deepin-sysdev-team
+    info: filepath.SecureJoin implementation
+
+  - repo: golang-github-deckarep-golang-set #main
+    group: deepin-sysdev-team
+    info: simple set type for the Go language
+
   - repo: golang-github-disposaboy-jsonconfigreader
     group: deepin-sysdev-team
     info: proxy for golang's io.Reader allowing you to use json as a config format
+
+  - repo: golang-github-docker-docker-credential-helpers #main
+    group: deepin-sysdev-team
+    info: native stores to safeguard Docker credentials - library
+
+  - repo: golang-github-docker-go-connections #main
+    group: deepin-sysdev-team
+    info: Golang utility package to work with network connections
+
+  - repo: golang-github-docker-go-events #main
+    group: deepin-sysdev-team
+    info: Composable event distribution for Go
+
+  - repo: golang-github-docker-go-metrics #main
+    group: deepin-sysdev-team
+    info: Package for metrics collection in Docker projects
+
+  - repo: golang-github-docker-go-units #main
+    group: deepin-sysdev-team
+    info: parse and print size and time units in human-readable format
+
+  - repo: golang-github-docker-libtrust #main
+    group: deepin-sysdev-team
+    info: Primitives for identity and authorization
+
+  - repo: golang-github-evanphx-json-patch #main
+    group: deepin-sysdev-team
+    info: Go library to apply RFC6902 patches and create and apply RFC7386 patches
 
   - repo: golang-github-evanw-esbuild #main
     group: deepin-sysdev-team
@@ -1021,6 +1113,18 @@ repos:
   - repo: golang-github-fatih-color
     group: deepin-sysdev-team
     info: Color package for Go (golang)
+
+  - repo: golang-github-fernet-fernet-go #main
+    group: deepin-sysdev-team
+    info: Go library for generates/verifies HMAC-based authentication tokens
+
+  - repo: golang-github-fluent-fluent-logger-golang #main
+    group: deepin-sysdev-team
+    info: Go structured logger for Fluentd
+
+  - repo: golang-github-fvbommel-sortorder #main
+    group: deepin-sysdev-team
+    info: sort orders and comparison functions
 
   - repo: golang-github-gin-gonic-gin
     group: deepin-sysdev-team
@@ -1050,17 +1154,77 @@ repos:
     group: deepin-sysdev-team
     info: Go library for struct and field validation
 
+  - repo: golang-github-gofrs-flock #main
+    group: deepin-sysdev-team
+    info: thread-safe file locking library in Golang
+
+  - repo: golang-github-gogo-googleapis #main
+    group: deepin-sysdev-team
+    info: googleapis generated with gogoprotobuf
+
   - repo: golang-github-golang-protobuf-1-3 #main
     group: deepin-sysdev-team
     info: Go support for protocol buffers (version v1.3.x)
+
+  - repo: golang-github-google-shlex #main
+    group: deepin-sysdev-team
+    info: Simple lexer for Go that supports shell-style rules
+
+  - repo: golang-github-google-uuid #main
+    group: deepin-sysdev-team
+    info: generates and inspects UUIDs based on RFC 4122
+
+  - repo: golang-github-googleapis-gax-go #main
+    group: deepin-sysdev-team
+    info: Google API Extensions for Go
+
+  - repo: golang-github-googleapis-gnostic #main
+    group: deepin-sysdev-team
+    info: compiler for OpenAPI specification - library
 
   - repo: golang-github-gorilla-websocket
     group: deepin-sysdev-team
     info: A fast, well-tested and widely used WebSocket implementation for Go.
 
+  - repo: golang-github-graylog2-go-gelf #main
+    group: deepin-sysdev-team
+    info: GELF library and writer for Go
+
+  - repo: golang-github-grpc-ecosystem-go-grpc-middleware #main
+    group: deepin-sysdev-team
+    info: interceptor chaining, auth, logging, retries and more
+
+  - repo: golang-github-grpc-ecosystem-go-grpc-prometheus #main
+    group: deepin-sysdev-team
+    info: Prometheus monitoring for gRPC Go servers
+
+  - repo: golang-github-grpc-ecosystem-grpc-opentracing #main
+    group: deepin-sysdev-team
+    info: expressive vendor-neutral APIs for distributed tracing and context propagation
+
+  - repo: golang-github-hashicorp-go-memdb #main
+    group: deepin-sysdev-team
+    info: in-memory database built on immutable radix trees
+
   - repo: golang-github-hashicorp-go-multierror
     group: deepin-sysdev-team
     info: Go package for representing a list of errors as a single error
+
+  - repo: golang-github-hashicorp-memberlist #main
+    group: deepin-sysdev-team
+    info: Golang package for gossip based membership and failure detection
+
+  - repo: golang-github-hashicorp-serf #main
+    group: deepin-sysdev-team
+    info: Service orchestration and management tool (source)
+
+  - repo: golang-github-imdario-mergo #main
+    group: deepin-sysdev-team
+    info: Functions to merge structs and maps in Go
+
+  - repo: golang-github-ishidawataru-sctp #main
+    group: deepin-sysdev-team
+    info: SCTP library for the Go programming language
 
   - repo: golang-github-jlaffaye-ftp
     group: deepin-sysdev-team
@@ -1098,9 +1262,33 @@ repos:
     group: deepin-sysdev-team
     info: low-level network socket for Go
 
+  - repo: golang-github-miekg-dns #main
+    group: deepin-sysdev-team
+    info: DNS protocol library for Go
+
+  - repo: golang-github-mitchellh-hashstructure #main
+    group: deepin-sysdev-team
+    info: generate hash values for arbitrary values in Golang
+
   - repo: golang-github-mkrautz-goar
     group: deepin-sysdev-team
     info: library for reading and writing ar archives in Go
+
+  - repo: golang-github-moby-locker #main
+    group: deepin-sysdev-team
+    info: Go library for creating finer-grained locking
+
+  - repo: golang-github-moby-sys #main
+    group: deepin-sysdev-team
+    info: Go Library for system information and operation
+
+  - repo: golang-github-moby-term #main
+    group: deepin-sysdev-team
+    info: utilities for dealing with terminals
+
+  - repo: golang-github-morikuni-aec #main
+    group: deepin-sysdev-team
+    info: Golang wrapper for ANSI escape code
 
   - repo: golang-github-mxk-go-flowrate
     group: deepin-sysdev-team
@@ -1110,10 +1298,30 @@ repos:
     group: deepin-sysdev-team
     info: Go package for reading from continuously updated files
 
+  - repo: golang-github-opencontainers-go-digest #main
+    group: deepin-sysdev-team
+    info: Common digest package used across the container ecosystem
+
+  - repo: golang-github-opencontainers-image-spec #main
+    group: deepin-sysdev-team
+    info: Open Container Initiative (OCI) Image Format Specification
+
+  - repo: golang-github-opencontainers-selinux #main
+    group: deepin-sysdev-team
+    info: common selinux implementation
+
+  - repo: golang-github-opencontainers-specs #main
+    group: deepin-sysdev-team
+    info: Open Container Specifications
+
   - repo: golang-github-openprinting-goipp
     group: deepin-sysdev-team
     info: golang-github-openprinting-goipp is an IPP core protocol in pure Go Library
       (RFC 8010).
+
+  - repo: golang-github-opentracing-contrib-go-stdlib #main
+    group: deepin-sysdev-team
+    info: OpenTracing instrumentation for packages in the Go stdlib
 
   - repo: golang-github-oschwald-maxminddb-golang
     group: deepin-sysdev-team
@@ -1131,6 +1339,18 @@ repos:
     group: deepin-sysdev-team
     info: Go library for the TOML format (go-toml v2)
 
+  - repo: golang-github-philhofer-fwd #main
+    group: deepin-sysdev-team
+    info: Buffered Reader/Writer
+
+  - repo: golang-github-prometheus-client-golang #main
+    group: deepin-sysdev-team
+    info: Prometheus instrumentation library for Go applications
+
+  - repo: golang-github-racksec-srslog #main
+    group: deepin-sysdev-team
+    info: replacement for the standard Golang library "log/syslog"
+
   - repo: golang-github-rivo-uniseg
     group: deepin-sysdev-team
     info: Unicode Text Segmentation for Go
@@ -1138,6 +1358,10 @@ repos:
   - repo: golang-github-rodaine-table
     group: deepin-sysdev-team
     info: Go CLI Table Generator
+
+  - repo: golang-github-samuel-go-zookeeper #main
+    group: deepin-sysdev-team
+    info: native ZooKeeper client for Go
 
   - repo: golang-github-satori-go.uuid
     group: deepin-sysdev-team
@@ -1171,6 +1395,10 @@ repos:
     group: deepin-sysdev-team
     info: Efficient JSON beautifier and compactor for Go
 
+  - repo: golang-github-tonistiigi-units #main
+    group: deepin-sysdev-team
+    info: Simple byte size formatting library
+
   - repo: golang-github-tsosunchia-powclient
     group: deepin-sysdev-team
     info: NEXTTRACE project derived repository for implementing POW anti-crawling
@@ -1183,17 +1411,41 @@ repos:
     group: deepin-sysdev-team
     info: commonly used functions for Golang
 
+  - repo: golang-github-vbatts-tar-split #main
+    group: deepin-sysdev-team
+    info: tar archive assembly/disassembly (source)
+
+  - repo: golang-github-vishvananda-netlink #main
+    group: deepin-sysdev-team
+    info: netlink library for go
+
+  - repo: golang-github-vishvananda-netns #main
+    group: deepin-sysdev-team
+    info: network namespaces in go
+
   - repo: golang-github-wsxiaoys-terminal
     group: deepin-sysdev-team
     info: Colorful terminal output for Golang
+
+  - repo: golang-go-patricia #main
+    group: deepin-sysdev-team
+    info: generic patricia trie (also called radix tree)
 
   - repo: golang-go-xdg
     group: deepin-sysdev-team
     info: Go interface for XDG standards
 
+  - repo: golang-go-zfs #main
+    group: deepin-sysdev-team
+    info: Go library for ZFS manipulation
+
   - repo: golang-gocapability
     group: deepin-sysdev-team
     info: Utilities for manipulating POSIX capabilities in Go
+
+  - repo: golang-gogoprotobuf #main
+    group: deepin-sysdev-team
+    info: alternative protocol buffer support for Golang - utilities
 
   - repo: golang-golang-x-arch
     group: deepin-sysdev-team
@@ -1211,9 +1463,25 @@ repos:
     group: deepin-sysdev-team
     info: LevelDB key/value database in Go
 
+  - repo: golang-google-api #main
+    group: deepin-sysdev-team
+    info: Google APIs Client Library
+
+  - repo: golang-google-cloud #main
+    group: deepin-sysdev-team
+    info: Google Cloud Platform APIs
+
+  - repo: golang-google-grpc #main
+    group: deepin-sysdev-team
+    info: implementation of gRPC in Go
+
   - repo: golang-gopkg-h2non-filetype.v1
     group: deepin-sysdev-team
     info: Go package to infer file types based on the magic numbers header signature
+
+  - repo: golang-gopkg-inf.v0 #main
+    group: deepin-sysdev-team
+    info: Golang library for "infinite-precision" decimal arithmetic
 
   - repo: golang-gopkg-macaron-macaron
     group: deepin-sysdev-team
@@ -1222,6 +1490,13 @@ repos:
   - repo: golang-gopkg-tomb.v1
     group: deepin-sysdev-team
     info: API to track the lifecyle of Golang goroutines, and provide clean termination
+
+  - repo: golang-k8s-sigs-yaml #main
+    group: deepin-sysdev-team
+    info: better way to marshal and unmarshal YAML in Golang (library)
+  - repo: golang-logrus #main
+    group: deepin-sysdev-team
+    info: a logging library for Go
 
   - repo: golang-pault-go-debian #main
     group: deepin-sysdev-team
@@ -1238,6 +1513,14 @@ repos:
   - repo: gopacket
     group: deepin-sysdev-team
     info: packet capturing and decoding library for Go
+
+  - repo: gotest.tools #main
+    group: deepin-sysdev-team
+    info: collection of go packages to support common testing patterns
+
+  - repo: gotestsum #main
+    group: deepin-sysdev-team
+    info: Feature-rich runner for go test
 
   - repo: gprename
     group: deepin-sysdev-team
@@ -3002,6 +3285,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to launch modern Javascript scripts
 
+  - repo: notary #main
+    group: deepin-sysdev-team
+    info: library for running and interacting with trusted collections
+
   - repo: nss-pem
     group: deepin-sysdev-team
     info: This package provides a PEM file reader for Network Security Services (NSS),
@@ -3814,6 +4101,10 @@ repos:
   - repo: ruby-pygments.rb #main
     group: deepin-sysdev-team
     info: pygments wrapper for Ruby
+
+  - repo: runc #main
+    group: deepin-sysdev-team
+    info: Open Container Project - development files
 
   - repo: rust-aho-corasick
     group: deepin-sysdev-team

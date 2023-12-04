@@ -161,6 +161,10 @@ repos:
     group: deepin-sysdev-team
     info: Arbitrary-precision decimal and non-decimal arithmetic
 
+  - repo: binutils-arm-none-eabi #main
+    group: deepin-sysdev-team
+    info: GNU assembler, linker and binary utilities for ARM Cortex-R/M processors
+
   - repo: bird
     group: deepin-sysdev-team
     info: Internet routing daemon with full support for all the major routing protocols

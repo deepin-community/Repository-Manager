@@ -28,9 +28,21 @@ repos:
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
 
+  - repo: aiodns #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: aiofiles #main
     group: deepin-sysdev-team
     info: Python asyncio file operations
+
+  - repo: aioredis #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: aiosignal #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: aml
     group: deepin-sysdev-team
@@ -232,6 +244,10 @@ repos:
     group: deepin-sysdev-team
     info: printer driver for Lexmark 2050 Color Jetprinter
 
+  - repo: cachy #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: camlp-streams
     group: deepin-sysdev-team
     info: OCaml library for programming with data streams
@@ -267,6 +283,10 @@ repos:
   - repo: clamtk
     group: deepin-sysdev-team
     info: graphical front-end for ClamAV
+
+  - repo: clikit #main
+    group: deepin-sysdev-team
+    info: utilities to build beautiful command lines interfaces
 
   - repo: cloud-sptheme #main
     group: deepin-sysdev-team
@@ -343,6 +363,10 @@ repos:
     info: This package contains two utilities for inspecting and setting the CPU frequency
       through both the sysfs and procfs CPUFreq kernel interfaces.
 
+  - repo: crashtest #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: cubeb
     group: deepin-sysdev-team
     info: Cubeb is a cross-platform audio library.
@@ -386,6 +410,10 @@ repos:
   - repo: debugpy #main
     group: deepin-sysdev-team
     info: Implementation of the Debug Adapter Protocol for Python 3
+
+  - repo: deepdiff #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: deepin-desktop-environment
     group: deepin-sysdev-team
@@ -570,6 +598,10 @@ repos:
     group: deepin-sysdev-team
     info: Fraunhofer FDK AAC Codec Library - frontend binary
 
+  - repo: feedparser #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: filezilla
     group: deepin-sysdev-team
     info: Full-featured graphical FTP/FTPS/SFTP client
@@ -577,6 +609,14 @@ repos:
   - repo: flake
     group: deepin-sysdev-team
     info: Alternative encoder for the Free Lossless Audio Codec
+
+  - repo: flake8-docstrings #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: flake8-polyfill #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: flatbuffers
     group: deepin-sysdev-team
@@ -775,6 +815,10 @@ repos:
     group: deepin-sysdev-team
     info: Friso is an open source high performance Chinese word splitter.
 
+  - repo: frozenlist #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: fscrypt
     group: deepin-sysdev-team
     info: Tool for managing Linux filesystem encryption
@@ -871,6 +915,9 @@ repos:
     group: deepin-sysdev-team
     info: Suite to help with Debian packages in Git repositories
 
+  - repo: git-lfs #main
+    group: deepin-sysdev-team
+    info: Git Large File Support
   - repo: gla11y
     group: deepin-sysdev-team
     info: Automatic check of accessibility of .ui files
@@ -1027,6 +1074,10 @@ repos:
     group: deepin-sysdev-team
     info: Go parser for Uniform Resource Names
 
+  - repo: golang-github-leonelquinteros-gotext #main
+    group: deepin-sysdev-team
+    info: Go GNU gettext utilities package (library)
+
   - repo: golang-github-lionsoul2014-ip2region-v1.0-binding-golang-ip2region
     group: deepin-sysdev-team
     info: offline IP address manager framework and locator
@@ -1172,6 +1223,10 @@ repos:
     group: deepin-sysdev-team
     info: API to track the lifecyle of Golang goroutines, and provide clean termination
 
+  - repo: golang-pault-go-debian #main
+    group: deepin-sysdev-team
+    info: library to parse and handle common Debian file formats
+
   - repo: goldendict
     group: deepin-sysdev-team
     info: feature-rich dictionary lookup program
@@ -1232,6 +1287,10 @@ repos:
   - repo: gulkan
     group: deepin-sysdev-team
     info: Vulkan and OpenGL abstraction library
+
+  - repo: guzzle-sphinx-theme #main
+    group: deepin-sysdev-team
+    info: Sphinx theme used by Guzzle
 
   - repo: gyp
     group: deepin-pkg
@@ -1433,6 +1492,10 @@ repos:
     group: deepin-pkg
     info: Htop 是一个基于 ncurse 的进程查看器，类似于 top
 
+  - repo: httpbin #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: hyfetch
     group: deepin-sysdev-team
     info: Neofetch with LGBTQ+ pride flags!
@@ -1565,8 +1628,9 @@ repos:
 
   - repo: jerasure #main
     group: deepin-sysdev-team
-    info: Jerasure is a shared library that been designed to be modular, fast and flexible.
-      It is used in storage systems such as Swift and Ceph to add fault tolerance.
+    info: Jerasure is a shared library that been designed to be modular, fast and
+      flexible. It is used in storage systems such as Swift and Ceph to add fault
+      tolerance.
 
   - repo: jpeg-xl
     group: deepin-sysdev-team
@@ -1576,9 +1640,17 @@ repos:
     group: deepin-sysdev-team
     info: jpeginfo can be used to generate informative listings of jpeg files.
 
+  - repo: jsonpickle #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: jtreg6
     group: deepin-sysdev-team
     info: Regression Test Harness for the OpenJDK platform
+
+  - repo: jupyter-comm #main
+    group: deepin-sysdev-team
+    info: Register a comm implementation in the Jupyter kernel
 
   - repo: kbuild
     group: deepin-sysdev-team
@@ -1655,6 +1727,10 @@ repos:
     info: Larch is a tool to copy messages from one IMAP server to another quickly
       and safely.
 
+  - repo: lazy-loader #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: lerc #main
     group: deepin-sysdev-team
     info: Limited Error Raster Compression library.
@@ -1663,6 +1739,10 @@ repos:
     group: deepin-sysdev-team
     info: This is an interface to the GNU Compiler Collection for the collection and
       analysis of compiler-generated binaries.
+
+  - repo: libadwaita #main
+    group: deepin-sysdev-team
+    info: Library with GTK widgets for mobile phones
 
   - repo: libapache-logformat-compiler-perl
     group: deepin-sysdev-team
@@ -1679,6 +1759,10 @@ repos:
   - repo: libauthen-simple-perl
     group: deepin-sysdev-team
     info: simple and consistent perl framework for authentication
+
+  - repo: libavtp #main
+    group: deepin-sysdev-team
+    info: Audio Video Transport Protocol
 
   - repo: libcache-cache-perl #main
     group: deepin-sysdev-team
@@ -2016,16 +2100,6 @@ repos:
     group: deepin-sysdev-team
     info: module to remove imported symbols after compilation
 
-  - repo: libnetfilter-acct
-    group: deepin-sysdev-team
-    info: libnetfilter_acct is a userspace library providing an interface to the extended
-      netfilter accounting infrastructure.
-
-  - repo: libnetfilter-acct
-    group: deepin-sysdev-team
-    info: a userspace library providing an interface to the extended netfilter accounting
-      infrastructure.
-
   - repo: libnet-openid-common-perl #main
     group: deepin-sysdev-team
     info: libraries shared between Net::OpenID::Consumer and Net::OpenID::Server
@@ -2037,6 +2111,16 @@ repos:
   - repo: libnet-openid-server-perl #main
     group: deepin-sysdev-team
     info: library for servers of OpenID identities
+
+  - repo: libnetfilter-acct
+    group: deepin-sysdev-team
+    info: libnetfilter_acct is a userspace library providing an interface to the extended
+      netfilter accounting infrastructure.
+
+  - repo: libnetfilter-acct
+    group: deepin-sysdev-team
+    info: a userspace library providing an interface to the extended netfilter accounting
+      infrastructure.
 
   - repo: libnvme #main
     group: deepin-sysdev-team
@@ -2217,13 +2301,13 @@ repos:
     group: deepin-sysdev-team
     info: A library that provides TPM functionality
 
-  - repo: libtracefs #main
-    group: deepin-sysdev-team
-    info: API to access the kernel tracefs directory (development files)
-
   - repo: libtraceevent #main
     group: deepin-sysdev-team
     info: Linux kernel trace event library (development files)
+
+  - repo: libtracefs #main
+    group: deepin-sysdev-team
+    info: API to access the kernel tracefs directory (development files)
 
   - repo: libuev
     group: deepin-sysdev-team
@@ -2285,6 +2369,10 @@ repos:
     group: deepin-sysdev-team
     info: kernel virtual package
 
+  - repo: lirc #main
+    group: deepin-sysdev-team
+    info: Linux Infrared Remote Control Daemon
+
   - repo: llvm-toolchain-15 #main
     group: deepin-sysdev-team
     info: LLVM compiler infrastructure
@@ -2312,10 +2400,6 @@ repos:
   - repo: love
     group: deepin-sysdev-team
     info: 2D game development framework based on Lua and OpenGL
-
-  - repo: lirc #main
-    group: deepin-sysdev-team
-    info: Linux Infrared Remote Control Daemon
 
   - repo: lsb-release-minimal
     group: deepin-sysdev-team
@@ -2390,34 +2474,6 @@ repos:
     group: deepin-sysdev-team
     info: Python port of the JavaScript mdurl package
 
-  - repo: meson-python #main
-    group: deepin-sysdev-team
-    info: Meson PEP 517 Python build backend
-
-  - repo: multistrap
-    group: deepin-sysdev-team
-    info: multiple repository bootstrap based on apt
-
-  - repo: xsimd #main
-    group: deepin-sysdev-team
-    info: C++ wrappers for SIMD intrinsics
-
-  - repo: pooch #main
-    group: deepin-sysdev-team
-    info: Tools to manage Python library's data files
-
-  - repo: pytest-httpserver #main
-    group: deepin-sysdev-team
-    info: HTTP server for pytest to test HTTP clients
-
-  - repo: pythran #main
-    group: deepin-sysdev-team
-    info: ahead of time compiler for Python
-
-  - repo: sphinx-panels #main
-    group: deepin-sysdev-team
-    info: sphinx extension for creating panels in a grid layout
-
   - repo: meld
     group: deepin-sysdev-team
     info: graphical tool to diff and merge files
@@ -2429,6 +2485,10 @@ repos:
   - repo: menu
     group: deepin-sysdev-team
     info: generates programs menu for all menu-aware applications
+
+  - repo: meson-python #main
+    group: deepin-sysdev-team
+    info: Meson PEP 517 Python build backend
 
   - repo: metro-policy
     group: deepin-sysdev-team
@@ -2449,6 +2509,10 @@ repos:
   - repo: missidentify
     group: deepin-sysdev-team
     info: find win32 applications
+
+  - repo: mistune0 #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: mmdebstrap
     group: deepin-sysdev-team
@@ -2477,6 +2541,10 @@ repos:
   - repo: mtr
     group: deepin-sysdev-team
     info: Full screen ncurses and X11 traceroute tool
+
+  - repo: multistrap
+    group: deepin-sysdev-team
+    info: multiple repository bootstrap based on apt
 
   - repo: myst-parser #main
     group: deepin-sysdev-team
@@ -2514,6 +2582,10 @@ repos:
   - repo: netmask
     group: deepin-sysdev-team
     info: helps determine network masks
+
+  - repo: networkx #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: nexttrace
     group: deepin-sysdev-team
@@ -2672,6 +2744,10 @@ repos:
   - repo: node-html5shiv #main
     group: deepin-sysdev-team
     info: enable use of HTML5 sectioning elements in legacy browser
+
+  - repo: node-html5shiv #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: node-htmlescape #main
     group: deepin-sysdev-team
@@ -2935,6 +3011,10 @@ repos:
     group: deepin-sysdev-team
     info: Network Time Protocol daemon/utilities (transitional package).
 
+  - repo: numba #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team
     info: Nvidia driver
@@ -2942,6 +3022,10 @@ repos:
   - repo: nyacc
     group: deepin-sysdev-team
     info: NYACC is set of guile modules for generating parsers and lexical analyzers.
+
+  - repo: objgraph #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: obs-studio
     maintainer: 8MiYile
@@ -3066,9 +3150,17 @@ repos:
     group: deepin-sysdev-team
     info: simple password manager using GnuPG
 
+  - repo: pastel #main
+    group: deepin-sysdev-team
+    info: bring colors to your terminal
+
   - repo: pbzip2
     group: deepin-sysdev-team
     info: parallel bzip2 implementation
+
+  - repo: pep8-naming #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: petsc
     group: deepin-sysdev-team
@@ -3120,6 +3212,10 @@ repos:
     group: deepin-sysdev-team
     info: Poetry PEP 517 Build Backend
 
+  - repo: pooch #main
+    group: deepin-sysdev-team
+    info: Tools to manage Python library's data files
+
   - repo: postgresql-15 #main
     group: deepin-sysdev-team
     info: The World's Most Advanced Open Source Relational Database
@@ -3165,6 +3261,10 @@ repos:
     group: deepin-sysdev-team
     info: Python bindings for libcangjie
 
+  - repo: pycares #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: pycountry
     group: deepin-sysdev-team
     info: ISO databases accessible from Python 3
@@ -3173,13 +3273,29 @@ repos:
     group: deepin-sysdev-team
     info: Debugger used by debugpy
 
+  - repo: pydocstyle #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: pydoctor #main
     group: deepin-sysdev-team
-    info:  Python API document generator
+    info: Python API document generator
+
+  - repo: pylev #main
+    group: deepin-sysdev-team
+    info: pure Python Levenshtein implementation
 
   - repo: pypdf2 #main
     group: deepin-sysdev-team
     info: Pure-Python library built as a PDF toolkit
+
+  - repo: pyproject-api #main
+    group: deepin-sysdev-team
+    info: API to interact with Python pyproject.toml-based projects
+
+  - repo: pyproject-metadata #main
+    group: deepin-sysdev-team
+    info: Dataclass for PEP 621 metadata with support for [core metadata] generation
 
   - repo: pyrad #main
     group: deepin-sysdev-team
@@ -3189,17 +3305,33 @@ repos:
     group: deepin-sysdev-team
     info: simple and lightweight SOAP Library (Python 3)
 
+  - repo: pytables #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: pytest-doctestplus #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: pytest-httpbin #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: pytest-httpserver #main
+    group: deepin-sysdev-team
+    info: HTTP server for pytest to test HTTP clients
+
+  - repo: pytest-mock #main
+    group: deepin-sysdev-team
+    info: Thin wrapper around mock for easier use with pytest (Python 3 module)
+
   - repo: pytest-mpl #main
     group: deepin-sysdev-team
     info: pytest plugin for Matplotlib image comparison
 
-  - repo: python-smmap #main
+  - repo: pytest-vcr #main
     group: deepin-sysdev-team
-    info: pure Python implementation of a sliding window memory map manager
-
-  - repo: python-repoze.sphinx.autointerface #main
-    group: deepin-sysdev-team
-    info: Sphinx extension to generate API docs from Zope interfaces
+    info: python3-defaults 3.11
 
   - repo: python-arrow
     group: deepin-sysdev-team
@@ -3208,6 +3340,10 @@ repos:
   - repo: python-autogui
     group: deepin-sysdev-team
     info: PyAutoGUI is a cross-platform GUI automation Python module for human beings
+
+  - repo: python-beniget #main
+    group: deepin-sysdev-team
+    info: collection of compile-time Python AST analyzers
 
   - repo: python-build
     group: deepin-sysdev-team
@@ -3226,13 +3362,29 @@ repos:
     info: characteristic is Python package with class decorators that ease the chores
       of implementing the most common attribute-related object protocols.
 
-  - repo: python-cmarkgfm #main
+  - repo: python-charset-normalizer #main
     group: deepin-sysdev-team
-    info: CMarkGFM is a Python wrapper for the cmark-gfm Markdown parser.
+    info: python3-defaults 3.11
+
+  - repo: python-cleo #main
+    group: deepin-sysdev-team
+    info: create beautiful and testable command-line interfaces
+
+  - repo: python-clevercsv #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-click-default-group #main
     group: deepin-sysdev-team
     info: Extension for Python click adding default subcommand to group (Python 3)
+
+  - repo: python-cmarkgfm #main
+    group: deepin-sysdev-team
+    info: CMarkGFM is a Python wrapper for the cmark-gfm Markdown parser.
+
+  - repo: python-colorlog #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-configargparse
     group: deepin-sysdev-team
@@ -3242,6 +3394,18 @@ repos:
   - repo: python-css-parser
     group: deepin-sysdev-team
     info: CSS parser provides utilities for parsing, serialising CSS in Python.
+
+  - repo: python-deprecated #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-deprecation #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-editables #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-editor
     group: deepin-sysdev-team
@@ -3262,57 +3426,21 @@ repos:
     info: python-exif is a Python library to extract Exif information from digital
       camera image files.
 
+  - repo: python-fakeredis #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-flasgger #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-flexmock #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: python-gast #main
     group: deepin-sysdev-team
     info: compatibility layer for the AST of various Python versions (Python3 version)
-
-  - repo: python-git #main
-    group: deepin-sysdev-team
-    info: Python library to interact with Git repositories
-    
-  - repo: python-gitdb #main
-    group: deepin-sysdev-team
-    info: pure-Python git object database
-
-  - repo: python-beniget #main
-    group: deepin-sysdev-team
-    info: collection of compile-time Python AST analyzers
-
-  - repo: guzzle-sphinx-theme #main
-    group: deepin-sysdev-team
-    info: Sphinx theme used by Guzzle
-
-  - repo: sphinx-argparse-cli #main
-    group: deepin-sysdev-team
-    info: Sphinx extension to render CLI arguments defined by the argparse module
-
-  - repo: sphinx-autobuild #main
-    group: deepin-sysdev-team
-    info: Automatically rebuild Sphinx documentation
-
-  - repo: sphinx-favicon #main
-    group: deepin-sysdev-team
-    info: Sphinx Extension adding support for custom favicons
-
-  - repo: sphinxext-opengraph #main
-    group: deepin-sysdev-team
-    info: Automatically rebuild Sphinx documentation
-
-  - repo: pytest-mock #main
-    group: deepin-sysdev-team
-    info: Thin wrapper around mock for easier use with pytest (Python 3 module)
-
-  - repo: pyproject-api #main
-    group: deepin-sysdev-team
-    info: API to interact with Python pyproject.toml-based projects
-
-  - repo: pyproject-metadata #main
-    group: deepin-sysdev-team
-    info: Dataclass for PEP 621 metadata with support for [core metadata] generation
-
-  - repo: tqdm #main
-    group: deepin-sysdev-team
-    info: fast, extensible progress bar for Python 3 and CLI tool
 
   - repo: python-geojson
     group: deepin-sysdev-team
@@ -3322,6 +3450,14 @@ repos:
     group: deepin-sysdev-team
     info: gevent is a coroutine-based Python networking library
 
+  - repo: python-git #main
+    group: deepin-sysdev-team
+    info: Python library to interact with Git repositories
+
+  - repo: python-gitdb #main
+    group: deepin-sysdev-team
+    info: pure-Python git object database
+
   - repo: python-glad
     group: deepin-sysdev-team
     info: GL/GLES/EGL/GLX/WGL Loader-Generator (Python 3)
@@ -3329,6 +3465,10 @@ repos:
   - repo: python-gmpy2
     group: deepin-sysdev-team
     info: gmpy provides interfaces GMP to Python 3 for fast, unbound-precision computations
+
+  - repo: python-graphviz #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-h11 #main
     group: deepin-sysdev-team
@@ -3342,9 +3482,17 @@ repos:
     group: deepin-sysdev-team
     info: Hatch metadata plugin for fancy PyPI READMEs
 
+  - repo: python-hiredis #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: python-hpack #main
     group: deepin-sysdev-team
     info: Pure-Python3 HTTP/2 header encoding (HPACK)
+
+  - repo: python-httpretty #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-hyperframe #main
     group: deepin-sysdev-team
@@ -3363,6 +3511,10 @@ repos:
     group: deepin-sysdev-team
     info: Kerberos KDC HTTP proxy WSGI module
 
+  - repo: python-lupa #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: python-mailer
     group: deepin-sysdev-team
     info: mailer is a Python module that simplifies sending email (Python 3)
@@ -3375,6 +3527,14 @@ repos:
     group: deepin-sysdev-team
     info: netaddr is a Python library for the manipulation of various common network
       address notations and representations.
+
+  - repo: python-nox #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-ordered-set #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-pefile
     group: deepin-sysdev-team
@@ -3414,14 +3574,58 @@ repos:
     group: deepin-sysdev-team
     info: Pytest plugin for trio (Python3 version)
 
+  - repo: python-rednose #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: python-reportlab
     group: deepin-pkg
     info: Documentation for the ReportLab Python library
+
+  - repo: python-repoze.sphinx.autointerface #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to generate API docs from Zope interfaces
+
+  - repo: python-rlpycairo #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-setuptools-rust #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-skbuild #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-smmap #main
+    group: deepin-sysdev-team
+    info: pure Python implementation of a sliding window memory map manager
+
+  - repo: python-socksipy #main
+    group: deepin-sysdev-team
+    info: Python 3 SOCKS client module
+
+  - repo: python-sparse #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-sure #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: python-tenacity #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-termcolor
     group: deepin-sysdev-team
     info: The termcolor Python module provides ANSII Color formatting for output in
       terminal.
+
+  - repo: python-termstyle #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-tokenize-rt
     group: deepin-sysdev-team
@@ -3439,6 +3643,10 @@ repos:
   - repo: python-tomlkit #main
     group: deepin-sysdev-team
     info: style-preserving TOML library for Python
+
+  - repo: python-typeguard #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python-unicodedata2 #main
     group: deepin-sysdev-team
@@ -3468,9 +3676,17 @@ repos:
     group: deepin-sysdev-team
     info: collection of utilities for WSGI applications
 
+  - repo: python-wilderness #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: python-wsproto #main
     group: deepin-sysdev-team
     info: WebSockets state-machine based protocol implementation
+
+  - repo: python-zstandard #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: python3-fontforge
     group: deepin-sysdev-team
@@ -3483,6 +3699,10 @@ repos:
       Python is a high-level, interactive, object-oriented language. Its 3.12 version  includes
       an extensive class library with lots of goodies for network programming,  system
       administration, sounds and graphics. 
+
+  - repo: pythran #main
+    group: deepin-sysdev-team
+    info: ahead of time compiler for Python
 
   - repo: qcoro
     group: deepin-sysdev-team
@@ -3566,13 +3786,13 @@ repos:
     group: deepin-sysdev-team
     info: Rofi is a window switcher, application launcher and dmenu replacement
 
-  - repo: rsync
-    group: deepin-pkg
-    info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
-
   - repo: rst2pdf
     group: deepin-sysdev-team
     info: ReportLab-based reStructuredText to PDF renderer
+
+  - repo: rsync
+    group: deepin-pkg
+    info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
 
   - repo: ruby-afm
     group: deepin-pkg
@@ -4046,6 +4266,14 @@ repos:
     group: deepin-sysdev-team
     info: Execute commands in a chroot environment
 
+  - repo: scikit-build #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
+  - repo: scikit-build #main
+    group: deepin-sysdev-team
+    info: improved build system generator for Python C/C++/Fortran/Cython extensions
+
   - repo: seatd
     group: deepin-sysdev-team
     info: A minimal seat management daemon
@@ -4062,6 +4290,10 @@ repos:
     group: deepin-sysdev-team
     info: SGML infrastructure and SGML catalog file support
 
+  - repo: sgmllib3k #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: shaderc #main
     group: deepin-sysdev-team
     info: Command line compiler for GLSL/HLSL to SPIR-V
@@ -4069,6 +4301,10 @@ repos:
   - repo: shairplay
     group: deepin-sysdev-team
     info: Apple airplay and raop protocol server
+
+  - repo: shellingham #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: shim-signed
     group: deepin-sysdev-team
@@ -4096,6 +4332,10 @@ repos:
     group: deepin-sysdev-team
     info: source for the C++ socket library
 
+  - repo: softhsm2 #main
+    group: deepin-sysdev-team
+    info: cryptographic store accessible through a PKCS #11
+
   - repo: spdx-licenses
     group: deepin-sysdev-team
     info: Collection of license data provided by SPDX Workgroup
@@ -4109,6 +4349,14 @@ repos:
     info: Speex is an audio codec especially designed for compressing voice at low
       bit-rates for applications such as voice over IP (VoIP)
 
+  - repo: sphinx-argparse-cli #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to render CLI arguments defined by the argparse module
+
+  - repo: sphinx-autobuild #main
+    group: deepin-sysdev-team
+    info: Automatically rebuild Sphinx documentation
+
   - repo: sphinx-basic-ng #main
     group: deepin-sysdev-team
     info: modern base for Sphinx themes
@@ -4116,6 +4364,10 @@ repos:
   - repo: sphinx-design  #main
     group: deepin-sysdev-team
     info: A sphinx extension for designing beautiful, view size responsive web components.
+
+  - repo: sphinx-favicon #main
+    group: deepin-sysdev-team
+    info: Sphinx Extension adding support for custom favicons
 
   - repo: sphinx-inline-tabs #main
     group: deepin-sysdev-team
@@ -4125,21 +4377,33 @@ repos:
     group: deepin-sysdev-team
     info: Create a custom 404 page with absolute URLs hardcoded
 
+  - repo: sphinx-panels #main
+    group: deepin-sysdev-team
+    info: sphinx extension for creating panels in a grid layout
+
   - repo: sphinx-press-theme #main
     group: deepin-sysdev-team
     info: Sphinx theme used by the Python documentation
 
-  - repo: sphinx-reredirects #main
+  - repo: sphinx-prompt #main
     group: deepin-sysdev-team
-    info: extension for Sphinx projects that handles redirects
+    info: python3-defaults 3.11
 
   - repo: sphinx-remove-toctrees #main
     group: deepin-sysdev-team
     info: Reduce sphinx documentation build times
 
+  - repo: sphinx-reredirects #main
+    group: deepin-sysdev-team
+    info: extension for Sphinx projects that handles redirects
+
   - repo: sphinxcontrib-trio #main
     group: deepin-sysdev-team
     info: Make Sphinx better at documenting Python functions and methods
+
+  - repo: sphinxext-opengraph #main
+    group: deepin-sysdev-team
+    info: Automatically rebuild Sphinx documentation
 
   - repo: spice
     group: deepin-sysdev-team
@@ -4176,6 +4440,10 @@ repos:
   - repo: sshpass
     group: deepin-sysdev-team
     info: Non-interactive ssh password authentication
+
+  - repo: statsmodels #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: stdeb
     group: deepin-sysdev-team
@@ -4283,6 +4551,10 @@ repos:
     group: deepin-sysdev-team
     info: compiler for project news file
 
+  - repo: tqdm #main
+    group: deepin-sysdev-team
+    info: fast, extensible progress bar for Python 3 and CLI tool
+
   - repo: tree-sitter
     group: deepin-sysdev-team
     info: Parser generator tool and incremental parsing library
@@ -4298,6 +4570,10 @@ repos:
   - repo: tslib
     group: deepin-pkg
     info: Tslib is an abstraction layer for touchscreen panel events.
+
+  - repo: twitter-bootstrap4 #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
 
   - repo: unifdef #main
     group: deepin-sysdev-team
@@ -4319,9 +4595,17 @@ repos:
     group: deepin-sysdev-team
     info: dependency package to pull in Valgrind if it's available
 
+  - repo: vcr.py #main
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+
   - repo: vfit
     group: deepin-sysdev-team
     info: generate backwards-compatible, static instances of variable fonts
+
+  - repo: virt-viewer
+    group: deepin-sysdev-team
+    info: Displaying the graphical console of a virtual machine
 
   - repo: virtualbox
     group: deepin-sysdev-team
@@ -4330,10 +4614,6 @@ repos:
   - repo: virtualbox-ext-pack
     group: deepin-sysdev-team
     info: extra capabilities for VirtualBox, downloader.
-
-  - repo: virt-viewer
-    group: deepin-sysdev-team
-    info: Displaying the graphical console of a virtual machine
 
   - repo: vkfft
     group: deepin-sysdev-team
@@ -4451,6 +4731,10 @@ repos:
     group: deepin-sysdev-team
     info: application launcher for wlroots based wayland compositors
 
+  - repo: wpewebkit #main
+    group: deepin-sysdev-team
+    info: Web content engine for embedded devices
+
   - repo: wrk
     group: deepin-sysdev-team
     info: HTTP benchmarking tool
@@ -4462,10 +4746,6 @@ repos:
   - repo: x11vnc
     group: deepin-sysdev-team
     info: VNC server to allow remote access to an existing X session
-
-  - repo: xtl #main
-    group: deepin-sysdev-team
-    info: basic tools (containers, algorithms) used for xtensor and xeus
 
   - repo: xball
     group: deepin-sysdev-team
@@ -4516,6 +4796,14 @@ repos:
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) server
 
+  - repo: xsimd #main
+    group: deepin-sysdev-team
+    info: C++ wrappers for SIMD intrinsics
+
+  - repo: xtl #main
+    group: deepin-sysdev-team
+    info: basic tools (containers, algorithms) used for xtensor and xeus
+
   - repo: yamllint
     group: deepin-sysdev-team
     info: Linter for YAML files
@@ -4562,7 +4850,7 @@ repos:
     group: deepin-sysdev-team
     info: Zope Deprecation Infrastructure
 
-  - repo: zope.dottedname #main 
+  - repo: zope.dottedname #main
     group: deepin-sysdev-team
     info: Resolver for Python dotted names
 
@@ -4650,290 +4938,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: shellingham #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: cachy #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: crashtest #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: deepdiff #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-httpretty #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-clevercsv #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: jsonpickle #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-ordered-set #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: feedparser #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-wilderness #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-fakeredis #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-flexmock #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: numba #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: pytables #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-zstandard #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: statsmodels #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: aioredis #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-lupa #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: objgraph #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-sure #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-graphviz #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-rednose #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: pytest-doctestplus #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: twitter-bootstrap4 #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: sphinx-prompt #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-hiredis #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: node-html5shiv #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: sgmllib3k #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: aiosignal #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: aiodns #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-    
-  - repo: frozenlist #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-
-  - repo: python-charset-normalizer #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
-    
-  - repo: pycares #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: pep8-naming #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: flake8-polyfill #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-rlpycairo #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11      
-
-  - repo: python-setuptools-rust #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-skbuild #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: scikit-build #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-deprecated #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: flake8-docstrings #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-tenacity #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: pydocstyle #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-    
-  - repo: golang-pault-go-debian #main 
-    group: deepin-sysdev-team
-    info: library to parse and handle common Debian file formats 
-    
-  - repo: jupyter-comm #main 
-    group: deepin-sysdev-team
-    info: Register a comm implementation in the Jupyter kernel 
-    
-  - repo: pytest-vcr #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: lazy-loader #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: networkx #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-typeguard #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-flasgger #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: pytest-httpbin #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: httpbin #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: vcr.py #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: mistune0 #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-termstyle #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-sparse #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-deprecation #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: softhsm2 #main 
-    group: deepin-sysdev-team
-    info: cryptographic store accessible through a PKCS #11  
-
-  - repo: python-editables #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-nox #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: python-colorlog #main 
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11  
-
-  - repo: libavtp #main 
-    group: deepin-sysdev-team
-    info: Audio Video Transport Protocol
-
-  - repo: wpewebkit #main 
-    group: deepin-sysdev-team
-    info:  Web content engine for embedded devices  
-
-  - repo: python-cleo #main 
-    group: deepin-sysdev-team
-    info: create beautiful and testable command-line interfaces
-
-  - repo: pylev #main 
-    group: deepin-sysdev-team
-    info:  pure Python Levenshtein implementation 
-
-  - repo: clikit #main 
-    group: deepin-sysdev-team
-    info:  utilities to build beautiful command lines interfaces
-
-  - repo: pastel #main 
-    group: deepin-sysdev-team
-    info:  bring colors to your terminal
-
-  - repo: python-socksipy #main 
-    group: deepin-sysdev-team
-    info:  Python 3 SOCKS client module   
-
-  - repo: scikit-build #main 
-    group: deepin-sysdev-team
-    info:  improved build system generator for Python C/C++/Fortran/Cython extensions 
-
-  - repo: libadwaita #main 
-    group: deepin-sysdev-team
-    info:  Library with GTK widgets for mobile phones
-
-  - repo: golang-github-leonelquinteros-gotext #main 
-    group: deepin-sysdev-team
-    info:  Go GNU gettext utilities package (library)
-
-  - repo: git-lfs #main 
-    group: deepin-sysdev-team
-    info:  Git Large File Support

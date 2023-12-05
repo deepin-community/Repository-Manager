@@ -5378,3 +5378,7 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: golang-github-pelletier-go-toml.v2 #main
+    group: deepin-sysdev-team
+    info: Go library for the TOML format (go-toml v2)
+

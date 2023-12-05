@@ -1142,7 +1142,7 @@ repos:
     group: deepin-sysdev-team
     info: multiplexed stream library using spdy
 
-  - repo: golang-github-docopt-docopt-go #,aom
+  - repo: golang-github-docopt-docopt-go #main
     group: deepin-sysdev-team
     info: Implementation of docopt in the Go programming language
 

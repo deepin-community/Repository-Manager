@@ -5386,3 +5386,7 @@ repos:
     group: deepin-sysdev-team
     info: Go library for the TOML format (go-toml v2)
 
+  - repo: libdevel-confess-perl #main
+    group: deepin-sysdev-team
+    info: module to include stack traces on all warnings and errors
+

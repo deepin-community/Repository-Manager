@@ -2966,6 +2966,10 @@ repos:
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine
 
+  - repo: msmtp
+    group: deepin-sysdev-team
+    info: light SMTP client with support for server profiles
+
   - repo: mtr
     group: deepin-sysdev-team
     info: Full screen ncurses and X11 traceroute tool

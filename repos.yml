@@ -5387,6 +5387,10 @@ repos:
     group: deepin-sysdev-team
     info: fast, modern, secure kernel VPN tunnel (metapackage)
 
+  - repo: wireguard-go
+    group: deepin-sysdev-team
+    info: Userspace implementation of WireGuard in Go
+
   - repo: wireplumber
     group: deepin-sysdev-team
     info: modular session / policy manager for PipeWire

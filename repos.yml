@@ -853,7 +853,6 @@ repos:
     group: deepin-sysdev-team
     info: development files for libftgl
 
-
   - repo: furo
     group: deepin-sysdev-team
     info: clean customisable Sphinx documentation theme
@@ -1062,6 +1061,10 @@ repos:
     group: deepin-sysdev-team
     info: Golang library to interact with arbitrary JSON
 
+  - repo: golang-github-blang-semver #main
+    group: deepin-sysdev-team
+    info: semantic versioning library
+
   - repo: golang-github-bmizerany-assert #main
     group: deepin-sysdev-team
     info: Assertions library for Go tests
@@ -1077,6 +1080,11 @@ repos:
   - repo: golang-github-bugsnag-bugsnag-go #main
     group: deepin-sysdev-team
     info: automatic panic monitoring for Go applications
+
+  - repo: golang-github-casbin-casbin #main
+    group: deepin-sysdev-team
+    info: Authorization library that supports access control models like ACL, RBAC,
+      ABAC
 
   - repo: golang-github-cavaliergopher-grab
     group: deepin-sysdev-team
@@ -1109,6 +1117,10 @@ repos:
   - repo: golang-github-cockroachdb-datadriven #main
     group: deepin-sysdev-team
     info: extension of Table-Driven Testing (library)
+
+  - repo: golang-github-containerd-btrfs #main
+    group: deepin-sysdev-team
+    info: Btrfs bindings for Go
 
   - repo: golang-github-containerd-cgroups #main
     group: deepin-sysdev-team
@@ -1390,6 +1402,10 @@ repos:
     group: deepin-sysdev-team
     info: expressive vendor-neutral APIs for distributed tracing and context propagation
 
+  - repo: golang-github-hailocab-go-hostpool #main
+    group: deepin-sysdev-team
+    info: flexibly pool among multiple hosts from Go application
+
   - repo: golang-github-hashicorp-go-memdb #main
     group: deepin-sysdev-team
     info: in-memory database built on immutable radix trees
@@ -1409,6 +1425,10 @@ repos:
   - repo: golang-github-imdario-mergo #main
     group: deepin-sysdev-team
     info: Functions to merge structs and maps in Go
+
+  - repo: golang-github-influxdata-influxdb1-client #main
+    group: deepin-sysdev-team
+    info: Old clientv2 for InfluxDB 1.x (library)
 
   - repo: golang-github-intel-goresctrl #main
     group: deepin-sysdev-team
@@ -1522,6 +1542,10 @@ repos:
     group: deepin-sysdev-team
     info: Golang wrapper for ANSI escape code
 
+  - repo: golang-github-mreiferson-go-httpclient #main
+    group: deepin-sysdev-team
+    info: Go HTTP client with timeouts
+
   - repo: golang-github-mrunalp-fileutils #main
     group: deepin-sysdev-team
     info: collection of utilities for file manipulation in golang
@@ -1579,6 +1603,10 @@ repos:
     group: deepin-sysdev-team
     info: OpenTracing instrumentation for packages in the Go stdlib
 
+  - repo: golang-github-openzipkin-zipkin-go #main
+    group: deepin-sysdev-team
+    info: Zipkin tracer library for go
+
   - repo: golang-github-oschwald-maxminddb-golang
     group: deepin-sysdev-team
     info: This library provides a reader for the MaxMind DB file format.
@@ -1594,6 +1622,10 @@ repos:
   - repo: golang-github-pelletier-go-toml.v2
     group: deepin-sysdev-team
     info: Go library for the TOML format (go-toml v2)
+
+  - repo: golang-github-performancecopilot-speed #main
+    group: deepin-sysdev-team
+    info: Implementation of the PCP instrumentation API (library)
 
   - repo: golang-github-philhofer-fwd #main
     group: deepin-sysdev-team
@@ -1675,6 +1707,10 @@ repos:
     group: deepin-sysdev-team
     info: Golang pkcs11 URI library (library)
 
+  - repo: golang-github-streadway-amqp #main
+    group: deepin-sysdev-team
+    info: Go client for AMQP 0.9.1
+
   - repo: golang-github-tidwall-gjson
     group: deepin-sysdev-team
     info: JSON parser for Go
@@ -1715,6 +1751,10 @@ repos:
     group: deepin-sysdev-team
     info: package for building command line apps in Go
 
+  - repo: golang-github-valyala-bytebufferpool #main
+    group: deepin-sysdev-team
+    info: Anti-memory-waste byte buffer pool for go
+
   - repo: golang-github-valyala-fasttemplate #main
     group: deepin-sysdev-team
     info: simple and fast template engine for Go
@@ -1730,6 +1770,10 @@ repos:
   - repo: golang-github-vishvananda-netns #main
     group: deepin-sysdev-team
     info: network namespaces in go
+
+  - repo: golang-github-vividcortex-gohistogram #main
+    group: deepin-sysdev-team
+    info: Streaming approximate histograms in Go (library)
 
   - repo: golang-github-wsxiaoys-terminal
     group: deepin-sysdev-team
@@ -2890,7 +2934,6 @@ repos:
   - repo: libsoup3 #main
     group: deepin-sysdev-team
     info: HTTP library implementation in C
-
 
   - repo: libspnav
     group: deepin-sysdev-team
@@ -5193,7 +5236,6 @@ repos:
   - repo: tightvnc
     group: deepin-sysdev-team
     info: virtual network computing server software
-
 
   - repo: timeshift
     group: deepin-sysdev-team

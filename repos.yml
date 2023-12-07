@@ -5338,3 +5338,35 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: golang-github-nkovacs-streamquote #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: golang-go.uber-zap #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: golang-google-genproto #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: golang-gopkg-cheggaaa-pb.v1 #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: golang-gopkg-rethinkdb-rethinkdb-go.v6 #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: golang-gopkg-square-go-jose.v2 #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: golang-rsc-binaryregexp #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: opendnssec #main
+    group: deepin-sysdev-team
+    info: Fast and lightweight x86/x86-64 disassembler library
+

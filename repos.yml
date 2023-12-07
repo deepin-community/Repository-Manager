@@ -1061,6 +1061,10 @@ repos:
     group: deepin-sysdev-team
     info: Golang library to interact with arbitrary JSON
 
+  - repo: golang-github-bitly-go-simplejson #main
+    group: deepin-sysdev-team
+    info: Golang library to interact with arbitrary JSON
+
   - repo: golang-github-blang-semver #main
     group: deepin-sysdev-team
     info: semantic versioning library
@@ -1093,6 +1097,10 @@ repos:
   - repo: golang-github-checkpoint-restore-go-criu #main
     group: deepin-sysdev-team
     info: CRIU bindings for Golang
+
+  - repo: golang-github-chzyer-readline #main
+    group: deepin-sysdev-team
+    info: Readline is a pure go implementation for a GNU-Readline like library
 
   - repo: golang-github-cilium-ebpf #main
     group: deepin-sysdev-team
@@ -1190,6 +1198,10 @@ repos:
     group: deepin-sysdev-team
     info: simple set type for the Go language
 
+  - repo: golang-github-dghubble-sling #main
+    group: deepin-sysdev-team
+    info: HTTP client library for creating and sending API requests
+
   - repo: golang-github-disposaboy-jsonconfigreader
     group: deepin-sysdev-team
     info: proxy for golang's io.Reader allowing you to use json as a config format
@@ -1233,6 +1245,10 @@ repos:
   - repo: golang-github-dvsekhvalnov-jose2go #main
     group: deepin-sysdev-team
     info: Go implementation of Javascript Object Signing and Encryption
+
+  - repo: golang-github-edsrzf-mmap-go #main
+    group: deepin-sysdev-team
+    info: portable mmap package for Go
 
   - repo: golang-github-emicklei-go-restful #main
     group: deepin-sysdev-team
@@ -1281,6 +1297,10 @@ repos:
   - repo: golang-github-geertjohan-go.rice #main
     group: deepin-sysdev-team
     info: Go package for embedding web resources into Go executables
+
+  - repo: golang-github-ghodss-yaml #main
+    group: deepin-sysdev-team
+    info: better way to marshal and unmarshal YAML in Golang
 
   - repo: golang-github-gin-gonic-gin
     group: deepin-sysdev-team
@@ -1422,6 +1442,14 @@ repos:
     group: deepin-sysdev-team
     info: Service orchestration and management tool (source)
 
+  - repo: golang-github-hdrhistogram-hdrhistogram-go #main
+    group: deepin-sysdev-team
+    info: pure Go implementation of Gil Tene's HDR Histogram
+
+  - repo: golang-github-ianlancetaylor-demangle #main
+    group: deepin-sysdev-team
+    info: C++ symbol name demangler written in Go
+
   - repo: golang-github-imdario-mergo #main
     group: deepin-sysdev-team
     info: Functions to merge structs and maps in Go
@@ -1473,6 +1501,10 @@ repos:
   - repo: golang-github-klauspost-compress #main
     group: deepin-sysdev-team
     info: optimized compression packages
+
+  - repo: golang-github-knetic-govaluate #main
+    group: deepin-sysdev-team
+    info: Arbitrary expression evaluation for golang (library)
 
   - repo: golang-github-leodido-go-urn
     group: deepin-sysdev-team
@@ -1659,6 +1691,10 @@ repos:
     group: deepin-sysdev-team
     info: Go CLI Table Generator
 
+  - repo: golang-github-rogpeppe-fastuuid #main
+    group: deepin-sysdev-team
+    info: fast generation of 192-bit UUIDs
+
   - repo: golang-github-safchain-ethtool #main
     group: deepin-sysdev-team
     info: simple ethtool-like library for Go
@@ -1678,6 +1714,10 @@ repos:
   - repo: golang-github-shopify-logrus-bugsnag #main
     group: deepin-sysdev-team
     info: logrus-bugsnag is a hook that interfaces Logrus with Bugsnag
+
+  - repo: golang-github-shopify-sarama #main
+    group: deepin-sysdev-team
+    info: Go library for Apache Kafka
 
   - repo: golang-github-smira-commander
     group: deepin-sysdev-team

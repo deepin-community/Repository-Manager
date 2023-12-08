@@ -8,7 +8,14 @@ repos:
   - repo: ldb
     group: deepin-sysdev-team
     notes: ldb related components have been merged into samba.
-    
+
+  - repo: llvm-toolchain-12
+    group: deepin-sysdev-team
+    notes: currently llvm-toolchain-14
+  - repo: llvm-toolchain-13
+    group: deepin-sysdev-team
+    notes: currently llvm-toolchain-14
+
   - repo: python-setuptools
     group: deepin-sysdev-team
     notes: python-setuptools is now setuptools. deepin dropped python2 so it should be removed.
@@ -18,10 +25,19 @@ repos:
     notes: ppx-tools-versioned is an old library that do no longer compile with. current OCaml version 
       https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1006355
 
-  - repo: llvm-toolchain-12
+  - repo: python3-typed-ast
     group: deepin-sysdev-team
-    notes: currently llvm-toolchain-14
-  - repo: llvm-toolchain-13
+    notes: End of life. See https://github.com/python/typed_ast/issues/179
+
+  - repo: ldb
     group: deepin-sysdev-team
-    notes: currently llvm-toolchain-14
+    notes: now part of samba
+
+  - repo: gsfonts
+    group: deepin-sysdev-team
+    notes: now part of fonts-urw-base35
+
+  - repo: fcitx5-pinyin-sougou
+    group: deepin-sysdev-team
+    notes: Sougou Pinyin dictionary
 

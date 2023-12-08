@@ -168,10 +168,10 @@ jobs:
               print("create_repo url: " + url)
           try:
               data, dels = get_pr_diff()
-              for repo in dels:
-                if repo != '':
-                    print(repo)
-                    del_obs_package(repo)
+              #for repo in dels:
+              #  if repo != '':
+              #      print(repo)
+              #      del_obs_package(repo)
               for repo in data:
                 if repo != '':
                     print(repo)

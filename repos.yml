@@ -5505,6 +5505,10 @@ repos:
     group: deepin-sysdev-team
     info: fast, modern, secure kernel VPN tunnel (metapackage)
 
+  - repo: wireless-regdb #main
+    group: deepin-sysdev-team
+    info: wireless regulatory database for Linux
+
   - repo: wireplumber
     group: deepin-sysdev-team
     info: modular session / policy manager for PipeWire

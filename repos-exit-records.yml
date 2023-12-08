@@ -29,3 +29,8 @@ repos:
   - repo: gsfonts
     group: deepin-sysdev-team
     notes: now part of fonts-urw-base35
+
+  - repo: fcitx5-pinyin-sougou
+    group: deepin-sysdev-team
+    notes: Sougou Pinyin dictionary
+

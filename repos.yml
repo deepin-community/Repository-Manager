@@ -480,6 +480,10 @@ repos:
     group: deepin-sysdev-team
     info: Docker toolset to pack, ship, store, and deliver content (source)
 
+  - repo: docker.io #main
+    group: deepin-sysdev-team
+    info: Linux container runtime
+
   - repo: docopt.cpp #main
     group: deepin-sysdev-team
     info: development files for docopt.cpp
@@ -1194,6 +1198,10 @@ repos:
     group: deepin-sysdev-team
     info: zipexe attempts to open an executable binary file as a zip file
 
+  - repo: golang-github-datadog-zstd #main
+    group: deepin-sysdev-team
+    info: Zstd wrapper for Go
+
   - repo: golang-github-deckarep-golang-set #main
     group: deepin-sysdev-team
     info: simple set type for the Go language
@@ -1245,6 +1253,10 @@ repos:
   - repo: golang-github-dvsekhvalnov-jose2go #main
     group: deepin-sysdev-team
     info: Go implementation of Javascript Object Signing and Encryption
+
+  - repo: golang-github-eapache-go-xerial-snappy #main
+    group: deepin-sysdev-team
+    info: Xerial-compatible Snappy framing support for Go
 
   - repo: golang-github-edsrzf-mmap-go #main
     group: deepin-sysdev-team
@@ -1366,9 +1378,17 @@ repos:
     group: deepin-sysdev-team
     info: Go support for protocol buffers (version v1.5.x)
 
+  - repo: golang-github-golang-snappy #main
+    group: deepin-sysdev-team
+    info: Implementation of the Snappy compression format in Go
+
   - repo: golang-github-google-certificate-transparency #main
     group: deepin-sysdev-team
     info: Framework for monitoring and auditing SSL certificates
+
+  - repo: golang-github-google-go-querystring #main
+    group: deepin-sysdev-team
+    info: library for encoding structs into URL query parameters
 
   - repo: golang-github-google-martian #main
     group: deepin-sysdev-team
@@ -1501,6 +1521,10 @@ repos:
   - repo: golang-github-klauspost-compress #main
     group: deepin-sysdev-team
     info: optimized compression packages
+
+  - repo: golang-github-klauspost-crc32 #main
+    group: deepin-sysdev-team
+    info: CRC32 hash with x64 optimizations
 
   - repo: golang-github-knetic-govaluate #main
     group: deepin-sysdev-team
@@ -1662,6 +1686,10 @@ repos:
   - repo: golang-github-philhofer-fwd #main
     group: deepin-sysdev-team
     info: Buffered Reader/Writer
+
+  - repo: golang-github-pierrec-lz4 #main
+    group: deepin-sysdev-team
+    info: LZ4 compression and decompression in pure Go
 
   - repo: golang-github-prometheus-client-golang #main
     group: deepin-sysdev-team
@@ -1894,6 +1922,14 @@ repos:
   - repo: golang-gopkg-cheggaaa-pb.v1 #main
     group: deepin-sysdev-team
     info: simple console progress bar for Go
+
+  - repo: golang-gopkg-eapache-go-resiliency.v1 #main
+    group: deepin-sysdev-team
+    info: resiliency patterns for golang
+
+  - repo: golang-gopkg-eapache-queue.v1 #main
+    group: deepin-sysdev-team
+    info: fast golang queue using ring-buffer
 
   - repo: golang-gopkg-h2non-filetype.v1
     group: deepin-sysdev-team

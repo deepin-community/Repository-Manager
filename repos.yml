@@ -44,6 +44,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: alsa-ucm-conf #main
+    group: deepin-sysdev-team
+    info: ALSA Use Case Manager configuration files
+
   - repo: aml
     group: deepin-sysdev-team
     info: An event loop library that aims at portability, utility and simplicity

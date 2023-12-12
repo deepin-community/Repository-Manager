@@ -5759,3 +5759,8 @@ repos:
   - repo: coverxygen
     group: deepin-sysdev-team
     info:  Generate doxygen's documentation coverage report
+
+  - repo: libmultidimensional-perl #main
+    group: deepin-sysdev-team
+    info:   Perl pragma to disable multidimensional array emulation
+

@@ -8,7 +8,14 @@ repos:
   - repo: ldb
     group: deepin-sysdev-team
     notes: ldb related components have been merged into samba.
-    
+
+  - repo: llvm-toolchain-12
+    group: deepin-sysdev-team
+    notes: currently llvm-toolchain-14
+  - repo: llvm-toolchain-13
+    group: deepin-sysdev-team
+    notes: currently llvm-toolchain-14
+
   - repo: python-setuptools
     group: deepin-sysdev-team
     notes: python-setuptools is now setuptools. deepin dropped python2 so it should be removed.

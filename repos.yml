@@ -5529,10 +5529,6 @@ repos:
     group: deepin-sysdev-team
     info: A modular Wayland compositor library
 
-  - repo: wlroots-git
-    group: deepin-sysdev-team
-    info: A modular Wayland compositor library. git version.
-
   - repo: wofi
     group: deepin-sysdev-team
     info: application launcher for wlroots based wayland compositors
@@ -5747,4 +5743,3 @@ repos:
   - repo: coverxygen
     group: deepin-sysdev-team
     info:  Generate doxygen's documentation coverage report
-

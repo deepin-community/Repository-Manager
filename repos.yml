@@ -177,6 +177,10 @@ repos:
     group: deepin-sysdev-team
     info: Arbitrary-precision decimal and non-decimal arithmetic
 
+  - repo: binaryornot
+    group: deepin-sysdev-team
+    info: Python module to determine if a file is binary or text
+
   - repo: binutils-arm-none-eabi #main
     group: deepin-sysdev-team
     info: GNU assembler, linker and binary utilities for ARM Cortex-R/M processors
@@ -4136,6 +4140,10 @@ repos:
     group: deepin-sysdev-team
     info: collection of compile-time Python AST analyzers
 
+  - repo: python-boolean.py
+    group: deepin-sysdev-team
+    info: small library implementing a boolean algebra
+
   - repo: python-build
     group: deepin-sysdev-team
     info: Simple, correct PEP517 package builder (Python 3)
@@ -4301,6 +4309,10 @@ repos:
   - repo: python-kdcproxy #main
     group: deepin-sysdev-team
     info: Kerberos KDC HTTP proxy WSGI module
+
+  - repo: python-license-expression
+    group: deepin-sysdev-team
+    info: small library to handle license expressions
 
   - repo: python-lupa #main
     group: deepin-sysdev-team
@@ -4560,6 +4572,10 @@ repos:
   - repo: responses
     group: deepin-sysdev-team
     info: Utility library for mocking out the requests Python 3 library
+
+  - repo: reuse
+    group: deepin-sysdev-team
+    info: tool for REUSE copyright and license recommendations
 
   - repo: ripit
     group: deepin-sysdev-team

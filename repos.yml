@@ -516,6 +516,10 @@ repos:
     group: deepin-sysdev-team
     info: patch maintenance system for Debian source packages
 
+  - repo: dpkg-awk #main
+    group: deepin-sysdev-team
+    info: Gawk script to parse /var/lib/dpkg/{status,available} and Packages
+
   - repo: dpkg-source-gitarchive
     group: deepin-sysdev-team
     info: dpkg source format for git repositories

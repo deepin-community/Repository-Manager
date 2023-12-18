@@ -5770,3 +5770,7 @@ repos:
   - repo: libdigest-md5-file-perl #main
     group: deepin-sysdev-team
     info:   Perl extension for getting MD5 sums for files and urls
+
+  - repo: sphinxcontrib-jquery #main
+    group: deepin-sysdev-team
+    info:   extension to include jQuery on newer Sphinx releases

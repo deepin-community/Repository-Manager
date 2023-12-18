@@ -5774,3 +5774,7 @@ repos:
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team
     info:   extension to include jQuery on newer Sphinx releases
+
+  - repo: libsass-python #main
+    group: deepin-sysdev-team
+    info:   SASS for Python 3: a straightforward binding of libsass for Python

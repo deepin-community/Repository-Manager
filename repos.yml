@@ -145,6 +145,10 @@ repos:
     group: deepin-sysdev-team
     info: assimp 3D model import library (testdata)
 
+  - repo: astyle
+    group: deepin-sysdev-team
+    info: Library header files for Artistic Style
+
   - repo: atop
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity
@@ -881,6 +885,10 @@ repos:
     group: deepin-sysdev-team
     info: GAMGI is a graphical interface tool used to establish, view, and analyze
       atomic structures.
+
+  - repo: gamin
+    group: deepin-sysdev-team
+    info: Development files for the gamin client library
 
   - repo: gammaray
     group: deepin-sysdev-team
@@ -5758,6 +5766,10 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: codeblocks
+    group: deepin-sysdev-team
+    info: Code::Blocks integrated development environment (IDE)
 
   - repo: coverxygen
     group: deepin-sysdev-team

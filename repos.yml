@@ -646,6 +646,10 @@ repos:
     group: deepin-sysdev-team
     info: Full-featured graphical FTP/FTPS/SFTP client
 
+  - repo: fio
+    group: deepin-sysdev-team
+    info: flexible I/O tester
+
   - repo: flake
     group: deepin-sysdev-team
     info: Alternative encoder for the Free Lossless Audio Codec

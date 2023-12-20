@@ -316,6 +316,10 @@ repos:
     group: deepin-sysdev-team
     info: Screen saver for the terminal based in the movie "The Matrix".
 
+  - repo: codeblocks
+    group: deepin-sysdev-team
+    info: Code::Blocks integrated development environment (IDE)
+
   - repo: coffeescript #main
     group: deepin-sysdev-team
     info: interpreter and compiler for the CoffeeScript language
@@ -361,6 +365,10 @@ repos:
   - repo: corkscrew
     group: deepin-sysdev-team
     info: corkscrew is a simple tool for tunneling SSH through HTTP proxies
+
+  - repo: coverxygen
+    group: deepin-sysdev-team
+    info: Generate doxygen's documentation coverage report
 
   - repo: cpp-httplib
     group: deepin-sysdev-team
@@ -2661,6 +2669,10 @@ repos:
     group: deepin-sysdev-team
     info: module to display a stack trace in HTML
 
+  - repo: libdigest-md5-file-perl #main
+    group: deepin-sysdev-team
+    info: Perl extension for getting MD5 sums for files and urls
+
   - repo: libdisplay-info
     group: deepin-sysdev-team
     info: This library parse EDID and DisplayID
@@ -2892,6 +2904,10 @@ repos:
     group: deepin-sysdev-team
     info: library for Microsoft compression formats
 
+  - repo: libmultidimensional-perl #main
+    group: deepin-sysdev-team
+    info: Perl pragma to disable multidimensional array emulation
+
   - repo: libmypaint
     group: deepin-sysdev-team
     info: brush library for mypaint
@@ -3010,6 +3026,10 @@ repos:
   - repo: libsafe-isa-perl #main
     group: deepin-sysdev-team
     info: module for safely calling isa and friends on things that may not be objects
+
+  - repo: libsass-python #main
+    group: deepin-sysdev-team
+    info: SASS for Python 3 a straightforward binding of libsass for Python
 
   - repo: libsbsms #main
     group: deepin-sysdev-team
@@ -5227,6 +5247,10 @@ repos:
     group: deepin-sysdev-team
     info: extension for Sphinx projects that handles redirects
 
+  - repo: sphinxcontrib-jquery #main
+    group: deepin-sysdev-team
+    info: extension to include jQuery on newer Sphinx releases
+
   - repo: sphinxcontrib-trio #main
     group: deepin-sysdev-team
     info: Make Sphinx better at documenting Python functions and methods
@@ -5771,26 +5795,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: codeblocks
-    group: deepin-sysdev-team
-    info: Code::Blocks integrated development environment (IDE)
-
-  - repo: coverxygen
-    group: deepin-sysdev-team
-    info:  Generate doxygen's documentation coverage report
-
-  - repo: libmultidimensional-perl #main
-    group: deepin-sysdev-team
-    info:   Perl pragma to disable multidimensional array emulation
-
-  - repo: libdigest-md5-file-perl #main
-    group: deepin-sysdev-team
-    info:   Perl extension for getting MD5 sums for files and urls
-
-  - repo: sphinxcontrib-jquery #main
-    group: deepin-sysdev-team
-    info:   extension to include jQuery on newer Sphinx releases
-
-  - repo: libsass-python #main
-    group: deepin-sysdev-team
-    info:   SASS for Python 3: a straightforward binding of libsass for Python

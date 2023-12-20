@@ -2677,6 +2677,10 @@ repos:
     group: deepin-sysdev-team
     info: Syndication feed auto-discovery
 
+  - repo: libfido2 #main
+    group: deepin-sysdev-team
+    info: command-line tools to configure and use a FIDO 2 token
+
   - repo: libfile-keepass-perl
     group: deepin-sysdev-team
     info: interface to KeePass V1 and V2 database files
@@ -3928,6 +3932,10 @@ repos:
   - repo: pacman-package-manager
     group: deepin-sysdev-team
     info: Simple library-based package manager
+
+  - repo: pam-u2f #main
+    group: deepin-sysdev-team
+    info: universal 2nd factor (U2F) PAM module
 
   - repo: pandas #main
     group: deepin-sysdev-team

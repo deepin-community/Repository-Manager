@@ -427,6 +427,10 @@ repos:
     group: deepin-sysdev-team
     info: DebianDoc SGML DTD and formatting tools
 
+  - repo: debmake
+    group: deepin-sysdev-team
+    info: helper script to make the Debian source package
+
   - repo: debootstrap
     group: deepin-sysdev-team
     info: 自举建立一个基本 Debian 系统

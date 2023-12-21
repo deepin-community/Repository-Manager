@@ -5811,4 +5811,7 @@ repos:
     group: deepin-sysdev-team
     info: hfst-ospell
 
+  - repo: libmodule-depends-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to identify the dependencies of a distribution
 

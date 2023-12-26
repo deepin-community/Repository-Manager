@@ -5831,3 +5831,6 @@ repos:
     group: deepin-sysdev-team
     info: linux-deepin-latest
     
+  - repo: gnome-panel
+    group: deepin-sysdev-team
+    info: traditional panel, used in GNOME Flashback

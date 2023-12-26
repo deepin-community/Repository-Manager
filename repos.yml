@@ -5826,3 +5826,8 @@ repos:
   - repo: dxvk #community
     group: deepin-sysdev-team
     info: Vulkan-based translation layer for Direct3D 9/10/11
+
+  - repo: linux-deepin-latest #main
+    group: deepin-sysdev-team
+    info: linux-deepin-latest
+    

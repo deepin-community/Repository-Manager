@@ -4366,6 +4366,10 @@ repos:
     group: deepin-sysdev-team
     info: small library to handle license expressions
 
+  - repo: python-linetable #main
+    group: deepin-sysdev-team
+    info: Parse and generate linetable attributes for Python 3 code objects
+
   - repo: python-lupa #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11

@@ -214,6 +214,10 @@ repos:
     group: deepin-sysdev-team
     info: Boost provides free peer-reviewed portable C++ source libraries.
 
+  - repo: bpftrace
+    group: deepin-sysdev-team
+    info: high-level tracing language for Linux eBPF
+
   - repo: bpython
     group: deepin-sysdev-team
     info: fancy interface to the Python 3 interpreter
@@ -2572,6 +2576,10 @@ repos:
     group: deepin-sysdev-team
     info: Audio Video Transport Protocol
 
+  - repo: bpfcc
+    group: deepin-sysdev-team
+    info: shared library for BPF Compiler Collection (BCC)
+
   - repo: libcache-cache-perl #main
     group: deepin-sysdev-team
     info: Managed caches of persistent information
@@ -2587,6 +2595,10 @@ repos:
   - repo: libcec
     group: deepin-sysdev-team
     info: USB CEC Adaptor communication Library (shared library)
+
+  - repo: libcereal
+    group: deepin-sysdev-team
+    info: C++11 library for serialization
 
   - repo: libcgi-compile-perl
     group: deepin-sysdev-team

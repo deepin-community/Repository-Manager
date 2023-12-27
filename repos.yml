@@ -5452,6 +5452,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: u-boot-menu
+    group: deepin-sysdev-team
+    info: u-boot menu update
+
   - repo: unifdef #main
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.

@@ -5850,5 +5850,7 @@ repos:
   - repo: gnome-desktop #main 
     group: deepin-sysdev-team
     info: Android utils library for C
-
     
+  - repo: gnome-menus
+    group: deepin-sysdev-team
+    info: GNOME implementation of the freedesktop menu specification

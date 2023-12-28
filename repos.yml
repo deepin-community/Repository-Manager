@@ -4649,6 +4649,10 @@ repos:
     group: deepin-sysdev-team
     info: ROCm System Management Interface (ROCm SMI)
 
+  - repo: roc-toolkit #main
+    group: deepin-sysdev-team
+    info: real-time audio streaming over the network
+
   - repo: rofi
     group: deepin-sysdev-team
     info: Rofi is a window switcher, application launcher and dmenu replacement

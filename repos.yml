@@ -3926,6 +3926,10 @@ repos:
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
 
+  - repo: opensbi
+    group: deepin-sysdev-team
+    info: RISC-V Open Source Supervisor Binary Interface
+
   - repo: openssh-known-hosts
     group: deepin-sysdev-team
     info: download, filter and merge known_hosts for OpenSSH
@@ -5455,6 +5459,10 @@ repos:
   - repo: twitter-bootstrap4 #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: u-boot
+    group: deepin-sysdev-team
+    info: A boot loader for embedded systems
 
   - repo: u-boot-menu
     group: deepin-sysdev-team

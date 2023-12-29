@@ -304,6 +304,10 @@ repos:
     group: deepin-sysdev-team
     info: utilities to build beautiful command lines interfaces
 
+  - repo: clonezilla
+    group: deepin-sysdev-team
+    info: bare metal backup and recovery of disk drives
+
   - repo: cloud-sptheme #main
     group: deepin-sysdev-team
     info: Cloud Sphinx theme and related extensions
@@ -547,6 +551,10 @@ repos:
   - repo: draco
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds
+
+  - repo: drbl
+    group: deepin-sysdev-team
+    info: diskless remote boot, and a disk cloning utility
 
   - repo: duktape #amin
     group: deepin-sysdev-team
@@ -4012,6 +4020,14 @@ repos:
   - repo: parser
     group: deepin-sysdev-team
     info: It is a process for converting text (strings) into data structures.
+
+  - repo: partclone
+    group: deepin-sysdev-team
+    info: Utility to clone and restore a partition
+
+  - repo: partimage
+    group: deepin-sysdev-team
+    info: backup partitions into a compressed image file
 
   - repo: password-store
     group: deepin-sysdev-team

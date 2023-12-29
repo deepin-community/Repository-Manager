@@ -2308,6 +2308,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: httpie
+    group: deepin-sysdev-team
+    info: CLI, cURL-like tool for humans
+
   - repo: hyfetch
     group: deepin-sysdev-team
     info: Neofetch with LGBTQ+ pride flags!
@@ -5459,6 +5463,10 @@ repos:
   - repo: treeland
     group: deepin-sysdev-team
     info: A display manager and wayland compositer based on waylib
+
+  - repo: trimage
+    group: deepin-sysdev-team
+    info: GUI and command-line interface to optimize image files
 
   - repo: trove-classifiers
     group: deepin-sysdev-team

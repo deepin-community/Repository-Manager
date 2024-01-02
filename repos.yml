@@ -670,6 +670,10 @@ repos:
     group: deepin-sysdev-team
     info: Full-featured graphical FTP/FTPS/SFTP client
 
+  - repo: findlibs #main
+    group: deepin-sysdev-team
+    info: Python 3 module to discover libraries
+
   - repo: fio
     group: deepin-sysdev-team
     info: flexible I/O tester

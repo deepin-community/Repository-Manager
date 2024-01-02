@@ -5902,3 +5902,8 @@ repos:
   - repo: gnome-menus
     group: deepin-sysdev-team
     info: GNOME implementation of the freedesktop menu specification
+
+  - repo: libdebian-installer #main
+    group: deepin-sysdev-team
+    info: Library of common debian-installer functions
+   

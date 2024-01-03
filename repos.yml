@@ -2067,6 +2067,10 @@ repos:
     group: deepin-sysdev-team
     info: complete batch renamer for Linux
 
+  - repo: gradle-debian-helper #main
+    group: deepin-sysdev-team
+    info: Helper tools for building Debian packages with Gradle
+
   - repo: graphene #main
     group: deepin-sysdev-team
     info: library of graphic data types (development files)

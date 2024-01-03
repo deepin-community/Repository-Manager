@@ -2446,6 +2446,10 @@ repos:
     group: deepin-sysdev-team
     info: Software-build tool, replacement for make
 
+  - repo: jansi1 #main
+    group: deepin-sysdev-team
+    info: Java library for generating and interpreting ANSI escape sequences
+
   - repo: java-sip-api
     group: deepin-sysdev-team
     info: SIP API for Java

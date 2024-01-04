@@ -2413,6 +2413,10 @@ repos:
     group: deepin-sysdev-team
     info: simple top-like I/O monitor
 
+  - repo: ipcalc
+    group: deepin-sysdev-team
+    info: parameter calculator for IPv4 addresses
+
   - repo: iperf3
     group: deepin-sysdev-team
     info: Internet Protocol bandwidth measuring tool

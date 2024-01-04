@@ -354,6 +354,10 @@ repos:
     group: deepin-sysdev-team
     info: utilities to test color capabilities of terminal
 
+  - repo: commons-text #main
+    group: deepin-sysdev-team
+    info: Apache Commons Text
+
   - repo: containerd #main
     group: deepin-sysdev-team
     info: open and reliable container runtime (development files)

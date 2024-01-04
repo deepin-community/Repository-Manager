@@ -2960,6 +2960,10 @@ repos:
     group: deepin-sysdev-team
     info: module to remove imported symbols after compilation
 
+  - repo: libnbd
+    group: deepin-sysdev-team
+    info: A protocol for accessing Block Devices (hard disks and disk-like things) over a Network.
+
   - repo: libnet-openid-common-perl #main
     group: deepin-sysdev-team
     info: libraries shared between Net::OpenID::Consumer and Net::OpenID::Server

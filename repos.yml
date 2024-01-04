@@ -5942,4 +5942,11 @@ repos:
   - repo: libdebian-installer #main
     group: deepin-sysdev-team
     info: Library of common debian-installer functions
-   
+
+  - repo: cython-legacy #main
+    group: deepin-sysdev-team
+    info: C-Extensions for Python 3 (legacy version 0.29)
+
+  - repo: python-zombie-imp #main
+    group: deepin-sysdev-team
+    info: Lcopy of the `imp` module that was removed in Python 3.12

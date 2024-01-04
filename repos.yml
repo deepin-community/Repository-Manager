@@ -3975,6 +3975,10 @@ repos:
     info: open source libraries that implement high performance subdivision surface
       (subdiv) evaluation
 
+  - repo: opentest4j-reporting #main
+    group: deepin-sysdev-team
+    info: Open Test Reporting
+
   - repo: openttd
     group: deepin-sysdev-team
     info: reimplementation of Transport Tycoon Deluxe with enhancements

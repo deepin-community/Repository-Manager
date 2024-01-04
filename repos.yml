@@ -2769,6 +2769,10 @@ repos:
     group: deepin-sysdev-team
     info: header files and docs for libgssglue
 
+  - repo: libguestfs
+    group: deepin-sysdev-team
+    info: guest disk image management system - development headers
+
   - repo: libgweather4 #main
     group: deepin-sysdev-team
     info: GWeather development files
@@ -3164,6 +3168,10 @@ repos:
     group: deepin-sysdev-team
     info: routines for text containing ANSI color codes
 
+  - repo: libtorrent-rasterbar
+    group: deepin-sysdev-team
+    info: Development files for libtorrent-rasterbar
+
   - repo: libtpms
     group: deepin-sysdev-team
     info: A library that provides TPM functionality
@@ -3424,6 +3432,10 @@ repos:
   - repo: natsort #main
     group: deepin-sysdev-team
     info: Natural sorting for Python
+
+  - repo: nbdkit
+    group: deepin-sysdev-team
+    info: NBD is a protocol for accessing block Devices (hard disks and disk-like things) over a network.
 
   - repo: ncdu
     group: deepin-sysdev-team

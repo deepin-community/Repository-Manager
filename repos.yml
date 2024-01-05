@@ -5480,6 +5480,10 @@ repos:
     group: deepin-sysdev-team
     info: System restore utility
 
+  - repo: tinygltf #main
+    group: deepin-sysdev-team
+    info: glTF loader and saver library
+
   - repo: tix
     group: deepin-sysdev-team
     info: library for Tk -- development package

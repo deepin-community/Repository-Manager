@@ -5954,3 +5954,8 @@ repos:
   - repo: python-zombie-imp #main
     group: deepin-sysdev-team
     info: Lcopy of the `imp` module that was removed in Python 3.12
+    
+  - repo: frozen 
+    group: deepin-sysdev-team
+    info:   library for immutable and fixed-size containers
+

@@ -2409,6 +2409,10 @@ repos:
     group: deepin-sysdev-team
     info: Help i18n of RFC822 compliant config files
 
+  - repo: inxi
+    group: deepin-sysdev-team
+    info: full featured system information script
+
   - repo: iotop
     group: deepin-sysdev-team
     info: simple top-like I/O monitor

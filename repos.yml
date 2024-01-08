@@ -2454,6 +2454,10 @@ repos:
     group: deepin-sysdev-team
     info: A real-time application for testing Time Sensitive Networking equipment.
 
+  - repo: ivy-debian-helper #main
+    group: deepin-sysdev-team
+    info: lper tools for building Debian packages with Ivy
+
   - repo: jam
     group: deepin-sysdev-team
     info: Software-build tool, replacement for make

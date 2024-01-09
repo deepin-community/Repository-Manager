@@ -1125,6 +1125,10 @@ repos:
     group: deepin-sysdev-team
     info: HTTP request pipeline suitable for use across multiple go-routines
 
+  - repo: golang-github-benbjohnson-clock #main
+    group: deepin-sysdev-team
+    info: library for mocking time in Go
+
   - repo: golang-github-bitly-go-simplejson #main
     group: deepin-sysdev-team
     info: Golang library to interact with arbitrary JSON
@@ -1935,6 +1939,14 @@ repos:
     group: deepin-sysdev-team
     info: Stats collection and distributed tracing framework
 
+  - repo: golang-go.uber-atomic #main
+    group: deepin-sysdev-team
+    info: Simple wrappers for primitive types to enforce atomic access
+
+  - repo: golang-go.uber-multierr #main
+    group: deepin-sysdev-team
+    info: multierr allows combining one or more Go errors together
+
   - repo: golang-go.uber-zap #main
     group: deepin-sysdev-team
     info: Blazing fast, structured, leveled logging in Go
@@ -1970,6 +1982,10 @@ repos:
   - repo: golang-goleveldb
     group: deepin-sysdev-team
     info: LevelDB key/value database in Go
+
+  - repo: golang-gonum-v1-gonum #main
+    group: deepin-sysdev-team
+    info: set of numeric libraries for the Go programming language
 
   - repo: golang-gonum-v1-plot #main
     group: deepin-sysdev-team
@@ -2066,6 +2082,10 @@ repos:
   - repo: golang-testify #main
     group: deepin-sysdev-team
     info: sacred extension to the standard Go testing package
+
+  - repo: golang-uber-goleak #main
+    group: deepin-sysdev-team
+    info: goroutine leak detector
 
   - repo: goldendict
     group: deepin-sysdev-team

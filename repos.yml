@@ -1053,6 +1053,10 @@ repos:
     group: deepin-sysdev-team
     info: GTK+ Object Builder
 
+  - repo: gocc #main
+    group: deepin-sysdev-team
+    info: Go lexer and parser generator
+  
   - repo: gobject-introspection
     group: deepin-sysdev-team
     info: Generate interface introspection data for GObject libraries
@@ -1076,6 +1080,10 @@ repos:
   - repo: golang-ginkgo #main
     group: deepin-sysdev-team
     info: BDD Testing Framework for Go (development files)
+
+  - repo: golang-github-ajstarks-svgo #main
+    group: deepin-sysdev-team
+    info: generating online histograms and plotting them with golang
 
   - repo: golang-github-akamensky-argparse
     group: deepin-sysdev-team
@@ -1562,6 +1570,10 @@ repos:
     group: deepin-sysdev-team
     info: native byte order for Go
 
+  - repo: golang-github-jung-kurt-gofpdf #main
+    group: deepin-sysdev-team
+    info: PDF document generator with high level support for text, drawing and images
+
   - repo: golang-github-kardianos-osext #main
     group: deepin-sysdev-team
     info: Extend "os" package with Executable and ExecutableFolder
@@ -1959,6 +1971,10 @@ repos:
     group: deepin-sysdev-team
     info: LevelDB key/value database in Go
 
+  - repo: golang-gonum-v1-plot #main
+    group: deepin-sysdev-team
+    info: repository for plotting and visualizing data (library)
+
   - repo: golang-google-api #main
     group: deepin-sysdev-team
     info: Google APIs Client Library
@@ -2042,6 +2058,10 @@ repos:
   - repo: golang-rsc-binaryregexp #main
     group: deepin-sysdev-team
     info: Go regexp for binary/latin-1 data
+
+  - repo: golang-rsc-pdf #main
+    group: deepin-sysdev-team
+    info: Golang library that provides a reader for the PDF format
 
   - repo: golang-testify #main
     group: deepin-sysdev-team

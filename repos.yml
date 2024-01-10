@@ -4163,6 +4163,10 @@ repos:
     group: deepin-sysdev-team
     info: utility to control media players via MPRIS (development files)
 
+  - repo: plexus-testing #main
+    group: deepin-sysdev-team
+    info: Plexus Testing
+
   - repo: plocate
     group: deepin-sysdev-team
     info: much faster locate

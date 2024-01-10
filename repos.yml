@@ -382,6 +382,10 @@ repos:
     group: deepin-sysdev-team
     info: Generate doxygen's documentation coverage report
 
+  - repo: cowsay
+    group: deepin-sysdev-team
+    info: configurable talking cow
+
   - repo: cpp-httplib
     group: deepin-sysdev-team
     info: A C++ header-only HTTP/HTTPS server and client library

@@ -214,6 +214,10 @@ repos:
     group: deepin-sysdev-team
     info: Boost provides free peer-reviewed portable C++ source libraries.
 
+  - repo: boost1.83 #main
+    group: deepin-sysdev-team
+    info: Boost provides free peer-reviewed portable C++ source libraries.
+
   - repo: bpftrace
     group: deepin-sysdev-team
     info: high-level tracing language for Linux eBPF

@@ -6018,3 +6018,8 @@ repos:
   - repo: jquery-ui-themes #main 
     group: deepin-sysdev-team
     info: Base theme for jQuery UI
+
+  - repo: libxnvctrl #main 
+    group: deepin-sysdev-team
+    info: NV-CONTROL X extension
+    

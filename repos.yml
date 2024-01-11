@@ -628,6 +628,10 @@ repos:
     group: deepin-sysdev-team
     info: Utilities for EROFS File System
 
+  - repo: error-prone-java #main
+    group: deepin-sysdev-team
+    info: Catch common Java mistakes as compile-time errors
+
   - repo: etcd #main
     group: deepin-sysdev-team
     info: highly-available key value store -- source

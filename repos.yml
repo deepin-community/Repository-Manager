@@ -4154,6 +4154,14 @@ repos:
     info: Pgpgpg is a wrapper around GNU Privacy Guard which takes PGP 2.6 command
       line options, translate them and then call GnuPG to perform the desired action.
 
+  - repo: php-codesniffer #main
+    group: deepin-sysdev-team
+    info: PHP, CSS and JavaScript coding standard analyzer and checker
+
+  - repo: phpunit #main
+    group: deepin-sysdev-team
+    info: Unit testing suite for PHP
+
   - repo: pikepdf #main
     group: deepin-sysdev-team
     info: Python library to read and write PDFs with QPDF

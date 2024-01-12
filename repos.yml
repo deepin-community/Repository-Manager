@@ -2813,6 +2813,10 @@ repos:
     group: deepin-sysdev-team
     info: build high-performing platform-independent programs
 
+  - repo: libfilter-perl #main
+    group: deepin-sysdev-team
+    info: Perl source filters
+
   - repo: libfreeaptx
     group: deepin-sysdev-team
     info: Free implementation of aptX

@@ -5532,6 +5532,10 @@ repos:
     group: deepin-sysdev-team
     info: Tarball file list comparison tool
 
+  - repo: tbox
+    group: deepin-sysdev-team
+    info: glib-like multi-platform c library (development files)
+
   - repo: tcpdump
     group: deepin-sysdev-team
     info: command-line network traffic analyzer.

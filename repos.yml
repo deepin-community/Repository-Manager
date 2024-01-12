@@ -5532,6 +5532,10 @@ repos:
     group: deepin-sysdev-team
     info: TeX Live binaries
 
+  - repo: thrift #main
+    group: deepin-sysdev-team
+    info: The Apache Thrift software framework for scalable cross-language services development
+
   - repo: tigervnc
     group: deepin-sysdev-team
     info: Virtual network computing; Common software needed by servers

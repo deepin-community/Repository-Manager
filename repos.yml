@@ -3196,6 +3196,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module to delete subroutines
 
+  - repo: libsv
+    group: deepin-sysdev-team
+    info: Public domain cross-platform semantic versioning in c99 (development files)
+
   - repo: libsys-cpuaffinity-perl
     group: deepin-sysdev-team
     info: module to set CPU affinity for processes
@@ -5836,6 +5840,10 @@ repos:
   - repo: xkeyboard-config
     group: deepin-sysdev-team
     info: XKB data
+
+  - repo: xmake
+    group: deepin-sysdev-team
+    info: cross-platform build utility based on Lua
 
   - repo: xml-core
     group: deepin-sysdev-team

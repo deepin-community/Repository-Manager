@@ -4719,6 +4719,22 @@ repos:
     group: deepin-pkg
     info: QR Code generator library in multiple languages
 
+  - repo: qt6-grpc #main
+    group: deepin-sysdev-team
+    info: Qt 6 gRPC
+
+  - repo: qt6-httpserver #main
+    group: deepin-sysdev-team
+    info: Qt 6 HTTP Server
+
+  - repo: qt6-quick3dphysics #main
+    group: deepin-sysdev-team
+    info: Qt 6 Quick 3D Physics
+
+  - repo: qt6-speech #main
+    group: deepin-sysdev-team
+    info: Qt 6 Speech
+
   - repo: quart #main
     group: deepin-sysdev-team
     info: Python ASGI web microframework with the same API as Flask

@@ -4593,6 +4593,10 @@ repos:
     group: deepin-sysdev-team
     info: Pytest plugin for trio (Python3 version)
 
+  - repo: python-railroad-diagrams #main
+    group: deepin-sysdev-team
+    info: library for generating railroad diagrams
+
   - repo: python-rednose #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11

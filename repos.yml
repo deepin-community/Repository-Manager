@@ -4858,6 +4858,14 @@ repos:
     group: deepin-sysdev-team
     info: HTML, XML, SAX, and Reader parser for Ruby
 
+  - repo: ruby-optimist
+    group: deepin-sysdev-team
+    info: Commandline parser for Ruby that just gets out of your way
+
+  - repo: ruby-paint
+    group: deepin-sysdev-team
+    info: terminal paint library with 256 color and effect support
+
   - repo: ruby-pygments.rb #main
     group: deepin-sysdev-team
     info: pygments wrapper for Ruby

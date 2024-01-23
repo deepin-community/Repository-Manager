@@ -5668,6 +5668,14 @@ repos:
     group: deepin-sysdev-team
     info: u-boot menu update
 
+  - repo: udevil
+    group: deepin-sysdev-team
+    info: Alternative storage media interface
+
+  - repo: mergerfs
+    group: deepin-sysdev-team
+    info: another FUSE union filesystem
+
   - repo: unifdef #main
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.

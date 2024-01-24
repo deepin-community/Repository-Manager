@@ -3837,6 +3837,10 @@ repos:
     group: deepin-sysdev-team
     info: Pluralize a word
 
+  - repo: node-postcss-cli #main
+    group: deepin-sysdev-team
+    info: Command-line client for node-postcss
+
   - repo: node-prismjs # main
     group: deepin-sysdev-team
     info: Lightweight, robust, elegant syntax highlighting

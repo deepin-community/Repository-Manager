@@ -3712,6 +3712,10 @@ repos:
     group: deepin-sysdev-team
     info: inspects the v8 stack trace
 
+  - repo: node-get-stdin #main
+    group: deepin-sysdev-team
+    info: Easier stdin for Node.js
+
   - repo: node-html5shiv #main
     group: deepin-sysdev-team
     info: enable use of HTML5 sectioning elements in legacy browser
@@ -3841,6 +3845,14 @@ repos:
     group: deepin-sysdev-team
     info: Command-line client for node-postcss
 
+  - repo: node-postcss-load-config #main
+    group: deepin-sysdev-team
+    info: Autoload Config for PostCSS
+
+  - repo: node-postcss-reporter #main
+    group: deepin-sysdev-team
+    info: Log PostCSS messages in the console
+
   - repo: node-prismjs # main
     group: deepin-sysdev-team
     info: Lightweight, robust, elegant syntax highlighting
@@ -3936,6 +3948,10 @@ repos:
   - repo: node-tar-fs #main
     group: deepin-sysdev-team
     info: Node.js module that provides filesystem-like access to tar files
+
+  - repo: node-thenby #main
+    group: deepin-sysdev-team
+    info: library that helps sorting arrays on multiple keys
 
   - repo: node-to-regex #main
     group: deepin-sysdev-team

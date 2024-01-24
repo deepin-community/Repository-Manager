@@ -5824,6 +5824,10 @@ repos:
     group: deepin-sysdev-team
     info: modular session / policy manager for PipeWire
 
+  - repo: wlr-randr
+    group: deepin-sysdev-team
+    info: Utility to manage outputs of a Wayland compositor
+
   - repo: wlr-protocols
     group: deepin-sysdev-team
     info: Wayland roots protocol extensions
@@ -5831,6 +5835,10 @@ repos:
   - repo: wlroots
     group: deepin-sysdev-team
     info: A modular Wayland compositor library
+
+  - repo: wlsunset
+    group: deepin-sysdev-team
+    info: Day/night gamma adjustments for Wayland
 
   - repo: wofi
     group: deepin-sysdev-team

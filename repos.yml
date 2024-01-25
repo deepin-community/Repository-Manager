@@ -3736,6 +3736,10 @@ repos:
     group: deepin-sysdev-team
     info: List of directories you should ignore by default
 
+  - repo: node-immutable #main
+    group: deepin-sysdev-team
+    info: Immutable Data Collections
+
   - repo: node-irregular-plurals #main
     group: deepin-sysdev-team
     info: Map of nouns to their irregular plural form

@@ -4247,6 +4247,10 @@ repos:
     group: deepin-sysdev-team
     info: Poetry PEP 517 Build Backend
 
+  - repo: policykit-1-gnome #main
+    group: deepin-sysdev-team
+    info: authentication agent for PolicyKit
+
   - repo: pooch #main
     group: deepin-sysdev-team
     info: Tools to manage Python library's data files

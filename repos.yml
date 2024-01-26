@@ -1013,6 +1013,11 @@ repos:
   - repo: git-lfs #main
     group: deepin-sysdev-team
     info: Git Large File Support
+
+  - repo: git-review
+    group: deepin-sysdev-team
+    info: git command for submitting branches to Gerrit
+
   - repo: gla11y
     group: deepin-sysdev-team
     info: Automatic check of accessibility of .ui files
@@ -4421,6 +4426,10 @@ repos:
     group: deepin-sysdev-team
     info: Extension for Python click adding default subcommand to group (Python 3)
 
+  - repo: python-cliff #main
+    group: deepin-sysdev-team
+    info: command line interface formulation framework - Python 3.x
+
   - repo: python-cmarkgfm #main
     group: deepin-sysdev-team
     info: CMarkGFM is a Python wrapper for the cmark-gfm Markdown parser.
@@ -4520,6 +4529,10 @@ repos:
   - repo: python-h2 #main
     group: deepin-sysdev-team
     info: Pure-Python3 HTTP/2 State-Machine based protocol implementation in Python
+
+  - repo: python-hacking #main
+    group: deepin-sysdev-team
+    info: Flake8 OpenStack Hacking Guidelines Enforcement plugins - Python 3.x
 
   - repo: python-hatch-fancy-pypi-readme #main
     group: deepin-sysdev-team
@@ -4633,6 +4646,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: python-reno #main
+    group: deepin-sysdev-team
+    info: RElease NOtes manager - Python 3.x
+
   - repo: python-reportlab
     group: deepin-pkg
     info: Documentation for the ReportLab Python library
@@ -4664,6 +4681,10 @@ repos:
   - repo: python-sparse #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-stestr #main
+    group: deepin-sysdev-team
+    info: test runner similar to testrepository - Python 3.x
 
   - repo: python-sure #main
     group: deepin-sysdev-team
@@ -5550,6 +5571,10 @@ repos:
   - repo: stdeb
     group: deepin-sysdev-team
     info: Python to Debian source package conversion utility
+
+  - repo: stevedore #main
+    group: deepin-sysdev-team
+    info: manage dynamic plugins for Python applications - python3
 
   - repo: stow
     group: deepin-sysdev-team

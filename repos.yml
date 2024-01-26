@@ -6138,4 +6138,8 @@ repos:
   - repo: libxnvctrl #main 
     group: deepin-sysdev-team
     info: NV-CONTROL X extension
+
+  - repo: broadcom-sta-dkms  
+    group: deepin-sysdev-team
+    info: dkms source for the Broadcom STA Wireless driver
     

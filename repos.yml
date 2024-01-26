@@ -6164,7 +6164,7 @@ repos:
     group: deepin-sysdev-team
     info: NV-CONTROL X extension
 
-  - repo: broadcom-sta-dkms  
+  - repo: broadcom-sta  
     group: deepin-sysdev-team
     info: dkms source for the Broadcom STA Wireless driver
     

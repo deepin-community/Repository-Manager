@@ -6184,10 +6184,13 @@ repos:
     group: deepin-sysdev-team
     info: module to find and use installed Perl modules
 
+<<<<<<< HEAD
   - repo: libmodule-find-perl #main
     group: deepin-sysdev-team
     info: module to find and use installed Perl modules
 
+=======
+>>>>>>> f5afbd6 (chore: add lintian deps)
   - repo: libmoosex-configfromfile-perl #main
     group: deepin-sysdev-team
     info: Moose role for setting attributes from a config file

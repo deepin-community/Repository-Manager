@@ -6123,19 +6123,19 @@ repos:
   - repo: linux-deepin-latest #main
     group: deepin-sysdev-team
     info: linux-deepin-latest
-    
+
   - repo: gnome-panel
     group: deepin-sysdev-team
     info: traditional panel, used in GNOME Flashback
 
-  - repo: android-platform-tools 
+  - repo: android-platform-tools
     group: deepin-sysdev-team
     info: Android utils library for C
- 
-  - repo: gnome-desktop #main 
+
+  - repo: gnome-desktop #main
     group: deepin-sysdev-team
     info: Android utils library for C
-    
+
   - repo: gnome-menus
     group: deepin-sysdev-team
     info: GNOME implementation of the freedesktop menu specification
@@ -6151,20 +6151,99 @@ repos:
   - repo: python-zombie-imp #main
     group: deepin-sysdev-team
     info: Lcopy of the `imp` module that was removed in Python 3.12
-    
-  - repo: frozen 
+
+  - repo: frozen
     group: deepin-sysdev-team
     info:   library for immutable and fixed-size containers
 
-  - repo: jquery-ui-themes #main 
+  - repo: jquery-ui-themes #main
     group: deepin-sysdev-team
     info: Base theme for jQuery UI
 
-  - repo: libxnvctrl #main 
+  - repo: libxnvctrl #main
     group: deepin-sysdev-team
     info: NV-CONTROL X extension
 
-  - repo: broadcom-sta  
+  - repo: broadcom-sta
     group: deepin-sysdev-team
     info: dkms source for the Broadcom STA Wireless driver
-    
+
+  - repo: libmoosex-getopt-perl #main
+    group: deepin-sysdev-team
+    info: Moose extension for processing command line options
+
+  - repo: libmoosex-types-common-perl #main
+    group: deepin-sysdev-team
+    info: module with commonly used type constraints for Moose
+
+  - repo: libmoosex-types-perl #main
+    group: deepin-sysdev-team
+    info: Moose extension to organise types in libraries
+
+  - repo: libmodule-find-perl #main
+    group: deepin-sysdev-team
+    info: module to find and use installed Perl modules
+
+  - repo: libmodule-find-perl #main
+    group: deepin-sysdev-team
+    info: module to find and use installed Perl modules
+
+  - repo: libmoosex-configfromfile-perl #main
+    group: deepin-sysdev-team
+    info: Moose role for setting attributes from a config file
+
+  - repo: libmoosex-role-parameterized-perl #main
+    group: deepin-sysdev-team
+    info: Moose extension providing parameterized roles
+
+  - repo: libmoosex-simpleconfig-perl #main
+    group: deepin-sysdev-team
+    info: Moose role for setting attributes from a simple configfile
+
+  - repo: libmoosex-strictconstructor-perl #main
+    group: deepin-sysdev-team
+    info: Make your object constructors blow up on unknown attributes
+
+  - repo: libmoosex-getopt-perl #main
+    group: deepin-sysdev-team
+    info: Moose extension for processing command line options
+
+  - repo: libmoosex-types-path-class-perl #main
+    group: deepin-sysdev-team
+    info: Path::Class type library for Moose
+
+  - repo: libmoosex-types-path-tiny-perl #main
+    group: deepin-sysdev-team
+    info: Path::Tiny types and coercions for Moose
+
+  - repo: libmoosex-role-withoverloading-perl #main
+    group: deepin-sysdev-team
+    info: Moose extension for roles that support overloading
+
+  - repo: libmoosex-configfromfile-perl #main
+    group: deepin-sysdev-team
+    info: Moose role for setting attributes from a config file
+
+  - repo: libmoosex-role-parameterized-perl #main
+    group: deepin-sysdev-team
+    info: Moose extension providing parameterized roles
+
+  - repo: libmoosex-simpleconfig-perl #main
+    group: deepin-sysdev-team
+    info: Moose role for setting attributes from a simple configfile
+
+  - repo: libmoosex-strictconstructor-perl #main
+    group: deepin-sysdev-team
+    info: Make your object constructors blow up on unknown attributes
+
+  - repo: libmoosex-types-stringlike-perl #main
+    group: deepin-sysdev-team
+    info: Moose type constraints for strings or string-like objects
+
+  - repo: libmoosex-role-withoverloading-perl #main
+    group: deepin-sysdev-team
+    info: Moose extension for roles that support overloading
+
+  - repo: libmoosex-configfromfile-perl #main
+    group: deepin-sysdev-team
+    info: Moose role for setting attributes from a config file

@@ -6267,3 +6267,35 @@ repos:
   - repo: crash #main
     group: deepin-sysdev-team
     info: kernel debugging utility, allowing gdb like syntax
+
+  - repo: seafile-client
+    group: deepin-sysdev-team
+    info: Seafile Desktop Client
+
+  - repo: curl #main
+    group: deepin-sysdev-team
+    info: development files and documentation for libcurl (OpenSSL flavour)
+
+  - repo: libquazip #main
+    group: deepin-sysdev-team
+    info: C++ wrapper for ZIP/UNZIP (development files)
+
+  - repo: seafile
+    group: deepin-sysdev-team
+    info: Development files for the Seafile Client
+
+  - repo: libsearpc #main
+    group: deepin-sysdev-team
+    info: Development files for the Searpc framework
+
+  - repo: libwebsockets #main
+    group: deepin-sysdev-team
+    info: lightweight C websockets library - development files
+
+  - repo: libev #main
+    group: deepin-sysdev-team
+    info: static library, header files, and docs for libev
+
+  - repo: libsearpc #main
+    group: deepin-sysdev-team
+    info: Development files for the Searpc framework

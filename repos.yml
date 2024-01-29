@@ -2482,6 +2482,10 @@ repos:
     group: deepin-sysdev-team
     info: parameter calculator for IPv4 addresses
 
+  - repo: iperf #main
+    group: deepin-sysdev-team
+    info: Internet Protocol bandwidth measuring tool
+
   - repo: iperf3
     group: deepin-sysdev-team
     info: Internet Protocol bandwidth measuring tool
@@ -4345,6 +4349,10 @@ repos:
     group: deepin-sysdev-team
     info: Python module for creating and decoding RADIUS packets
 
+  - repo: pyroute2 #main
+    group: deepin-sysdev-team
+    info: Python3 Netlink library - full package
+
   - repo: pysimplesoap
     group: deepin-sysdev-team
     info: simple and lightweight SOAP Library (Python 3)
@@ -4376,6 +4384,10 @@ repos:
   - repo: pytest-vcr #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-aafigure #main
+    group: deepin-sysdev-team
+    info: aafigure - ASCII art to image converter
 
   - repo: python-arrow
     group: deepin-sysdev-team
@@ -4587,6 +4599,10 @@ repos:
     group: deepin-sysdev-team
     info: meld3 is an HTML/XML templating system for Python 2.3+
 
+  - repo: python-mitogen #main
+    group: deepin-sysdev-team
+    info: Library for writing distributed self-replicating programs
+
   - repo: python-netaddr
     group: deepin-sysdev-team
     info: netaddr is a Python library for the manipulation of various common network
@@ -4681,6 +4697,10 @@ repos:
   - repo: python-sparse #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-sphinx-code-include #main
+    group: deepin-sysdev-team
+    info: include source code from any Sphinx project using only its import path
 
   - repo: python-stestr #main
     group: deepin-sysdev-team

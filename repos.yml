@@ -6299,3 +6299,7 @@ repos:
   - repo: libsearpc #main
     group: deepin-sysdev-team
     info: Development files for the Searpc framework
+
+  - repo: google-android-installers
+    group: deepin-sysdev-team
+    info: Google's 'Sources for Android 34 and other version' Installer

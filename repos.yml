@@ -6303,3 +6303,7 @@ repos:
   - repo: google-android-installers
     group: deepin-sysdev-team
     info: Google's 'Sources for Android 34 and other version' Installer
+
+  - repo: libmousex-types-perl #main
+    group: deepin-sysdev-team
+    info: Mouse extension to organise types in libraries

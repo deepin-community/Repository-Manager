@@ -6307,3 +6307,8 @@ repos:
   - repo: libmousex-types-perl #main
     group: deepin-sysdev-team
     info: Mouse extension to organise types in libraries
+
+  - repo: msgpack-cxx
+    group: deepin-sysdev-team
+    info: Mouse extension to organise types in libraries
+    

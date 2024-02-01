@@ -6311,4 +6311,12 @@ repos:
   - repo: msgpack-cxx
     group: deepin-sysdev-team
     info: Mouse extension to organise types in libraries
+
+  - repo: deepin-qt5-helper
+    group: deepin-sysdev-team
+    info: Qt 5 development environment one-click installation of meta software packages
+
+  - repo: deepin-dtk5-helper
+    group: deepin-sysdev-team
+    info: Dtk 5 Development environment one-click installation of the meta-software package
     

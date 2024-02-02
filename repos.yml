@@ -6136,6 +6136,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module to identify the dependencies of a distribution
 
+  - repo: libmozilla-ca-perl #main
+    group: deepin-sysdev-team
+    info: Mozilla's CA cert bundle in PEM format
+
   - repo: dxvk #community
     group: deepin-sysdev-team
     info: Vulkan-based translation layer for Direct3D 9/10/11

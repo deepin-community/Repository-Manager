@@ -3613,6 +3613,10 @@ repos:
     group: deepin-sysdev-team
     info: node-babel plugin to generate polyfills
 
+  - repo: node-basic-auth #main
+    group: deepin-sysdev-team
+    info: Generic basic auth Authorization header field parser for whatever
+
   - repo: node-bluebird #main
     group: deepin-sysdev-team
     info: Fully featured Promises/A+ implementation for Node.js
@@ -3681,6 +3685,10 @@ repos:
     group: deepin-sysdev-team
     info: Find and load configuration from different locations
 
+  - repo: node-csstype #main
+    group: deepin-sysdev-team
+    info: TypeScript and Flow definitions for CSS
+
   - repo: node-data-uri-to-buffer #main
     group: deepin-sysdev-team
     info: Generate a Buffer instance from a Data URI string
@@ -3716,6 +3724,10 @@ repos:
   - repo: node-fast-json-stable-stringify #main
     group: deepin-sysdev-team
     info: Deterministic JSON.stringify()
+
+  - repo: node-fast-safe-stringify #main
+    group: deepin-sysdev-team
+    info: Safely and quickly serialize JavaScript objects
 
   - repo: node-get-caller-file #main
     group: deepin-sysdev-team
@@ -3829,6 +3841,10 @@ repos:
   - repo: node-module-deps #main
     group: deepin-sysdev-team
     info: walk the dependency graph to generate json output for browser-pack
+
+  - repo: node-morgan #main
+    group: deepin-sysdev-team
+    info: HTTP request logger middleware for node.js
 
   - repo: node-n3 #main
     group: deepin-sysdev-team

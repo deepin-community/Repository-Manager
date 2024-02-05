@@ -6339,4 +6339,11 @@ repos:
   - repo: deepin-dtk5-helper
     group: deepin-sysdev-team
     info: Dtk 5 Development environment one-click installation of the meta-software package
-    
+
+  - repo: glmark2
+    group: deepin-sysdev-team
+    info: OpenGL 2.0 benchmark suite
+
+  - repo: iotop-c
+    group: deepin-sysdev-team
+    info: simple top-like I/O monitor (implemented in C)

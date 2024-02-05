@@ -3685,6 +3685,10 @@ repos:
     group: deepin-sysdev-team
     info: Find and load configuration from different locations
 
+  - repo: node-css-tree #main
+    group: deepin-sysdev-team
+    info: toolset to work with CSS
+
   - repo: node-csstype #main
     group: deepin-sysdev-team
     info: TypeScript and Flow definitions for CSS
@@ -3985,6 +3989,10 @@ repos:
   - repo: node-to-regex #main
     group: deepin-sysdev-team
     info: regex generator from string or array of strings
+
+  - repo: node-turndown #main
+    group: deepin-sysdev-team
+    info: convert HTML into MarkDown with JavaScript
 
   - repo: node-umd #main
     group: deepin-sysdev-team

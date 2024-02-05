@@ -3705,6 +3705,10 @@ repos:
     group: deepin-sysdev-team
     info: sort module depends for deterministic browserify bundles
 
+  - repo: node-domino #main
+    group: deepin-sysdev-team
+    info: server-side DOM implementation based on Mozilla's dom.js
+
   - repo: node-ejs #main
     group: deepin-sysdev-team
     info: Embedded JavaScript templates
@@ -3824,6 +3828,10 @@ repos:
   - repo: node-md5-o-matic #main
     group: deepin-sysdev-team
     info: Fast and simple MD5 hashing utility with zero module dependencies
+
+  - repo: node-mdn-data #main
+    group: deepin-sysdev-team
+    info: Open Web data by the Mozilla Developer Network
 
   - repo: node-memfs #main
     group: deepin-sysdev-team

@@ -6363,3 +6363,7 @@ repos:
   - repo: iotop-c
     group: deepin-sysdev-team
     info: simple top-like I/O monitor (implemented in C)
+
+  - repo: fcitx5-table-extra #main
+    group: deepin-sysdev-team
+    info: Additional table based input method for Fcitx 5

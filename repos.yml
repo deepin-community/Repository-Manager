@@ -6379,3 +6379,7 @@ repos:
   - repo: deepin-cef-helper
     group: deepin-qt-team
     info: CEF Development environment one-click installation of the meta-software package
+
+  - repo: pyte
+    group: deepin-sysdev-team
+    info: simple VTXXX-compatible terminal emulator (Python 3)

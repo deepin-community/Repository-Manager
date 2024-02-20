@@ -6349,11 +6349,11 @@ repos:
     info: Mouse extension to organise types in libraries
 
   - repo: deepin-qt5-helper
-    group: deepin-sysdev-team
+    group: deepin-qt-team
     info: Qt 5 development environment one-click installation of meta software packages
 
   - repo: deepin-dtk5-helper
-    group: deepin-sysdev-team
+    group: deepin-qt-team
     info: Dtk 5 Development environment one-click installation of the meta-software package
 
   - repo: glmark2
@@ -6367,3 +6367,11 @@ repos:
   - repo: fcitx5-table-extra #main
     group: deepin-sysdev-team
     info: Additional table based input method for Fcitx 5
+
+  - repo: deepin-electron-helper
+    group: deepin-qt-team
+    info: Electron development environment one-click installation of meta software packages
+
+  - repo: deepin-cef-helper
+    group: deepin-qt-team
+    info: CEF Development environment one-click installation of the meta-software package

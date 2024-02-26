@@ -4329,6 +4329,10 @@ repos:
     group: deepin-cicd
     info: regenerate pristine tarballs
 
+  - repo: progress #main
+    group: deepin-sysdev-team
+    info: Coreutils Progress Viewer (formerly known as 'cv')
+
   - repo: proot
     group: deepin-sysdev-team
     info: emulate chroot, bind mount and binfmt_misc for non-root users
@@ -4336,6 +4340,10 @@ repos:
   - repo: psrip
     group: deepin-sysdev-team
     info: Extract images from PostScript files
+
+  - repo: pv #main
+    group: deepin-sysdev-team
+    info: Shell pipeline element to meter data passing through
 
   - repo: pycangjie
     group: deepin-sysdev-team

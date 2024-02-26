@@ -6391,3 +6391,7 @@ repos:
   - repo: pyte
     group: deepin-sysdev-team
     info: simple VTXXX-compatible terminal emulator (Python 3)
+
+  - repo: cabextract
+    group: deepin-sysdev-team
+    info: Microsoft Cabinet file unpacker

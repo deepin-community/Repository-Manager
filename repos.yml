@@ -6399,3 +6399,15 @@ repos:
   - repo: nvtop
     group: deepin-sysdev-team
     info: Interactive NVIDIA GPU process monitor
+
+  - repo: claws-mail
+    group: deepin-sysdev-team
+    info: Fast, lightweight and user-friendly GTK based email client
+
+  - repo: libcompface
+    group: deepin-sysdev-team
+    info: Compress/decompress images for mailheaders, libc6 devel
+
+  - repo: enchant-2
+    group: deepin-sysdev-team
+    info: Wrapper library for various spell checker engines (development)

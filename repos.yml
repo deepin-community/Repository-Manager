@@ -6395,3 +6395,7 @@ repos:
   - repo: cabextract
     group: deepin-sysdev-team
     info: Microsoft Cabinet file unpacker
+
+  - repo: nvtop
+    group: deepin-sysdev-team
+    info: Interactive NVIDIA GPU process monitor

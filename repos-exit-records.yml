@@ -34,3 +34,14 @@ repos:
     group: deepin-sysdev-team
     notes: Sougou Pinyin dictionary
 
+  - repo: llvm-toolchain-12
+    group: deepin-sysdev-team
+    notes: New LLVM toolchain is ready, so we do not need this.
+
+  - repo: llvm-toolchain-13
+    group: deepin-sysdev-team
+    notes: New LLVM toolchain is ready, so we do not need this.
+
+  - repo: llvm-toolchain-14
+    group: deepin-sysdev-team
+    notes: New LLVM toolchain is ready, so we do not need this.

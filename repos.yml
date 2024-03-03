@@ -6411,3 +6411,15 @@ repos:
   - repo: enchant-2
     group: deepin-sysdev-team
     info: Wrapper library for various spell checker engines (development)
+
+  - repo: bsfilter
+    group: deepin-sysdev-team
+    info: Bayesian spam filter
+
+  - repo: ruby-sdbm
+    group: deepin-sysdev-team
+    info: simple file-based key-value store with String keys and values
+
+  - repo: dillo
+    group: deepin-sysdev-team
+    info: Small and fast web browse

@@ -6168,6 +6168,10 @@ repos:
     group: deepin-sysdev-team
     info: Efficient full-featured X11 terminal emulator
 
+  - repo: zxcvbn-c
+    group: deepin-sysdev-team
+    info: password strength estimation library
+
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library

@@ -6435,3 +6435,19 @@ repos:
   - repo: xdg-terminal-exec #main
     group: deepin-sysdev-team
     info: user default terminal execution utility
+
+  - repo: sphinx-reredirects
+    group: deepin-sysdev-team
+    info: extension for Sphinx projects that handles redirects
+
+  - repo: linkify-it-py
+    group: deepin-sysdev-team
+    info: links recognition library with FULL unicode support
+
+  - repo: uc-micro-py
+    group: deepin-sysdev-team
+    info: python port of uc.micro
+
+  - repo: inotify-tools
+    group: deepin-sysdev-team
+    info: command-line programs providing a simple interface to inotify

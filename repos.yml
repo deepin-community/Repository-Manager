@@ -6427,3 +6427,7 @@ repos:
   - repo: dillo
     group: deepin-sysdev-team
     info: Small and fast web browse
+
+  - repo: xdg-terminal-exec #main
+    group: deepin-sysdev-team
+    info: user default terminal execution utility

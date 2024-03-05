@@ -3661,6 +3661,10 @@ repos:
     group: deepin-sysdev-team
     info: Extends Chai with assertions about promises
 
+  - repo: node-chainsaw #main
+    group: deepin-sysdev-team
+    info: Node.js module to build chainable fluent interfaces
+
   - repo: node-cjs-module-lexer #main
     group: deepin-sysdev-team
     info: Fast lexer to extract named exports from CommonJS modules

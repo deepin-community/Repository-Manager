@@ -3954,6 +3954,10 @@ repos:
     group: deepin-sysdev-team
     info: Seamless integration between Rollup and TypeScript
 
+  - repo: node-seq #main
+    group: deepin-sysdev-team
+    info: Chainable asynchronous flow control
+
   - repo: node-shasum #main
     group: deepin-sysdev-team
     info: Pure javascript function that return the sha1sum

@@ -6459,3 +6459,7 @@ repos:
   - repo: inotify-tools
     group: deepin-sysdev-team
     info: command-line programs providing a simple interface to inotify
+
+  - repo: linux-config
+    group: deepin-sysdev-team
+    info: linux kernel config

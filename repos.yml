@@ -3729,6 +3729,10 @@ repos:
     group: deepin-sysdev-team
     info: Easily-extendable error for use with ES6 classes
 
+  - repo: node-es6-shim #main
+    group: deepin-sysdev-team
+    info: ECMAScript 6 shims for legacy JavaScript engines
+
   - repo: node-esprima
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis

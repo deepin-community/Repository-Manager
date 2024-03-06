@@ -6463,3 +6463,7 @@ repos:
   - repo: linux-config
     group: deepin-sysdev-team
     info: linux kernel config
+
+  - repo: broadcom-sta
+    group: deepin-sysdev-team
+    info: Broadcom 802.11 Linux STA driver

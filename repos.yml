@@ -4110,6 +4110,10 @@ repos:
     group: deepin-sysdev-team
     info: odoc is a documentation generator for OCaml.
 
+  - repo: ocaml-ptime #main
+    group: deepin-sysdev-team
+    info: POSIX time for OCaml
+
   - repo: ocppi
     group: deepin-sysdev-team
     info: C++ library for OCI runtime and distribution.

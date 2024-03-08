@@ -4096,6 +4096,10 @@ repos:
     group: deepin-sysdev-team
     info: basic OS interaction for OCaml
 
+  - repo: ocaml-crunch #main
+    group: deepin-sysdev-team
+    info: convert a filesystem into a static OCaml module
+
   - repo: ocaml-graphics #main
     group: deepin-sysdev-team
     info: The graphics library provides a set of portable drawing primitives. Drawing

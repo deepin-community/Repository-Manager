@@ -6491,3 +6491,8 @@ repos:
   - repo: autojump
     group: deepin-sysdev-team
     info: shell extension to jump to frequently used directories
+
+  - repo: d-spy
+    group: deepin-sysdev-team
+    info: D-Bus explorer and test app for GNOME
+

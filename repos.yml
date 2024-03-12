@@ -402,6 +402,10 @@ repos:
     group: deepin-sysdev-team
     info: tool for static C/C++ code analysis (CLI)
 
+  - repo: cppdap #main
+    group: deepin-sysdev-team
+    info: C++11 implementation of the Debug Adapter Protocol
+
   - repo: cpputest #main
     group: deepin-sysdev-team
     info: C/C++ Unit Testing Framework

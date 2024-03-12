@@ -2940,6 +2940,14 @@ repos:
     group: deepin-sysdev-team
     info: module to log events to an array (reference)
 
+  - repo: liblol
+    group: deepin-sysdev-team
+    info: Compatibility layer for loongarch old world applications
+
+  - repo: liblol-dkms
+    group: deepin-sysdev-team
+    info: Compatibility layer for loongarch old world applications (DKMS package)
+
   - repo: liblwp-authen-wsse-perl #main
     group: deepin-sysdev-team
     info: library for enabling X-WSSE authentication in LWP

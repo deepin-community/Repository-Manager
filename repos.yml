@@ -6500,3 +6500,7 @@ repos:
     group: deepin-sysdev-team
     info: compares and merges 2 or 3 files or directories
 
+  - repo: h2o
+    group: deepin-sysdev-team
+    info: optimized HTTP/1.x, HTTP/2 server
+

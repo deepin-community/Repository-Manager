@@ -6496,3 +6496,7 @@ repos:
     group: deepin-sysdev-team
     info: D-Bus explorer and test app for GNOME
 
+  - repo: kdiff3
+    group: deepin-sysdev-team
+    info: compares and merges 2 or 3 files or directories
+

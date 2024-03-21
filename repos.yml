@@ -6504,3 +6504,7 @@ repos:
     group: deepin-sysdev-team
     info: optimized HTTP/1.x, HTTP/2 server
 
+  - repo: osspd
+    group: deepin-sysdev-team
+    info: OSS Proxy Daemon: Userland OSS emulation
+

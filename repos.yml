@@ -6508,3 +6508,7 @@ repos:
     group: deepin-sysdev-team
     info: OSS Proxy Daemon: Userland OSS emulation
 
+  - repo: gutenprint
+    group: deepin-sysdev-team
+    info: 基于 Gutenprint 的 CUPS 打印驱动程序
+

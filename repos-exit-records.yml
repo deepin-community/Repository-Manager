@@ -45,3 +45,7 @@ repos:
   - repo: llvm-toolchain-14
     group: deepin-sysdev-team
     notes: New LLVM toolchain is ready, so we do not need this.
+
+  - repo: boost1.81
+    group: deepin-sysdev-team
+    info: Boost provides free peer-reviewed portable C++ source libraries.

@@ -6512,3 +6512,10 @@ repos:
     group: deepin-sysdev-team
     info: 基于 Gutenprint 的 CUPS 打印驱动程序
 
+  - repo: iozone3
+    group: deepin-sysdev-team
+    info: Filesystem and Disk Benchmarking Tool
+
+  - repo: netperf
+    group: deepin-sysdev-team
+    info: Network performance benchmark

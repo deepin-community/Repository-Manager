@@ -6510,7 +6510,7 @@ repos:
 
   - repo: osspd
     group: deepin-sysdev-team
-    info: OSS Proxy Daemon: Userland OSS emulation
+    info: OSS Proxy Daemon, Userland OSS emulation
 
   - repo: gutenprint
     group: deepin-sysdev-team

@@ -5709,6 +5709,10 @@ repos:
     group: deepin-sysdev-team
     info: Share mouse, keyboard and clipboard over the network
 
+  - repo: systemd-bootchart #main
+    group: deepin-sysdev-team
+    info: boot performance graphing tool
+
   - repo: tardiff
     group: deepin-sysdev-team
     info: Tarball file list comparison tool

@@ -6523,3 +6523,7 @@ repos:
   - repo: netperf
     group: deepin-sysdev-team
     info: Network performance benchmark
+
+  - repo: stress-ng
+    group: deepin-sysdev-team
+    info: tool to load and stress a computer

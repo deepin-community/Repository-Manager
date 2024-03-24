@@ -6527,3 +6527,7 @@ repos:
   - repo: stress-ng
     group: deepin-sysdev-team
     info: tool to load and stress a computer
+
+  - repo: intel-ipsec-mb
+    group: deepin-sysdev-team
+    info: Development files for Intel(R) Multi-Buffer Crypto for IPSec library

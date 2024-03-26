@@ -6531,3 +6531,7 @@ repos:
   - repo: intel-ipsec-mb
     group: deepin-sysdev-team
     info: Development files for Intel(R) Multi-Buffer Crypto for IPSec library
+
+  - repo: gdb-doc
+    group: deepin-sysdev-team
+    info: The GNU Debugger Documentation

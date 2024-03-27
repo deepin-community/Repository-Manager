@@ -6535,3 +6535,15 @@ repos:
   - repo: gdb-doc
     group: deepin-sysdev-team
     info: The GNU Debugger Documentation
+
+  - repo: rnp
+    group: deepin-sysdev-team
+    info: Cross-platform OpenPGP (RFC4880) tools (development files)
+
+  - repo: sexpp
+    group: deepin-sysdev-team
+    info: S-expressions parser and generator development files
+
+  - repo: thunderbird
+    group: deepin-sysdev-team
+    info: mail/news client with RSS, chat and integrated spam filter support

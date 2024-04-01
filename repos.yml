@@ -6535,3 +6535,7 @@ repos:
   - repo: gdb-doc
     group: deepin-sysdev-team
     info: The GNU Debugger Documentation
+
+  - repo: deepin-lkrg
+    group: Avenger-285714
+    info: deepin Linux Kernel Runtime Guard

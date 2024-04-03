@@ -6539,3 +6539,11 @@ repos:
   - repo: deepin-lkrg
     group: Avenger-285714
     info: deepin Linux Kernel Runtime Guard
+
+  - repo: edb-debugger
+    group: deepin-sysdev-team
+    info: cross platform disassemble debugger
+
+  - repo: cutter
+    group: deepin-sysdev-team
+    info: open-source reverse engineering platform

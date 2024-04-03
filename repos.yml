@@ -6547,3 +6547,7 @@ repos:
   - repo: cutter
     group: deepin-sysdev-team
     info: open-source reverse engineering platform
+
+  - repo: cloc
+    group: deepin-sysdev-team
+    info: statistics utility to count lines of code

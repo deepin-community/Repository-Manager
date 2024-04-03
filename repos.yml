@@ -6551,3 +6551,26 @@ repos:
   - repo: cloc
     group: deepin-sysdev-team
     info: statistics utility to count lines of code
+
+  - repo: js-of-ocaml #main
+    group: deepin-sysdev-team
+    info: OCaml bytecode to JavaScript compiler (compiler)
+
+  - repo: yojson #main
+    group: deepin-sysdev-team
+    info: JSON library for OCaml
+
+  - repo: lwt-log #main
+    group: deepin-sysdev-team
+    info: Lwt-friendly logging library
+
+  - repo: reactivedata #main
+    group: deepin-sysdev-team
+    info: FRP with incremental changes in data structures 
+
+  - repo: menhir #main
+    group: deepin-sysdev-team
+    info: Menhir library for OCaml    
+
+    
+

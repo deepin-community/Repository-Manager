@@ -6572,5 +6572,14 @@ repos:
     group: deepin-sysdev-team
     info: Menhir library for OCaml    
 
-    
+  - repo: jtreg7 #main
+    group: deepin-sysdev-team
+    info: Regression Test Harness for the OpenJDK platform
 
+  - repo: testng7 #main
+    group: deepin-sysdev-team
+    info: testing framework for Java
+
+  - repo: asmtools #main
+    group: deepin-sysdev-team
+    info: OpenJDK AsmTools

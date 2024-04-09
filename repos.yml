@@ -6583,3 +6583,15 @@ repos:
   - repo: asmtools #main
     group: deepin-sysdev-team
     info: OpenJDK AsmTools
+
+  - repo: dh-builtusing #main
+    group: deepin-sysdev-team
+    info: debhelper tool generating the Built-Using field for Debian packages
+
+  - repo: libtsm #main
+    group: deepin-sysdev-team
+    info: Terminal-emulator State Machine - development
+
+  - repo: kmscon #main
+    group: deepin-sysdev-team
+    info: Simple terminal emulator based on Kernel Mode Setting

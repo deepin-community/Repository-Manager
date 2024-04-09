@@ -459,6 +459,10 @@ repos:
     group: deepin-sysdev-team
     info: 自举建立一个基本 Debian 系统
 
+  - repo: debputy #main
+    group: deepin-sysdev-team
+    info: Package builder that provides a declarative manifest for building debian packages.
+
   - repo: debtree
     group: deepin-sysdev-team
     info: A tool to visualize the dependency tree of a Debian package

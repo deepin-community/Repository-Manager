@@ -6599,3 +6599,8 @@ repos:
   - repo: kmscon #main
     group: deepin-sysdev-team
     info: Simple terminal emulator based on Kernel Mode Setting
+
+  - repo: networkmanager-qt6 #mian
+    group: deepin-sysdev-team
+    info: Qt6 wrapper for NetworkManager DBus API
+  

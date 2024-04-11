@@ -3249,6 +3249,14 @@ repos:
     group: deepin-sysdev-team
     info: Perl module for fully-featured shell-like command line environment
 
+  - repo: libtest-expectandcheck-perl #main
+    group: deepin-sysdev-team
+    info: expect/check-style unit testing with object methods
+
+  - repo: libtest-future-io-impl-perl #main
+    group: deepin-sysdev-team
+    info: acceptance tests for Future::IO implementations
+
   - repo: libtest-lwp-useragent-perl #main
     group: deepin-sysdev-team
     info: module for simulating and testing network calls

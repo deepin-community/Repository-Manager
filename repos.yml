@@ -2201,6 +2201,10 @@ repos:
     group: deepin-pkg
     info: Cross-platform build script generator.
 
+  - repo: halibut #main
+    group: deepin-sysdev-team
+    info: yet another free document preparation system
+
   - repo: haskell-appar #main
     group: deepin-sysdev-team
     info: A simple applicative parser in Parsec style

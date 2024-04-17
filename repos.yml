@@ -354,6 +354,10 @@ repos:
     info: It is a software package for solving constrained linear mathematical optimization
       problems.
 
+  - repo: colored #main
+    group: deepin-sysdev-team
+    info: simple library for coloring and formatting in terminal
+
   - repo: colortest
     group: deepin-sysdev-team
     info: utilities to test color capabilities of terminal
@@ -3405,6 +3409,10 @@ repos:
     group: deepin-sysdev-team
     info: utility to list open files
 
+  - repo: lsprotocol #main
+    group: deepin-sysdev-team
+    info: Python implementation of the Language Server Protocol
+
   - repo: lua-lpeg
     group: deepin-sysdev-team
     info: LPeg is a pattern-matching library for Lua, based on Parsing Expression
@@ -4421,6 +4429,14 @@ repos:
     group: deepin-sysdev-team
     info: Python API document generator
 
+  - repo: pygls #main
+    group: deepin-sysdev-team
+    info: Generic Language Server Framework for Python
+
+  - repo: pyhunspell #main
+    group: deepin-sysdev-team
+    info: Python 3 binding for Hunspell
+
   - repo: pylev #main
     group: deepin-sysdev-team
     info: pure Python Levenshtein implementation
@@ -4769,6 +4785,10 @@ repos:
   - repo: python-rlpycairo #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-ruyaml #main
+    group: deepin-sysdev-team
+    info: YAML 1.2 loader/dumper package for Python
 
   - repo: python-setuptools-rust #main
     group: deepin-sysdev-team

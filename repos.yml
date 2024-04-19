@@ -6640,6 +6640,6 @@ repos:
     group: deepin-kernel
     info: Deepin linux firmware update tools develop with  kunluntech
 
-  - repo: fqtremoteobjects-everywhere-src #main
+  - repo: qtremoteobjects-everywhere-src #main
     group: deepin-sysdev-team
     info: Qt module for IPC — the Replica Compiler

@@ -6632,7 +6632,10 @@ repos:
     group: deepin-sysdev-team
     info: Simple terminal emulator based on Kernel Mode Setting
 
-  - repo: networkmanager-qt6 #mian
+  - repo: networkmanager-qt6 #main
     group: deepin-sysdev-team
     info: Qt6 wrapper for NetworkManager DBus API
   
+  - repo: firmware-update #main
+    group: deepin-kernel
+    info: Deepin linux firmware update tools develop with  kunluntech

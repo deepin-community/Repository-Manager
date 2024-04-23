@@ -1014,6 +1014,10 @@ repos:
     group: deepin-sysdev-team
     info: GitHub CLI, GitHub’s official command line tool
 
+  - repo: ghp-import #main
+    group: deepin-sysdev-team
+    info: Easily import docs to your gh-pages branch
+
   - repo: gifshuffle
     group: deepin-sysdev-team
     info: Steganography program to gif images
@@ -3434,6 +3438,10 @@ repos:
     group: deepin-sysdev-team
     info: MariaDB Connector/C, compatibility symlinks
 
+  - repo: markdown-callouts #main
+    group: deepin-sysdev-team
+    info: Python-Markdown extension adding a new block-level syntax
+
   - repo: markdown-it-py #main
     group: deepin-sysdev-team
     info: Python port of markdown-it and some its associated plugins
@@ -3517,6 +3525,30 @@ repos:
   - repo: mistune0 #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: mkdocs-autorefs #main
+    group: deepin-sysdev-team
+    info: Plugin for MkDocs to automatically link across pages
+
+  - repo: mkdocs-click #main
+    group: deepin-sysdev-team
+    info: MkDocs extension to generate documentation for Click command line applications
+
+  - repo: mkdocs-literate-nav #main
+    group: deepin-sysdev-team
+    info: MkDocs extension to specify the navigation in Markdown
+
+  - repo: mkdocs-redirects #main
+    group: deepin-sysdev-team
+    info: Plugin for mkdocs to create page redirects
+
+  - repo: mkdocstrings #main
+    group: deepin-sysdev-team
+    info: Automatic Python documentation from sources for MkDocs
+
+  - repo: mkdocstrings-python-handlers #main
+    group: deepin-sysdev-team
+    info: Python handler for mkdocstrings
 
   - repo: mmdebstrap
     group: deepin-sysdev-team
@@ -4441,6 +4473,10 @@ repos:
     group: deepin-sysdev-team
     info: pure Python Levenshtein implementation
 
+  - repo: pymdown-extensions #main
+    group: deepin-sysdev-team
+    info: Extension pack for Python Markdown
+
   - repo: pypdf2 #main
     group: deepin-sysdev-team
     info: Pure-Python library built as a PDF toolkit
@@ -4911,6 +4947,10 @@ repos:
   - repo: pythran #main
     group: deepin-sysdev-team
     info: ahead of time compiler for Python
+
+  - repo: pyyaml-env-tag #main
+    group: deepin-sysdev-team
+    info: Custom YAML tag for referencing environment variables
 
   - repo: qcoro
     group: deepin-sysdev-team
@@ -5864,6 +5904,10 @@ repos:
   - repo: udevil
     group: deepin-sysdev-team
     info: Alternative storage media interface
+
+  - repo: mergedeep #main
+    group: deepin-sysdev-team
+    info: Deep merge function for Python
 
   - repo: mergerfs
     group: deepin-sysdev-team

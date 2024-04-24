@@ -6687,3 +6687,8 @@ repos:
   - repo: qtremoteobjects-everywhere-src #main
     group: deepin-sysdev-team
     info: Qt module for IPC — the Replica Compiler
+
+  - repo: tini #main
+    group: deepin-sysdev-team
+    info: tiny but valid init for containers
+    

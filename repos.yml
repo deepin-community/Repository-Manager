@@ -4573,6 +4573,10 @@ repos:
     group: deepin-sysdev-team
     info: Complex custom class converters for attrs
 
+  - repo: python-cerberus #main
+    group: deepin-sysdev-team
+    info: Lightweight, extensible data validation library for Python
+
   - repo: python-characteristic
     group: deepin-sysdev-team
     info: characteristic is Python package with class decorators that ease the chores
@@ -4709,6 +4713,14 @@ repos:
   - repo: python-hatch-fancy-pypi-readme #main
     group: deepin-sysdev-team
     info: Hatch metadata plugin for fancy PyPI READMEs
+
+  - repo: python-hatch-nodejs-version #main
+    group: deepin-sysdev-team
+    info: hatch plugin for versioning from a package.json file
+
+  - repo: python-hatch-requirements-txt #main
+    group: deepin-sysdev-team
+    info: Read dependencies from requirements-txt
 
   - repo: python-hiredis #main
     group: deepin-sysdev-team
@@ -4887,6 +4899,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: python-testfixtures #main
+    group: deepin-sysdev-team
+    info: Collection of helpers and mock objects
+
   - repo: python-tokenize-rt
     group: deepin-sysdev-team
     info: python-tokenize-rt is a wrapper around the Python stdlib `tokenize` which
@@ -4923,6 +4939,10 @@ repos:
   - repo: python-utmp
     group: deepin-sysdev-team
     info: provides 3 modules to access utmp and wtmp records.
+
+  - repo: python-validate-pyproject #main
+    group: deepin-sysdev-team
+    info: Automated checks on pyproject.toml by JSON Schema definitions
 
   - repo: python-versioneer #main
     group: deepin-sysdev-team

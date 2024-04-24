@@ -6691,4 +6691,11 @@ repos:
   - repo: tini #main
     group: deepin-sysdev-team
     info: tiny but valid init for containers
-    
+   
+  - repo: iotop-c
+    group: deepin-sysdev-team
+    info: simple top-like I/O monitor (implemented in C)
+
+  - repo: wget2 #main
+    group: deepin-sysdev-team
+    info: file and recursive website downloader

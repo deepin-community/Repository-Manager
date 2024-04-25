@@ -6735,3 +6735,11 @@ repos:
   - repo: wget2 #main
     group: deepin-sysdev-team
     info: file and recursive website downloader
+
+  - repo: crun #main
+    group: deepin-sysdev-team
+    info: lightweight OCI runtime for running containers
+
+  - repo: wasmedge #main
+    group: deepin-sysdev-team
+    info: standalone runtime for WebAssembly (development headers)

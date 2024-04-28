@@ -189,6 +189,10 @@ repos:
     group: deepin-sysdev-team
     info: Generate compilation database for clang tooling
 
+  - repo: betamax #main
+    group: deepin-sysdev-team
+    info: VCR imitation designed only for python-requests
+
   - repo: bignumber.js #main
     group: deepin-sysdev-team
     info: Arbitrary-precision decimal and non-decimal arithmetic
@@ -330,6 +334,10 @@ repos:
   - repo: claws-mail
     group: deepin-sysdev-team
     info: Fast, lightweight and user-friendly GTK based email client
+
+  - repo: click #main
+    group: deepin-sysdev-team
+    info: tool for handling (and building) Click packages
 
   - repo: clikit #main
     group: deepin-sysdev-team
@@ -4862,6 +4870,10 @@ repos:
     group: deepin-sysdev-team
     info: Handy tools for working with URLs and APIs
 
+  - repo: python-apeye-core #main
+    group: deepin-sysdev-team
+    info: Core (offline) functionality for the apeye library
+
   - repo: python-arrow
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps
@@ -4952,9 +4964,17 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: python-deprecation-alias #main
+    group: deepin-sysdev-team
+    info: Wrapper for deprecated alias support
+
   - repo: python-dist-meta #main
     group: deepin-sysdev-team
     info: Parse and create Python distribution metadata
+
+  - repo: python-dom-toml #main
+    group: deepin-sysdev-team
+    info: Dom's tools for Tom's obvious, minimal language
 
   - repo: python-editables #main
     group: deepin-sysdev-team
@@ -5116,6 +5136,10 @@ repos:
     group: deepin-sysdev-team
     info: meld3 is an HTML/XML templating system for Python 2.3+
 
+  - repo: python-mistletoe #main
+    group: deepin-sysdev-team
+    info: fast, extensible Markdown parser in pure Python
+
   - repo: python-mitogen #main
     group: deepin-sysdev-team
     info: Library for writing distributed self-replicating programs
@@ -5163,9 +5187,17 @@ repos:
     group: deepin-sysdev-team
     info: Python wrapper for OCR engines (Python 3)
 
+  - repo: python-pyproject-examples #main
+    group: deepin-sysdev-team
+    info: example pyproject.toml configs for testing
+
   - repo: python-pyproject-hooks #main
     group: deepin-sysdev-team
     info: Wrappers to call pyproject.toml-based build backend hooks
+
+  - repo: python-pyproject-parser #main
+    group: deepin-sysdev-team
+    info: parser for 'pyproject.toml' file
 
   - repo: python-pytest-click #main
     group: deepin-sysdev-team
@@ -6350,6 +6382,10 @@ repos:
   - repo: valgrind-if-available #main
     group: deepin-sysdev-team
     info: dependency package to pull in Valgrind if it's available
+
+  - repo: validators #main
+    group: deepin-sysdev-team
+    info: Python Data Validation for Humans (Python 3)
 
   - repo: vcr.py #main
     group: deepin-sysdev-team

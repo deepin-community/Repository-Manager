@@ -776,6 +776,10 @@ repos:
     group: deepin-sysdev-team
     info: gives a fake chroot environment - utilities
 
+  - repo: faker #main
+    group: deepin-sysdev-team
+    info: Python program that generates fake data
+
   - repo: fastfetch
     group: deepin-sysdev-team
     info: Fastfetch is a neofetch-like tool for fetching system information and displaying
@@ -2608,6 +2612,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ representation of 2D and 3D vectors and matrices and other objects
 
+  - repo: importlib-resources #main
+    group: deepin-sysdev-team
+    info: Read resources from Python packages
+
   - repo: imwheel
     group: deepin-sysdev-team
     info: A program to configure the mouse wheel to send keypresses
@@ -2734,6 +2742,10 @@ repos:
   - repo: js-of-ocaml #main
     group: deepin-sysdev-team
     info: OCaml bytecode to JavaScript compiler (compiler)
+
+  - repo: json-schema-test-suite #main
+    group: deepin-sysdev-team
+    info: Language agnostic test suite for the JSON Schema specifications
 
   - repo: jsonpickle #main
     group: deepin-sysdev-team
@@ -4834,6 +4846,10 @@ repos:
     group: deepin-sysdev-team
     info: pytest plugin for Matplotlib image comparison
 
+  - repo: pytest-rerunfailures #main
+    group: deepin-sysdev-team
+    info: pytest plugin to re-run tests to eliminate flaky failures
+
   - repo: pytest-vcr #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -4841,6 +4857,10 @@ repos:
   - repo: python-aafigure #main
     group: deepin-sysdev-team
     info: aafigure - ASCII art to image converter
+
+  - repo: python-apeye #main
+    group: deepin-sysdev-team
+    info: Handy tools for working with URLs and APIs
 
   - repo: python-arrow
     group: deepin-sysdev-team
@@ -4916,6 +4936,10 @@ repos:
     info: python-configargparse is replacement for argparse with config files and
       environment variables.
 
+  - repo: python-consolekit #main
+    group: deepin-sysdev-team
+    info: Additional utilities for click
+
   - repo: python-css-parser
     group: deepin-sysdev-team
     info: CSS parser provides utilities for parsing, serialising CSS in Python.
@@ -4963,6 +4987,10 @@ repos:
     group: deepin-sysdev-team
     info: validation of JSON documents by JSON schema drafts 04/06/07
 
+  - repo: python-first #main
+    group: deepin-sysdev-team
+    info: simple function that returns the first true value from an iterable
+
   - repo: python-flasgger #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -4970,6 +4998,10 @@ repos:
   - repo: python-flexmock #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-funcy #main
+    group: deepin-sysdev-team
+    info: Collection of fancy functional tools focused on practicality
 
   - repo: python-gast #main
     group: deepin-sysdev-team
@@ -5018,6 +5050,10 @@ repos:
   - repo: python-hacking #main
     group: deepin-sysdev-team
     info: Flake8 OpenStack Hacking Guidelines Enforcement plugins - Python 3.x
+
+  - repo: python-handy-archives #main
+    group: deepin-sysdev-team
+    info: Some handy archive helpers for Python
 
   - repo: python-hatch-fancy-pypi-readme #main
     group: deepin-sysdev-team
@@ -5131,6 +5167,10 @@ repos:
     group: deepin-sysdev-team
     info: Wrappers to call pyproject.toml-based build backend hooks
 
+  - repo: python-pytest-click #main
+    group: deepin-sysdev-team
+    info: Click plugin for py.test
+
   - repo: python-pytest-trio #main
     group: deepin-sysdev-team
     info: Pytest plugin for trio (Python3 version)
@@ -5166,6 +5206,10 @@ repos:
   - repo: python-setuptools-rust #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-shippinglabel #main
+    group: deepin-sysdev-team
+    info: Utilities for handling packages
 
   - repo: python-skbuild #main
     group: deepin-sysdev-team
@@ -5264,6 +5308,10 @@ repos:
   - repo: python-werkzeug #main
     group: deepin-sysdev-team
     info: collection of utilities for WSGI applications
+
+  - repo: python-whey #main
+    group: deepin-sysdev-team
+    info: simple Python wheel builder for simple projects
 
   - repo: python-wilderness #main
     group: deepin-sysdev-team

@@ -552,6 +552,10 @@ repos:
     group: deepin-sysdev-team
     info: A smail launchpad
 
+  - repo: domdf-python-tools #main
+    group: deepin-sysdev-team
+    info: Helpful functions for Python
+
   - repo: dot2tex #main
     group: deepin-sysdev-team
     info: Graphviz to LaTeX converter
@@ -4606,6 +4610,10 @@ repos:
     group: deepin-sysdev-team
     info: CMarkGFM is a Python wrapper for the cmark-gfm Markdown parser.
 
+  - repo: python-coincidence #main
+    group: deepin-sysdev-team
+    info: helper functions for pytest
+
   - repo: python-colorlog #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -4626,6 +4634,10 @@ repos:
   - repo: python-deprecation #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-dist-meta #main
+    group: deepin-sysdev-team
+    info: Parse and create Python distribution metadata
 
   - repo: python-editables #main
     group: deepin-sysdev-team
@@ -4653,6 +4665,10 @@ repos:
   - repo: python-fakeredis #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-fastjsonschema #main
+    group: deepin-sysdev-team
+    info: validation of JSON documents by JSON schema drafts 04/06/07
 
   - repo: python-flasgger #main
     group: deepin-sysdev-team

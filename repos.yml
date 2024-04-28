@@ -235,11 +235,6 @@ repos:
     info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input
       Method Engine.
 
-  - repo: brise
-    group: deepin-sysdev-team
-    info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input
-      Method Engine.
-
   - repo: brltty
     group: deepin-sysdev-team
     info: Access software for a blind person using a braille display
@@ -815,11 +810,6 @@ repos:
     info: an expressive monospaced font family that’s built with clarity, legibility,
       and the needs of developers in mind.
 
-  - repo: fonts-intel-one-mono
-    group: deepin-sysdev-team
-    info: an expressive monospaced font family that’s built with clarity, legibility,
-      and the needs of developers in mind.
-
   - repo: fonts-inter #main
     group: deepin-sysdev-team
     info: Inter font family
@@ -1174,10 +1164,6 @@ repos:
     group: deepin-sysdev-team
     info: Golang library to interact with arbitrary JSON
 
-  - repo: golang-github-bitly-go-simplejson #main
-    group: deepin-sysdev-team
-    info: Golang library to interact with arbitrary JSON
-
   - repo: golang-github-blang-semver #main
     group: deepin-sysdev-team
     info: semantic versioning library
@@ -1218,10 +1204,6 @@ repos:
   - repo: golang-github-cilium-ebpf #main
     group: deepin-sysdev-team
     info: eBPF Library for Go
-
-  - repo: golang-github-cloudflare-cfssl #main
-    group: deepin-sysdev-team
-    info: CloudFlare's PKI and TLS toolkit
 
   - repo: golang-github-cloudflare-cfssl #main
     group: deepin-sysdev-team
@@ -3106,11 +3088,6 @@ repos:
     info: libnetfilter_acct is a userspace library providing an interface to the extended
       netfilter accounting infrastructure.
 
-  - repo: libnetfilter-acct
-    group: deepin-sysdev-team
-    info: a userspace library providing an interface to the extended netfilter accounting
-      infrastructure.
-
   - repo: libnvme #main
     group: deepin-sysdev-team
     info: NVMe management library
@@ -3836,10 +3813,6 @@ repos:
   - repo: node-html5shiv #main
     group: deepin-sysdev-team
     info: enable use of HTML5 sectioning elements in legacy browser
-
-  - repo: node-html5shiv #main
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
 
   - repo: node-htmlescape #main
     group: deepin-sysdev-team
@@ -5358,10 +5331,6 @@ repos:
     group: deepin-sysdev-team
     info: Attribute macro to require a function can't ever panic.
 
-  - repo: rust-once-cell
-    group: deepin-sysdev-team
-    info: Attribute macro to require a function can't ever panic.
-
   - repo: rust-os-str-bytes
     group: deepin-sysdev-team
     info: Utilities for converting between byte sequences and platform-native strings.
@@ -5600,10 +5569,6 @@ repos:
   - repo: schroot
     group: deepin-sysdev-team
     info: Execute commands in a chroot environment
-
-  - repo: scikit-build #main
-    group: deepin-sysdev-team
-    info: python3-defaults 3.11
 
   - repo: scikit-build #main
     group: deepin-sysdev-team
@@ -6228,10 +6193,6 @@ repos:
     group: deepin-sysdev-team
     info: Shared Zope Toolkit browser components
 
-  - repo: zope.browser #main
-    group: deepin-sysdev-team
-    info: Shared Zope Toolkit browser components
-
   - repo: zope.cachedescriptors #main
     group: deepin-sysdev-team
     info: Method and property caching decorators
@@ -6344,10 +6305,6 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: hfst-ospell #main
-    group: deepin-sysdev-team
-    info: hfst-ospell
-
   - repo: libmodule-depends-perl #main
     group: deepin-sysdev-team
     info: Perl module to identify the dependencies of a distribution
@@ -6440,10 +6397,6 @@ repos:
     group: deepin-sysdev-team
     info: Make your object constructors blow up on unknown attributes
 
-  - repo: libmoosex-getopt-perl #main
-    group: deepin-sysdev-team
-    info: Moose extension for processing command line options
-
   - repo: libmoosex-types-path-class-perl #main
     group: deepin-sysdev-team
     info: Path::Class type library for Moose
@@ -6456,33 +6409,9 @@ repos:
     group: deepin-sysdev-team
     info: Moose extension for roles that support overloading
 
-  - repo: libmoosex-configfromfile-perl #main
-    group: deepin-sysdev-team
-    info: Moose role for setting attributes from a config file
-
-  - repo: libmoosex-role-parameterized-perl #main
-    group: deepin-sysdev-team
-    info: Moose extension providing parameterized roles
-
-  - repo: libmoosex-simpleconfig-perl #main
-    group: deepin-sysdev-team
-    info: Moose role for setting attributes from a simple configfile
-
-  - repo: libmoosex-strictconstructor-perl #main
-    group: deepin-sysdev-team
-    info: Make your object constructors blow up on unknown attributes
-
   - repo: libmoosex-types-stringlike-perl #main
     group: deepin-sysdev-team
     info: Moose type constraints for strings or string-like objects
-
-  - repo: libmoosex-role-withoverloading-perl #main
-    group: deepin-sysdev-team
-    info: Moose extension for roles that support overloading
-
-  - repo: libmoosex-configfromfile-perl #main
-    group: deepin-sysdev-team
-    info: Moose role for setting attributes from a config file
 
   - repo: crash #main
     group: deepin-sysdev-team
@@ -6515,10 +6444,6 @@ repos:
   - repo: libev #main
     group: deepin-sysdev-team
     info: static library, header files, and docs for libev
-
-  - repo: libsearpc #main
-    group: deepin-sysdev-team
-    info: Development files for the Searpc framework
 
   - repo: google-android-installers
     group: deepin-sysdev-team
@@ -6596,14 +6521,6 @@ repos:
     group: deepin-sysdev-team
     info: Small and fast web browse
 
-  - repo: xdg-terminal-exec #main
-    group: deepin-sysdev-team
-    info: user default terminal execution utility
-
-  - repo: sphinx-reredirects
-    group: deepin-sysdev-team
-    info: extension for Sphinx projects that handles redirects
-
   - repo: linkify-it-py
     group: deepin-sysdev-team
     info: links recognition library with FULL unicode support
@@ -6619,10 +6536,6 @@ repos:
   - repo: linux-config
     group: deepin-sysdev-team
     info: linux kernel config
-
-  - repo: broadcom-sta
-    group: deepin-sysdev-team
-    info: Broadcom 802.11 Linux STA driver
 
   - repo: autojump
     group: deepin-sysdev-team
@@ -6743,10 +6656,6 @@ repos:
   - repo: tini #main
     group: deepin-sysdev-team
     info: tiny but valid init for containers
-   
-  - repo: iotop-c
-    group: deepin-sysdev-team
-    info: simple top-like I/O monitor (implemented in C)
 
   - repo: wget2 #main
     group: deepin-sysdev-team

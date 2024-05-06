@@ -6786,3 +6786,6 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: wagon #main
+    group: deepin-sysdev-team
+    info: Artifact transport abstraction used in Maven (Provider API)

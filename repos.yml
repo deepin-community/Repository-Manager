@@ -3990,6 +3990,10 @@ repos:
     group: deepin-sysdev-team
     info: JSON for Modern C++
 
+  - repo: nltk #main
+    group: deepin-sysdev-team
+    info: Python3 libraries for natural language processing
+
   - repo: nml
     group: deepin-sysdev-team
     info: newgrf meta language compiler
@@ -5159,6 +5163,10 @@ repos:
   - repo: python-mailer
     group: deepin-sysdev-team
     info: mailer is a Python module that simplifies sending email (Python 3)
+
+  - repo: python-mechanicalsoup #main
+    group: deepin-sysdev-team
+    info: library for automating interaction with websites
 
   - repo: python-meld3
     group: deepin-sysdev-team
@@ -6463,6 +6471,10 @@ repos:
     group: deepin-sysdev-team
     info: Meta package for Vulkan loader
 
+  - repo: wagon #main
+    group: deepin-sysdev-team
+    info: Artifact transport abstraction used in Maven (Provider API)
+
   - repo: wasmedge #main
     group: deepin-sysdev-team
     info: standalone runtime for WebAssembly (development headers)
@@ -6786,6 +6798,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: wagon #main
-    group: deepin-sysdev-team
-    info: Artifact transport abstraction used in Maven (Provider API)

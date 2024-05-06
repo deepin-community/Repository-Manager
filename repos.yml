@@ -3727,10 +3727,6 @@ repos:
     group: deepin-sysdev-team
     info: Python-Markdown extension adding a new block-level syntax
 
-  - repo: markdown-exec #main
-    group: deepin-sysdev-team
-    info: Utilities to execute code blocks in Markdown files
-
   - repo: markdown-it-py #main
     group: deepin-sysdev-team
     info: Python port of markdown-it and some its associated plugins
@@ -3835,10 +3831,6 @@ repos:
     group: deepin-sysdev-team
     info: MkDocs extension to generate documentation for Click command line applications
 
-  - repo: mkdocs-gen-files #main
-    group: deepin-sysdev-team
-    info: MkDocs plugin for dynamically generated pages
-
   - repo: mkdocs-literate-nav #main
     group: deepin-sysdev-team
     info: MkDocs extension to specify the navigation in Markdown
@@ -3847,17 +3839,9 @@ repos:
     group: deepin-sysdev-team
     info: Material Design theme for MkDocs
 
-  - repo: mkdocs-material-extensions #main
-    group: deepin-sysdev-team
-    info: Markdown extension resources for MkDocs for Material
-
   - repo: mkdocs-redirects #main
     group: deepin-sysdev-team
     info: Plugin for mkdocs to create page redirects
-
-  - repo: mkdocs-section-index #main
-    group: deepin-sysdev-team
-    info: Plugin for MkDocs to allow clickable sections that lead to an index page
 
   - repo: mkdocstrings #main
     group: deepin-sysdev-team
@@ -4511,10 +4495,6 @@ repos:
     group: deepin-sysdev-team
     info: POSIX time for OCaml
 
-  - repo: oceanbase #main
-    group: deepin-sysdev-team
-    info: OceanBase is a distributed relational database
-
   - repo: ocppi
     group: deepin-sysdev-team
     info: C++ library for OCI runtime and distribution.
@@ -4850,10 +4830,6 @@ repos:
     group: deepin-sysdev-team
     info: simple VTXXX-compatible terminal emulator (Python 3)
 
-  - repo: pytest-django #main
-    group: deepin-sysdev-team
-    info: Django plugin for py.test
-
   - repo: pytest-doctestplus #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -5148,10 +5124,6 @@ repos:
     group: deepin-sysdev-team
     info: Parse and generate linetable attributes for Python 3 code objects
 
-  - repo: python-lunr #main
-    group: deepin-sysdev-team
-    info: Python implementation of Lunr.js
-
   - repo: python-lupa #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -5262,10 +5234,6 @@ repos:
   - repo: python-ruyaml #main
     group: deepin-sysdev-team
     info: YAML 1.2 loader/dumper package for Python
-
-  - repo: python-seedir #main
-    group: deepin-sysdev-team
-    info: Package for creating, editing, and reading folder tree diagrams
 
   - repo: python-setuptools-rust #main
     group: deepin-sysdev-team
@@ -6785,4 +6753,8 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: oceanbase #main
+    group: deepin-sysdev-team
+    info: OceanBase is a distributed relational database
 

@@ -6809,4 +6809,8 @@ repos:
   - repo: mesa-amber #main
     group: deepin-sysdev-team
     info: free implementation of the OpenGL API -- Amber DRI modules
-    
+  
+  - repo: tomcat10 #main
+    group: deepin-sysdev-team
+    info: Apache Tomcat 10 - Servlet and JSP engine -- core libraries
+

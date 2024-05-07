@@ -6797,4 +6797,11 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+  
+  - repo: texstudio
+    group: deepin-sysdev-team
+    info: fully featured LaTeX editor
 
+  - repo: libquazip1-qt5 #main
+    group: deepin-sysdev-team
+    info: Qt/C++ wrapper over minizip - Version 1 (Qt5) - development files

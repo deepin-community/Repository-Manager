@@ -6821,3 +6821,12 @@ repos:
   - repo: glmark2 
     group: deepin-sysdev-team
     info: OpenGL 2.0 benchmark suite
+
+  - repo: javaparser #main
+    group: deepin-sysdev-team
+    info: Java library for parsing Java 7
+
+  - repo: templating-maven-plugin #main
+    group: deepin-sysdev-team
+    info: Copying files to an output directory
+

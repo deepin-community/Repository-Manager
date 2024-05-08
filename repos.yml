@@ -6814,3 +6814,10 @@ repos:
     group: deepin-sysdev-team
     info: Apache Tomcat 10 - Servlet and JSP engine -- core libraries
 
+  - repo: javaparser #main
+    group: deepin-sysdev-team
+    info: Java library for parsing Java 7
+
+  - repo: templating-maven-plugin #main
+    group: deepin-sysdev-team
+    info: Copying files to an output directory

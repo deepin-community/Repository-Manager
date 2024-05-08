@@ -6830,3 +6830,23 @@ repos:
     group: deepin-sysdev-team
     info: Copying files to an output directory
 
+  - repo: golang-github-derekparker-trie #main
+    group: deepin-sysdev-team
+    info: Data structure and algorithms for prefix/fuzzy string searching
+
+  - repo: golang-github-go-delve-liner #main
+    group: deepin-sysdev-team
+    info: Purge Go line editor with history
+
+  - repo: golang-github-google-go-dap #main
+    group: deepin-sysdev-team
+    info: Go implementation of the Debug Adapter Protocol
+
+  - repo: golang-starlark #main
+    group: deepin-sysdev-team
+    info: Interpreter for the Starlark configuration language  
+
+  - repo: golang-github-cosiner-argv #main
+    group: deepin-sysdev-team
+    info: Argv allows splitting a command line string into an arguments slice
+  

@@ -6814,6 +6814,14 @@ repos:
     group: deepin-sysdev-team
     info: Apache Tomcat 10 - Servlet and JSP engine -- core libraries
 
+  - repo: delve #main
+    group: deepin-sysdev-team
+    info: debugger for the Go programming language
+
+  - repo: glmark2 
+    group: deepin-sysdev-team
+    info: OpenGL 2.0 benchmark suite
+
   - repo: javaparser #main
     group: deepin-sysdev-team
     info: Java library for parsing Java 7
@@ -6821,3 +6829,4 @@ repos:
   - repo: templating-maven-plugin #main
     group: deepin-sysdev-team
     info: Copying files to an output directory
+

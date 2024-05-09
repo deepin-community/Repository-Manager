@@ -6849,4 +6849,11 @@ repos:
   - repo: golang-github-cosiner-argv #main
     group: deepin-sysdev-team
     info: Argv allows splitting a command line string into an arguments slice
-  
+
+  - repo: crust-firmware
+    group: deepin-sysdev-team
+    info: SCP firmware for Allwinner sunxi boards
+
+  - repo: arm-trusted-firmware
+    group: deepin-sysdev-team
+    info: software for ARM SoCs - firmware

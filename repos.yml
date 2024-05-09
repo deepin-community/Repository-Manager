@@ -6857,3 +6857,11 @@ repos:
   - repo: arm-trusted-firmware
     group: deepin-sysdev-team
     info: software for ARM SoCs - firmware
+
+  - repo: binutils-or1k-elf
+    group: deepin-sysdev-team
+    info: GNU binary utilities for the Open RISC 1000 processors
+
+  - repo: gcc-or1k-elf
+    group: deepin-sysdev-team
+    info: GNU C compiler for the Open RISC 1000 processors

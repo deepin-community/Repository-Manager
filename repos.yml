@@ -6865,3 +6865,11 @@ repos:
   - repo: gcc-or1k-elf
     group: deepin-sysdev-team
     info: GNU C compiler for the Open RISC 1000 processors
+
+  - repo: civetweb
+    group: deepin-sysdev-team
+    info: embeddable web server with optional CGI, SSL and Lua support
+
+  - repo: prometheus-cpp
+    group: deepin-sysdev-team
+    info: Prometheus Client Library for Modern C++ (push gateway support)

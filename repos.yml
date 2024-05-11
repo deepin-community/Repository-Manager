@@ -6876,4 +6876,20 @@ repos:
 
   - repo: hustmirror-cli 
     group: deepin-sysdev-team
-    info: CLI posix shell script to replace system repository mirror to HUST Mirror.
+    info: CLI posix shell script to replace system repository mirror to HUST Mirror
+ 
+  - repo: docker-compose
+    group: deepin-sysdev-team
+    info: define and run multi-container Docker applications with YAML
+
+  - repo: python-docker
+    group: deepin-sysdev-team
+    info: Python 3 wrapper to access docker.io's control socket
+
+  - repo: dockerpty
+    group: deepin-sysdev-team
+    info: Pseudo-tty handler for docker Python client (Python 3.x)
+
+  - repo: texttable
+    group: deepin-sysdev-team
+    info: Module for creating simple ASCII tables — python3.

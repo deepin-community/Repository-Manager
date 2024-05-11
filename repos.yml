@@ -6873,3 +6873,7 @@ repos:
   - repo: prometheus-cpp
     group: deepin-sysdev-team
     info: Prometheus Client Library for Modern C++ (push gateway support)
+
+  - repo: hustmirror-cli 
+    group: deepin-sysdev-team
+    info: CLI posix shell script to replace system repository mirror to HUST Mirror.

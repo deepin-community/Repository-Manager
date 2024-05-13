@@ -6893,3 +6893,12 @@ repos:
   - repo: texttable
     group: deepin-sysdev-team
     info: Module for creating simple ASCII tables — python3.
+    
+  - repo: patool
+    group: deepin-sysdev-team
+    info: command line archive file manager
+
+  - repo: cabextract
+    group: deepin-sysdev-team
+    info: Microsoft Cabinet file unpacker
+    

@@ -6905,3 +6905,7 @@ repos:
   - repo: xserver-xorg-video-siliconmotion #main
     group: deepin-sysdev-team
     info: X.Org X server -- SiliconMotion display driver
+
+  - repo: uglifyjs
+    group: deepin-sysdev-team
+    info: JavaScript parser, mangler/compressor and beautifier toolkit

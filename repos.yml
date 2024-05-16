@@ -6901,4 +6901,7 @@ repos:
   - repo: cabextract
     group: deepin-sysdev-team
     info: Microsoft Cabinet file unpacker
-    
+
+  - repo: xserver-xorg-video-siliconmotion #main
+    group: deepin-sysdev-team
+    info: X.Org X server -- SiliconMotion display driver

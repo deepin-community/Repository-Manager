@@ -6913,3 +6913,11 @@ repos:
   - repo: wmctrl #main
     group: deepin-sysdev-team
     info: control an EWMH/NetWM compatible X Window Manager
+
+  - repo: rust-fd-find
+    group: deepin-sysdev-team
+    info: Simple, fast and user-friendly alternative to find
+
+  - repo: rust-bat
+    group: deepin-sysdev-team
+    info: cat(1) clone with syntax highlighting and git integration

@@ -6909,3 +6909,7 @@ repos:
   - repo: uglifyjs
     group: deepin-sysdev-team
     info: JavaScript parser, mangler/compressor and beautifier toolkit
+
+  - repo: wmctrl #main
+    group: deepin-sysdev-team
+    info: control an EWMH/NetWM compatible X Window Manager

@@ -6913,3 +6913,7 @@ repos:
   - repo: wmctrl #main
     group: deepin-sysdev-team
     info: control an EWMH/NetWM compatible X Window Manager
+
+  - repo: xfonts-wqy #main
+    group: deepin-sysdev-team
+    info: WenQuanYi Bitmap Song CJK font for X

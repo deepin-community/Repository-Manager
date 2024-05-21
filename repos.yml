@@ -3887,6 +3887,10 @@ repos:
     group: deepin-sysdev-team
     info: Motif - development files
 
+  - repo: mozjs115 #main
+    group: deepin-sysdev-team
+    info: Spidermonkey JavaScript engine(115 version)
+
   - repo: mozjs60
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine

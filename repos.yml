@@ -6921,3 +6921,15 @@ repos:
   - repo: xfonts-wqy #main
     group: deepin-sysdev-team
     info: WenQuanYi Bitmap Song CJK font for X
+
+  - repo: open-vm-tools #main
+  group: deepin-sysdev-team
+  info: Open VMware Tools for virtual machines hosted on VMware (CLI)
+  
+  - repo: libaudclient
+  group: deepin-sysdev-team
+  info: audacious D-Bus remote control library
+  
+  - repo: conky
+  group: deepin-sysdev-team
+  info: highly configurable system monitor

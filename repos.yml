@@ -3141,6 +3141,14 @@ repos:
     group: deepin-sysdev-team
     info: language model data for libkkc
 
+  - repo: liblatex-tounicode-perl #main
+    group: deepin-sysdev-team
+    info: liblatex-tounicode-perl
+
+  - repo: libbibtex-parser-perl #main
+    group: deepin-sysdev-team
+    info: Convert LaTeX commands to Unicode
+
   - repo: liblc3
     group: deepin-sysdev-team
     info: Low Complexity Communication Codec

@@ -6950,3 +6950,6 @@ repos:
     group: deepin-sysdev-team
     info: utility to load NVIDIA kernel modules and create device nodes
 
+  - repo: nvidia-persistenced #main
+    group: deepin-sysdev-team
+    info: daemon to maintain persistent software state in the NVIDIA driver

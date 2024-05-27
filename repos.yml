@@ -6941,3 +6941,7 @@ repos:
   - repo: conky
     group: deepin-sysdev-team
     info: highly configurable system monitor
+
+  - repo: remmina
+    group: deepin-sysdev-team
+    info: GTK+ Remote Desktop Client

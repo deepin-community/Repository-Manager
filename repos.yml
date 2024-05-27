@@ -6945,3 +6945,8 @@ repos:
   - repo: remmina
     group: deepin-sysdev-team
     info: GTK+ Remote Desktop Client
+
+  - repo: nvidia-modprobe #main
+    group: deepin-sysdev-team
+    info: utility to load NVIDIA kernel modules and create device nodes
+

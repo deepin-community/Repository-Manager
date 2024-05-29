@@ -3238,6 +3238,10 @@ repos:
     group: deepin-sysdev-team
     info: Minimalist Object Orientation library (with Moose compatibility)
 
+  - repo: libmoose-autobox-perl #main
+    group: deepin-sysdev-team
+    info: Perl autobox wrapper that understands Moose roles
+
   - repo: libmoose-perl
     group: deepin-sysdev-team
     info: It provides a modern, object-oriented methodology for object construction

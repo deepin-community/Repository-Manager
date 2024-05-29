@@ -3125,6 +3125,14 @@ repos:
     info: libite holds useful functions and macros developed by both Finit and the
       OpenBSD project.
 
+  - repo: libjs-codemirror #main
+    group: deepin-sysdev-team
+    info: JavaScript editor interface for code-like content.
+
+  - repo: libjs-jquery-typeahead #main
+    group: deepin-sysdev-team
+    info: Type-ahead autocompletion plugin for JQuery.
+
   - repo: libjxl-testdata
     group: deepin-sysdev-team
     info: libjxl-testdata contains testdata for libjxl.

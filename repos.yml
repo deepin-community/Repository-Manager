@@ -6953,3 +6953,7 @@ repos:
   - repo: nvidia-persistenced #main
     group: deepin-sysdev-team
     info: daemon to maintain persistent software state in the NVIDIA driver
+
+  - repo: bnd
+    group: deepin-sysdev-team
+    info: The bnd tool helps you create and diagnose OSGi bundles

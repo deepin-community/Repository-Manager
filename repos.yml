@@ -100,6 +100,10 @@ repos:
     group: deepin-pkg
     info: Android SDK meta packages
 
+  - repo: apitrace
+    group: deepin-sysdev-team
+    info: tools for debugging OpenGL applications and drivers
+
   - repo: apt-file
     group: deepin-sysdev-team
     info: search for files in Debian packages
@@ -6486,6 +6490,10 @@ repos:
   - repo: vulkan-volk
     group: deepin-sysdev-team
     info: Meta package for Vulkan loader
+
+  - repo: waffle
+    group: deepin-sysdev-team
+    info: Waffle library
 
   - repo: wagon #main
     group: deepin-sysdev-team

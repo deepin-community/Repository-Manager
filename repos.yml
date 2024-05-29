@@ -6969,3 +6969,19 @@ repos:
   - repo: bnd
     group: deepin-sysdev-team
     info: The bnd tool helps you create and diagnose OSGi bundles
+
+  - repo: coin3
+    group: deepin-sysdev-team
+    info: High-level 3D graphics devkit with Open Inventor and VRML97 support
+    
+  - repo: openscenegraph
+    group: deepin-sysdev-team
+    info: 3D scene graph, utilities and examples
+    
+  - repo: collada-dom
+    group: deepin-sysdev-team
+    info: COLLADA using double precision
+
+  - repo: libpodofo
+    group: deepin-sysdev-team
+    info: Library to work with the PDF file format

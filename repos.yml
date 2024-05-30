@@ -6969,3 +6969,7 @@ repos:
   - repo: bnd
     group: deepin-sysdev-team
     info: The bnd tool helps you create and diagnose OSGi bundles
+
+  - repo: tsocks
+    group: deepin-sysdev-team
+    info: transparent network access through a SOCKS 4 or 5 proxy

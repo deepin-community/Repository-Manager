@@ -7149,3 +7149,59 @@ repos:
   - repo: rclone
     group: deepin-sysdev-team
     info: rsync for commercial cloud storage
+
+  - repo: golang-github-tklauser-go-sysconf
+    group: deepin-sysdev-team
+    info: sysconf for Go, without using cgo (library)
+
+  - repo: golang-github-pborman-getopt
+    group: deepin-sysdev-team
+    info: getopt style option parsing for Go (library)
+
+  - repo: golang-github-lucasb-eyer-go-colorful
+    group: deepin-sysdev-team
+    info: Library for handling color spaces in Go
+
+  - repo: golang-github-jcmturner-rpc.v2
+    group: deepin-sysdev-team
+    info: Remote Procedure Call libraries for golang
+
+  - repo: golang-github-jcmturner-goidentity.v6
+    group: deepin-sysdev-team
+    info: Golang library for managing identities
+
+  - repo: golang-github-jcmturner-dnsutils.v2
+    group: deepin-sysdev-team
+    info: Golang library of DNS utilities
+
+  - repo: golang-github-jcmturner-aescts.v2
+    group: deepin-sysdev-team
+    info: AES CBC Ciphertext Stealing mode for Go
+
+  - repo: golang-github-gorilla-sessions
+    group: deepin-sysdev-team
+    info: save cookie and filesystem sessions and allow custom session backends
+
+  - repo: golang-github-geoffgarside-ber
+    group: deepin-sysdev-team
+    info: Fork of golang pkg `encoding/asn1` to support the Basic Encoding Rules (library)
+
+  - repo: golang-github-gdamore-encoding
+    group: deepin-sysdev-team
+    info: Various character map encodings missing from golang.org/x/net/encoding
+
+  - repo: golang-github-dimchansky-utfbom
+    group: deepin-sysdev-team
+    info: Detection of the BOM and removing as necessary
+
+  - repo: golang-github-cloudflare-circl
+    group: deepin-sysdev-team
+    info: Cloudflare Interoperable Reusable Cryptographic Library (golang)
+
+  - repo: golang-github-anacrolix-log
+    group: deepin-sysdev-team
+    info: context-style logging for Go (library)
+
+  - repo: golang-github-anacrolix-ffprobe
+    group: deepin-sysdev-team
+    info: Go ffprobe wrapper

@@ -6985,3 +6985,167 @@ repos:
   - repo: libpodofo
     group: deepin-sysdev-team
     info: Library to work with the PDF file format
+
+  - repo: golang-bazil-fuse
+    group: deepin-sysdev-team
+    info: FUSE library for Go
+
+  - repo: golang-github-a8m-tree
+    group: deepin-sysdev-team
+    info: implementation of the tree command
+
+  - repo: golang-github-aalpar-deheap
+    group: deepin-sysdev-team
+    info: Doubly ended heap implementation (library)
+
+  - repo: golang-github-abbot-go-http-auth
+    group: deepin-sysdev-team
+    info: Basic and Digest HTTP Authentication for golang http
+
+  - repo: golang-github-anacrolix-dms
+    group: deepin-sysdev-team
+    info: Go source for UPnP DLNA Digital Media Server
+
+  - repo: golang-github-artyom-mtab
+    group: deepin-sysdev-team
+    info: Package to read /proc/self/mounts entries (library)
+
+  - repo: golang-github-atotto-clipboard
+    group: deepin-sysdev-team
+    info: Clipboard for Go
+
+  - repo: golang-github-azure-go-ntlmssp
+    group: deepin-sysdev-team
+    info: NTLM/Negotiate authentication over HTTP (Go library)
+
+  - repo: golang-github-buengese-sgzip
+    group: deepin-sysdev-team
+    info: experiments for a seekable gzip for use in rclone based on pgzip (library)
+
+  - repo: golang-github-colinmarc-hdfs
+    group: deepin-sysdev-team
+    info: Native go client library for HDFS
+
+  - repo: golang-github-djherbis-times
+    group: deepin-sysdev-team
+    info: file times (atime, mtime, ctime, btime)
+
+  - repo: golang-github-dop251-scsu
+    group: deepin-sysdev-team
+    info: Go Implementation of Standard Compression Scheme for Unicode (library)
+
+  - repo: golang-github-dropbox-dropbox-sdk-go-unofficial
+    group: deepin-sysdev-team
+    info: Unofficial Go SDK for integrating with the Dropbox API v2
+
+  - repo: golang-github-gabriel-vasile-mimetype
+    group: deepin-sysdev-team
+    info: fast Go library for detecting MIME types and extensions based on magic numbers
+
+  - repo: golang-github-gdamore-tcell.v2
+    group: deepin-sysdev-team
+    info: cell based view for text terminals
+
+  - repo: golang-github-go-chi-chi
+    group: deepin-sysdev-team
+    info: lightweight, idiomatic and composable router for building Go HTTP services
+
+  - repo: golang-github-hanwen-go-fuse
+    group: deepin-sysdev-team
+    info: Native Go bindings for the FUSE kernel module
+
+  - repo: golang-github-hirochachacha-go-smb2
+    group: deepin-sysdev-team
+    info: SMB2/3 client library written in Go (library)
+
+  - repo: golang-github-iguanesolutions-go-systemd
+    group: deepin-sysdev-team
+    info: Golang bindings for systemd (library)
+
+  - repo: golang-github-jcmturner-gokrb5.v8
+    group: deepin-sysdev-team
+    info: Pure Go Kerberos library for clients and services
+
+  - repo: golang-github-jzelinskie-whirlpool
+    group: deepin-sysdev-team
+    info: whirlpool cryptographic hashing library
+
+  - repo: golang-github-koofr-go-httpclient
+    group: deepin-sysdev-team
+    info: Go HTTP client
+
+  - repo: golang-github-koofr-go-koofrclient
+    group: deepin-sysdev-team
+    info: Go Koofr client
+
+  - repo: golang-github-max-sum-base32768
+    group: deepin-sysdev-team
+    info: go implementation of base32768, optimized for UTF-16 (library)
+
+  - repo: golang-github-ncw-go-acd
+    group: deepin-sysdev-team
+    info: Go library for accessing Amazon Cloud Drive
+
+  - repo: golang-github-ncw-swift-v2
+    group: deepin-sysdev-team
+    info: Go language interface to Swift
+
+  - repo: golang-github-nsf-termbox-go
+    group: deepin-sysdev-team
+    info: pure Go implementation of termbox library
+
+  - repo: golang-github-okzk-sdnotify
+    group: deepin-sysdev-team
+    info: systemd's service notification protocol (sd_notify)
+
+  - repo: golang-github-patrickmn-go-cache
+    group: deepin-sysdev-team
+    info: in-memory key:value store/cache (similar to Memcached)
+
+  - repo: golang-github-pkg-xattr
+    group: deepin-sysdev-team
+    info: Extended attribute support for Go
+
+  - repo: golang-github-protonmail-go-crypto
+    group: deepin-sysdev-team
+    info: Go supplementary cryptography libraries
+
+  - repo: golang-github-putdotio-go-putio
+    group: deepin-sysdev-team
+    info: Put.io Go API client
+
+  - repo: golang-github-rclone-ftp
+    group: deepin-sysdev-team
+    info: FTP client package for Go (library)
+
+  - repo: golang-github-rfjakob-eme
+    group: deepin-sysdev-team
+    info: EME wide-block encryption for Go
+
+  - repo: golang-github-sevlyar-go-daemon
+    group: deepin-sysdev-team
+    info: library for writing system daemons
+
+  - repo: golang-github-shirou-gopsutil
+    group: deepin-sysdev-team
+    info: Go package implementing psutils
+
+  - repo: golang-github-skratchdot-open-golang
+    group: deepin-sysdev-team
+    info: library to open an URI in the user's preferred application
+
+  - repo: golang-github-unknwon-goconfig
+    group: deepin-sysdev-team
+    info: configuration file (.ini) parser
+
+  - repo: golang-github-xanzy-ssh-agent
+    group: deepin-sysdev-team
+    info: Go library for creating SSH agents
+
+  - repo: golang-github-youmark-pkcs8
+    group: deepin-sysdev-team
+    info: Go package to parse and convert private keys in PKCS#8 format (library)
+
+  - repo: rclone
+    group: deepin-sysdev-team
+    info: rsync for commercial cloud storage

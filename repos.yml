@@ -7234,10 +7234,26 @@ repos:
     group: deepin-sysdev-team
     info: provides authenticated and encrypted cookie values
 
-  - repo: golang-github-jcmturner-dnsutils.v2
+  - repo: golang-github-bradfitz-iter
     group: deepin-sysdev-team
-    info: Golang library of DNS utilities
-  
-  - repo: golang-github-jcmturner-rpc.v2
+    info: Range over integers [0,n). Seriously, that's it.
+
+  - repo: golang-github-huandu-xstrings
     group: deepin-sysdev-team
-    info: Remote Procedure Call libraries for golang
+    info: Package xstrings: A collection of useful string functions in Go.
+
+  - repo: golang-github-roaringbitmap-roaring
+    group: deepin-sysdev-team
+    info: Roaring bitmaps in Go
+
+  - repo: golang-github-ryszard-goskiplist
+    group: deepin-sysdev-team
+    info: A skip list implementation in Go
+
+  - repo: golang-github-bits-and-blooms-bitset
+    group: deepin-sysdev-team
+    info: implementation of bitsets
+
+  - repo: golang-github-glycerine-go-unsnap-stream
+    group: deepin-sysdev-team
+    info: library for decoding the snappy streaming format

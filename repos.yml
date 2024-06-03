@@ -1176,6 +1176,10 @@ repos:
     group: deepin-sysdev-team
     info: meta-build system for ninja
 
+  - repo: genimage
+    group: deepin-sysdev-team
+    info: Image Creation Tool
+
   - repo: geographiclib
     group: deepin-sysdev-team
     info: Geographiclib is a C++ library to solve some geodesic problems

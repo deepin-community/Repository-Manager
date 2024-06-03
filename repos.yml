@@ -7240,7 +7240,7 @@ repos:
 
   - repo: golang-github-huandu-xstrings
     group: deepin-sysdev-team
-    info: Package xstrings: A collection of useful string functions in Go.
+    info: A collection of useful string functions in Go.
 
   - repo: golang-github-roaringbitmap-roaring
     group: deepin-sysdev-team
@@ -7257,3 +7257,7 @@ repos:
   - repo: golang-github-glycerine-go-unsnap-stream
     group: deepin-sysdev-team
     info: library for decoding the snappy streaming format
+
+  - repo: golang-github-anacrolix-tagflag
+    group: deepin-sysdev-team
+    info: declarative flag parsing for Go using struct tags

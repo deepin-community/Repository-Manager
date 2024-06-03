@@ -7321,3 +7321,31 @@ repos:
   - repo: xtrace
     group: deepin-sysdev-team
     info: trace communication between X client and server
+
+  - repo: cppgir
+    group: deepin-sysdev-team
+    info: C++ binding wrapper generator for GObject introspection
+
+  - repo: glibmm2.68
+    group: deepin-sysdev-team
+    info: C++ wrapper for the GLib toolkit (2.68 ABI)
+
+  - repo: libsigcplusplus-3.0
+    group: deepin-sysdev-team
+    info: Type-safe Signal Framework for C++ (version 3)
+
+  - repo: ms-gsl
+    group: deepin-sysdev-team
+    info: Microsoft Guidelines Support Library
+
+  - repo: qr-code-generator
+    group: deepin-sysdev-team
+    info: QR Code generator library in multiple languages
+
+  - repo: rlottie
+    group: deepin-sysdev-team
+    info: Library for rendering vector based animations and art
+
+  - repo: libtgowt
+    group: deepin-sysdev-team
+    info: Telegram related WebRTC fork

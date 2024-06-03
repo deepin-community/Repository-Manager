@@ -7205,3 +7205,39 @@ repos:
   - repo: golang-github-anacrolix-ffprobe
     group: deepin-sysdev-team
     info: Go ffprobe wrapper
+
+  - repo: golang-github-tklauser-numcpus
+    group: deepin-sysdev-team
+    info: Go module to get the number of CPUs (library)
+
+  - repo: golang-github-mmcloughlin-avo
+    group: deepin-sysdev-team
+    info: Generate x86 Assembly with Go (library)
+
+  - repo: golang-github-bwesterb-go-ristretto
+    group: deepin-sysdev-team
+    info: Go implementation of the Ristretto prime-order group over Edwards25519
+
+  - repo: golang-github-data-dog-go-sqlmock
+    group: deepin-sysdev-team
+    info: Sql mock driver for golang to test database interactions
+
+  - repo: golang-github-anacrolix-envpprof
+    group: deepin-sysdev-team
+    info: configures Go's pprof and default HTTP mux
+
+  - repo: golang-github-anacrolix-missinggo
+    group: deepin-sysdev-team
+    info: Stuff that's missing in Go stdlib, or hasn't made it into its own repo.
+
+  - repo: golang-github-gorilla-securecookie
+    group: deepin-sysdev-team
+    info: provides authenticated and encrypted cookie values
+
+  - repo: golang-github-jcmturner-dnsutils.v2
+    group: deepin-sysdev-team
+    info: Golang library of DNS utilities
+  
+  - repo: golang-github-jcmturner-rpc.v2
+    group: deepin-sysdev-team
+    info: Remote Procedure Call libraries for golang

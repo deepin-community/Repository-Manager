@@ -1075,7 +1075,7 @@ repos:
 
   - repo: frozen
     group: deepin-sysdev-team
-    info:   library for immutable and fixed-size containers
+    info: library for immutable and fixed-size containers
 
   - repo: frozenlist #main
     group: deepin-sysdev-team
@@ -2584,7 +2584,7 @@ repos:
 
   - repo: golang-starlark #main
     group: deepin-sysdev-team
-    info: Interpreter for the Starlark configuration language  
+    info: Interpreter for the Starlark configuration language
 
   - repo: golang-testify #main
     group: deepin-sysdev-team
@@ -2899,7 +2899,7 @@ repos:
     group: deepin-sysdev-team
     info: CLI, cURL-like tool for humans
 
-  - repo: hustmirror-cli 
+  - repo: hustmirror-cli
     group: deepin-sysdev-team
     info: CLI posix shell script to replace system repository mirror to HUST Mirror
 
@@ -4165,7 +4165,7 @@ repos:
 
   - repo: menhir #main
     group: deepin-sysdev-team
-    info: Menhir library for OCaml    
+    info: Menhir library for OCaml
 
   - repo: menu
     group: deepin-sysdev-team
@@ -5827,7 +5827,7 @@ repos:
     info: >
       Python is a high-level, interactive, object-oriented language. Its 3.12 version  includes
       an extensive class library with lots of goodies for network programming,  system
-      administration, sounds and graphics. 
+      administration, sounds and graphics.
 
   - repo: pythran #main
     group: deepin-sysdev-team
@@ -5908,7 +5908,7 @@ repos:
 
   - repo: reactivedata #main
     group: deepin-sysdev-team
-    info: FRP with incremental changes in data structures 
+    info: FRP with incremental changes in data structures
 
   - repo: readline5
     group: deepin-sysdev-team

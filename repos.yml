@@ -3364,6 +3364,10 @@ repos:
     group: deepin-sysdev-team
     info: module to display a stack trace in HTML
 
+  - repo: libdex #main
+    group: deepin-sysdev-team
+    info: Library for deferred execution
+
   - repo: libdigest-md5-file-perl #main
     group: deepin-sysdev-team
     info: Perl extension for getting MD5 sums for files and urls
@@ -3739,6 +3743,10 @@ repos:
   - repo: libopenaptx
     group: deepin-sysdev-team
     info: Support for aptX and aptX HD codec variants.
+
+  - repo: libpanel #main
+    group: deepin-sysdev-team
+    info: IDE paneling library for GTK
 
   - repo: libparse-debian-packages-perl
     group: deepin-sysdev-team

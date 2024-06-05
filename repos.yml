@@ -7270,3 +7270,6 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: audiofile
+    group: deepin-sysdev-team
+    info:  Open-source version of SGI's audiofile library

@@ -7273,3 +7273,11 @@ repos:
   - repo: audiofile
     group: deepin-sysdev-team
     info:  Open-source version of SGI's audiofile library
+
+  - repo: golang-1.21 #main
+    group: deepin-sysdev-team
+    info: Go programming language compiler - metapackage
+
+  - repo: golang-1.22 #main
+    group: deepin-sysdev-team
+    info: Go programming language compiler - metapackage

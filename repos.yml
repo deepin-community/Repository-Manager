@@ -165,6 +165,10 @@ repos:
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity
 
+  - repo: audiofile
+    group: deepin-sysdev-team
+    info:  Open-source version of SGI's audiofile library
+
   - repo: autodep8
     group: deepin-sysdev-team
     info: DEP-8 test control file generator
@@ -1293,6 +1297,14 @@ repos:
     info: Go programming language compiler - metapackage
 
   - repo: golang-1.20
+    group: deepin-sysdev-team
+    info: Go programming language compiler - metapackage
+
+  - repo: golang-1.21 #main
+    group: deepin-sysdev-team
+    info: Go programming language compiler - metapackage
+
+  - repo: golang-1.22 #main
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage
 
@@ -7270,14 +7282,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: audiofile
-    group: deepin-sysdev-team
-    info:  Open-source version of SGI's audiofile library
-
-  - repo: golang-1.21 #main
-    group: deepin-sysdev-team
-    info: Go programming language compiler - metapackage
-
-  - repo: golang-1.22 #main
-    group: deepin-sysdev-team
-    info: Go programming language compiler - metapackage

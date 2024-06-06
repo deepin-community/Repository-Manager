@@ -691,6 +691,10 @@ repos:
     group: deepin-sysdev-team
     info: A smail launchpad
 
+  - repo: doit #main
+    group: deepin-sysdev-team
+    info: Automation tool to execute any kind of task in a build-tools fashion
+
   - repo: domdf-python-tools #main
     group: deepin-sysdev-team
     info: Helpful functions for Python
@@ -5407,7 +5411,7 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
-  - repo: python-configargparse
+  - repo: python-configargparse #main
     group: deepin-sysdev-team
     info: python-configargparse is replacement for argparse with config files and
       environment variables.
@@ -5645,6 +5649,10 @@ repos:
   - repo: python-pipx #main
     group: deepin-sysdev-team
     info: Install and Run Python Applications In Prefixes
+
+  - repo: python-pretend #main
+    group: deepin-sysdev-team
+    info: Python library for stubbing
 
   - repo: python-priority #main
     group: deepin-sysdev-team

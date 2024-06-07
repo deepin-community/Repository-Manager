@@ -5723,6 +5723,10 @@ repos:
     group: deepin-sysdev-team
     info: YAML 1.2 loader/dumper package for Python
 
+  - repo: python-sdjson #main
+    group: deepin-sysdev-team
+    info: single-dispatch JSON encoder for Python
+
   - repo: python-seedir #main
     group: deepin-sysdev-team
     info: Package for creating, editing, and reading folder tree diagrams

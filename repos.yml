@@ -7292,5 +7292,13 @@ repos:
 
   - repo: zydis
     group: deepin-sysdev-team
-    info: Fast and lightweight x86/x86-64 disassembler library
+    info: Fast and lightweight x86/x86-64 disassembler library\
+    
+  - repo: singleapplication
+    group: deepin-sysdev-team
+    info: Replacement of QtSingleApplication for Qt5
+
+  - repo: flameshot
+    group: deepin-sysdev-team
+    info: Powerful yet simple-to-use screenshot software
 

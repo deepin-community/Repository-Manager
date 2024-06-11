@@ -7302,3 +7302,7 @@ repos:
     group: deepin-sysdev-team
     info: Powerful yet simple-to-use screenshot software
 
+
+  - repo: refind
+    group: deepin-sysdev-team
+    info: A graphical boot manager for EFI- and UEFI-based computers

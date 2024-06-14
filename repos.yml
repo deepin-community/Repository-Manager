@@ -7313,3 +7313,11 @@ repos:
   - repo: sdl12-compat
     group: deepin-sysdev-team
     info: SDL 1.2 binary compatibility library - transitional development files
+
+  - repo: global
+    group: deepin-sysdev-team
+    info: Source code search and browse tools
+
+  - repo: xtrace
+    group: deepin-sysdev-team
+    info: trace communication between X client and server

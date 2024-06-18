@@ -7353,3 +7353,19 @@ repos:
   - repo: virtualbox-guest-additions-iso
     group: deepin-sysdev-team
     info: Guest additions iso image for VirtualBox
+
+  - repo: gcc-14 #main
+    group: deepin-sysdev-team
+    info: GNU C preprocessor
+
+  - repo: spirv-llvm-translator-18 #main
+    group: deepin-sysdev-team
+    info: bi-directional translator for LLVM/SPIRV
+
+  - repo: llvm-toolchain-18 #main
+    group: deepin-sysdev-team
+    info: Modular compiler and toolchain technologies, libraries and headers
+
+  - repo: amdgcn-tools-18 #main
+    group: deepin-sysdev-team
+    info: linker tools for the amdgcn architecture

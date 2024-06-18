@@ -7349,3 +7349,7 @@ repos:
   - repo: libtgowt
     group: deepin-sysdev-team
     info: Telegram related WebRTC fork
+
+  - repo: virtualbox-guest-additions-iso
+    group: deepin-sysdev-team
+    info: Guest additions iso image for VirtualBox

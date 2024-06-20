@@ -7369,3 +7369,11 @@ repos:
   - repo: amdgcn-tools-18 #main
     group: deepin-sysdev-team
     info: linker tools for the amdgcn architecture
+
+  - repo: bashdb
+    group: deepin-sysdev-team
+    info: A debgger for bash (the Bourne again shell)
+
+  - repo: icecc-monitor
+    group: deepin-sysdev-team
+    info: monitor for icecc

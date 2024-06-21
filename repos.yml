@@ -550,6 +550,10 @@ repos:
     group: deepin-sysdev-team
     info: Minimal task scheduling abstraction
 
+  - repo: dask.distributed #main
+    group: deepin-sysdev-team
+    info: Dask Distributed computing
+
   - repo: db-defaults
     group: deepin-sysdev-team
     info: Berkeley Database Utilities
@@ -5330,6 +5334,10 @@ repos:
     group: deepin-sysdev-team
     info: Python module for creating and decoding RADIUS packets
 
+  - repo: pyreadstat #main
+    group: deepin-sysdev-team
+    info: read/write data sets from SAS, Stata, and SPSS from/to Python pandas.DataFrame
+
   - repo: pyroute2 #main
     group: deepin-sysdev-team
     info: Python3 Netlink library - full package
@@ -6710,6 +6718,10 @@ repos:
     group: deepin-sysdev-team
     info: Automatically rebuild Sphinx documentation
 
+  - repo: sphinxext-rediraffe #main
+    group: deepin-sysdev-team
+    info: Sphinx Extension to redirect files
+
   - repo: spice
     group: deepin-sysdev-team
     info: Implements the server side of the SPICE protocol
@@ -7247,6 +7259,10 @@ repos:
   - repo: yuzu
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger
+
+  - repo: zarr #main
+    group: deepin-sysdev-team
+    info: chunked, compressed, N-dimensional arrays for Python
 
   - repo: zfs-linux
     group: deepin-sysdev-team

@@ -6645,6 +6645,10 @@ repos:
     group: deepin-sysdev-team
     info: cryptographic store accessible through a PKCS #11
 
+  - repo: sortable-tablesort.js #main
+    group: deepin-sysdev-team
+    info: Tiny plain JavaScript table sorter
+
   - repo: spdx-licenses
     group: deepin-sysdev-team
     info: Collection of license data provided by SPDX Workgroup
@@ -6665,6 +6669,10 @@ repos:
   - repo: sphinx-autobuild #main
     group: deepin-sysdev-team
     info: Automatically rebuild Sphinx documentation
+
+  - repo: sphinx-automodapi #main
+    group: deepin-sysdev-team
+    info: Sphinx extension for auto-generating API documentation for modules
 
   - repo: sphinx-basic-ng #main
     group: deepin-sysdev-team
@@ -7263,6 +7271,10 @@ repos:
   - repo: zarr #main
     group: deepin-sysdev-team
     info: chunked, compressed, N-dimensional arrays for Python
+
+  - repo: zfp #main
+    group: deepin-sysdev-team
+    info: Fixed-Rate Compressed Floating-Point Arrays
 
   - repo: zfs-linux
     group: deepin-sysdev-team

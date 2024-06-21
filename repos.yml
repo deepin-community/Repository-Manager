@@ -48,6 +48,10 @@ repos:
     group: deepin-sysdev-team
     info: ALSA Use Case Manager configuration files
 
+  - repo: amdgcn-tools-18 #main
+    group: deepin-sysdev-team
+    info: linker tools for the amdgcn architecture
+
   - repo: aml
     group: deepin-sysdev-team
     info: An event loop library that aims at portability, utility and simplicity
@@ -188,6 +192,10 @@ repos:
   - repo: base16384
     group: deepin-sysdev-team
     info: Encode binary files to printable utf16be
+
+  - repo: bashdb
+    group: deepin-sysdev-team
+    info: A debgger for bash (the Bourne again shell)
 
   - repo: bb
     group: deepin-sysdev-team
@@ -480,6 +488,10 @@ repos:
   - repo: cppdap #main
     group: deepin-sysdev-team
     info: C++11 implementation of the Debug Adapter Protocol
+
+  - repo: cppgir
+    group: deepin-sysdev-team
+    info: C++ binding wrapper generator for GObject introspection
 
   - repo: cpputest #main
     group: deepin-sysdev-team
@@ -889,6 +901,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: flameshot
+    group: deepin-sysdev-team
+    info: Powerful yet simple-to-use screenshot software
+
   - repo: flatbuffers
     group: deepin-sysdev-team
     info: Memory Efficient Serialization Library
@@ -1156,6 +1172,10 @@ repos:
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection (cross compiler)
 
+  - repo: gcc-14 #main
+    group: deepin-sysdev-team
+    info: GNU C preprocessor
+
   - repo: gcc-arm-none-eabi #main
     group: deepin-sysdev-team
     info: GCC cross compiler for ARM Cortex-R/M processors
@@ -1171,6 +1191,10 @@ repos:
   - repo: gdcm
     group: deepin-sysdev-team
     info: Grassroots DICOM runtime libraries
+
+  - repo: gdebi
+    group: deepin-sysdev-team
+    info: simple tool to view and install deb files - GNOME GUI
 
   - repo: gdk-pixbuf
     group: deepin-sysdev-team
@@ -1224,6 +1248,10 @@ repos:
     group: deepin-sysdev-team
     info: CLI curses based monitoring tool
 
+  - repo: glibmm2.68
+    group: deepin-sysdev-team
+    info: C++ wrapper for the GLib toolkit (2.68 ABI)
+
   - repo: gliese
     group: deepin-sysdev-team
     info: stellar data set from the Third Catalogue of Nearby Stars.
@@ -1231,6 +1259,10 @@ repos:
   - repo: glmark2
     group: deepin-sysdev-team
     info: OpenGL 2.0 benchmark suite
+
+  - repo: global
+    group: deepin-sysdev-team
+    info: Source code search and browse tools
 
   - repo: gmbal
     group: deepin-sysdev-team
@@ -2959,6 +2991,10 @@ repos:
     group: deepin-sysdev-team
     info: IceCC is a distributed build system.
 
+  - repo: icecc-monitor
+    group: deepin-sysdev-team
+    info: monitor for icecc
+
   - repo: icu
     group: deepin-sysdev-team
     info: ICU is a C++ and C library that provides robust and full-featured Unicode
@@ -3873,6 +3909,10 @@ repos:
     group: deepin-sysdev-team
     info: Development files for the Searpc framework
 
+  - repo: libsigcplusplus-3.0
+    group: deepin-sysdev-team
+    info: Type-safe Signal Framework for C++ (version 3)
+
   - repo: libsis-base-java
     group: deepin-sysdev-team
     info: Base libraries used by software from the SIS division at ETH Zurich
@@ -3961,6 +4001,10 @@ repos:
   - repo: libtext-ansi-util-perl #main
     group: deepin-sysdev-team
     info: routines for text containing ANSI color codes
+
+  - repo: libtgowt
+    group: deepin-sysdev-team
+    info: Telegram related WebRTC fork
 
   - repo: libtorrent-rasterbar
     group: deepin-sysdev-team
@@ -4077,6 +4121,10 @@ repos:
   - repo: llvm-toolchain-17
     group: deepin-sysdev-team
     info: LLVM compiler infrastructure
+
+  - repo: llvm-toolchain-18 #main
+    group: deepin-sysdev-team
+    info: Modular compiler and toolchain technologies, libraries and headers
 
   - repo: log4cplus
     group: deepin-sysdev-team
@@ -4306,6 +4354,10 @@ repos:
   - repo: mozjs60
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine
+
+  - repo: ms-gsl
+    group: deepin-sysdev-team
+    info: Microsoft Guidelines Support Library
 
   - repo: msgpack-cxx
     group: deepin-sysdev-team
@@ -5959,6 +6011,10 @@ repos:
     info: a D-Bus system service that manages discovery and enrollment in realms/domains
       like Active Directory or IPA.
 
+  - repo: refind
+    group: deepin-sysdev-team
+    info: A graphical boot manager for EFI- and UEFI-based computers
+
   - repo: remmina
     group: deepin-sysdev-team
     info: GTK+ Remote Desktop Client
@@ -5990,6 +6046,10 @@ repos:
   - repo: ristretto
     group: deepin-sysdev-team
     info: lightweight picture-viewer for the Xfce desktop environment
+
+  - repo: rlottie
+    group: deepin-sysdev-team
+    info: Library for rendering vector based animations and art
 
   - repo: roc-toolkit #main
     group: deepin-sysdev-team
@@ -6499,6 +6559,10 @@ repos:
     group: deepin-sysdev-team
     info: Displays a short text fullscreen
 
+  - repo: sdl12-compat
+    group: deepin-sysdev-team
+    info: SDL 1.2 binary compatibility library - transitional development files
+
   - repo: seafile
     group: deepin-sysdev-team
     info: Development files for the Seafile Client
@@ -6542,6 +6606,10 @@ repos:
   - repo: shim-signed
     group: deepin-sysdev-team
     info: deepin uefi shim
+
+  - repo: singleapplication
+    group: deepin-sysdev-team
+    info: Replacement of QtSingleApplication for Qt5
 
   - repo: sip6 #main
     group: deepin-sysdev-team
@@ -6665,6 +6733,10 @@ repos:
   - repo: spirv-llvm-translator-17
     group: deepin-sysdev-team
     info: API and commands for processing SPIR-V modules
+
+  - repo: spirv-llvm-translator-18 #main
+    group: deepin-sysdev-team
+    info: bi-directional translator for LLVM/SPIRV
 
   - repo: spirv-tools #main
     group: deepin-sysdev-team
@@ -6931,6 +7003,10 @@ repos:
     group: deepin-sysdev-team
     info: extra capabilities for VirtualBox, downloader.
 
+  - repo: virtualbox-guest-additions-iso
+    group: deepin-sysdev-team
+    info: Guest additions iso image for VirtualBox
+
   - repo: vkfft
     group: deepin-sysdev-team
     info: Vulkan Fast Fourier Transform library
@@ -7156,6 +7232,10 @@ repos:
     group: deepin-sysdev-team
     info: basic tools (containers, algorithms) used for xtensor and xeus
 
+  - repo: xtrace
+    group: deepin-sysdev-team
+    info: trace communication between X client and server
+
   - repo: yamllint
     group: deepin-sysdev-team
     info: Linter for YAML files
@@ -7293,87 +7373,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library\
-    
-  - repo: singleapplication
-    group: deepin-sysdev-team
-    info: Replacement of QtSingleApplication for Qt5
 
-  - repo: flameshot
-    group: deepin-sysdev-team
-    info: Powerful yet simple-to-use screenshot software
-
-  - repo: refind
-    group: deepin-sysdev-team
-    info: A graphical boot manager for EFI- and UEFI-based computers
-
-  - repo: gdebi
-    group: deepin-sysdev-team
-    info: simple tool to view and install deb files - GNOME GUI
-
-  - repo: sdl12-compat
-    group: deepin-sysdev-team
-    info: SDL 1.2 binary compatibility library - transitional development files
-
-  - repo: global
-    group: deepin-sysdev-team
-    info: Source code search and browse tools
-
-  - repo: xtrace
-    group: deepin-sysdev-team
-    info: trace communication between X client and server
-
-  - repo: cppgir
-    group: deepin-sysdev-team
-    info: C++ binding wrapper generator for GObject introspection
-
-  - repo: glibmm2.68
-    group: deepin-sysdev-team
-    info: C++ wrapper for the GLib toolkit (2.68 ABI)
-
-  - repo: libsigcplusplus-3.0
-    group: deepin-sysdev-team
-    info: Type-safe Signal Framework for C++ (version 3)
-
-  - repo: ms-gsl
-    group: deepin-sysdev-team
-    info: Microsoft Guidelines Support Library
-
-  - repo: qr-code-generator
-    group: deepin-sysdev-team
-    info: QR Code generator library in multiple languages
-
-  - repo: rlottie
-    group: deepin-sysdev-team
-    info: Library for rendering vector based animations and art
-
-  - repo: libtgowt
-    group: deepin-sysdev-team
-    info: Telegram related WebRTC fork
-
-  - repo: virtualbox-guest-additions-iso
-    group: deepin-sysdev-team
-    info: Guest additions iso image for VirtualBox
-
-  - repo: gcc-14 #main
-    group: deepin-sysdev-team
-    info: GNU C preprocessor
-
-  - repo: spirv-llvm-translator-18 #main
-    group: deepin-sysdev-team
-    info: bi-directional translator for LLVM/SPIRV
-
-  - repo: llvm-toolchain-18 #main
-    group: deepin-sysdev-team
-    info: Modular compiler and toolchain technologies, libraries and headers
-
-  - repo: amdgcn-tools-18 #main
-    group: deepin-sysdev-team
-    info: linker tools for the amdgcn architecture
-
-  - repo: bashdb
-    group: deepin-sysdev-team
-    info: A debgger for bash (the Bourne again shell)
-
-  - repo: icecc-monitor
-    group: deepin-sysdev-team
-    info: monitor for icecc

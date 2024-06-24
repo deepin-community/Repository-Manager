@@ -307,6 +307,10 @@ repos:
     group: deepin-sysdev-team
     info: Berkeley Yacc, a parser generator
 
+  - repo: c-blosc2 #main
+    group: deepin-sysdev-team
+    info: Fast, compressed, persistent binary data store library for C
+
   - repo: c2050
     group: deepin-sysdev-team
     info: printer driver for Lexmark 2050 Color Jetprinter
@@ -3191,6 +3195,10 @@ repos:
     group: deepin-sysdev-team
     info: Register a comm implementation in the Jupyter kernel
 
+  - repo: jupyter-server #main
+    group: deepin-sysdev-team
+    info: Jupyter protocol server backend
+
   - repo: kbuild
     group: deepin-sysdev-team
     info: Framework for writing simple makefiles for complex tasks
@@ -5103,6 +5111,10 @@ repos:
       or TCP port. It can be used to access remote sites, make secure point-to-point
       connections, enhance wireless security, etc.
 
+  - repo: oslo-sphinx #main
+    group: deepin-sysdev-team
+    info: theme and extension support for openstack
+
   - repo: osspd
     group: deepin-sysdev-team
     info: OSS Proxy Daemon, Userland OSS emulation
@@ -5798,6 +5810,10 @@ repos:
   - repo: python-repoze.sphinx.autointerface #main
     group: deepin-sysdev-team
     info: Sphinx extension to generate API docs from Zope interfaces
+
+  - repo: python-restructuredtext-lint #main
+    group: deepin-sysdev-team
+    info: reStructuredText linter
 
   - repo: python-rlpycairo #main
     group: deepin-sysdev-team

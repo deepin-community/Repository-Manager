@@ -3036,6 +3036,14 @@ repos:
     group: deepin-sysdev-team
     info: command-line programs providing a simple interface to inotify
 
+  - repo: intel-compute-runtime
+    group: deepin-sysdev-team
+    info: Intel graphics compute runtime
+
+  - repo: intel-graphics-compiler
+    group: deepin-sysdev-team
+    info: Intel graphics compile
+
   - repo: intel-ipsec-mb
     group: deepin-sysdev-team
     info: Development files for Intel(R) Multi-Buffer Crypto for IPSec library
@@ -3043,6 +3051,10 @@ repos:
   - repo: intel-media-driver-non-free
     group: deepin-sysdev-team
     info: VAAPI driver for the Intel GEN8+ Graphics family
+
+  - repo: intel-vc-intrinsics
+    group: deepin-sysdev-team
+    info: Intel Vector Compute Intrinsics
 
   - repo: intelrdfpmath #main
     group: deepin-sysdev-team
@@ -3269,6 +3281,10 @@ repos:
   - repo: lerc #main
     group: deepin-sysdev-team
     info: Limited Error Raster Compression library.
+
+  - repo: level-zero
+    group: deepin-sysdev-team
+    info: The oneAPI Level Zero (Level Zero) provides low-level direct-to-metal interfaces that are tailored to the devices in a oneAPI platform.
 
   - repo: libabigail
     group: deepin-sysdev-team
@@ -5023,6 +5039,10 @@ repos:
   - repo: open-vm-tools #main
     group: deepin-sysdev-team
     info: Open VMware Tools for virtual machines hosted on VMware (CLI)
+
+  - repo: opencl-clang
+    group: deepin-sysdev-team
+    info: Opencl-clang is a thin wrapper library around clang
 
   - repo: opencv #main
     group: deepin-sysdev-team

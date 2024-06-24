@@ -642,6 +642,10 @@ repos:
     group: deepin-sysdev-team
     info: debhelper tool generating the Built-Using field for Debian packages
 
+  - repo: dh-cmake #main
+    group: deepin-sysdev-team
+    info: Debhelper programs for CMake projects
+
   - repo: dh-nss
     group: deepin-sysdev-team
     info: debhelper addon to inject NSS services into /etc/nsswitch.conf

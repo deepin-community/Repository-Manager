@@ -181,6 +181,10 @@ repos:
     group: deepin-sysdev-team
     info: shell extension to jump to frequently used directories
 
+  - repo: autopep8 #main
+    group: deepin-sysdev-team
+    info: tool that automatically formats Python code to conform to PEP 8
+
   - repo: babel-minify #main
     group: deepin-sysdev-team
     info: ES6+ aware minifier based on the Babel toolchain

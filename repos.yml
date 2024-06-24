@@ -5434,6 +5434,10 @@ repos:
     group: deepin-sysdev-team
     info: aafigure - ASCII art to image converter
 
+  - repo: python-anyio #main
+    group: deepin-sysdev-team
+    info: Asynchronous compatibility layer
+
   - repo: python-apeye #main
     group: deepin-sysdev-team
     info: Handy tools for working with URLs and APIs

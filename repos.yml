@@ -5500,6 +5500,10 @@ repos:
     group: deepin-sysdev-team
     info: Parse and create Python distribution metadata
 
+  - repo: python-doc8 #main
+    group: deepin-sysdev-team
+    info: style checker for Sphinx (or other) RST documentation
+
   - repo: python-docker
     group: deepin-sysdev-team
     info: Python 3 wrapper to access docker.io's control socket
@@ -7400,5 +7404,5 @@ repos:
 
   - repo: zydis
     group: deepin-sysdev-team
-    info: Fast and lightweight x86/x86-64 disassembler library\
+    info: Fast and lightweight x86/x86-64 disassembler library
 

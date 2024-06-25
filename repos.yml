@@ -3064,6 +3064,10 @@ repos:
     group: deepin-sysdev-team
     info: VAAPI driver for the Intel GEN8+ Graphics family
 
+  - repo: intel-npu-driver
+    group: deepin-sysdev-team
+    info: Intel npu user namespace driver
+
   - repo: intel-vc-intrinsics
     group: deepin-sysdev-team
     info: Intel Vector Compute Intrinsics

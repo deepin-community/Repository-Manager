@@ -6995,6 +6995,26 @@ repos:
     group: deepin-sysdev-team
     info: Parser generator tool and incremental parsing library
 
+  - repo: tree-sitter-c
+    group: deepin-sysdev-team
+    info: C parser for Tree-sitter (source files)
+
+  - repo: tree-sitter-lua
+    group: deepin-sysdev-team
+    info: Lua parser for Tree-sitter (source files)
+
+  - repo: tree-sitter-query
+    group: deepin-sysdev-team
+    info: Tree-sitter queries parser for Tree-sitter (source files)
+
+  - repo: tree-sitter-vim
+    group: deepin-sysdev-team
+    info: Vimscript parser for Tree-sitter (source files)
+
+  - repo: tree-sitter-vimdoc
+    group: deepin-sysdev-team
+    info: Vim help file parser for Tree-sitter (source files)
+
   - repo: treeland
     group: deepin-sysdev-team
     info: A display manager and wayland compositer based on waylib
@@ -7457,24 +7477,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-
-  - repo: tree-sitter-c
-    group: deepin-sysdev-team
-    info: C parser for Tree-sitter (source files)
-
-  - repo: tree-sitter-lua
-    group: deepin-sysdev-team
-    info: Lua parser for Tree-sitter (source files)
-
-  - repo: tree-sitter-query
-    group: deepin-sysdev-team
-    info: Tree-sitter queries parser for Tree-sitter (source files)
-
-  - repo: tree-sitter-vim
-    group: deepin-sysdev-team
-    info: Vimscript parser for Tree-sitter (source files)
-
-  - repo: tree-sitter-vimdoc
-    group: deepin-sysdev-team
-    info: Vim help file parser for Tree-sitter (source files)
 

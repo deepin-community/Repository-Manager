@@ -5569,6 +5569,10 @@ repos:
     info: python-editor is a library that provides the editor module for programmatically
       interfacing with your system's $EDITOR.
 
+  - repo: python-email-validator #main
+    group: deepin-sysdev-team
+    info: Robust email address syntax and deliverability validation library
+
   - repo: python-ephemeral-port-reserve #main
     group: deepin-sysdev-team
     info: binds to an ephemeral port, force it into the TIME_WAIT state, and unbind

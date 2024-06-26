@@ -7251,6 +7251,10 @@ repos:
     group: deepin-sysdev-team
     info: HTTP benchmarking tool
 
+  - repo: wtforms #main
+    group: deepin-sysdev-team
+    info: Flexible forms validation and rendering library for Python
+
   - repo: wxpython4.0 #main
     group: deepin-sysdev-team
     info: Python 3 interface to the wxWidgets Cross-platform C++ GUI toolkit

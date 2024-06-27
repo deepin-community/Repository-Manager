@@ -3828,6 +3828,86 @@ repos:
     info: libnetfilter_acct is a userspace library providing an interface to the extended
       netfilter accounting infrastructure.
 
+  - repo: libnginx-mod-http-auth-pam #main
+    group: deepin-sysdev-team
+    info: PAM authentication module for Nginx
+
+  - repo: libnginx-mod-http-brotli #main
+    group: deepin-sysdev-team
+    info: Brotli lossless compression support for Nginx
+
+  - repo: libnginx-mod-http-cache-purge #main
+    group: deepin-sysdev-team
+    info: Purge content from Nginx caches
+
+  - repo: libnginx-mod-http-dav-ext #main
+    group: deepin-sysdev-team
+    info: WebDAV missing commands support for Nginx
+
+  - repo: libnginx-mod-http-echo #main
+    group: deepin-sysdev-team
+    info: Bring echo and more shell style goodies to Nginx
+
+  - repo: libnginx-mod-http-fancyindex #main
+    group: deepin-sysdev-team
+    info: Fancy indexes module for the Nginx
+
+  - repo: libnginx-mod-http-geoip2 #main
+    group: deepin-sysdev-team
+    info: GeoIP2 HTTP module for Nginx
+
+  - repo: libnginx-mod-http-headers-more-filter #main
+    group: deepin-sysdev-team
+    info: Set and clear input and output headers for Nginx
+
+  - repo: libnginx-mod-http-lua #main
+    group: deepin-sysdev-team
+    info: Lua module for Nginx
+
+  - repo: libnginx-mod-http-memc #main
+    group: deepin-sysdev-team
+    info: Extended memcached commands module for Nginx
+
+  - repo: libnginx-mod-http-modsecurity #main
+    group: deepin-sysdev-team
+    info: WAF module for Nginx
+
+  - repo: libnginx-mod-http-ndk #main
+    group: deepin-sysdev-team
+    info: Nginx Development Kit module
+
+  - repo: libnginx-mod-http-set-misc #main
+    group: deepin-sysdev-team
+    info: Extended rewrite directives module for Nginx
+
+  - repo: libnginx-mod-http-srcache-filter #main
+    group: deepin-sysdev-team
+    info: Transparent caching layer for Nginx
+
+  - repo: libnginx-mod-http-subs-filter #main
+    group: deepin-sysdev-team
+    info: Substitution filter module for Nginx
+
+  - repo: libnginx-mod-http-uploadprogress #main
+    group: deepin-sysdev-team
+    info: Upload progress system for Nginx
+
+  - repo: libnginx-mod-http-upstream-fair #main
+    group: deepin-sysdev-team
+    info: Nginx Upstream Fair Proxy Load Balancer
+
+  - repo: libnginx-mod-js #main
+    group: deepin-sysdev-team
+    info: JavaScript HTTP module for Nginx
+
+  - repo: libnginx-mod-nchan #main
+    group: deepin-sysdev-team
+    info: Fast, flexible pub/sub server for Nginx
+
+  - repo: libnginx-mod-rtmp #main
+    group: deepin-sysdev-team
+    info: RTMP support for Nginx
+
   - repo: libnvme #main
     group: deepin-sysdev-team
     info: NVMe management library
@@ -4198,6 +4278,38 @@ repos:
     group: deepin-sysdev-team
     info: LPeg is a pattern-matching library for Lua, based on Parsing Expression
       Grammars (PEGs)
+
+  - repo: lua-nginx-cookie #main
+    group: deepin-sysdev-team
+    info: Pure Lua cookie parser for the nginx embedded Lua language
+
+  - repo: lua-nginx-dns #main
+    group: deepin-sysdev-team
+    info: DNS resolver for the nginx embedded Lua language
+
+  - repo: lua-nginx-kafka #main
+    group: deepin-sysdev-team
+    info: Pure Lua Kafka producer for the nginx embedded Lua language
+
+  - repo: lua-nginx-memcached #main
+    group: deepin-sysdev-team
+    info: Pure Lua memcached client driver for the nginx embedded Lua language
+
+  - repo: lua-nginx-redis #main
+    group: deepin-sysdev-team
+    info: Pure Lua redis client driver for the nginx embedded Lua language
+
+  - repo: lua-nginx-redis-connector #main
+    group: deepin-sysdev-team
+    info: Connection utilities for lua-nginx-redis
+
+  - repo: lua-nginx-string #main
+    group: deepin-sysdev-team
+    info: String utilities for the nginx embedded Lua language
+
+  - repo: lua-nginx-websocket #main
+    group: deepin-sysdev-team
+    info: Lua websocket client driver for the nginx embedded Lua language
 
   - repo: lua-nvim
     group: deepin-sysdev-team

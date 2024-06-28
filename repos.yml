@@ -6946,6 +6946,10 @@ repos:
     group: deepin-sysdev-team
     info: FUSE filesystem to mount squashfs archives
 
+  - repo: ssdeep #main
+    group: deepin-sysdev-team
+    info: recursive piecewise hashing tool
+
   - repo: ssh-tools
     group: deepin-sysdev-team
     info: collection of various tools using sshs

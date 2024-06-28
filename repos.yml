@@ -3443,6 +3443,10 @@ repos:
     group: deepin-sysdev-team
     info: Library of common debian-installer functions
 
+  - repo: libdecaf #main
+    group: deepin-sysdev-team
+    info: Ed448-Goldilocks-based elliptic curve cryptography library
+
   - repo: libdecor-0
     group: deepin-sysdev-team
     info: libdecor is a library that can help Wayland clients draw window decorations
@@ -4486,6 +4490,10 @@ repos:
   - repo: modemmanager #main
     group: deepin-sysdev-team
     info: D-Bus service for managing modems - library development files
+
+  - repo: modsecurity #main
+    group: deepin-sysdev-team
+    info: ModSecurity v3 library component
 
   - repo: mold
     group: deepin-sysdev-team
@@ -7598,6 +7606,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: libdecaf #main
-    group: deepin-sysdev-team
-    info: Ed448-Goldilocks-based elliptic curve cryptography library

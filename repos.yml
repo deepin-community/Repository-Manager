@@ -3112,6 +3112,10 @@ repos:
     group: deepin-sysdev-team
     info: Internet Protocol bandwidth measuring tool
 
+  - repo: ipmitool
+    group: deepin-sysdev-team
+    info: utility for IPMI control with kernel driver or LAN interface
+
   - repo: ipp-usb
     group: deepin-sysdev-team
     info: ipp-usb is a userland driver for USB devices supporting the IPP over USB

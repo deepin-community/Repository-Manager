@@ -2702,6 +2702,10 @@ repos:
     group: deepin-sysdev-team
     info: suite of programs to modify Transport Tycoon Deluxe's GRF files
 
+  - repo: grim
+    group: deepin-sysdev-team
+    info: command-line utility to make screenshots of Wayland desktops
+
   - repo: grsync
     group: deepin-sysdev-team
     info: gui tool to synchronize GRF files between two machines
@@ -6807,6 +6811,10 @@ repos:
     group: deepin-sysdev-team
     info: web-page layout and decoration framework
 
+  - repo: slurp
+    group: deepin-sysdev-team
+    info: cli utility to select a region in a Wayland compositor
+
   - repo: sm
     group: deepin-sysdev-team
     info: Displays a short text fullscreen
@@ -7609,12 +7617,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-
-  - repo: grim
-    group: deepin-sysdev-team
-    info: command-line utility to make screenshots of Wayland desktops
-
-  - repo: slurp
-    group: deepin-sysdev-team
-    info: cli utility to select a region in a Wayland compositor
 

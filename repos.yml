@@ -7255,6 +7255,10 @@ repos:
     group: deepin-sysdev-team
     info: VTE provides a virtual terminal widget for GTK applications.
 
+  - repo: vtoydump
+    group: deepin-sysdev-team
+    info: A tool to get the ventoy information under OS.
+
   - repo: vulkan-tools
     group: deepin-sysdev-team
     info: Vulkan tools

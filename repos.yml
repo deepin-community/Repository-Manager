@@ -7407,6 +7407,10 @@ repos:
     group: deepin-sysdev-team
     info: VNC server to allow remote access to an existing X session
 
+  - repo: xautomation #main
+    group: deepin-sysdev-team
+    info: Control X from the command line, and find things on the screen
+
   - repo: xball
     group: deepin-sysdev-team
     info: Simulate bouncing balls in a window

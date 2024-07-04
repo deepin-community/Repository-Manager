@@ -7630,3 +7630,14 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: haskell-tldr #main
+    group: deepin-sysdev-team
+    info: Haskell tldr client with support for updating and viewing tldr pages.
+
+  - repo: haskell-cmark #main
+    group: deepin-sysdev-team
+    info: fast, accurate CommonMark (Markdown) parser and renderer
+
+  - repo: haskell-http-conduit #main
+    group: deepin-sysdev-team
+    info: HTTP client package with conduit interface and HTTPS support;

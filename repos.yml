@@ -554,6 +554,10 @@ repos:
     group: deepin-sysdev-team
     info: D-Bus explorer and test app for GNOME
 
+  - repo: dacite #main
+    group: deepin-sysdev-team
+    info: Simple creation of data classes from dictionaries
+
   - repo: dask #main
     group: deepin-sysdev-team
     info: Minimal task scheduling abstraction

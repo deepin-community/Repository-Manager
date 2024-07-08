@@ -3251,6 +3251,10 @@ repos:
     group: deepin-sysdev-team
     info: kdump is a mechanism to capture crash dumps for the Linux kernel.
 
+  - repo: kernel-extras
+    group: deepin-sysdev-team
+    info: Kernel tools and documentation, etc.
+
   - repo: kexec-tools
     group: deepin-sysdev-team
     info: tools to support fast kexec reboots.

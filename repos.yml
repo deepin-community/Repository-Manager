@@ -323,6 +323,10 @@ repos:
     group: deepin-sysdev-team
     info: Microsoft Cabinet file unpacker
 
+  - repo: cabal-debian
+    group: deepin-sysdev-team
+    info: Create a Debianization by examining a .cabal file.
+
   - repo: cachy #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -5278,6 +5282,10 @@ repos:
   - repo: pacman-package-manager
     group: deepin-sysdev-team
     info: Simple library-based package manager
+
+  - repo: pkg-haskell-tools
+    group: deepin-sysdev-team
+    info: ghc and haskell develop tools
 
   - repo: pam-u2f #main
     group: deepin-sysdev-team

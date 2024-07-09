@@ -2783,6 +2783,10 @@ repos:
     group: deepin-sysdev-team
     info: Generates citations and bibliography from CSL styles
 
+  - repo: haskell-cmark #main
+    group: deepin-sysdev-team
+    info: fast, accurate CommonMark (Markdown) parser and renderer
+
   - repo: haskell-commonmark #main
     group: deepin-sysdev-team
     info: Pure Haskell commonmark parser
@@ -2835,6 +2839,10 @@ repos:
     group: deepin-sysdev-team
     info: Utilities to build Lua modules
 
+  - repo: haskell-http-conduit #main
+    group: deepin-sysdev-team
+    info: HTTP client package with conduit interface and HTTPS support;
+
   - repo: haskell-indexed-traversable #main
     group: deepin-sysdev-team
     info: Indexed Traversables for Haskell; documentation
@@ -2886,6 +2894,10 @@ repos:
   - repo: haskell-timeit #main
     group: deepin-sysdev-team
     info: time a computation
+
+  - repo: haskell-tldr #main
+    group: deepin-sysdev-team
+    info: Haskell tldr client with support for updating and viewing tldr pages.
 
   - repo: haskell-typed-process #main
     group: deepin-sysdev-team
@@ -6189,6 +6201,14 @@ repos:
     group: deepin-sysdev-team
     info: range algorithms, views, and actions for C++14/17/20
 
+  - repo: rapidfuzz #main
+    group: deepin-sysdev-team
+    info: Rapid fuzzy string matching library
+
+  - repo: rapidfuzz-cpp #main
+    group: deepin-sysdev-team
+    info: Rapid fuzzy string matching library
+
   - repo: rclone
     group: deepin-sysdev-team
     info: rsync for commercial cloud storage
@@ -7035,6 +7055,10 @@ repos:
     group: deepin-sysdev-team
     info: Tarball file list comparison tool
 
+  - repo: taskflow #main
+    group: deepin-sysdev-team
+    info: Parallel and Heterogeneous Task Programming System for C++
+
   - repo: tbox
     group: deepin-sysdev-team
     info: glib-like multi-platform c library (development files)
@@ -7634,14 +7658,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: haskell-tldr #main
-    group: deepin-sysdev-team
-    info: Haskell tldr client with support for updating and viewing tldr pages.
-
-  - repo: haskell-cmark #main
-    group: deepin-sysdev-team
-    info: fast, accurate CommonMark (Markdown) parser and renderer
-
-  - repo: haskell-http-conduit #main
-    group: deepin-sysdev-team
-    info: HTTP client package with conduit interface and HTTPS support;

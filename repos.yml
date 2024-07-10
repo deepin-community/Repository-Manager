@@ -4567,6 +4567,10 @@ repos:
     group: deepin-sysdev-team
     info: multiple repository bootstrap based on apt
 
+  - repo: mupdf #main
+    group: deepin-sysdev-team
+    info: lightweight PDF viewer
+
   - repo: myst-parser #main
     group: deepin-sysdev-team
     info: rich and extensible flavor of Markdown for technical docs

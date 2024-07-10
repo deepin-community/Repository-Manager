@@ -784,6 +784,10 @@ repos:
     info: Dynarmic is a dynamic recompiler for emulating ARMv7-A and ARMv8-A (AArch64)
       binaries.
 
+  - repo: easyeffects
+    group: deepin-sysdev-team
+    info: Audio effects for PipeWire applications
+
   - repo: eb
     group: deepin-sysdev-team
     info: C library for accessing EB, EBG, EBXA, and EPWING CD-ROM dictionaries

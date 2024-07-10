@@ -319,13 +319,13 @@ repos:
     group: deepin-sysdev-team
     info: printer driver for Lexmark 2050 Color Jetprinter
 
-  - repo: cabextract
-    group: deepin-sysdev-team
-    info: Microsoft Cabinet file unpacker
-
   - repo: cabal-debian
     group: deepin-sysdev-team
     info: Create a Debianization by examining a .cabal file.
+
+  - repo: cabextract
+    group: deepin-sysdev-team
+    info: Microsoft Cabinet file unpacker
 
   - repo: cachy #main
     group: deepin-sysdev-team
@@ -5287,10 +5287,6 @@ repos:
     group: deepin-sysdev-team
     info: Simple library-based package manager
 
-  - repo: pkg-haskell-tools
-    group: deepin-sysdev-team
-    info: ghc and haskell develop tools
-
   - repo: pam-u2f #main
     group: deepin-sysdev-team
     info: universal 2nd factor (U2F) PAM module
@@ -5379,6 +5375,10 @@ repos:
   - repo: pixz
     group: deepin-sysdev-team
     info: parallel, indexing XZ compressor/decompressor
+
+  - repo: pkg-haskell-tools
+    group: deepin-sysdev-team
+    info: ghc and haskell develop tools
 
   - repo: plantuml
     group: deepin-sysdev-team
@@ -5517,6 +5517,10 @@ repos:
   - repo: pymdown-extensions #main
     group: deepin-sysdev-team
     info: Extension pack for Python Markdown
+
+  - repo: pymupdf #main
+    group: deepin-sysdev-team
+    info: Python binding for MuPDF
 
   - repo: pypdf2 #main
     group: deepin-sysdev-team
@@ -6042,6 +6046,10 @@ repos:
   - repo: python-sure #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-svglib #main
+    group: deepin-sysdev-team
+    info: Python library for reading SVG files and converting them
 
   - repo: python-tenacity #main
     group: deepin-sysdev-team

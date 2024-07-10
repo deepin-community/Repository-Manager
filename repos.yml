@@ -7546,6 +7546,10 @@ repos:
       data across process boundaries, transporting between kernel and userland, and
       possibly saving onto disk files.
 
+  - repo: zita-convolver
+    group: deepin-sysdev-team
+    info: C++ library implementing a real-time convolution matrix
+
   - repo: zope.authentication #main
     group: deepin-sysdev-team
     info: Definition of authentication basics for the Zope Framework

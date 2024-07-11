@@ -1400,6 +1400,10 @@ repos:
     group: deepin-sysdev-team
     info: Basic and Digest HTTP Authentication for golang http
 
+  - repo: golang-github-aead-chacha20 #main
+    group: deepin-sysdev-team
+    info: ChaCha20 and XChaCha20 stream ciphers go library
+
   - repo: golang-github-ajstarks-svgo #main
     group: deepin-sysdev-team
     info: generating online histograms and plotting them with golang
@@ -1661,6 +1665,18 @@ repos:
     group: deepin-sysdev-team
     info: HTTP client library for creating and sending API requests
 
+  - repo: golang-github-dgryski-go-camellia #main
+    group: deepin-sysdev-team
+    info: go-camellia library for golang
+
+  - repo: golang-github-dgryski-go-idea #main
+    group: deepin-sysdev-team
+    info: go-idea library for golang
+
+  - repo: golang-github-dgryski-go-rc2 #main
+    group: deepin-sysdev-team
+    info: go-rc2 Library for golang
+
   - repo: golang-github-dimchansky-utfbom
     group: deepin-sysdev-team
     info: Detection of the BOM and removing as necessary
@@ -1724,6 +1740,10 @@ repos:
   - repo: golang-github-eapache-go-xerial-snappy #main
     group: deepin-sysdev-team
     info: Xerial-compatible Snappy framing support for Go
+
+  - repo: golang-github-ebfe-rc2 #main
+    group: deepin-sysdev-team
+    info: ebpe-rc2 library for golang
 
   - repo: golang-github-edsrzf-mmap-go #main
     group: deepin-sysdev-team
@@ -2001,6 +2021,10 @@ repos:
     group: deepin-sysdev-team
     info: Old clientv2 for InfluxDB 1.x (library)
 
+  - repo: golang-github-insomniacslk-dhcp #main
+    group: deepin-sysdev-team
+    info: DHCPv6 and DHCPv4 packet library, client and server written in Go (library)
+
   - repo: golang-github-intel-goresctrl #main
     group: deepin-sysdev-team
     info: Go library for managing resctrl filesystem
@@ -2184,6 +2208,14 @@ repos:
   - repo: golang-github-mxk-go-flowrate
     group: deepin-sysdev-team
     info: Go package for limiting and monitoring data flow rate
+
+  - repo: golang-github-nadoo-conflag #main
+    group: deepin-sysdev-team
+    info: conflag library for golang
+
+  - repo: golang-github-nadoo-ipset #main
+    group: deepin-sysdev-team
+    info: ipset library for golang
 
   - repo: golang-github-ncw-go-acd
     group: deepin-sysdev-team
@@ -2501,6 +2533,10 @@ repos:
   - repo: golang-github-xiang90-probing #main
     group: deepin-sysdev-team
     info: Go library for HTTP probing
+
+  - repo: golang-github-xtaci-kcp #main
+    group: deepin-sysdev-team
+    info: Full-Featured Reliable-UDP Library for golang
 
   - repo: golang-github-youmark-pkcs8
     group: deepin-sysdev-team

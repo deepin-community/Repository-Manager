@@ -7014,6 +7014,10 @@ repos:
     group: deepin-sysdev-team
     info: Non-interactive ssh password authentication
 
+  - repo: sssd #main
+    group: deepin-sysdev-team
+    info: System Security Services Daemon
+
   - repo: statsmodels #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11

@@ -2073,6 +2073,10 @@ repos:
     group: deepin-sysdev-team
     info: native byte order for Go
 
+  - repo: golang-github-jsimonetti-rtnetlink #main
+    group: deepin-sysdev-team
+    info: Go library for interfacing with the RTNetlink protocol
+
   - repo: golang-github-jung-kurt-gofpdf #main
     group: deepin-sysdev-team
     info: PDF document generator with high level support for text, drawing and images
@@ -2097,9 +2101,17 @@ repos:
     group: deepin-sysdev-team
     info: optimized compression packages
 
+  - repo: golang-github-klauspost-cpuid #main
+    group: deepin-sysdev-team
+    info: Go library provides a convenient way to access CPUID information on x86/x64 architectures
+
   - repo: golang-github-klauspost-crc32 #main
     group: deepin-sysdev-team
     info: CRC32 hash with x64 optimizations
+
+  - repo: golang-github-klauspost-reedsolomon #main
+    group: deepin-sysdev-team
+    info: Go library provides an implementation of Reed-Solomon erasure coding
 
   - repo: golang-github-knetic-govaluate #main
     group: deepin-sysdev-team
@@ -2149,9 +2161,17 @@ repos:
     group: deepin-sysdev-team
     info: go implementation of base32768, optimized for UTF-16 (library)
 
+  - repo: golang-github-mdlayher-ethernet #main
+    group: deepin-sysdev-team
+    info: Go library for working with Ethernet frames
+
   - repo: golang-github-mdlayher-netlink-dev
     group: deepin-sysdev-team
     info: This package provides low-level access to Linux netlink sockets (AF_NETLINK)
+
+  - repo: golang-github-mdlayher-packet #main
+    group: deepin-sysdev-team
+    info: Go library for working with Linux's packet sockets
 
   - repo: golang-github-mdlayher-socket
     group: deepin-sysdev-team
@@ -2446,6 +2466,14 @@ repos:
     group: deepin-sysdev-team
     info: Go client for AMQP 0.9.1
 
+  - repo: golang-github-templexxx-cpu #main
+    group: deepin-sysdev-team
+    info: Go library provides functionality to detect CPU features and capabilities at runtime
+
+  - repo: golang-github-templexxx-xorsimd #main
+    group: deepin-sysdev-team
+    info: Go library provides a fast implementation of XOR and SIMD (Single Instruction, Multiple Data) operations
+
   - repo: golang-github-tidwall-gjson
     group: deepin-sysdev-team
     info: JSON parser for Go
@@ -2481,6 +2509,10 @@ repos:
   - repo: golang-github-tsosunchia-powclient
     group: deepin-sysdev-team
     info: NEXTTRACE project derived repository for implementing POW anti-crawling
+
+  - repo: golang-github-u-root-uio
+    group: deepin-sysdev-team
+    info: part of the u-root project, which aims to create a root file system for embedded systems
 
   - repo: golang-github-ugorji-go-codec
     group: deepin-sysdev-team

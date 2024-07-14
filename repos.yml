@@ -2173,6 +2173,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for working with Linux's packet sockets
 
+  - repo: golang-github-mdlayher-raw #main
+    group: deepin-sysdev-team
+    info: Read and write data at the raw network interface device level
+
   - repo: golang-github-mdlayher-socket
     group: deepin-sysdev-team
     info: low-level network socket for Go

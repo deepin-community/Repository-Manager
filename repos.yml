@@ -5610,6 +5610,14 @@ repos:
     group: deepin-sysdev-team
     info: Dataclass for PEP 621 metadata with support for [core metadata] generation
 
+  - repo: pyqt6
+    group: deepin-sysdev-team
+    info: Python bindings for Qt 6
+
+  - repo: pyqt6-sip
+    group: deepin-sysdev-team
+    info: runtime module for Python extensions using SIP
+
   - repo: pyrad #main
     group: deepin-sysdev-team
     info: Python module for creating and decoding RADIUS packets

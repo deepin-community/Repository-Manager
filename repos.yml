@@ -375,6 +375,10 @@ repos:
     group: deepin-sysdev-team
     info: Fast, lightweight and user-friendly GTK based email client
 
+  - repo: cli11 #main
+    group: deepin-sysdev-team
+    info: Command line parser for C++11 and beyond
+
   - repo: click #main
     group: deepin-sysdev-team
     info: tool for handling (and building) Click packages
@@ -557,6 +561,10 @@ repos:
   - repo: d-spy
     group: deepin-sysdev-team
     info: D-Bus explorer and test app for GNOME
+
+  - repo: d3-tip.js #main
+    group: deepin-sysdev-team
+    info: Tooltips for d3.js visualizations
 
   - repo: dacite #main
     group: deepin-sysdev-team

@@ -6355,6 +6355,10 @@ repos:
     group: deepin-sysdev-team
     info: Specialized passphrase recovery tool for GnuPG
 
+  - repo: repo
+    group: deepin-sysdev-team
+    info: repository management tool built on top of git
+
   - repo: reprepro
     group: deepin-sysdev-team
     info: Debian package repository producer

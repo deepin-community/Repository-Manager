@@ -7785,4 +7785,7 @@ repos:
   - repo: nvme-cli
     group: deepin-sysdev-team
     info:  NVMe management tool
-    
+
+  - repo: python-rencode #main
+    group: deepin-sysdev-team
+    info:  Python encoding library similar to bittorrent's benco

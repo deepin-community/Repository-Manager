@@ -7789,3 +7789,7 @@ repos:
   - repo: python-rencode #main
     group: deepin-sysdev-team
     info:  Python encoding library similar to bittorrent's benco
+
+  - repo: box64 #main
+    group: deepin-sysdev-team
+    info: run amd64 binaries on arm64 without emulating library calls

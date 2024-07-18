@@ -7793,3 +7793,7 @@ repos:
   - repo: box64 #main
     group: deepin-sysdev-team
     info: run amd64 binaries on arm64 without emulating library calls
+
+  - repo: cockpit
+    group: deepin-sysdev-team
+    info: Web Console for Linux servers

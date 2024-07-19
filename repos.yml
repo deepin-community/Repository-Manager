@@ -7801,3 +7801,91 @@ repos:
   - repo: tpm2-tools #main
     group: deepin-sysdev-team
     info: TPM 2.0 utilities
+
+  - repo: kitty
+    group: deepin-sysdev-team
+    info: fast, featureful, GPU based terminal emulator
+
+  - repo: golang-github-altree-bigfloat
+    group: deepin-sysdev-team
+    info: Additional operations for the standard library big.Float type (library)
+
+  - repo: golang-github-alecthomas-chroma-v2
+    group: deepin-sysdev-team
+    info: general purpose syntax highlighter in pure Go (libraries)
+
+  - repo: golang-github-bmatcuk-doublestar
+    group: deepin-sysdev-team
+    info: support for double star matches in golang's path.Match and filepath.Glob
+
+  - repo: golang-github-dlclark-regexp2
+    group: deepin-sysdev-team
+    info: Regex engine for Go based on the .NET engine
+
+  - repo: golang-github-edwvee-exiffix
+    group: deepin-sysdev-team
+    info: EXIF orientation correct replacement for golang's image.Decode (library)
+
+  - repo: golang-github-seancfoley-ipaddress-go
+    group: deepin-sysdev-team
+    info: Go library for handling IP addresses and subnets
+
+  - repo: golang-github-zeebo-xxh3
+    group: deepin-sysdev-team
+    info: XXH3 algorithm in Go
+
+  - repo: golang-howett-plist
+    group: deepin-sysdev-team
+    info: pure Go Apple Property List transcoder
+
+  - repo: simde
+    group: deepin-sysdev-team
+    info: Implementations of SIMD instructions for all systems
+
+  - repo: golang-github-alecthomas-assert
+    group: deepin-sysdev-team
+    info: simple assertion library using Go generics
+
+  - repo: golang-github-alecthomas-kong
+    group: deepin-sysdev-team
+    info: command-line parser for Go
+
+  - repo: golang-github-alecthomas-kong-hcl
+    group: deepin-sysdev-team
+    info: Kong configuration loader for HCL (Go library)
+
+  - repo: golang-github-alecthomas-repr
+    group: deepin-sysdev-team
+    info: Python's repr() for Go
+
+  - repo: golang-github-danwakefield-fnmatch
+    group: deepin-sysdev-team
+    info: Updated clone of kballard’s fnmatch(3) implementation for Go
+
+  - repo: golang-github-dlclark-regexp2
+    group: deepin-sysdev-team
+    info: Regex engine for Go based on the .NET engine
+
+  - repo: golang-github-gorilla-csrf
+    group: deepin-sysdev-team
+    info: Cross Site Request Forgery (CSRF) prevention middleware for Go
+
+  - repo: golang-github-rwcarlsen-goexif
+    group: deepin-sysdev-team
+    info: Decode embedded EXIF meta data from image files with Go
+
+  - repo: golang-github-seancfoley-bintree
+    group: deepin-sysdev-team
+    info: Binary trees and tries
+
+  - repo: golang-github-zeebo-assert
+    group: deepin-sysdev-team
+    info: Helper package for golang tests
+
+  - repo: golang-github-hexops-gotextdiff
+    group: deepin-sysdev-team
+    info: Unified text diffing in Go (copy of gopls internal diffing)
+
+  - repo: golang-github-felixge-httpsnoop
+    group: deepin-sysdev-team
+    info: capture http related metrics from http.Handlers (library)

@@ -7797,3 +7797,7 @@ repos:
   - repo: cockpit
     group: deepin-sysdev-team
     info: Web Console for Linux servers
+
+  - repo: tpm2-tools #main
+    group: deepin-sysdev-team
+    info: TPM 2.0 utilities

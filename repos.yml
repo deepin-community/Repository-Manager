@@ -5359,6 +5359,10 @@ repos:
       or TCP port. It can be used to access remote sites, make secure point-to-point
       connections, enhance wireless security, etc.
 
+  - repo: osdlyrics
+    group: deepin-sysdev-team
+    info: Show synchronized lyrics with various media players
+
   - repo: oslo-sphinx #main
     group: deepin-sysdev-team
     info: theme and extension support for openstack

@@ -7889,3 +7889,7 @@ repos:
   - repo: golang-github-felixge-httpsnoop
     group: deepin-sysdev-team
     info: capture http related metrics from http.Handlers (library)
+
+  - repo: libblkio
+    group: deepin-sysdev-team
+    info: Block device I/O library

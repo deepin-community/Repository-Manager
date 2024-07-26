@@ -7897,3 +7897,7 @@ repos:
   - repo: tcpdump
     group: deepin-sysdev-team
     info: command-line network traffic analyzer
+
+  - repo: makedumpfile #main
+    group: deepin-sysdev-team
+    info: VMcore extraction tool

@@ -7901,3 +7901,15 @@ repos:
   - repo: makedumpfile #main
     group: deepin-sysdev-team
     info: VMcore extraction tool
+
+  - repo: tsocks
+    group: deepin-sysdev-team
+    info: transparent network access through a SOCKS 4 or 5 proxy
+
+  - repo: yq
+    group: deepin-sysdev-team
+    info: Command-line YAML processor - jq wrapper for YAML documents
+
+  - repo: direnv
+    group: deepin-sysdev-team
+    info: Utility to set directory specific environment variables

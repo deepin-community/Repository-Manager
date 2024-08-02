@@ -7929,3 +7929,7 @@ repos:
   - repo: openjdk-21 #main
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
+
+  - repo: bolt #main
+    group: deepin-sysdev-team
+    info: system daemon to manage thunderbolt 3 devices

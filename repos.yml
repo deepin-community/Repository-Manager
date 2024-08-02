@@ -7914,15 +7914,7 @@ repos:
     group: deepin-sysdev-team
     info: Utility to set directory specific environment variables
 
-  - repo: openjdk-18 #main
-    group: deepin-sysdev-team
-    info: OpenJDK Development Kit (JDK)
-
-  - repo: openjdk-19 #main
-    group: deepin-sysdev-team
-    info: OpenJDK Development Kit (JDK)
-
-  - repo: openjdk-20 #main
+  - repo: openjdk-8 #main
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
 

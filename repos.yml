@@ -7933,3 +7933,8 @@ repos:
   - repo: bolt #main
     group: deepin-sysdev-team
     info: system daemon to manage thunderbolt 3 devices
+
+  - repo: xtensor #main
+    group: deepin-sysdev-team
+    info: multi-dimensional arrays with broadcasting and lazy computing
+    

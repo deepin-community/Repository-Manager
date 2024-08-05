@@ -7930,3 +7930,10 @@ repos:
     group: deepin-sysdev-team
     info: multi-dimensional arrays with broadcasting and lazy computing
     
+  - repo: gcr4 #main
+    group: deepin-sysdev-team
+    info: GNOME crypto services
+
+  - repo: msgraph #main
+    group: deepin-sysdev-team
+    info: library for accessing the Microsoft Graph API

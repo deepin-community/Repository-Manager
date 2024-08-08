@@ -7973,3 +7973,7 @@ repos:
   - repo: fonts-mi-sans
     group: deepin-sysdev-team
     info: MiSans is a font customization project led by Xiaomi and co-created with Mona font and Han Yi font
+
+  - repo: log4cpp #main
+    group: deepin-sysdev-team
+    info: C++ library for flexible logging (development)

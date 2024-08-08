@@ -7965,3 +7965,11 @@ repos:
   - repo: openpace #main
     group: deepin-sysdev-team
     info: cryptographic library for EAC version 2 (development)
+
+  - repo: read-edid
+    group: deepin-sysdev-team
+    info: hardware information-gathering tool for VESA PnP monitors
+
+  - repo: fonts-mi-sans
+    group: deepin-sysdev-team
+    info: MiSans is a font customization project led by Xiaomi and co-created with Mona font and Han Yi font

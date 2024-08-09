@@ -5336,6 +5336,10 @@ repos:
     group: deepin-sysdev-team
     info: Nvidia driver
 
+  - repo: open-gpu-kernel-modules
+    group: sig-deepin-kernel
+    info: NVIDIA Linux Open GPU Kernel Module Source
+
   - repo: nvidia-modprobe #main
     group: deepin-sysdev-team
     info: utility to load NVIDIA kernel modules and create device nodes

@@ -7977,3 +7977,7 @@ repos:
   - repo: log4cpp #main
     group: deepin-sysdev-team
     info: C++ library for flexible logging (development)
+
+  - repo: qt6mpris #main
+    group: deepin-sysdev-team
+    info: Qt6 adaptation of the qtmpris library

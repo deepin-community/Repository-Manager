@@ -7981,3 +7981,7 @@ repos:
   - repo: qt6mpris #main
     group: deepin-sysdev-team
     info: Qt6 adaptation of the qtmpris library
+    
+  - repo: fonts-adobe-source-han-cjk #main
+    group: deepin-sysdev-team
+    info: adobe source han cjk fonts

@@ -7985,3 +7985,7 @@ repos:
   - repo: fonts-adobe-source-han-cjk #main
     group: deepin-sysdev-team
     info: adobe source han cjk fonts
+
+  - repo: icmake
+    group: sig-deepin-sysdev-team 
+    info: Intelligent C-like MAKEr, or the ICce MAKE utility

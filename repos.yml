@@ -7985,3 +7985,7 @@ repos:
   - repo: fonts-adobe-source-han-cjk #main
     group: deepin-sysdev-team
     info: adobe source han cjk fonts
+  
+  - repo: zig #main
+    group: deepin-sysdev-team
+    info: zig language

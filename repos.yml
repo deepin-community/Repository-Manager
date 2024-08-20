@@ -7989,3 +7989,11 @@ repos:
   - repo: zig #main
     group: deepin-sysdev-team
     info: zig language
+
+- repo: greenboot #main
+    group: deepin-sysdev-team
+    info: Generic Health Check Framework for systemd
+
+- repo: nss-altfiles #main
+    group: deepin-sysdev-team
+    info: When installed, this package allows looking up users in %{prefix}/lib/passwd, and from respective files for all other NSS maps.

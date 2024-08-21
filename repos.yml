@@ -7997,3 +7997,7 @@ repos:
   - repo: nss-altfiles #main
     group: deepin-sysdev-team
     info: When installed, this package allows looking up users in %{prefix}/lib/passwd, and from respective files for all other NSS maps.
+
+  - repo: evtest #main
+    group: deepin-sysdev-team
+    info: Utility to monitor Linux input device events

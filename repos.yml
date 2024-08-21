@@ -8001,3 +8001,7 @@ repos:
   - repo: evtest #main
     group: deepin-sysdev-team
     info: Utility to monitor Linux input device events
+
+  - repo: evemu #main
+    group: deepin-sysdev-team
+    info: Linux Input Event Device Emulation Library

@@ -8009,3 +8009,11 @@ repos:
   - repo: scrot
     group: deepin-sysdev-team
     info: command line screen capture utility
+
+  - repo: nvidia-cuda-toolkit
+    group: deepin-sysdev-team
+    info: NVIDIA CUDA development toolkit
+
+  - repo: audacious-plugins
+    group: deepin-sysdev-team
+    info: Base plugins for audacious

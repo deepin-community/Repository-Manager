@@ -8005,3 +8005,7 @@ repos:
   - repo: evemu #main
     group: deepin-sysdev-team
     info: Linux Input Event Device Emulation Library
+
+  - repo: scrot
+    group: deepin-sysdev-team
+    info: command line screen capture utility

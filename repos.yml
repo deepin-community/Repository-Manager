@@ -8023,3 +8023,26 @@ repos:
     group: deepin-sysdev-team
     info: memory reporting tool
 
+  - repo: libx86 #main
+    group: deepin-sysdev-team
+    info: x86 real-mode library - development files
+
+  - repo: rocminfo
+    group: deepin-sysdev-team
+    info: ROCm Application for Reporting System Info
+
+  - repo: rocr-runtime
+    group: deepin-sysdev-team
+    info: HSA Runtime API and runtime for ROCm - development files
+
+  - repo: roct-thunk-interface
+    group: deepin-sysdev-team
+    info: Thunk library for AMD KFD (dev)
+
+  - repo: rocm-device-libs
+    group: deepin-sysdev-team
+    info: AMD specific device-side language runtime libraries
+
+  - repo: rocm-cmake
+    group: deepin-sysdev-team
+    info: AMD ROCm CMake modules

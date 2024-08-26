@@ -8017,3 +8017,9 @@ repos:
   - repo: audacious-plugins
     group: deepin-sysdev-team
     info: Base plugins for audacious
+
+
+  - repo: smem
+    group: deepin-sysdev-team
+    info: memory reporting tool
+

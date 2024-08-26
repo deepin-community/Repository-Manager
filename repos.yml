@@ -8046,3 +8046,7 @@ repos:
   - repo: rocm-cmake
     group: deepin-sysdev-team
     info: AMD ROCm CMake modules
+
+  - repo: libbinio
+    group: deepin-sysdev-team
+    info: Binary I/O stream class library

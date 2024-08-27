@@ -8050,3 +8050,7 @@ repos:
   - repo: libbinio
     group: deepin-sysdev-team
     info: Binary I/O stream class library
+
+  - repo: libmodule-manifest-perl #main
+    group: deepin-sysdev-team
+    info: module for parsing and examining a Perl distribution MANIFEST file

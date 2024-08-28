@@ -8054,3 +8054,7 @@ repos:
   - repo: libmodule-manifest-perl #main
     group: deepin-sysdev-team
     info: module for parsing and examining a Perl distribution MANIFEST file
+
+  - repo: dmg2img
+    group: deepin-sysdev-team
+    info: Tool for converting compressed dmg files to hfsplus images

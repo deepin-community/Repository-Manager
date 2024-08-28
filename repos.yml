@@ -8058,3 +8058,7 @@ repos:
   - repo: dmg2img
     group: deepin-sysdev-team
     info: Tool for converting compressed dmg files to hfsplus images
+
+  - repo: sass-stylesheets-bulma #main
+    group: deepin-sysdev-team
+    info: Sass and CSS framework using flexbox

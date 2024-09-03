@@ -45,3 +45,14 @@ repos:
   - repo: llvm-toolchain-14
     group: deepin-sysdev-team
     notes: New LLVM toolchain is ready, so we do not need this.
+
+  - repo: python-linecache2
+    group: deepin-sysdev-team
+    notes: Upstream EOL.
+
+  - repo: python-traceback2
+    group: deepin-sysdev-team
+    notes: Upstream EOL.
+
+  
+  

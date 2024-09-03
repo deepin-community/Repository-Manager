@@ -8062,3 +8062,18 @@ repos:
   - repo: sass-stylesheets-bulma #main
     group: deepin-sysdev-team
     info: Sass and CSS framework using flexbox
+
+  - repo: amd64-microcode #main
+    group: deepin-sysdev-team
+    info: amd64-microcode
+
+  - repo: intel-microcode #main
+    group: deepin-sysdev-team
+    info: intel-microcode
+
+  - repo:  iucode-tool #main
+    group: deepin-sysdev-team
+    info:  iucode-tool
+   
+
+    

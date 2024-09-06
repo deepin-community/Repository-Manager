@@ -8075,5 +8075,7 @@ repos:
     group: deepin-sysdev-team
     info:  iucode-tool
    
-
+  - repo: binwalk
+    group: deepin-sysdev-team
+    info: Python3 library for analyzing binary blobs and executable code
     

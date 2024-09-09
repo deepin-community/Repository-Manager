@@ -8180,3 +8180,23 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: blender
+    group: deepin-sysdev-team
+    info: Very fast and versatile 3D modeller/renderer
+
+  - repo: embree
+    group: deepin-sysdev-team
+    info: High Performance Ray Tracing Kernels
+
+  - repo: openimageio
+    group: deepin-sysdev-team
+    info: Library for reading and writing images
+
+  - repo: openvdb
+    group: deepin-sysdev-team
+    info: Sparse Volume Processing toolkit
+
+  - repo: ispc
+    group: deepin-sysdev-team
+    info: Intel Implicit SPMD Program Compiler

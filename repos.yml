@@ -5567,6 +5567,10 @@ repos:
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
 
+  - repo: openjdk-19
+    group: deepin-sysdev-team 
+    info: OpenJDK Development Kit (JDK)
+
   - repo: openpace #main
     group: deepin-sysdev-team
     info: cryptographic library for EAC version 2 (development)

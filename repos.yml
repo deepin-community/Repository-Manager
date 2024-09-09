@@ -48,6 +48,10 @@ repos:
     group: deepin-sysdev-team
     info: ALSA Use Case Manager configuration files
 
+  - repo: amd64-microcode #main
+    group: deepin-sysdev-team
+    info: amd64-microcode
+
   - repo: amdgcn-tools-18 #main
     group: deepin-sysdev-team
     info: linker tools for the amdgcn architecture
@@ -169,6 +173,10 @@ repos:
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity
 
+  - repo: audacious-plugins
+    group: deepin-sysdev-team
+    info: Base plugins for audacious
+
   - repo: audiofile
     group: deepin-sysdev-team
     info:  Open-source version of SGI's audiofile library
@@ -228,6 +236,10 @@ repos:
   - repo: binutils-or1k-elf
     group: deepin-sysdev-team
     info: GNU binary utilities for the Open RISC 1000 processors
+
+  - repo: binwalk
+    group: deepin-sysdev-team
+    info: Python3 library for analyzing binary blobs and executable code
 
   - repo: bird
     group: deepin-sysdev-team
@@ -723,6 +735,10 @@ repos:
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux
 
+  - repo: dmg2img
+    group: deepin-sysdev-team
+    info: Tool for converting compressed dmg files to hfsplus images
+
   - repo: docker-compose
     group: deepin-sysdev-team
     info: define and run multi-container Docker applications with YAML
@@ -875,9 +891,17 @@ repos:
     group: deepin-sysdev-team
     info: highly-available key value store -- source
 
+  - repo: evemu #main
+    group: deepin-sysdev-team
+    info: Linux Input Event Device Emulation Library
+
   - repo: evilwm
     group: deepin-sysdev-team
     info: evilwm is based on aewm by Decklin Foster.
+
+  - repo: evtest #main
+    group: deepin-sysdev-team
+    info: Utility to monitor Linux input device events
 
   - repo: exfatprogs
     group: deepin-sysdev-team
@@ -972,6 +996,10 @@ repos:
   - repo: flit-scm
     group: deepin-sysdev-team
     info: PEP 518 build backend that uses setuptools_scm and flit
+
+  - repo: fonts-adobe-source-han-cjk #main
+    group: deepin-sysdev-team
+    info: adobe source han cjk fonts
 
   - repo: fonts-agave
     group: deepin-sysdev-team
@@ -1078,6 +1106,10 @@ repos:
   - repo: fonts-material-design-icons-iconfont
     group: deepin-sysdev-team
     info: Material Design Icons DX
+
+  - repo: fonts-mi-sans
+    group: deepin-sysdev-team
+    info: MiSans is a font customization project led by Xiaomi and co-created with Mona font and Han Yi font
 
   - repo: fonts-mlym
     group: deepin-sysdev-team
@@ -2890,6 +2922,10 @@ repos:
     group: deepin-sysdev-team
     info: library of graphic data types (development files)
 
+  - repo: greenboot #main
+    group: deepin-sysdev-team
+    info: Generic Health Check Framework for systemd
+
   - repo: grfcodec
     group: deepin-sysdev-team
     info: suite of programs to modify Transport Tycoon Deluxe's GRF files
@@ -3280,6 +3316,10 @@ repos:
     group: deepin-sysdev-team
     info: VAAPI driver for the Intel GEN8+ Graphics family
 
+  - repo: intel-microcode #main
+    group: deepin-sysdev-team
+    info: intel-microcode
+
   - repo: intel-npu-driver
     group: deepin-sysdev-team
     info: Intel npu user namespace driver
@@ -3356,6 +3396,10 @@ repos:
   - repo: isochron
     group: deepin-sysdev-team
     info: A real-time application for testing Time Sensitive Networking equipment.
+
+  - repo:  iucode-tool #main
+    group: deepin-sysdev-team
+    info:  iucode-tool
 
   - repo: ivy-debian-helper #main
     group: deepin-sysdev-team
@@ -3566,6 +3610,10 @@ repos:
   - repo: libbibtex-parser-perl #main
     group: deepin-sysdev-team
     info: Convert LaTeX commands to Unicode
+
+  - repo: libbinio
+    group: deepin-sysdev-team
+    info: Binary I/O stream class library
 
   - repo: libcache-cache-perl #main
     group: deepin-sysdev-team
@@ -3889,6 +3937,10 @@ repos:
   - repo: libmodule-install-perl
     group: deepin-sysdev-team
     info: framework for installing Perl modules
+
+  - repo: libmodule-manifest-perl #main
+    group: deepin-sysdev-team
+    info: module for parsing and examining a Perl distribution MANIFEST file
 
   - repo: libmodule-pluggable-perl
     group: deepin-sysdev-team
@@ -4414,6 +4466,10 @@ repos:
     group: deepin-sysdev-team
     info: XS implementation of application/x-www-form-urlencoded parser/builder
 
+  - repo: libx86 #main
+    group: deepin-sysdev-team
+    info: x86 real-mode library - development files
+
   - repo: libxml-atom-perl #main
     group: deepin-sysdev-team
     info: module for manipulating Atom feeds
@@ -4477,6 +4533,10 @@ repos:
   - repo: log4cplus
     group: deepin-sysdev-team
     info: C++ logging API providing control over log management and configuration.
+
+  - repo: log4cpp #main
+    group: deepin-sysdev-team
+    info: C++ library for flexible logging (development)
 
   - repo: lolcat
     group: deepin-sysdev-team
@@ -5319,6 +5379,10 @@ repos:
     group: deepin-sysdev-team
     info: library for running and interacting with trusted collections
 
+  - repo: nss-altfiles #main
+    group: deepin-sysdev-team
+    info: When installed, this package allows looking up users in %{prefix}/lib/passwd, and from respective files for all other NSS maps.
+
   - repo: nss-pem
     group: deepin-sysdev-team
     info: This package provides a PEM file reader for Network Security Services (NSS),
@@ -5331,6 +5395,10 @@ repos:
   - repo: numba #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: nvidia-cuda-toolkit
+    group: deepin-sysdev-team
+    info: NVIDIA CUDA development toolkit
 
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team
@@ -5443,6 +5511,10 @@ repos:
   - repo: openjdk-8
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
+
+  - repo: openpace #main
+    group: deepin-sysdev-team
+    info: cryptographic library for EAC version 2 (development)
 
   - repo: opensbi
     group: deepin-sysdev-team
@@ -6441,6 +6513,10 @@ repos:
     group: deepin-sysdev-team
     info: Qt 6 Speech
 
+  - repo: qt6mpris #main
+    group: deepin-sysdev-team
+    info: Qt6 adaptation of the qtmpris library
+
   - repo: qtremoteobjects-everywhere-src #main
     group: deepin-sysdev-team
     info: Qt module for IPC — the Replica Compiler
@@ -6489,6 +6565,10 @@ repos:
   - repo: reactivedata #main
     group: deepin-sysdev-team
     info: FRP with incremental changes in data structures
+
+  - repo: read-edid
+    group: deepin-sysdev-team
+    info: hardware information-gathering tool for VESA PnP monitors
 
   - repo: readline5
     group: deepin-sysdev-team
@@ -6547,9 +6627,29 @@ repos:
     group: deepin-sysdev-team
     info: real-time audio streaming over the network
 
+  - repo: rocm-cmake
+    group: deepin-sysdev-team
+    info: AMD ROCm CMake modules
+
+  - repo: rocm-device-libs
+    group: deepin-sysdev-team
+    info: AMD specific device-side language runtime libraries
+
   - repo: rocm-smi-lib #main
     group: deepin-sysdev-team
     info: ROCm System Management Interface (ROCm SMI)
+
+  - repo: rocminfo
+    group: deepin-sysdev-team
+    info: ROCm Application for Reporting System Info
+
+  - repo: rocr-runtime
+    group: deepin-sysdev-team
+    info: HSA Runtime API and runtime for ROCm - development files
+
+  - repo: roct-thunk-interface
+    group: deepin-sysdev-team
+    info: Thunk library for AMD KFD (dev)
 
   - repo: rofi
     group: deepin-sysdev-team
@@ -7035,6 +7135,10 @@ repos:
     group: deepin-sysdev-team
     info: simple but powerful libvte-based terminal emulator
 
+  - repo: sass-stylesheets-bulma #main
+    group: deepin-sysdev-team
+    info: Sass and CSS framework using flexbox
+
   - repo: sbuild
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
@@ -7050,6 +7154,10 @@ repos:
   - repo: screen-message
     group: deepin-sysdev-team
     info: Displays a short text fullscreen
+
+  - repo: scrot
+    group: deepin-sysdev-team
+    info: command line screen capture utility
 
   - repo: sdl12-compat
     group: deepin-sysdev-team
@@ -7122,6 +7230,10 @@ repos:
   - repo: sm
     group: deepin-sysdev-team
     info: Displays a short text fullscreen
+
+  - repo: smem
+    group: deepin-sysdev-team
+    info: memory reporting tool
 
   - repo: socket
     group: deepin-sysdev-team
@@ -7838,6 +7950,10 @@ repos:
       data across process boundaries, transporting between kernel and userland, and
       possibly saving onto disk files.
 
+  - repo: zig #main
+    group: deepin-sysdev-team
+    info: zig language
+
   - repo: zita-convolver
     group: deepin-sysdev-team
     info: C++ library implementing a real-time convolution matrix
@@ -7962,120 +8078,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: openpace #main
-    group: deepin-sysdev-team
-    info: cryptographic library for EAC version 2 (development)
-
-  - repo: read-edid
-    group: deepin-sysdev-team
-    info: hardware information-gathering tool for VESA PnP monitors
-
-  - repo: fonts-mi-sans
-    group: deepin-sysdev-team
-    info: MiSans is a font customization project led by Xiaomi and co-created with Mona font and Han Yi font
-
-  - repo: log4cpp #main
-    group: deepin-sysdev-team
-    info: C++ library for flexible logging (development)
-
-  - repo: qt6mpris #main
-    group: deepin-sysdev-team
-    info: Qt6 adaptation of the qtmpris library
-    
-  - repo: fonts-adobe-source-han-cjk #main
-    group: deepin-sysdev-team
-    info: adobe source han cjk fonts
-  
-  - repo: zig #main
-    group: deepin-sysdev-team
-    info: zig language
-
-  - repo: greenboot #main
-    group: deepin-sysdev-team
-    info: Generic Health Check Framework for systemd
-
-  - repo: nss-altfiles #main
-    group: deepin-sysdev-team
-    info: When installed, this package allows looking up users in %{prefix}/lib/passwd, and from respective files for all other NSS maps.
-
-  - repo: evtest #main
-    group: deepin-sysdev-team
-    info: Utility to monitor Linux input device events
-
-  - repo: evemu #main
-    group: deepin-sysdev-team
-    info: Linux Input Event Device Emulation Library
-
-  - repo: scrot
-    group: deepin-sysdev-team
-    info: command line screen capture utility
-
-  - repo: nvidia-cuda-toolkit
-    group: deepin-sysdev-team
-    info: NVIDIA CUDA development toolkit
-
-  - repo: audacious-plugins
-    group: deepin-sysdev-team
-    info: Base plugins for audacious
-
-
-  - repo: smem
-    group: deepin-sysdev-team
-    info: memory reporting tool
-
-  - repo: libx86 #main
-    group: deepin-sysdev-team
-    info: x86 real-mode library - development files
-
-  - repo: rocminfo
-    group: deepin-sysdev-team
-    info: ROCm Application for Reporting System Info
-
-  - repo: rocr-runtime
-    group: deepin-sysdev-team
-    info: HSA Runtime API and runtime for ROCm - development files
-
-  - repo: roct-thunk-interface
-    group: deepin-sysdev-team
-    info: Thunk library for AMD KFD (dev)
-
-  - repo: rocm-device-libs
-    group: deepin-sysdev-team
-    info: AMD specific device-side language runtime libraries
-
-  - repo: rocm-cmake
-    group: deepin-sysdev-team
-    info: AMD ROCm CMake modules
-
-  - repo: libbinio
-    group: deepin-sysdev-team
-    info: Binary I/O stream class library
-
-  - repo: libmodule-manifest-perl #main
-    group: deepin-sysdev-team
-    info: module for parsing and examining a Perl distribution MANIFEST file
-
-  - repo: dmg2img
-    group: deepin-sysdev-team
-    info: Tool for converting compressed dmg files to hfsplus images
-
-  - repo: sass-stylesheets-bulma #main
-    group: deepin-sysdev-team
-    info: Sass and CSS framework using flexbox
-
-  - repo: amd64-microcode #main
-    group: deepin-sysdev-team
-    info: amd64-microcode
-
-  - repo: intel-microcode #main
-    group: deepin-sysdev-team
-    info: intel-microcode
-
-  - repo:  iucode-tool #main
-    group: deepin-sysdev-team
-    info:  iucode-tool
-   
-  - repo: binwalk
-    group: deepin-sysdev-team
-    info: Python3 library for analyzing binary blobs and executable code
-    

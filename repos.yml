@@ -8204,3 +8204,8 @@ repos:
   - repo: pystring #main
     group: deepin-sysdev-team
     info: collection of C++ functions for Python's string class methods - development
+
+  - repo: refpolicy #main
+    group: sig-deepin-security-packaging
+    info: The reference policy for SELinux.
+

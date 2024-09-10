@@ -8200,3 +8200,7 @@ repos:
   - repo: ispc
     group: deepin-sysdev-team
     info: Intel Implicit SPMD Program Compiler
+
+  - repo: pystring #main
+    group: deepin-sysdev-team
+    info: collection of C++ functions for Python's string class methods - development

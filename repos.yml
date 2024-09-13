@@ -8216,3 +8216,7 @@ repos:
   - repo: uresourced #main
     group: deepin-sysdev-team
     info: Resource management daemon for Linux
+
+  - repo: ptex-base #main
+    group: deepin-sysdev-team
+    info: basic ASCII pTeX library files

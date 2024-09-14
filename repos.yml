@@ -8220,3 +8220,7 @@ repos:
   - repo: ptex-base #main
     group: deepin-sysdev-team
     info: basic ASCII pTeX library files
+
+  - repo: ncbi-blastplus
+    group: deepin-sysdev-team
+    info: next generation suite of BLAST sequence search tools

@@ -968,6 +968,10 @@ repos:
     group: deepin-sysdev-team
     info: Additional table based input method for Fcitx 5
 
+  - repo: fcitx5-unikey #main
+    group: deepin-sysdev-team
+    info: Vietnamese Input Method Engine for Fcitx5 using Unikey Engine
+
   - repo: fdk-aac
     group: deepin-sysdev-team
     info: Fraunhofer FDK AAC Codec Library - frontend binary
@@ -4565,6 +4569,10 @@ repos:
   - repo: linux-deepin-latest #main
     group: deepin-sysdev-team
     info: linux-deepin-latest
+
+  - repo: linyaps-box #main
+    group: deepin-sysdev-team
+    info: linyaps-box is the container application toolkit of deepin.
 
   - repo: lirc #main
     group: deepin-sysdev-team
@@ -8230,10 +8238,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: fcitx5-unikey #main
-    group: deepin-sysdev-team
-    info: Vietnamese Input Method Engine for Fcitx5 using Unikey Engine
-
-  - repo: linyaps-box #main
-    group: deepin-sysdev-team
-    info: linyaps-box is the container application toolkit of deepin.

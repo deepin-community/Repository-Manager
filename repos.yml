@@ -4969,6 +4969,10 @@ repos:
     group: deepin-sysdev-team
     info: nghttp3 is a C implementation of HTTP/3 and QUIC.
 
+  - repo: ngtcp2 #main
+    group: deepin-sysdev-team
+    info: implementation of QUIC protocol
+
   - repo: nheko
     group: deepin-sysdev-team
     info: desktop IM client for the Matrix protocol

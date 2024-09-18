@@ -1,4 +1,5 @@
 repos:
+
   - repo: .guide.deepin.org
     group: sig-deepin-doc-doc-go
     info: deepin 系统的用户手册 https://guide.deepin.org
@@ -250,6 +251,10 @@ repos:
   - repo: bird2
     group: deepin-sysdev-team
     info: Internet routing daemon with full support for all the major routing protocols
+
+  - repo: blender
+    group: deepin-sysdev-team
+    info: Very fast and versatile 3D modeller/renderer
 
   - repo: blockdiag
     group: deepin-sysdev-team
@@ -868,6 +873,10 @@ repos:
     info:
       EL is a simple language designed to meet the needs of the presentation layer
       in Java web applications.
+
+  - repo: embree
+    group: deepin-sysdev-team
+    info: High Performance Ray Tracing Kernels
 
   - repo: empire
     group: deepin-sysdev-team
@@ -3428,6 +3437,10 @@ repos:
     group: deepin-sysdev-team
     info: A real-time application for testing Time Sensitive Networking equipment.
 
+  - repo: ispc
+    group: deepin-sysdev-team
+    info: Intel Implicit SPMD Program Compiler
+
   - repo: iucode-tool #main
     group: deepin-sysdev-team
     info: iucode-tool
@@ -4890,6 +4903,10 @@ repos:
     group: deepin-sysdev-team
     info: NBD is a protocol for accessing block Devices (hard disks and disk-like things) over a network.
 
+  - repo: ncbi-blastplus
+    group: deepin-sysdev-team
+    info: next generation suite of BLAST sequence search tools
+
   - repo: ncdu
     group: deepin-sysdev-team
     info:
@@ -5456,13 +5473,13 @@ repos:
     group: deepin-sysdev-team
     info: Nvidia driver
 
-  - repo: nvidia-open-gpu-kernel-modules
-    group: sig-deepin-kernel
-    info: NVIDIA Linux Open GPU Kernel Module Source
-
   - repo: nvidia-modprobe #main
     group: deepin-sysdev-team
     info: utility to load NVIDIA kernel modules and create device nodes
+
+  - repo: nvidia-open-gpu-kernel-modules
+    group: sig-deepin-kernel
+    info: NVIDIA Linux Open GPU Kernel Module Source
 
   - repo: nvidia-persistenced #main
     group: deepin-sysdev-team
@@ -5563,6 +5580,10 @@ repos:
     group: deepin-sysdev-team
     info: OpenH264 Video Codec
 
+  - repo: openimageio
+    group: deepin-sysdev-team
+    info: Library for reading and writing images
+
   - repo: openjdk-21 #main
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
@@ -5612,6 +5633,10 @@ repos:
   - repo: openttd-opensfx
     group: deepin-sysdev-team
     info: sound set for use with the OpenTTD game
+
+  - repo: openvdb
+    group: deepin-sysdev-team
+    info: Sparse Volume Processing toolkit
 
   - repo: openvpn
     group: deepin-sysdev-team
@@ -5826,6 +5851,10 @@ repos:
     group: deepin-sysdev-team
     info: Extract images from PostScript files
 
+  - repo: ptex-base #main
+    group: deepin-sysdev-team
+    info: basic ASCII pTeX library files
+
   - repo: pv #main
     group: deepin-sysdev-team
     info: Shell pipeline element to meter data passing through
@@ -5917,6 +5946,10 @@ repos:
   - repo: pysimplesoap
     group: deepin-sysdev-team
     info: simple and lightweight SOAP Library (Python 3)
+
+  - repo: pystring #main
+    group: deepin-sysdev-team
+    info: collection of C++ functions for Python's string class methods - development
 
   - repo: pytables #main
     group: deepin-sysdev-team
@@ -6660,6 +6693,10 @@ repos:
   - repo: refind
     group: deepin-sysdev-team
     info: A graphical boot manager for EFI- and UEFI-based computers
+
+  - repo: refpolicy #main
+    group: sig-deepin-security-packaging
+    info: The reference policy for SELinux.
 
   - repo: remmina
     group: deepin-sysdev-team
@@ -7736,6 +7773,10 @@ repos:
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.
 
+  - repo: uresourced #main
+    group: deepin-sysdev-team
+    info: Resource management daemon for Linux
+
   - repo: urwid
     group: deepin-sysdev-team
     info: Console user interface library for Python
@@ -8185,42 +8226,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: blender
-    group: deepin-sysdev-team
-    info: Very fast and versatile 3D modeller/renderer
-
-  - repo: embree
-    group: deepin-sysdev-team
-    info: High Performance Ray Tracing Kernels
-
-  - repo: openimageio
-    group: deepin-sysdev-team
-    info: Library for reading and writing images
-
-  - repo: openvdb
-    group: deepin-sysdev-team
-    info: Sparse Volume Processing toolkit
-
-  - repo: ispc
-    group: deepin-sysdev-team
-    info: Intel Implicit SPMD Program Compiler
-
-  - repo: pystring #main
-    group: deepin-sysdev-team
-    info: collection of C++ functions for Python's string class methods - development
-
-  - repo: refpolicy #main
-    group: sig-deepin-security-packaging
-    info: The reference policy for SELinux.
-
-  - repo: uresourced #main
-    group: deepin-sysdev-team
-    info: Resource management daemon for Linux
-
-  - repo: ptex-base #main
-    group: deepin-sysdev-team
-    info: basic ASCII pTeX library files
-
-  - repo: ncbi-blastplus
-    group: deepin-sysdev-team
-    info: next generation suite of BLAST sequence search tools

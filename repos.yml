@@ -8229,4 +8229,8 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+    
+  - repo: fcitx5-unikey #main
+    group: deepin-sysdev-team
+    info: Vietnamese Input Method Engine for Fcitx5 using Unikey Engine
 

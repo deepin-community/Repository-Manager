@@ -4735,6 +4735,10 @@ repos:
       These are various tools for manipulating JET / MS Access database (MDB)
       files.
 
+  - repo: mdevctl #main
+    group: deepin-sysdev-team
+    info: Mediated device management utility for Linux
+
   - repo: mdit-py-plugins #main
     group: deepin-sysdev-team
     info: Collection of plugins for markdown-it-py

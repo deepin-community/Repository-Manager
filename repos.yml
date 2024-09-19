@@ -8250,6 +8250,10 @@ repos:
     group: deepin-sysdev-team
     info: program to control monitor parameters
 
+  - repo: ddccontrol-db
+    group: deepin-sysdev-team
+    info: monitor database for ddccontrol
+
   - repo: checksec #main
     group: deepin-sysdev-team
     info: Bash script to test executable properties

@@ -8246,3 +8246,10 @@ repos:
     group: deepin-sysdev-team
     info: Tool to check operability of computer hardware
 
+  - repo: ddccontrol
+    group: deepin-sysdev-team
+    info: program to control monitor parameters
+
+  - repo: checksec #main
+    group: deepin-sysdev-team
+    info: Bash script to test executable properties

@@ -8261,3 +8261,15 @@ repos:
   - repo: libfile-next-perl 
     group: deepin-sysdev-team
     info: File::Next is an iterator-based module for finding files
+
+  - repo: blessed
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+    
+  - repo: curtsies
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11
+    
+  - repo: cwcwidth
+    group: deepin-sysdev-team
+    info: python3-defaults 3.11

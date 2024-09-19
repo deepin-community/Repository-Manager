@@ -8257,3 +8257,7 @@ repos:
   - repo: checksec #main
     group: deepin-sysdev-team
     info: Bash script to test executable properties
+
+  - repo: libfile-next-perl 
+    group: deepin-sysdev-team
+    info: File::Next is an iterator-based module for finding files

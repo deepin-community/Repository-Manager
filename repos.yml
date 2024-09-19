@@ -8242,3 +8242,7 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: hw-probe
+    group: deepin-sysdev-team
+    info: Tool to check operability of computer hardware
+

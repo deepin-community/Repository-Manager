@@ -380,6 +380,10 @@ repos:
     group: deepin-sysdev-team
     info: ASCII art image generator
 
+  - repo: checksec #main
+    group: deepin-sysdev-team
+    info: Bash script to test executable properties
+
   - repo: cherrytree
     group: deepin-sysdev-team
     info: hierarchical note taking application
@@ -621,6 +625,14 @@ repos:
   - repo: ddate
     group: deepin-sysdev-team
     info: convert Gregorian dates to Discordian dates
+
+  - repo: ddccontrol
+    group: deepin-sysdev-team
+    info: program to control monitor parameters
+
+  - repo: ddccontrol-db
+    group: deepin-sysdev-team
+    info: monitor database for ddccontrol
 
   - repo: debconf-kde #main
     group: deepin-sysdev-team
@@ -3265,6 +3277,10 @@ repos:
     group: deepin-sysdev-team
     info: CLI posix shell script to replace system repository mirror to HUST Mirror
 
+  - repo: hw-probe
+    group: deepin-sysdev-team
+    info: Tool to check operability of computer hardware
+
   - repo: hyfetch
     group: deepin-sysdev-team
     info: Neofetch with LGBTQ+ pride flags!
@@ -3821,6 +3837,10 @@ repos:
   - repo: libfile-keepass-perl
     group: deepin-sysdev-team
     info: interface to KeePass V1 and V2 database files
+
+  - repo: libfile-next-perl 
+    group: deepin-sysdev-team
+    info: File::Next is an iterator-based module for finding files
 
   - repo: libfilesys-notify-simple-perl
     group: deepin-sysdev-team
@@ -8242,22 +8262,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: hw-probe
-    group: deepin-sysdev-team
-    info: Tool to check operability of computer hardware
-
-  - repo: ddccontrol
-    group: deepin-sysdev-team
-    info: program to control monitor parameters
-
-  - repo: ddccontrol-db
-    group: deepin-sysdev-team
-    info: monitor database for ddccontrol
-
-  - repo: checksec #main
-    group: deepin-sysdev-team
-    info: Bash script to test executable properties
-
-  - repo: libfile-next-perl 
-    group: deepin-sysdev-team
-    info: File::Next is an iterator-based module for finding files

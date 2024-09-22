@@ -8262,3 +8262,14 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: python3-curtsies
+    group: deepin-sysdev-team
+    info: Curtsies is a library for interacting with the terminal.
+    
+  - repo: python3-cwcwidth
+    group: deepin-sysdev-team
+    info: This module provides functions to compute the printable length of a unicode character/string on a terminal.
+    
+  - repo: python3-blessed
+    group: deepin-sysdev-team
+    info: Blessed is a thin, practical wrapper around terminal capabilities in Python.

@@ -8317,3 +8317,15 @@ repos:
   - repo: qhttpengine #main
     group: deepin-sysdev-team
     info: HTTP server for Qt applications
+
+  - repo: binutils-mipsen
+    group: deepin-sysdev-team
+    info: GNU binary utilities for MIPS
+
+  - repo: cross-toolchain-base-mipsen
+    group: deepin-sysdev-team
+    info: Development Libraries and Header Files (for MIPS cross-compiling)
+
+  - repo: gcc-12-cross-mipsen
+    group: deepin-sysdev-team
+    info: GCC 12 cross compilers for MIPS targets

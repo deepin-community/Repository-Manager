@@ -8313,3 +8313,7 @@ repos:
   - repo: golang-github-junegunn-go-shellwords
     group: deepin-sysdev-team
     info: Parse line as shell words (library)
+
+  - repo: qhttpengine #main
+    group: deepin-sysdev-team
+    info: HTTP server for Qt applications

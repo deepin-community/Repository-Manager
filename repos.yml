@@ -8269,11 +8269,47 @@ repos:
   - repo: python-curtsies
     group: deepin-sysdev-team
     info: Curtsies is a library for interacting with the terminal
-    
+
   - repo: python-cwcwidth
     group: deepin-sysdev-team
     info: This module provides functions to compute the printable length of a unicode character/string on a terminal
-    
+
   - repo: python-blessed
     group: deepin-sysdev-team
     info: Blessed is a thin, practical wrapper around terminal capabilities in Python
+
+  - repo: autofs
+    group: deepin-sysdev-team
+    info: kernel-based automounter for Linux
+
+  - repo: trace-cmd
+    group: deepin-sysdev-team
+    info: Utility for retrieving and analyzing function tracing in the kernel
+
+  - repo: kernelshark
+    group: deepin-sysdev-team
+    info: Utilities for graphically analyzing function tracing in the kernel
+
+  - repo: fzf
+    group: deepin-sysdev-team
+    info: general-purpose command-line fuzzy finder
+
+  - repo: moreutils
+    group: deepin-sysdev-team
+    info: additional Unix utilities
+
+  - repo: kerberos-configs
+    group: deepin-sysdev-team
+    info: Configuration files for Kerberos Version 5
+
+  - repo: jose
+    group: deepin-sysdev-team
+    info: Javascript Object Signing and Encryption (José) - development files
+
+  - repo: golang-github-charlievieth-fastwalk
+    group: deepin-sysdev-team
+    info: Fast directory traversal for Golang (library)
+
+  - repo: golang-github-junegunn-go-shellwords
+    group: deepin-sysdev-team
+    info: Parse line as shell words (library)

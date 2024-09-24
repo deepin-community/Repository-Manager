@@ -188,6 +188,10 @@ repos:
     group: deepin-sysdev-team
     info: DEP-8 test control file generator
 
+  - repo: autofs
+    group: deepin-sysdev-team
+    info: kernel-based automounter for Linux
+
   - repo: autojump
     group: deepin-sysdev-team
     info: shell extension to jump to frequently used directories
@@ -235,6 +239,10 @@ repos:
   - repo: binutils-arm-none-eabi #main
     group: deepin-sysdev-team
     info: GNU assembler, linker and binary utilities for ARM Cortex-R/M processors
+
+  - repo: binutils-mipsen
+    group: deepin-sysdev-team
+    info: GNU binary utilities for MIPS
 
   - repo: binutils-or1k-elf
     group: deepin-sysdev-team
@@ -565,6 +573,10 @@ repos:
   - repo: crashtest #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: cross-toolchain-base-mipsen
+    group: deepin-sysdev-team
+    info: Development Libraries and Header Files (for MIPS cross-compiling)
 
   - repo: crun #main
     group: deepin-sysdev-team
@@ -1265,6 +1277,10 @@ repos:
     group: deepin-sysdev-team
     info: printer driver for Fuji Xerox printers
 
+  - repo: fzf
+    group: deepin-sysdev-team
+    info: general-purpose command-line fuzzy finder
+
   - repo: gamgi
     group: deepin-sysdev-team
     info:
@@ -1290,6 +1306,10 @@ repos:
   - repo: gcc-12-cross #main
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection (cross compiler)
+
+  - repo: gcc-12-cross-mipsen
+    group: deepin-sysdev-team
+    info: GCC 12 cross compilers for MIPS targets
 
   - repo: gcc-12-cross-ports #main
     group: deepin-sysdev-team
@@ -1680,6 +1700,10 @@ repos:
   - repo: golang-github-cavaliergopher-grab
     group: deepin-sysdev-team
     info: Download manager package for Go (library)
+
+  - repo: golang-github-charlievieth-fastwalk
+    group: deepin-sysdev-team
+    info: Fast directory traversal for Golang (library)
 
   - repo: golang-github-checkpoint-restore-go-criu #main
     group: deepin-sysdev-team
@@ -2244,6 +2268,10 @@ repos:
   - repo: golang-github-jsimonetti-rtnetlink #main
     group: deepin-sysdev-team
     info: Go library for interfacing with the RTNetlink protocol
+
+  - repo: golang-github-junegunn-go-shellwords
+    group: deepin-sysdev-team
+    info: Parse line as shell words (library)
 
   - repo: golang-github-jung-kurt-gofpdf #main
     group: deepin-sysdev-team
@@ -3500,6 +3528,10 @@ repos:
       flexible. It is used in storage systems such as Swift and Ceph to add fault
       tolerance.
 
+  - repo: jose
+    group: deepin-sysdev-team
+    info: Javascript Object Signing and Encryption (José) - development files
+
   - repo: jpeg-xl
     group: deepin-sysdev-team
     info: jpeg-xl contains a reference implementation of JPEG XL (encoder and decoder)
@@ -3567,6 +3599,14 @@ repos:
   - repo: kdump-tools
     group: deepin-sysdev-team
     info: kdump is a mechanism to capture crash dumps for the Linux kernel.
+
+  - repo: kerberos-configs
+    group: deepin-sysdev-team
+    info: Configuration files for Kerberos Version 5
+
+  - repo: kernelshark
+    group: deepin-sysdev-team
+    info: Utilities for graphically analyzing function tracing in the kernel
 
   - repo: kexec-tools
     group: deepin-sysdev-team
@@ -4883,6 +4923,10 @@ repos:
     group: deepin-sysdev-team
     info: MongoDB C client library
 
+  - repo: moreutils
+    group: deepin-sysdev-team
+    info: additional Unix utilities
+
   - repo: motif
     group: deepin-sysdev-team
     info: Motif - development files
@@ -6067,6 +6111,10 @@ repos:
     group: deepin-sysdev-team
     info: collection of compile-time Python AST analyzers
 
+  - repo: python-blessed
+    group: deepin-sysdev-team
+    info: Blessed is a thin, practical wrapper around terminal capabilities in Python
+
   - repo: python-boolean.py
     group: deepin-sysdev-team
     info: small library implementing a boolean algebra
@@ -6138,6 +6186,14 @@ repos:
   - repo: python-css-parser
     group: deepin-sysdev-team
     info: CSS parser provides utilities for parsing, serialising CSS in Python.
+
+  - repo: python-curtsies
+    group: deepin-sysdev-team
+    info: Curtsies is a library for interacting with the terminal
+
+  - repo: python-cwcwidth
+    group: deepin-sysdev-team
+    info: This module provides functions to compute the printable length of a unicode character/string on a terminal
 
   - repo: python-deprecated #main
     group: deepin-sysdev-team
@@ -6637,6 +6693,10 @@ repos:
   - repo: qdirstat
     group: deepin-sysdev-team
     info: Qt-based directory statistics
+
+  - repo: qhttpengine #main
+    group: deepin-sysdev-team
+    info: HTTP server for Qt applications
 
   - repo: qmltermwidget
     group: deepin-sysdev-team
@@ -7741,6 +7801,10 @@ repos:
     group: deepin-sysdev-team
     info: fast, extensible progress bar for Python 3 and CLI tool
 
+  - repo: trace-cmd
+    group: deepin-sysdev-team
+    info: Utility for retrieving and analyzing function tracing in the kernel
+
   - repo: tree-sitter
     group: deepin-sysdev-team
     info: Parser generator tool and incremental parsing library
@@ -8266,66 +8330,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: python-curtsies
-    group: deepin-sysdev-team
-    info: Curtsies is a library for interacting with the terminal
-
-  - repo: python-cwcwidth
-    group: deepin-sysdev-team
-    info: This module provides functions to compute the printable length of a unicode character/string on a terminal
-
-  - repo: python-blessed
-    group: deepin-sysdev-team
-    info: Blessed is a thin, practical wrapper around terminal capabilities in Python
-
-  - repo: autofs
-    group: deepin-sysdev-team
-    info: kernel-based automounter for Linux
-
-  - repo: trace-cmd
-    group: deepin-sysdev-team
-    info: Utility for retrieving and analyzing function tracing in the kernel
-
-  - repo: kernelshark
-    group: deepin-sysdev-team
-    info: Utilities for graphically analyzing function tracing in the kernel
-
-  - repo: fzf
-    group: deepin-sysdev-team
-    info: general-purpose command-line fuzzy finder
-
-  - repo: moreutils
-    group: deepin-sysdev-team
-    info: additional Unix utilities
-
-  - repo: kerberos-configs
-    group: deepin-sysdev-team
-    info: Configuration files for Kerberos Version 5
-
-  - repo: jose
-    group: deepin-sysdev-team
-    info: Javascript Object Signing and Encryption (José) - development files
-
-  - repo: golang-github-charlievieth-fastwalk
-    group: deepin-sysdev-team
-    info: Fast directory traversal for Golang (library)
-
-  - repo: golang-github-junegunn-go-shellwords
-    group: deepin-sysdev-team
-    info: Parse line as shell words (library)
-
-  - repo: qhttpengine #main
-    group: deepin-sysdev-team
-    info: HTTP server for Qt applications
-
-  - repo: binutils-mipsen
-    group: deepin-sysdev-team
-    info: GNU binary utilities for MIPS
-
-  - repo: cross-toolchain-base-mipsen
-    group: deepin-sysdev-team
-    info: Development Libraries and Header Files (for MIPS cross-compiling)
-
-  - repo: gcc-12-cross-mipsen
-    group: deepin-sysdev-team
-    info: GCC 12 cross compilers for MIPS targets

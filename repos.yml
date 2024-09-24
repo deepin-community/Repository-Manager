@@ -6481,6 +6481,10 @@ repos:
     group: deepin-sysdev-team
     info: Click plugin for py.test
 
+  - repo: python-pytest-retry #main
+    group: deepin-sysdev-team
+    info: Adds the ability to retry flaky tests in pytest
+
   - repo: python-pytest-trio #main
     group: deepin-sysdev-team
     info: Pytest plugin for trio (Python3 version)

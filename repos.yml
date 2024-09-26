@@ -5387,6 +5387,10 @@ repos:
     group: deepin-sysdev-team
     info: propagate events from one event emitter into another
 
+  - repo: node-proxy-agents #main
+    group: deepin-sysdev-team
+    info: Maps proxy protocols to http.Agent implementations
+
   - repo: node-proxy-from-env #main
     group: deepin-sysdev-team
     info: offers getProxyForUrl to get the proxy URL for a URL

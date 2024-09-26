@@ -232,6 +232,10 @@ repos:
     group: deepin-sysdev-team
     info: Arbitrary-precision decimal and non-decimal arithmetic
 
+  - repo: binaryen #main
+    group: deepin-sysdev-team
+    info: compiler and toolchain infrastructure library for WebAssembly
+
   - repo: binaryornot
     group: deepin-sysdev-team
     info: Python module to determine if a file is binary or text
@@ -905,6 +909,10 @@ repos:
   - repo: empire
     group: deepin-sysdev-team
     info: war game of the century
+
+  - repo: emscripten #main
+    group: deepin-sysdev-team
+    info: LLVM-to-JavaScript Compiler
 
   - repo: enchant-2
     group: deepin-sysdev-team
@@ -3281,6 +3289,10 @@ repos:
     group: deepin-sysdev-team
     info: HTML to PostScript converter
 
+  - repo: htmlmin #main
+    group: deepin-sysdev-team
+    info: HTML Minifier
+
   - repo: htop
     group: deepin-pkg
     info: Htop 是一个基于 ncurse 的进程查看器，类似于 top
@@ -5347,6 +5359,10 @@ repos:
     group: deepin-sysdev-team
     info: fast asynchronous streaming RDF for JavaScript - Node library
 
+  - repo: node-netmask #main
+    group: deepin-sysdev-team
+    info: Parse and lookup IP network blocks
+
   - repo: node-nock # main
     group: deepin-sysdev-team
     info: Nock is an HTTP mocking and expectations library for Node.js
@@ -5403,6 +5419,10 @@ repos:
     group: deepin-sysdev-team
     info: Querystringify - Small, simple but powerful query string parser
 
+  - repo: node-quickjs-emscripten #main
+    group: deepin-sysdev-team
+    info: Javascript/Typescript bindings for QuickJS compiled to WebAssembly
+
   - repo: node-re2 #main
     group: deepin-sysdev-team
     info: Node.js bindings for RE2, a fast and safe regular expression engine
@@ -5451,9 +5471,17 @@ repos:
     group: deepin-sysdev-team
     info: JSON Schema Type Builder with Static Type Resolution for TypeScript
 
+  - repo: node-smart-buffer #main
+    group: deepin-sysdev-team
+    info: smart-buffer improves nodejs Buffer functionality
+
   - repo: node-socket.io-parser #main
     group: deepin-sysdev-team
     info: socket.io protocol parser
+
+  - repo: node-socks #main
+    group: deepin-sysdev-team
+    info: Fully featured SOCKS proxy client
 
   - repo: node-source-map
     group: deepin-sysdev-team
@@ -7960,6 +7988,10 @@ repos:
   - repo: vulkan-volk
     group: deepin-sysdev-team
     info: Meta package for Vulkan loader
+
+  - repo: wabt #main
+    group: deepin-sysdev-team
+    info: WebAssembly Binary Toolkit
 
   - repo: wagon #main
     group: deepin-sysdev-team

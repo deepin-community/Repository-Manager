@@ -8417,3 +8417,11 @@ repos:
   - repo: r-cran-ps #main
     group: deepin-sysdev-team
     info: GNU R list, query, manipulate system processes
+
+  - repo: alsa-tools #main
+    group: deepin-sysdev-team
+    info: Console based ALSA utilities for specific hardware
+
+  - repo: alsa-tools-gui #main
+    group: deepin-sysdev-team
+    info: UI based ALSA utilities for specific hardware

@@ -8425,3 +8425,7 @@ repos:
   - repo: alsa-tools-gui #main
     group: deepin-sysdev-team
     info: UI based ALSA utilities for specific hardware
+
+  - repo: rnnoise
+    group: deepin-sysdev-team
+    info: neccessary dependency for easyeffects

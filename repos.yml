@@ -8429,3 +8429,11 @@ repos:
   - repo: rnnoise
     group: deepin-sysdev-team
     info: neccessary dependency for easyeffects
+      
+  - repo: cpdb-libs #main
+    group: deepin-sysdev-team
+    info: Common Print Dialog Backends - Interface Library for Backends
+
+  - repo: pangomm2.48 #main
+    group: deepin-sysdev-team
+    info: C++ wrapper for pango

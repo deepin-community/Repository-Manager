@@ -8437,3 +8437,115 @@ repos:
   - repo: pangomm2.48 #main
     group: deepin-sysdev-team
     info: C++ wrapper for pango
+
+  - repo: golang-github-acarl005-stripansi #main
+    group: deepin-sysdev-team
+    info: Little Go package for removing ANSI color escape codes from strings
+
+  - repo: golang-github-checkpoint-restore-checkpointctl #main
+    group: deepin-sysdev-team
+    info: Tool to inspect Kubernetes and Podman checkpoints (library)
+
+  - repo: golang-tags.cncf-container-device-interface #main
+    group: deepin-sysdev-team
+    info: Transitional package for golang-tags.cncf-container-device-interface-dev
+
+  - repo: golang-github-containers-common #main
+    group: deepin-sysdev-team
+    info: Common files for github.com/containers repositories (library)
+
+  - repo: golang-github-containers-image #main
+    group: deepin-sysdev-team
+    info: golang library to work with containers' images
+
+  - repo: golang-github-containers-libtrust #main
+    group: deepin-sysdev-team
+    info: Primitives for identity and authorization (library)
+
+  - repo: golang-github-containers-luksy #main
+    group: deepin-sysdev-team
+    info: offline encryption/decryption using LUKS formats (library)
+
+  - repo: golang-github-containers-storage #main
+    group: deepin-sysdev-team
+    info: Go library for handling how containers are stored on disk
+
+  - repo: golang-github-disiqueira-gotree #main
+    group: deepin-sysdev-team
+    info: Tree printer module written in GoLang (library)
+
+  - repo: golang-github-fsouza-go-dockerclient #main
+    group: deepin-sysdev-team
+    info: Docker client library in Go
+
+  - repo: golang-github-jinzhu-copier #main
+    group: deepin-sysdev-team
+    info: Copy value from struct to struct and more (library)
+
+  - repo: golang-github-klauspost-pgzip #main
+    group: deepin-sysdev-team
+    info: parallel gzip (de)compression library for Go
+
+  - repo: golang-github-konsorten-go-windows-terminal-sequences #main
+    group: deepin-sysdev-team
+    info: Enable support for Windows Terminal Colors
+
+  - repo: golang-github-manifoldco-promptui #main
+    group: deepin-sysdev-team
+    info: Interactive prompt for command-line applications (library)
+
+  - repo: golang-github-opencontainers-runtime-tools #main
+    group: deepin-sysdev-team
+    info: OCI Runtime Tools
+
+  - repo: golang-github-openshift-imagebuilder #main
+    group: deepin-sysdev-team
+    info: Builds container images using Dockerfile as input
+
+  - repo: golang-github-ostreedev-ostree-go #main
+    group: deepin-sysdev-team
+    info: Golang bindings for httt://github.com/ostreedev/ostree
+
+  - repo: golang-github-otiai10-copy #main
+    group: deepin-sysdev-team
+    info: Golang copy directory recursively (library)
+
+  - repo: golang-github-pquerna-ffjson #main
+    group: deepin-sysdev-team
+    info: faster JSON serialization for Go
+
+  - repo: golang-github-proglottis-gpgme #main
+    group: deepin-sysdev-team
+    info: Go wrapper for the GPGME library
+
+  - repo: golang-github-secure-systems-lab-go-securesystemslib #main
+    group: deepin-sysdev-team
+    info: Cryptographic routines for Golang Secure Systems Lab projects at NYU (library)
+
+  - repo: golang-github-sigstore-fulcio #main
+    group: deepin-sysdev-team
+    info: Sigstore OIDC PKI (library)
+
+  - repo: rekor #main
+    group: deepin-sysdev-team
+    info: Software Supply Chain Transparency Log (library)
+
+  - repo: golang-github-sigstore-sigstore #main
+    group: deepin-sysdev-team
+    info: Common go library shared across sigstore services and clients (library)
+
+  - repo: golang-github-sylabs-sif #main
+    group: deepin-sysdev-team
+    info: reference implementation of the Singularity Image Format (SIF)
+
+  - repo: golang-github-ulikunitz-xz #main
+    group: deepin-sysdev-team
+    info: Pure golang package for reading and writing xz-compressed files
+
+  - repo: golang-github-vbauerster-mpb #main
+    group: deepin-sysdev-team
+    info: multi progress bar for Go cli applications
+
+  - repo: golang-github-containers-buildah #main
+    group: deepin-sysdev-team
+    info: tool to facilitate building OCI images

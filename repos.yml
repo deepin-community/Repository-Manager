@@ -4558,6 +4558,10 @@ repos:
     group: deepin-sysdev-team
     info: Terminal-emulator State Machine - development
 
+  - repo: libubootenv
+    group: deepin-sysdev-team
+    info: Library to access U-Boot environment
+
   - repo: libuev
     group: deepin-sysdev-team
     info: libuEv is a small event loop that wraps the Linux epoll() family of APIs.

@@ -1543,6 +1543,10 @@ repos:
     group: deepin-sysdev-team
     info: BDD Testing Framework for Go (development files)
 
+  - repo: golang-github-14rcole-gopopulate #main
+    group: deepin-sysdev-team
+    info: Small library to populate a directory with random data
+
   - repo: golang-github-a8m-tree
     group: deepin-sysdev-team
     info: implementation of the tree command
@@ -1559,9 +1563,21 @@ repos:
     group: deepin-sysdev-team
     info: Little Go package for removing ANSI color escape codes from strings
 
+  - repo: golang-github-adamkorcz-go-fuzz-headers-1 #main
+    group: deepin-sysdev-team
+    info: helper functions for Go fuzzing
+
   - repo: golang-github-aead-chacha20 #main
     group: deepin-sysdev-team
     info: ChaCha20 and XChaCha20 stream ciphers go library
+
+  - repo: golang-github-aead-serpent #main
+    group: deepin-sysdev-team
+    info: Serpent block cipher
+
+  - repo: golang-github-agext-levenshtein #main
+    group: deepin-sysdev-team
+    info: Levenshtein distance and similarity metrics
 
   - repo: golang-github-ajstarks-svgo #main
     group: deepin-sysdev-team
@@ -1651,6 +1667,14 @@ repos:
     group: deepin-sysdev-team
     info: Graphviz DOT language in golang
 
+  - repo: golang-github-aws-aws-sdk-go-v2 #main
+    group: deepin-sysdev-team
+    info: AWS SDK for the Go programming language
+
+  - repo: golang-github-aws-smithy-go #main
+    group: deepin-sysdev-team
+    info: Smithy code generators for Go
+
   - repo: golang-github-azure-azure-pipeline-go
     group: deepin-sysdev-team
     info: HTTP request/response middleware pipeline
@@ -1658,6 +1682,10 @@ repos:
   - repo: golang-github-azure-azure-storage-blob-go
     group: deepin-sysdev-team
     info: Microsoft Azure Blob Storage Library for Go
+
+  - repo: golang-github-azure-go-ansiterm #main
+    group: deepin-sysdev-team
+    info: Go package for ANSI terminal emulation in Windows
 
   - repo: golang-github-azure-go-autorest
     group: deepin-sysdev-team
@@ -1725,6 +1753,10 @@ repos:
     group: deepin-sysdev-team
     info: Download manager package for Go (library)
 
+  - repo: golang-github-cenkalti-backoff #main
+    group: deepin-sysdev-team
+    info: exponential backoff algorithm in Go
+
   - repo: golang-github-charlievieth-fastwalk
     group: deepin-sysdev-team
     info: Fast directory traversal for Golang (library)
@@ -1781,6 +1813,10 @@ repos:
     group: deepin-sysdev-team
     info: Console package for Go
 
+  - repo: golang-github-containerd-errdefs #main
+    group: deepin-sysdev-team
+    info: Common definition and library of errors used by containerd
+
   - repo: golang-github-containerd-fifo #main
     group: deepin-sysdev-team
     info: fifo pkg for Go
@@ -1792,6 +1828,26 @@ repos:
   - repo: golang-github-containerd-go-runc #main
     group: deepin-sysdev-team
     info: runc bindings for Go
+
+  - repo: golang-github-containerd-imgcrypt #main
+    group: deepin-sysdev-team
+    info: OCI Image Encryption Package
+
+  - repo: golang-github-containerd-log #main
+    group: deepin-sysdev-team
+    info: Common log interface for containerd repositories and clients
+
+  - repo: golang-github-containerd-nri #main
+    group: deepin-sysdev-team
+    info: Node Resource Interface
+
+  - repo: golang-github-containerd-platforms #main
+    group: deepin-sysdev-team
+    info: Go package for handling platform type
+
+  - repo: golang-github-containerd-stargz-snapshotter #main
+    group: deepin-sysdev-team
+    info: Fast container image distribution plugin with lazy pulling
 
   - repo: golang-github-containerd-typeurl #main
     group: deepin-sysdev-team
@@ -1912,6 +1968,10 @@ repos:
   - repo: golang-github-disposaboy-jsonconfigreader
     group: deepin-sysdev-team
     info: proxy for golang's io.Reader allowing you to use json as a config format
+
+  - repo: golang-github-distribution-reference #main
+    group: deepin-sysdev-team
+    info: Go library to handle references to container images
 
   - repo: golang-github-djherbis-times
     group: deepin-sysdev-team
@@ -2141,6 +2201,10 @@ repos:
     group: deepin-sysdev-team
     info: Implementation of the Snappy compression format in Go
 
+  - repo: golang-github-google-cel-go #main
+    group: deepin-sysdev-team
+    info: Common Expression Language (go runtime)
+
   - repo: golang-github-google-certificate-transparency #main
     group: deepin-sysdev-team
     info: Framework for monitoring and auditing SSL certificates
@@ -2148,6 +2212,10 @@ repos:
   - repo: golang-github-google-go-dap #main
     group: deepin-sysdev-team
     info: Go implementation of the Debug Adapter Protocol
+
+  - repo: golang-github-google-go-intervals #main
+    group: deepin-sysdev-team
+    info: Functions for set operations on intervals, like ranges
 
   - repo: golang-github-google-go-querystring #main
     group: deepin-sysdev-team
@@ -2461,6 +2529,10 @@ repos:
     group: deepin-sysdev-team
     info: pkcs11 wrapper for Go
 
+  - repo: golang-github-minio-sha256-simd #main
+    group: deepin-sysdev-team
+    info: implementation of SHA256 using SIMD instructions for Intel and ARM
+
   - repo: golang-github-mitchellh-hashstructure #main
     group: deepin-sysdev-team
     info: generate hash values for arbitrary values in Golang
@@ -2473,9 +2545,21 @@ repos:
     group: deepin-sysdev-team
     info: Generate x86 Assembly with Go (library)
 
+  - repo: golang-github-moby-docker-image-spec #main
+    group: deepin-sysdev-team
+    info: Docker Image Specification v1
+
   - repo: golang-github-moby-locker #main
     group: deepin-sysdev-team
     info: Go library for creating finer-grained locking
+
+  - repo: golang-github-moby-patternmatcher #main
+    group: deepin-sysdev-team
+    info: pattern matcher implemented in Go
+
+  - repo: golang-github-moby-pubsub #main
+    group: deepin-sysdev-team
+    info: Pub/Sub implementation in Go
 
   - repo: golang-github-moby-sys #main
     group: deepin-sysdev-team
@@ -2903,6 +2987,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for HTTP probing
 
+  - repo: golang-github-xlab-treeprint #main
+    group: deepin-sysdev-team
+    info: simple ASCII tree composing tool
+
   - repo: golang-github-xtaci-kcp #main
     group: deepin-sysdev-team
     info: Full-Featured Reliable-UDP Library for golang
@@ -3043,9 +3131,29 @@ repos:
     group: deepin-sysdev-team
     info: pure Go Apple Property List transcoder
 
+  - repo: golang-k8s-api #main
+    group: deepin-sysdev-team
+    info: Schema for Kubernetes server external API types
+
+  - repo: golang-k8s-apimachinery #main
+    group: deepin-sysdev-team
+    info: Shared typings for Kubernetes servers and clients
+
+  - repo: golang-k8s-apiserver #main
+    group: deepin-sysdev-team
+    info: Library for writing a Kubernetes-style API server.
+
+  - repo: golang-k8s-client-go #main
+    group: deepin-sysdev-team
+    info: Go client for Kubernetes
+
   - repo: golang-k8s-klog #main
     group: deepin-sysdev-team
     info: leveled execution logs for Go (library)
+
+  - repo: golang-k8s-sigs-json #main
+    group: deepin-sysdev-team
+    info: Golang JSON decoder library for kubernetes sig-api-machinery
 
   - repo: golang-k8s-sigs-structured-merge-diff
     group: deepin-sysdev-team
@@ -3055,6 +3163,10 @@ repos:
     group: deepin-sysdev-team
     info: better way to marshal and unmarshal YAML in Golang (library)
 
+  - repo: golang-k8s-utils #main
+    group: deepin-sysdev-team
+    info: Non-Kubernetes-specific utility libraries
+
   - repo: golang-logrus #main
     group: deepin-sysdev-team
     info: a logging library for Go
@@ -3063,9 +3175,17 @@ repos:
     group: deepin-sysdev-team
     info: Go package for dealing with maps, slices, JSON and other data
 
+  - repo: golang-opentelemetry-contrib #main
+    group: deepin-sysdev-team
+    info: Collection of 3rd-party packages for OpenTelemetry-Go
+
   - repo: golang-opentelemetry-otel #main
     group: deepin-sysdev-team
     info: OpenTelemetry Go API and SDK
+
+  - repo: golang-opentelemetry-proto #main
+    group: deepin-sysdev-team
+    info: OpenTelemetry Go API and SDK - proto
 
   - repo: golang-pault-go-debian #main
     group: deepin-sysdev-team
@@ -3514,6 +3634,10 @@ repos:
   - repo: imwheel
     group: deepin-sysdev-team
     info: A program to configure the mouse wheel to send keypresses
+
+  - repo: in-toto-golang #main
+    group: deepin-sysdev-team
+    info: software supply chain integrity framework in-toto for Go
 
   - repo: inotify-tools
     group: deepin-sysdev-team
@@ -6095,6 +6219,10 @@ repos:
     group: deepin-sysdev-team
     info: emulate chroot, bind mount and binfmt_misc for non-root users
 
+  - repo: protobuild #main
+    group: deepin-sysdev-team
+    info: Convenience wrapper for building protobufs in Go
+
   - repo: psrip
     group: deepin-sysdev-team
     info: Extract images from PostScript files
@@ -7085,6 +7213,10 @@ repos:
   - repo: rofi
     group: deepin-sysdev-team
     info: Rofi is a window switcher, application launcher and dmenu replacement
+
+  - repo: rootlesskit #main
+    group: deepin-sysdev-team
+    info: Linux-native "fake root" for rootless containers
 
   - repo: rst2pdf
     group: deepin-sysdev-team

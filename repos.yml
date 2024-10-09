@@ -8553,3 +8553,7 @@ repos:
   - repo: golang-github-containers-buildah #main
     group: deepin-sysdev-team
     info: tool to facilitate building OCI images
+
+  - repo: scheme-bytestructures
+    group: deepin-sysdev-team
+    info: structured access to bytevector contents 

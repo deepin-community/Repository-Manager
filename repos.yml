@@ -1667,6 +1667,10 @@ repos:
     group: deepin-sysdev-team
     info: Package to read /proc/self/mounts entries (library)
 
+  - repo: golang-github-asaskevich-govalidator #main
+    group: deepin-sysdev-team
+    info: Validators and sanitizers for strings, numerics, slices and structs
+
   - repo: golang-github-atotto-clipboard
     group: deepin-sysdev-team
     info: Clipboard for Go
@@ -2125,6 +2129,10 @@ repos:
     group: deepin-sysdev-team
     info: Fork of golang pkg `encoding/asn1` to support the Basic Encoding Rules (library)
 
+  - repo: golang-github-getkin-kin-openapi #main
+    group: deepin-sysdev-team
+    info: OpenAPI 3.0 implementation for Go
+
   - repo: golang-github-ghodss-yaml #main
     group: deepin-sysdev-team
     info: better way to marshal and unmarshal YAML in Golang
@@ -2168,6 +2176,14 @@ repos:
   - repo: golang-github-go-macaron-toolbox
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
+
+  - repo: golang-github-go-openapi-jsonreference #main
+    group: deepin-sysdev-team
+    info: implementation of gojsonreference with struct support
+
+  - repo: golang-github-go-openapi-swag #main
+    group: deepin-sysdev-team
+    info: goodie bag in use in the go-openapi projects
 
   - repo: golang-github-go-playground-assert-v2
     group: deepin-sysdev-team
@@ -2473,6 +2489,10 @@ repos:
     group: deepin-sysdev-team
     info: Go Koofr client
 
+  - repo: golang-github-kubernetes-gengo #main
+    group: deepin-sysdev-team
+    info: library for generating code based on Go files
+
   - repo: golang-github-leodido-go-urn
     group: deepin-sysdev-team
     info: Go parser for Uniform Resource Names
@@ -2593,6 +2613,10 @@ repos:
     group: deepin-sysdev-team
     info: collection of utilities for file manipulation in golang
 
+  - repo: golang-github-munnerz-goautoneg #main
+    group: deepin-sysdev-team
+    info: golang functions for HTTP Content-Type autonegotiation
+
   - repo: golang-github-mwitkow-go-conntrack #main
     group: deepin-sysdev-team
     info: Go middleware for net.Conn tracking
@@ -2636,6 +2660,10 @@ repos:
   - repo: golang-github-nxadm-tail
     group: deepin-sysdev-team
     info: Go package for reading from continuously updated files
+
+  - repo: golang-github-nytimes-gziphandler #main
+    group: deepin-sysdev-team
+    info: Golang middleware to gzip HTTP responses
 
   - repo: golang-github-okzk-sdnotify
     group: deepin-sysdev-team

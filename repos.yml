@@ -1659,6 +1659,10 @@ repos:
     group: deepin-sysdev-team
     info: library for exporting performance and runtime metrics
 
+  - repo: golang-github-armon-go-socks5 #main
+    group: deepin-sysdev-team
+    info: SOCKS5 server in Golang
+
   - repo: golang-github-artyom-mtab
     group: deepin-sysdev-team
     info: Package to read /proc/self/mounts entries (library)
@@ -2213,6 +2217,10 @@ repos:
     group: deepin-sysdev-team
     info: Framework for monitoring and auditing SSL certificates
 
+  - repo: golang-github-google-gnostic-models #main
+    group: deepin-sysdev-team
+    info: Protocol buffer models for gnostic
+
   - repo: golang-github-google-go-dap #main
     group: deepin-sysdev-team
     info: Go implementation of the Debug Adapter Protocol
@@ -2636,6 +2644,10 @@ repos:
   - repo: golang-github-olekukonko-tablewriter #main
     group: deepin-sysdev-team
     info: generate ASCII tables in Golang
+
+  - repo: golang-github-onsi-ginkgo-v2 #main
+    group: deepin-sysdev-team
+    info: BDD Testing Framework for Go
 
   - repo: golang-github-opencontainers-go-digest #main
     group: deepin-sysdev-team
@@ -3162,6 +3174,10 @@ repos:
   - repo: golang-k8s-klog #main
     group: deepin-sysdev-team
     info: leveled execution logs for Go (library)
+
+  - repo: golang-k8s-kube-openapi #main
+    group: deepin-sysdev-team
+    info: Kubernetes OpenAPI spec generation & serving
 
   - repo: golang-k8s-sigs-json #main
     group: deepin-sysdev-team

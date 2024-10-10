@@ -864,6 +864,10 @@ repos:
     group: deepin-sysdev-team
     info: embeddable Javascript engine, development files
 
+  - repo: dummyapp-wpsoffice
+    group: deepin-sysdev-team
+    info: Provides placeholder WPS Office icon and MIME info for fresh installs
+
   - repo: dvdisaster
     group: deepin-sysdev-team
     info: data loss/scratch/aging protection for CD/DVD media

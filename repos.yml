@@ -1495,6 +1495,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU TLS library - main runtime library
 
+  - repo: go-containerregistry #main
+    group: deepin-sysdev-team
+    info: Go library and CLIs for working with container registries (library)
+
   - repo: go-md2man-v2 #main
     group: deepin-sysdev-team
     info: utility to create manpages from markdown (source)
@@ -1691,6 +1695,10 @@ repos:
     group: deepin-sysdev-team
     info: HTTP request/response middleware pipeline
 
+  - repo: golang-github-azure-azure-sdk-for-go #main
+    group: deepin-sysdev-team
+    info: Microsoft Azure SDK for Go
+
   - repo: golang-github-azure-azure-storage-blob-go
     group: deepin-sysdev-team
     info: Microsoft Azure Blob Storage Library for Go
@@ -1788,6 +1796,10 @@ repos:
   - repo: golang-github-cilium-ebpf #main
     group: deepin-sysdev-team
     info: eBPF Library for Go
+
+  - repo: golang-github-cloudflare-backoff #main
+    group: deepin-sysdev-team
+    info: Go implementation of "Exponential Backoff And Jitter" (library)
 
   - repo: golang-github-cloudflare-cfssl #main
     group: deepin-sysdev-team
@@ -1904,6 +1916,14 @@ repos:
   - repo: golang-github-coreos-go-iptables #main
     group: deepin-sysdev-team
     info: Go bindings for iptables utility
+
+  - repo: golang-github-coreos-go-oidc #main
+    group: deepin-sysdev-team
+    info: Go libraries for implementing OIDC clients and servers
+
+  - repo: golang-github-coreos-go-oidc-v3 #main
+    group: deepin-sysdev-team
+    info: Go libraries for implementing OIDC clients and servers (library)
 
   - repo: golang-github-coreos-pkg #main
     group: deepin-sysdev-team
@@ -2153,6 +2173,10 @@ repos:
     group: deepin-sysdev-team
     info: Purge Go line editor with history
 
+  - repo: golang-github-go-jose-go-jose.v3 #main
+    group: deepin-sysdev-team
+    info: Implementation of JOSE standards (JWE, JWS, JWT) in Go (library)
+
   - repo: golang-github-go-kit-kit #main
     group: deepin-sysdev-team
     info: Programming toolkit for microservices
@@ -2177,6 +2201,10 @@ repos:
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
 
+  - repo: golang-github-go-openapi-errors #main
+    group: deepin-sysdev-team
+    info: common error handling code for OpenAPI
+
   - repo: golang-github-go-openapi-jsonpointer #main
     group: deepin-sysdev-team
     info: fork of gojsonpointer with support for structs
@@ -2185,9 +2213,21 @@ repos:
     group: deepin-sysdev-team
     info: implementation of gojsonreference with struct support
 
+  - repo: golang-github-go-openapi-runtime #main
+    group: deepin-sysdev-team
+    info: OpenAPI runtime interfaces
+
+  - repo: golang-github-go-openapi-strfmt #main
+    group: deepin-sysdev-team
+    info: OpenAPI string formatting library
+
   - repo: golang-github-go-openapi-swag #main
     group: deepin-sysdev-team
     info: goodie bag in use in the go-openapi projects
+
+  - repo: golang-github-go-openapi-validate #main
+    group: deepin-sysdev-team
+    info: OpenAPI toolkit validation helpers
 
   - repo: golang-github-go-playground-assert-v2
     group: deepin-sysdev-team
@@ -2305,6 +2345,10 @@ repos:
     group: deepin-sysdev-team
     info: GELF library and writer for Go
 
+  - repo: golang-github-gregjones-httpcache #main
+    group: deepin-sysdev-team
+    info: Transport for http.Client that will cache responses
+
   - repo: golang-github-grpc-ecosystem-go-grpc-middleware #main
     group: deepin-sysdev-team
     info: interceptor chaining, auth, logging, retries and more
@@ -2336,6 +2380,10 @@ repos:
   - repo: golang-github-hashicorp-go-multierror
     group: deepin-sysdev-team
     info: Go package for representing a list of errors as a single error
+
+  - repo: golang-github-hashicorp-golang-lru-v2 #main
+    group: deepin-sysdev-team
+    info: Golang LRU cache (v2 with support for generics)
 
   - repo: golang-github-hashicorp-memberlist #main
     group: deepin-sysdev-team
@@ -2412,6 +2460,14 @@ repos:
   - repo: golang-github-jcmturner-rpc.v2
     group: deepin-sysdev-team
     info: Remote Procedure Call libraries for golang
+
+  - repo: golang-github-jedisct1-go-minisign #main
+    group: deepin-sysdev-team
+    info: Minisign library for Golang
+
+  - repo: golang-github-jellydator-ttlcache #main
+    group: deepin-sysdev-team
+    info: In-memory cache with item expiration and generics (library)
 
   - repo: golang-github-jinzhu-copier #main
     group: deepin-sysdev-team
@@ -2504,6 +2560,10 @@ repos:
   - repo: golang-github-koofr-go-koofrclient
     group: deepin-sysdev-team
     info: Go Koofr client
+
+  - repo: golang-github-kubernetes-cri-api #main
+    group: deepin-sysdev-team
+    info: Container Runtime Interface (CRI)
 
   - repo: golang-github-kubernetes-gengo #main
     group: deepin-sysdev-team
@@ -2779,6 +2839,10 @@ repos:
     group: deepin-sysdev-team
     info: flexible and performant JSON unmarshalling in Go
 
+  - repo: golang-github-peterbourgon-diskv #main
+    group: deepin-sysdev-team
+    info: disk-backed key-value store
+
   - repo: golang-github-philhofer-fwd #main
     group: deepin-sysdev-team
     info: Buffered Reader/Writer
@@ -2786,6 +2850,10 @@ repos:
   - repo: golang-github-pierrec-lz4 #main
     group: deepin-sysdev-team
     info: LZ4 compression and decompression in pure Go
+
+  - repo: golang-github-pkg-browser #main
+    group: deepin-sysdev-team
+    info: Helpers to open files, readers, and URLs in a browser window
 
   - repo: golang-github-pkg-xattr
     group: deepin-sysdev-team
@@ -2851,6 +2919,10 @@ repos:
     group: deepin-sysdev-team
     info: fast generation of 192-bit UUIDs
 
+  - repo: golang-github-rs-cors #main
+    group: deepin-sysdev-team
+    info: net/http configurable handler to handle CORS requests
+
   - repo: golang-github-rs-xid #main
     group: deepin-sysdev-team
     info: globally unique id generator thought for the web
@@ -2883,6 +2955,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for handling IP addresses and subnets
 
+  - repo: golang-github-sebdah-goldie #main
+    group: deepin-sysdev-team
+    info: Golden file testing for Go (library)
+
   - repo: golang-github-seccomp-libseccomp-golang #main
     group: deepin-sysdev-team
     info: golang bindings for libseccomp
@@ -2891,9 +2967,17 @@ repos:
     group: deepin-sysdev-team
     info: Cryptographic routines for Golang Secure Systems Lab projects at NYU (library)
 
+  - repo: golang-github-segmentio-ksuid #main
+    group: deepin-sysdev-team
+    info: K-Sortable Globally Unique IDs
+
   - repo: golang-github-sevlyar-go-daemon
     group: deepin-sysdev-team
     info: library for writing system daemons
+
+  - repo: golang-github-shibumi-go-pathspec #main
+    group: deepin-sysdev-team
+    info: gitignore-style pathspec pattern matching in Go (library)
 
   - repo: golang-github-shirou-gopsutil
     group: deepin-sysdev-team
@@ -2910,6 +2994,10 @@ repos:
   - repo: golang-github-sigstore-fulcio #main
     group: deepin-sysdev-team
     info: Sigstore OIDC PKI (library)
+
+  - repo: golang-github-sigstore-protobuf-specs #main
+    group: deepin-sysdev-team
+    info: Sigstore Protocol Buffer code (library)
 
   - repo: golang-github-sigstore-sigstore #main
     group: deepin-sysdev-team
@@ -2939,6 +3027,10 @@ repos:
     group: deepin-sysdev-team
     info: Go configuration with fangs
 
+  - repo: golang-github-spiffe-go-spiffe #main
+    group: deepin-sysdev-team
+    info: secure production identity framework for everyone in Go (library)
+
   - repo: golang-github-stathat-go #main
     group: deepin-sysdev-team
     info: Go package for reporting stat counts and values to StatHat
@@ -2966,6 +3058,14 @@ repos:
   - repo: golang-github-templexxx-xorsimd #main
     group: deepin-sysdev-team
     info: Go library provides a fast implementation of XOR and SIMD (Single Instruction, Multiple Data) operations
+
+  - repo: golang-github-thalesignite-crypto11 #main
+    group: deepin-sysdev-team
+    info: implementation of Golang crypto interfaces with PKCS#11 as backend
+
+  - repo: golang-github-theupdateframework-go-tuf #main
+    group: deepin-sysdev-team
+    info: Securing software in golang (library)
 
   - repo: golang-github-tidwall-gjson
     group: deepin-sysdev-team
@@ -2999,6 +3099,10 @@ repos:
     group: deepin-sysdev-team
     info: Simple byte size formatting library
 
+  - repo: golang-github-transparency-dev-merkle #main
+    group: deepin-sysdev-team
+    info: create and manipulate Merkle trees in Go (library)
+
   - repo: golang-github-tsosunchia-powclient
     group: deepin-sysdev-team
     info: NEXTTRACE project derived repository for implementing POW anti-crawling
@@ -3027,6 +3131,10 @@ repos:
     group: deepin-sysdev-team
     info: package for building command line apps in Go
 
+  - repo: golang-github-urfave-cli-v2 #main
+    group: deepin-sysdev-team
+    info: package for building command line apps in Go (version 2)
+
   - repo: golang-github-valyala-bytebufferpool #main
     group: deepin-sysdev-team
     info: Anti-memory-waste byte buffer pool for go
@@ -3042,6 +3150,10 @@ repos:
   - repo: golang-github-vbauerster-mpb #main
     group: deepin-sysdev-team
     info: multi progress bar for Go cli applications
+
+  - repo: golang-github-veraison-go-cose #main
+    group: deepin-sysdev-team
+    info: go library for CBOR Object Signing and Encryption (COSE) (library)
 
   - repo: golang-github-vishvananda-netlink #main
     group: deepin-sysdev-team
@@ -3090,6 +3202,10 @@ repos:
   - repo: golang-github-zeebo-xxh3
     group: deepin-sysdev-team
     info: XXH3 algorithm in Go
+
+  - repo: golang-github-zmap-zlint #main
+    group: deepin-sysdev-team
+    info: X.509 Certificate Linter focused on Web PKI standards
 
   - repo: golang-go-patricia #main
     group: deepin-sysdev-team
@@ -3243,6 +3359,10 @@ repos:
     group: deepin-sysdev-team
     info: Golang JSON decoder library for kubernetes sig-api-machinery
 
+  - repo: golang-k8s-sigs-release-utils #main
+    group: deepin-sysdev-team
+    info: utilities for kubernetes Go release engineering (library)
+
   - repo: golang-k8s-sigs-structured-merge-diff
     group: deepin-sysdev-team
     info: implementation for "server-side apply" (library)
@@ -3302,6 +3422,10 @@ repos:
   - repo: golang-uber-goleak #main
     group: deepin-sysdev-team
     info: goroutine leak detector
+
+  - repo: golang-webpki-org-jsoncanonicalizer #main
+    group: deepin-sysdev-team
+    info: Golang library for a JCS (RFC 8785) compliant JSON canonicalizer
 
   - repo: goldendict
     group: deepin-sysdev-team
@@ -7230,6 +7354,10 @@ repos:
     group: deepin-sysdev-team
     info: Software Supply Chain Transparency Log (library)
 
+  - repo: relic #main
+    group: deepin-sysdev-team
+    info: packaging digital signature tools (library)
+
   - repo: remmina
     group: deepin-sysdev-team
     info: GTK+ Remote Desktop Client
@@ -8276,6 +8404,10 @@ repos:
   - repo: treeland
     group: deepin-sysdev-team
     info: A display manager and wayland compositer based on waylib
+
+  - repo: trillian #main
+    group: deepin-sysdev-team
+    info: transparent scalable and cryptographically verifiable data store (library)
 
   - repo: trimage
     group: deepin-sysdev-team

@@ -2157,6 +2157,10 @@ repos:
     group: deepin-sysdev-team
     info: better way to marshal and unmarshal YAML in Golang
 
+  - repo: golang-github-gin-contrib-sse #main
+    group: deepin-sysdev-team
+    info: Server-Sent Events implementation in Go
+
   - repo: golang-github-gin-gonic-gin
     group: deepin-sysdev-team
     info: HTTP web framework written in Go

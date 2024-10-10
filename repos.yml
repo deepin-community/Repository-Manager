@@ -6375,6 +6375,9 @@ repos:
     group: deepin-sysdev-team
     info: aafigure - ASCII art to image converter
 
+  - repo: python-absl #main
+    group: deepin-sysdev-team
+    info: Abseil Python Common Libraries
   - repo: python-annotated-types #main
     group: deepin-sysdev-team
     info: Reusable constraint types to use with typing.Annotated
@@ -8686,6 +8689,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: python-absl #main
-    group: deepin-sysdev-team
-    info: Abseil Python Common Libraries

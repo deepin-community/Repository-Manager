@@ -1647,6 +1647,10 @@ repos:
     group: deepin-sysdev-team
     info: declarative flag parsing for Go using struct tags
 
+  - repo: golang-github-antlr-antlr4 #main
+    group: deepin-sysdev-team
+    info: runtime library for ANTLR 4
+
   - repo: golang-github-appc-cni #main
     group: deepin-sysdev-team
     info: container network interface
@@ -2874,6 +2878,10 @@ repos:
   - repo: golang-github-stefanberger-go-pkcs11uri #main
     group: deepin-sysdev-team
     info: Golang pkcs11 URI library (library)
+
+  - repo: golang-github-stoewer-go-strcase #main
+    group: deepin-sysdev-team
+    info: go library for converting between naming formats
 
   - repo: golang-github-streadway-amqp #main
     group: deepin-sysdev-team

@@ -3051,6 +3051,10 @@ repos:
     group: deepin-sysdev-team
     info: network namespaces in go
 
+  - repo: golang-github-vividcortex-ewma #main
+    group: deepin-sysdev-team
+    info: Exponentially Weighted Moving Average algorithms for Go
+
   - repo: golang-github-vividcortex-gohistogram #main
     group: deepin-sysdev-team
     info: Streaming approximate histograms in Go (library)

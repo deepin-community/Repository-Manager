@@ -2779,6 +2779,10 @@ repos:
     group: deepin-sysdev-team
     info: fast generation of 192-bit UUIDs
 
+  - repo: golang-github-rs-xid #main
+    group: deepin-sysdev-team
+    info: globally unique id generator thought for the web
+
   - repo: golang-github-rwcarlsen-goexif
     group: deepin-sysdev-team
     info: Decode embedded EXIF meta data from image files with Go
@@ -6378,6 +6382,7 @@ repos:
   - repo: python-absl #main
     group: deepin-sysdev-team
     info: Abseil Python Common Libraries
+
   - repo: python-annotated-types #main
     group: deepin-sysdev-team
     info: Reusable constraint types to use with typing.Annotated

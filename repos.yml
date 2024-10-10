@@ -2205,6 +2205,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for struct and field validation
 
+  - repo: golang-github-go-test-deep #main
+    group: deepin-sysdev-team
+    info: Golang deep variable equality test that returns human-readable differences
+
   - repo: golang-github-gofrs-flock #main
     group: deepin-sysdev-team
     info: thread-safe file locking library in Golang
@@ -2428,6 +2432,10 @@ repos:
   - repo: golang-github-jonboulle-clockwork #main
     group: deepin-sysdev-team
     info: Simple fake clock for Go
+
+  - repo: golang-github-josharian-intern #main
+    group: deepin-sysdev-team
+    info: Intern string golang library
 
   - repo: golang-github-josharian-native
     group: deepin-sysdev-team
@@ -2999,7 +3007,7 @@ repos:
     group: deepin-sysdev-team
     info: part of the u-root project, which aims to create a root file system for embedded systems
 
-  - repo: golang-github-ugorji-go-codec
+  - repo: golang-github-ugorji-go-codec #main
     group: deepin-sysdev-team
     info: idiomatic codec and rpc lib for msgpack, cbor, json
 

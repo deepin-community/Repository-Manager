@@ -2177,6 +2177,10 @@ repos:
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
 
+  - repo: golang-github-go-openapi-jsonpointer #main
+    group: deepin-sysdev-team
+    info: fork of gojsonpointer with support for structs
+
   - repo: golang-github-go-openapi-jsonreference #main
     group: deepin-sysdev-team
     info: implementation of gojsonreference with struct support
@@ -2377,6 +2381,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for managing resctrl filesystem
 
+  - repo: golang-github-invopop-yaml #main
+    group: deepin-sysdev-team
+    info: better way to marshal and unmarshal YAML in Golang
+
   - repo: golang-github-ishidawataru-sctp #main
     group: deepin-sysdev-team
     info: SCTP library for the Go programming language
@@ -2509,6 +2517,10 @@ repos:
     group: deepin-sysdev-team
     info: Library for handling color spaces in Go
 
+  - repo: golang-github-mailru-easyjson #main
+    group: deepin-sysdev-team
+    info: Fast JSON serializer for golang
+
   - repo: golang-github-manifoldco-promptui #main
     group: deepin-sysdev-team
     info: Interactive prompt for command-line applications (library)
@@ -2600,6 +2612,10 @@ repos:
   - repo: golang-github-moby-term #main
     group: deepin-sysdev-team
     info: utilities for dealing with terminals
+
+  - repo: golang-github-mohae-deepcopy #main
+    group: deepin-sysdev-team
+    info: create deep copies of things
 
   - repo: golang-github-morikuni-aec #main
     group: deepin-sysdev-team
@@ -2750,6 +2766,10 @@ repos:
   - repo: golang-github-performancecopilot-speed #main
     group: deepin-sysdev-team
     info: Implementation of the PCP instrumentation API (library)
+
+  - repo: golang-github-perimeterx-marshmallow #main
+    group: deepin-sysdev-team
+    info: flexible and performant JSON unmarshalling in Go
 
   - repo: golang-github-philhofer-fwd #main
     group: deepin-sysdev-team

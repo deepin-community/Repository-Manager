@@ -2017,6 +2017,10 @@ repos:
     group: deepin-sysdev-team
     info: Regex engine for Go based on the .NET engine
 
+  - repo: golang-github-dnaeon-go-vcr #main
+    group: deepin-sysdev-team
+    info: Record and replay your HTTP interactions for tests
+
   - repo: golang-github-docker-docker-credential-helpers #main
     group: deepin-sysdev-team
     info: native stores to safeguard Docker credentials - library
@@ -2229,6 +2233,10 @@ repos:
     group: deepin-sysdev-team
     info: implementation of gojsonreference with struct support
 
+  - repo: golang-github-go-openapi-loads #main
+    group: deepin-sysdev-team
+    info: OpenAPI Specification object model
+
   - repo: golang-github-go-openapi-runtime #main
     group: deepin-sysdev-team
     info: OpenAPI runtime interfaces
@@ -2277,6 +2285,10 @@ repos:
     group: deepin-sysdev-team
     info: golang implementation of JSON Web Tokens (library)
 
+  - repo: golang-github-golang-leveldb #main
+    group: deepin-sysdev-team
+    info: Implementation of the LevelDB key/value database in Go
+
   - repo: golang-github-golang-protobuf-1-3 #main
     group: deepin-sysdev-team
     info: Go support for protocol buffers (version v1.3.x)
@@ -2304,6 +2316,10 @@ repos:
   - repo: golang-github-google-go-dap #main
     group: deepin-sysdev-team
     info: Go implementation of the Debug Adapter Protocol
+
+  - repo: golang-github-google-go-github #main
+    group: deepin-sysdev-team
+    info: Go library for accessing the GitHub API
 
   - repo: golang-github-google-go-intervals #main
     group: deepin-sysdev-team
@@ -2420,6 +2436,10 @@ repos:
   - repo: golang-github-hirochachacha-go-smb2
     group: deepin-sysdev-team
     info: SMB2/3 client library written in Go (library)
+
+  - repo: golang-github-howeyc-gopass #main
+    group: deepin-sysdev-team
+    info: getpasswd for Go
 
   - repo: golang-github-huandu-xstrings
     group: deepin-sysdev-team
@@ -3087,6 +3107,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library provides a fast implementation of XOR and SIMD (Single Instruction, Multiple Data) operations
 
+  - repo: golang-github-thales-e-security-pool #main
+    group: deepin-sysdev-team
+    info: Collection of go packages from Vitess (library)
+
   - repo: golang-github-thalesignite-crypto11 #main
     group: deepin-sysdev-team
     info: implementation of Golang crypto interfaces with PKCS#11 as backend
@@ -3207,6 +3231,10 @@ repos:
     group: deepin-sysdev-team
     info: Colorful terminal output for Golang
 
+  - repo: golang-github-x448-float16 #main
+    group: deepin-sysdev-team
+    info: IEEE 754 half-precision format (library)
+
   - repo: golang-github-xanzy-ssh-agent
     group: deepin-sysdev-team
     info: Go library for creating SSH agents
@@ -3314,6 +3342,10 @@ repos:
   - repo: golang-goleveldb
     group: deepin-sysdev-team
     info: LevelDB key/value database in Go
+
+  - repo: golang-gomemcache #main
+    group: deepin-sysdev-team
+    info: Go memcached client library
 
   - repo: golang-gonum-v1-gonum #main
     group: deepin-sysdev-team

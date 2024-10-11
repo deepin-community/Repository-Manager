@@ -8921,3 +8921,7 @@ repos:
   - repo: rnp
     group: deepin-sysdev-team
     info: Cross-platform OpenPGP (RFC4880) tools
+
+  - repo: sexpp
+    group: deepin-sysdev-team
+    info: S-expressions parser and generator

@@ -2313,6 +2313,10 @@ repos:
     group: deepin-sysdev-team
     info: Protocol buffer models for gnostic
 
+  - repo: golang-github-google-go-cmp #main
+    group: deepin-sysdev-team
+    info: Package for comparing Go values in tests
+
   - repo: golang-github-google-go-dap #main
     group: deepin-sysdev-team
     info: Go implementation of the Debug Adapter Protocol
@@ -3458,6 +3462,10 @@ repos:
   - repo: golang-logrus #main
     group: deepin-sysdev-team
     info: a logging library for Go
+
+  - repo: golang-mongodb-mongo-driver #main
+    group: deepin-sysdev-team
+    info: MongoDB official driver for Go
 
   - repo: golang-objx #main
     group: deepin-sysdev-team

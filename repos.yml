@@ -1825,6 +1825,10 @@ repos:
     group: deepin-sysdev-team
     info: Native go client library for HDFS
 
+  - repo: golang-github-common-nighthawk-go-figure #main
+    group: deepin-sysdev-team
+    info: library to print ASCII art from text in Go (library)
+
   - repo: golang-github-containerd-btrfs #main
     group: deepin-sysdev-team
     info: Btrfs bindings for Go
@@ -2121,6 +2125,10 @@ repos:
     group: deepin-sysdev-team
     info: sort orders and comparison functions
 
+  - repo: golang-github-fxamacker-cbor #main
+    group: deepin-sysdev-team
+    info: CBOR codec implementing RFCs 7049 & 8949 (library)
+
   - repo: golang-github-gabriel-vasile-mimetype
     group: deepin-sysdev-team
     info: fast Go library for detecting MIME types and extensions based on magic numbers
@@ -2204,6 +2212,10 @@ repos:
   - repo: golang-github-go-macaron-toolbox
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
+
+  - repo: golang-github-go-openapi-analysis #main
+    group: deepin-sysdev-team
+    info: OpenAPI Specification object model analyser
 
   - repo: golang-github-go-openapi-errors #main
     group: deepin-sysdev-team
@@ -2573,6 +2585,10 @@ repos:
     group: deepin-sysdev-team
     info: library for generating code based on Go files
 
+  - repo: golang-github-kylelemons-godebug #main
+    group: deepin-sysdev-team
+    info: Debugging helper utilities for Go
+
   - repo: golang-github-leodido-go-urn
     group: deepin-sysdev-team
     info: Go parser for Uniform Resource Names
@@ -2752,6 +2768,10 @@ repos:
   - repo: golang-github-nytimes-gziphandler #main
     group: deepin-sysdev-team
     info: Golang middleware to gzip HTTP responses
+
+  - repo: golang-github-oklog-ulid #main
+    group: deepin-sysdev-team
+    info: ULID generation library for Golang
 
   - repo: golang-github-okzk-sdnotify
     group: deepin-sysdev-team
@@ -3199,6 +3219,10 @@ repos:
     group: deepin-sysdev-team
     info: simple ASCII tree composing tool
 
+  - repo: golang-github-xrash-smetrics #main
+    group: deepin-sysdev-team
+    info: String metrics library written in Go
+
   - repo: golang-github-xtaci-kcp #main
     group: deepin-sysdev-team
     info: Full-Featured Reliable-UDP Library for golang
@@ -3210,6 +3234,10 @@ repos:
   - repo: golang-github-zeebo-assert
     group: deepin-sysdev-team
     info: Helper package for golang tests
+
+  - repo: golang-github-zeebo-errs #main
+    group: deepin-sysdev-team
+    info: errs is a Go library for error handling
 
   - repo: golang-github-zeebo-xxh3
     group: deepin-sysdev-team
@@ -7422,6 +7450,10 @@ repos:
     group: deepin-sysdev-team
     info: neccessary dependency for easyeffects
 
+  - repo: rnp
+    group: deepin-sysdev-team
+    info: Cross-platform OpenPGP (RFC4880) tools
+
   - repo: roc-toolkit #main
     group: deepin-sysdev-team
     info: real-time audio streaming over the network
@@ -8013,6 +8045,10 @@ repos:
   - repo: sensors-applet
     group: deepin-sysdev-team
     info: Display readings from hardware sensors in your Gnome panel
+
+  - repo: sexpp
+    group: deepin-sysdev-team
+    info: S-expressions parser and generator
 
   - repo: sgml-data
     group: deepin-sysdev-team
@@ -8930,10 +8966,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: rnp
-    group: deepin-sysdev-team
-    info: Cross-platform OpenPGP (RFC4880) tools
-
-  - repo: sexpp
-    group: deepin-sysdev-team
-    info: S-expressions parser and generator

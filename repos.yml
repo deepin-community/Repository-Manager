@@ -3207,6 +3207,10 @@ repos:
     group: deepin-sysdev-team
     info: XXH3 algorithm in Go
 
+  - repo: golang-github-zmap-zcrypto #main
+    group: deepin-sysdev-team
+    info: Liberal Go TLS + X.509 Library for Research
+
   - repo: golang-github-zmap-zlint #main
     group: deepin-sysdev-team
     info: X.509 Certificate Linter focused on Web PKI standards

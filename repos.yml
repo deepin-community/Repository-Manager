@@ -2765,6 +2765,10 @@ repos:
     group: deepin-sysdev-team
     info: BDD Testing Framework for Go
 
+  - repo: golang-github-op-go-logging #main
+    group: deepin-sysdev-team
+    info: Golang logging library
+
   - repo: golang-github-opencontainers-go-digest #main
     group: deepin-sysdev-team
     info: Common digest package used across the container ecosystem
@@ -3175,6 +3179,10 @@ repos:
     group: deepin-sysdev-team
     info: Streaming approximate histograms in Go (library)
 
+  - repo: golang-github-weppos-publicsuffix-go #main
+    group: deepin-sysdev-team
+    info: Domain name parser on the Public Suffix List
+
   - repo: golang-github-wsxiaoys-terminal
     group: deepin-sysdev-team
     info: Colorful terminal output for Golang
@@ -3206,6 +3214,10 @@ repos:
   - repo: golang-github-zeebo-xxh3
     group: deepin-sysdev-team
     info: XXH3 algorithm in Go
+
+  - repo: golang-github-zmap-rc2 #main
+    group: deepin-sysdev-team
+    info: RC2 Cipher in Golang
 
   - repo: golang-github-zmap-zcrypto #main
     group: deepin-sysdev-team

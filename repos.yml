@@ -3255,6 +3255,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for creating SSH agents
 
+  - repo: golang-github-xdg-go-scram #main
+    group: deepin-sysdev-team
+    info: RFC-5802 SCRAM in Go (library)
+
   - repo: golang-github-xiang90-probing #main
     group: deepin-sysdev-team
     info: Go library for HTTP probing
@@ -3510,6 +3514,10 @@ repos:
   - repo: golang-rsc-pdf #main
     group: deepin-sysdev-team
     info: Golang library that provides a reader for the PDF format
+
+  - repo: golang-sslmate-src-go-pkcs12 #main
+    group: deepin-sysdev-team
+    info: Go library for encoding and decoding PKCS#12 files (library)
 
   - repo: golang-starlark #main
     group: deepin-sysdev-team

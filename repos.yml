@@ -2801,6 +2801,10 @@ repos:
     group: deepin-sysdev-team
     info: Golang middleware to gzip HTTP responses
 
+  - repo: golang-github-oklog-run #main
+    group: deepin-sysdev-team
+    info: Universal mechanism to manage goroutine lifecycles
+
   - repo: golang-github-oklog-ulid #main
     group: deepin-sysdev-team
     info: ULID generation library for Golang

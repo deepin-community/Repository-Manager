@@ -2457,6 +2457,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ symbol name demangler written in Go
 
+  - repo: golang-github-ibm-sarama #main
+    group: deepin-sysdev-team
+    info: Client library for Apache Kafka
+
   - repo: golang-github-iguanesolutions-go-systemd
     group: deepin-sysdev-team
     info: Golang bindings for systemd (library)
@@ -2954,6 +2958,10 @@ repos:
   - repo: golang-github-putdotio-go-putio
     group: deepin-sysdev-team
     info: Put.io Go API client
+
+  - repo: golang-github-rabbitmq-amqp091-go #main
+    group: deepin-sysdev-team
+    info: Go client for AMQP 0.9.1 (library)
 
   - repo: golang-github-racksec-srslog #main
     group: deepin-sysdev-team

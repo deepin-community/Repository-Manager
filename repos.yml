@@ -2277,6 +2277,10 @@ repos:
     group: deepin-sysdev-team
     info: thread-safe file locking library in Golang
 
+  - repo: golang-github-gofrs-uuid #main
+    group: deepin-sysdev-team
+    info: UUID library for Golang
+
   - repo: golang-github-gogo-googleapis #main
     group: deepin-sysdev-team
     info: googleapis generated with gogoprotobuf
@@ -2729,6 +2733,10 @@ repos:
     group: deepin-sysdev-team
     info: create deep copies of things
 
+  - repo: golang-github-montanaflynn-stats #main
+    group: deepin-sysdev-team
+    info: Statistics package for Go
+
   - repo: golang-github-morikuni-aec #main
     group: deepin-sysdev-team
     info: Golang wrapper for ANSI escape code
@@ -2910,6 +2918,10 @@ repos:
   - repo: golang-github-pkg-xattr
     group: deepin-sysdev-team
     info: Extended attribute support for Go
+
+  - repo: golang-github-pquerna-cachecontrol #main
+    group: deepin-sysdev-team
+    info: HTTP Cache-Control Parser and Interpretation
 
   - repo: golang-github-pquerna-ffjson #main
     group: deepin-sysdev-team
@@ -3263,6 +3275,10 @@ repos:
     group: deepin-sysdev-team
     info: Go package to parse and convert private keys in PKCS#8 format (library)
 
+  - repo: golang-github-zalando-go-keyring #main
+    group: deepin-sysdev-team
+    info: Cross-platform keyring interface for Go (library)
+
   - repo: golang-github-zeebo-assert
     group: deepin-sysdev-team
     info: Helper package for golang tests
@@ -3343,7 +3359,7 @@ repos:
     group: deepin-sysdev-team
     info: Go Vulnerability Management
 
-  - repo: golang-goleveldb
+  - repo: golang-goleveldb #main
     group: deepin-sysdev-team
     info: LevelDB key/value database in Go
 

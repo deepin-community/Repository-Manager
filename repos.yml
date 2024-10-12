@@ -3431,6 +3431,10 @@ repos:
     group: deepin-sysdev-team
     info: modular web framework in Go
 
+  - repo: golang-gopkg-natefinch-lumberjack.v2 #main
+    group: deepin-sysdev-team
+    info: Go package for writing logs to rolling files
+
   - repo: golang-gopkg-rethinkdb-rethinkdb-go.v6 #main
     group: deepin-sysdev-team
     info: Go language driver for RethinkDB (library)

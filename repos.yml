@@ -1821,6 +1821,10 @@ repos:
     group: deepin-sysdev-team
     info: Software-based two-man rule style (development files)
 
+  - repo: golang-github-cockroachdb-cockroach-go #main
+    group: deepin-sysdev-team
+    info: Packages for go clients.
+
   - repo: golang-github-cockroachdb-datadriven #main
     group: deepin-sysdev-team
     info: extension of Table-Driven Testing (library)
@@ -2252,6 +2256,10 @@ repos:
   - repo: golang-github-go-openapi-runtime #main
     group: deepin-sysdev-team
     info: OpenAPI runtime interfaces
+
+  - repo: golang-github-go-openapi-spec #main
+    group: deepin-sysdev-team
+    info: OpenAPI specification object model
 
   - repo: golang-github-go-openapi-strfmt #main
     group: deepin-sysdev-team

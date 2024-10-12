@@ -3055,6 +3055,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for Apache Kafka
 
+  - repo: golang-github-shopspring-decimal #main
+    group: deepin-sysdev-team
+    info: arbitrary-precision fixed-point decimal numbers in go
+
   - repo: golang-github-sigstore-fulcio #main
     group: deepin-sysdev-team
     info: Sigstore OIDC PKI (library)
@@ -3262,6 +3266,10 @@ repos:
   - repo: golang-github-xdg-go-scram #main
     group: deepin-sysdev-team
     info: RFC-5802 SCRAM in Go (library)
+
+  - repo: golang-github-xdg-go-stringprep #main
+    group: deepin-sysdev-team
+    info: RFC-3454 stringprep and RFC-4013 SASLprep in Go (library)
 
   - repo: golang-github-xiang90-probing #main
     group: deepin-sysdev-team

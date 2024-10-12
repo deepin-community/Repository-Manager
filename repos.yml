@@ -1535,6 +1535,10 @@ repos:
     group: deepin-sysdev-team
     info: FUSE library for Go
 
+  - repo: golang-bitbucket-creachadair-shell #main
+    group: deepin-sysdev-team
+    info: implements basic shell command-line splitting for Go (library)
+
   - repo: golang-blackfriday #main
     group: deepin-sysdev-team
     info: Blackfriday a markdown processor for Go
@@ -2069,6 +2073,10 @@ repos:
     group: deepin-sysdev-team
     info: Go implementation of Javascript Object Signing and Encryption
 
+  - repo: golang-github-eapache-go-resiliency #main
+    group: deepin-sysdev-team
+    info: Resiliency patterns for golang (library)
+
   - repo: golang-github-eapache-go-xerial-snappy #main
     group: deepin-sysdev-team
     info: Xerial-compatible Snappy framing support for Go
@@ -2116,6 +2124,10 @@ repos:
   - repo: golang-github-fluent-fluent-logger-golang #main
     group: deepin-sysdev-team
     info: Go structured logger for Fluentd
+
+  - repo: golang-github-fortytw2-leaktest #main
+    group: deepin-sysdev-team
+    info: Goroutine Leak Detector
 
   - repo: golang-github-fsouza-go-dockerclient #main
     group: deepin-sysdev-team

@@ -8477,6 +8477,10 @@ repos:
     group: deepin-sysdev-team
     info: Module for creating simple ASCII tables — python3.
 
+  - repo: tftp-hpa #main
+    group: deepin-sysdev-team
+    info: tftp-hpa
+
   - repo: thrift #main
     group: deepin-sysdev-team
     info: The Apache Thrift software framework for scalable cross-language services development

@@ -8118,6 +8118,10 @@ repos:
     group: deepin-sysdev-team
     info: structured access to bytevector contents 
 
+  - repo: sccache
+    group: deepin-sysdev-team
+    info: compiler cache for fast recompilation of C/C++/Rust code
+
   - repo: schroot
     group: deepin-sysdev-team
     info: Execute commands in a chroot environment

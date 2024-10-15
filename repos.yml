@@ -520,6 +520,10 @@ repos:
     group: deepin-sysdev-team
     info: Apache Commons Text
 
+  - repo: configobj #main
+    group: deepin-sysdev-team
+    info: simple but powerful config file reader and writer
+
   - repo: conky
     group: deepin-sysdev-team
     info: highly configurable system monitor
@@ -6457,6 +6461,10 @@ repos:
     group: deepin-sysdev-team
     info: bring colors to your terminal
 
+  - repo: patiencediff #main
+    group: deepin-sysdev-team
+    info: diff implementation with balanced performance, output and implementation
+
   - repo: patool
     group: deepin-sysdev-team
     info: command line archive file manager
@@ -6929,6 +6937,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: python-fastbencode #main
+    group: deepin-sysdev-team
+    info: Fast bencode implementation
+
   - repo: python-fastjsonschema #main
     group: deepin-sysdev-team
     info: validation of JSON documents by JSON schema drafts 04/06/07
@@ -7043,6 +7055,10 @@ repos:
     group: deepin-sysdev-team
     info: Kerberos KDC HTTP proxy WSGI module
 
+  - repo: python-launchpadlib #main
+    group: deepin-sysdev-team
+    info: Launchpad web services client library
+
   - repo: python-license-expression
     group: deepin-sysdev-team
     info: small library to handle license expressions
@@ -7070,6 +7086,10 @@ repos:
   - repo: python-meld3
     group: deepin-sysdev-team
     info: meld3 is an HTML/XML templating system for Python 2.3+
+
+  - repo: python-merge3 #main
+    group: deepin-sysdev-team
+    info: Python implementation of three-way merge
 
   - repo: python-mistletoe #main
     group: deepin-sysdev-team
@@ -7204,6 +7224,10 @@ repos:
   - repo: python-seedir #main
     group: deepin-sysdev-team
     info: Package for creating, editing, and reading folder tree diagrams
+
+  - repo: python-setuptools-gettext #main
+    group: deepin-sysdev-team
+    info: Setuptools gettext extension plugin
 
   - repo: python-setuptools-rust #main
     group: deepin-sysdev-team

@@ -4306,6 +4306,10 @@ repos:
       Larch is a tool to copy messages from one IMAP server to another quickly
       and safely.
 
+  - repo: lazr.uri #main
+    group: deepin-sysdev-team
+    info: library for parsing, manipulating, and generating URIs
+
   - repo: lazy-loader #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -7340,6 +7344,10 @@ repos:
   - repo: python-virtualenv #main
     group: deepin-sysdev-team
     info: Python virtual environment creator
+
+  - repo: python-wadllib #main
+    group: deepin-sysdev-team
+    info: Python 3 library for navigating WADL files
 
   - repo: python-werkzeug #main
     group: deepin-sysdev-team

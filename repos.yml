@@ -326,6 +326,10 @@ repos:
     group: deepin-sysdev-team
     info: Braa is a mass snmp scanner.
 
+  - repo: breezy #main
+    group: deepin-sysdev-team
+    info: easy to use distributed version control system
+
   - repo: brise
     group: deepin-sysdev-team
     info:
@@ -8114,13 +8118,13 @@ repos:
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
 
-  - repo: scheme-bytestructures
-    group: deepin-sysdev-team
-    info: structured access to bytevector contents 
-
   - repo: sccache
     group: deepin-sysdev-team
     info: compiler cache for fast recompilation of C/C++/Rust code
+
+  - repo: scheme-bytestructures
+    group: deepin-sysdev-team
+    info: structured access to bytevector contents
 
   - repo: schroot
     group: deepin-sysdev-team

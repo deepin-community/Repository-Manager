@@ -9169,4 +9169,7 @@ repos:
   - repo: libtest-synopsis-expectation-perl #main
     group: deepin-sysdev-team
     info: zilla  
-    
+
+  - repo: libdist-zilla-perl #main
+    group: deepin-sysdev-team
+    info: zilla  

@@ -750,6 +750,10 @@ repos:
     group: deepin-sysdev-team
     info: Debhelper programs for CMake projects
 
+  - repo: dh-dist-zilla #main
+    group: deepin-sysdev-team
+    info: zilla
+
   - repo: dh-nss
     group: deepin-sysdev-team
     info: debhelper addon to inject NSS services into /etc/nsswitch.conf
@@ -4494,6 +4498,30 @@ repos:
     group: deepin-sysdev-team
     info: This library parse EDID and DisplayID
 
+  - repo: libdist-zilla-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-podweaver-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-prepender-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-run-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-signature-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugins-cjm-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
   - repo: libdumbtts #main
     group: deepin-sysdev-team
     info: Helper library for dumb speech synthesizers
@@ -4804,6 +4832,14 @@ repos:
     group: deepin-sysdev-team
     info: lightweight object framework for Perl
 
+  - repo: libmousex-nativetraits-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libmousex-strictconstructor-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
   - repo: libmousex-types-perl #main
     group: deepin-sysdev-team
     info: Mouse extension to organise types in libraries
@@ -4994,6 +5030,14 @@ repos:
     group: deepin-sysdev-team
     info: interface between web servers and Perl web applications
 
+  - repo: libpod-elemental-transformer-list-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libpod-weaver-section-support-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
   - repo: libpodofo
     group: deepin-sysdev-team
     info: Library to work with the PDF file format
@@ -5153,6 +5197,10 @@ repos:
   - repo: libtest-randomresult-perl #main
     group: deepin-sysdev-team
     info: module to test that results of a running code look random
+
+  - repo: libtest-synopsis-expectation-perl #main
+    group: deepin-sysdev-team
+    info: zilla
 
   - repo: libtest-tcp-perl
     group: deepin-sysdev-team
@@ -6209,9 +6257,9 @@ repos:
       This package provides a PEM file reader for Network Security Services (NSS),
       implemented as a PKCS#11 module.
 
-  - repo: ntpsec
+  - repo: ntpsec #main
     group: deepin-sysdev-team
-    info: Network Time Protocol daemon/utilities (transitional package).
+    info: Network Time Protocol daemon and utility programs
 
   - repo: numba #main
     group: deepin-sysdev-team
@@ -9122,54 +9170,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: ntpsec #main
-    group: deepin-sysdev-team
-    info: Network Time Protocol daemon and utility programs
-    
-  - repo: dh-dist-zilla #main
-    group: deepin-sysdev-team
-    info: zilla
-    
-  - repo: libdist-zilla-plugin-podweaver-perl #main
-    group: deepin-sysdev-team
-    info: zilla
-    
-  - repo: libdist-zilla-plugin-prepender-perl #main
-    group: deepin-sysdev-team
-    info: zilla
-
-  - repo: libdist-zilla-plugin-run-perl #main
-    group: deepin-sysdev-team
-    info: zilla
-
-  - repo: libdist-zilla-plugin-signature-perl #main
-    group: deepin-sysdev-team
-    info: zilla
-
-  - repo: libdist-zilla-plugins-cjm-perl #main
-    group: deepin-sysdev-team
-    info: zilla  
-
-  - repo: libpod-elemental-transformer-list-perl #main
-    group: deepin-sysdev-team
-    info: zilla  
-    
-  - repo: libpod-weaver-section-support-perl #main
-    group: deepin-sysdev-team
-    info: zilla  
-
-  - repo: libmousex-nativetraits-perl #main
-    group: deepin-sysdev-team
-    info: zilla  
-
-  - repo: libmousex-strictconstructor-perl #main
-    group: deepin-sysdev-team
-    info: zilla  
-
-  - repo: libtest-synopsis-expectation-perl #main
-    group: deepin-sysdev-team
-    info: zilla  
-
-  - repo: libdist-zilla-perl #main
-    group: deepin-sysdev-team
-    info: zilla  

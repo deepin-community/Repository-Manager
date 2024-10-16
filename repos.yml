@@ -9125,4 +9125,48 @@ repos:
   - repo: ntpsec #main
     group: deepin-sysdev-team
     info: Network Time Protocol daemon and utility programs
+    
+  - repo: dh-dist-zilla #main
+    group: deepin-sysdev-team
+    info: zilla
+    
+  - repo: libdist-zilla-plugin-podweaver-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+    
+  - repo: libdist-zilla-plugin-prepender-perl #main
+    group: deepin-sysdev-team
+    info: zilla
 
+  - repo: libdist-zilla-plugin-run-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-signature-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugins-cjm-perl #main
+    group: deepin-sysdev-team
+    info: zilla  
+
+  - repo: libpod-elemental-transformer-list-perl #main
+    group: deepin-sysdev-team
+    info: zilla  
+    
+  - repo: libpod-weaver-section-support-perl #main
+    group: deepin-sysdev-team
+    info: zilla  
+
+  - repo: libmousex-nativetraits-perl #main
+    group: deepin-sysdev-team
+    info: zilla  
+
+  - repo: libmousex-strictconstructor-perl #main
+    group: deepin-sysdev-team
+    info: zilla  
+
+  - repo: libtest-synopsis-expectation-perl #main
+    group: deepin-sysdev-team
+    info: zilla  
+    

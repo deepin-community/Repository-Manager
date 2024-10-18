@@ -7824,6 +7824,10 @@ repos:
     group: deepin-sysdev-team
     info: __attribute__((constructor)) for Rust.
 
+  - repo: rust-defaults #main
+    group: deepin-sysdev-team
+    info: Meta-package for default Rust toolchains
+
   - repo: rust-derive-arbitrary
     group: deepin-sysdev-team
     info:

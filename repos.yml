@@ -710,6 +710,14 @@ repos:
     group: deepin-sysdev-team
     info: Deepin New Desktop Environment - Next
 
+  - repo: deepin-distrobox-installer #main
+    group: deepin-sysdev-team
+    info: Distrobox installation helper for deepin.
+
+  - repo: deepin-distrobox-ubuntu #main
+    group: deepin-sysdev-team
+    info: Ubuntu 20.04 Distrobox container for deepin.
+
   - repo: deepin-dtk5-helper
     group: deepin-qt-team
     info: Dtk 5 Development environment one-click installation of the meta-software package

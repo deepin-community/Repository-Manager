@@ -9185,3 +9185,7 @@ repos:
   - repo: libwebm #main
     group: deepin-sysdev-team
     info: WebM 解析器软件库
+
+  - repo: kf6-kitemmodels #main
+    group: deepin-sysdev-team
+    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持

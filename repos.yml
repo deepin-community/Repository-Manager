@@ -9189,3 +9189,8 @@ repos:
   - repo: kf6-kitemmodels #main
     group: deepin-sysdev-team
     info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
+  - repo: kf6-extra-cmake-modules #main
+    group: deepin-sysdev-team
+    info: 提供一系列扩展 CMake 支持的模块
+

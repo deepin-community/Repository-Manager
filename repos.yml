@@ -9185,6 +9185,10 @@ repos:
   - repo: libwebm #main
     group: deepin-sysdev-team
     info: WebM 解析器软件库
+    
+  - repo: mimalloc #main
+    group: deepin-sysdev-team
+    info: compact general purpose allocator with excellent performance
 
   - repo: kf6-kitemmodels #main
     group: deepin-sysdev-team
@@ -9193,4 +9197,3 @@ repos:
   - repo: kf6-extra-cmake-modules #main
     group: deepin-sysdev-team
     info: 提供一系列扩展 CMake 支持的模块
-

@@ -710,6 +710,14 @@ repos:
     group: deepin-sysdev-team
     info: Deepin New Desktop Environment - Next
 
+  - repo: deepin-distrobox-installer #main
+    group: deepin-sysdev-team
+    info: Distrobox installation helper for deepin.
+
+  - repo: deepin-distrobox-ubuntu #main
+    group: deepin-sysdev-team
+    info: Ubuntu 20.04 Distrobox container for deepin.
+
   - repo: deepin-dtk5-helper
     group: deepin-qt-team
     info: Dtk 5 Development environment one-click installation of the meta-software package
@@ -9181,3 +9189,11 @@ repos:
   - repo: mimalloc #main
     group: deepin-sysdev-team
     info: compact general purpose allocator with excellent performance
+
+  - repo: kf6-kitemmodels #main
+    group: deepin-sysdev-team
+    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
+  - repo: kf6-extra-cmake-modules #main
+    group: deepin-sysdev-team
+    info: 提供一系列扩展 CMake 支持的模块

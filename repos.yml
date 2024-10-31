@@ -9177,3 +9177,7 @@ repos:
   - repo: libwebm #main
     group: deepin-sysdev-team
     info: WebM 解析器软件库
+    
+  - repo: mimalloc #main
+    group: deepin-sysdev-team
+    info: compact general purpose allocator with excellent performance

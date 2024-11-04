@@ -9197,3 +9197,7 @@ repos:
   - repo: kf6-extra-cmake-modules #main
     group: deepin-sysdev-team
     info: 提供一系列扩展 CMake 支持的模块
+
+  - repo: sphinx-sitemap # main
+    group: deepin-sysdev-team
+    info: A python binding package for generating sitemap

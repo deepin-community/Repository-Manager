@@ -400,6 +400,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to decode/encode the sample catalogue for OpenTTD
 
+  - repo: ccls
+    group: deepin-sysdev-team
+    info: C/C++/ObjC language server
+
   - repo: chafa #main
     group: deepin-sysdev-team
     info: ASCII art image generator

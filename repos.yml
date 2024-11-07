@@ -4260,6 +4260,14 @@ repos:
     group: deepin-sysdev-team
     info: tools to support fast kexec reboots.
 
+  - repo: kf6-extra-cmake-modules #main
+    group: deepin-sysdev-team
+    info: 提供一系列扩展 CMake 支持的模块
+
+  - repo: kf6-kitemmodels #main
+    group: deepin-sysdev-team
+    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
   - repo: kissfft
     group: deepin-sysdev-team
     info: A Fast Fourier Transform library
@@ -5278,6 +5286,10 @@ repos:
     group: deepin-surface
     info: Patches to support Microsoft Surface Devices with libwacom
 
+  - repo: libwebm #main
+    group: deepin-sysdev-team
+    info: WebM 解析器软件库
+
   - repo: libwebsockets #main
     group: deepin-sysdev-team
     info: lightweight C websockets library - development files
@@ -5550,6 +5562,10 @@ repos:
   - repo: microprofile
     group: deepin-sysdev-team
     info: MicroProfile is a specification for Enterprise Java microservices.
+
+  - repo: mimalloc #main
+    group: deepin-sysdev-team
+    info: compact general purpose allocator with excellent performance
 
   - repo: mimepull
     group: deepin-sysdev-team
@@ -8407,6 +8423,10 @@ repos:
     group: deepin-sysdev-team
     info: extension for Sphinx projects that handles redirects
 
+  - repo: sphinx-sitemap # main
+    group: deepin-sysdev-team
+    info: A python binding package for generating sitemap
+
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team
     info: extension to include jQuery on newer Sphinx releases
@@ -9186,22 +9206,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: libwebm #main
-    group: deepin-sysdev-team
-    info: WebM 解析器软件库
-    
-  - repo: mimalloc #main
-    group: deepin-sysdev-team
-    info: compact general purpose allocator with excellent performance
-
-  - repo: kf6-kitemmodels #main
-    group: deepin-sysdev-team
-    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
-
-  - repo: kf6-extra-cmake-modules #main
-    group: deepin-sysdev-team
-    info: 提供一系列扩展 CMake 支持的模块
-
-  - repo: sphinx-sitemap # main
-    group: deepin-sysdev-team
-    info: A python binding package for generating sitemap

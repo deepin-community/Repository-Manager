@@ -5985,6 +5985,10 @@ repos:
     group: deepin-sysdev-team
     info: Map of nouns to their irregular plural form
 
+  - repo: node-istextorbinary
+    group: deepin-sysdev-team
+    info: Determine if a filename and/or buffer is text or binary
+
   - repo: node-jasmine #main
     group: deepin-sysdev-team
     info: Behavior Driven Development testing framework for JavaScript
@@ -6083,6 +6087,10 @@ repos:
     group: deepin-sysdev-team
     info: Nock is an HTTP mocking and expectations library for Node.js
 
+  - repo: node-pako
+    group: deepin-sysdev-team
+    info: fast zlib port to pure javascript
+
   - repo: node-parents #main
     group: deepin-sysdev-team
     info: Node.js module returning all the parent directories
@@ -6126,6 +6134,10 @@ repos:
   - repo: node-proxy-from-env #main
     group: deepin-sysdev-team
     info: offers getProxyForUrl to get the proxy URL for a URL
+
+  - repo: node-puka
+    group: deepin-sysdev-team
+    info: Safely pass strings through shells - Node.js module
 
   - repo: node-pure-rand #main
     group: deepin-sysdev-team

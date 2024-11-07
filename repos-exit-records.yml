@@ -49,3 +49,8 @@ repos:
   - repo: node-https-proxy-agent
     group: deepin-sysdev-team
     notes: obsolete source package
+
+  - repo: pkg-config
+    group: deepin-sysdev-team
+    notes: replaced by pkgconf
+    

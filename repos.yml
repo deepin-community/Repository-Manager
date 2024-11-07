@@ -5869,6 +5869,10 @@ repos:
     group: deepin-sysdev-team
     info: Node.js library to compare, format, diff and serialize any JavaScript value
 
+  - repo: node-corepack
+    group: deepin-sysdev-team
+    info: Access npm, Yarn and pnpm without having to install them
+
   - repo: node-cosmiconfig #main
     group: deepin-sysdev-team
     info: Find and load configuration from different locations
@@ -9189,3 +9193,19 @@ repos:
   - repo: libqalculate
     group: deepin-sysdev-team
     info: Powerful and easy to use desktop calculator
+    
+  - repo: mimalloc #main
+    group: deepin-sysdev-team
+    info: compact general purpose allocator with excellent performance
+
+  - repo: kf6-kitemmodels #main
+    group: deepin-sysdev-team
+    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
+  - repo: kf6-extra-cmake-modules #main
+    group: deepin-sysdev-team
+    info: 提供一系列扩展 CMake 支持的模块
+
+  - repo: sphinx-sitemap # main
+    group: deepin-sysdev-team
+    info: A python binding package for generating sitemap

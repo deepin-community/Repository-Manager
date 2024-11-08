@@ -1783,6 +1783,10 @@ repos:
     group: deepin-sysdev-team
     info: experiments for a seekable gzip for use in rclone based on pgzip (library)
 
+  - repo: golang-github-buger-goterm #main
+    group: deepin-sysdev-team
+    info: advanced terminal output in Golang
+
   - repo: golang-github-bugsnag-bugsnag-go #main
     group: deepin-sysdev-team
     info: automatic panic monitoring for Go applications
@@ -1925,6 +1929,11 @@ repos:
     group: deepin-sysdev-team
     info: Common files for github.com/containers repositories (library)
 
+  - repo: golang-github-containers-gvisor-tap-vsocks #main
+    group: deepin-sysdev-team
+    info: Secure networking stack for container runtimes (program)
+    info: Secure networking stack for container runtimes (program)
+
   - repo: golang-github-containers-image #main
     group: deepin-sysdev-team
     info: golang library to work with containers' images
@@ -1940,6 +1949,10 @@ repos:
   - repo: golang-github-containers-ocicrypt #main
     group: deepin-sysdev-team
     info: Encryption libraries for Encrypted OCI Container images (library)
+
+  - repo: golang-github-containers-psgo #main
+    group: deepin-sysdev-team
+    info: ps(1) AIX-format compatible Golang library
 
   - repo: golang-github-containers-storage #main
     group: deepin-sysdev-team
@@ -1969,9 +1982,17 @@ repos:
     group: deepin-sysdev-team
     info: Go library for semantic versioning
 
+  - repo: golang-github-coreos-stream-metadata-go #main
+    group: deepin-sysdev-team
+    info: Go library for parsing Fedora CoreOS streams (library)
+
   - repo: golang-github-cosiner-argv #main
     group: deepin-sysdev-team
     info: Argv allows splitting a command line string into an arguments slice
+
+  - repo: golang-github-crc-org-crc #main
+    group: deepin-sysdev-team
+    info: Helper tool for running containers - development files
 
   - repo: golang-github-cyphar-filepath-securejoin #main
     group: deepin-sysdev-team
@@ -2025,6 +2046,14 @@ repos:
     group: deepin-sysdev-team
     info: go-rc2 Library for golang
 
+  - repo: golang-github-digitalocean-go-libvirt #main
+    group: deepin-sysdev-team
+    info: Pure Go interface for interacting with libvirt (library)
+
+  - repo: golang-github-digitalocean-go-qemu #main
+    group: deepin-sysdev-team
+    info: Go packages to interact with QEMU using the QEMU Machine Protocol
+
   - repo: golang-github-dimchansky-utfbom
     group: deepin-sysdev-team
     info: Detection of the BOM and removing as necessary
@@ -2073,6 +2102,10 @@ repos:
     group: deepin-sysdev-team
     info: Package for metrics collection in Docker projects
 
+  - repo: golang-github-docker-go-plugins-helpers #main
+    group: deepin-sysdev-team
+    info: Helper packages to extend Docker Engine in Golang
+
   - repo: golang-github-docker-go-units #main
     group: deepin-sysdev-team
     info: parse and print size and time units in human-readable format
@@ -2096,6 +2129,10 @@ repos:
   - repo: golang-github-dropbox-dropbox-sdk-go-unofficial
     group: deepin-sysdev-team
     info: Unofficial Go SDK for integrating with the Dropbox API v2
+
+  - repo: golang-github-dtylman-scp #main
+    group: deepin-sysdev-team
+    info: A simple go scp client (library)
 
   - repo: golang-github-dvsekhvalnov-jose2go #main
     group: deepin-sysdev-team
@@ -2413,6 +2450,10 @@ repos:
     group: deepin-sysdev-team
     info: collection of useful handlers for Go's net/http package
 
+  - repo: golang-github-gorilla-schema #main
+    group: deepin-sysdev-team
+    info: fills a struct with form values
+
   - repo: golang-github-gorilla-securecookie
     group: deepin-sysdev-team
     info: provides authenticated and encrypted cookie values
@@ -2729,6 +2770,10 @@ repos:
     group: deepin-sysdev-team
     info: low-level network socket for Go
 
+  - repo: golang-github-mdlayher-vsock #main
+    group: deepin-sysdev-team
+    info: Vsock provides access to Linux VM sockets (AF_VSOCK)
+
   - repo: golang-github-miekg-dns #main
     group: deepin-sysdev-team
     info: DNS protocol library for Go
@@ -2966,6 +3011,10 @@ repos:
   - repo: golang-github-pkg-browser #main
     group: deepin-sysdev-team
     info: Helpers to open files, readers, and URLs in a browser window
+
+  - repo: golang-github-pkg-profile #main
+    group: deepin-sysdev-team
+    info: Simple profiling for Go
 
   - repo: golang-github-pkg-xattr
     group: deepin-sysdev-team
@@ -4271,6 +4320,14 @@ repos:
   - repo: kf6-kitemmodels #main
     group: deepin-sysdev-team
     info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
+  - repo: kf6-kitemviews #main
+    group: deepin-sysdev-team
+    info: KDE Framework 6 Item Views
+
+  - repo: kf6-kwidgetsaddons #main
+    group: deepin-sysdev-team
+    info: KDE Framework 6 Widgets Addons
 
   - repo: kissfft
     group: deepin-sysdev-team
@@ -9230,10 +9287,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: kf6-kitemviews #main
-    group: deepin-sysdev-team
-    info: KDE Framework 6 Item Views
-
-  - repo: kf6-kwidgetsaddons #main
-    group: deepin-sysdev-team
-    info: KDE Framework 6 Widgets Addons

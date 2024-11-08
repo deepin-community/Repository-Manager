@@ -5733,6 +5733,10 @@ repos:
     group: deepin-sysdev-team
     info: A command-line system information tool written in bash
 
+  - repo: netavark #main
+    group: deepin-sysdev-team
+    info: Rust based network stack for containers
+
   - repo: netdata
     group: deepin-sysdev-team
     info: real-time performance monitoring (metapackage).

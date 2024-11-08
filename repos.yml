@@ -400,6 +400,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to decode/encode the sample catalogue for OpenTTD
 
+  - repo: ccls
+    group: deepin-sysdev-team
+    info: C/C++/ObjC language server
+
   - repo: chafa #main
     group: deepin-sysdev-team
     info: ASCII art image generator
@@ -4260,6 +4264,14 @@ repos:
     group: deepin-sysdev-team
     info: tools to support fast kexec reboots.
 
+  - repo: kf6-extra-cmake-modules #main
+    group: deepin-sysdev-team
+    info: 提供一系列扩展 CMake 支持的模块
+
+  - repo: kf6-kitemmodels #main
+    group: deepin-sysdev-team
+    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
   - repo: kissfft
     group: deepin-sysdev-team
     info: A Fast Fourier Transform library
@@ -5278,6 +5290,10 @@ repos:
     group: deepin-surface
     info: Patches to support Microsoft Surface Devices with libwacom
 
+  - repo: libwebm #main
+    group: deepin-sysdev-team
+    info: WebM 解析器软件库
+
   - repo: libwebsockets #main
     group: deepin-sysdev-team
     info: lightweight C websockets library - development files
@@ -5551,6 +5567,10 @@ repos:
     group: deepin-sysdev-team
     info: MicroProfile is a specification for Enterprise Java microservices.
 
+  - repo: mimalloc #main
+    group: deepin-sysdev-team
+    info: compact general purpose allocator with excellent performance
+
   - repo: mimepull
     group: deepin-sysdev-team
     info: Streaming MIME parsing library
@@ -5712,6 +5732,10 @@ repos:
   - repo: neofetch
     group: deepin-sysdev-team
     info: A command-line system information tool written in bash
+
+  - repo: netavark #main
+    group: deepin-sysdev-team
+    info: Rust based network stack for containers
 
   - repo: netdata
     group: deepin-sysdev-team
@@ -5965,6 +5989,10 @@ repos:
     group: deepin-sysdev-team
     info: Map of nouns to their irregular plural form
 
+  - repo: node-istextorbinary
+    group: deepin-sysdev-team
+    info: Determine if a filename and/or buffer is text or binary
+
   - repo: node-jasmine #main
     group: deepin-sysdev-team
     info: Behavior Driven Development testing framework for JavaScript
@@ -6063,6 +6091,10 @@ repos:
     group: deepin-sysdev-team
     info: Nock is an HTTP mocking and expectations library for Node.js
 
+  - repo: node-pako
+    group: deepin-sysdev-team
+    info: fast zlib port to pure javascript
+
   - repo: node-parents #main
     group: deepin-sysdev-team
     info: Node.js module returning all the parent directories
@@ -6106,6 +6138,10 @@ repos:
   - repo: node-proxy-from-env #main
     group: deepin-sysdev-team
     info: offers getProxyForUrl to get the proxy URL for a URL
+
+  - repo: node-puka
+    group: deepin-sysdev-team
+    info: Safely pass strings through shells - Node.js module
 
   - repo: node-pure-rand #main
     group: deepin-sysdev-team
@@ -8407,6 +8443,10 @@ repos:
     group: deepin-sysdev-team
     info: extension for Sphinx projects that handles redirects
 
+  - repo: sphinx-sitemap # main
+    group: deepin-sysdev-team
+    info: A python binding package for generating sitemap
+
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team
     info: extension to include jQuery on newer Sphinx releases
@@ -9186,26 +9226,6 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: libwebm #main
-    group: deepin-sysdev-team
-    info: WebM 解析器软件库
-
   - repo: libqalculate
     group: deepin-sysdev-team
     info: Powerful and easy to use desktop calculator
-    
-  - repo: mimalloc #main
-    group: deepin-sysdev-team
-    info: compact general purpose allocator with excellent performance
-
-  - repo: kf6-kitemmodels #main
-    group: deepin-sysdev-team
-    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
-
-  - repo: kf6-extra-cmake-modules #main
-    group: deepin-sysdev-team
-    info: 提供一系列扩展 CMake 支持的模块
-
-  - repo: sphinx-sitemap # main
-    group: deepin-sysdev-team
-    info: A python binding package for generating sitemap

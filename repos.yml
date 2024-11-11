@@ -1948,7 +1948,6 @@ repos:
   - repo: golang-github-containers-gvisor-tap-vsocks #main
     group: deepin-sysdev-team
     info: Secure networking stack for container runtimes (program)
-    info: Secure networking stack for container runtimes (program)
 
   - repo: golang-github-containers-image #main
     group: deepin-sysdev-team

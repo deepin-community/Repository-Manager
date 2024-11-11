@@ -1623,6 +1623,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for embedding binary resources in executables
 
+  - repo: golang-github-alecaivazis-survey #main
+    group: deepin-sysdev-team
+    info: golang library for building interactive prompts
+
   - repo: golang-github-alecthomas-assert
     group: deepin-sysdev-team
     info: simple assertion library using Go generics
@@ -1683,9 +1687,17 @@ repos:
     group: deepin-sysdev-team
     info: runtime library for ANTLR 4
 
+  - repo: golang-github-apparentlymart-go-cidr #main
+    group: deepin-sysdev-team
+    info: manipulations of CIDR netmasks and their associated addresses
+
   - repo: golang-github-appc-cni #main
     group: deepin-sysdev-team
     info: container network interface
+
+  - repo: golang-github-areyoulazy-libhosty #main
+    group: deepin-sysdev-team
+    info: Golang library to manage /etc/hosts files
 
   - repo: golang-github-armon-go-metrics #main
     group: deepin-sysdev-team
@@ -2158,6 +2170,10 @@ repos:
     group: deepin-sysdev-team
     info: EXIF orientation correct replacement for golang's image.Decode (library)
 
+  - repo: golang-github-elazarl-goproxy #main
+    group: deepin-sysdev-team
+    info: HTTP proxy library for Go
+
   - repo: golang-github-emicklei-go-restful #main
     group: deepin-sysdev-team
     info: build REST-style Web Services using Google Go
@@ -2554,6 +2570,10 @@ repos:
     group: deepin-sysdev-team
     info: Functions to merge structs and maps in Go
 
+  - repo: golang-github-inetaf-tcpproxy #main
+    group: deepin-sysdev-team
+    info: Proxy TCP implementation written in golang
+
   - repo: golang-github-influxdata-influxdb1-client #main
     group: deepin-sysdev-team
     info: Old clientv2 for InfluxDB 1.x (library)
@@ -2713,6 +2733,10 @@ repos:
   - repo: golang-github-leonelquinteros-gotext #main
     group: deepin-sysdev-team
     info: Go GNU gettext utilities package (library)
+
+  - repo: golang-github-linuxkit-virtsock #main
+    group: deepin-sysdev-team
+    info: Go bindings for Hyper-V and virtio sockets
 
   - repo: golang-github-lionsoul2014-ip2region-v1.0-binding-golang-ip2region
     group: deepin-sysdev-team
@@ -2944,6 +2968,10 @@ repos:
       golang-github-openprinting-goipp is an IPP core protocol in pure Go Library
       (RFC 8010).
 
+  - repo: golang-github-openshift-api #main
+    group: deepin-sysdev-team
+    info: OpenShift API definitions
+
   - repo: golang-github-openshift-imagebuilder #main
     group: deepin-sysdev-team
     info: Builds container images using Dockerfile as input
@@ -2972,11 +3000,15 @@ repos:
     group: deepin-sysdev-team
     info: in-memory key:value store/cache (similar to Memcached)
 
+  - repo: golang-github-pbnjay-memory #main
+    group: deepin-sysdev-team
+    info: Provides go function to report total system memory
+
   - repo: golang-github-pborman-getopt
     group: deepin-sysdev-team
     info: getopt style option parsing for Go (library)
 
-  - repo: golang-github-pborman-uuid
+  - repo: golang-github-pborman-uuid #main
     group: deepin-sysdev-team
     info: Go bindings to work with UUIDs
 
@@ -3524,7 +3556,7 @@ repos:
     group: deepin-sysdev-team
     info: fast golang queue using ring-buffer
 
-  - repo: golang-gopkg-h2non-filetype.v1
+  - repo: golang-gopkg-h2non-filetype.v1 #main
     group: deepin-sysdev-team
     info: Go package to infer file types based on the magic numbers header signature
 
@@ -3551,6 +3583,10 @@ repos:
   - repo: golang-gopkg-tomb.v1
     group: deepin-sysdev-team
     info: API to track the lifecyle of Golang goroutines, and provide clean termination
+
+  - repo: golang-gvisor-gvisor #main
+    group: deepin-sysdev-team
+    info: Application Kernel for Containers
 
   - repo: golang-howett-plist
     group: deepin-sysdev-team

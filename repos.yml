@@ -5202,6 +5202,10 @@ repos:
     group: deepin-sysdev-team
     info: Chinese PinYin and Bopomofo conversion library
 
+  - repo: libqalculate
+    group: deepin-sysdev-team
+    info: Qalculate! is small and simple to use but with much power and versatility underneath
+
   - repo: libqmi #main
     group: deepin-sysdev-team
     info: Header files for adding QMI support to applications that use glib

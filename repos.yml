@@ -1703,6 +1703,10 @@ repos:
     group: deepin-sysdev-team
     info: library for exporting performance and runtime metrics
 
+  - repo: golang-github-armon-go-proxyproto #main
+    group: deepin-sysdev-team
+    info: Golang package to handle HAProxy Proxy Protocol
+
   - repo: golang-github-armon-go-socks5 #main
     group: deepin-sysdev-team
     info: SOCKS5 server in Golang
@@ -2446,6 +2450,10 @@ repos:
     group: deepin-sysdev-team
     info: Simple lexer for Go that supports shell-style rules
 
+  - repo: golang-github-google-subcommands #main
+    group: deepin-sysdev-team
+    info: go package for add some subcommands to single command
+
   - repo: golang-github-google-uuid #main
     group: deepin-sysdev-team
     info: generates and inspects UUIDs based on RFC 4122
@@ -2541,6 +2549,10 @@ repos:
   - repo: golang-github-hexops-gotextdiff
     group: deepin-sysdev-team
     info: Unified text diffing in Go (copy of gopls internal diffing)
+
+  - repo: golang-github-hinshun-vt10x #main
+    group: deepin-sysdev-team
+    info: vt10x terminal emulation backend
 
   - repo: golang-github-hirochachacha-go-smb2
     group: deepin-sysdev-team
@@ -2670,6 +2682,10 @@ repos:
     group: deepin-sysdev-team
     info: Extend "os" package with Executable and ExecutableFolder
 
+  - repo: golang-github-kballard-go-shellquote #main
+    group: deepin-sysdev-team
+    info: Go utilities for performing shell-like word splitting/joining
+
   - repo: golang-github-kisielk-sqlstruct #main
     group: deepin-sysdev-team
     info: convenience functions for using structs with the database/sql package
@@ -2798,6 +2814,10 @@ repos:
     group: deepin-sysdev-team
     info: Vsock provides access to Linux VM sockets (AF_VSOCK)
 
+  - repo: golang-github-mgutz-ansi #main
+    group: deepin-sysdev-team
+    info: Small, fast library to create ANSI colored strings and codes
+
   - repo: golang-github-miekg-dns #main
     group: deepin-sysdev-team
     info: DNS protocol library for Go
@@ -2897,6 +2917,10 @@ repos:
   - repo: golang-github-ncw-swift-v2
     group: deepin-sysdev-team
     info: Go language interface to Swift
+
+  - repo: golang-github-netflix-go-expect #main
+    group: deepin-sysdev-team
+    info: expect-like golang library to automate terminal/console interactions
 
   - repo: golang-github-networkplumbing-go-nft #main
     group: deepin-sysdev-team
@@ -2999,6 +3023,10 @@ repos:
   - repo: golang-github-patrickmn-go-cache
     group: deepin-sysdev-team
     info: in-memory key:value store/cache (similar to Memcached)
+
+  - repo: golang-github-paulrosania-go-charset #main
+    group: deepin-sysdev-team
+    info: character set conversion for Go
 
   - repo: golang-github-pbnjay-memory #main
     group: deepin-sysdev-team
@@ -3663,6 +3691,10 @@ repos:
   - repo: golang-pault-go-debian #main
     group: deepin-sysdev-team
     info: library to parse and handle common Debian file formats
+
+  - repo: golang-pty #main
+    group: deepin-sysdev-team
+    info: Go package for using unix pseudo-terminals
 
   - repo: golang-rsc-binaryregexp #main
     group: deepin-sysdev-team

@@ -9358,3 +9358,12 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: power-profiles-daemon #main
+    group: deepin-sysdev-team
+    info: power-profiles-daemon offers to modify system behaviour based upon user-selected
+power profiles.
+
+  - repo: python-shtab #main
+    group: deepin-sysdev-team
+    info: power-profiles-daemon build-dep
+

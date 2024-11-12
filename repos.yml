@@ -532,6 +532,10 @@ repos:
     group: deepin-sysdev-team
     info: highly configurable system monitor
 
+  - repo: conmon #main
+    group: deepin-sysdev-team
+    info: OCI container runtime monitor
+
   - repo: containerd #main
     group: deepin-sysdev-team
     info: open and reliable container runtime (development files)
@@ -6801,6 +6805,11 @@ repos:
     group: deepin-sysdev-team
     info: Multi-Version/Multi-Cluster PostgreSQL architecture
 
+  - repo: power-profiles-daemon #main
+    group: deepin-sysdev-team
+    info: power-profiles-daemon offers to modify system behaviour based upon user-selected
+power profiles.
+
   - repo: powertop
     group: deepin-sysdev-team
     info:
@@ -7468,6 +7477,10 @@ repos:
   - repo: python-shippinglabel #main
     group: deepin-sysdev-team
     info: Utilities for handling packages
+
+  - repo: python-shtab #main
+    group: deepin-sysdev-team
+    info: power-profiles-daemon build-dep
 
   - repo: python-skbuild #main
     group: deepin-sysdev-team
@@ -9357,13 +9370,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-
-  - repo: power-profiles-daemon #main
-    group: deepin-sysdev-team
-    info: power-profiles-daemon offers to modify system behaviour based upon user-selected
-power profiles.
-
-  - repo: python-shtab #main
-    group: deepin-sysdev-team
-    info: power-profiles-daemon build-dep
 

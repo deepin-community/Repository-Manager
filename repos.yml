@@ -6807,14 +6807,12 @@ repos:
 
   - repo: power-profiles-daemon #main
     group: deepin-sysdev-team
-    info: power-profiles-daemon offers to modify system behaviour based upon user-selected
-power profiles.
+    info: power-profiles-daemon offers to modify system behaviour based upon user-selected power profiles.
 
   - repo: powertop
     group: deepin-sysdev-team
     info:
-      PowerTOP is a Linux tool to diagnose issues with power consumption and power
-      management
+      PowerTOP is a Linux tool to diagnose issues with power consumption and power management
 
   - repo: printer-driver-indexbraille #main
     group: deepin-sysdev-team

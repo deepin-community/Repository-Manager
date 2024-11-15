@@ -9140,6 +9140,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ header files for dynamic assembly code generation
 
+  - repo: xcb-util-errors #main
+    group: deepin-sysdev-team
+    info: Helper library for printing information about X11 errors
+
   - repo: xdelta
     group: deepin-sysdev-team
     info: A diff utility which works with binary files

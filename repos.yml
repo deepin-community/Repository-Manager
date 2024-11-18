@@ -9373,3 +9373,7 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: libencode-eucjpascii-perl #main
+    group: deepin-sysdev-team
+    info: Perl module supporting eucJP-ascii character encoding
+

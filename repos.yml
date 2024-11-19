@@ -4388,6 +4388,14 @@ repos:
     group: deepin-sysdev-team
     info: 提供一系列扩展 CMake 支持的模块
 
+  - repo: kf6-kconfig #main
+    group: deepin-sysdev-team
+    info: kf6-kconfig
+
+  - repo: kf6-kglobalaccel #main
+    group: deepin-sysdev-team
+    info: kf6-kglobalaccel
+
   - repo: kf6-kitemmodels #main
     group: deepin-sysdev-team
     info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
@@ -4399,6 +4407,10 @@ repos:
   - repo: kf6-kwidgetsaddons #main
     group: deepin-sysdev-team
     info: KDE Framework 6 Widgets Addons
+
+  - repo: kf6-kwindowsystem #main
+    group: deepin-sysdev-team
+    info: kf6-kwindowsystem
 
   - repo: kissfft
     group: deepin-sysdev-team
@@ -4677,6 +4689,10 @@ repos:
   - repo: libelfin
     group: deepin-sysdev-team
     info: C++11 ELF/DWARF parser (development files)
+
+  - repo: libencode-eucjpascii-perl #main
+    group: deepin-sysdev-team
+    info: Perl module supporting eucJP-ascii character encoding
 
   - repo: libev #main
     group: deepin-sysdev-team
@@ -5758,6 +5774,10 @@ repos:
   - repo: mkdocstrings-python-handlers #main
     group: deepin-sysdev-team
     info: Python handler for mkdocstrings
+
+  - repo: mkosi #main
+    group: deepin-sysdev-team
+    info: build Bespoke OS Images
 
   - repo: mmdebstrap
     group: deepin-sysdev-team
@@ -9373,22 +9393,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: libencode-eucjpascii-perl #main
-    group: deepin-sysdev-team
-    info: Perl module supporting eucJP-ascii character encoding
-
-  - repo: kf6-kconfig #main
-    group: deepin-sysdev-team
-    info: kf6-kconfig
-
-  - repo: kf6-kglobalaccel #main
-    group: deepin-sysdev-team
-    info: kf6-kglobalaccel    
-
-  - repo: kf6-kwindowsystem #main
-    group: deepin-sysdev-team
-    info: kf6-kwindowsystem  
-
-  - repo: mkosi #main
-    group: deepin-sysdev-team
-    info: build Bespoke OS Images 

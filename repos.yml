@@ -564,6 +564,10 @@ repos:
     group: deepin-sysdev-team
     info: configurable talking cow
 
+  - repo: cowsql #main
+    group: deepin-sysdev-team
+    info: Embeddable, replicated and fault tolerant SQL engine
+
   - repo: cpdb-libs #main
     group: deepin-sysdev-team
     info: Common Print Dialog Backends - Interface Library for Backends
@@ -1623,6 +1627,10 @@ repos:
     group: deepin-sysdev-team
     info: generating online histograms and plotting them with golang
 
+  - repo: golang-github-akamai-akamaiopen-edgegrid-golang #main
+    group: deepin-sysdev-team
+    info: Authentication handler for the Akamai OPEN EdgeGrid Authentication scheme
+
   - repo: golang-github-akamensky-argparse
     group: deepin-sysdev-team
     info: Argparse for golang.
@@ -1832,6 +1840,10 @@ repos:
   - repo: golang-github-cenkalti-backoff #main
     group: deepin-sysdev-team
     info: exponential backoff algorithm in Go
+
+  - repo: golang-github-cenkalti-rpc2 #main
+    group: deepin-sysdev-team
+    info: Bi-directional RPC (library)
 
   - repo: golang-github-charlievieth-fastwalk
     group: deepin-sysdev-team
@@ -2064,6 +2076,10 @@ repos:
   - repo: golang-github-dgryski-go-camellia #main
     group: deepin-sysdev-team
     info: go-camellia library for golang
+
+  - repo: golang-github-dgryski-go-farm #main
+    group: deepin-sysdev-team
+    info: pure-Go FarmHash implementation
 
   - repo: golang-github-dgryski-go-idea #main
     group: deepin-sysdev-team
@@ -2473,6 +2489,10 @@ repos:
     group: deepin-sysdev-team
     info: pprof is a tool for visualization and analysis of profiling data
 
+  - repo: golang-github-google-renameio #main
+    group: deepin-sysdev-team
+    info: provides a way to atomically create or replace a file or symbolic link
+
   - repo: golang-github-google-shlex #main
     group: deepin-sysdev-team
     info: Simple lexer for Go that supports shell-style rules
@@ -2637,6 +2657,14 @@ repos:
     group: deepin-sysdev-team
     info: library to ping a host per arp datagram or query a host mac address
 
+  - repo: golang-github-jamesclonk-vultr #main
+    group: deepin-sysdev-team
+    info: Vultr API client library
+
+  - repo: golang-github-jarcoal-httpmock #main
+    group: deepin-sysdev-team
+    info: HTTP mocking for Golang
+
   - repo: golang-github-jaypipes-pcidb #main
     group: deepin-sysdev-team
     info: Small golang library for querying PCI database (pciids) information
@@ -2669,9 +2697,17 @@ repos:
     group: deepin-sysdev-team
     info: In-memory cache with item expiration and generics (library)
 
+  - repo: golang-github-jeremija-gosubmit #main
+    group: deepin-sysdev-team
+    info: Library for parsing and submitting HTML forms
+
   - repo: golang-github-jinzhu-copier #main
     group: deepin-sysdev-team
     info: Copy value from struct to struct and more (library)
+
+  - repo: golang-github-jkeiser-iter #main
+    group: deepin-sysdev-team
+    info: Go library for iteration (library)
 
   - repo: golang-github-jlaffaye-ftp
     group: deepin-sysdev-team
@@ -2716,6 +2752,10 @@ repos:
   - repo: golang-github-jzelinskie-whirlpool
     group: deepin-sysdev-team
     info: whirlpool cryptographic hashing library
+
+  - repo: golang-github-k-sone-critbitgo #main
+    group: deepin-sysdev-team
+    info: crit-bit for golang and its applications (sorted map, IP routing table)
 
   - repo: golang-github-kardianos-osext #main
     group: deepin-sysdev-team
@@ -2873,6 +2913,10 @@ repos:
     group: deepin-sysdev-team
     info: pkcs11 wrapper for Go
 
+  - repo: golang-github-minio-md5-simd #main
+    group: deepin-sysdev-team
+    info: SIMD accelerated MD5 package
+
   - repo: golang-github-minio-minio-go-v7 #main
     group: deepin-sysdev-team
     info: Go library for Amazon S3 compatible cloud storage
@@ -2937,6 +2981,14 @@ repos:
     group: deepin-sysdev-team
     info: collection of utilities for file manipulation in golang
 
+  - repo: golang-github-muhlemmer-gu #main
+    group: deepin-sysdev-team
+    info: Generic Utilities for the Go programming language (library)
+
+  - repo: golang-github-muhlemmer-httpforwarded #main
+    group: deepin-sysdev-team
+    info: Library for parsing the HTTP Forwarded header (RFC-7239)
+
   - repo: golang-github-munnerz-goautoneg #main
     group: deepin-sysdev-team
     info: golang functions for HTTP Content-Type autonegotiation
@@ -2980,6 +3032,14 @@ repos:
   - repo: golang-github-nkovacs-streamquote #main
     group: deepin-sysdev-team
     info: Go package providing a streaming version of strconv.Quote
+
+  - repo: golang-github-nrdcg-desec #main
+    group: deepin-sysdev-team
+    info: Go library for accessing the deSEC API
+
+  - repo: golang-github-nrdcg-goinwx #main
+    group: deepin-sysdev-team
+    info: INWX Go API client
 
   - repo: golang-github-nsf-termbox-go
     group: deepin-sysdev-team
@@ -3075,6 +3135,10 @@ repos:
     group: deepin-sysdev-team
     info: Golang copy directory recursively (library)
 
+  - repo: golang-github-ovh-go-ovh #main
+    group: deepin-sysdev-team
+    info: Simple go wrapper for the OVH API
+
   - repo: golang-github-ovn-org-libovsdb #main
     group: deepin-sysdev-team
     info: OVSDB Client Library
@@ -3119,6 +3183,10 @@ repos:
     group: deepin-sysdev-team
     info: disk-backed key-value store
 
+  - repo: golang-github-peterh-liner #main
+    group: deepin-sysdev-team
+    info: Command line editor with history
+
   - repo: golang-github-philhofer-fwd #main
     group: deepin-sysdev-team
     info: Buffered Reader/Writer
@@ -3146,6 +3214,10 @@ repos:
   - repo: golang-github-pquerna-ffjson #main
     group: deepin-sysdev-team
     info: faster JSON serialization for Go
+
+  - repo: golang-github-pquerna-otp #main
+    group: deepin-sysdev-team
+    info: Google Authenticator compatible one time passwords for Go
 
   - repo: golang-github-proglottis-gpgme #main
     group: deepin-sysdev-team
@@ -3475,6 +3547,14 @@ repos:
     group: deepin-sysdev-team
     info: Streaming approximate histograms in Go (library)
 
+  - repo: golang-github-vultr-govultr #main
+    group: deepin-sysdev-team
+    info: Vultr Go API client
+
+  - repo: golang-github-weppos-dnsimple-go #main
+    group: deepin-sysdev-team
+    info: DNSimple API v1 client for Go
+
   - repo: golang-github-weppos-publicsuffix-go #main
     group: deepin-sysdev-team
     info: Domain name parser on the Public Suffix List
@@ -3543,9 +3623,17 @@ repos:
     group: deepin-sysdev-team
     info: XXH3 algorithm in Go
 
+  - repo: golang-github-zitadel-logging #main
+    group: deepin-sysdev-team
+    info: Logging extension library
+
   - repo: golang-github-zitadel-oidc #main
     group: deepin-sysdev-team
     info: OpenID Connect client and server library certified by the OpenID Foundation
+
+  - repo: golang-github-zitadel-schema #main
+    group: deepin-sysdev-team
+    info: Library to fill a struct with form values
 
   - repo: golang-github-zmap-rc2 #main
     group: deepin-sysdev-team
@@ -3650,6 +3738,10 @@ repos:
   - repo: golang-gopkg-cheggaaa-pb.v1 #main
     group: deepin-sysdev-team
     info: simple console progress bar for Go
+
+  - repo: golang-gopkg-eapache-channels.v1 #main
+    group: deepin-sysdev-team
+    info: collection of helpers around golang's existing channels
 
   - repo: golang-gopkg-eapache-go-resiliency.v1 #main
     group: deepin-sysdev-team
@@ -7840,6 +7932,10 @@ repos:
   - repo: radeontop
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization
+
+  - repo: raft #main
+    group: deepin-sysdev-team
+    info: Raft Consensus protocol implementation
 
   - repo: range-v3 #main
     group: deepin-sysdev-team

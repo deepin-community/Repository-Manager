@@ -9377,3 +9377,14 @@ repos:
     group: deepin-sysdev-team
     info: Perl module supporting eucJP-ascii character encoding
 
+  - repo: kf6-kconfig #main
+    group: deepin-sysdev-team
+    info: kf6-kconfig
+
+  - repo: kf6-kglobalaccel #main
+    group: deepin-sysdev-team
+    info: kf6-kglobalaccel    
+
+  - repo: kf6-kwindowsystem #main
+    group: deepin-sysdev-team
+    info: kf6-kwindowsystem  

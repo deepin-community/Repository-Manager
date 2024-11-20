@@ -4628,6 +4628,126 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kwindowsystem
 
+  - repo: kf6-kcodecs #main
+    group: deepin-sysdev-team
+    info: kf6-kcodecs
+
+  - repo: kf6-kcolorscheme #main
+    group: deepin-sysdev-team
+    info: kf6-kcolorscheme
+
+  - repo: kf6-kcoreaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kcoreaddons
+
+  - repo: kf6-kguiaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kcoreaddons
+
+  - repo: kf6-ki18n #main
+    group: deepin-sysdev-team
+    info: kf6-ki18n
+
+  - repo: kf6-kauth #main
+    group: deepin-sysdev-team
+    info: kf6-kauth
+
+  - repo: kf6-kcrash #main
+    group: deepin-sysdev-team
+    info: kf6-kcrash
+
+  - repo: kf6-kdbusaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kdbusaddons
+
+  - repo: kf6-kdeclarative #main
+    group: deepin-sysdev-team
+    info: kf6-kdeclarative
+
+  - repo: kf6-kdoctools #main
+    group: deepin-sysdev-team
+    info: kf6-kdoctools
+
+  - repo: kf6-kcmutils #main
+    group: deepin-sysdev-team
+    info: kf6-kcmutils
+
+  - repo: kf6-knewstuff #main
+    group: deepin-sysdev-team
+    info: kf6-knewstuff
+
+  - repo: kf6-knotifications #main
+    group: deepin-sysdev-team
+    info: kf6-knotifications
+
+  - repo: kf6-knewstuff #main
+    group: deepin-sysdev-team
+    info: kf6-knewstuff
+
+  - repo: kf6-kpackage #main
+    group: deepin-sysdev-team
+    info: kf6-kpackage
+
+  - repo: kf6-krunner #main
+    group: deepin-sysdev-team
+    info: kf6-krunner
+
+  - repo: kf6-kservice #main
+    group: deepin-sysdev-team
+    info: kf6-kservice
+
+  - repo: kf6-ksvg #main
+    group: deepin-sysdev-team
+    info: kf6-ksvg
+
+  - repo: kf6-kxmlgui #main
+    group: deepin-sysdev-team
+    info: kf6-kxmlgui
+
+  - repo: kf6-kidletime #main
+    group: deepin-sysdev-team
+    info: kf6-kidletime
+
+  - repo: kf6-kio #main
+    group: deepin-sysdev-team
+    info: kf6-kio
+
+  - repo: kf6-karchive #main
+    group: deepin-sysdev-team
+    info: kf6-karchive
+
+  - repo: kf6-kbookmarks #main
+    group: deepin-sysdev-team
+    info: kf6-kbookmarks
+
+  - repo: kf6-kcompletion #main
+    group: deepin-sysdev-team
+    info: kf6-kcompletion
+
+  - repo: kf6-kiconthemes #main
+    group: deepin-sysdev-team
+    info: kf6-kiconthemes
+
+  - repo: kf6-kirigami #main
+    group: deepin-sysdev-team
+    info: kf6-kirigami
+
+  - repo: kf6-kjobwidgets #main
+    group: deepin-sysdev-team
+    info: kf6-kjobwidgets
+
+  - repo: kf6-kparts #main
+    group: deepin-sysdev-team
+    info: kf6-kparts
+
+  - repo: kf6-kscreenlocker #main
+    group: deepin-sysdev-team
+    info: kf6-kscreenlocker
+
+  - repo: kf6-kwallet #main
+    group: deepin-sysdev-team
+    info: kf6-kwallet
+
   - repo: kissfft
     group: deepin-sysdev-team
     info: A Fast Fourier Transform library

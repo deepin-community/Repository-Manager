@@ -4628,6 +4628,30 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kwindowsystem
 
+  - repo: kf6-kcodecs #main
+    group: deepin-sysdev-team
+    info: kf6-kcodecs
+
+  - repo: kf6-kcolorscheme #main
+    group: deepin-sysdev-team
+    info: kf6-kcolorscheme
+
+  - repo: kf6-kcoreaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kcoreaddons
+
+  - repo: kf6-kguiaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kcoreaddons
+
+  - repo: kf6-ki18n #main
+    group: deepin-sysdev-team
+    info: kf6-ki18n
+
+  - repo: kf6-kwidgetsaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kwidgetsaddons
+
   - repo: kissfft
     group: deepin-sysdev-team
     info: A Fast Fourier Transform library

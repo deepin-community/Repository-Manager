@@ -2577,6 +2577,10 @@ repos:
     group: deepin-sysdev-team
     info: expressive vendor-neutral APIs for distributed tracing and context propagation
 
+  - repo: golang-github-h2non-parth #main
+    group: deepin-sysdev-team
+    info: Path parsing for segment unmarshaling and slicing
+
   - repo: golang-github-hailocab-go-hostpool #main
     group: deepin-sysdev-team
     info: flexibly pool among multiple hosts from Go application
@@ -3032,6 +3036,10 @@ repos:
   - repo: golang-github-nadoo-ipset #main
     group: deepin-sysdev-team
     info: ipset library for golang
+
+  - repo: golang-github-nbio-st #main
+    group: deepin-sysdev-team
+    info: Simple Test micro-framework for Go
 
   - repo: golang-github-ncw-go-acd
     group: deepin-sysdev-team
@@ -3906,6 +3914,10 @@ repos:
   - repo: golang-rsc-pdf #main
     group: deepin-sysdev-team
     info: Golang library that provides a reader for the PDF format
+
+  - repo: golang-rsc-qr #main
+    group: deepin-sysdev-team
+    info: Basic QR encoder
 
   - repo: golang-sslmate-src-go-pkcs12 #main
     group: deepin-sysdev-team

@@ -1567,6 +1567,10 @@ repos:
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage
 
+  - repo: golang-barcode #main
+    group: deepin-sysdev-team
+    info: Barcode creation lib for golang
+
   - repo: golang-bazil-fuse
     group: deepin-sysdev-team
     info: FUSE library for Go
@@ -1840,6 +1844,10 @@ repos:
   - repo: golang-github-cenkalti-backoff #main
     group: deepin-sysdev-team
     info: exponential backoff algorithm in Go
+
+  - repo: golang-github-cenkalti-hub #main
+    group: deepin-sysdev-team
+    info: Simple PubSub library
 
   - repo: golang-github-cenkalti-rpc2 #main
     group: deepin-sysdev-team
@@ -2229,6 +2237,10 @@ repos:
     group: deepin-sysdev-team
     info: Color package for Go (golang)
 
+  - repo: golang-github-fatih-structs #main
+    group: deepin-sysdev-team
+    info: Utilities for Go structs
+
   - repo: golang-github-felixge-httpsnoop
     group: deepin-sysdev-team
     info: capture http related metrics from http.Handlers (library)
@@ -2424,6 +2436,10 @@ repos:
   - repo: golang-github-gogo-googleapis #main
     group: deepin-sysdev-team
     info: googleapis generated with gogoprotobuf
+
+  - repo: golang-github-gokyle-twofactor #main
+    group: deepin-sysdev-team
+    info: Two-factor authentication
 
   - repo: golang-github-golang-jwt-jwt #main
     group: deepin-sysdev-team
@@ -2797,6 +2813,10 @@ repos:
     group: deepin-sysdev-team
     info: Arbitrary expression evaluation for golang (library)
 
+  - repo: golang-github-kolo-xmlrpc #main
+    group: deepin-sysdev-team
+    info: Implementation of the XMLRPC client protocol in Go
+
   - repo: golang-github-konsorten-go-windows-terminal-sequences #main
     group: deepin-sysdev-team
     info: Enable support for Windows Terminal Colors
@@ -2868,6 +2888,10 @@ repos:
   - repo: golang-github-max-sum-base32768
     group: deepin-sysdev-team
     info: go implementation of base32768, optimized for UTF-16 (library)
+
+  - repo: golang-github-maxatome-go-testdeep #main
+    group: deepin-sysdev-team
+    info: Extremely flexible golang deep comparison
 
   - repo: golang-github-mdlayher-ethernet #main
     group: deepin-sysdev-team
@@ -3754,6 +3778,10 @@ repos:
   - repo: golang-gopkg-h2non-filetype.v1 #main
     group: deepin-sysdev-team
     info: Go package to infer file types based on the magic numbers header signature
+
+  - repo: golang-gopkg-h2non-gock.v1 #main
+    group: deepin-sysdev-team
+    info: HTTP traffic mocking and testing made easy in Go
 
   - repo: golang-gopkg-inf.v0 #main
     group: deepin-sysdev-team

@@ -9760,3 +9760,15 @@ repos:
   - repo: kf6-syndication #main
     group: deepin-sysdev-team
     info: kf6 list
+
+  - repo: libplasma #main
+    group: deepin-sysdev-team
+    info: kf6 list
+    
+  - repo: plasma-wayland-protocols #main
+    group: deepin-sysdev-team
+    info: kf6 list
+    
+  - repo: plasma-activities #main
+    group: deepin-sysdev-team
+    info: kf6 list

@@ -9733,3 +9733,18 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: kf6-kaut #main
+    group: deepin-sysdev-team
+    info: kf6-kaut
+
+  - repo: kf6-kded #main
+    group: deepin-sysdev-team
+    info: kf6-kded
+
+  - repo: kf6-kconfigwidgets #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-solid #main
+    group: deepin-sysdev-team
+    info: kf6 list

@@ -596,6 +596,10 @@ repos:
     group: deepin-sysdev-team
     info: C/C++ Unit Testing Framework
 
+  - repo: cproto #main
+    group: deepin-sysdev-team
+    info: utilities to generate C function prototypes from C source code
+
   - repo: cpufrequtils
     group: deepin-sysdev-team
     info:
@@ -4600,33 +4604,37 @@ repos:
     group: deepin-sysdev-team
     info: tools to support fast kexec reboots.
 
+  - repo: kf6-attica #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-breeze-icons #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-extra-cmake-modules #main
     group: deepin-sysdev-team
     info: 提供一系列扩展 CMake 支持的模块
 
-  - repo: kf6-kconfig #main
+  - repo: kf6-karchive #main
     group: deepin-sysdev-team
-    info: kf6-kconfig
+    info: kf6-karchive
 
-  - repo: kf6-kglobalaccel #main
+  - repo: kf6-kaut #main
     group: deepin-sysdev-team
-    info: kf6-kglobalaccel
+    info: kf6-kaut
 
-  - repo: kf6-kitemmodels #main
+  - repo: kf6-kauth #main
     group: deepin-sysdev-team
-    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+    info: kf6-kauth
 
-  - repo: kf6-kitemviews #main
+  - repo: kf6-kbookmarks #main
     group: deepin-sysdev-team
-    info: KDE Framework 6 Item Views
+    info: kf6-kbookmarks
 
-  - repo: kf6-kwidgetsaddons #main
+  - repo: kf6-kcmutils #main
     group: deepin-sysdev-team
-    info: KDE Framework 6 Widgets Addons
-
-  - repo: kf6-kwindowsystem #main
-    group: deepin-sysdev-team
-    info: kf6-kwindowsystem
+    info: kf6-kcmutils
 
   - repo: kf6-kcodecs #main
     group: deepin-sysdev-team
@@ -4636,21 +4644,21 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kcolorscheme
 
+  - repo: kf6-kcompletion #main
+    group: deepin-sysdev-team
+    info: kf6-kcompletion
+
+  - repo: kf6-kconfig #main
+    group: deepin-sysdev-team
+    info: kf6-kconfig
+
+  - repo: kf6-kconfigwidgets #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-kcoreaddons #main
     group: deepin-sysdev-team
     info: kf6-kcoreaddons
-
-  - repo: kf6-kguiaddons #main
-    group: deepin-sysdev-team
-    info: kf6-kcoreaddons
-
-  - repo: kf6-ki18n #main
-    group: deepin-sysdev-team
-    info: kf6-ki18n
-
-  - repo: kf6-kauth #main
-    group: deepin-sysdev-team
-    info: kf6-kauth
 
   - repo: kf6-kcrash #main
     group: deepin-sysdev-team
@@ -4664,45 +4672,33 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kdeclarative
 
+  - repo: kf6-kdecoration #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kded #main
+    group: deepin-sysdev-team
+    info: kf6-kded
+
   - repo: kf6-kdoctools #main
     group: deepin-sysdev-team
     info: kf6-kdoctools
 
-  - repo: kf6-kcmutils #main
+  - repo: kf6-kglobalaccel #main
     group: deepin-sysdev-team
-    info: kf6-kcmutils
+    info: kf6-kglobalaccel
 
-  - repo: kf6-knewstuff #main
+  - repo: kf6-kguiaddons #main
     group: deepin-sysdev-team
-    info: kf6-knewstuff
+    info: kf6-kcoreaddons
 
-  - repo: kf6-knotifications #main
+  - repo: kf6-ki18n #main
     group: deepin-sysdev-team
-    info: kf6-knotifications
+    info: kf6-ki18n
 
-  - repo: kf6-knewstuff #main
+  - repo: kf6-kiconthemes #main
     group: deepin-sysdev-team
-    info: kf6-knewstuff
-
-  - repo: kf6-kpackage #main
-    group: deepin-sysdev-team
-    info: kf6-kpackage
-
-  - repo: kf6-krunner #main
-    group: deepin-sysdev-team
-    info: kf6-krunner
-
-  - repo: kf6-kservice #main
-    group: deepin-sysdev-team
-    info: kf6-kservice
-
-  - repo: kf6-ksvg #main
-    group: deepin-sysdev-team
-    info: kf6-ksvg
-
-  - repo: kf6-kxmlgui #main
-    group: deepin-sysdev-team
-    info: kf6-kxmlgui
+    info: kf6-kiconthemes
 
   - repo: kf6-kidletime #main
     group: deepin-sysdev-team
@@ -4712,41 +4708,81 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kio
 
-  - repo: kf6-karchive #main
-    group: deepin-sysdev-team
-    info: kf6-karchive
-
-  - repo: kf6-kbookmarks #main
-    group: deepin-sysdev-team
-    info: kf6-kbookmarks
-
-  - repo: kf6-kcompletion #main
-    group: deepin-sysdev-team
-    info: kf6-kcompletion
-
-  - repo: kf6-kiconthemes #main
-    group: deepin-sysdev-team
-    info: kf6-kiconthemes
-
   - repo: kf6-kirigami #main
     group: deepin-sysdev-team
     info: kf6-kirigami
+
+  - repo: kf6-kitemmodels #main
+    group: deepin-sysdev-team
+    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
+  - repo: kf6-kitemviews #main
+    group: deepin-sysdev-team
+    info: KDE Framework 6 Item Views
 
   - repo: kf6-kjobwidgets #main
     group: deepin-sysdev-team
     info: kf6-kjobwidgets
 
+  - repo: kf6-knewstuff #main
+    group: deepin-sysdev-team
+    info: kf6-knewstuff
+
+  - repo: kf6-knotifications #main
+    group: deepin-sysdev-team
+    info: kf6-knotifications
+
+  - repo: kf6-kpackage #main
+    group: deepin-sysdev-team
+    info: kf6-kpackage
+
   - repo: kf6-kparts #main
     group: deepin-sysdev-team
     info: kf6-kparts
+
+  - repo: kf6-krunner #main
+    group: deepin-sysdev-team
+    info: kf6-krunner
 
   - repo: kf6-kscreenlocker #main
     group: deepin-sysdev-team
     info: kf6-kscreenlocker
 
+  - repo: kf6-kservice #main
+    group: deepin-sysdev-team
+    info: kf6-kservice
+
+  - repo: kf6-ksvg #main
+    group: deepin-sysdev-team
+    info: kf6-ksvg
+
   - repo: kf6-kwallet #main
     group: deepin-sysdev-team
     info: kf6-kwallet
+
+  - repo: kf6-kwidgetsaddons #main
+    group: deepin-sysdev-team
+    info: KDE Framework 6 Widgets Addons
+
+  - repo: kf6-kwindowsystem #main
+    group: deepin-sysdev-team
+    info: kf6-kwindowsystem
+
+  - repo: kf6-kxmlgui #main
+    group: deepin-sysdev-team
+    info: kf6-kxmlgui
+
+  - repo: kf6-solid #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-syndication #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kglobalacceld #main
+    group: deepin-sysdev-team
+    info: kf6 list
 
   - repo: kissfft
     group: deepin-sysdev-team
@@ -5530,6 +5566,10 @@ repos:
     group: deepin-sysdev-team
     info: interface between web servers and Perl web applications
 
+  - repo: libplasma #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: libpod-elemental-transformer-list-perl #main
     group: deepin-sysdev-team
     info: zilla
@@ -6154,6 +6194,10 @@ repos:
   - repo: mozjs60
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine
+
+  - repo: mpfi #main
+    group: deepin-sysdev-team
+    info: multiple precision floating-point interval computation library
 
   - repo: ms-gsl
     group: deepin-sysdev-team
@@ -7104,6 +7148,14 @@ repos:
     info:
       PlantUML is a program allowing to draw UML diagrams, using a simple human
       readable text description
+
+  - repo: plasma-activities #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: plasma-wayland-protocols #main
+    group: deepin-sysdev-team
+    info: kf6 list
 
   - repo: playerctl
     group: deepin-sysdev-team
@@ -9733,50 +9785,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: kf6-kaut #main
-    group: deepin-sysdev-team
-    info: kf6-kaut
-
-  - repo: kf6-kded #main
-    group: deepin-sysdev-team
-    info: kf6-kded
-
-  - repo: kf6-kconfigwidgets #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-solid #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-breeze-icons #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-attica #main
-    group: deepin-sysdev-team
-    info: kf6 list
-    
-  - repo: kf6-syndication #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: libplasma #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kglobalacceld #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-kdecoration #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: plasma-wayland-protocols #main
-    group: deepin-sysdev-team
-    info: kf6 list
-    
-  - repo: plasma-activities #main
-    group: deepin-sysdev-team
-    info: kf6 list

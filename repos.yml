@@ -568,6 +568,10 @@ repos:
     group: deepin-sysdev-team
     info: Embeddable, replicated and fault tolerant SQL engine
 
+  - repo: cpanminus #main
+    group: deepin-sysdev-team
+    info: script to get, unpack, build and install modules from CPAN
+
   - repo: cpdb-libs #main
     group: deepin-sysdev-team
     info: Common Print Dialog Backends - Interface Library for Backends
@@ -5070,6 +5074,10 @@ repos:
     group: deepin-sysdev-team
     info: static library, header files, and docs for libev
 
+  - repo: libextutils-makemaker-cpanfile-perl #main
+    group: deepin-sysdev-team
+    info: Perl module adding cpanfile support to ExtUtils-MakeMaker
+
   - repo: libfcgi-procmanager-perl
     group: deepin-sysdev-team
     info: Perl module to help manage FastCGI applications
@@ -5218,6 +5226,10 @@ repos:
       libliftoff eases the use of KMS planes from userspace without standing in
       your way.
 
+  - repo: liblocal-lib-perl #main
+    group: deepin-sysdev-team
+    info: module to use a local path for Perl modules
+
   - repo: liblog-dispatch-array-perl
     group: deepin-sysdev-team
     info: module to log events to an array (reference)
@@ -5237,6 +5249,10 @@ repos:
   - repo: libmbim #main
     group: deepin-sysdev-team
     info: Header files for adding MBIM support to applications that use glib
+
+  - repo: libmodule-cpanfile-perl #main
+    group: deepin-sysdev-team
+    info: format for describing CPAN dependencies of Perl applications
 
   - repo: libmodule-depends-perl #main
     group: deepin-sysdev-team
@@ -5537,6 +5553,10 @@ repos:
   - repo: libparse-debian-packages-perl
     group: deepin-sysdev-team
     info: module for parsing the data from a Debian Packages.gz
+
+  - repo: libparse-pmfile-perl #main
+    group: deepin-sysdev-team
+    info: module to parse .pm file as PAUSE does
 
   - repo: libphp-adodb
     group: deepin-sysdev-team

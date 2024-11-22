@@ -9764,7 +9764,11 @@ repos:
   - repo: libplasma #main
     group: deepin-sysdev-team
     info: kf6 list
-    
+
+  - repo: kglobalacceld #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: plasma-wayland-protocols #main
     group: deepin-sysdev-team
     info: kf6 list

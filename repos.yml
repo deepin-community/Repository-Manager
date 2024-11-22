@@ -8309,6 +8309,10 @@ repos:
     group: deepin-sysdev-team
     info: Linux-native "fake root" for rootless containers
 
+  - repo: rpki-trust-anchors #main
+    group: deepin-sysdev-team
+    info: RPKI Trust Anchor Locators
+
   - repo: rst2pdf
     group: deepin-sysdev-team
     info: ReportLab-based reStructuredText to PDF renderer

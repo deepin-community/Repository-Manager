@@ -8077,6 +8077,10 @@ repos:
     group: deepin-sysdev-team
     info: QML port of qtermwidget
 
+  - repo: qtermwidget6
+    group: deepin-sysdev-team
+    info: qtermwidget for Qt 6
+
   - repo: qr-code-generator
     group: deepin-pkg
     info: QR Code generator library in multiple languages

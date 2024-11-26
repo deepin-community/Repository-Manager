@@ -4788,6 +4788,14 @@ repos:
     group: deepin-sysdev-team
     info: kf6 list
 
+  - repo: kf6-milou #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kwayland #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kissfft
     group: deepin-sysdev-team
     info: A Fast Fourier Transform library

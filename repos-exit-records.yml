@@ -46,6 +46,14 @@ repos:
     group: deepin-sysdev-team
     notes: New LLVM toolchain is ready, so we do not need this.
 
+  - repo: node-https-proxy-agent
+    group: deepin-sysdev-team
+    notes: obsolete source package
+
+  - repo: pkg-config
+    group: deepin-sysdev-team
+    notes: replaced by pkgconf
+    
   - repo: python-linecache2
     group: deepin-sysdev-team
     notes: Upstream EOL.
@@ -53,6 +61,3 @@ repos:
   - repo: python-traceback2
     group: deepin-sysdev-team
     notes: Upstream EOL.
-
-  
-  

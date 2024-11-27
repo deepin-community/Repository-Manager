@@ -44,9 +44,21 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: alsa-tools #main
+    group: deepin-sysdev-team
+    info: Console based ALSA utilities for specific hardware
+
+  - repo: alsa-tools-gui #main
+    group: deepin-sysdev-team
+    info: UI based ALSA utilities for specific hardware
+
   - repo: alsa-ucm-conf #main
     group: deepin-sysdev-team
     info: ALSA Use Case Manager configuration files
+
+  - repo: amd64-microcode #main
+    group: deepin-sysdev-team
+    info: amd64-microcode
 
   - repo: amdgcn-tools-18 #main
     group: deepin-sysdev-team
@@ -58,7 +70,8 @@ repos:
 
   - repo: analog
     group: deepin-sysdev-team
-    info: Analog is a fast log file processor that generates usage statistic reports
+    info:
+      Analog is a fast log file processor that generates usage statistic reports
       for web servers.
 
   - repo: android-platform-external-boringssl
@@ -75,7 +88,8 @@ repos:
 
   - repo: android-platform-frameworks-base
     group: spark-store-deepin
-    info: The Android source repositories are quite chaotic.  They often include a
+    info:
+      The Android source repositories are quite chaotic.  They often include a
       mix of things under arbitrary umbrellas.  For example, there are parts of this
       particular repository that will only ever be built when building the complete
       Android OS (aka "target"), other parts that are only built as part of the SDK
@@ -110,7 +124,8 @@ repos:
 
   - repo: apt-rdepends
     group: deepin-sysdev-team
-    info: This utility can recursively list package dependencies, either forwards
+    info:
+      This utility can recursively list package dependencies, either forwards
       or in reverse.
 
   - repo: aptly
@@ -169,13 +184,21 @@ repos:
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity
 
+  - repo: audacious-plugins
+    group: deepin-sysdev-team
+    info: Base plugins for audacious
+
   - repo: audiofile
     group: deepin-sysdev-team
-    info:  Open-source version of SGI's audiofile library
+    info: Open-source version of SGI's audiofile library
 
   - repo: autodep8
     group: deepin-sysdev-team
     info: DEP-8 test control file generator
+
+  - repo: autofs
+    group: deepin-sysdev-team
+    info: kernel-based automounter for Linux
 
   - repo: autojump
     group: deepin-sysdev-team
@@ -217,6 +240,10 @@ repos:
     group: deepin-sysdev-team
     info: Arbitrary-precision decimal and non-decimal arithmetic
 
+  - repo: binaryen #main
+    group: deepin-sysdev-team
+    info: compiler and toolchain infrastructure library for WebAssembly
+
   - repo: binaryornot
     group: deepin-sysdev-team
     info: Python module to determine if a file is binary or text
@@ -225,9 +252,17 @@ repos:
     group: deepin-sysdev-team
     info: GNU assembler, linker and binary utilities for ARM Cortex-R/M processors
 
+  - repo: binutils-mipsen
+    group: deepin-sysdev-team
+    info: GNU binary utilities for MIPS
+
   - repo: binutils-or1k-elf
     group: deepin-sysdev-team
     info: GNU binary utilities for the Open RISC 1000 processors
+
+  - repo: binwalk
+    group: deepin-sysdev-team
+    info: Python3 library for analyzing binary blobs and executable code
 
   - repo: bird
     group: deepin-sysdev-team
@@ -236,6 +271,10 @@ repos:
   - repo: bird2
     group: deepin-sysdev-team
     info: Internet routing daemon with full support for all the major routing protocols
+
+  - repo: blender
+    group: deepin-sysdev-team
+    info: Very fast and versatile 3D modeller/renderer
 
   - repo: blockdiag
     group: deepin-sysdev-team
@@ -255,7 +294,8 @@ repos:
 
   - repo: boolstuff
     group: deepin-sysdev-team
-    info: It is a C++ library that supports a few operations on boolean expression
+    info:
+      It is a C++ library that supports a few operations on boolean expression
       binary trees.
 
   - repo: boost1.81
@@ -286,9 +326,14 @@ repos:
     group: deepin-sysdev-team
     info: Braa is a mass snmp scanner.
 
+  - repo: breezy #main
+    group: deepin-sysdev-team
+    info: easy to use distributed version control system
+
   - repo: brise
     group: deepin-sysdev-team
-    info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input
+    info:
+      Rime Input Method Engine, the schema data RIME is the acronym of Rime Input
       Method Engine.
 
   - repo: brltty
@@ -355,9 +400,17 @@ repos:
     group: deepin-sysdev-team
     info: tool to decode/encode the sample catalogue for OpenTTD
 
+  - repo: ccls
+    group: deepin-sysdev-team
+    info: C/C++/ObjC language server
+
   - repo: chafa #main
     group: deepin-sysdev-team
     info: ASCII art image generator
+
+  - repo: checksec #main
+    group: deepin-sysdev-team
+    info: Bash script to test executable properties
 
   - repo: cherrytree
     group: deepin-sysdev-team
@@ -433,7 +486,8 @@ repos:
 
   - repo: cohomcalg
     group: deepin-sysdev-team
-    info: It is a software package for computing sheaf cohomologies of line bundles
+    info:
+      It is a software package for computing sheaf cohomologies of line bundles
       on toric varieties.
 
   - repo: coin3
@@ -450,7 +504,8 @@ repos:
 
   - repo: coinor-dylp
     group: deepin-sysdev-team
-    info: It is a software package for solving constrained linear mathematical optimization
+    info:
+      It is a software package for solving constrained linear mathematical optimization
       problems.
 
   - repo: collada-dom
@@ -469,9 +524,17 @@ repos:
     group: deepin-sysdev-team
     info: Apache Commons Text
 
+  - repo: configobj #main
+    group: deepin-sysdev-team
+    info: simple but powerful config file reader and writer
+
   - repo: conky
     group: deepin-sysdev-team
     info: highly configurable system monitor
+
+  - repo: conmon #main
+    group: deepin-sysdev-team
+    info: OCI container runtime monitor
 
   - repo: containerd #main
     group: deepin-sysdev-team
@@ -501,6 +564,18 @@ repos:
     group: deepin-sysdev-team
     info: configurable talking cow
 
+  - repo: cowsql #main
+    group: deepin-sysdev-team
+    info: Embeddable, replicated and fault tolerant SQL engine
+
+  - repo: cpanminus #main
+    group: deepin-sysdev-team
+    info: script to get, unpack, build and install modules from CPAN
+
+  - repo: cpdb-libs #main
+    group: deepin-sysdev-team
+    info: Common Print Dialog Backends - Interface Library for Backends
+
   - repo: cpp-httplib
     group: deepin-sysdev-team
     info: A C++ header-only HTTP/HTTPS server and client library
@@ -525,9 +600,14 @@ repos:
     group: deepin-sysdev-team
     info: C/C++ Unit Testing Framework
 
+  - repo: cproto #main
+    group: deepin-sysdev-team
+    info: utilities to generate C function prototypes from C source code
+
   - repo: cpufrequtils
     group: deepin-sysdev-team
-    info: This package contains two utilities for inspecting and setting the CPU frequency
+    info:
+      This package contains two utilities for inspecting and setting the CPU frequency
       through both the sysfs and procfs CPUFreq kernel interfaces.
 
   - repo: crash #main
@@ -537,6 +617,10 @@ repos:
   - repo: crashtest #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: cross-toolchain-base-mipsen
+    group: deepin-sysdev-team
+    info: Development Libraries and Header Files (for MIPS cross-compiling)
 
   - repo: crun #main
     group: deepin-sysdev-team
@@ -598,6 +682,14 @@ repos:
     group: deepin-sysdev-team
     info: convert Gregorian dates to Discordian dates
 
+  - repo: ddccontrol
+    group: deepin-sysdev-team
+    info: program to control monitor parameters
+
+  - repo: ddccontrol-db
+    group: deepin-sysdev-team
+    info: monitor database for ddccontrol
+
   - repo: debconf-kde #main
     group: deepin-sysdev-team
     info: Debconf KDE data files
@@ -637,6 +729,14 @@ repos:
   - repo: deepin-desktop-environment
     group: deepin-sysdev-team
     info: Deepin New Desktop Environment - Next
+
+  - repo: deepin-distrobox-installer #main
+    group: deepin-sysdev-team
+    info: Distrobox installation helper for deepin.
+
+  - repo: deepin-distrobox-ubuntu #main
+    group: deepin-sysdev-team
+    info: Ubuntu 20.04 Distrobox container for deepin.
 
   - repo: deepin-dtk5-helper
     group: deepin-qt-team
@@ -678,6 +778,10 @@ repos:
     group: deepin-sysdev-team
     info: Debhelper programs for CMake projects
 
+  - repo: dh-dist-zilla #main
+    group: deepin-sysdev-team
+    info: zilla
+
   - repo: dh-nss
     group: deepin-sysdev-team
     info: debhelper addon to inject NSS services into /etc/nsswitch.conf
@@ -708,7 +812,8 @@ repos:
 
   - repo: discus
     group: deepin-sysdev-team
-    info: Discus aims to make df prettier, with features such as color, graphs, and
+    info:
+      Discus aims to make df prettier, with features such as color, graphs, and
       smart formatting of numbers.
 
   - repo: distance
@@ -722,6 +827,10 @@ repos:
   - repo: distrobox
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux
+
+  - repo: dmg2img
+    group: deepin-sysdev-team
+    info: Tool for converting compressed dmg files to hfsplus images
 
   - repo: docker-compose
     group: deepin-sysdev-team
@@ -809,7 +918,8 @@ repos:
 
   - repo: dynarmic
     group: deepin-sysdev-team
-    info: Dynarmic is a dynamic recompiler for emulating ARMv7-A and ARMv8-A (AArch64)
+    info:
+      Dynarmic is a dynamic recompiler for emulating ARMv7-A and ARMv8-A (AArch64)
       binaries.
 
   - repo: easyeffects
@@ -830,7 +940,8 @@ repos:
 
   - repo: edk2
     group: deepin-sysdev-team
-    info: EDK II is a modern, feature-rich, cross-platform firmware development environment
+    info:
+      EDK II is a modern, feature-rich, cross-platform firmware development environment
       for the UEFI and UEFI Platform Initialization
 
   - repo: eigen3 #main
@@ -839,12 +950,21 @@ repos:
 
   - repo: el-api
     group: deepin-sysdev-team
-    info: EL is a simple language designed to meet the needs of the presentation layer
+    info:
+      EL is a simple language designed to meet the needs of the presentation layer
       in Java web applications.
+
+  - repo: embree
+    group: deepin-sysdev-team
+    info: High Performance Ray Tracing Kernels
 
   - repo: empire
     group: deepin-sysdev-team
     info: war game of the century
+
+  - repo: emscripten #main
+    group: deepin-sysdev-team
+    info: LLVM-to-JavaScript Compiler
 
   - repo: enchant-2
     group: deepin-sysdev-team
@@ -860,7 +980,8 @@ repos:
 
   - repo: erfs
     group: deepin-sysdev-team
-    info: An easy-to-use, easy-to-setup, hassle-free secure file system with the encrypted
+    info:
+      An easy-to-use, easy-to-setup, hassle-free secure file system with the encrypted
       data being stored on a remote cloud server without having to trust the server.
 
   - repo: erofs-utils #main
@@ -875,13 +996,22 @@ repos:
     group: deepin-sysdev-team
     info: highly-available key value store -- source
 
+  - repo: evemu #main
+    group: deepin-sysdev-team
+    info: Linux Input Event Device Emulation Library
+
   - repo: evilwm
     group: deepin-sysdev-team
     info: evilwm is based on aewm by Decklin Foster.
 
+  - repo: evtest #main
+    group: deepin-sysdev-team
+    info: Utility to monitor Linux input device events
+
   - repo: exfatprogs
     group: deepin-sysdev-team
-    info: Tools to manage extended file allocation table filesystem. This package
+    info:
+      Tools to manage extended file allocation table filesystem. This package
       provides tools to create, check, dump and label the filesystem.
 
   - repo: exif
@@ -910,7 +1040,8 @@ repos:
 
   - repo: fastfetch
     group: deepin-sysdev-team
-    info: Fastfetch is a neofetch-like tool for fetching system information and displaying
+    info:
+      Fastfetch is a neofetch-like tool for fetching system information and displaying
       them in a pretty way.
 
   - repo: fcft
@@ -920,6 +1051,10 @@ repos:
   - repo: fcitx5-table-extra #main
     group: deepin-sysdev-team
     info: Additional table based input method for Fcitx 5
+
+  - repo: fcitx5-unikey #main
+    group: deepin-sysdev-team
+    info: Vietnamese Input Method Engine for Fcitx5 using Unikey Engine
 
   - repo: fdk-aac
     group: deepin-sysdev-team
@@ -973,6 +1108,10 @@ repos:
     group: deepin-sysdev-team
     info: PEP 518 build backend that uses setuptools_scm and flit
 
+  - repo: fonts-adobe-source-han-cjk #main
+    group: deepin-sysdev-team
+    info: adobe source han cjk fonts
+
   - repo: fonts-agave
     group: deepin-sysdev-team
     info: agave is a fixed-width outline typeface, designed and produced by type agaric.
@@ -1019,7 +1158,8 @@ repos:
 
   - repo: fonts-ecolier-court
     group: deepin-sysdev-team
-    info: Fonts-ecolier-court provides a cursive font covering the basic latin range
+    info:
+      Fonts-ecolier-court provides a cursive font covering the basic latin range
       with a ink and dip pen style.
 
   - repo: fonts-femkeklaver
@@ -1032,12 +1172,14 @@ repos:
 
   - repo: fonts-gfs-bodoni-classic
     group: deepin-sysdev-team
-    info: Giambattista Bodoni was the most prolific Italian typecutter of the 18th
+    info:
+      Giambattista Bodoni was the most prolific Italian typecutter of the 18th
       century.
 
   - repo: fonts-gfs-theokritos
     group: deepin-sysdev-team
-    info: In the late 50's Yannis Kefallinos (1894-1958) designed and published an
+    info:
+      In the late 50's Yannis Kefallinos (1894-1958) designed and published an
       exquisite book with engraved illustrations of the ancient white funerary pottery
       in Attica in collaboration with Varlamos, Montesanto, Damianakis.
 
@@ -1051,7 +1193,8 @@ repos:
 
   - repo: fonts-intel-one-mono
     group: deepin-sysdev-team
-    info: an expressive monospaced font family that’s built with clarity, legibility,
+    info:
+      an expressive monospaced font family that’s built with clarity, legibility,
       and the needs of developers in mind.
 
   - repo: fonts-inter #main
@@ -1072,12 +1215,17 @@ repos:
 
   - repo: fonts-lxgw-wenkai
     group: deepin-sysdev-team
-    info: lxgw-wenkai is a font drives from Fontworks Klee One , which is a free open
+    info:
+      lxgw-wenkai is a font drives from Fontworks Klee One , which is a free open
       source font
 
   - repo: fonts-material-design-icons-iconfont
     group: deepin-sysdev-team
     info: Material Design Icons DX
+
+  - repo: fonts-mi-sans
+    group: deepin-sysdev-team
+    info: MiSans is a font customization project led by Xiaomi and co-created with Mona font and Han Yi font
 
   - repo: fonts-mlym
     group: deepin-sysdev-team
@@ -1085,7 +1233,8 @@ repos:
 
   - repo: fonts-mplus
     group: deepin-sysdev-team
-    info: Fonts-mplus is a collection of sans serif fonts with different weights,
+    info:
+      Fonts-mplus is a collection of sans serif fonts with different weights,
       including Japanese glyphs.
 
   - repo: fonts-nanum
@@ -1106,7 +1255,8 @@ repos:
 
   - repo: fonts-sil-andika
     group: deepin-sysdev-team
-    info: Andika is a sans serif, Unicode-compliant font designed especially for literacy
+    info:
+      Andika is a sans serif, Unicode-compliant font designed especially for literacy
       use, taking into account the needs of beginning readers.
 
   - repo: fonts-sil-annapurna
@@ -1115,7 +1265,8 @@ repos:
 
   - repo: fonts-smiley-sans
     group: deepin-sysdev-team
-    info: Smiley Sans is a Chinese sans serif font that seeks a balance between humanistic
+    info:
+      Smiley Sans is a Chinese sans serif font that seeks a balance between humanistic
       and geometric features
 
   - repo: fonts-tuffy
@@ -1128,7 +1279,8 @@ repos:
 
   - repo: fonts-wqy-microhei
     group: deepin-sysdev-team
-    info: WenQuanYi Micro Hei font family is a sans-serif style (also known as Hei,
+    info:
+      WenQuanYi Micro Hei font family is a sans-serif style (also known as Hei,
       Gothic or Dotum among the Chinese/Japanese/Korean users) high quality CJK outline
       font.
 
@@ -1142,7 +1294,8 @@ repos:
 
   - repo: fort-validator
     group: deepin-sysdev-team
-    info: FORT validator performs the validation of the RPKI repository and serves
+    info:
+      FORT validator performs the validation of the RPKI repository and serves
       the ROAs to the routers.
 
   - repo: fping
@@ -1167,7 +1320,8 @@ repos:
 
   - repo: fstrcmp
     group: deepin-sysdev-team
-    info: A library which may be used to make a variety fuzzy comparisons, on strings
+    info:
+      A library which may be used to make a variety fuzzy comparisons, on strings
       and arrays of bytes, including wide character strings and multi-byte character
       strings.
 
@@ -1183,9 +1337,14 @@ repos:
     group: deepin-sysdev-team
     info: printer driver for Fuji Xerox printers
 
+  - repo: fzf
+    group: deepin-sysdev-team
+    info: general-purpose command-line fuzzy finder
+
   - repo: gamgi
     group: deepin-sysdev-team
-    info: GAMGI is a graphical interface tool used to establish, view, and analyze
+    info:
+      GAMGI is a graphical interface tool used to establish, view, and analyze
       atomic structures.
 
   - repo: gamin
@@ -1207,6 +1366,10 @@ repos:
   - repo: gcc-12-cross #main
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection (cross compiler)
+
+  - repo: gcc-12-cross-mipsen
+    group: deepin-sysdev-team
+    info: GCC 12 cross compilers for MIPS targets
 
   - repo: gcc-12-cross-ports #main
     group: deepin-sysdev-team
@@ -1372,6 +1535,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU TLS library - main runtime library
 
+  - repo: go-containerregistry #main
+    group: deepin-sysdev-team
+    info: Go library and CLIs for working with container registries (library)
+
   - repo: go-md2man-v2 #main
     group: deepin-sysdev-team
     info: utility to create manpages from markdown (source)
@@ -1379,6 +1546,10 @@ repos:
   - repo: gob2
     group: deepin-sysdev-team
     info: GTK+ Object Builder
+
+  - repo: gobgp #main
+    group: deepin-sysdev-team
+    info: BGP implemented in Go
 
   - repo: gobject-introspection
     group: deepin-sysdev-team
@@ -1404,9 +1575,17 @@ repos:
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage
 
+  - repo: golang-barcode #main
+    group: deepin-sysdev-team
+    info: Barcode creation lib for golang
+
   - repo: golang-bazil-fuse
     group: deepin-sysdev-team
     info: FUSE library for Go
+
+  - repo: golang-bitbucket-creachadair-shell #main
+    group: deepin-sysdev-team
+    info: implements basic shell command-line splitting for Go (library)
 
   - repo: golang-blackfriday #main
     group: deepin-sysdev-team
@@ -1420,6 +1599,10 @@ repos:
     group: deepin-sysdev-team
     info: BDD Testing Framework for Go (development files)
 
+  - repo: golang-github-14rcole-gopopulate #main
+    group: deepin-sysdev-team
+    info: Small library to populate a directory with random data
+
   - repo: golang-github-a8m-tree
     group: deepin-sysdev-team
     info: implementation of the tree command
@@ -1432,13 +1615,33 @@ repos:
     group: deepin-sysdev-team
     info: Basic and Digest HTTP Authentication for golang http
 
+  - repo: golang-github-acarl005-stripansi #main
+    group: deepin-sysdev-team
+    info: Little Go package for removing ANSI color escape codes from strings
+
+  - repo: golang-github-adamkorcz-go-fuzz-headers-1 #main
+    group: deepin-sysdev-team
+    info: helper functions for Go fuzzing
+
   - repo: golang-github-aead-chacha20 #main
     group: deepin-sysdev-team
     info: ChaCha20 and XChaCha20 stream ciphers go library
 
+  - repo: golang-github-aead-serpent #main
+    group: deepin-sysdev-team
+    info: Serpent block cipher
+
+  - repo: golang-github-agext-levenshtein #main
+    group: deepin-sysdev-team
+    info: Levenshtein distance and similarity metrics
+
   - repo: golang-github-ajstarks-svgo #main
     group: deepin-sysdev-team
     info: generating online histograms and plotting them with golang
+
+  - repo: golang-github-akamai-akamaiopen-edgegrid-golang #main
+    group: deepin-sysdev-team
+    info: Authentication handler for the Akamai OPEN EdgeGrid Authentication scheme
 
   - repo: golang-github-akamensky-argparse
     group: deepin-sysdev-team
@@ -1447,6 +1650,10 @@ repos:
   - repo: golang-github-akavel-rsrc #main
     group: deepin-sysdev-team
     info: Go library for embedding binary resources in executables
+
+  - repo: golang-github-alecaivazis-survey #main
+    group: deepin-sysdev-team
+    info: golang library for building interactive prompts
 
   - repo: golang-github-alecthomas-assert
     group: deepin-sysdev-team
@@ -1504,17 +1711,41 @@ repos:
     group: deepin-sysdev-team
     info: declarative flag parsing for Go using struct tags
 
+  - repo: golang-github-antlr-antlr4 #main
+    group: deepin-sysdev-team
+    info: runtime library for ANTLR 4
+
+  - repo: golang-github-apparentlymart-go-cidr #main
+    group: deepin-sysdev-team
+    info: manipulations of CIDR netmasks and their associated addresses
+
   - repo: golang-github-appc-cni #main
     group: deepin-sysdev-team
     info: container network interface
+
+  - repo: golang-github-areyoulazy-libhosty #main
+    group: deepin-sysdev-team
+    info: Golang library to manage /etc/hosts files
 
   - repo: golang-github-armon-go-metrics #main
     group: deepin-sysdev-team
     info: library for exporting performance and runtime metrics
 
+  - repo: golang-github-armon-go-proxyproto #main
+    group: deepin-sysdev-team
+    info: Golang package to handle HAProxy Proxy Protocol
+
+  - repo: golang-github-armon-go-socks5 #main
+    group: deepin-sysdev-team
+    info: SOCKS5 server in Golang
+
   - repo: golang-github-artyom-mtab
     group: deepin-sysdev-team
     info: Package to read /proc/self/mounts entries (library)
+
+  - repo: golang-github-asaskevich-govalidator #main
+    group: deepin-sysdev-team
+    info: Validators and sanitizers for strings, numerics, slices and structs
 
   - repo: golang-github-atotto-clipboard
     group: deepin-sysdev-team
@@ -1524,13 +1755,29 @@ repos:
     group: deepin-sysdev-team
     info: Graphviz DOT language in golang
 
+  - repo: golang-github-aws-aws-sdk-go-v2 #main
+    group: deepin-sysdev-team
+    info: AWS SDK for the Go programming language
+
+  - repo: golang-github-aws-smithy-go #main
+    group: deepin-sysdev-team
+    info: Smithy code generators for Go
+
   - repo: golang-github-azure-azure-pipeline-go
     group: deepin-sysdev-team
     info: HTTP request/response middleware pipeline
 
+  - repo: golang-github-azure-azure-sdk-for-go #main
+    group: deepin-sysdev-team
+    info: Microsoft Azure SDK for Go
+
   - repo: golang-github-azure-azure-storage-blob-go
     group: deepin-sysdev-team
     info: Microsoft Azure Blob Storage Library for Go
+
+  - repo: golang-github-azure-go-ansiterm #main
+    group: deepin-sysdev-team
+    info: Go package for ANSI terminal emulation in Windows
 
   - repo: golang-github-azure-go-autorest
     group: deepin-sysdev-team
@@ -1580,6 +1827,10 @@ repos:
     group: deepin-sysdev-team
     info: experiments for a seekable gzip for use in rclone based on pgzip (library)
 
+  - repo: golang-github-buger-goterm #main
+    group: deepin-sysdev-team
+    info: advanced terminal output in Golang
+
   - repo: golang-github-bugsnag-bugsnag-go #main
     group: deepin-sysdev-team
     info: automatic panic monitoring for Go applications
@@ -1590,12 +1841,33 @@ repos:
 
   - repo: golang-github-casbin-casbin #main
     group: deepin-sysdev-team
-    info: Authorization library that supports access control models like ACL, RBAC,
+    info:
+      Authorization library that supports access control models like ACL, RBAC,
       ABAC
 
   - repo: golang-github-cavaliergopher-grab
     group: deepin-sysdev-team
     info: Download manager package for Go (library)
+
+  - repo: golang-github-cenkalti-backoff #main
+    group: deepin-sysdev-team
+    info: exponential backoff algorithm in Go
+
+  - repo: golang-github-cenkalti-hub #main
+    group: deepin-sysdev-team
+    info: Simple PubSub library
+
+  - repo: golang-github-cenkalti-rpc2 #main
+    group: deepin-sysdev-team
+    info: Bi-directional RPC (library)
+
+  - repo: golang-github-charlievieth-fastwalk
+    group: deepin-sysdev-team
+    info: Fast directory traversal for Golang (library)
+
+  - repo: golang-github-checkpoint-restore-checkpointctl #main
+    group: deepin-sysdev-team
+    info: Tool to inspect Kubernetes and Podman checkpoints (library)
 
   - repo: golang-github-checkpoint-restore-go-criu #main
     group: deepin-sysdev-team
@@ -1608,6 +1880,10 @@ repos:
   - repo: golang-github-cilium-ebpf #main
     group: deepin-sysdev-team
     info: eBPF Library for Go
+
+  - repo: golang-github-cloudflare-backoff #main
+    group: deepin-sysdev-team
+    info: Go implementation of "Exponential Backoff And Jitter" (library)
 
   - repo: golang-github-cloudflare-cfssl #main
     group: deepin-sysdev-team
@@ -1625,6 +1901,10 @@ repos:
     group: deepin-sysdev-team
     info: Software-based two-man rule style (development files)
 
+  - repo: golang-github-cockroachdb-cockroach-go #main
+    group: deepin-sysdev-team
+    info: Packages for go clients.
+
   - repo: golang-github-cockroachdb-datadriven #main
     group: deepin-sysdev-team
     info: extension of Table-Driven Testing (library)
@@ -1632,6 +1912,10 @@ repos:
   - repo: golang-github-colinmarc-hdfs
     group: deepin-sysdev-team
     info: Native go client library for HDFS
+
+  - repo: golang-github-common-nighthawk-go-figure #main
+    group: deepin-sysdev-team
+    info: library to print ASCII art from text in Go (library)
 
   - repo: golang-github-containerd-btrfs #main
     group: deepin-sysdev-team
@@ -1645,6 +1929,10 @@ repos:
     group: deepin-sysdev-team
     info: Console package for Go
 
+  - repo: golang-github-containerd-errdefs #main
+    group: deepin-sysdev-team
+    info: Common definition and library of errors used by containerd
+
   - repo: golang-github-containerd-fifo #main
     group: deepin-sysdev-team
     info: fifo pkg for Go
@@ -1657,6 +1945,26 @@ repos:
     group: deepin-sysdev-team
     info: runc bindings for Go
 
+  - repo: golang-github-containerd-imgcrypt #main
+    group: deepin-sysdev-team
+    info: OCI Image Encryption Package
+
+  - repo: golang-github-containerd-log #main
+    group: deepin-sysdev-team
+    info: Common log interface for containerd repositories and clients
+
+  - repo: golang-github-containerd-nri #main
+    group: deepin-sysdev-team
+    info: Node Resource Interface
+
+  - repo: golang-github-containerd-platforms #main
+    group: deepin-sysdev-team
+    info: Go package for handling platform type
+
+  - repo: golang-github-containerd-stargz-snapshotter #main
+    group: deepin-sysdev-team
+    info: Fast container image distribution plugin with lazy pulling
+
   - repo: golang-github-containerd-typeurl #main
     group: deepin-sysdev-team
     info: Go package for managing marshaled types to protobuf.Any
@@ -1665,9 +1973,41 @@ repos:
     group: deepin-sysdev-team
     info: standard networking plugins - sources
 
+  - repo: golang-github-containers-buildah #main
+    group: deepin-sysdev-team
+    info: tool to facilitate building OCI images
+
+  - repo: golang-github-containers-common #main
+    group: deepin-sysdev-team
+    info: Common files for github.com/containers repositories (library)
+
+  - repo: golang-github-containers-gvisor-tap-vsocks #main
+    group: deepin-sysdev-team
+    info: Secure networking stack for container runtimes (program)
+
+  - repo: golang-github-containers-image #main
+    group: deepin-sysdev-team
+    info: golang library to work with containers' images
+
+  - repo: golang-github-containers-libtrust #main
+    group: deepin-sysdev-team
+    info: Primitives for identity and authorization (library)
+
+  - repo: golang-github-containers-luksy #main
+    group: deepin-sysdev-team
+    info: offline encryption/decryption using LUKS formats (library)
+
   - repo: golang-github-containers-ocicrypt #main
     group: deepin-sysdev-team
     info: Encryption libraries for Encrypted OCI Container images (library)
+
+  - repo: golang-github-containers-psgo #main
+    group: deepin-sysdev-team
+    info: ps(1) AIX-format compatible Golang library
+
+  - repo: golang-github-containers-storage #main
+    group: deepin-sysdev-team
+    info: Go library for handling how containers are stored on disk
 
   - repo: golang-github-coreos-bbolt #main
     group: deepin-sysdev-team
@@ -1677,6 +2017,14 @@ repos:
     group: deepin-sysdev-team
     info: Go bindings for iptables utility
 
+  - repo: golang-github-coreos-go-oidc #main
+    group: deepin-sysdev-team
+    info: Go libraries for implementing OIDC clients and servers
+
+  - repo: golang-github-coreos-go-oidc-v3 #main
+    group: deepin-sysdev-team
+    info: Go libraries for implementing OIDC clients and servers (library)
+
   - repo: golang-github-coreos-pkg #main
     group: deepin-sysdev-team
     info: collection of Go utility packages
@@ -1685,9 +2033,21 @@ repos:
     group: deepin-sysdev-team
     info: Go library for semantic versioning
 
+  - repo: golang-github-coreos-stream-metadata-go #main
+    group: deepin-sysdev-team
+    info: Go library for parsing Fedora CoreOS streams (library)
+
   - repo: golang-github-cosiner-argv #main
     group: deepin-sysdev-team
     info: Argv allows splitting a command line string into an arguments slice
+
+  - repo: golang-github-cowsql-go-cowsql #main
+    group: deepin-sysdev-team
+    info: Go bindings for libcowsql
+
+  - repo: golang-github-crc-org-crc #main
+    group: deepin-sysdev-team
+    info: Helper tool for running containers - development files
 
   - repo: golang-github-cyphar-filepath-securejoin #main
     group: deepin-sysdev-team
@@ -1733,6 +2093,10 @@ repos:
     group: deepin-sysdev-team
     info: go-camellia library for golang
 
+  - repo: golang-github-dgryski-go-farm #main
+    group: deepin-sysdev-team
+    info: pure-Go FarmHash implementation
+
   - repo: golang-github-dgryski-go-idea #main
     group: deepin-sysdev-team
     info: go-idea library for golang
@@ -1741,13 +2105,33 @@ repos:
     group: deepin-sysdev-team
     info: go-rc2 Library for golang
 
+  - repo: golang-github-digitalocean-go-libvirt #main
+    group: deepin-sysdev-team
+    info: Pure Go interface for interacting with libvirt (library)
+
+  - repo: golang-github-digitalocean-go-qemu #main
+    group: deepin-sysdev-team
+    info: Go packages to interact with QEMU using the QEMU Machine Protocol
+
+  - repo: golang-github-digitalocean-go-smbios #main
+    group: deepin-sysdev-team
+    info: Detection and access to SMBIOS and DMI data and structures
+
   - repo: golang-github-dimchansky-utfbom
     group: deepin-sysdev-team
     info: Detection of the BOM and removing as necessary
 
+  - repo: golang-github-disiqueira-gotree #main
+    group: deepin-sysdev-team
+    info: Tree printer module written in GoLang (library)
+
   - repo: golang-github-disposaboy-jsonconfigreader
     group: deepin-sysdev-team
     info: proxy for golang's io.Reader allowing you to use json as a config format
+
+  - repo: golang-github-distribution-reference #main
+    group: deepin-sysdev-team
+    info: Go library to handle references to container images
 
   - repo: golang-github-djherbis-times
     group: deepin-sysdev-team
@@ -1756,6 +2140,10 @@ repos:
   - repo: golang-github-dlclark-regexp2
     group: deepin-sysdev-team
     info: Regex engine for Go based on the .NET engine
+
+  - repo: golang-github-dnaeon-go-vcr #main
+    group: deepin-sysdev-team
+    info: Record and replay your HTTP interactions for tests
 
   - repo: golang-github-docker-docker-credential-helpers #main
     group: deepin-sysdev-team
@@ -1776,6 +2164,10 @@ repos:
   - repo: golang-github-docker-go-metrics #main
     group: deepin-sysdev-team
     info: Package for metrics collection in Docker projects
+
+  - repo: golang-github-docker-go-plugins-helpers #main
+    group: deepin-sysdev-team
+    info: Helper packages to extend Docker Engine in Golang
 
   - repo: golang-github-docker-go-units #main
     group: deepin-sysdev-team
@@ -1801,9 +2193,17 @@ repos:
     group: deepin-sysdev-team
     info: Unofficial Go SDK for integrating with the Dropbox API v2
 
+  - repo: golang-github-dtylman-scp #main
+    group: deepin-sysdev-team
+    info: A simple go scp client (library)
+
   - repo: golang-github-dvsekhvalnov-jose2go #main
     group: deepin-sysdev-team
     info: Go implementation of Javascript Object Signing and Encryption
+
+  - repo: golang-github-eapache-go-resiliency #main
+    group: deepin-sysdev-team
+    info: Resiliency patterns for golang (library)
 
   - repo: golang-github-eapache-go-xerial-snappy #main
     group: deepin-sysdev-team
@@ -1820,6 +2220,10 @@ repos:
   - repo: golang-github-edwvee-exiffix
     group: deepin-sysdev-team
     info: EXIF orientation correct replacement for golang's image.Decode (library)
+
+  - repo: golang-github-elazarl-goproxy #main
+    group: deepin-sysdev-team
+    info: HTTP proxy library for Go
 
   - repo: golang-github-emicklei-go-restful #main
     group: deepin-sysdev-team
@@ -1841,6 +2245,10 @@ repos:
     group: deepin-sysdev-team
     info: Color package for Go (golang)
 
+  - repo: golang-github-fatih-structs #main
+    group: deepin-sysdev-team
+    info: Utilities for Go structs
+
   - repo: golang-github-felixge-httpsnoop
     group: deepin-sysdev-team
     info: capture http related metrics from http.Handlers (library)
@@ -1849,9 +2257,21 @@ repos:
     group: deepin-sysdev-team
     info: Go library for generates/verifies HMAC-based authentication tokens
 
+  - repo: golang-github-flosch-pongo2.v4 #main
+    group: deepin-sysdev-team
+    info: Django-syntax like template-engine for Go
+
   - repo: golang-github-fluent-fluent-logger-golang #main
     group: deepin-sysdev-team
     info: Go structured logger for Fluentd
+
+  - repo: golang-github-fortytw2-leaktest #main
+    group: deepin-sysdev-team
+    info: Goroutine Leak Detector
+
+  - repo: golang-github-fsouza-go-dockerclient #main
+    group: deepin-sysdev-team
+    info: Docker client library in Go
 
   - repo: golang-github-fullsailor-pkcs7 #main
     group: deepin-sysdev-team
@@ -1860,6 +2280,10 @@ repos:
   - repo: golang-github-fvbommel-sortorder #main
     group: deepin-sysdev-team
     info: sort orders and comparison functions
+
+  - repo: golang-github-fxamacker-cbor #main
+    group: deepin-sysdev-team
+    info: CBOR codec implementing RFCs 7049 & 8949 (library)
 
   - repo: golang-github-gabriel-vasile-mimetype
     group: deepin-sysdev-team
@@ -1889,9 +2313,17 @@ repos:
     group: deepin-sysdev-team
     info: Fork of golang pkg `encoding/asn1` to support the Basic Encoding Rules (library)
 
+  - repo: golang-github-getkin-kin-openapi #main
+    group: deepin-sysdev-team
+    info: OpenAPI 3.0 implementation for Go
+
   - repo: golang-github-ghodss-yaml #main
     group: deepin-sysdev-team
     info: better way to marshal and unmarshal YAML in Golang
+
+  - repo: golang-github-gin-contrib-sse #main
+    group: deepin-sysdev-team
+    info: Server-Sent Events implementation in Go
 
   - repo: golang-github-gin-gonic-gin
     group: deepin-sysdev-team
@@ -1908,6 +2340,14 @@ repos:
   - repo: golang-github-go-delve-liner #main
     group: deepin-sysdev-team
     info: Purge Go line editor with history
+
+  - repo: golang-github-go-jose-go-jose #main
+    group: deepin-sysdev-team
+    info: Implementation of JOSE standards (JWE, JWS, JWT) in Go
+
+  - repo: golang-github-go-jose-go-jose.v3 #main
+    group: deepin-sysdev-team
+    info: Implementation of JOSE standards (JWE, JWS, JWT) in Go (library)
 
   - repo: golang-github-go-kit-kit #main
     group: deepin-sysdev-team
@@ -1933,6 +2373,46 @@ repos:
     group: deepin-sysdev-team
     info: Rhealth check, pprof, profile and statistic services for Macaro
 
+  - repo: golang-github-go-openapi-analysis #main
+    group: deepin-sysdev-team
+    info: OpenAPI Specification object model analyser
+
+  - repo: golang-github-go-openapi-errors #main
+    group: deepin-sysdev-team
+    info: common error handling code for OpenAPI
+
+  - repo: golang-github-go-openapi-jsonpointer #main
+    group: deepin-sysdev-team
+    info: fork of gojsonpointer with support for structs
+
+  - repo: golang-github-go-openapi-jsonreference #main
+    group: deepin-sysdev-team
+    info: implementation of gojsonreference with struct support
+
+  - repo: golang-github-go-openapi-loads #main
+    group: deepin-sysdev-team
+    info: OpenAPI Specification object model
+
+  - repo: golang-github-go-openapi-runtime #main
+    group: deepin-sysdev-team
+    info: OpenAPI runtime interfaces
+
+  - repo: golang-github-go-openapi-spec #main
+    group: deepin-sysdev-team
+    info: OpenAPI specification object model
+
+  - repo: golang-github-go-openapi-strfmt #main
+    group: deepin-sysdev-team
+    info: OpenAPI string formatting library
+
+  - repo: golang-github-go-openapi-swag #main
+    group: deepin-sysdev-team
+    info: goodie bag in use in the go-openapi projects
+
+  - repo: golang-github-go-openapi-validate #main
+    group: deepin-sysdev-team
+    info: OpenAPI toolkit validation helpers
+
   - repo: golang-github-go-playground-assert-v2
     group: deepin-sysdev-team
     info: basic assertion library for Go
@@ -1949,17 +2429,37 @@ repos:
     group: deepin-sysdev-team
     info: Go library for struct and field validation
 
+  - repo: golang-github-go-test-deep #main
+    group: deepin-sysdev-team
+    info: Golang deep variable equality test that returns human-readable differences
+
   - repo: golang-github-gofrs-flock #main
     group: deepin-sysdev-team
     info: thread-safe file locking library in Golang
+
+  - repo: golang-github-gofrs-uuid #main
+    group: deepin-sysdev-team
+    info: UUID library for Golang
 
   - repo: golang-github-gogo-googleapis #main
     group: deepin-sysdev-team
     info: googleapis generated with gogoprotobuf
 
+  - repo: golang-github-gokyle-twofactor #main
+    group: deepin-sysdev-team
+    info: Two-factor authentication
+
   - repo: golang-github-golang-jwt-jwt #main
     group: deepin-sysdev-team
     info: golang implementation of JSON Web Tokens (library)
+
+  - repo: golang-github-golang-jwt-jwt-v5 #main
+    group: deepin-sysdev-team
+    info: golang implementation of JSON Web Tokens
+
+  - repo: golang-github-golang-leveldb #main
+    group: deepin-sysdev-team
+    info: Implementation of the LevelDB key/value database in Go
 
   - repo: golang-github-golang-protobuf-1-3 #main
     group: deepin-sysdev-team
@@ -1973,13 +2473,33 @@ repos:
     group: deepin-sysdev-team
     info: Implementation of the Snappy compression format in Go
 
+  - repo: golang-github-google-cel-go #main
+    group: deepin-sysdev-team
+    info: Common Expression Language (go runtime)
+
   - repo: golang-github-google-certificate-transparency #main
     group: deepin-sysdev-team
     info: Framework for monitoring and auditing SSL certificates
 
+  - repo: golang-github-google-gnostic-models #main
+    group: deepin-sysdev-team
+    info: Protocol buffer models for gnostic
+
+  - repo: golang-github-google-go-cmp #main
+    group: deepin-sysdev-team
+    info: Package for comparing Go values in tests
+
   - repo: golang-github-google-go-dap #main
     group: deepin-sysdev-team
     info: Go implementation of the Debug Adapter Protocol
+
+  - repo: golang-github-google-go-github #main
+    group: deepin-sysdev-team
+    info: Go library for accessing the GitHub API
+
+  - repo: golang-github-google-go-intervals #main
+    group: deepin-sysdev-team
+    info: Functions for set operations on intervals, like ranges
 
   - repo: golang-github-google-go-querystring #main
     group: deepin-sysdev-team
@@ -1993,9 +2513,17 @@ repos:
     group: deepin-sysdev-team
     info: pprof is a tool for visualization and analysis of profiling data
 
+  - repo: golang-github-google-renameio #main
+    group: deepin-sysdev-team
+    info: provides a way to atomically create or replace a file or symbolic link
+
   - repo: golang-github-google-shlex #main
     group: deepin-sysdev-team
     info: Simple lexer for Go that supports shell-style rules
+
+  - repo: golang-github-google-subcommands #main
+    group: deepin-sysdev-team
+    info: go package for add some subcommands to single command
 
   - repo: golang-github-google-uuid #main
     group: deepin-sysdev-team
@@ -2017,6 +2545,10 @@ repos:
     group: deepin-sysdev-team
     info: collection of useful handlers for Go's net/http package
 
+  - repo: golang-github-gorilla-schema #main
+    group: deepin-sysdev-team
+    info: fills a struct with form values
+
   - repo: golang-github-gorilla-securecookie
     group: deepin-sysdev-team
     info: provides authenticated and encrypted cookie values
@@ -2032,6 +2564,10 @@ repos:
   - repo: golang-github-graylog2-go-gelf #main
     group: deepin-sysdev-team
     info: GELF library and writer for Go
+
+  - repo: golang-github-gregjones-httpcache #main
+    group: deepin-sysdev-team
+    info: Transport for http.Client that will cache responses
 
   - repo: golang-github-grpc-ecosystem-go-grpc-middleware #main
     group: deepin-sysdev-team
@@ -2049,6 +2585,10 @@ repos:
     group: deepin-sysdev-team
     info: expressive vendor-neutral APIs for distributed tracing and context propagation
 
+  - repo: golang-github-h2non-parth #main
+    group: deepin-sysdev-team
+    info: Path parsing for segment unmarshaling and slicing
+
   - repo: golang-github-hailocab-go-hostpool #main
     group: deepin-sysdev-team
     info: flexibly pool among multiple hosts from Go application
@@ -2064,6 +2604,10 @@ repos:
   - repo: golang-github-hashicorp-go-multierror
     group: deepin-sysdev-team
     info: Go package for representing a list of errors as a single error
+
+  - repo: golang-github-hashicorp-golang-lru-v2 #main
+    group: deepin-sysdev-team
+    info: Golang LRU cache (v2 with support for generics)
 
   - repo: golang-github-hashicorp-memberlist #main
     group: deepin-sysdev-team
@@ -2081,9 +2625,17 @@ repos:
     group: deepin-sysdev-team
     info: Unified text diffing in Go (copy of gopls internal diffing)
 
+  - repo: golang-github-hinshun-vt10x #main
+    group: deepin-sysdev-team
+    info: vt10x terminal emulation backend
+
   - repo: golang-github-hirochachacha-go-smb2
     group: deepin-sysdev-team
     info: SMB2/3 client library written in Go (library)
+
+  - repo: golang-github-howeyc-gopass #main
+    group: deepin-sysdev-team
+    info: getpasswd for Go
 
   - repo: golang-github-huandu-xstrings
     group: deepin-sysdev-team
@@ -2093,6 +2645,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ symbol name demangler written in Go
 
+  - repo: golang-github-ibm-sarama #main
+    group: deepin-sysdev-team
+    info: Client library for Apache Kafka
+
   - repo: golang-github-iguanesolutions-go-systemd
     group: deepin-sysdev-team
     info: Golang bindings for systemd (library)
@@ -2100,6 +2656,10 @@ repos:
   - repo: golang-github-imdario-mergo #main
     group: deepin-sysdev-team
     info: Functions to merge structs and maps in Go
+
+  - repo: golang-github-inetaf-tcpproxy #main
+    group: deepin-sysdev-team
+    info: Proxy TCP implementation written in golang
 
   - repo: golang-github-influxdata-influxdb1-client #main
     group: deepin-sysdev-team
@@ -2113,9 +2673,29 @@ repos:
     group: deepin-sysdev-team
     info: Go library for managing resctrl filesystem
 
+  - repo: golang-github-invopop-yaml #main
+    group: deepin-sysdev-team
+    info: better way to marshal and unmarshal YAML in Golang
+
   - repo: golang-github-ishidawataru-sctp #main
     group: deepin-sysdev-team
     info: SCTP library for the Go programming language
+
+  - repo: golang-github-j-keck-arping #main
+    group: deepin-sysdev-team
+    info: library to ping a host per arp datagram or query a host mac address
+
+  - repo: golang-github-jamesclonk-vultr #main
+    group: deepin-sysdev-team
+    info: Vultr API client library
+
+  - repo: golang-github-jarcoal-httpmock #main
+    group: deepin-sysdev-team
+    info: HTTP mocking for Golang
+
+  - repo: golang-github-jaypipes-pcidb #main
+    group: deepin-sysdev-team
+    info: Small golang library for querying PCI database (pciids) information
 
   - repo: golang-github-jcmturner-aescts.v2
     group: deepin-sysdev-team
@@ -2137,6 +2717,26 @@ repos:
     group: deepin-sysdev-team
     info: Remote Procedure Call libraries for golang
 
+  - repo: golang-github-jedisct1-go-minisign #main
+    group: deepin-sysdev-team
+    info: Minisign library for Golang
+
+  - repo: golang-github-jellydator-ttlcache #main
+    group: deepin-sysdev-team
+    info: In-memory cache with item expiration and generics (library)
+
+  - repo: golang-github-jeremija-gosubmit #main
+    group: deepin-sysdev-team
+    info: Library for parsing and submitting HTML forms
+
+  - repo: golang-github-jinzhu-copier #main
+    group: deepin-sysdev-team
+    info: Copy value from struct to struct and more (library)
+
+  - repo: golang-github-jkeiser-iter #main
+    group: deepin-sysdev-team
+    info: Go library for iteration (library)
+
   - repo: golang-github-jlaffaye-ftp
     group: deepin-sysdev-team
     info: FTP client package for Go
@@ -2149,9 +2749,17 @@ repos:
     group: deepin-sysdev-team
     info: General purpose extensions to Golang's database/sql library
 
+  - repo: golang-github-jochenvg-go-udev #main
+    group: deepin-sysdev-team
+    info: Go bindings for libudev
+
   - repo: golang-github-jonboulle-clockwork #main
     group: deepin-sysdev-team
     info: Simple fake clock for Go
+
+  - repo: golang-github-josharian-intern #main
+    group: deepin-sysdev-team
+    info: Intern string golang library
 
   - repo: golang-github-josharian-native
     group: deepin-sysdev-team
@@ -2161,6 +2769,10 @@ repos:
     group: deepin-sysdev-team
     info: Go library for interfacing with the RTNetlink protocol
 
+  - repo: golang-github-junegunn-go-shellwords
+    group: deepin-sysdev-team
+    info: Parse line as shell words (library)
+
   - repo: golang-github-jung-kurt-gofpdf #main
     group: deepin-sysdev-team
     info: PDF document generator with high level support for text, drawing and images
@@ -2169,9 +2781,17 @@ repos:
     group: deepin-sysdev-team
     info: whirlpool cryptographic hashing library
 
+  - repo: golang-github-k-sone-critbitgo #main
+    group: deepin-sysdev-team
+    info: crit-bit for golang and its applications (sorted map, IP routing table)
+
   - repo: golang-github-kardianos-osext #main
     group: deepin-sysdev-team
     info: Extend "os" package with Executable and ExecutableFolder
+
+  - repo: golang-github-kballard-go-shellquote #main
+    group: deepin-sysdev-team
+    info: Go utilities for performing shell-like word splitting/joining
 
   - repo: golang-github-kisielk-sqlstruct #main
     group: deepin-sysdev-team
@@ -2193,6 +2813,10 @@ repos:
     group: deepin-sysdev-team
     info: CRC32 hash with x64 optimizations
 
+  - repo: golang-github-klauspost-pgzip #main
+    group: deepin-sysdev-team
+    info: parallel gzip (de)compression library for Go
+
   - repo: golang-github-klauspost-reedsolomon #main
     group: deepin-sysdev-team
     info: Go library provides an implementation of Reed-Solomon erasure coding
@@ -2200,6 +2824,14 @@ repos:
   - repo: golang-github-knetic-govaluate #main
     group: deepin-sysdev-team
     info: Arbitrary expression evaluation for golang (library)
+
+  - repo: golang-github-kolo-xmlrpc #main
+    group: deepin-sysdev-team
+    info: Implementation of the XMLRPC client protocol in Go
+
+  - repo: golang-github-konsorten-go-windows-terminal-sequences #main
+    group: deepin-sysdev-team
+    info: Enable support for Windows Terminal Colors
 
   - repo: golang-github-koofr-go-httpclient
     group: deepin-sysdev-team
@@ -2209,6 +2841,18 @@ repos:
     group: deepin-sysdev-team
     info: Go Koofr client
 
+  - repo: golang-github-kubernetes-cri-api #main
+    group: deepin-sysdev-team
+    info: Container Runtime Interface (CRI)
+
+  - repo: golang-github-kubernetes-gengo #main
+    group: deepin-sysdev-team
+    info: library for generating code based on Go files
+
+  - repo: golang-github-kylelemons-godebug #main
+    group: deepin-sysdev-team
+    info: Debugging helper utilities for Go
+
   - repo: golang-github-leodido-go-urn
     group: deepin-sysdev-team
     info: Go parser for Uniform Resource Names
@@ -2217,6 +2861,10 @@ repos:
     group: deepin-sysdev-team
     info: Go GNU gettext utilities package (library)
 
+  - repo: golang-github-linuxkit-virtsock #main
+    group: deepin-sysdev-team
+    info: Go bindings for Hyper-V and virtio sockets
+
   - repo: golang-github-lionsoul2014-ip2region-v1.0-binding-golang-ip2region
     group: deepin-sysdev-team
     info: offline IP address manager framework and locator
@@ -2224,6 +2872,14 @@ repos:
   - repo: golang-github-lucasb-eyer-go-colorful
     group: deepin-sysdev-team
     info: Library for handling color spaces in Go
+
+  - repo: golang-github-mailru-easyjson #main
+    group: deepin-sysdev-team
+    info: Fast JSON serializer for golang
+
+  - repo: golang-github-manifoldco-promptui #main
+    group: deepin-sysdev-team
+    info: Interactive prompt for command-line applications (library)
 
   - repo: golang-github-masterminds-semver-dev #main
     group: deepin-sysdev-team
@@ -2245,13 +2901,25 @@ repos:
     group: deepin-sysdev-team
     info: go implementation of base32768, optimized for UTF-16 (library)
 
+  - repo: golang-github-maxatome-go-testdeep #main
+    group: deepin-sysdev-team
+    info: Extremely flexible golang deep comparison
+
   - repo: golang-github-mdlayher-ethernet #main
     group: deepin-sysdev-team
     info: Go library for working with Ethernet frames
 
+  - repo: golang-github-mdlayher-ndp #main
+    group: deepin-sysdev-team
+    info: Golang implementation of the Neighbor Discovery Protocol
+
   - repo: golang-github-mdlayher-netlink-dev
     group: deepin-sysdev-team
     info: This package provides low-level access to Linux netlink sockets (AF_NETLINK)
+
+  - repo: golang-github-mdlayher-netx #main
+    group: deepin-sysdev-team
+    info: Collection of small Go networking packages
 
   - repo: golang-github-mdlayher-packet #main
     group: deepin-sysdev-team
@@ -2265,6 +2933,14 @@ repos:
     group: deepin-sysdev-team
     info: low-level network socket for Go
 
+  - repo: golang-github-mdlayher-vsock #main
+    group: deepin-sysdev-team
+    info: Vsock provides access to Linux VM sockets (AF_VSOCK)
+
+  - repo: golang-github-mgutz-ansi #main
+    group: deepin-sysdev-team
+    info: Small, fast library to create ANSI colored strings and codes
+
   - repo: golang-github-miekg-dns #main
     group: deepin-sysdev-team
     info: DNS protocol library for Go
@@ -2272,6 +2948,18 @@ repos:
   - repo: golang-github-miekg-pkcs11 #main
     group: deepin-sysdev-team
     info: pkcs11 wrapper for Go
+
+  - repo: golang-github-minio-md5-simd #main
+    group: deepin-sysdev-team
+    info: SIMD accelerated MD5 package
+
+  - repo: golang-github-minio-minio-go-v7 #main
+    group: deepin-sysdev-team
+    info: Go library for Amazon S3 compatible cloud storage
+
+  - repo: golang-github-minio-sha256-simd #main
+    group: deepin-sysdev-team
+    info: implementation of SHA256 using SIMD instructions for Intel and ARM
 
   - repo: golang-github-mitchellh-hashstructure #main
     group: deepin-sysdev-team
@@ -2285,9 +2973,21 @@ repos:
     group: deepin-sysdev-team
     info: Generate x86 Assembly with Go (library)
 
+  - repo: golang-github-moby-docker-image-spec #main
+    group: deepin-sysdev-team
+    info: Docker Image Specification v1
+
   - repo: golang-github-moby-locker #main
     group: deepin-sysdev-team
     info: Go library for creating finer-grained locking
+
+  - repo: golang-github-moby-patternmatcher #main
+    group: deepin-sysdev-team
+    info: pattern matcher implemented in Go
+
+  - repo: golang-github-moby-pubsub #main
+    group: deepin-sysdev-team
+    info: Pub/Sub implementation in Go
 
   - repo: golang-github-moby-sys #main
     group: deepin-sysdev-team
@@ -2296,6 +2996,14 @@ repos:
   - repo: golang-github-moby-term #main
     group: deepin-sysdev-team
     info: utilities for dealing with terminals
+
+  - repo: golang-github-mohae-deepcopy #main
+    group: deepin-sysdev-team
+    info: create deep copies of things
+
+  - repo: golang-github-montanaflynn-stats #main
+    group: deepin-sysdev-team
+    info: Statistics package for Go
 
   - repo: golang-github-morikuni-aec #main
     group: deepin-sysdev-team
@@ -2308,6 +3016,18 @@ repos:
   - repo: golang-github-mrunalp-fileutils #main
     group: deepin-sysdev-team
     info: collection of utilities for file manipulation in golang
+
+  - repo: golang-github-muhlemmer-gu #main
+    group: deepin-sysdev-team
+    info: Generic Utilities for the Go programming language (library)
+
+  - repo: golang-github-muhlemmer-httpforwarded #main
+    group: deepin-sysdev-team
+    info: Library for parsing the HTTP Forwarded header (RFC-7239)
+
+  - repo: golang-github-munnerz-goautoneg #main
+    group: deepin-sysdev-team
+    info: golang functions for HTTP Content-Type autonegotiation
 
   - repo: golang-github-mwitkow-go-conntrack #main
     group: deepin-sysdev-team
@@ -2325,6 +3045,10 @@ repos:
     group: deepin-sysdev-team
     info: ipset library for golang
 
+  - repo: golang-github-nbio-st #main
+    group: deepin-sysdev-team
+    info: Simple Test micro-framework for Go
+
   - repo: golang-github-ncw-go-acd
     group: deepin-sysdev-team
     info: Go library for accessing Amazon Cloud Drive
@@ -2337,6 +3061,10 @@ repos:
     group: deepin-sysdev-team
     info: Go language interface to Swift
 
+  - repo: golang-github-netflix-go-expect #main
+    group: deepin-sysdev-team
+    info: expect-like golang library to automate terminal/console interactions
+
   - repo: golang-github-networkplumbing-go-nft #main
     group: deepin-sysdev-team
     info: Go bindings for nft utility (library)
@@ -2344,6 +3072,14 @@ repos:
   - repo: golang-github-nkovacs-streamquote #main
     group: deepin-sysdev-team
     info: Go package providing a streaming version of strconv.Quote
+
+  - repo: golang-github-nrdcg-desec #main
+    group: deepin-sysdev-team
+    info: Go library for accessing the deSEC API
+
+  - repo: golang-github-nrdcg-goinwx #main
+    group: deepin-sysdev-team
+    info: INWX Go API client
 
   - repo: golang-github-nsf-termbox-go
     group: deepin-sysdev-team
@@ -2353,6 +3089,18 @@ repos:
     group: deepin-sysdev-team
     info: Go package for reading from continuously updated files
 
+  - repo: golang-github-nytimes-gziphandler #main
+    group: deepin-sysdev-team
+    info: Golang middleware to gzip HTTP responses
+
+  - repo: golang-github-oklog-run #main
+    group: deepin-sysdev-team
+    info: Universal mechanism to manage goroutine lifecycles
+
+  - repo: golang-github-oklog-ulid #main
+    group: deepin-sysdev-team
+    info: ULID generation library for Golang
+
   - repo: golang-github-okzk-sdnotify
     group: deepin-sysdev-team
     info: systemd's service notification protocol (sd_notify)
@@ -2360,6 +3108,14 @@ repos:
   - repo: golang-github-olekukonko-tablewriter #main
     group: deepin-sysdev-team
     info: generate ASCII tables in Golang
+
+  - repo: golang-github-onsi-ginkgo-v2 #main
+    group: deepin-sysdev-team
+    info: BDD Testing Framework for Go
+
+  - repo: golang-github-op-go-logging #main
+    group: deepin-sysdev-team
+    info: Golang logging library
 
   - repo: golang-github-opencontainers-go-digest #main
     group: deepin-sysdev-team
@@ -2369,6 +3125,10 @@ repos:
     group: deepin-sysdev-team
     info: Open Container Initiative (OCI) Image Format Specification
 
+  - repo: golang-github-opencontainers-runtime-tools #main
+    group: deepin-sysdev-team
+    info: OCI Runtime Tools
+
   - repo: golang-github-opencontainers-selinux #main
     group: deepin-sysdev-team
     info: common selinux implementation
@@ -2377,10 +3137,23 @@ repos:
     group: deepin-sysdev-team
     info: Open Container Specifications
 
+  - repo: golang-github-openfga-go-sdk #main
+    group: deepin-sysdev-team
+    info: OpenFGA SDK for Go
+
   - repo: golang-github-openprinting-goipp
     group: deepin-sysdev-team
-    info: golang-github-openprinting-goipp is an IPP core protocol in pure Go Library
+    info:
+      golang-github-openprinting-goipp is an IPP core protocol in pure Go Library
       (RFC 8010).
+
+  - repo: golang-github-openshift-api #main
+    group: deepin-sysdev-team
+    info: OpenShift API definitions
+
+  - repo: golang-github-openshift-imagebuilder #main
+    group: deepin-sysdev-team
+    info: Builds container images using Dockerfile as input
 
   - repo: golang-github-opentracing-contrib-go-stdlib #main
     group: deepin-sysdev-team
@@ -2394,15 +3167,39 @@ repos:
     group: deepin-sysdev-team
     info: This library provides a reader for the MaxMind DB file format.
 
+  - repo: golang-github-ostreedev-ostree-go #main
+    group: deepin-sysdev-team
+    info: Golang bindings for httt://github.com/ostreedev/ostree
+
+  - repo: golang-github-otiai10-copy #main
+    group: deepin-sysdev-team
+    info: Golang copy directory recursively (library)
+
+  - repo: golang-github-ovh-go-ovh #main
+    group: deepin-sysdev-team
+    info: Simple go wrapper for the OVH API
+
+  - repo: golang-github-ovn-org-libovsdb #main
+    group: deepin-sysdev-team
+    info: OVSDB Client Library
+
   - repo: golang-github-patrickmn-go-cache
     group: deepin-sysdev-team
     info: in-memory key:value store/cache (similar to Memcached)
+
+  - repo: golang-github-paulrosania-go-charset #main
+    group: deepin-sysdev-team
+    info: character set conversion for Go
+
+  - repo: golang-github-pbnjay-memory #main
+    group: deepin-sysdev-team
+    info: Provides go function to report total system memory
 
   - repo: golang-github-pborman-getopt
     group: deepin-sysdev-team
     info: getopt style option parsing for Go (library)
 
-  - repo: golang-github-pborman-uuid
+  - repo: golang-github-pborman-uuid #main
     group: deepin-sysdev-team
     info: Go bindings to work with UUIDs
 
@@ -2418,6 +3215,18 @@ repos:
     group: deepin-sysdev-team
     info: Implementation of the PCP instrumentation API (library)
 
+  - repo: golang-github-perimeterx-marshmallow #main
+    group: deepin-sysdev-team
+    info: flexible and performant JSON unmarshalling in Go
+
+  - repo: golang-github-peterbourgon-diskv #main
+    group: deepin-sysdev-team
+    info: disk-backed key-value store
+
+  - repo: golang-github-peterh-liner #main
+    group: deepin-sysdev-team
+    info: Command line editor with history
+
   - repo: golang-github-philhofer-fwd #main
     group: deepin-sysdev-team
     info: Buffered Reader/Writer
@@ -2426,9 +3235,33 @@ repos:
     group: deepin-sysdev-team
     info: LZ4 compression and decompression in pure Go
 
+  - repo: golang-github-pkg-browser #main
+    group: deepin-sysdev-team
+    info: Helpers to open files, readers, and URLs in a browser window
+
+  - repo: golang-github-pkg-profile #main
+    group: deepin-sysdev-team
+    info: Simple profiling for Go
+
   - repo: golang-github-pkg-xattr
     group: deepin-sysdev-team
     info: Extended attribute support for Go
+
+  - repo: golang-github-pquerna-cachecontrol #main
+    group: deepin-sysdev-team
+    info: HTTP Cache-Control Parser and Interpretation
+
+  - repo: golang-github-pquerna-ffjson #main
+    group: deepin-sysdev-team
+    info: faster JSON serialization for Go
+
+  - repo: golang-github-pquerna-otp #main
+    group: deepin-sysdev-team
+    info: Google Authenticator compatible one time passwords for Go
+
+  - repo: golang-github-proglottis-gpgme #main
+    group: deepin-sysdev-team
+    info: Go wrapper for the GPGME library
 
   - repo: golang-github-prometheus-client-golang #main
     group: deepin-sysdev-team
@@ -2450,6 +3283,10 @@ repos:
     group: deepin-sysdev-team
     info: Put.io Go API client
 
+  - repo: golang-github-rabbitmq-amqp091-go #main
+    group: deepin-sysdev-team
+    info: Go client for AMQP 0.9.1 (library)
+
   - repo: golang-github-racksec-srslog #main
     group: deepin-sysdev-team
     info: replacement for the standard Golang library "log/syslog"
@@ -2466,6 +3303,10 @@ repos:
     group: deepin-sysdev-team
     info: EME wide-block encryption for Go
 
+  - repo: golang-github-rican7-retry #main
+    group: deepin-sysdev-team
+    info: Go library to perform actions repetitively
+
   - repo: golang-github-rivo-uniseg
     group: deepin-sysdev-team
     info: Unicode Text Segmentation for Go
@@ -2474,6 +3315,10 @@ repos:
     group: deepin-sysdev-team
     info: Roaring bitmaps in Go
 
+  - repo: golang-github-robfig-cron #main
+    group: deepin-sysdev-team
+    info: cron library for go
+
   - repo: golang-github-rodaine-table
     group: deepin-sysdev-team
     info: Go CLI Table Generator
@@ -2481,6 +3326,14 @@ repos:
   - repo: golang-github-rogpeppe-fastuuid #main
     group: deepin-sysdev-team
     info: fast generation of 192-bit UUIDs
+
+  - repo: golang-github-rs-cors #main
+    group: deepin-sysdev-team
+    info: net/http configurable handler to handle CORS requests
+
+  - repo: golang-github-rs-xid #main
+    group: deepin-sysdev-team
+    info: globally unique id generator thought for the web
 
   - repo: golang-github-rwcarlsen-goexif
     group: deepin-sysdev-team
@@ -2510,13 +3363,29 @@ repos:
     group: deepin-sysdev-team
     info: Go library for handling IP addresses and subnets
 
+  - repo: golang-github-sebdah-goldie #main
+    group: deepin-sysdev-team
+    info: Golden file testing for Go (library)
+
   - repo: golang-github-seccomp-libseccomp-golang #main
     group: deepin-sysdev-team
     info: golang bindings for libseccomp
 
+  - repo: golang-github-secure-systems-lab-go-securesystemslib #main
+    group: deepin-sysdev-team
+    info: Cryptographic routines for Golang Secure Systems Lab projects at NYU (library)
+
+  - repo: golang-github-segmentio-ksuid #main
+    group: deepin-sysdev-team
+    info: K-Sortable Globally Unique IDs
+
   - repo: golang-github-sevlyar-go-daemon
     group: deepin-sysdev-team
     info: library for writing system daemons
+
+  - repo: golang-github-shibumi-go-pathspec #main
+    group: deepin-sysdev-team
+    info: gitignore-style pathspec pattern matching in Go (library)
 
   - repo: golang-github-shirou-gopsutil
     group: deepin-sysdev-team
@@ -2529,6 +3398,22 @@ repos:
   - repo: golang-github-shopify-sarama #main
     group: deepin-sysdev-team
     info: Go library for Apache Kafka
+
+  - repo: golang-github-shopspring-decimal #main
+    group: deepin-sysdev-team
+    info: arbitrary-precision fixed-point decimal numbers in go
+
+  - repo: golang-github-sigstore-fulcio #main
+    group: deepin-sysdev-team
+    info: Sigstore OIDC PKI (library)
+
+  - repo: golang-github-sigstore-protobuf-specs #main
+    group: deepin-sysdev-team
+    info: Sigstore Protocol Buffer code (library)
+
+  - repo: golang-github-sigstore-sigstore #main
+    group: deepin-sysdev-team
+    info: Common go library shared across sigstore services and clients (library)
 
   - repo: golang-github-skratchdot-open-golang
     group: deepin-sysdev-team
@@ -2554,6 +3439,10 @@ repos:
     group: deepin-sysdev-team
     info: Go configuration with fangs
 
+  - repo: golang-github-spiffe-go-spiffe #main
+    group: deepin-sysdev-team
+    info: secure production identity framework for everyone in Go (library)
+
   - repo: golang-github-stathat-go #main
     group: deepin-sysdev-team
     info: Go package for reporting stat counts and values to StatHat
@@ -2562,9 +3451,17 @@ repos:
     group: deepin-sysdev-team
     info: Golang pkcs11 URI library (library)
 
+  - repo: golang-github-stoewer-go-strcase #main
+    group: deepin-sysdev-team
+    info: go library for converting between naming formats
+
   - repo: golang-github-streadway-amqp #main
     group: deepin-sysdev-team
     info: Go client for AMQP 0.9.1
+
+  - repo: golang-github-sylabs-sif #main
+    group: deepin-sysdev-team
+    info: reference implementation of the Singularity Image Format (SIF)
 
   - repo: golang-github-templexxx-cpu #main
     group: deepin-sysdev-team
@@ -2573,6 +3470,18 @@ repos:
   - repo: golang-github-templexxx-xorsimd #main
     group: deepin-sysdev-team
     info: Go library provides a fast implementation of XOR and SIMD (Single Instruction, Multiple Data) operations
+
+  - repo: golang-github-thales-e-security-pool #main
+    group: deepin-sysdev-team
+    info: Collection of go packages from Vitess (library)
+
+  - repo: golang-github-thalesignite-crypto11 #main
+    group: deepin-sysdev-team
+    info: implementation of Golang crypto interfaces with PKCS#11 as backend
+
+  - repo: golang-github-theupdateframework-go-tuf #main
+    group: deepin-sysdev-team
+    info: Securing software in golang (library)
 
   - repo: golang-github-tidwall-gjson
     group: deepin-sysdev-team
@@ -2606,6 +3515,10 @@ repos:
     group: deepin-sysdev-team
     info: Simple byte size formatting library
 
+  - repo: golang-github-transparency-dev-merkle #main
+    group: deepin-sysdev-team
+    info: create and manipulate Merkle trees in Go (library)
+
   - repo: golang-github-tsosunchia-powclient
     group: deepin-sysdev-team
     info: NEXTTRACE project derived repository for implementing POW anti-crawling
@@ -2614,9 +3527,13 @@ repos:
     group: deepin-sysdev-team
     info: part of the u-root project, which aims to create a root file system for embedded systems
 
-  - repo: golang-github-ugorji-go-codec
+  - repo: golang-github-ugorji-go-codec #main
     group: deepin-sysdev-team
     info: idiomatic codec and rpc lib for msgpack, cbor, json
+
+  - repo: golang-github-ulikunitz-xz #main
+    group: deepin-sysdev-team
+    info: Pure golang package for reading and writing xz-compressed files
 
   - repo: golang-github-unknwon-com
     group: deepin-sysdev-team
@@ -2630,6 +3547,10 @@ repos:
     group: deepin-sysdev-team
     info: package for building command line apps in Go
 
+  - repo: golang-github-urfave-cli-v2 #main
+    group: deepin-sysdev-team
+    info: package for building command line apps in Go (version 2)
+
   - repo: golang-github-valyala-bytebufferpool #main
     group: deepin-sysdev-team
     info: Anti-memory-waste byte buffer pool for go
@@ -2642,6 +3563,14 @@ repos:
     group: deepin-sysdev-team
     info: tar archive assembly/disassembly (source)
 
+  - repo: golang-github-vbauerster-mpb #main
+    group: deepin-sysdev-team
+    info: multi progress bar for Go cli applications
+
+  - repo: golang-github-veraison-go-cose #main
+    group: deepin-sysdev-team
+    info: go library for CBOR Object Signing and Encryption (COSE) (library)
+
   - repo: golang-github-vishvananda-netlink #main
     group: deepin-sysdev-team
     info: netlink library for go
@@ -2650,21 +3579,65 @@ repos:
     group: deepin-sysdev-team
     info: network namespaces in go
 
+  - repo: golang-github-vividcortex-ewma #main
+    group: deepin-sysdev-team
+    info: Exponentially Weighted Moving Average algorithms for Go
+
   - repo: golang-github-vividcortex-gohistogram #main
     group: deepin-sysdev-team
     info: Streaming approximate histograms in Go (library)
+
+  - repo: golang-github-vultr-govultr #main
+    group: deepin-sysdev-team
+    info: Vultr Go API client
+
+  - repo: golang-github-weppos-dnsimple-go #main
+    group: deepin-sysdev-team
+    info: DNSimple API v1 client for Go
+
+  - repo: golang-github-weppos-publicsuffix-go #main
+    group: deepin-sysdev-team
+    info: Domain name parser on the Public Suffix List
 
   - repo: golang-github-wsxiaoys-terminal
     group: deepin-sysdev-team
     info: Colorful terminal output for Golang
 
+  - repo: golang-github-x448-float16 #main
+    group: deepin-sysdev-team
+    info: IEEE 754 half-precision format (library)
+
   - repo: golang-github-xanzy-ssh-agent
     group: deepin-sysdev-team
     info: Go library for creating SSH agents
 
+  - repo: golang-github-xdg-go-pbkdf2 #main
+    group: deepin-sysdev-team
+    info: PBKDF2 key generation (library)
+
+  - repo: golang-github-xdg-go-scram #main
+    group: deepin-sysdev-team
+    info: RFC-5802 SCRAM in Go (library)
+
+  - repo: golang-github-xdg-go-stringprep #main
+    group: deepin-sysdev-team
+    info: RFC-3454 stringprep and RFC-4013 SASLprep in Go (library)
+
+  - repo: golang-github-xenolf-lego #main
+    group: deepin-sysdev-team
+    info: Let's Encrypt ACME library
+
   - repo: golang-github-xiang90-probing #main
     group: deepin-sysdev-team
     info: Go library for HTTP probing
+
+  - repo: golang-github-xlab-treeprint #main
+    group: deepin-sysdev-team
+    info: simple ASCII tree composing tool
+
+  - repo: golang-github-xrash-smetrics #main
+    group: deepin-sysdev-team
+    info: String metrics library written in Go
 
   - repo: golang-github-xtaci-kcp #main
     group: deepin-sysdev-team
@@ -2674,13 +3647,45 @@ repos:
     group: deepin-sysdev-team
     info: Go package to parse and convert private keys in PKCS#8 format (library)
 
+  - repo: golang-github-zalando-go-keyring #main
+    group: deepin-sysdev-team
+    info: Cross-platform keyring interface for Go (library)
+
   - repo: golang-github-zeebo-assert
     group: deepin-sysdev-team
     info: Helper package for golang tests
 
+  - repo: golang-github-zeebo-errs #main
+    group: deepin-sysdev-team
+    info: errs is a Go library for error handling
+
   - repo: golang-github-zeebo-xxh3
     group: deepin-sysdev-team
     info: XXH3 algorithm in Go
+
+  - repo: golang-github-zitadel-logging #main
+    group: deepin-sysdev-team
+    info: Logging extension library
+
+  - repo: golang-github-zitadel-oidc #main
+    group: deepin-sysdev-team
+    info: OpenID Connect client and server library certified by the OpenID Foundation
+
+  - repo: golang-github-zitadel-schema #main
+    group: deepin-sysdev-team
+    info: Library to fill a struct with form values
+
+  - repo: golang-github-zmap-rc2 #main
+    group: deepin-sysdev-team
+    info: RC2 Cipher in Golang
+
+  - repo: golang-github-zmap-zcrypto #main
+    group: deepin-sysdev-team
+    info: Liberal Go TLS + X.509 Library for Research
+
+  - repo: golang-github-zmap-zlint #main
+    group: deepin-sysdev-team
+    info: X.509 Certificate Linter focused on Web PKI standards
 
   - repo: golang-go-patricia #main
     group: deepin-sysdev-team
@@ -2738,9 +3743,13 @@ repos:
     group: deepin-sysdev-team
     info: Go Vulnerability Management
 
-  - repo: golang-goleveldb
+  - repo: golang-goleveldb #main
     group: deepin-sysdev-team
     info: LevelDB key/value database in Go
+
+  - repo: golang-gomemcache #main
+    group: deepin-sysdev-team
+    info: Go memcached client library
 
   - repo: golang-gonum-v1-gonum #main
     group: deepin-sysdev-team
@@ -2770,6 +3779,10 @@ repos:
     group: deepin-sysdev-team
     info: simple console progress bar for Go
 
+  - repo: golang-gopkg-eapache-channels.v1 #main
+    group: deepin-sysdev-team
+    info: collection of helpers around golang's existing channels
+
   - repo: golang-gopkg-eapache-go-resiliency.v1 #main
     group: deepin-sysdev-team
     info: resiliency patterns for golang
@@ -2778,17 +3791,29 @@ repos:
     group: deepin-sysdev-team
     info: fast golang queue using ring-buffer
 
-  - repo: golang-gopkg-h2non-filetype.v1
+  - repo: golang-gopkg-h2non-filetype.v1 #main
     group: deepin-sysdev-team
     info: Go package to infer file types based on the magic numbers header signature
+
+  - repo: golang-gopkg-h2non-gock.v1 #main
+    group: deepin-sysdev-team
+    info: HTTP traffic mocking and testing made easy in Go
 
   - repo: golang-gopkg-inf.v0 #main
     group: deepin-sysdev-team
     info: Golang library for "infinite-precision" decimal arithmetic
 
+  - repo: golang-gopkg-lxc-go-lxc.v2 #main
+    group: deepin-sysdev-team
+    info: Go bindings for liblxc
+
   - repo: golang-gopkg-macaron-macaron
     group: deepin-sysdev-team
     info: modular web framework in Go
+
+  - repo: golang-gopkg-natefinch-lumberjack.v2 #main
+    group: deepin-sysdev-team
+    info: Go package for writing logs to rolling files
 
   - repo: golang-gopkg-rethinkdb-rethinkdb-go.v6 #main
     group: deepin-sysdev-team
@@ -2802,13 +3827,45 @@ repos:
     group: deepin-sysdev-team
     info: API to track the lifecyle of Golang goroutines, and provide clean termination
 
+  - repo: golang-gvisor-gvisor #main
+    group: deepin-sysdev-team
+    info: Application Kernel for Containers
+
   - repo: golang-howett-plist
     group: deepin-sysdev-team
     info: pure Go Apple Property List transcoder
 
+  - repo: golang-k8s-api #main
+    group: deepin-sysdev-team
+    info: Schema for Kubernetes server external API types
+
+  - repo: golang-k8s-apimachinery #main
+    group: deepin-sysdev-team
+    info: Shared typings for Kubernetes servers and clients
+
+  - repo: golang-k8s-apiserver #main
+    group: deepin-sysdev-team
+    info: Library for writing a Kubernetes-style API server.
+
+  - repo: golang-k8s-client-go #main
+    group: deepin-sysdev-team
+    info: Go client for Kubernetes
+
   - repo: golang-k8s-klog #main
     group: deepin-sysdev-team
     info: leveled execution logs for Go (library)
+
+  - repo: golang-k8s-kube-openapi #main
+    group: deepin-sysdev-team
+    info: Kubernetes OpenAPI spec generation & serving
+
+  - repo: golang-k8s-sigs-json #main
+    group: deepin-sysdev-team
+    info: Golang JSON decoder library for kubernetes sig-api-machinery
+
+  - repo: golang-k8s-sigs-release-utils #main
+    group: deepin-sysdev-team
+    info: utilities for kubernetes Go release engineering (library)
 
   - repo: golang-k8s-sigs-structured-merge-diff
     group: deepin-sysdev-team
@@ -2818,21 +3875,45 @@ repos:
     group: deepin-sysdev-team
     info: better way to marshal and unmarshal YAML in Golang (library)
 
+  - repo: golang-k8s-utils #main
+    group: deepin-sysdev-team
+    info: Non-Kubernetes-specific utility libraries
+
   - repo: golang-logrus #main
     group: deepin-sysdev-team
     info: a logging library for Go
+
+  - repo: golang-mongodb-mongo-driver #main
+    group: deepin-sysdev-team
+    info: MongoDB official driver for Go
 
   - repo: golang-objx #main
     group: deepin-sysdev-team
     info: Go package for dealing with maps, slices, JSON and other data
 
+  - repo: golang-opentelemetry-contrib #main
+    group: deepin-sysdev-team
+    info: Collection of 3rd-party packages for OpenTelemetry-Go
+
   - repo: golang-opentelemetry-otel #main
     group: deepin-sysdev-team
     info: OpenTelemetry Go API and SDK
 
+  - repo: golang-opentelemetry-proto #main
+    group: deepin-sysdev-team
+    info: OpenTelemetry Go API and SDK - proto
+
   - repo: golang-pault-go-debian #main
     group: deepin-sysdev-team
     info: library to parse and handle common Debian file formats
+
+  - repo: golang-petname #main
+    group: deepin-sysdev-team
+    info: generate pronouncable, perhaps even memorable, pet names
+
+  - repo: golang-pty #main
+    group: deepin-sysdev-team
+    info: Go package for using unix pseudo-terminals
 
   - repo: golang-rsc-binaryregexp #main
     group: deepin-sysdev-team
@@ -2842,9 +3923,21 @@ repos:
     group: deepin-sysdev-team
     info: Golang library that provides a reader for the PDF format
 
+  - repo: golang-rsc-qr #main
+    group: deepin-sysdev-team
+    info: Basic QR encoder
+
+  - repo: golang-sslmate-src-go-pkcs12 #main
+    group: deepin-sysdev-team
+    info: Go library for encoding and decoding PKCS#12 files (library)
+
   - repo: golang-starlark #main
     group: deepin-sysdev-team
     info: Interpreter for the Starlark configuration language
+
+  - repo: golang-tags.cncf-container-device-interface #main
+    group: deepin-sysdev-team
+    info: Transitional package for golang-tags.cncf-container-device-interface-dev
 
   - repo: golang-testify #main
     group: deepin-sysdev-team
@@ -2853,6 +3946,10 @@ repos:
   - repo: golang-uber-goleak #main
     group: deepin-sysdev-team
     info: goroutine leak detector
+
+  - repo: golang-webpki-org-jsoncanonicalizer #main
+    group: deepin-sysdev-team
+    info: Golang library for a JCS (RFC 8785) compliant JSON canonicalizer
 
   - repo: goldendict
     group: deepin-sysdev-team
@@ -2890,6 +3987,10 @@ repos:
     group: deepin-sysdev-team
     info: library of graphic data types (development files)
 
+  - repo: greenboot #main
+    group: deepin-sysdev-team
+    info: Generic Health Check Framework for systemd
+
   - repo: grfcodec
     group: deepin-sysdev-team
     info: suite of programs to modify Transport Tycoon Deluxe's GRF files
@@ -2916,7 +4017,8 @@ repos:
 
   - repo: gsoap
     group: deepin-sysdev-team
-    info: Development toolkit for SOAP/XML Web services and generic XML data bindings
+    info:
+      Development toolkit for SOAP/XML Web services and generic XML data bindings
       in C & C++
 
   - repo: gtk-layer-shell
@@ -2989,7 +4091,7 @@ repos:
 
   - repo: haskell-conduit-extra #main
     group: deepin-sysdev-team
-    info: 'batteries-included conduit: adapters for common libraries'
+    info: batteries-included conduit, adapters for common libraries
 
   - repo: haskell-data-fix #main
     group: deepin-sysdev-team
@@ -3163,6 +4265,10 @@ repos:
     group: deepin-sysdev-team
     info: HTML to PostScript converter
 
+  - repo: htmlmin #main
+    group: deepin-sysdev-team
+    info: HTML Minifier
+
   - repo: htop
     group: deepin-pkg
     info: Htop 是一个基于 ncurse 的进程查看器，类似于 top
@@ -3186,6 +4292,10 @@ repos:
   - repo: hustmirror-cli
     group: deepin-sysdev-team
     info: CLI posix shell script to replace system repository mirror to HUST Mirror
+
+  - repo: hw-probe
+    group: deepin-sysdev-team
+    info: Tool to check operability of computer hardware
 
   - repo: hyfetch
     group: deepin-sysdev-team
@@ -3229,7 +4339,8 @@ repos:
 
   - repo: icu
     group: deepin-sysdev-team
-    info: ICU is a C++ and C library that provides robust and full-featured Unicode
+    info:
+      ICU is a C++ and C library that provides robust and full-featured Unicode
       and locale support.
 
   - repo: iftop
@@ -3260,6 +4371,14 @@ repos:
     group: deepin-sysdev-team
     info: A program to configure the mouse wheel to send keypresses
 
+  - repo: in-toto-golang #main
+    group: deepin-sysdev-team
+    info: software supply chain integrity framework in-toto for Go
+
+  - repo: incus #main
+    group: deepin-sysdev-team
+    info: Powerful system container and virtual machine manager
+
   - repo: inotify-tools
     group: deepin-sysdev-team
     info: command-line programs providing a simple interface to inotify
@@ -3279,6 +4398,10 @@ repos:
   - repo: intel-media-driver-non-free
     group: deepin-sysdev-team
     info: VAAPI driver for the Intel GEN8+ Graphics family
+
+  - repo: intel-microcode #main
+    group: deepin-sysdev-team
+    info: intel-microcode
 
   - repo: intel-npu-driver
     group: deepin-sysdev-team
@@ -3330,7 +4453,8 @@ repos:
 
   - repo: ipp-usb
     group: deepin-sysdev-team
-    info: ipp-usb is a userland driver for USB devices supporting the IPP over USB
+    info:
+      ipp-usb is a userland driver for USB devices supporting the IPP over USB
       protocol.
 
   - repo: ippusbxd #main
@@ -3356,6 +4480,14 @@ repos:
   - repo: isochron
     group: deepin-sysdev-team
     info: A real-time application for testing Time Sensitive Networking equipment.
+
+  - repo: ispc
+    group: deepin-sysdev-team
+    info: Intel Implicit SPMD Program Compiler
+
+  - repo: iucode-tool #main
+    group: deepin-sysdev-team
+    info: iucode-tool
 
   - repo: ivy-debian-helper #main
     group: deepin-sysdev-team
@@ -3387,9 +4519,14 @@ repos:
 
   - repo: jerasure #main
     group: deepin-sysdev-team
-    info: Jerasure is a shared library that been designed to be modular, fast and
+    info:
+      Jerasure is a shared library that been designed to be modular, fast and
       flexible. It is used in storage systems such as Swift and Ceph to add fault
       tolerance.
+
+  - repo: jose
+    group: deepin-sysdev-team
+    info: Javascript Object Signing and Encryption (José) - development files
 
   - repo: jpeg-xl
     group: deepin-sysdev-team
@@ -3459,9 +4596,197 @@ repos:
     group: deepin-sysdev-team
     info: kdump is a mechanism to capture crash dumps for the Linux kernel.
 
+  - repo: kerberos-configs
+    group: deepin-sysdev-team
+    info: Configuration files for Kerberos Version 5
+
+  - repo: kernelshark
+    group: deepin-sysdev-team
+    info: Utilities for graphically analyzing function tracing in the kernel
+
   - repo: kexec-tools
     group: deepin-sysdev-team
     info: tools to support fast kexec reboots.
+
+  - repo: kf6-attica #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-breeze-icons #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-extra-cmake-modules #main
+    group: deepin-sysdev-team
+    info: 提供一系列扩展 CMake 支持的模块
+
+  - repo: kf6-karchive #main
+    group: deepin-sysdev-team
+    info: kf6-karchive
+
+  - repo: kf6-kaut #main
+    group: deepin-sysdev-team
+    info: kf6-kaut
+
+  - repo: kf6-kauth #main
+    group: deepin-sysdev-team
+    info: kf6-kauth
+
+  - repo: kf6-kbookmarks #main
+    group: deepin-sysdev-team
+    info: kf6-kbookmarks
+
+  - repo: kf6-kcmutils #main
+    group: deepin-sysdev-team
+    info: kf6-kcmutils
+
+  - repo: kf6-kcodecs #main
+    group: deepin-sysdev-team
+    info: kf6-kcodecs
+
+  - repo: kf6-kcolorscheme #main
+    group: deepin-sysdev-team
+    info: kf6-kcolorscheme
+
+  - repo: kf6-kcompletion #main
+    group: deepin-sysdev-team
+    info: kf6-kcompletion
+
+  - repo: kf6-kconfig #main
+    group: deepin-sysdev-team
+    info: kf6-kconfig
+
+  - repo: kf6-kconfigwidgets #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kcoreaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kcoreaddons
+
+  - repo: kf6-kcrash #main
+    group: deepin-sysdev-team
+    info: kf6-kcrash
+
+  - repo: kf6-kdbusaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kdbusaddons
+
+  - repo: kf6-kdeclarative #main
+    group: deepin-sysdev-team
+    info: kf6-kdeclarative
+
+  - repo: kf6-kdecoration #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kded #main
+    group: deepin-sysdev-team
+    info: kf6-kded
+
+  - repo: kf6-kdoctools #main
+    group: deepin-sysdev-team
+    info: kf6-kdoctools
+
+  - repo: kf6-kglobalaccel #main
+    group: deepin-sysdev-team
+    info: kf6-kglobalaccel
+
+  - repo: kf6-kguiaddons #main
+    group: deepin-sysdev-team
+    info: kf6-kcoreaddons
+
+  - repo: kf6-ki18n #main
+    group: deepin-sysdev-team
+    info: kf6-ki18n
+
+  - repo: kf6-kiconthemes #main
+    group: deepin-sysdev-team
+    info: kf6-kiconthemes
+
+  - repo: kf6-kidletime #main
+    group: deepin-sysdev-team
+    info: kf6-kidletime
+
+  - repo: kf6-kio #main
+    group: deepin-sysdev-team
+    info: kf6-kio
+
+  - repo: kf6-kirigami #main
+    group: deepin-sysdev-team
+    info: kf6-kirigami
+
+  - repo: kf6-kitemmodels #main
+    group: deepin-sysdev-team
+    info: 提供用于 Qt 6 各类 Model 的扩展辅助 Model 支持
+
+  - repo: kf6-kitemviews #main
+    group: deepin-sysdev-team
+    info: KDE Framework 6 Item Views
+
+  - repo: kf6-kjobwidgets #main
+    group: deepin-sysdev-team
+    info: kf6-kjobwidgets
+
+  - repo: kf6-knewstuff #main
+    group: deepin-sysdev-team
+    info: kf6-knewstuff
+
+  - repo: kf6-knotifications #main
+    group: deepin-sysdev-team
+    info: kf6-knotifications
+
+  - repo: kf6-kpackage #main
+    group: deepin-sysdev-team
+    info: kf6-kpackage
+
+  - repo: kf6-kparts #main
+    group: deepin-sysdev-team
+    info: kf6-kparts
+
+  - repo: kf6-krunner #main
+    group: deepin-sysdev-team
+    info: kf6-krunner
+
+  - repo: kf6-kscreenlocker #main
+    group: deepin-sysdev-team
+    info: kf6-kscreenlocker
+
+  - repo: kf6-kservice #main
+    group: deepin-sysdev-team
+    info: kf6-kservice
+
+  - repo: kf6-ksvg #main
+    group: deepin-sysdev-team
+    info: kf6-ksvg
+
+  - repo: kf6-kwallet #main
+    group: deepin-sysdev-team
+    info: kf6-kwallet
+
+  - repo: kf6-kwidgetsaddons #main
+    group: deepin-sysdev-team
+    info: KDE Framework 6 Widgets Addons
+
+  - repo: kf6-kwindowsystem #main
+    group: deepin-sysdev-team
+    info: kf6-kwindowsystem
+
+  - repo: kf6-kxmlgui #main
+    group: deepin-sysdev-team
+    info: kf6-kxmlgui
+
+  - repo: kf6-solid #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-syndication #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kglobalacceld #main
+    group: deepin-sysdev-team
+    info: kf6 list
 
   - repo: kissfft
     group: deepin-sysdev-team
@@ -3501,7 +4826,8 @@ repos:
 
   - repo: ktx
     group: deepin-sysdev-team
-    info: A popular QuakeWorld server modification, adding numerous features to the
+    info:
+      A popular QuakeWorld server modification, adding numerous features to the
       core features of the server.
 
   - repo: kwayland
@@ -3510,13 +4836,19 @@ repos:
 
   - repo: kwrited
     group: deepin-sysdev-team
-    info: Kwrited captures console output (e.g. broadcast messages) and prints it
+    info:
+      Kwrited captures console output (e.g. broadcast messages) and prints it
       in a X window.
 
   - repo: larch
     group: deepin-sysdev-team
-    info: Larch is a tool to copy messages from one IMAP server to another quickly
+    info:
+      Larch is a tool to copy messages from one IMAP server to another quickly
       and safely.
+
+  - repo: lazr.uri #main
+    group: deepin-sysdev-team
+    info: library for parsing, manipulating, and generating URIs
 
   - repo: lazy-loader #main
     group: deepin-sysdev-team
@@ -3532,7 +4864,8 @@ repos:
 
   - repo: libabigail
     group: deepin-sysdev-team
-    info: This is an interface to the GNU Compiler Collection for the collection and
+    info:
+      This is an interface to the GNU Compiler Collection for the collection and
       analysis of compiler-generated binaries.
 
   - repo: libadwaita #main
@@ -3566,6 +4899,10 @@ repos:
   - repo: libbibtex-parser-perl #main
     group: deepin-sysdev-team
     info: Convert LaTeX commands to Unicode
+
+  - repo: libbinio
+    group: deepin-sysdev-team
+    info: Binary I/O stream class library
 
   - repo: libcache-cache-perl #main
     group: deepin-sysdev-team
@@ -3673,7 +5010,8 @@ repos:
 
   - repo: libdecor-0
     group: deepin-sysdev-team
-    info: libdecor is a library that can help Wayland clients draw window decorations
+    info:
+      libdecor is a library that can help Wayland clients draw window decorations
       for them.
 
   - repo: libdevel-confess-perl #main
@@ -3696,13 +5034,49 @@ repos:
     group: deepin-sysdev-team
     info: This library parse EDID and DisplayID
 
+  - repo: libdist-zilla-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-podweaver-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-prepender-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-run-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugin-signature-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdist-zilla-plugins-cjm-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libdumbtts #main
+    group: deepin-sysdev-team
+    info: Helper library for dumb speech synthesizers
+
   - repo: libelfin
     group: deepin-sysdev-team
     info: C++11 ELF/DWARF parser (development files)
 
+  - repo: libencode-eucjpascii-perl #main
+    group: deepin-sysdev-team
+    info: Perl module supporting eucJP-ascii character encoding
+
   - repo: libev #main
     group: deepin-sysdev-team
     info: static library, header files, and docs for libev
+
+  - repo: libextutils-makemaker-cpanfile-perl #main
+    group: deepin-sysdev-team
+    info: Perl module adding cpanfile support to ExtUtils-MakeMaker
 
   - repo: libfcgi-procmanager-perl
     group: deepin-sysdev-team
@@ -3719,6 +5093,10 @@ repos:
   - repo: libfile-keepass-perl
     group: deepin-sysdev-team
     info: interface to KeePass V1 and V2 database files
+
+  - repo: libfile-next-perl 
+    group: deepin-sysdev-team
+    info: File::Next is an iterator-based module for finding files
 
   - repo: libfilesys-notify-simple-perl
     group: deepin-sysdev-team
@@ -3806,7 +5184,8 @@ repos:
 
   - repo: libite
     group: deepin-sysdev-team
-    info: libite holds useful functions and macros developed by both Finit and the
+    info:
+      libite holds useful functions and macros developed by both Finit and the
       OpenBSD project.
 
   - repo: libjs-codemirror #main
@@ -3843,8 +5222,13 @@ repos:
 
   - repo: libliftoff
     group: deepin-sysdev-team
-    info: libliftoff eases the use of KMS planes from userspace without standing in
+    info:
+      libliftoff eases the use of KMS planes from userspace without standing in
       your way.
+
+  - repo: liblocal-lib-perl #main
+    group: deepin-sysdev-team
+    info: module to use a local path for Perl modules
 
   - repo: liblog-dispatch-array-perl
     group: deepin-sysdev-team
@@ -3865,6 +5249,10 @@ repos:
   - repo: libmbim #main
     group: deepin-sysdev-team
     info: Header files for adding MBIM support to applications that use glib
+
+  - repo: libmodule-cpanfile-perl #main
+    group: deepin-sysdev-team
+    info: format for describing CPAN dependencies of Perl applications
 
   - repo: libmodule-depends-perl #main
     group: deepin-sysdev-team
@@ -3889,6 +5277,10 @@ repos:
   - repo: libmodule-install-perl
     group: deepin-sysdev-team
     info: framework for installing Perl modules
+
+  - repo: libmodule-manifest-perl #main
+    group: deepin-sysdev-team
+    info: module for parsing and examining a Perl distribution MANIFEST file
 
   - repo: libmodule-pluggable-perl
     group: deepin-sysdev-team
@@ -3932,7 +5324,8 @@ repos:
 
   - repo: libmoose-perl
     group: deepin-sysdev-team
-    info: It provides a modern, object-oriented methodology for object construction
+    info:
+      It provides a modern, object-oriented methodology for object construction
       and class writing
 
   - repo: libmoosex-configfromfile-perl #main
@@ -3990,6 +5383,14 @@ repos:
   - repo: libmouse-perl #main
     group: deepin-sysdev-team
     info: lightweight object framework for Perl
+
+  - repo: libmousex-nativetraits-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libmousex-strictconstructor-perl #main
+    group: deepin-sysdev-team
+    info: zilla
 
   - repo: libmousex-types-perl #main
     group: deepin-sysdev-team
@@ -4053,7 +5454,8 @@ repos:
 
   - repo: libnetfilter-acct
     group: deepin-sysdev-team
-    info: libnetfilter_acct is a userspace library providing an interface to the extended
+    info:
+      libnetfilter_acct is a userspace library providing an interface to the extended
       netfilter accounting infrastructure.
 
   - repo: libnginx-mod-http-auth-pam #main
@@ -4152,6 +5554,10 @@ repos:
     group: deepin-sysdev-team
     info: module for parsing the data from a Debian Packages.gz
 
+  - repo: libparse-pmfile-perl #main
+    group: deepin-sysdev-team
+    info: module to parse .pm file as PAUSE does
+
   - repo: libphp-adodb
     group: deepin-sysdev-team
     info: PHP's database class library.
@@ -4180,6 +5586,18 @@ repos:
     group: deepin-sysdev-team
     info: interface between web servers and Perl web applications
 
+  - repo: libplasma #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: libpod-elemental-transformer-list-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
+  - repo: libpod-weaver-section-support-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
   - repo: libpodofo
     group: deepin-sysdev-team
     info: Library to work with the PDF file format
@@ -4199,6 +5617,10 @@ repos:
   - repo: libpyzy
     group: deepin-sysdev-team
     info: Chinese PinYin and Bopomofo conversion library
+
+  - repo: libqalculate
+    group: deepin-sysdev-team
+    info: Qalculate! is small and simple to use but with much power and versatility underneath
 
   - repo: libqmi #main
     group: deepin-sysdev-team
@@ -4226,7 +5648,8 @@ repos:
 
   - repo: librist
     group: deepin-sysdev-team
-    info: RIST is a protocol for low-latency, high-quality, and secure streaming of
+    info:
+      RIST is a protocol for low-latency, high-quality, and secure streaming of
       audio and video
 
   - repo: librpc-xml-perl #main
@@ -4279,7 +5702,8 @@ repos:
 
   - repo: libspnav
     group: deepin-sysdev-team
-    info: provides alternative to the proprietary 3Dconnexion SDK for their 3D input
+    info:
+      provides alternative to the proprietary 3Dconnexion SDK for their 3D input
       devices
 
   - repo: libstream-buffered-perl
@@ -4338,6 +5762,10 @@ repos:
     group: deepin-sysdev-team
     info: module to test that results of a running code look random
 
+  - repo: libtest-synopsis-expectation-perl #main
+    group: deepin-sysdev-team
+    info: zilla
+
   - repo: libtest-tcp-perl
     group: deepin-sysdev-team
     info: module to test TCP/IP programs
@@ -4374,6 +5802,10 @@ repos:
     group: deepin-sysdev-team
     info: Terminal-emulator State Machine - development
 
+  - repo: libubootenv
+    group: deepin-sysdev-team
+    info: Library to access U-Boot environment
+
   - repo: libuev
     group: deepin-sysdev-team
     info: libuEv is a small event loop that wraps the Linux epoll() family of APIs.
@@ -4402,6 +5834,10 @@ repos:
     group: deepin-surface
     info: Patches to support Microsoft Surface Devices with libwacom
 
+  - repo: libwebm #main
+    group: deepin-sysdev-team
+    info: WebM 解析器软件库
+
   - repo: libwebsockets #main
     group: deepin-sysdev-team
     info: lightweight C websockets library - development files
@@ -4413,6 +5849,10 @@ repos:
   - repo: libwww-form-urlencoded-xs-perl
     group: deepin-sysdev-team
     info: XS implementation of application/x-www-form-urlencoded parser/builder
+
+  - repo: libx86 #main
+    group: deepin-sysdev-team
+    info: x86 real-mode library - development files
 
   - repo: libxml-atom-perl #main
     group: deepin-sysdev-team
@@ -4454,6 +5894,10 @@ repos:
     group: deepin-sysdev-team
     info: linux-deepin-latest
 
+  - repo: linyaps-box #main
+    group: deepin-sysdev-team
+    info: linyaps-box is the container application toolkit of deepin.
+
   - repo: lirc #main
     group: deepin-sysdev-team
     info: Linux Infrared Remote Control Daemon
@@ -4477,6 +5921,10 @@ repos:
   - repo: log4cplus
     group: deepin-sysdev-team
     info: C++ logging API providing control over log management and configuration.
+
+  - repo: log4cpp #main
+    group: deepin-sysdev-team
+    info: C++ library for flexible logging (development)
 
   - repo: lolcat
     group: deepin-sysdev-team
@@ -4504,7 +5952,8 @@ repos:
 
   - repo: lua-lpeg
     group: deepin-sysdev-team
-    info: LPeg is a pattern-matching library for Lua, based on Parsing Expression
+    info:
+      LPeg is a pattern-matching library for Lua, based on Parsing Expression
       Grammars (PEGs)
 
   - repo: lua-nginx-cookie #main
@@ -4581,7 +6030,8 @@ repos:
 
   - repo: mathjax
     group: deepin-sysdev-team
-    info: MathJax was designed with the goal of consolidating the recent advances
+    info:
+      MathJax was designed with the goal of consolidating the recent advances
       in web technologies into a single, definitive, math-on-the-web platform supporting
       the major browsers and operating systems.
 
@@ -4591,7 +6041,8 @@ repos:
 
   - repo: maven-debian-helper
     group: deepin-sysdev-team
-    info: maven-debian-helper is a set of tools used to generate Debian packages from
+    info:
+      maven-debian-helper is a set of tools used to generate Debian packages from
       Maven projects and build them in a manner that complies with the Debian policies.
 
   - repo: mc
@@ -4604,8 +6055,13 @@ repos:
 
   - repo: mdbtools
     group: deepin-sysdev-team
-    info: These are various tools for manipulating JET / MS Access database (MDB)
+    info:
+      These are various tools for manipulating JET / MS Access database (MDB)
       files.
+
+  - repo: mdevctl #main
+    group: deepin-sysdev-team
+    info: Mediated device management utility for Linux
 
   - repo: mdit-py-plugins #main
     group: deepin-sysdev-team
@@ -4654,6 +6110,10 @@ repos:
   - repo: microprofile
     group: deepin-sysdev-team
     info: MicroProfile is a specification for Enterprise Java microservices.
+
+  - repo: mimalloc #main
+    group: deepin-sysdev-team
+    info: compact general purpose allocator with excellent performance
 
   - repo: mimepull
     group: deepin-sysdev-team
@@ -4711,6 +6171,10 @@ repos:
     group: deepin-sysdev-team
     info: Python handler for mkdocstrings
 
+  - repo: mkosi #main
+    group: deepin-sysdev-team
+    info: build Bespoke OS Images
+
   - repo: mmdebstrap
     group: deepin-sysdev-team
     info: create a Debian chroot
@@ -4731,9 +6195,17 @@ repos:
     group: deepin-sysdev-team
     info: MongoDB C client library
 
+  - repo: moreutils
+    group: deepin-sysdev-team
+    info: additional Unix utilities
+
   - repo: motif
     group: deepin-sysdev-team
     info: Motif - development files
+
+  - repo: mozc #main
+    group: deepin-sysdev-team
+    info: Mozc input method
 
   - repo: mozjs115 #main
     group: deepin-sysdev-team
@@ -4742,6 +6214,10 @@ repos:
   - repo: mozjs60
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine
+
+  - repo: mpfi #main
+    group: deepin-sysdev-team
+    info: multiple precision floating-point interval computation library
 
   - repo: ms-gsl
     group: deepin-sysdev-team
@@ -4783,9 +6259,14 @@ repos:
     group: deepin-sysdev-team
     info: NBD is a protocol for accessing block Devices (hard disks and disk-like things) over a network.
 
+  - repo: ncbi-blastplus
+    group: deepin-sysdev-team
+    info: next generation suite of BLAST sequence search tools
+
   - repo: ncdu
     group: deepin-sysdev-team
-    info: Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use interface
+    info:
+      Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use interface
       through famous du utility.
 
   - repo: ncftp
@@ -4803,6 +6284,10 @@ repos:
   - repo: neofetch
     group: deepin-sysdev-team
     info: A command-line system information tool written in bash
+
+  - repo: netavark #main
+    group: deepin-sysdev-team
+    info: Rust based network stack for containers
 
   - repo: netdata
     group: deepin-sysdev-team
@@ -4830,17 +6315,23 @@ repos:
 
   - repo: nexttrace
     group: deepin-sysdev-team
-    info: An open source visual routing tool that pursues light weight, developed
+    info:
+      An open source visual routing tool that pursues light weight, developed
       using Golang.
 
   - repo: nfacct
     group: deepin-sysdev-team
-    info: This is the command line tool to create/retrieve/delete netfilter accounting
+    info:
+      This is the command line tool to create/retrieve/delete netfilter accounting
       objects.
 
   - repo: nghttp3
     group: deepin-sysdev-team
     info: nghttp3 is a C implementation of HTTP/3 and QUIC.
+
+  - repo: ngtcp2 #main
+    group: deepin-sysdev-team
+    info: implementation of QUIC protocol
 
   - repo: nheko
     group: deepin-sysdev-team
@@ -4954,6 +6445,10 @@ repos:
     group: deepin-sysdev-team
     info: Node.js library to compare, format, diff and serialize any JavaScript value
 
+  - repo: node-corepack
+    group: deepin-sysdev-team
+    info: Access npm, Yarn and pnpm without having to install them
+
   - repo: node-cosmiconfig #main
     group: deepin-sysdev-team
     info: Find and load configuration from different locations
@@ -5046,6 +6541,10 @@ repos:
     group: deepin-sysdev-team
     info: Map of nouns to their irregular plural form
 
+  - repo: node-istextorbinary
+    group: deepin-sysdev-team
+    info: Determine if a filename and/or buffer is text or binary
+
   - repo: node-jasmine #main
     group: deepin-sysdev-team
     info: Behavior Driven Development testing framework for JavaScript
@@ -5120,7 +6619,8 @@ repos:
 
   - repo: node-mocha
     group: deepin-sysdev-team
-    info: The package provides a reporter for the Mocha JavaScript test framework
+    info:
+      The package provides a reporter for the Mocha JavaScript test framework
       in the LCOV format.
 
   - repo: node-module-deps #main
@@ -5135,9 +6635,17 @@ repos:
     group: deepin-sysdev-team
     info: fast asynchronous streaming RDF for JavaScript - Node library
 
+  - repo: node-netmask #main
+    group: deepin-sysdev-team
+    info: Parse and lookup IP network blocks
+
   - repo: node-nock # main
     group: deepin-sysdev-team
     info: Nock is an HTTP mocking and expectations library for Node.js
+
+  - repo: node-pako
+    group: deepin-sysdev-team
+    info: fast zlib port to pure javascript
 
   - repo: node-parents #main
     group: deepin-sysdev-team
@@ -5175,9 +6683,17 @@ repos:
     group: deepin-sysdev-team
     info: propagate events from one event emitter into another
 
+  - repo: node-proxy-agents #main
+    group: deepin-sysdev-team
+    info: Maps proxy protocols to http.Agent implementations
+
   - repo: node-proxy-from-env #main
     group: deepin-sysdev-team
     info: offers getProxyForUrl to get the proxy URL for a URL
+
+  - repo: node-puka
+    group: deepin-sysdev-team
+    info: Safely pass strings through shells - Node.js module
 
   - repo: node-pure-rand #main
     group: deepin-sysdev-team
@@ -5186,6 +6702,10 @@ repos:
   - repo: node-querystringify #main
     group: deepin-sysdev-team
     info: Querystringify - Small, simple but powerful query string parser
+
+  - repo: node-quickjs-emscripten #main
+    group: deepin-sysdev-team
+    info: Javascript/Typescript bindings for QuickJS compiled to WebAssembly
 
   - repo: node-re2 #main
     group: deepin-sysdev-team
@@ -5235,9 +6755,17 @@ repos:
     group: deepin-sysdev-team
     info: JSON Schema Type Builder with Static Type Resolution for TypeScript
 
+  - repo: node-smart-buffer #main
+    group: deepin-sysdev-team
+    info: smart-buffer improves nodejs Buffer functionality
+
   - repo: node-socket.io-parser #main
     group: deepin-sysdev-team
     info: socket.io protocol parser
+
+  - repo: node-socks #main
+    group: deepin-sysdev-team
+    info: Fully featured SOCKS proxy client
 
   - repo: node-source-map
     group: deepin-sysdev-team
@@ -5319,18 +6847,27 @@ repos:
     group: deepin-sysdev-team
     info: library for running and interacting with trusted collections
 
+  - repo: nss-altfiles #main
+    group: deepin-sysdev-team
+    info: When installed, this package allows looking up users in %{prefix}/lib/passwd, and from respective files for all other NSS maps.
+
   - repo: nss-pem
     group: deepin-sysdev-team
-    info: This package provides a PEM file reader for Network Security Services (NSS),
+    info:
+      This package provides a PEM file reader for Network Security Services (NSS),
       implemented as a PKCS#11 module.
 
-  - repo: ntpsec
+  - repo: ntpsec #main
     group: deepin-sysdev-team
-    info: Network Time Protocol daemon/utilities (transitional package).
+    info: Network Time Protocol daemon and utility programs
 
   - repo: numba #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: nvidia-cuda-toolkit
+    group: deepin-sysdev-team
+    info: NVIDIA CUDA development toolkit
 
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team
@@ -5339,6 +6876,10 @@ repos:
   - repo: nvidia-modprobe #main
     group: deepin-sysdev-team
     info: utility to load NVIDIA kernel modules and create device nodes
+
+  - repo: nvidia-open-gpu-kernel-modules
+    group: sig-deepin-kernel
+    info: NVIDIA Linux Open GPU Kernel Module Source
 
   - repo: nvidia-persistenced #main
     group: deepin-sysdev-team
@@ -5362,7 +6903,8 @@ repos:
 
   - repo: obs-studio
     maintainer: 8MiYile
-    info: OBS Studio - Free and open source software for live streaming and screen
+    info:
+      OBS Studio - Free and open source software for live streaming and screen
       recording
 
   - repo: ocaml-bigarray-compat #main
@@ -5379,7 +6921,8 @@ repos:
 
   - repo: ocaml-graphics #main
     group: deepin-sysdev-team
-    info: The graphics library provides a set of portable drawing primitives. Drawing
+    info:
+      The graphics library provides a set of portable drawing primitives. Drawing
       takes place in a separate window that is created when Graphics.open_graph is
       called.
 
@@ -5405,7 +6948,8 @@ repos:
 
   - repo: odt2txt
     group: deepin-sysdev-team
-    info: It is a command-line tool which extracts the text out of OpenDocument Texts,
+    info:
+      It is a command-line tool which extracts the text out of OpenDocument Texts,
       as produced by OpenOffice.org, KOffice, StarOffice and others.
 
   - repo: onetbb #main
@@ -5436,6 +6980,10 @@ repos:
     group: deepin-sysdev-team
     info: OpenH264 Video Codec
 
+  - repo: openimageio
+    group: deepin-sysdev-team
+    info: Library for reading and writing images
+
   - repo: openjdk-21 #main
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
@@ -5443,6 +6991,10 @@ repos:
   - repo: openjdk-8
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
+
+  - repo: openpace #main
+    group: deepin-sysdev-team
+    info: cryptographic library for EAC version 2 (development)
 
   - repo: opensbi
     group: deepin-sysdev-team
@@ -5458,7 +7010,8 @@ repos:
 
   - repo: opensubdiv
     group: deepin-sysdev-team
-    info: open source libraries that implement high performance subdivision surface
+    info:
+      open source libraries that implement high performance subdivision surface
       (subdiv) evaluation
 
   - repo: opentest4j-reporting #main
@@ -5481,9 +7034,14 @@ repos:
     group: deepin-sysdev-team
     info: sound set for use with the OpenTTD game
 
+  - repo: openvdb
+    group: deepin-sysdev-team
+    info: Sparse Volume Processing toolkit
+
   - repo: openvpn
     group: deepin-sysdev-team
-    info: OpenVPN is an application to securely tunnel IP networks over a single UDP
+    info:
+      OpenVPN is an application to securely tunnel IP networks over a single UDP
       or TCP port. It can be used to access remote sites, make secure point-to-point
       connections, enhance wireless security, etc.
 
@@ -5514,6 +7072,10 @@ repos:
   - repo: pango1.0
     group: deepin-sysdev-team
     info: Layout and rendering of internationalized text
+
+  - repo: pangomm2.48 #main
+    group: deepin-sysdev-team
+    info: C++ wrapper for pango
 
   - repo: paperwork
     group: deepin-sysdev-team
@@ -5551,6 +7113,10 @@ repos:
     group: deepin-sysdev-team
     info: bring colors to your terminal
 
+  - repo: patiencediff #main
+    group: deepin-sysdev-team
+    info: diff implementation with balanced performance, output and implementation
+
   - repo: patool
     group: deepin-sysdev-team
     info: command line archive file manager
@@ -5573,7 +7139,8 @@ repos:
 
   - repo: pgpgpg
     group: deepin-sysdev-team
-    info: Pgpgpg is a wrapper around GNU Privacy Guard which takes PGP 2.6 command
+    info:
+      Pgpgpg is a wrapper around GNU Privacy Guard which takes PGP 2.6 command
       line options, translate them and then call GnuPG to perform the desired action.
 
   - repo: php-codesniffer #main
@@ -5598,8 +7165,17 @@ repos:
 
   - repo: plantuml
     group: deepin-sysdev-team
-    info: PlantUML is a program allowing to draw UML diagrams, using a simple human
+    info:
+      PlantUML is a program allowing to draw UML diagrams, using a simple human
       readable text description
+
+  - repo: plasma-activities #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: plasma-wayland-protocols #main
+    group: deepin-sysdev-team
+    info: kf6 list
 
   - repo: playerctl
     group: deepin-sysdev-team
@@ -5624,6 +7200,10 @@ repos:
   - repo: pngcheck
     group: deepin-sysdev-team
     info: print info and check PNG, JNG and MNG files
+
+  - repo: podman #main
+    group: deepin-sysdev-team
+    info: tool to manage containers and pods
 
   - repo: poetry #main
     group: deepin-sysdev-team
@@ -5653,10 +7233,14 @@ repos:
     group: deepin-sysdev-team
     info: Multi-Version/Multi-Cluster PostgreSQL architecture
 
+  - repo: power-profiles-daemon #main
+    group: deepin-sysdev-team
+    info: power-profiles-daemon offers to modify system behaviour based upon user-selected power profiles.
+
   - repo: powertop
     group: deepin-sysdev-team
-    info: PowerTOP is a Linux tool to diagnose issues with power consumption and power
-      management
+    info:
+      PowerTOP is a Linux tool to diagnose issues with power consumption and power management
 
   - repo: printer-driver-indexbraille #main
     group: deepin-sysdev-team
@@ -5686,9 +7270,17 @@ repos:
     group: deepin-sysdev-team
     info: emulate chroot, bind mount and binfmt_misc for non-root users
 
+  - repo: protobuild #main
+    group: deepin-sysdev-team
+    info: Convenience wrapper for building protobufs in Go
+
   - repo: psrip
     group: deepin-sysdev-team
     info: Extract images from PostScript files
+
+  - repo: ptex-base #main
+    group: deepin-sysdev-team
+    info: basic ASCII pTeX library files
 
   - repo: pv #main
     group: deepin-sysdev-team
@@ -5782,6 +7374,10 @@ repos:
     group: deepin-sysdev-team
     info: simple and lightweight SOAP Library (Python 3)
 
+  - repo: pystring #main
+    group: deepin-sysdev-team
+    info: collection of C++ functions for Python's string class methods - development
+
   - repo: pytables #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -5830,6 +7426,10 @@ repos:
     group: deepin-sysdev-team
     info: aafigure - ASCII art to image converter
 
+  - repo: python-absl #main
+    group: deepin-sysdev-team
+    info: Abseil Python Common Libraries
+
   - repo: python-annotated-types #main
     group: deepin-sysdev-team
     info: Reusable constraint types to use with typing.Annotated
@@ -5858,6 +7458,10 @@ repos:
     group: deepin-sysdev-team
     info: collection of compile-time Python AST analyzers
 
+  - repo: python-blessed
+    group: deepin-sysdev-team
+    info: Blessed is a thin, practical wrapper around terminal capabilities in Python
+
   - repo: python-boolean.py
     group: deepin-sysdev-team
     info: small library implementing a boolean algebra
@@ -5880,7 +7484,8 @@ repos:
 
   - repo: python-characteristic
     group: deepin-sysdev-team
-    info: characteristic is Python package with class decorators that ease the chores
+    info:
+      characteristic is Python package with class decorators that ease the chores
       of implementing the most common attribute-related object protocols.
 
   - repo: python-charset-normalizer #main
@@ -5917,7 +7522,8 @@ repos:
 
   - repo: python-configargparse #main
     group: deepin-sysdev-team
-    info: python-configargparse is replacement for argparse with config files and
+    info:
+      python-configargparse is replacement for argparse with config files and
       environment variables.
 
   - repo: python-consolekit #main
@@ -5927,6 +7533,14 @@ repos:
   - repo: python-css-parser
     group: deepin-sysdev-team
     info: CSS parser provides utilities for parsing, serialising CSS in Python.
+
+  - repo: python-curtsies
+    group: deepin-sysdev-team
+    info: Curtsies is a library for interacting with the terminal
+
+  - repo: python-cwcwidth
+    group: deepin-sysdev-team
+    info: This module provides functions to compute the printable length of a unicode character/string on a terminal
 
   - repo: python-deprecated #main
     group: deepin-sysdev-team
@@ -5962,7 +7576,8 @@ repos:
 
   - repo: python-editor
     group: deepin-sysdev-team
-    info: python-editor is a library that provides the editor module for programmatically
+    info:
+      python-editor is a library that provides the editor module for programmatically
       interfacing with your system's $EDITOR.
 
   - repo: python-email-validator #main
@@ -5971,7 +7586,8 @@ repos:
 
   - repo: python-ephemeral-port-reserve #main
     group: deepin-sysdev-team
-    info: binds to an ephemeral port, force it into the TIME_WAIT state, and unbind
+    info:
+      binds to an ephemeral port, force it into the TIME_WAIT state, and unbind
       it
 
   - repo: python-exceptiongroup #main
@@ -5980,12 +7596,17 @@ repos:
 
   - repo: python-exif
     group: deepin-sysdev-team
-    info: python-exif is a Python library to extract Exif information from digital
+    info:
+      python-exif is a Python library to extract Exif information from digital
       camera image files.
 
   - repo: python-fakeredis #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: python-fastbencode #main
+    group: deepin-sysdev-team
+    info: Fast bencode implementation
 
   - repo: python-fastjsonschema #main
     group: deepin-sysdev-team
@@ -6089,7 +7710,8 @@ repos:
 
   - repo: python-iniparse
     group: deepin-sysdev-team
-    info: python-iniparse could access and modify configuration data in INI files
+    info:
+      python-iniparse could access and modify configuration data in INI files
       (Python 3)
 
   - repo: python-iptables
@@ -6099,6 +7721,10 @@ repos:
   - repo: python-kdcproxy #main
     group: deepin-sysdev-team
     info: Kerberos KDC HTTP proxy WSGI module
+
+  - repo: python-launchpadlib #main
+    group: deepin-sysdev-team
+    info: Launchpad web services client library
 
   - repo: python-license-expression
     group: deepin-sysdev-team
@@ -6128,6 +7754,10 @@ repos:
     group: deepin-sysdev-team
     info: meld3 is an HTML/XML templating system for Python 2.3+
 
+  - repo: python-merge3 #main
+    group: deepin-sysdev-team
+    info: Python implementation of three-way merge
+
   - repo: python-mistletoe #main
     group: deepin-sysdev-team
     info: fast, extensible Markdown parser in pure Python
@@ -6138,7 +7768,8 @@ repos:
 
   - repo: python-netaddr
     group: deepin-sysdev-team
-    info: netaddr is a Python library for the manipulation of various common network
+    info:
+      netaddr is a Python library for the manipulation of various common network
       address notations and representations.
 
   - repo: python-nox #main
@@ -6159,7 +7790,8 @@ repos:
 
   - repo: python-pefile
     group: deepin-sysdev-team
-    info: pefile is a Python module to read and work with Portable Executable (PE)
+    info:
+      pefile is a Python module to read and work with Portable Executable (PE)
       files.
 
   - repo: python-pipx #main
@@ -6180,7 +7812,8 @@ repos:
 
   - repo: python-prov
     group: deepin-sysdev-team
-    info: python-prov is a library for W3C Provenance Data Model supporting PROV-JSON
+    info:
+      python-prov is a library for W3C Provenance Data Model supporting PROV-JSON
       and PROV-XML import/export.
 
   - repo: python-pynvim
@@ -6207,6 +7840,10 @@ repos:
     group: deepin-sysdev-team
     info: Click plugin for py.test
 
+  - repo: python-pytest-retry #main
+    group: deepin-sysdev-team
+    info: Adds the ability to retry flaky tests in pytest
+
   - repo: python-pytest-trio #main
     group: deepin-sysdev-team
     info: Pytest plugin for trio (Python3 version)
@@ -6221,7 +7858,7 @@ repos:
 
   - repo: python-rencode #main
     group: deepin-sysdev-team
-    info:  Python encoding library similar to bittorrent's benco
+    info: Python encoding library similar to bittorrent's benco
 
   - repo: python-reno #main
     group: deepin-sysdev-team
@@ -6255,6 +7892,10 @@ repos:
     group: deepin-sysdev-team
     info: Package for creating, editing, and reading folder tree diagrams
 
+  - repo: python-setuptools-gettext #main
+    group: deepin-sysdev-team
+    info: Setuptools gettext extension plugin
+
   - repo: python-setuptools-rust #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -6262,6 +7903,10 @@ repos:
   - repo: python-shippinglabel #main
     group: deepin-sysdev-team
     info: Utilities for handling packages
+
+  - repo: python-shtab #main
+    group: deepin-sysdev-team
+    info: power-profiles-daemon build-dep
 
   - repo: python-skbuild #main
     group: deepin-sysdev-team
@@ -6301,7 +7946,8 @@ repos:
 
   - repo: python-termcolor
     group: deepin-sysdev-team
-    info: The termcolor Python module provides ANSII Color formatting for output in
+    info:
+      The termcolor Python module provides ANSII Color formatting for output in
       terminal.
 
   - repo: python-termstyle #main
@@ -6314,7 +7960,8 @@ repos:
 
   - repo: python-tokenize-rt
     group: deepin-sysdev-team
-    info: python-tokenize-rt is a wrapper around the Python stdlib `tokenize` which
+    info:
+      python-tokenize-rt is a wrapper around the Python stdlib `tokenize` which
       roundtrips.
 
   - repo: python-tomli
@@ -6365,6 +8012,10 @@ repos:
     group: deepin-sysdev-team
     info: Python virtual environment creator
 
+  - repo: python-wadllib #main
+    group: deepin-sysdev-team
+    info: Python 3 library for navigating WADL files
+
   - repo: python-werkzeug #main
     group: deepin-sysdev-team
     info: collection of utilities for WSGI applications
@@ -6391,7 +8042,8 @@ repos:
 
   - repo: python3-fontforge
     group: deepin-sysdev-team
-    info: FontForge is a font editor. Use it to create, edit and convert fonts in
+    info:
+      FontForge is a font editor. Use it to create, edit and convert fonts in
       OpenType
 
   - repo: python3.12
@@ -6417,9 +8069,17 @@ repos:
     group: deepin-sysdev-team
     info: Qt-based directory statistics
 
+  - repo: qhttpengine #main
+    group: deepin-sysdev-team
+    info: HTTP server for Qt applications
+
   - repo: qmltermwidget
     group: deepin-sysdev-team
     info: QML port of qtermwidget
+
+  - repo: qtermwidget6
+    group: deepin-sysdev-team
+    info: qtermwidget for Qt 6
 
   - repo: qr-code-generator
     group: deepin-pkg
@@ -6441,6 +8101,10 @@ repos:
     group: deepin-sysdev-team
     info: Qt 6 Speech
 
+  - repo: qt6mpris #main
+    group: deepin-sysdev-team
+    info: Qt6 adaptation of the qtmpris library
+
   - repo: qtremoteobjects-everywhere-src #main
     group: deepin-sysdev-team
     info: Qt module for IPC — the Replica Compiler
@@ -6457,13 +8121,57 @@ repos:
     group: deepin-sysdev-team
     info: GNU R statistical computation and graphics system
 
+  - repo: r-cran-brio #main
+    group: deepin-sysdev-team
+    info: basic R input output
+
+  - repo: r-cran-callr #main
+    group: deepin-sysdev-team
+    info: Call GNU R from GNU R
+
+  - repo: r-cran-desc #main
+    group: deepin-sysdev-team
+    info: GNU R manipulation of DESCRIPTION files
+
+  - repo: r-cran-evaluate #main
+    group: deepin-sysdev-team
+    info: GNU R parsing and evaluation tools
+
+  - repo: r-cran-jsonlite #main
+    group: deepin-sysdev-team
+    info: Robust, High Performance JSON Parser and Generator for R
+
+  - repo: r-cran-pkgload #main
+    group: deepin-sysdev-team
+    info: simulate GNU R package installation and attach
+
+  - repo: r-cran-praise #main
+    group: deepin-sysdev-team
+    info: GNU R praise users
+
+  - repo: r-cran-processx #main
+    group: deepin-sysdev-team
+    info: GNU R execute and control system processes
+
+  - repo: r-cran-ps #main
+    group: deepin-sysdev-team
+    info: GNU R list, query, manipulate system processes
+
   - repo: r-cran-stringi #main
     group: deepin-sysdev-team
     info: GNU R character string processing facilities
 
+  - repo: r-cran-testthat #main
+    group: deepin-sysdev-team
+    info: GNU R testsuite
+
   - repo: radeontop
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization
+
+  - repo: raft #main
+    group: deepin-sysdev-team
+    info: Raft Consensus protocol implementation
 
   - repo: range-v3 #main
     group: deepin-sysdev-team
@@ -6483,12 +8191,17 @@ repos:
 
   - repo: rdesktop
     group: deepin-sysdev-team
-    info: rdesktop is an open source client for Windows NT/2000 Terminal Server and
+    info:
+      rdesktop is an open source client for Windows NT/2000 Terminal Server and
       Windows Server 2003/2008.
 
   - repo: reactivedata #main
     group: deepin-sysdev-team
     info: FRP with incremental changes in data structures
+
+  - repo: read-edid
+    group: deepin-sysdev-team
+    info: hardware information-gathering tool for VESA PnP monitors
 
   - repo: readline5
     group: deepin-sysdev-team
@@ -6496,12 +8209,25 @@ repos:
 
   - repo: realmd
     group: deepin-sysdev-team
-    info: a D-Bus system service that manages discovery and enrollment in realms/domains
+    info:
+      a D-Bus system service that manages discovery and enrollment in realms/domains
       like Active Directory or IPA.
 
   - repo: refind
     group: deepin-sysdev-team
     info: A graphical boot manager for EFI- and UEFI-based computers
+
+  - repo: refpolicy #main
+    group: sig-deepin-security-packaging
+    info: The reference policy for SELinux.
+
+  - repo: rekor #main
+    group: deepin-sysdev-team
+    info: Software Supply Chain Transparency Log (library)
+
+  - repo: relic #main
+    group: deepin-sysdev-team
+    info: packaging digital signature tools (library)
 
   - repo: remmina
     group: deepin-sysdev-team
@@ -6543,17 +8269,53 @@ repos:
     group: deepin-sysdev-team
     info: Library for rendering vector based animations and art
 
+  - repo: rnnoise
+    group: deepin-sysdev-team
+    info: neccessary dependency for easyeffects
+
+  - repo: rnp
+    group: deepin-sysdev-team
+    info: Cross-platform OpenPGP (RFC4880) tools
+
   - repo: roc-toolkit #main
     group: deepin-sysdev-team
     info: real-time audio streaming over the network
+
+  - repo: rocm-cmake
+    group: deepin-sysdev-team
+    info: AMD ROCm CMake modules
+
+  - repo: rocm-device-libs
+    group: deepin-sysdev-team
+    info: AMD specific device-side language runtime libraries
 
   - repo: rocm-smi-lib #main
     group: deepin-sysdev-team
     info: ROCm System Management Interface (ROCm SMI)
 
+  - repo: rocminfo
+    group: deepin-sysdev-team
+    info: ROCm Application for Reporting System Info
+
+  - repo: rocr-runtime
+    group: deepin-sysdev-team
+    info: HSA Runtime API and runtime for ROCm - development files
+
+  - repo: roct-thunk-interface
+    group: deepin-sysdev-team
+    info: Thunk library for AMD KFD (dev)
+
   - repo: rofi
     group: deepin-sysdev-team
     info: Rofi is a window switcher, application launcher and dmenu replacement
+
+  - repo: rootlesskit #main
+    group: deepin-sysdev-team
+    info: Linux-native "fake root" for rootless containers
+
+  - repo: rpki-trust-anchors #main
+    group: deepin-sysdev-team
+    info: RPKI Trust Anchor Locators
 
   - repo: rst2pdf
     group: deepin-sysdev-team
@@ -6565,7 +8327,8 @@ repos:
 
   - repo: ruby-afm
     group: deepin-pkg
-    info: This simple library can read Adobe Font Metrics (afm) files and use the
+    info:
+      This simple library can read Adobe Font Metrics (afm) files and use the
       data conveniently.
 
   - repo: ruby-mini-portile2
@@ -6614,7 +8377,8 @@ repos:
 
   - repo: rust-atty
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust atty crate, packaged by debcargo
+    info:
+      This package contains the source for the Rust atty crate, packaged by debcargo
       for use with cargo and dh-cargo.
 
   - repo: rust-bitflags
@@ -6627,7 +8391,8 @@ repos:
 
   - repo: rust-bytemuck
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust bytemuck crate, packaged by
+    info:
+      This package contains the source for the Rust bytemuck crate, packaged by
       debcargo for use with cargo and dh-cargo.
 
   - repo: rust-byteorder
@@ -6640,12 +8405,14 @@ repos:
 
   - repo: rust-cfg-if
     group: deepin-sysdev-team
-    info: 'Macro to ergonomically define an item depending on a large number of #[cfg]
+    info:
+      'Macro to ergonomically define an item depending on a large number of #[cfg]
       parameters - feature "core"'
 
   - repo: rust-clang-sys
     group: deepin-sysdev-team
-    info: Rust crate that provides bindings for libclang, the C interface to the Clang
+    info:
+      Rust crate that provides bindings for libclang, the C interface to the Clang
       compiler.
 
   - repo: rust-clap
@@ -6658,7 +8425,8 @@ repos:
 
   - repo: rust-cloudabi
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust cloudabi crate, packaged by
+    info:
+      This package contains the source for the Rust cloudabi crate, packaged by
       debcargo for use with cargo and dh-cargo.
 
   - repo: rust-compiler-builtins
@@ -6667,7 +8435,8 @@ repos:
 
   - repo: rust-crossbeam-channel
     group: deepin-sysdev-team
-    info: Multi-producer multi-consumer channels for message passing - Rust source
+    info:
+      Multi-producer multi-consumer channels for message passing - Rust source
       code
 
   - repo: rust-crossbeam-deque
@@ -6686,9 +8455,14 @@ repos:
     group: deepin-sysdev-team
     info: __attribute__((constructor)) for Rust.
 
+  - repo: rust-defaults #main
+    group: deepin-sysdev-team
+    info: Meta-package for default Rust toolchains
+
   - repo: rust-derive-arbitrary
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust derive_arbitrary crate, packaged
+    info:
+      This package contains the source for the Rust derive_arbitrary crate, packaged
       by debcargo for use with cargo and dh-cargo.
 
   - repo: rust-device-tree
@@ -6701,7 +8475,8 @@ repos:
 
   - repo: rust-either
     group: deepin-sysdev-team
-    info: This metapackage enables feature "serde" for the Rust either crate, by pulling
+    info:
+      This metapackage enables feature "serde" for the Rust either crate, by pulling
       in any additional dependencies needed by that feature.
 
   - repo: rust-env-logger
@@ -6730,7 +8505,8 @@ repos:
 
   - repo: rust-glob
     group: deepin-sysdev-team
-    info: Support for matching file paths against Unix shell style patterns - Rust
+    info:
+      Support for matching file paths against Unix shell style patterns - Rust
       source code
 
   - repo: rust-hashbrown
@@ -6771,7 +8547,8 @@ repos:
 
   - repo: rust-log
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust log crate, packaged by debcargo
+    info:
+      This package contains the source for the Rust log crate, packaged by debcargo
       for use with cargo and dh-cargo.
 
   - repo: rust-memchr
@@ -6784,7 +8561,8 @@ repos:
 
   - repo: rust-minimal-lexical
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust minimal-lexical crate, packaged
+    info:
+      This package contains the source for the Rust minimal-lexical crate, packaged
       by debcargo for use with cargo and dh-cargo.
 
   - repo: rust-no-panic
@@ -6809,7 +8587,8 @@ repos:
 
   - repo: rust-peeking-take-while
     group: deepin-sysdev-team
-    info: It peeking_take_while peeks at the next item in the iterator and runs the
+    info:
+      It peeking_take_while peeks at the next item in the iterator and runs the
       predicate on that peeked item.
 
   - repo: rust-ppv-lite86
@@ -6858,7 +8637,8 @@ repos:
 
   - repo: rust-remove-dir-all
     group: deepin-sysdev-team
-    info: Safe, reliable implementation of remove_dir_all for Windows - Rust source
+    info:
+      Safe, reliable implementation of remove_dir_all for Windows - Rust source
       code
 
   - repo: rust-rustc-hash
@@ -6891,7 +8671,8 @@ repos:
 
   - repo: rust-serde
     group: deepin-sysdev-team
-    info: a framework for serializing and deserializing Rust data structures efficiently
+    info:
+      a framework for serializing and deserializing Rust data structures efficiently
       and generically.
 
   - repo: rust-serde-fmt
@@ -6904,12 +8685,14 @@ repos:
 
   - repo: rust-shlex
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust shlex crate, packaged by debcargo
+    info:
+      This package contains the source for the Rust shlex crate, packaged by debcargo
       for use with cargo and dh-cargo.
 
   - repo: rust-smallvec
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust smallvec crate, packaged by
+    info:
+      This package contains the source for the Rust smallvec crate, packaged by
       debcargo for use with cargo and dh-cargo.
 
   - repo: rust-smawk
@@ -6938,7 +8721,8 @@ repos:
 
   - repo: rust-syn-1
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust syn crate, packaged by debcargo
+    info:
+      This package contains the source for the Rust syn crate, packaged by debcargo
       for use with cargo and dh-cargo.
 
   - repo: rust-tempfile
@@ -6951,7 +8735,8 @@ repos:
 
   - repo: rust-thread-local
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust thread_local crate, packaged
+    info:
+      This package contains the source for the Rust thread_local crate, packaged
       by debcargo for use with cargo and dh-cargo.
 
   - repo: rust-unicode-ident
@@ -6960,12 +8745,14 @@ repos:
 
   - repo: rust-unicode-width
     group: deepin-sysdev-team
-    info: This metapackage enables feature "compiler_builtins" for the Rust unicode-width
+    info:
+      This metapackage enables feature "compiler_builtins" for the Rust unicode-width
       crate, by pulling in any additional dependencies needed by that feature.
 
   - repo: rust-unicode-xid
     group: deepin-sysdev-team
-    info: This package contains the source for the Rust unicode-xid crate, packaged
+    info:
+      This package contains the source for the Rust unicode-xid crate, packaged
       by debcargo for use with cargo and dh-cargo.
 
   - repo: rust-unreachable
@@ -6978,7 +8765,8 @@ repos:
 
   - repo: rust-version-check
     group: deepin-sysdev-team
-    info: Tiny crate to check the version of the installed/running rustc - Rust source
+    info:
+      Tiny crate to check the version of the installed/running rustc - Rust source
       code
 
   - repo: rust-void
@@ -7007,7 +8795,8 @@ repos:
 
   - repo: rust-winapi-x86-64-pc-windows-gnu
     group: deepin-sysdev-team
-    info: Rust target for the Windows operating system, used for building Rust applications
+    info:
+      Rust target for the Windows operating system, used for building Rust applications
       that run on 64-bit Windows systems using the GNU toolchain.
 
   - repo: rustc
@@ -7016,7 +8805,8 @@ repos:
 
   - repo: ryzen-smu
     group: deepin-sysdev-team
-    info: A Linux kernel driver that exposes access to the SMU (System Management
+    info:
+      A Linux kernel driver that exposes access to the SMU (System Management
       Unit) for certain AMD Ryzen Processors
 
   - repo: s-tui
@@ -7035,9 +8825,21 @@ repos:
     group: deepin-sysdev-team
     info: simple but powerful libvte-based terminal emulator
 
+  - repo: sass-stylesheets-bulma #main
+    group: deepin-sysdev-team
+    info: Sass and CSS framework using flexbox
+
   - repo: sbuild
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
+
+  - repo: sccache
+    group: deepin-sysdev-team
+    info: compiler cache for fast recompilation of C/C++/Rust code
+
+  - repo: scheme-bytestructures
+    group: deepin-sysdev-team
+    info: structured access to bytevector contents
 
   - repo: schroot
     group: deepin-sysdev-team
@@ -7050,6 +8852,10 @@ repos:
   - repo: screen-message
     group: deepin-sysdev-team
     info: Displays a short text fullscreen
+
+  - repo: scrot
+    group: deepin-sysdev-team
+    info: command line screen capture utility
 
   - repo: sdl12-compat
     group: deepin-sysdev-team
@@ -7074,6 +8880,10 @@ repos:
   - repo: sensors-applet
     group: deepin-sysdev-team
     info: Display readings from hardware sensors in your Gnome panel
+
+  - repo: sexpp
+    group: deepin-sysdev-team
+    info: S-expressions parser and generator
 
   - repo: sgml-data
     group: deepin-sysdev-team
@@ -7123,9 +8933,14 @@ repos:
     group: deepin-sysdev-team
     info: Displays a short text fullscreen
 
+  - repo: smem
+    group: deepin-sysdev-team
+    info: memory reporting tool
+
   - repo: socket
     group: deepin-sysdev-team
-    info: The socket program is a simple tool for socket based connections. It can
+    info:
+      The socket program is a simple tool for socket based connections. It can
       be used to create simple daemons (in both standalone and inetd mode), to connect
       to other daemons or to redirect ports.
 
@@ -7155,7 +8970,8 @@ repos:
 
   - repo: speexdsp
     group: deepin-sysdev-team
-    info: Speex is an audio codec especially designed for compressing voice at low
+    info:
+      Speex is an audio codec especially designed for compressing voice at low
       bit-rates for applications such as voice over IP (VoIP)
 
   - repo: sphinx-argparse-cli #main
@@ -7174,7 +8990,7 @@ repos:
     group: deepin-sysdev-team
     info: modern base for Sphinx themes
 
-  - repo: sphinx-design  #main
+  - repo: sphinx-design #main
     group: deepin-sysdev-team
     info: A sphinx extension for designing beautiful, view size responsive web components.
 
@@ -7209,6 +9025,10 @@ repos:
   - repo: sphinx-reredirects #main
     group: deepin-sysdev-team
     info: extension for Sphinx projects that handles redirects
+
+  - repo: sphinx-sitemap # main
+    group: deepin-sysdev-team
+    info: A python binding package for generating sitemap
 
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team
@@ -7316,7 +9136,8 @@ repos:
 
   - repo: swtpm
     group: deepin-sysdev-team
-    info: The swtpm package provides TPM emulators that listen for TPM commands on
+    info:
+      The swtpm package provides TPM emulators that listen for TPM commands on
       sockets, character devices, or CUSE devices.
 
   - repo: sxhkd
@@ -7383,6 +9204,10 @@ repos:
     group: deepin-sysdev-team
     info: Module for creating simple ASCII tables — python3.
 
+  - repo: tftp-hpa #main
+    group: deepin-sysdev-team
+    info: tftp-hpa
+
   - repo: thrift #main
     group: deepin-sysdev-team
     info: The Apache Thrift software framework for scalable cross-language services development
@@ -7447,6 +9272,10 @@ repos:
     group: deepin-sysdev-team
     info: fast, extensible progress bar for Python 3 and CLI tool
 
+  - repo: trace-cmd
+    group: deepin-sysdev-team
+    info: Utility for retrieving and analyzing function tracing in the kernel
+
   - repo: tree-sitter
     group: deepin-sysdev-team
     info: Parser generator tool and incremental parsing library
@@ -7474,6 +9303,10 @@ repos:
   - repo: treeland
     group: deepin-sysdev-team
     info: A display manager and wayland compositer based on waylib
+
+  - repo: trillian #main
+    group: deepin-sysdev-team
+    info: transparent scalable and cryptographically verifiable data store (library)
 
   - repo: trimage
     group: deepin-sysdev-team
@@ -7518,6 +9351,10 @@ repos:
   - repo: unifdef #main
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.
+
+  - repo: uresourced #main
+    group: deepin-sysdev-team
+    info: Resource management daemon for Linux
 
   - repo: urwid
     group: deepin-sysdev-team
@@ -7590,6 +9427,10 @@ repos:
   - repo: vulkan-volk
     group: deepin-sysdev-team
     info: Meta package for Vulkan loader
+
+  - repo: wabt #main
+    group: deepin-sysdev-team
+    info: WebAssembly Binary Toolkit
 
   - repo: wagon #main
     group: deepin-sysdev-team
@@ -7739,6 +9580,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ header files for dynamic assembly code generation
 
+  - repo: xcb-util-errors #main
+    group: deepin-sysdev-team
+    info: Helper library for printing information about X11 errors
+
   - repo: xdelta
     group: deepin-sysdev-team
     info: A diff utility which works with binary files
@@ -7753,7 +9598,8 @@ repos:
 
   - repo: xdg-terminal-exec
     group: deepin-sysdev-team
-    info: xdg-terminal-exec is an implementation of a proposed freedesktop.org specification
+    info:
+      xdg-terminal-exec is an implementation of a proposed freedesktop.org specification
       for launching a user's default terminal app
 
   - repo: xfburn
@@ -7834,9 +9680,14 @@ repos:
 
   - repo: zfs-linux
     group: deepin-sysdev-team
-    info: This library provides routines for packing and unpacking nv pairs for transporting
+    info:
+      This library provides routines for packing and unpacking nv pairs for transporting
       data across process boundaries, transporting between kernel and userland, and
       possibly saving onto disk files.
+
+  - repo: zig #main
+    group: deepin-sysdev-team
+    info: zig language
 
   - repo: zita-convolver
     group: deepin-sysdev-team
@@ -7962,118 +9813,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: openpace #main
-    group: deepin-sysdev-team
-    info: cryptographic library for EAC version 2 (development)
-
-  - repo: read-edid
-    group: deepin-sysdev-team
-    info: hardware information-gathering tool for VESA PnP monitors
-
-  - repo: fonts-mi-sans
-    group: deepin-sysdev-team
-    info: MiSans is a font customization project led by Xiaomi and co-created with Mona font and Han Yi font
-
-  - repo: log4cpp #main
-    group: deepin-sysdev-team
-    info: C++ library for flexible logging (development)
-
-  - repo: qt6mpris #main
-    group: deepin-sysdev-team
-    info: Qt6 adaptation of the qtmpris library
-    
-  - repo: fonts-adobe-source-han-cjk #main
-    group: deepin-sysdev-team
-    info: adobe source han cjk fonts
-  
-  - repo: zig #main
-    group: deepin-sysdev-team
-    info: zig language
-
-  - repo: greenboot #main
-    group: deepin-sysdev-team
-    info: Generic Health Check Framework for systemd
-
-  - repo: nss-altfiles #main
-    group: deepin-sysdev-team
-    info: When installed, this package allows looking up users in %{prefix}/lib/passwd, and from respective files for all other NSS maps.
-
-  - repo: evtest #main
-    group: deepin-sysdev-team
-    info: Utility to monitor Linux input device events
-
-  - repo: evemu #main
-    group: deepin-sysdev-team
-    info: Linux Input Event Device Emulation Library
-
-  - repo: scrot
-    group: deepin-sysdev-team
-    info: command line screen capture utility
-
-  - repo: nvidia-cuda-toolkit
-    group: deepin-sysdev-team
-    info: NVIDIA CUDA development toolkit
-
-  - repo: audacious-plugins
-    group: deepin-sysdev-team
-    info: Base plugins for audacious
-
-
-  - repo: smem
-    group: deepin-sysdev-team
-    info: memory reporting tool
-
-  - repo: libx86 #main
-    group: deepin-sysdev-team
-    info: x86 real-mode library - development files
-
-  - repo: rocminfo
-    group: deepin-sysdev-team
-    info: ROCm Application for Reporting System Info
-
-  - repo: rocr-runtime
-    group: deepin-sysdev-team
-    info: HSA Runtime API and runtime for ROCm - development files
-
-  - repo: roct-thunk-interface
-    group: deepin-sysdev-team
-    info: Thunk library for AMD KFD (dev)
-
-  - repo: rocm-device-libs
-    group: deepin-sysdev-team
-    info: AMD specific device-side language runtime libraries
-
-  - repo: rocm-cmake
-    group: deepin-sysdev-team
-    info: AMD ROCm CMake modules
-
-  - repo: libbinio
-    group: deepin-sysdev-team
-    info: Binary I/O stream class library
-
-  - repo: libmodule-manifest-perl #main
-    group: deepin-sysdev-team
-    info: module for parsing and examining a Perl distribution MANIFEST file
-
-  - repo: dmg2img
-    group: deepin-sysdev-team
-    info: Tool for converting compressed dmg files to hfsplus images
-
-  - repo: sass-stylesheets-bulma #main
-    group: deepin-sysdev-team
-    info: Sass and CSS framework using flexbox
-
-  - repo: amd64-microcode #main
-    group: deepin-sysdev-team
-    info: amd64-microcode
-
-  - repo: intel-microcode #main
-    group: deepin-sysdev-team
-    info: intel-microcode
-
-  - repo:  iucode-tool #main
-    group: deepin-sysdev-team
-    info:  iucode-tool
-   
-
-    

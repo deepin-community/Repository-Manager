@@ -54,3 +54,10 @@ repos:
     group: deepin-sysdev-team
     notes: replaced by pkgconf
     
+  - repo: python-linecache2
+    group: deepin-sysdev-team
+    notes: Upstream EOL.
+
+  - repo: python-traceback2
+    group: deepin-sysdev-team
+    notes: Upstream EOL.

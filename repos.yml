@@ -5074,6 +5074,10 @@ repos:
     group: deepin-sysdev-team
     info: static library, header files, and docs for libev
 
+  - repo: libextutils-autoinstall-perl #main
+    group: deepin-sysdev-team
+    info: module to automatically install dependencies via CPAN
+
   - repo: libextutils-makemaker-cpanfile-perl #main
     group: deepin-sysdev-team
     info: Perl module adding cpanfile support to ExtUtils-MakeMaker
@@ -5094,7 +5098,7 @@ repos:
     group: deepin-sysdev-team
     info: interface to KeePass V1 and V2 database files
 
-  - repo: libfile-next-perl 
+  - repo: libfile-next-perl
     group: deepin-sysdev-team
     info: File::Next is an iterator-based module for finding files
 
@@ -5869,6 +5873,10 @@ repos:
   - repo: libxml-rss-perl #main
     group: deepin-sysdev-team
     info: Perl module for managing RSS (RDF Site Summary) files
+
+  - repo: libxml-tokeparser-perl #main
+    group: deepin-sysdev-team
+    info: Simplified interface to XML::Parser
 
   - repo: libxnvctrl #main
     group: deepin-sysdev-team
@@ -7124,6 +7132,10 @@ repos:
   - repo: pbzip2
     group: deepin-sysdev-team
     info: parallel bzip2 implementation
+
+  - repo: pcp
+    group: deepin-sysdev-team
+    info: Performance Co-Pilot Python PMAPI module
 
   - repo: pdm-backend #main
     group: deepin-sysdev-team

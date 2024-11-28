@@ -9845,3 +9845,7 @@ repos:
     group: deepin-sysdev-team
     info: kwayland-kf5
 
+  - repo: libfile-readbackwards-perl
+    group: deepin-sysdev-team
+    info: libfile-readbackwards-perl
+

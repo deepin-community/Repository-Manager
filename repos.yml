@@ -9841,3 +9841,7 @@ repos:
     group: deepin-sysdev-team
     info: libcudacxx
 
+  - repo: kwayland-kf5 #main
+    group: deepin-sysdev-team
+    info: kwayland-kf5
+

@@ -9849,3 +9849,6 @@ repos:
     group: deepin-sysdev-team
     info: libfile-readbackwards-perl
 
+  - repo: pdftk-java #main
+    group: deepin-sysdev-team
+    info: pdftk-java

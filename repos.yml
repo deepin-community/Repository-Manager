@@ -9852,3 +9852,7 @@ repos:
   - repo: pdftk-java #main
     group: deepin-sysdev-team
     info: pdftk-java
+
+  - repo: iptables-persistent #main
+    group: deepin-sysdev-team
+    info: iptables-persistent

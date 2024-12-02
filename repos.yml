@@ -9856,3 +9856,11 @@ repos:
   - repo: iptables-persistent #main
     group: deepin-sysdev-team
     info: iptables-persistent
+
+  - repo: spirv-llvm-translator-19 #main
+    group: deepin-sysdev-team
+    info: bi-directional translator for LLVM/SPIRV
+
+  - repo: llvm-toolchain-19 #main
+    group: deepin-sysdev-team
+    info: Modular compiler and toolchain technologies, libraries and headers

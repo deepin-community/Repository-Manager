@@ -1503,6 +1503,10 @@ repos:
     group: deepin-sysdev-team
     info: common scripts and macros to develop with GNOME
 
+  - repo: gnome-control-center
+    group: deepin-sysdev-team
+    info: configuration applets for GNOME
+
   - repo: gnome-desktop #main
     group: deepin-sysdev-team
     info: Android utils library for C
@@ -1522,6 +1526,10 @@ repos:
   - repo: gnome-pkg-tools
     group: deepin-sysdev-team
     info: GNOME package tools
+
+  - repo: gnome-settings-daemon
+    group: deepin-sysdev-team
+    info: daemon handling the GNOME session settings
 
   - repo: gnu-which
     group: deepin-sysdev-team

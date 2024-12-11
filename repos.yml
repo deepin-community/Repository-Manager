@@ -4473,6 +4473,10 @@ repos:
     group: deepin-sysdev-team
     info: Daemon for IPP USB printer support
 
+  - repo: iptables-persistent #main
+    group: deepin-sysdev-team
+    info: iptables-persistent
+
   - repo: iptsd
     group: deepin-surface
     info: Userspace daemon for Intel Precise Touch & Stylus
@@ -4776,6 +4780,10 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kwallet
 
+  - repo: kf6-kwayland #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-kwidgetsaddons #main
     group: deepin-sysdev-team
     info: KDE Framework 6 Widgets Addons
@@ -4788,6 +4796,10 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kxmlgui
 
+  - repo: kf6-milou #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-solid #main
     group: deepin-sysdev-team
     info: kf6 list
@@ -4797,14 +4809,6 @@ repos:
     info: kf6 list
 
   - repo: kglobalacceld #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-milou #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-kwayland #main
     group: deepin-sysdev-team
     info: kf6 list
 
@@ -4853,6 +4857,10 @@ repos:
   - repo: kwayland
     group: deepin-sysdev-team
     info: KWayland provides a Qt-style Server library wrapper for the Wayland libraries
+
+  - repo: kwayland-kf5 #main
+    group: deepin-sysdev-team
+    info: kwayland-kf5
 
   - repo: kwrited
     group: deepin-sysdev-team
@@ -5000,6 +5008,10 @@ repos:
     group: deepin-sysdev-team
     info: interoperable MD5-based crypt() for Perl
 
+  - repo: libcudacxx
+    group: deepin-sysdev-team
+    info: libcudacxx
+
   - repo: libdatetime-format-flexible-perl #main
     group: deepin-sysdev-team
     info: Perl module to transform strings into DateTime objects
@@ -5121,6 +5133,10 @@ repos:
   - repo: libfile-next-perl
     group: deepin-sysdev-team
     info: File::Next is an iterator-based module for finding files
+
+  - repo: libfile-readbackwards-perl
+    group: deepin-sysdev-team
+    info: libfile-readbackwards-perl
 
   - repo: libfilesys-notify-simple-perl
     group: deepin-sysdev-team
@@ -5806,6 +5822,10 @@ repos:
     group: deepin-sysdev-team
     info: Telegram related WebRTC fork
 
+  - repo: libthrust
+    group: deepin-sysdev-team
+    info: libthrust
+
   - repo: libtorrent-rasterbar
     group: deepin-sysdev-team
     info: Development files for libtorrent-rasterbar
@@ -5943,6 +5963,10 @@ repos:
     info: LLVM compiler infrastructure
 
   - repo: llvm-toolchain-18 #main
+    group: deepin-sysdev-team
+    info: Modular compiler and toolchain technologies, libraries and headers
+
+  - repo: llvm-toolchain-19 #main
     group: deepin-sysdev-team
     info: Modular compiler and toolchain technologies, libraries and headers
 
@@ -7133,6 +7157,10 @@ repos:
     group: deepin-sysdev-team
     info: backup partitions into a compressed image file
 
+  - repo: passt #main
+    group: deepin-sysdev-team
+    info: user-mode networking daemons for virtual machines and namespaces
+
   - repo: password-store
     group: deepin-sysdev-team
     info: simple password manager using GnuPG
@@ -7156,6 +7184,10 @@ repos:
   - repo: pcp
     group: deepin-sysdev-team
     info: Performance Co-Pilot Python PMAPI module
+
+  - repo: pdftk-java #main
+    group: deepin-sysdev-team
+    info: pdftk-java
 
   - repo: pdm-backend #main
     group: deepin-sysdev-team
@@ -8109,10 +8141,6 @@ repos:
     group: deepin-sysdev-team
     info: QML port of qtermwidget
 
-  - repo: qtermwidget6
-    group: deepin-sysdev-team
-    info: qtermwidget for Qt 6
-
   - repo: qr-code-generator
     group: deepin-pkg
     info: QR Code generator library in multiple languages
@@ -8136,6 +8164,10 @@ repos:
   - repo: qt6mpris #main
     group: deepin-sysdev-team
     info: Qt6 adaptation of the qtmpris library
+
+  - repo: qtermwidget6
+    group: deepin-sysdev-team
+    info: qtermwidget for Qt 6
 
   - repo: qtremoteobjects-everywhere-src #main
     group: deepin-sysdev-team
@@ -9106,6 +9138,10 @@ repos:
     group: deepin-sysdev-team
     info: bi-directional translator for LLVM/SPIRV
 
+  - repo: spirv-llvm-translator-19 #main
+    group: deepin-sysdev-team
+    info: bi-directional translator for LLVM/SPIRV
+
   - repo: spirv-tools #main
     group: deepin-sysdev-team
     info: bi-directional translator for LLVM/SPIRV
@@ -9845,34 +9881,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: libthrust
-    group: deepin-sysdev-team
-    info: libthrust
-
-  - repo: libcudacxx
-    group: deepin-sysdev-team
-    info: libcudacxx
-
-  - repo: kwayland-kf5 #main
-    group: deepin-sysdev-team
-    info: kwayland-kf5
-
-  - repo: libfile-readbackwards-perl
-    group: deepin-sysdev-team
-    info: libfile-readbackwards-perl
-
-  - repo: pdftk-java #main
-    group: deepin-sysdev-team
-    info: pdftk-java
-
-  - repo: iptables-persistent #main
-    group: deepin-sysdev-team
-    info: iptables-persistent
-
-  - repo: spirv-llvm-translator-19 #main
-    group: deepin-sysdev-team
-    info: bi-directional translator for LLVM/SPIRV
-
-  - repo: llvm-toolchain-19 #main
-    group: deepin-sysdev-team
-    info: Modular compiler and toolchain technologies, libraries and headers

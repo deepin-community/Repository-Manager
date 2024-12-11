@@ -734,6 +734,10 @@ repos:
     group: deepin-sysdev-team
     info: Distrobox installation helper for deepin.
 
+  - repo: deepin-distrobox-runner # main
+    group: deepin-sysdev-team
+    info: Distrobox wrapper for deepin,
+
   - repo: deepin-distrobox-ubuntu #main
     group: deepin-sysdev-team
     info: Ubuntu 20.04 Distrobox container for deepin.

@@ -4912,6 +4912,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module for expanding a class or object's list of base classes
 
+  - repo: libasio
+    group: deepin-sysdev-team
+    info: asio is a cross-platform C++ library for network programming that provides developers with a consistent asynchronous I/O model using a modern C++ approach. 
+
   - repo: libaudclient
     group: deepin-sysdev-team
     info: audacious D-Bus remote control library

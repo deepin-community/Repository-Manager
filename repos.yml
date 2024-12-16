@@ -9416,6 +9416,10 @@ repos:
     group: deepin-sysdev-team
     info: JavaScript parser, mangler/compressor and beautifier toolkit
 
+  - repo: uml-utilities #main
+    group: deepin-sysdev-team
+    info: User-mode Linux (utility programs)
+
   - repo: unifdef #main
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.
@@ -9880,8 +9884,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-
-  - repo: uml-utilities #main
-    group: deepin-sysdev-team
-    info: User-mode Linux (utility programs)
 

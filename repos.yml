@@ -9243,6 +9243,10 @@ repos:
   - repo: tea4cups #main
     group: deepin-sysdev-team
     info: Swiss Army's knife of advanced CUPS administrators
+    
+  - repo: tecla
+    group: deepin-sysdev-team
+    info: keyboard layout viewer for the GNOME desktop
 
   - repo: templating-maven-plugin #main
     group: deepin-sysdev-team

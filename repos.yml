@@ -4517,6 +4517,10 @@ repos:
     group: deepin-sysdev-team
     info: Java library for generating and interpreting ANSI escape sequences
 
+  - repo: jaraco.context #main
+    group: deepin-sysdev-team
+    info: jaraco contextlib extensions
+
   - repo: java-sip-api
     group: deepin-sysdev-team
     info: SIP API for Java
@@ -7514,6 +7518,10 @@ repos:
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps
 
+  - repo: python-autocommand #main
+    group: deepin-sysdev-team
+    info: library to generate argparse parsers from function signatures
+
   - repo: python-autogui
     group: deepin-sysdev-team
     info: PyAutoGUI is a cross-platform GUI automation Python module for human beings
@@ -7771,6 +7779,10 @@ repos:
   - repo: python-hyperframe #main
     group: deepin-sysdev-team
     info: Pure-Python3 HTTP/2 framing code
+
+  - repo: python-inflect #main
+    group: deepin-sysdev-team
+    info: Generate plurals, singular nouns, ordinals, indefinite articles
 
   - repo: python-iniparse
     group: deepin-sysdev-team

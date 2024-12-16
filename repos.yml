@@ -168,6 +168,10 @@ repos:
     group: deepin-sysdev-team
     info: sends IP and/or ARP pings (to the MAC address)
 
+  - repo: asio
+    group: deepin-sysdev-team
+    info: asio is a cross-platform C++ library for network programming that provides developers with a consistent asynchronous I/O model using a modern C++ approach. 
+
   - repo: asmtools #main
     group: deepin-sysdev-team
     info: OpenJDK AsmTools
@@ -4911,10 +4915,6 @@ repos:
   - repo: libasa-perl
     group: deepin-sysdev-team
     info: Perl module for expanding a class or object's list of base classes
-
-  - repo: libasio
-    group: deepin-sysdev-team
-    info: asio is a cross-platform C++ library for network programming that provides developers with a consistent asynchronous I/O model using a modern C++ approach. 
 
   - repo: libaudclient
     group: deepin-sysdev-team

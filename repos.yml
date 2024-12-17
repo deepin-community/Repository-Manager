@@ -6307,6 +6307,10 @@ repos:
     group: deepin-sysdev-team
     info: lightweight PDF viewer
 
+  - repo: mvdsv
+    group: deepin-sysdev-team
+    info: a QuakeWorld server 
+    
   - repo: myst-parser #main
     group: deepin-sysdev-team
     info: rich and extensible flavor of Markdown for technical docs

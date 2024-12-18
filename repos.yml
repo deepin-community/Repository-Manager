@@ -1034,6 +1034,10 @@ repos:
     group: deepin-sysdev-team
     info: Extract page mode and named destinations as PDFmark from PDF
 
+  - repo: f2fs-tools
+    group: deepin-sysdev-team
+    info: f2fs-tools
+
   - repo: fail2ban
     group: deepin-sysdev-team
     info: ban hosts that cause multiple authentication errors
@@ -6310,7 +6314,7 @@ repos:
   - repo: mvdsv
     group: deepin-sysdev-team
     info: a QuakeWorld server 
-    
+
   - repo: myst-parser #main
     group: deepin-sysdev-team
     info: rich and extensible flavor of Markdown for technical docs
@@ -9263,7 +9267,7 @@ repos:
   - repo: tea4cups #main
     group: deepin-sysdev-team
     info: Swiss Army's knife of advanced CUPS administrators
-    
+
   - repo: tecla
     group: deepin-sysdev-team
     info: keyboard layout viewer for the GNOME desktop
@@ -9909,6 +9913,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: f2fs-tools
-    group: deepin-sysdev-team
-    info: f2fs-tools

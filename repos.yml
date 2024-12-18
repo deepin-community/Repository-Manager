@@ -966,6 +966,10 @@ repos:
       EL is a simple language designed to meet the needs of the presentation layer
       in Java web applications.
 
+  - repo: emacs-addons-metapackages #main
+    group: deepin-sysdev-team
+    info: All editing major modes for Emacs
+
   - repo: embree
     group: deepin-sysdev-team
     info: High Performance Ray Tracing Kernels

@@ -778,6 +778,10 @@ repos:
     group: deepin-sysdev-team
     info: Free and Open Music Notation Editor
 
+  - repo: deskflow
+    group: deepin-sysdev-team
+    info: Mouse and keyboard sharing utility
+
   - repo: dh-builtusing #main
     group: deepin-sysdev-team
     info: debhelper tool generating the Built-Using field for Debian packages
@@ -9427,6 +9431,10 @@ repos:
   - repo: twitter-bootstrap4 #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: txt2tags
+    group: deepin-sysdev-team
+    info: conversion tool to generating several file formats
 
   - repo: u-boot
     group: deepin-sysdev-team

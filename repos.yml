@@ -5752,6 +5752,10 @@ repos:
     group: deepin-sysdev-team
     info: HTTP library implementation in C
 
+  - repo: libspf2 #main
+    group: deepin-sysdev-team
+    info: library for validating mail senders with SPF (Sender Policy Framework)
+
   - repo: libspnav
     group: deepin-sysdev-team
     info:

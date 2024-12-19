@@ -9929,3 +9929,14 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: cups-pk-helper
+    group: deepin-sysdev-team
+    info: Manage printing-related administrative tasks
+
+  - repo: gnome-backgrounds
+    group: deepin-sysdev-team
+    info: Manage background wallpaper for the desktop
+
+  - repo: gnome-themes-extra
+    group: deepin-sysdev-team
+    info: Provides additional themes and visual elements for GNOME

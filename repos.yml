@@ -1518,6 +1518,10 @@ repos:
   - repo: gmbal-pfl
     group: deepin-sysdev-team
     info: Gmbal-pfl is a JMX instrumentation and monitoring library.
+    
+  - repo: gnome-bluetooth3
+    group: deepin-sysdev-team
+    info: GNOME Bluetooth 3 - everything Bluetooth related for the code GNOME desktop
 
   - repo: gnome-common
     group: deepin-sysdev-team

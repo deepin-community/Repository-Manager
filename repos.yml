@@ -7838,6 +7838,10 @@ repos:
     group: deepin-sysdev-team
     info: Parse and generate linetable attributes for Python 3 code objects
 
+  - repo: python-linux-procfs #main
+    group: deepin-sysdev-team
+    info: Linux /proc abstraction classes in Python
+  
   - repo: python-lunr #main
     group: deepin-sysdev-team
     info: Python implementation of Lunr.js
@@ -9436,6 +9440,10 @@ repos:
     group: deepin-sysdev-team
     info: transparent network access through a SOCKS 4 or 5 proxy
 
+  - repo: tuned #main
+    group: deepin-sysdev-team
+    info: daemon for monitoring and adaptive tuning of system devices
+  
   - repo: twitter-bootstrap4 #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -9507,6 +9515,10 @@ repos:
   - repo: virt-viewer
     group: deepin-sysdev-team
     info: Displaying the graphical console of a virtual machine
+
+  - repo: virt-what #main
+    group: deepin-sysdev-team
+    info: detect if we are running in a virtual machine
 
   - repo: virtualbox
     group: deepin-sysdev-team

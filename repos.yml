@@ -36,6 +36,10 @@ repos:
     group: deepin-sysdev-team
     info: Python asyncio file operations
 
+  - repo: aiohappyeyeballs #main
+    group: deepin-sysdev-team
+    info: Happy Eyeballs connection helper for asyncio
+
   - repo: aioredis #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11

@@ -646,6 +646,10 @@ repos:
     group: deepin-sysdev-team
     info: printer driver for PDF writing via CUPS
 
+  - repo: cups-pk-helper
+    group: deepin-sysdev-team
+    info: Manage printing-related administrative tasks
+
   - repo: curl #main
     group: deepin-sysdev-team
     info: development files and documentation for libcurl (OpenSSL flavour)
@@ -1518,7 +1522,11 @@ repos:
   - repo: gmbal-pfl
     group: deepin-sysdev-team
     info: Gmbal-pfl is a JMX instrumentation and monitoring library.
-    
+
+  - repo: gnome-backgrounds
+    group: deepin-sysdev-team
+    info: Manage background wallpaper for the desktop
+
   - repo: gnome-bluetooth3
     group: deepin-sysdev-team
     info: GNOME Bluetooth 3 - everything Bluetooth related for the code GNOME desktop
@@ -1554,6 +1562,10 @@ repos:
   - repo: gnome-settings-daemon
     group: deepin-sysdev-team
     info: daemon handling the GNOME session settings
+
+  - repo: gnome-themes-extra
+    group: deepin-sysdev-team
+    info: Provides additional themes and visual elements for GNOME
 
   - repo: gnu-which
     group: deepin-sysdev-team
@@ -7841,7 +7853,7 @@ repos:
   - repo: python-linux-procfs #main
     group: deepin-sysdev-team
     info: Linux /proc abstraction classes in Python
-  
+
   - repo: python-lunr #main
     group: deepin-sysdev-team
     info: Python implementation of Lunr.js
@@ -9443,7 +9455,7 @@ repos:
   - repo: tuned #main
     group: deepin-sysdev-team
     info: daemon for monitoring and adaptive tuning of system devices
-  
+
   - repo: twitter-bootstrap4 #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -9945,14 +9957,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: cups-pk-helper
-    group: deepin-sysdev-team
-    info: Manage printing-related administrative tasks
-
-  - repo: gnome-backgrounds
-    group: deepin-sysdev-team
-    info: Manage background wallpaper for the desktop
-
-  - repo: gnome-themes-extra
-    group: deepin-sysdev-team
-    info: Provides additional themes and visual elements for GNOME

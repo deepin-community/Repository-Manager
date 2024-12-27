@@ -9250,6 +9250,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to load and stress a computer
 
+  - repo: supervisor #main
+    group: deepin-sysdev-team
+    info: System for controlling process state
+
   - repo: sway
     group: deepin-sysdev-team
     info: i3-compatible Wayland compositor

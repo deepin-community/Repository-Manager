@@ -924,6 +924,10 @@ repos:
     group: deepin-sysdev-team
     info: embeddable Javascript engine, development files
 
+  - repo: dumb-init #main
+    group: deepin-sysdev-team
+    info: wrapper script which proxies signals to a child
+
   - repo: dvdisaster
     group: deepin-sysdev-team
     info: data loss/scratch/aging protection for CD/DVD media

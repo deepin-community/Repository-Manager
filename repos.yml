@@ -122,6 +122,10 @@ repos:
     group: deepin-pkg
     info: Android SDK meta packages
 
+  - repo: apache-mode-el #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing Apache configuration files
+
   - repo: apt-file
     group: deepin-sysdev-team
     info: search for files in Debian packages
@@ -224,6 +228,10 @@ repos:
     group: deepin-sysdev-team
     info: loop-free distance-vector routing protocol
 
+  - repo: bar-cursor-el #main
+    group: deepin-sysdev-team
+    info: switch Emacs block cursor to a bar
+
   - repo: base16384
     group: deepin-sysdev-team
     info: Encode binary files to printable utf16be
@@ -292,6 +300,10 @@ repos:
     group: deepin-sysdev-team
     info: Bandlimited wavetable-based oscillator plugins for LADSPA hosts
 
+  - repo: bm-el #main
+    group: deepin-sysdev-team
+    info: visual bookmarks for GNU Emacs
+
   - repo: bnd
     group: deepin-sysdev-team
     info: The bnd tool helps you create and diagnose OSGi bundles
@@ -317,6 +329,10 @@ repos:
   - repo: box64 #main
     group: deepin-sysdev-team
     info: run amd64 binaries on arm64 without emulating library calls
+
+  - repo: boxquote-el #main
+    group: deepin-sysdev-team
+    info: quote text in Emacs with a semi-box
 
   - repo: bpfcc
     group: deepin-sysdev-team
@@ -351,6 +367,10 @@ repos:
   - repo: broadcom-sta
     group: deepin-sysdev-team
     info: dkms source for the Broadcom STA Wireless driver
+
+  - repo: browse-kill-ring-el #main
+    group: deepin-sysdev-team
+    info: interactively insert items from kill-ring
 
   - repo: bsdmainutils #main
     group: deepin-sysdev-team
@@ -520,6 +540,10 @@ repos:
     group: deepin-sysdev-team
     info: COLLADA using double precision
 
+  - repo: color-theme-modern #main
+    group: deepin-sysdev-team
+    info: deftheme reimplementation of classic Emacs color-themes
+
   - repo: colored #main
     group: deepin-sysdev-team
     info: simple library for coloring and formatting in terminal
@@ -637,6 +661,10 @@ repos:
   - repo: crust-firmware
     group: deepin-sysdev-team
     info: SCP firmware for Allwinner sunxi boards
+
+  - repo: csv-mode #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing comma, char, and tab separated values
 
   - repo: cubeb
     group: deepin-sysdev-team
@@ -822,6 +850,10 @@ repos:
     group: deepin-sysdev-team
     info: Small and fast web browse
 
+  - repo: diminish-el #main
+    group: deepin-sysdev-team
+    info: hiding or abbreviation of the mode line displays of minor-modes
+
   - repo: direnv
     group: deepin-sysdev-team
     info: Utility to set directory specific environment variables
@@ -982,6 +1014,18 @@ repos:
     group: deepin-sysdev-team
     info: All editing major modes for Emacs
 
+  - repo: emacs-htmlize #main
+    group: deepin-sysdev-team
+    info: convert buffer text and decorations to HTML
+
+  - repo: emacs-pod-mode #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing .pod files
+
+  - repo: emacs-session #main
+    group: deepin-sysdev-team
+    info: use variables, registers and buffer places across sessions
+
   - repo: embree
     group: deepin-sysdev-team
     info: High Performance Ray Tracing Kernels
@@ -1001,6 +1045,10 @@ repos:
   - repo: enet
     group: deepin-sysdev-team
     info: thin network communication layer on top of UDP
+
+  - repo: eproject-el #main
+    group: deepin-sysdev-team
+    info: assign files to Emacs projects, programmatically
 
   - repo: equivs
     group: deepin-sysdev-team
@@ -1139,6 +1187,10 @@ repos:
   - repo: flit-scm
     group: deepin-sysdev-team
     info: PEP 518 build backend that uses setuptools_scm and flit
+
+  - repo: folding-mode-el #main
+    group: deepin-sysdev-team
+    info: folding-editor minor mode for Emacs
 
   - repo: fonts-adobe-source-han-cjk #main
     group: deepin-sysdev-team
@@ -4039,6 +4091,10 @@ repos:
     group: deepin-sysdev-team
     info: library of graphic data types (development files)
 
+  - repo: graphviz-dot-mode #main
+    group: deepin-sysdev-team
+    info: Emacs mode for the dot-language used by graphviz
+
   - repo: greenboot #main
     group: deepin-sysdev-team
     info: Generic Health Check Framework for systemd
@@ -4430,6 +4486,10 @@ repos:
   - repo: incus #main
     group: deepin-sysdev-team
     info: Powerful system container and virtual machine manager
+
+  - repo: initsplit-el #main
+    group: deepin-sysdev-team
+    info: code to split customizations into different files
 
   - repo: inotify-tools
     group: deepin-sysdev-team
@@ -6124,6 +6184,10 @@ repos:
     group: deepin-sysdev-team
     info: Python port of markdown-it and some its associated plugins
 
+  - repo: markdown-mode #main
+    group: deepin-sysdev-team
+    info: mode for editing Markdown-formatted text files in GNU Emacs
+
   - repo: mate-submodules
     group: deepin-sysdev-team
     info: MATE code components provided as Git submodule repository
@@ -6346,6 +6410,14 @@ repos:
   - repo: mupdf #main
     group: deepin-sysdev-team
     info: lightweight PDF viewer
+
+  - repo: mutt-alias-el #main
+    group: deepin-sysdev-team
+    info: Emacs package to lookup and insert expanded Mutt mail aliases
+
+  - repo: muttrc-mode-el #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing muttrc
 
   - repo: mvdsv
     group: deepin-sysdev-team
@@ -9292,6 +9364,10 @@ repos:
     group: deepin-sysdev-team
     info: boot performance graphing tool
 
+  - repo: tabbar-el #main
+    group: deepin-sysdev-team
+    info: Emacs minor mode that displays a tab bar at the top
+
   - repo: tardiff
     group: deepin-sysdev-team
     info: Tarball file list comparison tool
@@ -9969,80 +10045,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-
-  - repo: browse-kill-ring-el #main
-    group: deepin-sysdev-team
-    info: interactively insert items from kill-ring
-
-  - repo: diminish-el #main
-    group: deepin-sysdev-team
-    info: hiding or abbreviation of the mode line displays of minor-modes
-
-  - repo: emacs-htmlize #main
-    group: deepin-sysdev-team
-    info: convert buffer text and decorations to HTML
-    
-  - repo: markdown-mode #main
-    group: deepin-sysdev-team
-    info: mode for editing Markdown-formatted text files in GNU Emacs
-
-  - repo: csv-mode #main
-    group: deepin-sysdev-team
-    info: Emacs major mode for editing comma, char, and tab separated values
-
-  - repo: graphviz-dot-mode #main
-    group: deepin-sysdev-team
-    info: Emacs mode for the dot-language used by graphviz
-
-  - repo: apache-mode-el #main
-    group: deepin-sysdev-team
-    info: Emacs major mode for editing Apache configuration files
-
-  - repo: bm-el #main
-    group: deepin-sysdev-team
-    info: visual bookmarks for GNU Emacs
-
-  - repo: boxquote-el #main
-    group: deepin-sysdev-team
-    info: quote text in Emacs with a semi-box
-    
-  - repo: emacs-session #main
-    group: deepin-sysdev-team
-    info: use variables, registers and buffer places across sessions
-    
-  - repo: emacs-pod-mode #main
-    group: deepin-sysdev-team
-    info: Emacs major mode for editing .pod files
-    
-  - repo: tabbar-el #main
-    group: deepin-sysdev-team
-    info: Emacs minor mode that displays a tab bar at the top
-    
-  - repo: eproject-el #main
-    group: deepin-sysdev-team
-    info: assign files to Emacs projects, programmatically
-    
-  - repo: initsplit-el #main
-    group: deepin-sysdev-team
-    info: code to split customizations into different files
-    
-  - repo: bar-cursor-el #main
-    group: deepin-sysdev-team
-    info: switch Emacs block cursor to a bar
-    
-  - repo: mutt-alias-el #main
-    group: deepin-sysdev-team
-    info: Emacs package to lookup and insert expanded Mutt mail aliases
-    
-  - repo: folding-mode-el #main
-    group: deepin-sysdev-team
-    info: folding-editor minor mode for Emacs
-    
-  - repo: muttrc-mode-el #main
-    group: deepin-sysdev-team
-    info: Emacs major mode for editing muttrc
-
-  - repo: color-theme-modern #main
-    group: deepin-sysdev-team
-    info: deftheme reimplementation of classic Emacs color-themes
-    

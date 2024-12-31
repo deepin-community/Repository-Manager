@@ -10045,3 +10045,23 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: libpod-readme-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to convert POD to README file
+    
+  - repo: libcpan-changes-perl #main
+    group: deepin-sysdev-team
+    info: module for reading and writing CPAN Changes files
+    
+  - repo: libmoox-handlesvia-perl #main
+    group: deepin-sysdev-team
+    info: Moose Native Traits-like behavior for Moo
+    
+  - repo: libdata-perl-perl #main
+    group: deepin-sysdev-team
+    info: classes wrapping fundamental Perl data types
+    
+  - repo: libmoox-types-mooselike-perl #main
+    group: deepin-sysdev-team
+    info: module providing some Moosish types and a type builder
+  

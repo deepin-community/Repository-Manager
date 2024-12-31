@@ -5104,6 +5104,10 @@ repos:
     group: deepin-sysdev-team
     info: simple cookie string generator and parser
 
+  - repo: libcpan-changes-perl #main
+    group: deepin-sysdev-team
+    info: module for reading and writing CPAN Changes files
+
   - repo: libcrypt-dh-gmp-perl #main
     group: deepin-sysdev-team
     info: Crypt::DH replacement that uses GMP directly
@@ -5115,6 +5119,10 @@ repos:
   - repo: libcudacxx
     group: deepin-sysdev-team
     info: libcudacxx
+
+  - repo: libdata-perl-perl #main
+    group: deepin-sysdev-team
+    info: classes wrapping fundamental Perl data types
 
   - repo: libdatetime-format-flexible-perl #main
     group: deepin-sysdev-team
@@ -5520,9 +5528,17 @@ repos:
     group: deepin-sysdev-team
     info: easy aliasing of methods and attributes in Moo
 
+  - repo: libmoox-handlesvia-perl #main
+    group: deepin-sysdev-team
+    info: Moose Native Traits-like behavior for Moo
+
   - repo: libmoox-struct-perl
     group: deepin-sysdev-team
     info: simple lightweight record-like structures making sounds like cows
+
+  - repo: libmoox-types-mooselike-perl #main
+    group: deepin-sysdev-team
+    info: module providing some Moosish types and a type builder
 
   - repo: libmouse-perl #main
     group: deepin-sysdev-team
@@ -5737,6 +5753,10 @@ repos:
   - repo: libpod-elemental-transformer-list-perl #main
     group: deepin-sysdev-team
     info: zilla
+
+  - repo: libpod-readme-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to convert POD to README file
 
   - repo: libpod-weaver-section-support-perl #main
     group: deepin-sysdev-team
@@ -10045,23 +10065,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: libpod-readme-perl #main
-    group: deepin-sysdev-team
-    info: Perl module to convert POD to README file
-    
-  - repo: libcpan-changes-perl #main
-    group: deepin-sysdev-team
-    info: module for reading and writing CPAN Changes files
-    
-  - repo: libmoox-handlesvia-perl #main
-    group: deepin-sysdev-team
-    info: Moose Native Traits-like behavior for Moo
-    
-  - repo: libdata-perl-perl #main
-    group: deepin-sysdev-team
-    info: classes wrapping fundamental Perl data types
-    
-  - repo: libmoox-types-mooselike-perl #main
-    group: deepin-sysdev-team
-    info: module providing some Moosish types and a type builder
-  

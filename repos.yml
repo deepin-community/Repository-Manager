@@ -9969,3 +9969,80 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+
+  - repo: browse-kill-ring-el #main
+    group: deepin-sysdev-team
+    info: interactively insert items from kill-ring
+
+  - repo: diminish-el #main
+    group: deepin-sysdev-team
+    info: hiding or abbreviation of the mode line displays of minor-modes
+
+  - repo: emacs-htmlize #main
+    group: deepin-sysdev-team
+    info: convert buffer text and decorations to HTML
+    
+  - repo: markdown-mode #main
+    group: deepin-sysdev-team
+    info: mode for editing Markdown-formatted text files in GNU Emacs
+
+  - repo: csv-mode #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing comma, char, and tab separated values
+
+  - repo: graphviz-dot-mode #main
+    group: deepin-sysdev-team
+    info: Emacs mode for the dot-language used by graphviz
+
+  - repo: apache-mode-el #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing Apache configuration files
+
+  - repo: bm-el #main
+    group: deepin-sysdev-team
+    info: visual bookmarks for GNU Emacs
+
+  - repo: boxquote-el #main
+    group: deepin-sysdev-team
+    info: quote text in Emacs with a semi-box
+    
+  - repo: emacs-session #main
+    group: deepin-sysdev-team
+    info: use variables, registers and buffer places across sessions
+    
+  - repo: emacs-pod-mode #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing .pod files
+    
+  - repo: tabbar-el #main
+    group: deepin-sysdev-team
+    info: Emacs minor mode that displays a tab bar at the top
+    
+  - repo: eproject-el #main
+    group: deepin-sysdev-team
+    info: assign files to Emacs projects, programmatically
+    
+  - repo: initsplit-el #main
+    group: deepin-sysdev-team
+    info: code to split customizations into different files
+    
+  - repo: bar-cursor-el #main
+    group: deepin-sysdev-team
+    info: switch Emacs block cursor to a bar
+    
+  - repo: mutt-alias-el #main
+    group: deepin-sysdev-team
+    info: Emacs package to lookup and insert expanded Mutt mail aliases
+    
+  - repo: folding-mode-el #main
+    group: deepin-sysdev-team
+    info: folding-editor minor mode for Emacs
+    
+  - repo: muttrc-mode-el #main
+    group: deepin-sysdev-team
+    info: Emacs major mode for editing muttrc
+
+  - repo: color-theme-modern #main
+    group: deepin-sysdev-team
+    info: deftheme reimplementation of classic Emacs color-themes
+    

@@ -9672,6 +9672,10 @@ repos:
     group: deepin-sysdev-team
     info: Vulkan tools
 
+  - repo: vulkan-utility-libraries #main
+    group: deepin-sysdev-team
+    info: Vulkan Utility Libraries -- development files
+
   - repo: vulkan-validationlayers
     group: deepin-sysdev-team
     info: Vulkan validation layers

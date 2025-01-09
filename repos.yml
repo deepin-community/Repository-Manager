@@ -7658,6 +7658,10 @@ repos:
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps
 
+  - repo: python-asttokens #main
+    group: deepin-sysdev-team
+    info: annotate Python asbtract syntax trees with code references (Python 3)
+
   - repo: python-autocommand #main
     group: deepin-sysdev-team
     info: library to generate argparse parsers from function signatures
@@ -7805,6 +7809,10 @@ repos:
   - repo: python-exceptiongroup #main
     group: deepin-sysdev-team
     info: Backport of PEP 654 (exception groups)
+
+  - repo: python-executing #main
+    group: deepin-sysdev-team
+    info: Inspect Python AST node being executed
 
   - repo: python-exif
     group: deepin-sysdev-team
@@ -7954,6 +7962,10 @@ repos:
     group: deepin-sysdev-team
     info: Linux /proc abstraction classes in Python
 
+  - repo: python-littleutils #main
+    group: deepin-sysdev-team
+    info: Small personal collection of Python utility functions (Python 3)
+
   - repo: python-lunr #main
     group: deepin-sysdev-team
     info: Python implementation of Lunr.js
@@ -8035,6 +8047,10 @@ repos:
     info:
       python-prov is a library for W3C Provenance Data Model supporting PROV-JSON
       and PROV-XML import/export.
+
+  - repo: python-pure-eval #main
+    group: deepin-sysdev-team
+    info: Safely evaluate Python AST nodes without side effects
 
   - repo: python-pynvim
     group: deepin-sysdev-team
@@ -8147,6 +8163,10 @@ repos:
   - repo: python-sphinx-code-include #main
     group: deepin-sysdev-team
     info: include source code from any Sphinx project using only its import path
+
+  - repo: python-stack-data #main
+    group: deepin-sysdev-team
+    info: Better tracebacks for Python
 
   - repo: python-stestr #main
     group: deepin-sysdev-team

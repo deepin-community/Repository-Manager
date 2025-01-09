@@ -4680,6 +4680,10 @@ repos:
     group: deepin-sysdev-team
     info: Regression Test Harness for the OpenJDK platform
 
+  - repo: jupyter-cache #main
+    group: deepin-sysdev-team
+    info: Jupyter notebooks execution cache
+
   - repo: jupyter-comm #main
     group: deepin-sysdev-team
     info: Register a comm implementation in the Jupyter kernel

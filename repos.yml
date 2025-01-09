@@ -5116,6 +5116,10 @@ repos:
     group: deepin-sysdev-team
     info: Crypt::DH replacement that uses GMP directly
 
+  - repo: libcrypt-openssl-guess-perl #main
+    group: deepin-sysdev-team
+    info: module for guessing OpenSSL include path
+
   - repo: libcrypt-passwdmd5-perl
     group: deepin-sysdev-team
     info: interoperable MD5-based crypt() for Perl

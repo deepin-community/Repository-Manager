@@ -6443,6 +6443,10 @@ repos:
     group: deepin-sysdev-team
     info: a QuakeWorld server 
 
+  - repo: myst-nb #main
+    group: deepin-sysdev-team
+    info: Parse and execute ipynb files in Sphinx
+
   - repo: myst-parser #main
     group: deepin-sysdev-team
     info: rich and extensible flavor of Markdown for technical docs
@@ -7614,6 +7618,10 @@ repos:
     group: deepin-sysdev-team
     info: HTTP server for pytest to test HTTP clients
 
+  - repo: pytest-jupyter #main
+    group: deepin-sysdev-team
+    info: Pytest plugins for Jupyter libraries and extensions
+
   - repo: pytest-mock #main
     group: deepin-sysdev-team
     info: Thin wrapper around mock for easier use with pytest (Python 3 module)
@@ -7621,6 +7629,10 @@ repos:
   - repo: pytest-mpl #main
     group: deepin-sysdev-team
     info: pytest plugin for Matplotlib image comparison
+
+  - repo: pytest-mypy-testing #main
+    group: deepin-sysdev-team
+    info: Plugin to test mypy output with pytest
 
   - repo: pytest-rerunfailures #main
     group: deepin-sysdev-team
@@ -7665,6 +7677,10 @@ repos:
   - repo: python-autocommand #main
     group: deepin-sysdev-team
     info: library to generate argparse parsers from function signatures
+
+  - repo: python-autodoc-traits #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to document classes with Traitlets-based config
 
   - repo: python-autogui
     group: deepin-sysdev-team
@@ -9269,6 +9285,10 @@ repos:
   - repo: sphinx-sitemap # main
     group: deepin-sysdev-team
     info: A python binding package for generating sitemap
+
+  - repo: sphinxcontrib-github-alt #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to link to GitHub issues, PRs, commits and users
 
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team

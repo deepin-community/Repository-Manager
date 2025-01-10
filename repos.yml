@@ -476,6 +476,10 @@ repos:
     group: deepin-sysdev-team
     info: utilities to build beautiful command lines interfaces
 
+  - repo: clinfo
+    group: deepin-sysdev-team
+    info: Query OpenCL system information
+
   - repo: cloc
     group: deepin-sysdev-team
     info: statistics utility to count lines of code

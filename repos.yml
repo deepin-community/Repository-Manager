@@ -9394,6 +9394,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to load and stress a computer
 
+  - repo: supertuxkart
+    group: deepin-sysdev-team
+    info: 3D arcade racer with a variety of characters, tracks, and modes to play
+
   - repo: supervisor #main
     group: deepin-sysdev-team
     info: System for controlling process state

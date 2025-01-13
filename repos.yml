@@ -6245,6 +6245,10 @@ repos:
     group: deepin-sysdev-team
     info: Midnight Commander - a powerful file manager.
 
+  - repo: mcpp
+    group: deepin-sysdev-team
+    info: Alternative C/C++ preprocessor
+
   - repo: mctc-lib
     group: deepin-sysdev-team
     info: A modular computation tool chain library (development files)

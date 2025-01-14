@@ -6176,6 +6176,10 @@ repos:
     group: deepin-sysdev-team
     info: Lua client for Neovim
 
+  - repo: luametatex #main
+    group: deepin-sysdev-team
+    info: Next generation ConTeXt processing engine
+
   - repo: luceneplusplus
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support

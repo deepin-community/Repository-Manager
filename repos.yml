@@ -9950,6 +9950,10 @@ repos:
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) modules for X.org
 
+  - repo: xpadneo-dkms
+    group: deepin-sysdev-team
+    info: Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S) 
+
   - repo: xrdp
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) server

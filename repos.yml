@@ -10140,3 +10140,15 @@ repos:
   - repo: checkinstall
     group: deepin-sysdev-team
     info: installation tracker
+
+  - repo: comic-neue #main
+    group: deepin-sysdev-team
+    info: less horrible remake of Comic Sans
+    
+  - repo: fonts-humor-sans #main
+    group: deepin-sysdev-team
+    info: Font that looks like handwritten text
+
+  - repo: mpl-sphinx-theme #main
+    group: deepin-sysdev-team
+    info: Provides a customizable Sphinx theme for Matplotlib projects.

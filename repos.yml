@@ -10152,3 +10152,23 @@ repos:
   - repo: mpl-sphinx-theme #main
     group: deepin-sysdev-team
     info: Provides a customizable Sphinx theme for Matplotlib projects.
+
+  - repo: bootstrap-html #main
+    group: deepin-sysdev-team
+    info: bootstrap-html
+
+  - repo: node-fortawesome-fontawesome-free #main
+    group: deepin-sysdev-team
+    info: The iconic font, CSS, and SVG framework
+
+  - repo: node-html-webpack-plugin #main
+    group: deepin-sysdev-team
+    info: node-webpack plugin to create HTML files
+
+  - repo: node-popper2 #main
+    group: deepin-sysdev-team
+    info: Javascript library to position poppers in web applications
+  
+  - repo: accessible-pygments #main
+    group: deepin-sysdev-team
+    info: Collection of accessible pygments styles

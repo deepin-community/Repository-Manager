@@ -8,6 +8,7 @@ on:
 env:
   APP_ID: ${{ secrets.APP_ID }}
   APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+  OSCPASS: ${{ secrets.OSCPASS }}
 
 jobs:
   create_repo:
@@ -18,14 +19,17 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
+
       - name: use node@18
         uses: actions/setup-node@v3
         with:
           node-version: 18
+
       - name: install depends for load scripts
         run: |
           npm install @octokit/rest@19.0.13
           npm install @octokit/auth-app@6.1.1
+
       - name: Get token using github-script
         id: get-token
         uses: actions/github-script@v6
@@ -50,12 +54,6 @@ jobs:
               installationId: app_installation.data.id
             });
             core.setOutput('app_token', token)
-      - name: init osc
-        run: |
-          sudo apt update
-          sudo apt install osc
-          mkdir ~/.config/osc
-          echo "${{ secrets.OSCRC }}" > ~/.config/osc/oscrc
 
       - name: create_repo
         id: create_repo
@@ -122,29 +120,51 @@ jobs:
 
           def create_obs_package(repo):
               print("create_repo: " + repo)
-              org = os.environ.get("ORG")
               component = "community"
               if '#' in repo:
                   repo, c = repo.split('#', 1)
                   if c and c != '':
                       component = c
 
-              os.popen("if [ ! -d deepin:Develop:%s ];then osc co deepin:Develop:%s template-repository;fi" % (component, component)).read()
-              os.chdir("deepin:Develop:%s" % component)
-              os.popen("osc mkpac " + repo).read()
-              os.popen("cp template-repository/_service " + repo).read()
-              os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
-              os.popen("osc add " + repo + "/_service").read()
-              os.popen('''osc ci -m "init"''').read()
-              os.chdir("../")
-              os.popen("if [ ! -d deepin:Unstable:%s ];then osc co deepin:Unstable:%s template-repository;fi" % (component, component)).read()
-              os.chdir("deepin:Unstable:%s" % component)
-              os.popen("osc mkpac " + repo).read()
-              os.popen("cp template-repository/_service " + repo).read()
-              os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
-              os.popen("osc add " + repo + "/_service").read()
-              os.popen('''osc ci -m "init"''').read()
-              os.chdir("../")
+              pkg_meta = f"""
+          <package name="{repo}" project="deepin:Develop:{component}">
+            <title/>
+            <description/>
+          </package>
+          """
+
+              service_content = f"""
+          <services>
+            <service name="obs_gbp">
+              <param name="url">https://github.com/deepin-community/{repo}.git</param>
+              <param name="scm">git</param>
+              <param name="exclude">.git</param>
+              <param name="exclude">.github</param>
+              <param name="versionformat">@CHANGELOG@@DEEPIN_OFFSET@</param>
+            </service>
+          </services>
+          """
+
+              username = 'golf66'
+              password = os.getenv('OSCPASS')
+              obs_headers = {
+                "Content-type": "text/xml"
+              }
+
+              # upload package meta and _service
+              url = f"https://build.deepin.com/source/deepin:Develop:{component}/{repo}/_meta"
+              response = requests.put(url, auth=(username, password), headers=obs_headers, data=pkg_meta)
+              if response.status_code == 200:
+                url = f"https://build.deepin.com/source/deepin:Develop:{component}/{repo}/_service"
+                res = requests.put(url, auth=(username, password), headers=obs_headers, data=service_content)
+                if res.status_code == 200:
+                  print("create obs service" + repo + " success")
+                else:
+                  print("create obs service" + repo + " failed: " + res.text)
+                  os.exit(-1)
+              else:
+                print("create obs meta" + repo + " failed: " + response.text)
+                os.exit(-1)
 
           def create_repo(repo):
               print("create_repo: " + repo)

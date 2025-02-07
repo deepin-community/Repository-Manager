@@ -10172,3 +10172,11 @@ repos:
   - repo: accessible-pygments #main
     group: deepin-sysdev-team
     info: Collection of accessible pygments styles
+
+  - repo: planner #main
+    group: deepin-sysdev-team
+    info: project management application
+
+  - repo: libgda5 #main
+    group: deepin-sysdev-team
+    info: data abstraction library

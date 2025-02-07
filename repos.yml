@@ -8329,6 +8329,13 @@ repos:
       an extensive class library with lots of goodies for network programming,  system
       administration, sounds and graphics.
 
+  - repo: python3.13
+    group: deepin-sysdev-team
+    info: >
+      Python is a high-level, interactive, object-oriented language. Its 3.13 version  includes
+      an extensive class library with lots of goodies for network programming,  system
+      administration, sounds and graphics.
+
   - repo: pythran #main
     group: deepin-sysdev-team
     info: ahead of time compiler for Python

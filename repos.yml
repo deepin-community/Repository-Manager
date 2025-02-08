@@ -10184,4 +10184,15 @@ repos:
   - repo: kf6-syntax-highlighting  #main
     group: deepin-sysdev-team
     info: kf6 list
-    
+
+  - repo: kf6-ktextwidgets  #main
+    group: deepin-sysdev-team
+    info: kf6 list    
+
+  - repo: usbguard  #main
+    group: deepin-sysdev-team
+    info: usbguard    
+
+  - repo: tao-pegtl  #main
+    group: deepin-sysdev-team
+    info: tao-pegtl    

@@ -10177,7 +10177,7 @@ repos:
     group: deepin-sysdev-team
     info: project management application
 
-  - repo: libgda5 #main
+  - repo: libgda5  #main
     group: deepin-sysdev-team
     info: data abstraction library
 

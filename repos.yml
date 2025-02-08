@@ -10180,3 +10180,8 @@ repos:
   - repo: libgda5 #main
     group: deepin-sysdev-team
     info: data abstraction library
+
+  - repo: kf6-syntax-highlighting  #main
+    group: deepin-sysdev-team
+    info: kf6 list
+    

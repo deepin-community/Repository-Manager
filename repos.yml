@@ -10196,3 +10196,7 @@ repos:
   - repo: tao-pegtl  #main
     group: deepin-sysdev-team
     info: tao-pegtl    
+
+  - repo: kf6-kimageformats  #main
+    group: deepin-sysdev-team
+    info: kf6 list     

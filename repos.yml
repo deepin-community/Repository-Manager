@@ -10200,3 +10200,7 @@ repos:
   - repo: kf6-kimageformats  #main
     group: deepin-sysdev-team
     info: kf6 list     
+
+  - repo: universal-ctags  #main
+    group: deepin-sysdev-team
+    info: universal-ctags    

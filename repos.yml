@@ -1586,6 +1586,10 @@ repos:
   - repo: gmbal-pfl
     group: deepin-sysdev-team
     info: Gmbal-pfl is a JMX instrumentation and monitoring library.
+    
+  - repo: gnome-autoar
+    group: deepin-sysdev-team
+    info: Archives integration support for GNOME
 
   - repo: gnome-backgrounds
     group: deepin-sysdev-team

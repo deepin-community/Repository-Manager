@@ -10204,3 +10204,15 @@ repos:
   - repo: universal-ctags  #main
     group: deepin-sysdev-team
     info: universal-ctags    
+
+  - repo: libgedit-amtk #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - Actions, Menus and Toolbars Kit
+
+  - repo: libgedit-gtksourceview #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - Source code editing widget
+    
+  - repo: tepl #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - Text editor product line

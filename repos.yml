@@ -5898,7 +5898,23 @@ repos:
 
   - repo: libsdl2
     group: deepin-sysdev-team
-    info: Simple DirectMedia Layer
+    info: Simple DirectMedia Layer 2
+
+  - repo: libsdl3 #main
+    group: deepin-sysdev-team
+    info: Simple DirectMedia Layer 3
+
+  - repo: libsdl3-image #main
+    group: deepin-sysdev-team
+    info: Image loading library for Simple DirectMedia Layer 3
+
+  - repo: libsdl3-mixer #main
+    group: deepin-sysdev-team
+    info: Mixer library for Simple DirectMedia Layer 3
+
+  - repo: libsdl3-ttf #main
+    group: deepin-sysdev-team
+    info: TrueType Font library for Simple DirectMedia Layer 3
 
   - repo: libsearpc #main
     group: deepin-sysdev-team

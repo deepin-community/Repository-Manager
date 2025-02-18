@@ -16,6 +16,10 @@ repos:
     group: deepin-sysdev-team
     info: Adjust power management settings for Ryzen Mobile Processors.
 
+  - repo: accessible-pygments #main
+    group: deepin-sysdev-team
+    info: Collection of accessible pygments styles
+
   - repo: ack
     group: deepin-sysdev-team
     info: ack is a tool like grep, optimized for programmers
@@ -326,6 +330,10 @@ repos:
     group: deepin-sysdev-team
     info: Boost provides free peer-reviewed portable C++ source libraries.
 
+  - repo: bootstrap-html #main
+    group: deepin-sysdev-team
+    info: bootstrap-html
+
   - repo: box64 #main
     group: deepin-sysdev-team
     info: run amd64 binaries on arm64 without emulating library calls
@@ -435,6 +443,10 @@ repos:
   - repo: chafa #main
     group: deepin-sysdev-team
     info: ASCII art image generator
+
+  - repo: checkinstall
+    group: deepin-sysdev-team
+    info: installation tracker
 
   - repo: checksec #main
     group: deepin-sysdev-team
@@ -555,6 +567,10 @@ repos:
   - repo: colortest
     group: deepin-sysdev-team
     info: utilities to test color capabilities of terminal
+
+  - repo: comic-neue #main
+    group: deepin-sysdev-team
+    info: less horrible remake of Comic Sans
 
   - repo: commons-text #main
     group: deepin-sysdev-team
@@ -1279,6 +1295,10 @@ repos:
     group: deepin-sysdev-team
     info: Variable fonts based on the Commodore 64 and Amiga fonts.
 
+  - repo: fonts-humor-sans #main
+    group: deepin-sysdev-team
+    info: Font that looks like handwritten text
+
   - repo: fonts-intel-one-mono
     group: deepin-sysdev-team
     info:
@@ -1586,7 +1606,7 @@ repos:
   - repo: gmbal-pfl
     group: deepin-sysdev-team
     info: Gmbal-pfl is a JMX instrumentation and monitoring library.
-    
+
   - repo: gnome-autoar
     group: deepin-sysdev-team
     info: Archives integration support for GNOME
@@ -4840,6 +4860,10 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kidletime
 
+  - repo: kf6-kimageformats  #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-kio #main
     group: deepin-sysdev-team
     info: kf6-kio
@@ -4892,6 +4916,10 @@ repos:
     group: deepin-sysdev-team
     info: kf6-ksvg
 
+  - repo: kf6-ktextwidgets  #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-kwallet #main
     group: deepin-sysdev-team
     info: kf6-kwallet
@@ -4921,6 +4949,10 @@ repos:
     info: kf6 list
 
   - repo: kf6-syndication #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-syntax-highlighting  #main
     group: deepin-sysdev-team
     info: kf6 list
 
@@ -5293,6 +5325,18 @@ repos:
   - repo: libgcrypt20
     group: deepin-sysdev-team
     info: 遵循 LGPL 的加密库 - 运行库
+
+  - repo: libgda5  #main
+    group: deepin-sysdev-team
+    info: data abstraction library
+
+  - repo: libgedit-amtk #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - Actions, Menus and Toolbars Kit
+
+  - repo: libgedit-gtksourceview #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - Source code editing widget
 
   - repo: libgnomekbd
     group: deepin-sysdev-team
@@ -6427,6 +6471,10 @@ repos:
     group: deepin-sysdev-team
     info: multiple precision floating-point interval computation library
 
+  - repo: mpl-sphinx-theme #main
+    group: deepin-sysdev-team
+    info: Provides a customizable Sphinx theme for Matplotlib projects.
+
   - repo: ms-gsl
     group: deepin-sysdev-team
     info: Microsoft Guidelines Support Library
@@ -6733,6 +6781,10 @@ repos:
     group: deepin-sysdev-team
     info: Safely and quickly serialize JavaScript objects
 
+  - repo: node-fortawesome-fontawesome-free #main
+    group: deepin-sysdev-team
+    info: The iconic font, CSS, and SVG framework
+
   - repo: node-get-caller-file #main
     group: deepin-sysdev-team
     info: inspects the v8 stack trace
@@ -6740,6 +6792,10 @@ repos:
   - repo: node-get-stdin #main
     group: deepin-sysdev-team
     info: Easier stdin for Node.js
+
+  - repo: node-html-webpack-plugin #main
+    group: deepin-sysdev-team
+    info: node-webpack plugin to create HTML files
 
   - repo: node-html5shiv #main
     group: deepin-sysdev-team
@@ -6886,6 +6942,10 @@ repos:
   - repo: node-plur #main
     group: deepin-sysdev-team
     info: Pluralize a word
+
+  - repo: node-popper2 #main
+    group: deepin-sysdev-team
+    info: Javascript library to position poppers in web applications
 
   - repo: node-postcss-cli #main
     group: deepin-sysdev-team
@@ -7398,6 +7458,10 @@ repos:
   - repo: pkg-haskell-tools
     group: deepin-sysdev-team
     info: ghc and haskell develop tools
+
+  - repo: planner #main
+    group: deepin-sysdev-team
+    info: project management application
 
   - repo: plantuml
     group: deepin-sysdev-team
@@ -9456,6 +9520,10 @@ repos:
     group: deepin-sysdev-team
     info: Emacs minor mode that displays a tab bar at the top
 
+  - repo: tao-pegtl  #main
+    group: deepin-sysdev-team
+    info: tao-pegtl
+
   - repo: tardiff
     group: deepin-sysdev-team
     info: Tarball file list comparison tool
@@ -9483,6 +9551,10 @@ repos:
   - repo: templating-maven-plugin #main
     group: deepin-sysdev-team
     info: Copying files to an output directory
+
+  - repo: tepl #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - Text editor product line
 
   - repo: termit
     group: deepin-sysdev-team
@@ -9668,6 +9740,10 @@ repos:
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.
 
+  - repo: universal-ctags  #main
+    group: deepin-sysdev-team
+    info: universal-ctags
+
   - repo: uresourced #main
     group: deepin-sysdev-team
     info: Resource management daemon for Linux
@@ -9675,6 +9751,10 @@ repos:
   - repo: urwid
     group: deepin-sysdev-team
     info: Console user interface library for Python
+
+  - repo: usbguard  #main
+    group: deepin-sysdev-team
+    info: usbguard
 
   - repo: usrmerge #main
     group: deepin-sysdev-team
@@ -10141,82 +10221,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: checkinstall
-    group: deepin-sysdev-team
-    info: installation tracker
-
-  - repo: comic-neue #main
-    group: deepin-sysdev-team
-    info: less horrible remake of Comic Sans
-    
-  - repo: fonts-humor-sans #main
-    group: deepin-sysdev-team
-    info: Font that looks like handwritten text
-
-  - repo: mpl-sphinx-theme #main
-    group: deepin-sysdev-team
-    info: Provides a customizable Sphinx theme for Matplotlib projects.
-
-  - repo: bootstrap-html #main
-    group: deepin-sysdev-team
-    info: bootstrap-html
-
-  - repo: node-fortawesome-fontawesome-free #main
-    group: deepin-sysdev-team
-    info: The iconic font, CSS, and SVG framework
-
-  - repo: node-html-webpack-plugin #main
-    group: deepin-sysdev-team
-    info: node-webpack plugin to create HTML files
-
-  - repo: node-popper2 #main
-    group: deepin-sysdev-team
-    info: Javascript library to position poppers in web applications
-  
-  - repo: accessible-pygments #main
-    group: deepin-sysdev-team
-    info: Collection of accessible pygments styles
-
-  - repo: planner #main
-    group: deepin-sysdev-team
-    info: project management application
-
-  - repo: libgda5  #main
-    group: deepin-sysdev-team
-    info: data abstraction library
-
-  - repo: kf6-syntax-highlighting  #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-ktextwidgets  #main
-    group: deepin-sysdev-team
-    info: kf6 list    
-
-  - repo: usbguard  #main
-    group: deepin-sysdev-team
-    info: usbguard    
-
-  - repo: tao-pegtl  #main
-    group: deepin-sysdev-team
-    info: tao-pegtl    
-
-  - repo: kf6-kimageformats  #main
-    group: deepin-sysdev-team
-    info: kf6 list     
-
-  - repo: universal-ctags  #main
-    group: deepin-sysdev-team
-    info: universal-ctags    
-
-  - repo: libgedit-amtk #main
-    group: deepin-sysdev-team
-    info: Gedit Technology - Actions, Menus and Toolbars Kit
-
-  - repo: libgedit-gtksourceview #main
-    group: deepin-sysdev-team
-    info: Gedit Technology - Source code editing widget
-    
-  - repo: tepl #main
-    group: deepin-sysdev-team
-    info: Gedit Technology - Text editor product line

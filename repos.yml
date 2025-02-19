@@ -4960,6 +4960,26 @@ repos:
     group: deepin-sysdev-team
     info: kf6 list
 
+  - repo: kicad
+    group: deepin-sysdev-team
+    info: Electronic schematic and PCB design software
+
+  - repo: kicad-footprints
+    group: deepin-sysdev-team
+    info: Footprint symbols for KiCad's Pcbnew
+
+  - repo: kicad-packages3d
+    group: deepin-sysdev-team
+    info: 3D models for 3D viewer in KiCad's Pcbnew and Footprint Editor
+
+  - repo: kicad-symbols
+    group: deepin-sysdev-team
+    info: Schematic symbols for KiCad's Eeschema
+
+  - repo: kicad-templates
+    group: deepin-sysdev-team
+    info: Project templates for KiCad
+
   - repo: kissfft
     group: deepin-sysdev-team
     info: A Fast Fourier Transform library
@@ -6617,6 +6637,10 @@ repos:
     group: deepin-sysdev-team
     info: nghttp3 is a C implementation of HTTP/3 and QUIC.
 
+  - repo: ngspice #main
+    group: deepin-sysdev-team
+    info: Spice circuit simulator
+
   - repo: ngtcp2 #main
     group: deepin-sysdev-team
     info: implementation of QUIC protocol
@@ -7263,6 +7287,10 @@ repos:
   - repo: open-vm-tools #main
     group: deepin-sysdev-team
     info: Open VMware Tools for virtual machines hosted on VMware (CLI)
+
+  - repo: opencascade #main
+    group: deepin-sysdev-team
+    info: Open CASCADE Technology CAE platform
 
   - repo: opencl-clang
     group: deepin-sysdev-team

@@ -10269,4 +10269,22 @@ repos:
     group: deepin-sysdev-team
     info: Gedit Technology - File loading and saving
     
+  - repo: antlr4-cpp-runtime #main
+    group: deepin-sysdev-team
+    info: in order to be imported and to be linked to by means of CMake targets
+    
+  - repo: eclipse-equinox #main
+    group: deepin-sysdev-team
+    info: an implementation of the OSGi core framework specification
 
+  - repo: eclipse-platform #main
+    group: deepin-sysdev-team
+    info: a framework for rich client applications in Java
+
+  - repo: fwupd-efi #main
+    group: deepin-sysdev-team
+    info: EFI executable for fwupd
+
+  - repo: libjaylink #main
+    group: deepin-sysdev-team
+    info: a shared library written in C to access SEGGER J-Link and compatible devices.

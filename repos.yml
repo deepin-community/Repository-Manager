@@ -126,6 +126,10 @@ repos:
     group: deepin-pkg
     info: Android SDK meta packages
 
+  - repo: antlr4-cpp-runtime #main
+    group: deepin-sysdev-team
+    info: in order to be imported and to be linked to by means of CMake targets
+
   - repo: apache-mode-el #main
     group: deepin-sysdev-team
     info: Emacs major mode for editing Apache configuration files
@@ -1010,6 +1014,14 @@ repos:
     group: deepin-sysdev-team
     info: C++ toolkit for ECMWF tools and applications
 
+  - repo: eclipse-equinox #main
+    group: deepin-sysdev-team
+    info: an implementation of the OSGi core framework specification
+
+  - repo: eclipse-platform #main
+    group: deepin-sysdev-team
+    info: a framework for rich client applications in Java
+
   - repo: edb-debugger
     group: deepin-sysdev-team
     info: cross platform disassemble debugger
@@ -1440,6 +1452,10 @@ repos:
   - repo: furo
     group: deepin-sysdev-team
     info: clean customisable Sphinx documentation theme
+
+  - repo: fwupd-efi #main
+    group: deepin-sysdev-team
+    info: EFI executable for fwupd
 
   - repo: fxlinuxprint #main
     group: deepin-sysdev-team
@@ -5354,6 +5370,10 @@ repos:
     group: deepin-sysdev-team
     info: Gedit Technology - Actions, Menus and Toolbars Kit
 
+  - repo: libgedit-gfls #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - File loading and saving
+
   - repo: libgedit-gtksourceview #main
     group: deepin-sysdev-team
     info: Gedit Technology - Source code editing widget
@@ -5419,6 +5439,10 @@ repos:
     info:
       libite holds useful functions and macros developed by both Finit and the
       OpenBSD project.
+
+  - repo: libjaylink #main
+    group: deepin-sysdev-team
+    info: a shared library written in C to access SEGGER J-Link and compatible devices.
 
   - repo: libjs-codemirror #main
     group: deepin-sysdev-team
@@ -10265,26 +10289,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: libgedit-gfls #main
-    group: deepin-sysdev-team
-    info: Gedit Technology - File loading and saving
-    
-  - repo: antlr4-cpp-runtime #main
-    group: deepin-sysdev-team
-    info: in order to be imported and to be linked to by means of CMake targets
-    
-  - repo: eclipse-equinox #main
-    group: deepin-sysdev-team
-    info: an implementation of the OSGi core framework specification
-
-  - repo: eclipse-platform #main
-    group: deepin-sysdev-team
-    info: a framework for rich client applications in Java
-
-  - repo: fwupd-efi #main
-    group: deepin-sysdev-team
-    info: EFI executable for fwupd
-
-  - repo: libjaylink #main
-    group: deepin-sysdev-team
-    info: a shared library written in C to access SEGGER J-Link and compatible devices.

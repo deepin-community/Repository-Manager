@@ -6757,6 +6757,10 @@ repos:
     group: deepin-sysdev-team
     info: Node.js module to build chainable fluent interfaces
 
+  - repo: node-change-case #main
+    group: deepin-sysdev-team
+    info: Transform a string between different case conventions
+
   - repo: node-cjs-module-lexer #main
     group: deepin-sysdev-team
     info: Fast lexer to extract named exports from CommonJS modules

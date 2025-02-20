@@ -16,7 +16,7 @@ repos:
     group: deepin-sysdev-team
     info: Adjust power management settings for Ryzen Mobile Processors.
 
-  - repo: accessible-pygments #main
+  - repo: accessible-pygments # main
     group: deepin-sysdev-team
     info: Collection of accessible pygments styles
 
@@ -334,7 +334,7 @@ repos:
     group: deepin-sysdev-team
     info: Boost provides free peer-reviewed portable C++ source libraries.
 
-  - repo: bootstrap-html #main
+  - repo: bootstrap-html # main
     group: deepin-sysdev-team
     info: bootstrap-html
 
@@ -6845,7 +6845,7 @@ repos:
     group: deepin-sysdev-team
     info: Safely and quickly serialize JavaScript objects
 
-  - repo: node-fortawesome-fontawesome-free #main
+  - repo: node-fortawesome-fontawesome-free # main
     group: deepin-sysdev-team
     info: The iconic font, CSS, and SVG framework
 
@@ -6857,7 +6857,7 @@ repos:
     group: deepin-sysdev-team
     info: Easier stdin for Node.js
 
-  - repo: node-html-webpack-plugin #main
+  - repo: node-html-webpack-plugin # main
     group: deepin-sysdev-team
     info: node-webpack plugin to create HTML files
 
@@ -7007,7 +7007,7 @@ repos:
     group: deepin-sysdev-team
     info: Pluralize a word
 
-  - repo: node-popper2 #main
+  - repo: node-popper2 # main
     group: deepin-sysdev-team
     info: Javascript library to position poppers in web applications
 

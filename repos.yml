@@ -9329,6 +9329,10 @@ repos:
     group: deepin-sysdev-team
     info: Implementations of SIMD instructions for all systems
 
+  - repo: simdjson #main
+    group: deepin-sysdev-team
+    info: Parsing gigabytes of JSON per second (development)
+
   - repo: singleapplication
     group: deepin-sysdev-team
     info: Replacement of QtSingleApplication for Qt5

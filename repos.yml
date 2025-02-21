@@ -5444,6 +5444,10 @@ repos:
     group: deepin-sysdev-team
     info: a shared library written in C to access SEGGER J-Link and compatible devices.
 
+  - repo: libjodycode #main
+    group: deepin-sysdev-team
+    info: shared lib for programs written by Jody Bruchon
+
   - repo: libjs-codemirror #main
     group: deepin-sysdev-team
     info: JavaScript editor interface for code-like content.

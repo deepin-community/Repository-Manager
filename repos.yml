@@ -284,6 +284,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU binary utilities for the Open RISC 1000 processors
 
+  - repo: binutils-riscv64-unknown-elf #main
+    group: deepin-sysdev-team
+    info: GNU binary utilities for the Risc-V processors
+
   - repo: binwalk
     group: deepin-sysdev-team
     info: Python3 library for analyzing binary blobs and executable code
@@ -1526,6 +1530,10 @@ repos:
   - repo: gcc-or1k-elf
     group: deepin-sysdev-team
     info: GNU C compiler for the Open RISC 1000 processors
+
+  - repo: gcc-riscv64-unknown-elf #main
+    group: deepin-sysdev-team
+    info: GCC cross compiler for Risc-V processors
 
   - repo: gcr4 #main
     group: deepin-sysdev-team

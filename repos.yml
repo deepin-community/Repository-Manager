@@ -10309,3 +10309,10 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: crudini
+    group: spark-store-deepin
+    info: utility for manipulating ini files
+
+  - repo: python-iniparse
+    group: spark-store-deepin
+    info: access and modify configuration data in INI files (Python 3)

@@ -10316,3 +10316,28 @@ repos:
   - repo: python-iniparse
     group: spark-store-deepin
     info: access and modify configuration data in INI files (Python 3)
+
+  - repo: node-clipanion #main
+    group: deepin-sysdev-team
+    info: Type-safe CLI library with no runtime dependencies
+
+  - repo: node-typanion #main
+    group: deepin-sysdev-team
+    info: Static and runtime type assertion library with no dependencies
+
+  - repo: node-zkochan-cmd-shim #main
+    group: deepin-sysdev-team
+    info: This package is the cmd-shim used in npm
+
+  - repo: node-enquirer #main
+    group: deepin-sysdev-team
+    info: Stylish cli prompts that are user-friendly, intuitive and easy to create
+
+  - repo: node-zkochan-cmd-shim #main
+    group: deepin-sysdev-team
+    info: This package is the cmd-shim used in npm
+
+  - repo: node-boxen #main
+    group: deepin-sysdev-team
+    info: Create boxes in the terminal
+

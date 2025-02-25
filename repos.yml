@@ -10341,3 +10341,10 @@ repos:
     group: deepin-sysdev-team
     info: Create boxes in the terminal
 
+  - repo: 2048-qt
+    group: spark-store-deepin
+    info: 基于数学的解谜游戏
+
+  - repo: gxde-terminal
+    group: spark-store-deepin
+    info: GXDE terminal emulator application

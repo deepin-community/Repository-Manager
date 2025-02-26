@@ -288,6 +288,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU binary utilities for the Risc-V processors
 
+  - repo: binutils-xtensa #main
+    group: deepin-sysdev-team
+    info: GNU binary utilities for the xtensa processors
+
   - repo: binwalk
     group: deepin-sysdev-team
     info: Python3 library for analyzing binary blobs and executable code
@@ -1534,6 +1538,10 @@ repos:
   - repo: gcc-riscv64-unknown-elf #main
     group: deepin-sysdev-team
     info: GCC cross compiler for Risc-V processors
+
+  - repo: gcc-xtensa #main
+    group: deepin-sysdev-team
+    info: GCC cross compiler for xtensa processors
 
   - repo: gcr4 #main
     group: deepin-sysdev-team
@@ -6006,6 +6014,14 @@ repos:
       provides alternative to the proprietary 3Dconnexion SDK for their 3D input
       devices
 
+  - repo: libstdc++-arm-none-eabi #main
+    group: deepin-sysdev-team
+    info: GNU Standard C++ Library v3 for ARM Cortex-R/M processors
+
+  - repo: libstdc++-riscv64-unknown-elf #main
+    group: deepin-sysdev-team
+    info: GNU Standard C++ Library v3 for Risc-V processors
+
   - repo: libstream-buffered-perl
     group: deepin-sysdev-team
     info: temporary buffer to store strings in a seekable filehandle
@@ -7530,6 +7546,10 @@ repos:
   - repo: phpunit #main
     group: deepin-sysdev-team
     info: Unit testing suite for PHP
+
+  - repo: picolibc #main
+    group: deepin-sysdev-team
+    info: Smaller embedded C library
 
   - repo: pikepdf #main
     group: deepin-sysdev-team

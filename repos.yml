@@ -6014,11 +6014,11 @@ repos:
       provides alternative to the proprietary 3Dconnexion SDK for their 3D input
       devices
 
-  - repo: libstdc++-arm-none-eabi #main
+  - repo: libstdcplusplus-arm-none-eabi #main
     group: deepin-sysdev-team
     info: GNU Standard C++ Library v3 for ARM Cortex-R/M processors
 
-  - repo: libstdc++-riscv64-unknown-elf #main
+  - repo: libstdcplusplus-riscv64-unknown-elf #main
     group: deepin-sysdev-team
     info: GNU Standard C++ Library v3 for Risc-V processors
 

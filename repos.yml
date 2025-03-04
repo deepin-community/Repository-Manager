@@ -7870,6 +7870,10 @@ repos:
     group: deepin-sysdev-team
     info: library to generate argparse parsers from function signatures
 
+  - repo: python-autodocsumm #main
+    group: deepin-sysdev-team
+    info: Extending your autodoc API docs with a summary
+
   - repo: python-autodoc-traits #main
     group: deepin-sysdev-team
     info: Sphinx extension to document classes with Traitlets-based config
@@ -7966,6 +7970,10 @@ repos:
     group: deepin-sysdev-team
     info: This module provides functions to compute the printable length of a unicode character/string on a terminal
 
+  - repo: pytest-cython
+    group: deepin-sysdev-team
+    info: pytest plugin for testing Cython extension modules (Python 3)
+    
   - repo: python-deprecated #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -9489,6 +9497,10 @@ repos:
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team
     info: extension to include jQuery on newer Sphinx releases
+    
+  - repo: sphinxcontrib-mermaid #main
+    group: deepin-sysdev-team
+    info: Sphinx extension to embed Mermaid graphs in documents
 
   - repo: sphinxcontrib-trio #main
     group: deepin-sysdev-team

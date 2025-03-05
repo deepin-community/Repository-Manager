@@ -6246,6 +6246,10 @@ repos:
     group: deepin-sysdev-team
     info: Modular compiler and toolchain technologies, libraries and headers
 
+  - repo: llvm-toolchain-20 #main
+    group: deepin-sysdev-team
+    info: Modular compiler and toolchain technologies, libraries and headers
+
   - repo: log4cplus
     group: deepin-sysdev-team
     info: C++ logging API providing control over log management and configuration.

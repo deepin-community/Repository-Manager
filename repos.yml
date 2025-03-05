@@ -4669,6 +4669,10 @@ repos:
     group: deepin-sysdev-team
     info: lper tools for building Debian packages with Ivy
 
+  - repo: jakarta-activation #main
+    group: deepin-sysdev-team
+    info: Jakarta Activation
+
   - repo: jam
     group: deepin-sysdev-team
     info: Software-build tool, replacement for make
@@ -6323,6 +6327,10 @@ repos:
   - repo: luametatex #main
     group: deepin-sysdev-team
     info: Next generation ConTeXt processing engine
+
+  - repo: lucene8 #main
+    group: deepin-sysdev-team
+    info: Full-text search engine library for Java
 
   - repo: luceneplusplus
     group: deepin-sysdev-team

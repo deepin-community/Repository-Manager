@@ -10221,6 +10221,10 @@ repos:
     group: deepin-sysdev-team
     info: zig language
 
+  - repo: zig0.14
+    group: deepin-sysdev-team
+    info: zig language version 0.14
+
   - repo: zita-convolver
     group: deepin-sysdev-team
     info: C++ library implementing a real-time convolution matrix

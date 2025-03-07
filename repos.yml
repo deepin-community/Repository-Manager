@@ -134,6 +134,10 @@ repos:
     group: deepin-sysdev-team
     info: Emacs major mode for editing Apache configuration files
 
+  - repo: apache-opennlp #main
+    group: deepin-sysdev-team
+    info: Apache OpenNLP library
+
   - repo: apt-file
     group: deepin-sysdev-team
     info: search for files in Debian packages
@@ -4689,6 +4693,10 @@ repos:
     group: deepin-sysdev-team
     info: SIP API for Java
 
+  - repo: javacc5 #main
+    group: deepin-sysdev-team
+    info: A parser generator is a tool
+
   - repo: javaparser #main
     group: deepin-sysdev-team
     info: Java library for parsing Java 7
@@ -4743,6 +4751,10 @@ repos:
   - repo: jtreg7 #main
     group: deepin-sysdev-team
     info: Regression Test Harness for the OpenJDK platform
+
+  - repo: junit5-system-exit #main
+    group: deepin-sysdev-team
+    info: JUnit5 Extension
 
   - repo: jupyter-cache #main
     group: deepin-sysdev-team
@@ -6551,6 +6563,10 @@ repos:
     group: deepin-sysdev-team
     info: additional Unix utilities
 
+  - repo: morfologik-stemming2 #main
+    group: deepin-sysdev-team
+    info: Finite state automaton and stemming engine library
+
   - repo: motif
     group: deepin-sysdev-team
     info: Motif - development files
@@ -7234,6 +7250,10 @@ repos:
   - repo: node-zx #main
     group: deepin-sysdev-team
     info: tool to launch modern Javascript scripts
+
+  - repo: noggit #main
+    group: deepin-sysdev-team
+    info: Fast streaming JSON parser for Java
 
   - repo: notary #main
     group: deepin-sysdev-team
@@ -9281,6 +9301,10 @@ repos:
     group: deepin-sysdev-team
     info: Terminal based CPU stress and monitoring tool
 
+  - repo: s2-geometry-library #main
+    group: deepin-sysdev-team
+    info: Java library for spherical math
+
   - repo: saaj-ri
     group: deepin-sysdev-team
     info: SOAP with Attachments API for Java
@@ -9431,6 +9455,10 @@ repos:
   - repo: sortable-tablesort.js #main
     group: deepin-sysdev-team
     info: Tiny plain JavaScript table sorter
+
+  - repo: spatial4j #main
+    group: deepin-sysdev-team
+    info: spatial/geospatial Java library
 
   - repo: spdx-licenses
     group: deepin-sysdev-team

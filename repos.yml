@@ -4681,6 +4681,10 @@ repos:
     group: deepin-sysdev-team
     info: Software-build tool, replacement for make
 
+  - repo: janest-base #main
+    group: deepin-sysdev-team
+    info: Jane Street's alternative standard library
+
   - repo: jansi1 #main
     group: deepin-sysdev-team
     info: Java library for generating and interpreting ANSI escape sequences
@@ -7338,6 +7342,10 @@ repos:
       takes place in a separate window that is created when Graphics.open_graph is
       called.
 
+  - repo: ocaml-intrinsics-kernel #main
+    group: deepin-sysdev-team
+    info: library of intrinsics for OCaml
+
   - repo: ocaml-odoc-parser
     group: deepin-sysdev-team
     info: odoc is a documentation generator for OCaml.
@@ -7681,6 +7689,14 @@ repos:
   - repo: printer-driver-indexbraille #main
     group: deepin-sysdev-team
     info: CUPS printing to Index Braille printers
+
+  - repo: ppx-here #main
+    group: deepin-sysdev-team
+    info: OCaml extension node whose value is its source position
+
+  - repo: ppx-let #main
+    group: deepin-sysdev-team
+    info: ppx rewriter for monadic and applicative bindings
 
   - repo: printing-metas #main
     group: deepin-sysdev-team

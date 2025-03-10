@@ -690,6 +690,10 @@ repos:
     group: deepin-sysdev-team
     info: Development Libraries and Header Files (for MIPS cross-compiling)
 
+  - repo: crudini
+    group: spark-store-deepin
+    info: utility for manipulating ini files
+
   - repo: crun #main
     group: deepin-sysdev-team
     info: lightweight OCI runtime for running containers
@@ -6781,6 +6785,10 @@ repos:
     group: deepin-sysdev-team
     info: JavaScript library implementing the MD5 hash algorithm
 
+  - repo: node-boxen #main
+    group: deepin-sysdev-team
+    info: Create boxes in the terminal
+
   - repo: node-browser-pack #main
     group: deepin-sysdev-team
     info: pack node-style source files from a json stream into a browser bundle
@@ -6828,6 +6836,10 @@ repos:
   - repo: node-cli-truncate #main
     group: deepin-sysdev-team
     info: Truncate a string to a specific width in the terminal
+
+  - repo: node-clipanion #main
+    group: deepin-sysdev-team
+    info: Type-safe CLI library with no runtime dependencies
 
   - repo: node-clipboard #main
     group: deepin-sysdev-team
@@ -6880,6 +6892,10 @@ repos:
   - repo: node-ejs #main
     group: deepin-sysdev-team
     info: Embedded JavaScript templates
+
+  - repo: node-enquirer #main
+    group: deepin-sysdev-team
+    info: Stylish cli prompts that are user-friendly, intuitive and easy to create
 
   - repo: node-es-module-lexer #main
     group: deepin-sysdev-team
@@ -7219,6 +7235,10 @@ repos:
     group: deepin-sysdev-team
     info: convert HTML into MarkDown with JavaScript
 
+  - repo: node-typanion #main
+    group: deepin-sysdev-team
+    info: Static and runtime type assertion library with no dependencies
+
   - repo: node-umd #main
     group: deepin-sysdev-team
     info: Universal Module Definition for use in automated build systems
@@ -7250,6 +7270,10 @@ repos:
   - repo: node-yarn-tool-resolve-package #main
     group: deepin-sysdev-team
     info: Resolve package root and package.json paths
+
+  - repo: node-zkochan-cmd-shim #main
+    group: deepin-sysdev-team
+    info: This package is the cmd-shim used in npm
 
   - repo: node-zx #main
     group: deepin-sysdev-team
@@ -7686,10 +7710,6 @@ repos:
     info:
       PowerTOP is a Linux tool to diagnose issues with power consumption and power management
 
-  - repo: printer-driver-indexbraille #main
-    group: deepin-sysdev-team
-    info: CUPS printing to Index Braille printers
-
   - repo: ppx-here #main
     group: deepin-sysdev-team
     info: OCaml extension node whose value is its source position
@@ -7697,6 +7717,10 @@ repos:
   - repo: ppx-let #main
     group: deepin-sysdev-team
     info: ppx rewriter for monadic and applicative bindings
+
+  - repo: printer-driver-indexbraille #main
+    group: deepin-sysdev-team
+    info: CUPS printing to Index Braille printers
 
   - repo: printing-metas #main
     group: deepin-sysdev-team
@@ -7838,6 +7862,10 @@ repos:
     group: deepin-sysdev-team
     info: simple VTXXX-compatible terminal emulator (Python 3)
 
+  - repo: pytest-cython
+    group: deepin-sysdev-team
+    info: pytest plugin for testing Cython extension modules (Python 3)
+
   - repo: pytest-django #main
     group: deepin-sysdev-team
     info: Django plugin for py.test
@@ -7918,13 +7946,13 @@ repos:
     group: deepin-sysdev-team
     info: library to generate argparse parsers from function signatures
 
-  - repo: python-autodocsumm #main
-    group: deepin-sysdev-team
-    info: Extending your autodoc API docs with a summary
-
   - repo: python-autodoc-traits #main
     group: deepin-sysdev-team
     info: Sphinx extension to document classes with Traitlets-based config
+
+  - repo: python-autodocsumm #main
+    group: deepin-sysdev-team
+    info: Extending your autodoc API docs with a summary
 
   - repo: python-autogui
     group: deepin-sysdev-team
@@ -8018,10 +8046,6 @@ repos:
     group: deepin-sysdev-team
     info: This module provides functions to compute the printable length of a unicode character/string on a terminal
 
-  - repo: pytest-cython
-    group: deepin-sysdev-team
-    info: pytest plugin for testing Cython extension modules (Python 3)
-    
   - repo: python-deprecated #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -9553,7 +9577,7 @@ repos:
   - repo: sphinxcontrib-jquery #main
     group: deepin-sysdev-team
     info: extension to include jQuery on newer Sphinx releases
-    
+
   - repo: sphinxcontrib-mermaid #main
     group: deepin-sysdev-team
     info: Sphinx extension to embed Mermaid graphs in documents
@@ -10400,36 +10424,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-
-  - repo: crudini
-    group: spark-store-deepin
-    info: utility for manipulating ini files
-
-  - repo: python-iniparse
-    group: spark-store-deepin
-    info: access and modify configuration data in INI files (Python 3)
-
-  - repo: node-clipanion #main
-    group: deepin-sysdev-team
-    info: Type-safe CLI library with no runtime dependencies
-
-  - repo: node-typanion #main
-    group: deepin-sysdev-team
-    info: Static and runtime type assertion library with no dependencies
-
-  - repo: node-zkochan-cmd-shim #main
-    group: deepin-sysdev-team
-    info: This package is the cmd-shim used in npm
-
-  - repo: node-enquirer #main
-    group: deepin-sysdev-team
-    info: Stylish cli prompts that are user-friendly, intuitive and easy to create
-
-  - repo: node-zkochan-cmd-shim #main
-    group: deepin-sysdev-team
-    info: This package is the cmd-shim used in npm
-
-  - repo: node-boxen #main
-    group: deepin-sysdev-team
-    info: Create boxes in the terminal
 

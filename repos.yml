@@ -753,6 +753,10 @@ repos:
   - repo: dask.distributed #main
     group: deepin-sysdev-team
     info: Dask Distributed computing
+  
+  - repo: davfs2 #main
+    group: deepin-sysdev-team
+    info: mount a WebDAV resource as a regular file system
 
   - repo: db-defaults
     group: deepin-sysdev-team

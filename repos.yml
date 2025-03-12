@@ -192,6 +192,10 @@ repos:
     group: deepin-sysdev-team
     info: asio is a cross-platform C++ library for network programming that provides developers with a consistent asynchronous I/O model using a modern C++ approach. 
 
+  - repo: asmc-linux #main
+    group: deepin-sysdev-team
+    info: Masm compatible assembler
+
   - repo: asmtools #main
     group: deepin-sysdev-team
     info: OpenJDK AsmTools

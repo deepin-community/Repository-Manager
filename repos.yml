@@ -7452,6 +7452,10 @@ repos:
     group: deepin-sysdev-team
     info: cryptographic library for EAC version 2 (development)
 
+  - repo: openrazer
+    group: deepin-sysdev-team
+    info: OpenRazer peripheral drivers (daemon)
+
   - repo: opensbi
     group: deepin-sysdev-team
     info: RISC-V Open Source Supervisor Binary Interface
@@ -8053,6 +8057,11 @@ repos:
   - repo: python-cwcwidth
     group: deepin-sysdev-team
     info: This module provides functions to compute the printable length of a unicode character/string on a terminal
+
+  - repo: python-daemonize #main
+    group: deepin-sysdev-team
+    info: enable your code to run as a daemon process - Python 3.x
+
 
   - repo: python-deprecated #main
     group: deepin-sysdev-team
@@ -10436,4 +10445,3 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-

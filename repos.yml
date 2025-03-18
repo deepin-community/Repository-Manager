@@ -7850,6 +7850,10 @@ repos:
     group: deepin-sysdev-team
     info: Python binding for MuPDF
 
+  - repo: pyocd #main
+    group: deepin-sysdev-team
+    info: ARM Cortex-M programming tools
+
   - repo: pypdf2 #main
     group: deepin-sysdev-team
     info: Pure-Python library built as a PDF toolkit
@@ -8625,6 +8629,10 @@ repos:
   - repo: pythran #main
     group: deepin-sysdev-team
     info: ahead of time compiler for Python
+
+  - repo: pyusb #main
+    group: deepin-sysdev-team
+    info: USB interface for Python
 
   - repo: pyyaml-env-tag #main
     group: deepin-sysdev-team

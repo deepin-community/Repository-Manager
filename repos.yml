@@ -9513,6 +9513,10 @@ repos:
     group: deepin-sysdev-team
     info: Tiny plain JavaScript table sorter
 
+  - repo: sparse
+    group: deepin-sysdev-team
+    info: semantic parser of source files
+
   - repo: spatial4j #main
     group: deepin-sysdev-team
     info: spatial/geospatial Java library

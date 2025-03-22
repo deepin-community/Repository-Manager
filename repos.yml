@@ -8100,6 +8100,10 @@ repos:
     info:
       python-editor is a library that provides the editor module for programmatically
       interfacing with your system's $EDITOR.
+      
+  - repo: python-elasticsearch
+    group: deepin-sysdev-team
+    info: Official low-level client for Elasticsearch.
 
   - repo: python-email-validator #main
     group: deepin-sysdev-team
@@ -8356,6 +8360,10 @@ repos:
   - repo: python-pure-eval #main
     group: deepin-sysdev-team
     info: Safely evaluate Python AST nodes without side effects
+    
+  - repo: python-pygal
+    group: deepin-sysdev-team
+    info: dynamic easy to use SVG charting library
 
   - repo: python-pynvim
     group: deepin-sysdev-team
@@ -8380,6 +8388,10 @@ repos:
   - repo: python-pytest-click #main
     group: deepin-sysdev-team
     info: Click plugin for py.test
+    
+  - repo: python-pytest-freezegun
+    group: deepin-sysdev-team
+    info: wrap tests with fixtures in freeze_time
 
   - repo: python-pytest-retry #main
     group: deepin-sysdev-team

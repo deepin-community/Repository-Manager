@@ -6761,6 +6761,10 @@ repos:
     group: deepin-sysdev-team
     info: newgrf meta language compiler
 
+  - repo: nng #main
+    group: deepin-sysdev-team
+    info: Lightweight Messaging Library
+
   - repo: node-ampproject-remapping #main
     group: deepin-sysdev-team
     info: Nodejs module to remap sequential sourcemaps through transformations

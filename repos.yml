@@ -8866,6 +8866,10 @@ repos:
     group: deepin-sysdev-team
     info: RPKI Trust Anchor Locators
 
+  - repo: rsetup
+    group: deepin-sysdev-team
+    info:  Radxa system setup utility
+
   - repo: rst2pdf
     group: deepin-sysdev-team
     info: ReportLab-based reStructuredText to PDF renderer

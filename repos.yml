@@ -8626,6 +8626,10 @@ repos:
     group: deepin-sysdev-team
     info: QML port of qtermwidget
 
+  - repo: qoi #main
+    group: deepin-sysdev-team
+    info: “Quite OK Image Format” for fast, lossless image compression
+
   - repo: qr-code-generator
     group: deepin-pkg
     info: QR Code generator library in multiple languages

@@ -5980,6 +5980,10 @@ repos:
     group: deepin-sysdev-team
     info: SAX-based renderer library for SVG files
 
+  - repo: librtui
+    group: deepin-sysdev-team
+    info: Radxa TUI library (librtui) provides an simple API to create TUI applications.
+
   - repo: libsafe-isa-perl #main
     group: deepin-sysdev-team
     info: module for safely calling isa and friends on things that may not be objects

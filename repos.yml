@@ -7631,6 +7631,10 @@ repos:
     group: deepin-sysdev-team
     info: Unit testing suite for PHP
 
+  - repo: picocom
+    group: deepin-sysdev-team
+    info: minimal dumb-terminal emulation program
+
   - repo: picolibc #main
     group: deepin-sysdev-team
     info: Smaller embedded C library

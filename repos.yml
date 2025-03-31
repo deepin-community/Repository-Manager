@@ -1503,6 +1503,10 @@ repos:
     group: deepin-sysdev-team
     info: Tool for examining the internals of Qt application
 
+  - repo: gbinder-python #main
+    group: deepin-sysdev-team
+    info: Cython extension module for C++ gbinder functions
+
   - repo: gcc-11-cross
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection (cross compiler)
@@ -5406,6 +5410,10 @@ repos:
     group: deepin-sysdev-team
     info: Library to control and program the FTDI USB controller
 
+  - repo: libgbinder #main
+    group: deepin-sysdev-team
+    info: Binder client library
+
   - repo: libgcrypt20
     group: deepin-sysdev-team
     info: 遵循 LGPL 的加密库 - 运行库
@@ -5425,6 +5433,10 @@ repos:
   - repo: libgedit-gtksourceview #main
     group: deepin-sysdev-team
     info: Gedit Technology - Source code editing widget
+
+  - repo: libglibutil #main
+    group: deepin-sysdev-team
+    info: Library of glib utilities
 
   - repo: libgnomekbd
     group: deepin-sysdev-team
@@ -10088,6 +10100,10 @@ repos:
   - repo: waybar
     group: deepin-sysdev-team
     info: Highly customizable Wayland bar for Sway and Wlroots based compositors.
+
+  - repo: waydroid #main
+    group: deepin-sysdev-team
+    info: Android™ application support
 
   - repo: wayfire
     group: deepin-wayland-xorg

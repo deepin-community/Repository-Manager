@@ -4603,6 +4603,10 @@ repos:
     group: deepin-sysdev-team
     info: Intel Vector Compute Intrinsics
 
+  - repo: intelhex #main
+    group: deepin-sysdev-team
+    info: Python support for Intel HEX (Python3)
+
   - repo: intelrdfpmath #main
     group: deepin-sysdev-team
     info: Intel Decimal Floating-Point Math Library
@@ -8270,6 +8274,10 @@ repos:
     info:
       python-iniparse could access and modify configuration data in INI files
       (Python 3)
+
+  - repo: python-intervaltree #main
+    group: deepin-sysdev-team
+    info: mutable, self-balancing interval tree (Python 3)
 
   - repo: python-iptables
     group: deepin-sysdev-team

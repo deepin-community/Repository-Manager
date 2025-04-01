@@ -7858,6 +7858,10 @@ repos:
     group: deepin-sysdev-team
     info: ARM Cortex-M programming tools
 
+  - repo: pypng #main
+    group: deepin-sysdev-team
+    info: Pure Python PNG Reader/Writer (Python 3)
+
   - repo: pypdf2 #main
     group: deepin-sysdev-team
     info: Pure-Python library built as a PDF toolkit

@@ -10513,3 +10513,8 @@ repos:
   - repo: pyqt6-webengine #main
     group: deepin-sysdev-team
     info: Development files for PyQt6-WebEngin
+
+  - repo: qt6-location #main
+    group: deepin-sysdev-team
+    info: qt6-location
+    

@@ -10509,3 +10509,7 @@ repos:
   - repo: trinity #main
     group: deepin-sysdev-team
     info: system call fuzz tester
+
+  - repo: pyqt6-webengine #main
+    group: deepin-sysdev-team
+    info: Development files for PyQt6-WebEngin

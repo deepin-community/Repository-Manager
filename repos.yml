@@ -7529,6 +7529,10 @@ repos:
       or TCP port. It can be used to access remote sites, make secure point-to-point
       connections, enhance wireless security, etc.
 
+  - repo: openxr-sdk-source #main
+    group: deepin-sysdev-team
+    info: OpenXR software development kit
+
   - repo: osdlyrics
     group: deepin-sysdev-team
     info: Show synchronized lyrics with various media players

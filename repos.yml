@@ -8854,6 +8854,10 @@ repos:
     group: deepin-sysdev-team
     info: tool for REUSE copyright and license recommendations
 
+  - repo: rime-wanxiang
+    goup: deepin-sysdev-team
+    info: wanxiang input method for rime
+
   - repo: ripit
     group: deepin-sysdev-team
     info: Ripit is a textbased audio CD ripper.

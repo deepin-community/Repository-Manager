@@ -444,6 +444,10 @@ repos:
     group: deepin-sysdev-team
     info: OCaml library for programming with data streams
 
+  - repo: can-utils #main
+    group: deepin-sysdev-team
+    info: SocketCAN userspace utilities and tools
+
   - repo: cataclysm-dda
     group: deepin-sysdev-team
     info: post-apocalyptic roguelike game

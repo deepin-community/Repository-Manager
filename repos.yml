@@ -440,6 +440,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: calamares
+    group: deepin-sysdev-team
+    info: distribution-independent installer framework
+
   - repo: camlp-streams
     group: deepin-sysdev-team
     info: OCaml library for programming with data streams
@@ -5083,6 +5087,10 @@ repos:
   - repo: kpipewire
     group: deepin-sysdev-team
     info: Components for rendering and recording PipeWire streams using Qt.
+
+  - repo: kpmcore
+    group: deepin-sysdev-team
+    info: KDE Partition Manager Core development files
 
   - repo: krfb
     group: deepin-sysdev-team

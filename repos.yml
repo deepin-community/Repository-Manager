@@ -444,6 +444,10 @@ repos:
     group: deepin-sysdev-team
     info: distribution-independent installer framework
 
+  - repo: calamares-settings-deepin
+    group: deepin-sysdev-team
+    info: deepin theme and settings for the Calamares Installer
+
   - repo: camlp-streams
     group: deepin-sysdev-team
     info: OCaml library for programming with data streams

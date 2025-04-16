@@ -52,6 +52,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: airspyone-host
+    group: deepin-sysdev-team
+    info: Tiny and efficient software defined radio receiver
+
   - repo: alsa-tools #main
     group: deepin-sysdev-team
     info: Console based ALSA utilities for specific hardware
@@ -726,6 +730,10 @@ repos:
     group: deepin-sysdev-team
     info: Cubeb is a cross-platform audio library.
 
+  - repo: cubicsdr
+    group: deepin-sysdev-team
+    info: Software Defined Radio receiver
+
   - repo: cups-bjnp #main
     group: deepin-sysdev-team
     info: printer backend for Canon BJNP protocol
@@ -877,6 +885,10 @@ repos:
   - repo: deskflow
     group: deepin-sysdev-team
     info: Mouse and keyboard sharing utility
+
+  - repo: dfu-util
+    group: deepin-sysdev-team
+    info: Device firmware update (DFU) USB programmer
 
   - repo: dh-builtusing #main
     group: deepin-sysdev-team
@@ -4257,9 +4269,17 @@ repos:
     group: deepin-sysdev-team
     info: optimized HTTP/1.x, HTTP/2 server
 
+  - repo: hackrf
+    group: deepin-sysdev-team
+    info: Software defined radio peripheral
+
   - repo: halibut #main
     group: deepin-sysdev-team
     info: yet another free document preparation system
+
+  - repo: hamlib
+    group: deepin-sysdev-team
+    info: Run-time library to control radio transceivers and receivers
 
   - repo: haskell-appar #main
     group: deepin-sysdev-team
@@ -4578,6 +4598,10 @@ repos:
   - repo: incus #main
     group: deepin-sysdev-team
     info: Powerful system container and virtual machine manager
+
+  - repo: indi
+    group: deepin-sysdev-team
+    info: Instrument-Neutral Device Interface library
 
   - repo: initsplit-el #main
     group: deepin-sysdev-team
@@ -5386,6 +5410,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module to help manage FastCGI applications
 
+  - repo: libfec
+    group: deepin-sysdev-team
+    info: forward error correction (FEC) algorithms
+
   - repo: libfeed-find-perl #main
     group: deepin-sysdev-team
     info: Syndication feed auto-discovery
@@ -5589,6 +5617,10 @@ repos:
   - repo: libmbim #main
     group: deepin-sysdev-team
     info: Header files for adding MBIM support to applications that use glib
+
+  - repo: libmirisdr
+    group: deepin-sysdev-team
+    info: Software defined radio support for Mirics hardware
 
   - repo: libmodule-cpanfile-perl #main
     group: deepin-sysdev-team
@@ -5886,6 +5918,10 @@ repos:
     group: deepin-sysdev-team
     info: RTMP support for Nginx
 
+  - repo: libnova
+    group: deepin-sysdev-team
+    info: celestial mechanics, astrometry and astrodynamics library
+
   - repo: libnvme #main
     group: deepin-sysdev-team
     info: NVMe management library
@@ -5893,6 +5929,10 @@ repos:
   - repo: libopenaptx
     group: deepin-sysdev-team
     info: Support for aptX and aptX HD codec variants.
+
+  - repo: libosmosdr
+    group: deepin-sysdev-team
+    info: Software defined radio support for OsmoSDR hardware
 
   - repo: libpanel #main
     group: deepin-sysdev-team
@@ -6289,6 +6329,10 @@ repos:
   - repo: linyaps-box #main
     group: deepin-sysdev-team
     info: linyaps-box is the container application toolkit of deepin.
+
+  - repo: liquid-dsp
+    group: deepin-sysdev-team
+    info: signal processing library for software defined radio
 
   - repo: lirc #main
     group: deepin-sysdev-team
@@ -9565,6 +9609,18 @@ repos:
   - repo: smem
     group: deepin-sysdev-team
     info: memory reporting tool
+
+  - repo: soapyairspy
+    group: deepin-sysdev-team
+    info: Airspy device support for SoapySDR
+
+  - repo: soapyhackrf
+    group: deepin-sysdev-team
+    info: HackRF device support for SoapySDR
+
+  - repo: soapysdr
+    group: deepin-sysdev-team
+    info: software defined radio interface library
 
   - repo: socket
     group: deepin-sysdev-team

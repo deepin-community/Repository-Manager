@@ -930,6 +930,10 @@ repos:
     group: deepin-sysdev-team
     info: Utility to set directory specific environment variables
 
+  - repo: direwolf
+    group: deepin-sysdev-team
+    info: Soundcard TNC for APRS
+
   - repo: dirty-equals #main
     group: deepin-sysdev-team
     info: Make equality checks in Python unit tests more declarative
@@ -1260,6 +1264,10 @@ repos:
     group: deepin-sysdev-team
     info: Memory Efficient Serialization Library
 
+  - repo: fldigi
+    group: deepin-sysdev-team
+    info: digital modem program for hamradio operators
+
   - repo: flit
     group: deepin-sysdev-team
     info: simple way to put Python packages and modules on PyPI (PEP 517)
@@ -1267,6 +1275,14 @@ repos:
   - repo: flit-scm
     group: deepin-sysdev-team
     info: PEP 518 build backend that uses setuptools_scm and flit
+
+  - repo: flmsg
+    group: deepin-sysdev-team
+    info: amateur radio forms management editor
+
+  - repo: flrig
+    group: deepin-sysdev-team
+    info: ham radio transceiver control program
 
   - repo: folding-mode-el #main
     group: deepin-sysdev-team
@@ -1469,6 +1485,10 @@ repos:
   - repo: fping
     group: deepin-sysdev-team
     info: sends ICMP ECHO_REQUEST packets to network hosts
+
+  - repo: freedv
+    group: deepin-sysdev-team
+    info: Digital Voice mode for ham radio
 
   - repo: friso
     group: deepin-sysdev-team
@@ -4557,6 +4577,10 @@ repos:
     group: deepin-sysdev-team
     info: monitor for icecc
 
+  - repo: icom
+    group: deepin-sysdev-team
+    info: Software control for ICOM radios with CI-V interface
+
   - repo: icu
     group: deepin-sysdev-team
     info:
@@ -4803,6 +4827,10 @@ repos:
   - repo: jsonpickle #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: jtdx
+    group: deepin-sysdev-team
+    info: Weak-signal amateur radio communications, JTDX version
 
   - repo: jtreg6
     group: deepin-sysdev-team
@@ -8738,6 +8766,10 @@ repos:
     group: deepin-pkg
     info: QR Code generator library in multiple languages
 
+  - repo: qsstv
+    group: deepin-sysdev-team
+    info: Qt-based slow-scan TV and fax
+
   - repo: qt6-grpc #main
     group: deepin-sysdev-team
     info: Qt 6 gRPC
@@ -10045,6 +10077,10 @@ repos:
     group: deepin-sysdev-team
     info: Validates classifiers in packages for PyPI
 
+  - repo: trustedqsl
+    group: deepin-sysdev-team
+    info: QSL log signing for the Logbook of the World (LoTW)
+
   - repo: tslib
     group: deepin-pkg
     info: Tslib is an abstraction layer for touchscreen panel events.
@@ -10316,6 +10352,10 @@ repos:
   - repo: wrk
     group: deepin-sysdev-team
     info: HTTP benchmarking tool
+
+  - repo: wsjtx
+    group: deepin-sysdev-team
+    info: Weak-signal amateur radio communications
 
   - repo: wtforms #main
     group: deepin-sysdev-team

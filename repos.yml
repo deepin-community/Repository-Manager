@@ -10637,4 +10637,31 @@ repos:
   - repo: qt6-location #main
     group: deepin-sysdev-team
     info: qt6-location
-    
+
+  - repo: easyprocess
+    group: deepin-sysdev-team
+    info: Easy to use python subprocess interface
+
+  - repo: pyopengl
+    group: deepin-sysdev-team
+    info: Python bindings to OpenGL
+
+  - repo: vncdotool
+    group: deepin-sysdev-team
+    info: Automate interactions with virtual machines or hardware
+
+  - repo: fluid-soundfont
+    group: deepin-sysdev-team
+    info: Fluid (R3) General MIDI SoundFont (GM)
+
+  - repo: pytest-xvfb
+    group: deepin-sysdev-team
+    info: pytest plugin to run Xvfb for tests
+
+  - repo: pygame
+    group: deepin-sysdev-team
+    info: SDL bindings for games development
+
+  - repo: pyvirtualdisplay
+    group: deepin-sysdev-team
+    info: Python wrapper for Xvfb, Xephyr and Xvnc

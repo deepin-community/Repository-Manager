@@ -204,6 +204,10 @@ repos:
     group: deepin-sysdev-team
     info: OpenJDK AsmTools
 
+  - repo: aspell #main
+    group: deepin-sysdev-team
+    info: Development files for applications with GNU Aspell support
+
   - repo: assimp
     group: deepin-sysdev-team
     info: assimp 3D model import library (testdata)

@@ -1284,6 +1284,10 @@ repos:
     group: deepin-sysdev-team
     info: ham radio transceiver control program
 
+  - repo: flxmlrpc
+    group: deepin-sysdev-team
+    info: fldigi suite XmlRpc library
+
   - repo: folding-mode-el #main
     group: deepin-sysdev-team
     info: folding-editor minor mode for Emacs
@@ -8745,6 +8749,10 @@ repos:
   - repo: qcoro
     group: deepin-sysdev-team
     info: C++ coroutine library for Qt
+
+  - repo: qcustomplot
+    group: deepin-sysdev-team
+    info: Qt C++ widget for plotting
 
   - repo: qdirstat
     group: deepin-sysdev-team

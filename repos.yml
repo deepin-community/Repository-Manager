@@ -1639,6 +1639,10 @@ repos:
     group: deepin-sysdev-team
     info: meta-build system for ninja
 
+  - repo: genext2fs #main
+    group: deepin-sysdev-team
+    info: ext2 filesystem generator for embedded systems
+
   - repo: genimage
     group: deepin-sysdev-team
     info: Image Creation Tool

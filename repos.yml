@@ -10677,3 +10677,19 @@ repos:
   - repo: pyvirtualdisplay
     group: deepin-sysdev-team
     info: Python wrapper for Xvfb, Xephyr and Xvnc
+
+  - repo: openscenegraph
+    group: deepin-sysdev-team
+    info: 3D scene graph, utilities and examples
+
+  - repo: freeglut
+    group: deepin-sysdev-team
+    info: OpenGL Utility Toolkit
+
+  - repo: coin3
+    group: deepin-sysdev-team
+    info: high-level 3D graphics kit with Open Inventor and VRML97 support
+
+  - repo: collada-dom
+    group: deepin-sysdev-team
+    info: COLLADA using double precision

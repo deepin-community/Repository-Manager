@@ -10677,3 +10677,35 @@ repos:
   - repo: pyvirtualdisplay
     group: deepin-sysdev-team
     info: Python wrapper for Xvfb, Xephyr and Xvnc
+
+  - repo: stellarium
+    group: deepin-sysdev-team
+    info: real-time photo-realistic sky generator
+
+  - repo: indi
+    group: deepin-sysdev-team
+    info: INDI is a distributed XML-based control protocol designed to operate astronomical instrumentation. 
+
+  - repo: nlopt
+    group: deepin-sysdev-team
+    info: NLopt is a free/open-source library for nonlinear optimization, providing a common interface for a number of different free optimization routines available online as well as original implementations of various other algorithms.
+
+  - repo: libsoftware-licensemoreutils-perl
+    group: deepin-sysdev-team
+    info: Software::LicenseMoreUtils Perl module provides more utilities for Software::License
+
+  - repo: octave
+    group: deepin-sysdev-team
+    info: Octave is a (mostly MATLAB® compatible) high-level language, primarily intended for numerical computations.
+
+  - repo: graphicsmagick
+    group: deepin-sysdev-team
+    info: collection of image processing tools
+
+  - repo: libnova
+    group: deepin-sysdev-team
+    info: celestial mechanics, astrometry and astrodynamics library
+
+  - repo: libqt5qxlsx
+    group: deepin-sysdev-team
+    info: Excel file (*.xlsx) reader/writer library for Qt5 (development).

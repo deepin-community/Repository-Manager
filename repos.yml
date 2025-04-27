@@ -1078,6 +1078,10 @@ repos:
     group: deepin-sysdev-team
     info: a framework for rich client applications in Java
 
+  - repo: ecryptfs-utils #main
+    group: deepin-sysdev-team
+    info: ecryptfs cryptographic filesystem
+
   - repo: edb-debugger
     group: deepin-sysdev-team
     info: cross platform disassemble debugger
@@ -1185,6 +1189,10 @@ repos:
   - repo: exim4
     group: deepin-sysdev-team
     info: metapackage to ease Exim MTA (v4) installation
+
+  - repo: ext4magic #main
+    group: deepin-sysdev-team
+    info: recover deleted files from ext3 or ext4 partitions
 
   - repo: extractpdfmark
     group: deepin-sysdev-team

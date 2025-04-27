@@ -777,7 +777,7 @@ repos:
   - repo: dask.distributed #main
     group: deepin-sysdev-team
     info: Dask Distributed computing
-  
+
   - repo: davfs2 #main
     group: deepin-sysdev-team
     info: mount a WebDAV resource as a regular file system
@@ -1058,6 +1058,10 @@ repos:
     group: deepin-sysdev-team
     info: Audio effects for PipeWire applications
 
+  - repo: easyprocess
+    group: deepin-sysdev-team
+    info: Easy to use python subprocess interface
+
   - repo: eb
     group: deepin-sysdev-team
     info: C library for accessing EB, EBG, EBXA, and EPWING CD-ROM dictionaries
@@ -1283,6 +1287,10 @@ repos:
   - repo: flrig
     group: deepin-sysdev-team
     info: ham radio transceiver control program
+
+  - repo: fluid-soundfont
+    group: deepin-sysdev-team
+    info: Fluid (R3) General MIDI SoundFont (GM)
 
   - repo: flxmlrpc
     group: deepin-sysdev-team
@@ -4223,6 +4231,10 @@ repos:
     group: deepin-sysdev-team
     info: library of graphic data types (development files)
 
+  - repo: graphicsmagick
+    group: deepin-sysdev-team
+    info: collection of image processing tools
+
   - repo: graphviz-dot-mode #main
     group: deepin-sysdev-team
     info: Emacs mode for the dot-language used by graphviz
@@ -4633,7 +4645,7 @@ repos:
 
   - repo: indi
     group: deepin-sysdev-team
-    info: Instrument-Neutral Device Interface library
+    info: INDI is a distributed XML-based control protocol designed to operate astronomical instrumentation. 
 
   - repo: initsplit-el #main
     group: deepin-sysdev-team
@@ -6058,6 +6070,10 @@ repos:
     group: deepin-sysdev-team
     info: Development files for libqrtr-glib
 
+  - repo: libqt5qxlsx
+    group: deepin-sysdev-team
+    info: Excel file (*.xlsx) reader/writer library for Qt5 (development).
+
   - repo: libquazip #main
     group: deepin-sysdev-team
     info: C++ wrapper for ZIP/UNZIP (development files)
@@ -6139,6 +6155,10 @@ repos:
   - repo: libsis-jhdf5-java
     group: deepin-sysdev-team
     info: easy-to-use HDF library for Java
+
+  - repo: libsoftware-licensemoreutils-perl
+    group: deepin-sysdev-team
+    info: Software::LicenseMoreUtils Perl module provides more utilities for Software::License
 
   - repo: libsort-naturally-perl
     group: deepin-sysdev-team
@@ -6869,6 +6889,10 @@ repos:
     group: deepin-sysdev-team
     info: JSON for Modern C++
 
+  - repo: nlopt
+    group: deepin-sysdev-team
+    info: NLopt is a free/open-source library for nonlinear optimization, providing a common interface for a number of different free optimization routines available online as well as original implementations of various other algorithms.
+
   - repo: nltk #main
     group: deepin-sysdev-team
     info: Python3 libraries for natural language processing
@@ -7514,6 +7538,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ library for OCI runtime and distribution.
 
+  - repo: octave
+    group: deepin-sysdev-team
+    info: Octave is a (mostly MATLAB® compatible) high-level language, primarily intended for numerical computations.
+
   - repo: odc
     group: deepin-sysdev-team
     info: Tools for the Observational Data Processing (ODB)
@@ -7934,6 +7962,10 @@ repos:
     group: deepin-sysdev-team
     info: Python API document generator
 
+  - repo: pygame
+    group: deepin-sysdev-team
+    info: SDL bindings for games development
+
   - repo: pygls #main
     group: deepin-sysdev-team
     info: Generic Language Server Framework for Python
@@ -7958,13 +7990,17 @@ repos:
     group: deepin-sysdev-team
     info: ARM Cortex-M programming tools
 
-  - repo: pypng #main
+  - repo: pyopengl
     group: deepin-sysdev-team
-    info: Pure Python PNG Reader/Writer (Python 3)
+    info: Python bindings to OpenGL
 
   - repo: pypdf2 #main
     group: deepin-sysdev-team
     info: Pure-Python library built as a PDF toolkit
+
+  - repo: pypng #main
+    group: deepin-sysdev-team
+    info: Pure Python PNG Reader/Writer (Python 3)
 
   - repo: pyproject-api #main
     group: deepin-sysdev-team
@@ -7981,6 +8017,10 @@ repos:
   - repo: pyqt6-sip
     group: deepin-sysdev-team
     info: runtime module for Python extensions using SIP
+
+  - repo: pyqt6-webengine #main
+    group: deepin-sysdev-team
+    info: Development files for PyQt6-WebEngin
 
   - repo: pyrad #main
     group: deepin-sysdev-team
@@ -8057,6 +8097,10 @@ repos:
   - repo: pytest-vcr #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: pytest-xvfb
+    group: deepin-sysdev-team
+    info: pytest plugin to run Xvfb for tests
 
   - repo: python-aafigure #main
     group: deepin-sysdev-team
@@ -8197,7 +8241,6 @@ repos:
   - repo: python-daemonize #main
     group: deepin-sysdev-team
     info: enable your code to run as a daemon process - Python 3.x
-
 
   - repo: python-deprecated #main
     group: deepin-sysdev-team
@@ -8746,6 +8789,10 @@ repos:
     group: deepin-sysdev-team
     info: USB interface for Python
 
+  - repo: pyvirtualdisplay
+    group: deepin-sysdev-team
+    info: Python wrapper for Xvfb, Xephyr and Xvnc
+
   - repo: pyyaml-env-tag #main
     group: deepin-sysdev-team
     info: Custom YAML tag for referencing environment variables
@@ -8789,6 +8836,10 @@ repos:
   - repo: qt6-httpserver #main
     group: deepin-sysdev-team
     info: Qt 6 HTTP Server
+
+  - repo: qt6-location #main
+    group: deepin-sysdev-team
+    info: qt6-location
 
   - repo: qt6-quick3dphysics #main
     group: deepin-sysdev-team
@@ -9855,6 +9906,10 @@ repos:
     group: deepin-sysdev-team
     info: Python to Debian source package conversion utility
 
+  - repo: stellarium
+    group: deepin-sysdev-team
+    info: real-time photo-realistic sky generator
+
   - repo: stevedore #main
     group: deepin-sysdev-team
     info: manage dynamic plugins for Python applications - python3
@@ -10085,6 +10140,10 @@ repos:
     group: deepin-sysdev-team
     info: GUI and command-line interface to optimize image files
 
+  - repo: trinity #main
+    group: deepin-sysdev-team
+    info: system call fuzz tester
+
   - repo: trove-classifiers
     group: deepin-sysdev-team
     info: Validates classifiers in packages for PyPI
@@ -10204,6 +10263,10 @@ repos:
   - repo: vkfft
     group: deepin-sysdev-team
     info: Vulkan Fast Fourier Transform library
+
+  - repo: vncdotool
+    group: deepin-sysdev-team
+    info: Automate interactions with virtual machines or hardware
 
   - repo: vte
     group: deepin-sysdev-team
@@ -10638,74 +10701,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: trinity #main
-    group: deepin-sysdev-team
-    info: system call fuzz tester
-
-  - repo: pyqt6-webengine #main
-    group: deepin-sysdev-team
-    info: Development files for PyQt6-WebEngin
-
-  - repo: qt6-location #main
-    group: deepin-sysdev-team
-    info: qt6-location
-
-  - repo: easyprocess
-    group: deepin-sysdev-team
-    info: Easy to use python subprocess interface
-
-  - repo: pyopengl
-    group: deepin-sysdev-team
-    info: Python bindings to OpenGL
-
-  - repo: vncdotool
-    group: deepin-sysdev-team
-    info: Automate interactions with virtual machines or hardware
-
-  - repo: fluid-soundfont
-    group: deepin-sysdev-team
-    info: Fluid (R3) General MIDI SoundFont (GM)
-
-  - repo: pytest-xvfb
-    group: deepin-sysdev-team
-    info: pytest plugin to run Xvfb for tests
-
-  - repo: pygame
-    group: deepin-sysdev-team
-    info: SDL bindings for games development
-
-  - repo: pyvirtualdisplay
-    group: deepin-sysdev-team
-    info: Python wrapper for Xvfb, Xephyr and Xvnc
-
-  - repo: stellarium
-    group: deepin-sysdev-team
-    info: real-time photo-realistic sky generator
-
-  - repo: indi
-    group: deepin-sysdev-team
-    info: INDI is a distributed XML-based control protocol designed to operate astronomical instrumentation. 
-
-  - repo: nlopt
-    group: deepin-sysdev-team
-    info: NLopt is a free/open-source library for nonlinear optimization, providing a common interface for a number of different free optimization routines available online as well as original implementations of various other algorithms.
-
-  - repo: libsoftware-licensemoreutils-perl
-    group: deepin-sysdev-team
-    info: Software::LicenseMoreUtils Perl module provides more utilities for Software::License
-
-  - repo: octave
-    group: deepin-sysdev-team
-    info: Octave is a (mostly MATLAB® compatible) high-level language, primarily intended for numerical computations.
-
-  - repo: graphicsmagick
-    group: deepin-sysdev-team
-    info: collection of image processing tools
-
-  - repo: libnova
-    group: deepin-sysdev-team
-    info: celestial mechanics, astrometry and astrodynamics library
-
-  - repo: libqt5qxlsx
-    group: deepin-sysdev-team
-    info: Excel file (*.xlsx) reader/writer library for Qt5 (development).

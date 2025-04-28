@@ -10713,3 +10713,14 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: mkvtoolnix
+    group: deepin-sysdev-team
+    info: Set of command-line tools to work with Matroska files 
+
+  - repo: libmatroska
+    group: deepin-sysdev-team
+    info: extensible open standard audio/video container format
+
+  - repo: libebml
+    group: deepin-sysdev-team
+    info: access library for the EBML format

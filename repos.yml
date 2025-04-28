@@ -10589,6 +10589,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ library implementing a real-time convolution matrix
 
+  - repo: zlog #main
+    group: deepin-sysdev-team
+    info: mutli features pure C logging library
+
   - repo: zope.authentication #main
     group: deepin-sysdev-team
     info: Definition of authentication basics for the Zope Framework

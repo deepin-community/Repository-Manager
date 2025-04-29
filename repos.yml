@@ -6094,6 +6094,10 @@ repos:
     group: deepin-sysdev-team
     info: Qt/C++ wrapper over minizip
 
+  - repo: librecad
+    group: deepin-sysdev-team
+    info: Computer-aided design (CAD) system
+
   - repo: libre-engine-re2-perl
     group: deepin-sysdev-team
     info: RE2 regex engine

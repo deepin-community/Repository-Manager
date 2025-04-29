@@ -7564,6 +7564,10 @@ repos:
       It is a command-line tool which extracts the text out of OpenDocument Texts,
       as produced by OpenOffice.org, KOffice, StarOffice and others.
 
+  - repo: ois #main
+    group: deepin-sysdev-team
+    info: Object Oriented Input System library (C++ development headers)
+
   - repo: onetbb #main
     group: deepin-sysdev-team
     info: parallelism library for C++ - development files
@@ -7668,6 +7672,10 @@ repos:
   - repo: openxr-sdk-source #main
     group: deepin-sysdev-team
     info: OpenXR software development kit
+
+  - repo: ogre-1.9 #main
+    group: deepin-sysdev-team
+    info: 3D Object-Oriented Graphics Rendering Engine (tools)
 
   - repo: osdlyrics
     group: deepin-sysdev-team

@@ -8877,10 +8877,6 @@ repos:
     group: deepin-sysdev-team
     info: Python ASGI web microframework with the same API as Flask
 
-  - repo: qucs-s
-    group: deepin-sysdev-team
-    info: Quite Universal Circuit Simulator with SPICE
-
   - repo: qwlroots
     group: deepin-sysdev-team
     info: wlroots qt binding

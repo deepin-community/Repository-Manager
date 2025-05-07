@@ -10744,3 +10744,7 @@ repos:
   - repo: wfview
     group: deepin-sysdev-team
     info: Open-source software for the control of modern Icom radios
+
+  - repo: sendemail #main
+    group: deepin-sysdev-team
+    info:  lightweight, command line SMTP email client

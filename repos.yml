@@ -10755,3 +10755,7 @@ repos:
   - repo: sendemail #main
     group: deepin-sysdev-team
     info:  lightweight, command line SMTP email client
+
+  - repo: qjackctl #main
+    group: deepin-sysdev-team
+    info:  User interface for controlling the JACK sound server

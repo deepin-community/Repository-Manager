@@ -4429,6 +4429,13 @@ repos:
     group: deepin-sysdev-team
     info: singleton tuple
 
+  - repo: haskell-pandoc #main
+    group: deepin-sysdev-team
+    info: 
+      Conversion between markup formats
+      Pandoc is a Haskell library for converting from one markup
+      format to another
+
   - repo: haskell-pandoc-lua-marshal #main
     group: deepin-sysdev-team
     info: Use pandoc types in Lua; documentation

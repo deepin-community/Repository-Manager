@@ -10740,3 +10740,7 @@ repos:
   - repo: libebml
     group: deepin-sysdev-team
     info: access library for the EBML format
+
+  - repo: wfview
+    group: deepin-sysdev-team
+    info: Open-source software for the control of modern Icom radios

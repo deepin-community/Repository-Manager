@@ -10771,3 +10771,7 @@ repos:
   - repo: android-udev-rules
     group: deepin-sysdev-team
     info:  udev rules for Android tool
+
+  - repo: jackd-defaults #main
+    group: deepin-sysdev-team
+    info:  JACK Audio Connection Kit (default server package)

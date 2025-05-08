@@ -10767,3 +10767,7 @@ repos:
   - repo: qjackctl #main
     group: deepin-sysdev-team
     info:  User interface for controlling the JACK sound server
+
+  - repo: android-udev-rules
+    group: deepin-sysdev-team
+    info:  udev rules for Android tool

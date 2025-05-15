@@ -8391,6 +8391,10 @@ repos:
     group: deepin-sysdev-team
     info: gevent is a coroutine-based Python networking library
 
+  - repo: python-gfloat #main
+    group: deepin-sysdev-team
+    info: Python module of generic floating point encode/decode logic
+
   - repo: python-git #main
     group: deepin-sysdev-team
     info: Python library to interact with Git repositories
@@ -8564,6 +8568,10 @@ repos:
   - repo: python-pipx #main
     group: deepin-sysdev-team
     info: Install and Run Python Applications In Prefixes
+
+  - repo: python-pkcs11 #main
+    group: deepin-sysdev-team
+    info: high level PKCS#11 interface for Python
 
   - repo: python-pretend #main
     group: deepin-sysdev-team

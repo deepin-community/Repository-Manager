@@ -7696,6 +7696,10 @@ repos:
     group: deepin-sysdev-team
     info: 3D Object-Oriented Graphics Rendering Engine (tools)
 
+  - repo: oscrypto #main
+    group: deepin-sysdev-team
+    info: cryptography library for Python
+
   - repo: osdlyrics
     group: deepin-sysdev-team
     info: Show synchronized lyrics with various media players

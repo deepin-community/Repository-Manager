@@ -6293,6 +6293,10 @@ repos:
     group: deepin-sysdev-team
     info: libthrust
 
+  - repo: libtins
+    group: deepin-sysdev-team
+    info: packet crafting and sniffing library - development files
+
   - repo: libtorrent-rasterbar
     group: deepin-sysdev-team
     info: Development files for libtorrent-rasterbar

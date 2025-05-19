@@ -10815,3 +10815,15 @@ repos:
   - repo: jackd-defaults #main
     group: deepin-sysdev-team
     info:  JACK Audio Connection Kit (default server package)
+    
+  - repo: spark-store
+    group: spark-store-deepin
+    info:  Spark APP Store for deepin
+
+  - repo: dtk2widget
+    group: spark-store-deepin
+    info:  Deepin Tool Kit 2 widgets, modified by GXDE OS Team to run well with DTK5
+    
+  - repo: dtk2core
+    group: spark-store-deepin
+    info:  Deepin Tool Kit 2 core, modified by GXDE OS Team to run well with DTK5

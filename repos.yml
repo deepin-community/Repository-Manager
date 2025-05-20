@@ -6369,6 +6369,10 @@ repos:
     group: deepin-sysdev-team
     info: x86 real-mode library - development files
 
+  - repo: libxdf #main
+    group: deepin-sysdev-team
+    info: C++ library for loading XDF files
+
   - repo: libxml-atom-perl #main
     group: deepin-sysdev-team
     info: module for manipulating Atom feeds

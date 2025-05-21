@@ -5552,6 +5552,10 @@ repos:
   - repo: libgedit-gtksourceview #main
     group: deepin-sysdev-team
     info: Gedit Technology - Source code editing widget
+    
+  - repo: libgedit-tepl  #main
+    group: deepin-sysdev-team
+    info: Gedit Technology - Text editor product line
 
   - repo: libglibutil #main
     group: deepin-sysdev-team

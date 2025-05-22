@@ -1308,7 +1308,7 @@ repos:
     group: deepin-sysdev-team
     info: Fluid (R3) General MIDI SoundFont (GM)
 
-  - repo: flxmlrpc
+  - repo: fmlrpc
     group: deepin-sysdev-team
     info: fldigi suite XmlRpc library
 
@@ -5565,6 +5565,10 @@ repos:
     group: deepin-sysdev-team
     info: header files and docs for libgssglue
 
+  - repo: libguess #main
+    group: deepin-sysdev-team
+    info: high-speed character set detection library (development)
+
   - repo: libguestfs
     group: deepin-sysdev-team
     info: guest disk image management system - development headers
@@ -6653,6 +6657,10 @@ repos:
   - repo: meson-python #main
     group: deepin-sysdev-team
     info: Meson PEP 517 Python build backend
+
+  - repo: meteo-qt #main
+    group: deepin-sysdev-team
+    info: Application to display weather information
 
   - repo: metro-policy
     group: deepin-sysdev-team
@@ -7941,6 +7949,10 @@ repos:
     group: deepin-sysdev-team
     info: ppx rewriter for monadic and applicative bindings
 
+  - repo: preload #main
+    group: deepin-sysdev-team
+    info: adaptive readahead daemon
+
   - repo: printer-driver-indexbraille #main
     group: deepin-sysdev-team
     info: CUPS printing to Index Braille printers
@@ -8932,9 +8944,17 @@ repos:
     group: deepin-sysdev-team
     info: qtermwidget for Qt 6
 
+  - repo: qtpass #main
+    group: deepin-sysdev-team
+    info: GUI for password manager pass
+
   - repo: qtremoteobjects-everywhere-src #main
     group: deepin-sysdev-team
     info: Qt module for IPC — the Replica Compiler
+
+  - repo: qtxdg-tools #main
+    group: deepin-sysdev-team
+    info: User tools for libqtxdg
 
   - repo: quart #main
     group: deepin-sysdev-team
@@ -10347,6 +10367,10 @@ repos:
     group: deepin-sysdev-team
     info: Automate interactions with virtual machines or hardware
 
+  - repo: vokoscreen-ng #main
+    group: deepin-sysdev-team
+    info: easy to use screencast creator (transitional package)  
+
   - repo: vte
     group: deepin-sysdev-team
     info: Terminal emulator widget for GTK+ 2.0
@@ -10795,6 +10819,18 @@ repos:
   - repo: libebml
     group: deepin-sysdev-team
     info: access library for the EBML format
+
+  - repo: lxqt-archiver #main
+    group: deepin-sysdev-team
+    info: Archiv Manager for LXQt
+
+  - repo: lxqt-branding-debian #main
+    group: deepin-sysdev-team
+    info: Debian branding for LXQt
+
+  - repo: lxqt-menu-data #main
+    group: deepin-sysdev-team
+    info: menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt
 
   - repo: wfview
     group: deepin-sysdev-team

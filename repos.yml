@@ -10863,3 +10863,7 @@ repos:
   - repo: dtk2core
     group: spark-store-deepin
     info:  Deepin Tool Kit 2 core, modified by GXDE OS Team to run well with DTK5
+
+  - repo: lutris
+    group: deepin-sysdev-team
+    info: Video game preservation platform

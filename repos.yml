@@ -10867,3 +10867,15 @@ repos:
   - repo: lutris
     group: deepin-sysdev-team
     info: Video game preservation platform
+
+  - repo: gxde-qt5integration
+    group: spark-store-deepin
+    info: qt5integration is the Qt platform theme integration plugins for GXDE. It includes multiple Qt5 plugins to make make GXDE more Qt5 Apps friendly.
+
+  - repo: gxde-terminal
+    group: spark-store-deepin
+    info: GXDE terminal emulator application, modified by GXDE OS Team
+
+  - repo: garma
+    group: spark-store-deepin
+    info: Garma is a tool to create dialog boxes, based on Qt + dtk2. It's a clone of Zenity which was written for GTK+.

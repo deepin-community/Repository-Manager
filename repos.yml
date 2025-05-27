@@ -10867,3 +10867,15 @@ repos:
   - repo: lutris
     group: deepin-sysdev-team
     info: Video game preservation platform
+
+  - repo: lxqt-build-tools-qt5 #main
+    group: deepin-sysdev-team
+    info: Build tools for the LXQt desktop environment
+
+  - repo: libdbusmenu-lxqt #main
+    group: deepin-sysdev-team
+    info: DBusMenu protocol implementation for lxqt - development files
+
+  - repo: gauche #main
+    group: deepin-sysdev-team
+    info: Scheme script engine

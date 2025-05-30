@@ -10883,3 +10883,7 @@ repos:
   - repo: fuse-archive #main
     group: deepin-sysdev-team
     info: Mount an archive or compressed file as a FUSE file system
+
+  - repo: openbangla-keyboard
+    group: deepin-sysdev-team
+    info: Bengali input method

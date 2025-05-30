@@ -7850,6 +7850,10 @@ repos:
     group: deepin-sysdev-team
     info: Python library to read and write PDFs with QPDF
 
+  - repo: pineapple-pictures
+    group: deepin-sysdev-team
+    info: Pineapple Pictures is a lightweight image viewer
+
   - repo: pixz
     group: deepin-sysdev-team
     info: parallel, indexing XZ compressor/decompressor

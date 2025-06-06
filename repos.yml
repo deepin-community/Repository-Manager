@@ -1453,6 +1453,10 @@ repos:
     group: deepin-sysdev-team
     info: Nanum Korean fonts
 
+  - repo: fonts-osifont #main
+    group: deepin-sysdev-team
+    info: ISO 3098-compliant TrueType font for CAD projects
+
   - repo: fonts-pc
     group: deepin-sysdev-team
     info: TrueType conversions of PC ROM fonts
@@ -1513,6 +1517,10 @@ repos:
   - repo: fping
     group: deepin-sysdev-team
     info: sends ICMP ECHO_REQUEST packets to network hosts
+
+  - repo: freecad
+    group: deepin-sysdev-team
+    info: Extensible Open Source CAx program
 
   - repo: freedv
     group: deepin-sysdev-team
@@ -5647,6 +5655,10 @@ repos:
     group: deepin-sysdev-team
     info: Development files for the KDE games library.
 
+  - repo: libkdtreeplusplus #main
+    group: deepin-sysdev-team
+    info: C++ template container implementation of kd-tree sorting
+
   - repo: libkf5libkdepim
     group: deepin-sysdev-team
     info: KDE PIM library
@@ -6625,6 +6637,10 @@ repos:
   - repo: mdurl #main
     group: deepin-sysdev-team
     info: Python port of the JavaScript mdurl package
+
+  - repo: med-fichier #main
+    group: deepin-sysdev-team
+    info: Development files for libmed
 
   - repo: meld
     group: deepin-sysdev-team
@@ -7607,6 +7623,10 @@ repos:
     group: deepin-sysdev-team
     info: Object Oriented Input System library (C++ development headers)
 
+  - repo: ondselsolver #main
+    group: deepin-sysdev-team
+    info: Assembly Constraints and Multibody Dynamics code
+
   - repo: onetbb #main
     group: deepin-sysdev-team
     info: parallelism library for C++ - development files
@@ -7853,6 +7873,10 @@ repos:
   - repo: pineapple-pictures
     group: deepin-sysdev-team
     info: Pineapple Pictures is a lightweight image viewer
+
+  - repo: pivy #main
+    group: deepin-sysdev-team
+    info: Coin binding for Python 3
 
   - repo: pixz
     group: deepin-sysdev-team
@@ -8104,6 +8128,10 @@ repos:
   - repo: pyroute2 #main
     group: deepin-sysdev-team
     info: Python3 Netlink library - full package
+
+  - repo: pyside2 #main
+    group: deepin-sysdev-team
+    info: Python 3 bindings for Qt5
 
   - repo: pysimplesoap
     group: deepin-sysdev-team
@@ -10683,6 +10711,10 @@ repos:
   - repo: zig0.14
     group: deepin-sysdev-team
     info: zig language version 0.14
+
+  - repo: zipiosplusplus #main
+    group: deepin-sysdev-team
+    info: zig language
 
   - repo: zita-convolver
     group: deepin-sysdev-team

@@ -10900,6 +10900,6 @@ repos:
     group: deepin-sysdev-team
     info: OpenGL 3D viewer library based on Qt
 
-  - repo: mpfrc++
+  - repo: mpfrcplusplus
     group: deepin-sysdev-team
     info: multi-precision floating point number class for C++

@@ -10891,3 +10891,15 @@ repos:
   - repo: openbangla-keyboard
     group: deepin-sysdev-team
     info: Bengali input method
+
+  - repo: yade
+    group: deepin-sysdev-team
+    info: Platform for discrete element modeling
+
+  - repo: libqglviewer
+    group: deepin-sysdev-team
+    info: OpenGL 3D viewer library based on Qt
+
+  - repo: mpfrc++
+    group: deepin-sysdev-team
+    info: multi-precision floating point number class for C++

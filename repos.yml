@@ -9804,6 +9804,10 @@ repos:
     group: deepin-sysdev-team
     info: deepin uefi shim
 
+  - repo: simage #main
+    group: deepin-sysdev-team
+    info: generic interface to various image file format libraries
+
   - repo: simde
     group: deepin-sysdev-team
     info: Implementations of SIMD instructions for all systems
@@ -9866,6 +9870,10 @@ repos:
   - repo: softhsm2 #main
     group: deepin-sysdev-team
     info: cryptographic store accessible through a PKCS #11
+
+  - repo: soqt #main
+    group: deepin-sysdev-team
+    info: Qt5 GUI component toolkit for Inventor
 
   - repo: sortable-tablesort.js #main
     group: deepin-sysdev-team

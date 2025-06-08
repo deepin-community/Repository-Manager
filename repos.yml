@@ -9048,6 +9048,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU R testsuite
 
+  - repo: RabbitRemoteControl
+    group: deepin-sysdev-team
+    info: Remote desktop and control, network and player etc tools
+    
   - repo: radeontop
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization

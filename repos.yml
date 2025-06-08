@@ -9048,7 +9048,7 @@ repos:
     group: deepin-sysdev-team
     info: GNU R testsuite
 
-  - repo: RabbitRemoteControl
+  - repo: RabbitRemoteControl #main
     group: deepin-sysdev-team
     info: Remote desktop and control, network and player etc tools
     

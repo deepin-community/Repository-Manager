@@ -10951,3 +10951,7 @@ repos:
   - repo: pydbus
     group: spark-store-deepin
     info: Pythonic D-Bus library (Python 3)
+
+  - repo: tightvnc
+    group: deepin-sysdev-team
+    info: virtual network computing client software for X

@@ -10943,3 +10943,11 @@ repos:
   - repo: mpfrcplusplus
     group: deepin-sysdev-team
     info: multi-precision floating point number class for C++
+
+  - repo: translate-shell
+    group: spark-store-deepin
+    info: Command-line translator using Google Translate, etc.
+
+  - repo: pydbus
+    group: spark-store-deepin
+    info: Pythonic D-Bus library (Python 3)

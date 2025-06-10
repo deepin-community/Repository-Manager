@@ -10955,3 +10955,15 @@ repos:
   - repo: tightvnc
     group: deepin-sysdev-team
     info: virtual network computing client software for X
+
+  - repo: ardour
+    group: deepin-sysdev-team
+    info: The digital audio workstation
+
+  - repo: aubio
+    group: deepin-sysdev-team
+    info: Library for audio segmentation
+
+  - repo: taglib
+    group: deepin-sysdev-team
+    info: audio meta-data library

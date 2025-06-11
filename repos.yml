@@ -10967,3 +10967,7 @@ repos:
   - repo: taglib
     group: deepin-sysdev-team
     info: audio meta-data library
+
+  - repo: lrzip
+    group: deepin-sysdev-team #main
+    info: compression program with a very high compression ratio

@@ -10968,6 +10968,6 @@ repos:
     group: deepin-sysdev-team
     info: audio meta-data library
 
-  - repo: lrzip
-    group: deepin-sysdev-team #main
+  - repo: lrzip #main
+    group: deepin-sysdev-team
     info: compression program with a very high compression ratio

@@ -10971,3 +10971,7 @@ repos:
   - repo: lrzip #main
     group: deepin-sysdev-team
     info: compression program with a very high compression ratio
+
+  - repo: tree-sitter-markdown
+    group: deepin-sysdev-team
+    info: markdown parser for Tree-sitter

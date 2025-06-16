@@ -10975,3 +10975,7 @@ repos:
   - repo: tree-sitter-markdown
     group: deepin-sysdev-team
     info: markdown parser for Tree-sitter
+
+  - repo: bash-pinyin-completion-cpp #main
+    group: deepin-sysdev-team
+    info: Chinese Pinyin completion for bash

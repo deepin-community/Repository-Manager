@@ -10979,3 +10979,7 @@ repos:
   - repo: bash-pinyin-completion-cpp #main
     group: deepin-sysdev-team
     info: Chinese Pinyin completion for bash
+
+  - repo: live-tasks #main
+    group: spark-store-deepin
+    info: Live base environment support. This metapackage installs base packages and documentation to help support live environments.

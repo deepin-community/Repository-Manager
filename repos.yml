@@ -10979,3 +10979,7 @@ repos:
   - repo: bash-pinyin-completion-cpp #main
     group: deepin-sysdev-team
     info: Chinese Pinyin completion for bash
+
+  - repo: xfce4-screenshooter
+    group: deepin-sysdev-team
+    info: screenshots utility for Xfce

@@ -10025,6 +10025,10 @@ repos:
     group: deepin-sysdev-team
     info: FUSE filesystem to mount squashfs archives
 
+  - repo: squirrel3 #main
+    group: deepin-sysdev-team
+    info: lightweight, high-level, embeddable programming language
+
   - repo: ssdeep #main
     group: deepin-sysdev-team
     info: recursive piecewise hashing tool

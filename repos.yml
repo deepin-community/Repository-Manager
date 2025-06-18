@@ -10995,3 +10995,7 @@ repos:
   - repo: moonlight-qt
     group: deepin-sysdev-team
     info: Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine
+
+  - repo: kmscube 
+    group: deepin-sysdev-team
+    info: Example KMS/GBM/EGL application

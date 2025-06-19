@@ -10999,3 +10999,8 @@ repos:
   - repo: kmscube 
     group: deepin-sysdev-team
     info: Example KMS/GBM/EGL application
+
+  - repo: libei1  
+    group: deepin-sysdev-team
+    info: Emulated Input client library
+    

@@ -11004,3 +11004,6 @@ repos:
     group: deepin-sysdev-team
     info: Emulated Input client library
     
+  - repo: ogre-1.9 #main
+    group: deepin-sysdev-team
+    info: 3D Object-Oriented Graphics Rendering Engine (tools)

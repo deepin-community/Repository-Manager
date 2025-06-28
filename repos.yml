@@ -9752,6 +9752,10 @@ repos:
     group: deepin-sysdev-team
     info: Displays a short text fullscreen
 
+  - repo: scribus
+    group: deepin-sysdev-team
+    info: Open Source Desktop Page Layout
+
   - repo: scrot
     group: deepin-sysdev-team
     info: command line screen capture utility

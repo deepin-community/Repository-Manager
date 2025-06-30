@@ -11011,3 +11011,15 @@ repos:
   - repo: ogre #main
     group: deepin-sysdev-team
     info: 3D Object-Oriented Graphics Rendering Engine (tools)
+
+  - repo: allegro5 #main
+    group: deepin-sysdev-team
+    info: portable library for cross-platform game and multimedia development
+
+  - repo: imgui #main
+    group: deepin-sysdev-team
+    info: A bloat-free graphical user interface library for C++.
+
+  - repo: libdumb #main
+    group: deepin-sysdev-team
+    info: dynamic universal music bibliotheque

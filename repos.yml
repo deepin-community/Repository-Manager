@@ -11035,3 +11035,7 @@ repos:
   - repo: 2048-qt
     group: spark-store-deepin
     info: 2048 难题是基于数学的解谜游戏，你需要在一个格子棋盘上滑动滑块，将其组合并创 建数字 2048。 你需要使用四个方向键移动并合并相似的滑块（2n）。当具有两个相同数字的滑块接 触时，它们会合二为一。
+
+  - repo: libwhereami
+    group: spark-store-deepin
+    info: locate the current executable and the current module (development files)

@@ -11039,3 +11039,11 @@ repos:
   - repo: libwhereami
     group: spark-store-deepin
     info: locate the current executable and the current module (development files)
+
+  - repo: libewf
+    group: spark-store-deepin
+    info: library with support for Expert Witness Compression Format
+
+  - repo: libfsntfs
+    group: spark-store-deepin
+    info: NTFS access library

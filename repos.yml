@@ -11023,3 +11023,20 @@ repos:
   - repo: libdumb #main
     group: deepin-sysdev-team
     info: dynamic universal music bibliotheque
+
+  - repo: contour
+    group: deepin-sysdev-team
+    info: Modern C++ Terminal Emulator
+
+  - repo: boxed-cpp
+    group: deepin-sysdev-team
+    info: Small header-only library for easing primitive type boxing in C++
+
+  - repo: libunicode
+    group: deepin-sysdev-team
+    info: Unicode and UTF-8 C++ library
+
+  - repo: reflection-cpp
+    group: deepin-sysdev-team
+    info: C++ static reflection support library
+

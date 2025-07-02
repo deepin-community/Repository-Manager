@@ -11047,3 +11047,7 @@ repos:
   - repo: libfsntfs
     group: spark-store-deepin
     info: NTFS access library
+
+  - repo: kdiskmark
+    group: spark-store-deepin
+    info: simple disk benchmark tool

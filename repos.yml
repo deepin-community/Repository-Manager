@@ -11040,3 +11040,7 @@ repos:
     group: deepin-sysdev-team
     info: C++ static reflection support library
 
+  - repo: sirikali #main
+    group: deepin-sysdev-team
+    info: Manage user encrypted volumes
+

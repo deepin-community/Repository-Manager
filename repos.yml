@@ -11044,3 +11044,7 @@ repos:
     group: deepin-sysdev-team
     info: Manage user encrypted volumes
 
+  - repo: systemd-cron
+    group: deepin-sysdev-team
+    info: systemd generator that provides cron daemon & anacron functionality
+

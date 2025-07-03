@@ -11048,3 +11048,6 @@ repos:
     group: deepin-sysdev-team
     info: systemd generator that provides cron daemon & anacron functionality
 
+  - repo: cruft-ng
+    group: deepin-sysdev-team
+    info: programs that helps analyse volatile "cruft" files on your system

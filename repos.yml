@@ -11051,3 +11051,19 @@ repos:
   - repo: cruft-ng
     group: deepin-sysdev-team
     info: programs that helps analyse volatile "cruft" files on your system
+
+  - repo: gnustep-gui
+    group: deepin-sysdev-team
+    info: GNUstep GUI Library
+
+  - repo: gnustep-back
+    group: deepin-sysdev-team
+    info: GNUstep GUI Backend
+
+  - repo: libicns
+    group: deepin-sysdev-team
+    info: library for manipulation of the Mac OS icns format
+
+  - repo: pikopixel
+    group: deepin-sysdev-team
+    info: Pixel-art editor

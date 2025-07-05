@@ -8545,6 +8545,10 @@ repos:
     group: deepin-sysdev-team
     info: Python bindings for iptables
 
+  - repo: python-junit-xml #main
+    group: deepin-sysdev-team
+    info: creates JUnit XML test result docs readable by tools such as Jenkins
+
   - repo: python-kdcproxy #main
     group: deepin-sysdev-team
     info: Kerberos KDC HTTP proxy WSGI module

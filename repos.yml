@@ -11067,3 +11067,15 @@ repos:
   - repo: pikopixel
     group: deepin-sysdev-team
     info: Pixel-art editor
+
+  - repo: gamescope
+    group: deepin-sysdev-team
+    info: Micro-compositor for game scaling
+
+  - repo: eiskaltdcpp
+    group: deepin-sysdev-team
+    info: file sharing program using Direct Connect protocols
+
+  - repo: vkroots
+    group: deepin-sysdev-team
+    info: vkroots framework

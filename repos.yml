@@ -11091,3 +11091,7 @@ repos:
   - repo: godot
     group: deepin-sysdev-team
     info: Full 2D and 3D game engine with editor
+
+  - repo: switcheroo-control #main
+    group: deepin-sysdev-team
+    info: D-Bus service to check the availability of dual-GPU

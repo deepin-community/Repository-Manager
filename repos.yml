@@ -11079,3 +11079,15 @@ repos:
   - repo: vkroots
     group: deepin-sysdev-team
     info: vkroots framework
+
+  - repo: recastnavigation
+    group: deepin-sysdev-team
+    info: Software implementation of Recast and Detour Navigation
+
+  - repo: wslay
+    group: deepin-sysdev-team
+    info: WebSocket library written in C.
+
+  - repo: godot
+    group: deepin-sysdev-team
+    info: Full 2D and 3D game engine with editor

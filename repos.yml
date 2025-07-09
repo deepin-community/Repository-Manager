@@ -11095,3 +11095,7 @@ repos:
   - repo: switcheroo-control #main
     group: deepin-sysdev-team
     info: D-Bus service to check the availability of dual-GPU
+
+  - repo: alien #main
+    group: deepin-sysdev-team
+    info: convert and install rpm and other packages

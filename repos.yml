@@ -11099,3 +11099,7 @@ repos:
   - repo: alien #main
     group: deepin-sysdev-team
     info: convert and install rpm and other packages
+
+  - repo: rpm #main
+    group: deepin-sysdev-team
+    info: package manager for RPM

@@ -11107,3 +11107,7 @@ repos:
   - repo: rpm #main
     group: deepin-sysdev-team
     info: package manager for RPM
+
+  - repo: libuser #main
+    group: deepin-sysdev-team
+    info: user and group account administration library

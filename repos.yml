@@ -11111,3 +11111,15 @@ repos:
   - repo: libuser #main
     group: deepin-sysdev-team
     info: user and group account administration library
+
+  - repo: fsverity-utils #main
+    group: deepin-sysdev-team
+    info: userspace utilities for fs-verity
+
+  - repo: utf8-locale #main
+    group: deepin-sysdev-team
+    info: Detect a UTF-8-capable locale for running programs in
+
+  - repo: rust-rpm-sequoia #main
+    group: deepin-sysdev-team
+    info: An OpenPGP backend for rpm using Sequoia PGP

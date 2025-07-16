@@ -11143,3 +11143,7 @@ repos:
   - repo: rust-curve25519-dalek #main
     group: deepin-sysdev-team
     info: A library for arithmetic over the Curve25519 and Ristretto elliptic curves and their associated scalars
+
+  - repo: requests-file #main
+    group: deepin-sysdev-team
+    info: File transport adapter for Requests - Python 3.X

@@ -11147,3 +11147,31 @@ repos:
   - repo: requests-file #main
     group: deepin-sysdev-team
     info: File transport adapter for Requests - Python 3.X
+
+  - repo: libtorrent-rasterbar
+    group: deepin-sysdev-team
+    info: C++ bittorrent library by Rasterbar Software
+
+  - repo: qbittorrent
+    group: deepin-sysdev-team
+    info: bittorrent client based on libtorrent-rasterbar with a Qt5 GUI
+
+  - repo: midicsv
+    group: deepin-sysdev-team
+    info: translate MIDI file to CSV
+
+  - repo: pax
+    group: deepin-sysdev-team
+    info: Portable Archive Interchange (cpio, pax, tar)
+
+  - repo: musescore-general-soundfont-small
+    group: deepin-sysdev-team
+    info: General SoundFont from MuseScore (lossy)
+
+  - repo: portaudio19
+    group: deepin-sysdev-team
+    info: Portable audio I/O
+
+  - repo: musescore3
+    group: deepin-sysdev-team
+    info: cross-platform multi-lingual music composition and notation, v3

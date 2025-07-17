@@ -11175,3 +11175,7 @@ repos:
   - repo: musescore3
     group: deepin-sysdev-team
     info: cross-platform multi-lingual music composition and notation, v3
+
+  - repo: qpwgraph
+    group: deepin-sysdev-team
+    info: PipeWire Graph Qt GUI Interface

@@ -11179,3 +11179,7 @@ repos:
   - repo: qpwgraph
     group: deepin-sysdev-team
     info: PipeWire Graph Qt GUI Interface
+
+  - repo: retroarch
+    group: deepin-sysdev-team
+    info: Simple fronted for the libretro library

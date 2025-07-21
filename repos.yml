@@ -5263,6 +5263,10 @@ repos:
       This is an interface to the GNU Compiler Collection for the collection and
       analysis of compiler-generated binaries.
 
+  - repo: libad9361-iio
+    group: deepin-sysdev-team
+    info: Library of functions specific to the Analog Devices AD9361
+
   - repo: libadwaita #main
     group: deepin-sysdev-team
     info: Library with GTK widgets for mobile phones
@@ -5620,6 +5624,10 @@ repos:
   - repo: libhttp-request-ascgi-perl
     group: deepin-sysdev-team
     info: module to setup a CGI environment from a HTTP::Request
+
+  - repo: libiio
+    group: deepin-sysdev-team
+    info: Library for interfacing with IIO devices
 
   - repo: libinsane
     group: deepin-sysdev-team
@@ -6348,6 +6356,10 @@ repos:
   - repo: libuev
     group: deepin-sysdev-team
     info: libuEv is a small event loop that wraps the Linux epoll() family of APIs.
+
+  - repo: libuhd
+    group: deepin-sysdev-team
+    info: universal hardware driver for Ettus Research products
 
   - repo: libunique
     group: deepin-sysdev-team

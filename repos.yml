@@ -1248,6 +1248,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: felix86
+    group: deepin-sysdev-team
+    info: Run x86 and x86-64 games on RISC-V Linux
+
   - repo: filezilla
     group: deepin-sysdev-team
     info: Full-featured graphical FTP/FTPS/SFTP client
@@ -1794,6 +1798,10 @@ repos:
   - repo: gnu-which
     group: deepin-sysdev-team
     info: Utility to show the full path of commands
+
+  - repo: gnuradio
+    group: deepin-sysdev-team
+    info: GNU Radio Software Radio Toolkit
 
   - repo: gnustep-base
     group: deepin-sysdev-team

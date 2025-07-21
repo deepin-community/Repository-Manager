@@ -1016,6 +1016,10 @@ repos:
     group: deepin-sysdev-team
     info: patch maintenance system for Debian source packages
 
+  - repo: dpdk
+    group: deepin-sysdev-team
+    info: Data Plane Development Kit
+
   - repo: dpkg-awk #main
     group: deepin-sysdev-team
     info: Gawk script to parse /var/lib/dpkg/{status,available} and Packages
@@ -5314,6 +5318,10 @@ repos:
   - repo: libcangjie
     group: deepin-sysdev-team
     info: Cangjie input method library
+
+  - repo: libcdk5
+    group: deepin-sysdev-team
+    info: C-based curses widget library
 
   - repo: libcec
     group: deepin-sysdev-team

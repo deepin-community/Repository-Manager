@@ -6357,10 +6357,6 @@ repos:
     group: deepin-sysdev-team
     info: libuEv is a small event loop that wraps the Linux epoll() family of APIs.
 
-  - repo: libuhd
-    group: deepin-sysdev-team
-    info: universal hardware driver for Ettus Research products
-
   - repo: libunique
     group: deepin-sysdev-team
     info: Unique is a library for writing single instance application.
@@ -10366,6 +10362,10 @@ repos:
   - repo: uglifyjs
     group: deepin-sysdev-team
     info: JavaScript parser, mangler/compressor and beautifier toolkit
+
+  - repo: uhd
+    group: deepin-sysdev-team
+    info: universal hardware driver for Ettus Research products
 
   - repo: uml-utilities #main
     group: deepin-sysdev-team

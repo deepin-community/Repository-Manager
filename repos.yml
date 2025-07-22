@@ -4259,6 +4259,10 @@ repos:
     group: deepin-sysdev-team
     info: complete batch renamer for Linux
 
+  - repo: gqrx
+    group: deepin-sysdev-team
+    info: Software defined radio receiver
+
   - repo: gradle-debian-helper #main
     group: deepin-sysdev-team
     info: Helper tools for building Debian packages with Gradle

@@ -11116,6 +11116,34 @@ repos:
     group: deepin-sysdev-team
     info: dynamic universal music bibliotheque
 
+  - repo: gsmartcontrol
+    group: spark-store-deepin
+    info: GSmartControl is a graphical user interface for smartctl, which is a tool for querying and controlling SMART (Self-Monitoring, Analysis, and Reporting Technology) data on modern hard disk drives. It allows you to inspect the drive's SMART data to determine its health, as well as run various tests on it.
+
+  - repo: testdisk
+    group: spark-store-deepin
+    info: TestDisk checks the partition and boot sectors of your disks. It is very useful in forensics, recovering lost partitions.
+
+  - repo: 2048-qt
+    group: spark-store-deepin
+    info: 2048 难题是基于数学的解谜游戏，你需要在一个格子棋盘上滑动滑块，将其组合并创 建数字 2048。 你需要使用四个方向键移动并合并相似的滑块（2n）。当具有两个相同数字的滑块接 触时，它们会合二为一。
+
+  - repo: libwhereami
+    group: spark-store-deepin
+    info: locate the current executable and the current module (development files)
+
+  - repo: libewf
+    group: spark-store-deepin
+    info: library with support for Expert Witness Compression Format
+
+  - repo: libfsntfs
+    group: spark-store-deepin
+    info: NTFS access library
+
+  - repo: kdiskmark
+    group: spark-store-deepin
+    info: simple disk benchmark tool
+
   - repo: contour
     group: deepin-sysdev-team
     info: Modern C++ Terminal Emulator

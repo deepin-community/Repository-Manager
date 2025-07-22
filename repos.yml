@@ -4263,6 +4263,10 @@ repos:
     group: deepin-sysdev-team
     info: Software defined radio receiver
 
+  - repo: gr-osmosdr
+    group: deepin-sysdev-team
+    info: Gnuradio blocks from the OsmoSDR project
+
   - repo: gradle-debian-helper #main
     group: deepin-sysdev-team
     info: Helper tools for building Debian packages with Gradle

@@ -6397,6 +6397,10 @@ repos:
     group: deepin-sysdev-team
     info: smart URI fetching/caching client
 
+  - repo: libusb3380
+    group: deepin-sysdev-team
+    info: USB3380 abstraction layer for libusb
+
   - repo: libuv1 #main
     group: deepin-sysdev-team
     info: asynchronous event notification library
@@ -8192,6 +8196,10 @@ repos:
   - repo: pyside2 #main
     group: deepin-sysdev-team
     info: Python 3 bindings for Qt5
+
+  - repo: pyside6
+    group: deepin-sysdev-team
+    info: Python bindings for Qt 6
 
   - repo: pysimplesoap
     group: deepin-sysdev-team
@@ -10016,6 +10024,10 @@ repos:
   - repo: sphinx-prompt #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
+
+  - repo: sphinx-qt-documentation
+    group: deepin-sysdev-team
+    info: Plugin for proper resolve intersphinx references for Qt elements
 
   - repo: sphinx-remove-toctrees #main
     group: deepin-sysdev-team

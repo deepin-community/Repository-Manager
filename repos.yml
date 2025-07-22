@@ -6297,6 +6297,10 @@ repos:
     group: deepin-sysdev-team
     info: module to set CPU affinity for processes
 
+  - repo: libtecla
+    group: deepin-sysdev-team
+    info: interactive command line editing facilities
+
   - repo: libterm-readline-gnu-perl
     group: deepin-sysdev-team
     info: Perl extension for the GNU ReadLine/History Library
@@ -6460,6 +6464,10 @@ repos:
   - repo: libxtrx
     group: deepin-sysdev-team
     info: High-level XTRX API library
+
+  - repo: libxtrxll
+    group: deepin-sysdev-team
+    info: Low-level XTRX hardware abstraction library
 
   - repo: lilypond
     group: deepin-sysdev-team
@@ -8730,6 +8738,10 @@ repos:
   - repo: python-pyproject-parser #main
     group: deepin-sysdev-team
     info: parser for 'pyproject.toml' file
+
+  - repo: python-pyqtgraph
+    group: deepin-sysdev-team
+    info: Scientific Graphics and GUI Library for Python 3
 
   - repo: python-pytest-click #main
     group: deepin-sysdev-team

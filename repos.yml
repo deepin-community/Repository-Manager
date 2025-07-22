@@ -4259,7 +4259,7 @@ repos:
     group: deepin-sysdev-team
     info: complete batch renamer for Linux
 
-  - repo: gqrx
+  - repo: gqrx-sdr
     group: deepin-sysdev-team
     info: Software defined radio receiver
 

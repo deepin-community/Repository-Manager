@@ -10623,6 +10623,10 @@ repos:
     group: deepin-sysdev-team
     info: Provides secure file deletion
 
+  - repo: wine
+    group: deepin-sysdev-team
+    info: Windows API implementation
+
   - repo: wireguard
     group: deepin-sysdev-team
     info: fast, modern, secure kernel VPN tunnel (metapackage)

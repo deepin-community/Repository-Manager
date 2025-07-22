@@ -10431,6 +10431,10 @@ repos:
     group: deepin-sysdev-team
     info: User-mode Linux (utility programs)
 
+  - repo: unicode-idna
+    group: deepin-sysdev-team
+    info: unicode IDNA compatible processing data
+
   - repo: unifdef #main
     group: deepin-sysdev-team
     info: The unifdef utility selectively processes conditional cpp(1) directives.

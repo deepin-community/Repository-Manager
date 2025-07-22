@@ -316,6 +316,10 @@ repos:
     group: deepin-sysdev-team
     info: Internet routing daemon with full support for all the major routing protocols
 
+  - repo: bladerf
+    group: deepin-sysdev-team
+    info: Nuand bladeRF software-defined radio device (tools)
+
   - repo: blender
     group: deepin-sysdev-team
     info: Very fast and versatile 3D modeller/renderer
@@ -4263,6 +4267,14 @@ repos:
     group: deepin-sysdev-team
     info: Software defined radio receiver
 
+  - repo: gr-funcube
+    group: deepin-sysdev-team
+    info: Funcube Dongle controller for GNU Radio
+
+  - repo: gr-iqbal
+    group: deepin-sysdev-team
+    info: GNU Radio Blind IQ imbalance estimator and correction
+
   - repo: gr-osmosdr
     group: deepin-sysdev-team
     info: Gnuradio blocks from the OsmoSDR project
@@ -6444,6 +6456,10 @@ repos:
   - repo: libxnvctrl #main
     group: deepin-sysdev-team
     info: NV-CONTROL X extension
+
+  - repo: libxtrx
+    group: deepin-sysdev-team
+    info: High-level XTRX API library
 
   - repo: lilypond
     group: deepin-sysdev-team

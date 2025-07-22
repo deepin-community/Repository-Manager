@@ -11267,3 +11267,7 @@ repos:
   - repo: retroarch
     group: deepin-sysdev-team
     info: Simple fronted for the libretro library
+
+  - repo: pre-commit
+    group: deepin-sysdev-team
+    info: A framework for managing and maintaining multi-language Git pre-commit hooks

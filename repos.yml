@@ -9024,6 +9024,10 @@ repos:
     group: deepin-sysdev-team
     info: Qt-based slow-scan TV and fax
 
+  - repo: qt6-graphs
+    group: deepin-sysdev-team
+    info: Qt 6 Graphs library
+
   - repo: qt6-grpc #main
     group: deepin-sysdev-team
     info: Qt 6 gRPC

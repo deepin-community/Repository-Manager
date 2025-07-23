@@ -9800,6 +9800,10 @@ repos:
     group: deepin-sysdev-team
     info: simple but powerful libvte-based terminal emulator
 
+  - repo: sane-airscan
+    group: deepin-sysdev-team
+    info: SANE backend for AirScan (eSCL) and WSD document scanner
+
   - repo: sass-stylesheets-bulma #main
     group: deepin-sysdev-team
     info: Sass and CSS framework using flexbox

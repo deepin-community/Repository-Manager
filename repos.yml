@@ -10635,6 +10635,10 @@ repos:
     group: deepin-sysdev-team
     info: Windows API implementation
 
+  - repo: winetricks
+    group: deepin-sysdev-team
+    info: simple tool to work around common problems in Wine
+
   - repo: wireguard
     group: deepin-sysdev-team
     info: fast, modern, secure kernel VPN tunnel (metapackage)

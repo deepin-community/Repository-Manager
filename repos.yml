@@ -11283,3 +11283,7 @@ repos:
   - repo: pre-commit
     group: deepin-sysdev-team
     info: A framework for managing and maintaining multi-language Git pre-commit hooks
+
+  - repo: monit #main
+    group: deepin-sysdev-team
+    info: utility for monitoring and managing daemons or similar programs

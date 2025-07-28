@@ -480,6 +480,10 @@ repos:
     group: deepin-sysdev-team
     info: C/C++/ObjC language server
 
+  - repo: cgif #main
+    group: deepin-sysdev-team
+    info: GIF encoder written in C
+
   - repo: chafa #main
     group: deepin-sysdev-team
     info: ASCII art image generator
@@ -6264,6 +6268,10 @@ repos:
     info:
       provides alternative to the proprietary 3Dconnexion SDK for their 3D input
       devices
+
+  - repo: libspng #main
+    group: deepin-sysdev-team
+    info: simple, modern libpng alternative
 
   - repo: libstdc++-arm-none-eabi #main
     group: deepin-sysdev-team

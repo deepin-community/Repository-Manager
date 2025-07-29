@@ -934,6 +934,10 @@ repos:
     group: deepin-sysdev-team
     info: Device firmware update (DFU) USB programmer
 
+  - repo: dgit #main
+    group: deepin-sysdev-team
+    info: git interoperability with the Debian archive
+
   - repo: dh-builtusing #main
     group: deepin-sysdev-team
     info: debhelper tool generating the Built-Using field for Debian packages

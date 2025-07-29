@@ -56,6 +56,14 @@ repos:
     group: deepin-sysdev-team
     info: Tiny and efficient software defined radio receiver
 
+  - repo: alien #main
+    group: deepin-sysdev-team
+    info: convert and install rpm and other packages
+
+  - repo: allegro5 #main
+    group: deepin-sysdev-team
+    info: portable library for cross-platform game and multimedia development
+
   - repo: alsa-tools #main
     group: deepin-sysdev-team
     info: Console based ALSA utilities for specific hardware
@@ -130,6 +138,10 @@ repos:
     group: deepin-pkg
     info: Android SDK meta packages
 
+  - repo: android-udev-rules
+    group: deepin-sysdev-team
+    info:  udev rules for Android tool
+
   - repo: antlr4-cpp-runtime #main
     group: deepin-sysdev-team
     info: in order to be imported and to be linked to by means of CMake targets
@@ -167,6 +179,10 @@ repos:
   - repo: architecture-properties
     group: deepin-sysdev-team
     info: Declarative architecture constraints
+
+  - repo: ardour
+    group: deepin-sysdev-team
+    info: The digital audio workstation
 
   - repo: argparse-manpage #main
     group: deepin-sysdev-team
@@ -216,6 +232,10 @@ repos:
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity
 
+  - repo: aubio
+    group: deepin-sysdev-team
+    info: Library for audio segmentation
+
   - repo: audacious-plugins
     group: deepin-sysdev-team
     info: Base plugins for audacious
@@ -255,6 +275,10 @@ repos:
   - repo: base16384
     group: deepin-sysdev-team
     info: Encode binary files to printable utf16be
+
+  - repo: bash-pinyin-completion-cpp #main
+    group: deepin-sysdev-team
+    info: Chinese Pinyin completion for bash
 
   - repo: bashdb
     group: deepin-sysdev-team
@@ -365,6 +389,10 @@ repos:
   - repo: box64 #main
     group: deepin-sysdev-team
     info: run amd64 binaries on arm64 without emulating library calls
+
+  - repo: boxed-cpp
+    group: deepin-sysdev-team
+    info: Small header-only library for easing primitive type boxing in C++
 
   - repo: boxquote-el #main
     group: deepin-sysdev-team
@@ -640,6 +668,10 @@ repos:
     group: deepin-sysdev-team
     info: Externally reusable Go packages included with Continuity
 
+  - repo: contour
+    group: deepin-sysdev-team
+    info: Modern C++ Terminal Emulator
+
   - repo: contourpy #main
     group: deepin-sysdev-team
     info: Python library for calculating contours of 2D quadrilateral grids
@@ -721,6 +753,10 @@ repos:
   - repo: crudini
     group: spark-store-deepin
     info: utility for manipulating ini files
+
+  - repo: cruft-ng
+    group: deepin-sysdev-team
+    info: programs that helps analyse volatile "cruft" files on your system
 
   - repo: crun #main
     group: deepin-sysdev-team
@@ -1044,6 +1080,14 @@ repos:
     group: deepin-sysdev-team
     info: diskless remote boot, and a disk cloning utility
 
+  - repo: dtk2core
+    group: spark-store-deepin
+    info:  Deepin Tool Kit 2 core, modified by GXDE OS Team to run well with DTK5
+
+  - repo: dtk2widget
+    group: spark-store-deepin
+    info:  Deepin Tool Kit 2 widgets, modified by GXDE OS Team to run well with DTK5
+
   - repo: duktape #amin
     group: deepin-sysdev-team
     info: embeddable Javascript engine, development files
@@ -1111,6 +1155,10 @@ repos:
   - repo: eigen3 #main
     group: deepin-sysdev-team
     info: lightweight C++ template library for linear algebra
+
+  - repo: eiskaltdcpp
+    group: deepin-sysdev-team
+    info: file sharing program using Direct Connect protocols
 
   - repo: el-api
     group: deepin-sysdev-team
@@ -1565,6 +1613,10 @@ repos:
       and arrays of bytes, including wide character strings and multi-byte character
       strings.
 
+  - repo: fsverity-utils #main
+    group: deepin-sysdev-team
+    info: userspace utilities for fs-verity
+
   - repo: ftgl #main
     group: deepin-sysdev-team
     info: development files for libftgl
@@ -1572,6 +1624,10 @@ repos:
   - repo: furo
     group: deepin-sysdev-team
     info: clean customisable Sphinx documentation theme
+
+  - repo: fuse-archive #main
+    group: deepin-sysdev-team
+    info: Mount an archive or compressed file as a FUSE file system
 
   - repo: fwupd-efi #main
     group: deepin-sysdev-team
@@ -1584,6 +1640,10 @@ repos:
   - repo: fzf
     group: deepin-sysdev-team
     info: general-purpose command-line fuzzy finder
+
+  - repo: gamescope
+    group: deepin-sysdev-team
+    info: Micro-compositor for game scaling
 
   - repo: gamgi
     group: deepin-sysdev-team
@@ -1598,6 +1658,10 @@ repos:
   - repo: gammaray
     group: deepin-sysdev-team
     info: Tool for examining the internals of Qt application
+
+  - repo: gauche #main
+    group: deepin-sysdev-team
+    info: Scheme script engine
 
   - repo: gbinder-python #main
     group: deepin-sysdev-team
@@ -1815,9 +1879,17 @@ repos:
     group: deepin-sysdev-team
     info: GNU Radio Software Radio Toolkit
 
+  - repo: gnustep-back
+    group: deepin-sysdev-team
+    info: GNUstep GUI Backend
+
   - repo: gnustep-base
     group: deepin-sysdev-team
     info: GNUstep Base library - common files
+
+  - repo: gnustep-gui
+    group: deepin-sysdev-team
+    info: GNUstep GUI Library
 
   - repo: gnutls28
     group: deepin-sysdev-team
@@ -1846,6 +1918,10 @@ repos:
   - repo: gocc #main
     group: deepin-sysdev-team
     info: Go lexer and parser generator
+
+  - repo: godot
+    group: deepin-sysdev-team
+    info: Full 2D and 3D game engine with editor
 
   - repo: golang-1.15
     group: deepin-sysdev-team
@@ -4694,6 +4770,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ representation of 2D and 3D vectors and matrices and other objects
 
+  - repo: imgui #main
+    group: deepin-sysdev-team
+    info: A bloat-free graphical user interface library for C++.
+
   - repo: importlib-resources #main
     group: deepin-sysdev-team
     info: Read resources from Python packages
@@ -4839,6 +4919,10 @@ repos:
   - repo: ivy-debian-helper #main
     group: deepin-sysdev-team
     info: lper tools for building Debian packages with Ivy
+
+  - repo: jackd-defaults #main
+    group: deepin-sysdev-team
+    info:  JACK Audio Connection Kit (default server package)
 
   - repo: jakarta-activation #main
     group: deepin-sysdev-team
@@ -5215,6 +5299,10 @@ repos:
     group: deepin-sysdev-team
     info: Simple terminal emulator based on Kernel Mode Setting
 
+  - repo: kmscube
+    group: deepin-sysdev-team
+    info: Example KMS/GBM/EGL application
+
   - repo: kodi
     group: deepin-sysdev-team
     info: Open Source Home Theatre (executable binaries)
@@ -5443,6 +5531,10 @@ repos:
     group: deepin-sysdev-team
     info: module for creating DateTime objects with sub-second current time resolution
 
+  - repo: libdbusmenu-lxqt #main
+    group: deepin-sysdev-team
+    info: DBusMenu protocol implementation for lxqt - development files
+
   - repo: libdebian-copyright-perl
     group: deepin-sysdev-team
     info: Perl module to parse Debian copyright files
@@ -5505,9 +5597,21 @@ repos:
     group: deepin-sysdev-team
     info: zilla
 
+  - repo: libdumb #main
+    group: deepin-sysdev-team
+    info: dynamic universal music bibliotheque
+
   - repo: libdumbtts #main
     group: deepin-sysdev-team
     info: Helper library for dumb speech synthesizers
+
+  - repo: libebml
+    group: deepin-sysdev-team
+    info: access library for the EBML format
+
+  - repo: libei
+    group: deepin-sysdev-team
+    info: Emulated Input client library
 
   - repo: libelfin
     group: deepin-sysdev-team
@@ -5657,6 +5761,10 @@ repos:
     group: deepin-sysdev-team
     info: module to setup a CGI environment from a HTTP::Request
 
+  - repo: libicns
+    group: deepin-sysdev-team
+    info: library for manipulation of the Mac OS icns format
+
   - repo: libiio
     group: deepin-sysdev-team
     info: Library for interfacing with IIO devices
@@ -5748,6 +5856,10 @@ repos:
   - repo: liblwp-authen-wsse-perl #main
     group: deepin-sysdev-team
     info: library for enabling X-WSSE authentication in LWP
+
+  - repo: libmatroska
+    group: deepin-sysdev-team
+    info: extensible open standard audio/video container format
 
   - repo: libmbim #main
     group: deepin-sysdev-team
@@ -6149,6 +6261,10 @@ repos:
     group: deepin-sysdev-team
     info: Qalculate! is small and simple to use but with much power and versatility underneath
 
+  - repo: libqglviewer
+    group: deepin-sysdev-team
+    info: OpenGL 3D viewer library based on Qt
+
   - repo: libqmi #main
     group: deepin-sysdev-team
     info: Header files for adding QMI support to applications that use glib
@@ -6173,13 +6289,13 @@ repos:
     group: deepin-sysdev-team
     info: Qt/C++ wrapper over minizip
 
-  - repo: librecad
-    group: deepin-sysdev-team
-    info: Computer-aided design (CAD) system
-
   - repo: libre-engine-re2-perl
     group: deepin-sysdev-team
     info: RE2 regex engine
+
+  - repo: librecad
+    group: deepin-sysdev-team
+    info: Computer-aided design (CAD) system
 
   - repo: librist
     group: deepin-sysdev-team
@@ -6397,6 +6513,10 @@ repos:
     group: deepin-sysdev-team
     info: libuEv is a small event loop that wraps the Linux epoll() family of APIs.
 
+  - repo: libunicode
+    group: deepin-sysdev-team
+    info: Unicode and UTF-8 C++ library
+
   - repo: libunique
     group: deepin-sysdev-team
     info: Unique is a library for writing single instance application.
@@ -6408,6 +6528,10 @@ repos:
   - repo: libusb3380
     group: deepin-sysdev-team
     info: USB3380 abstraction layer for libusb
+
+  - repo: libuser #main
+    group: deepin-sysdev-team
+    info: user and group account administration library
 
   - repo: libuv1 #main
     group: deepin-sysdev-team
@@ -6557,6 +6681,10 @@ repos:
     group: deepin-sysdev-team
     info: 2D game development framework based on Lua and OpenGL
 
+  - repo: lrzip #main
+    group: deepin-sysdev-team
+    info: compression program with a very high compression ratio
+
   - repo: lsb-release-minimal
     group: deepin-sysdev-team
     info: Linux Standard Base version reporting utility (minimal implementation)
@@ -6623,9 +6751,29 @@ repos:
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support
 
+  - repo: lutris
+    group: deepin-sysdev-team
+    info: Video game preservation platform
+
   - repo: lwt-log #main
     group: deepin-sysdev-team
     info: Lwt-friendly logging library
+
+  - repo: lxqt-archiver #main
+    group: deepin-sysdev-team
+    info: Archiv Manager for LXQt
+
+  - repo: lxqt-branding-debian #main
+    group: deepin-sysdev-team
+    info: Debian branding for LXQt
+
+  - repo: lxqt-build-tools-qt5 #main
+    group: deepin-sysdev-team
+    info: Build tools for the LXQt desktop environment
+
+  - repo: lxqt-menu-data #main
+    group: deepin-sysdev-team
+    info: menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt
 
   - repo: makedumpfile #main
     group: deepin-sysdev-team
@@ -6754,6 +6902,10 @@ repos:
     group: deepin-sysdev-team
     info: MicroProfile is a specification for Enterprise Java microservices.
 
+  - repo: midicsv
+    group: deepin-sysdev-team
+    info: translate MIDI file to CSV
+
   - repo: mimalloc #main
     group: deepin-sysdev-team
     info: compact general purpose allocator with excellent performance
@@ -6822,6 +6974,10 @@ repos:
     group: deepin-sysdev-team
     info: simple command line utility to create BitTorrent metainfo files
 
+  - repo: mkvtoolnix
+    group: deepin-sysdev-team
+    info: Set of command-line tools to work with Matroska files
+
   - repo: mmdebstrap
     group: deepin-sysdev-team
     info: create a Debian chroot
@@ -6841,6 +6997,14 @@ repos:
   - repo: mongo-c-driver #main
     group: deepin-sysdev-team
     info: MongoDB C client library
+
+  - repo: monit #main
+    group: deepin-sysdev-team
+    info: utility for monitoring and managing daemons or similar programs
+
+  - repo: moonlight-qt
+    group: deepin-sysdev-team
+    info: Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine
 
   - repo: moreutils
     group: deepin-sysdev-team
@@ -6874,6 +7038,10 @@ repos:
     group: deepin-sysdev-team
     info: multiple precision floating-point interval computation library
 
+  - repo: mpfrcplusplus
+    group: deepin-sysdev-team
+    info: multi-precision floating point number class for C++
+
   - repo: mpl-sphinx-theme #main
     group: deepin-sysdev-team
     info: Provides a customizable Sphinx theme for Matplotlib projects.
@@ -6905,6 +7073,14 @@ repos:
   - repo: mupdf #main
     group: deepin-sysdev-team
     info: lightweight PDF viewer
+
+  - repo: musescore-general-soundfont-small
+    group: deepin-sysdev-team
+    info: General SoundFont from MuseScore (lossy)
+
+  - repo: musescore3
+    group: deepin-sysdev-team
+    info: cross-platform multi-lingual music composition and notation, v3
 
   - repo: mutt-alias-el #main
     group: deepin-sysdev-team
@@ -7691,6 +7867,14 @@ repos:
       It is a command-line tool which extracts the text out of OpenDocument Texts,
       as produced by OpenOffice.org, KOffice, StarOffice and others.
 
+  - repo: ogre #main
+    group: deepin-sysdev-team
+    info: 3D Object-Oriented Graphics Rendering Engine (tools)
+
+  - repo: ogre-1.9 #main
+    group: deepin-sysdev-team
+    info: 3D Object-Oriented Graphics Rendering Engine (tools)
+
   - repo: ois #main
     group: deepin-sysdev-team
     info: Object Oriented Input System library (C++ development headers)
@@ -7710,6 +7894,10 @@ repos:
   - repo: open-vm-tools #main
     group: deepin-sysdev-team
     info: Open VMware Tools for virtual machines hosted on VMware (CLI)
+
+  - repo: openbangla-keyboard
+    group: deepin-sysdev-team
+    info: Bengali input method
 
   - repo: opencascade #main
     group: deepin-sysdev-team
@@ -7804,10 +7992,6 @@ repos:
     group: deepin-sysdev-team
     info: OpenXR software development kit
 
-  - repo: ogre-1.9 #main
-    group: deepin-sysdev-team
-    info: 3D Object-Oriented Graphics Rendering Engine (tools)
-
   - repo: oscrypto #main
     group: deepin-sysdev-team
     info: cryptography library for Python
@@ -7892,6 +8076,10 @@ repos:
     group: deepin-sysdev-team
     info: command line archive file manager
 
+  - repo: pax
+    group: deepin-sysdev-team
+    info: Portable Archive Interchange (cpio, pax, tar)
+
   - repo: pbzip2
     group: deepin-sysdev-team
     info: parallel bzip2 implementation
@@ -7941,6 +8129,10 @@ repos:
   - repo: pikepdf #main
     group: deepin-sysdev-team
     info: Python library to read and write PDFs with QPDF
+
+  - repo: pikopixel
+    group: deepin-sysdev-team
+    info: Pixel-art editor
 
   - repo: pineapple-pictures
     group: deepin-sysdev-team
@@ -8020,6 +8212,10 @@ repos:
     group: deepin-sysdev-team
     info: Tools to manage Python library's data files
 
+  - repo: portaudio19
+    group: deepin-sysdev-team
+    info: Portable audio I/O
+
   - repo: postgresql-15 #main
     group: deepin-sysdev-team
     info: The World's Most Advanced Open Source Relational Database
@@ -8048,6 +8244,10 @@ repos:
   - repo: ppx-let #main
     group: deepin-sysdev-team
     info: ppx rewriter for monadic and applicative bindings
+
+  - repo: pre-commit
+    group: deepin-sysdev-team
+    info: A framework for managing and maintaining multi-language Git pre-commit hooks
 
   - repo: preload #main
     group: deepin-sysdev-team
@@ -8116,6 +8316,10 @@ repos:
   - repo: pydantic-core #main
     group: deepin-sysdev-team
     info: Rust implementation of pydantic core functionality
+
+  - repo: pydbus
+    group: spark-store-deepin
+    info: Pythonic D-Bus library (Python 3)
 
   - repo: pydevd #main
     group: deepin-sysdev-team
@@ -9000,6 +9204,10 @@ repos:
     group: deepin-sysdev-team
     info: Custom YAML tag for referencing environment variables
 
+  - repo: qbittorrent
+    group: deepin-sysdev-team
+    info: bittorrent client based on libtorrent-rasterbar with a Qt5 GUI
+
   - repo: qcoro
     group: deepin-sysdev-team
     info: C++ coroutine library for Qt
@@ -9016,6 +9224,10 @@ repos:
     group: deepin-sysdev-team
     info: HTTP server for Qt applications
 
+  - repo: qjackctl #main
+    group: deepin-sysdev-team
+    info:  User interface for controlling the JACK sound server
+
   - repo: qmltermwidget
     group: deepin-sysdev-team
     info: QML port of qtermwidget
@@ -9023,6 +9235,10 @@ repos:
   - repo: qoi #main
     group: deepin-sysdev-team
     info: “Quite OK Image Format” for fast, lossless image compression
+
+  - repo: qpwgraph
+    group: deepin-sysdev-team
+    info: PipeWire Graph Qt GUI Interface
 
   - repo: qr-code-generator
     group: deepin-pkg
@@ -9184,9 +9400,17 @@ repos:
       a D-Bus system service that manages discovery and enrollment in realms/domains
       like Active Directory or IPA.
 
+  - repo: recastnavigation
+    group: deepin-sysdev-team
+    info: Software implementation of Recast and Detour Navigation
+
   - repo: refind
     group: deepin-sysdev-team
     info: A graphical boot manager for EFI- and UEFI-based computers
+
+  - repo: reflection-cpp
+    group: deepin-sysdev-team
+    info: C++ static reflection support library
 
   - repo: refpolicy #main
     group: sig-deepin-security-packaging
@@ -9216,6 +9440,10 @@ repos:
     group: deepin-sysdev-team
     info: Debian package repository producer
 
+  - repo: requests-file #main
+    group: deepin-sysdev-team
+    info: File transport adapter for Requests - Python 3.X
+
   - repo: resolvconf #main
     group: deepin-sysdev-team
     info: name server information handler
@@ -9223,6 +9451,10 @@ repos:
   - repo: responses
     group: deepin-sysdev-team
     info: Utility library for mocking out the requests Python 3 library
+
+  - repo: retroarch
+    group: deepin-sysdev-team
+    info: Simple fronted for the libretro library
 
   - repo: reuse
     group: deepin-sysdev-team
@@ -9291,6 +9523,10 @@ repos:
   - repo: rpki-trust-anchors #main
     group: deepin-sysdev-team
     info: RPKI Trust Anchor Locators
+
+  - repo: rpm #main
+    group: deepin-sysdev-team
+    info: package manager for RPM
 
   - repo: rsetup
     group: deepin-sysdev-team
@@ -9378,6 +9614,10 @@ repos:
     group: deepin-sysdev-team
     info: Reading/writing numbers in big-endian and little-endian.
 
+  - repo: rust-cdylib-link-lines #main
+    group: deepin-sysdev-team
+    info: Collection of link-lines useful to build correct cdylibs on targets
+
   - repo: rust-cexpr
     group: deepin-sysdev-team
     info: This package contains the source for the Rust cexpr crate.
@@ -9434,6 +9674,10 @@ repos:
     group: deepin-sysdev-team
     info: __attribute__((constructor)) for Rust.
 
+  - repo: rust-curve25519-dalek #main
+    group: deepin-sysdev-team
+    info: A library for arithmetic over the Curve25519 and Ristretto elliptic curves and their associated scalars
+
   - repo: rust-defaults #main
     group: deepin-sysdev-team
     info: Meta-package for default Rust toolchains
@@ -9451,6 +9695,10 @@ repos:
   - repo: rust-dtoa
     group: deepin-sysdev-team
     info: the source for the Rust dtoa crate
+
+  - repo: rust-ed25519 #main
+    group: deepin-sysdev-team
+    info: generic Ed25519 signature algorithm - Rust source code
 
   - repo: rust-either
     group: deepin-sysdev-team
@@ -9620,6 +9868,10 @@ repos:
       Safe, reliable implementation of remove_dir_all for Windows - Rust source
       code
 
+  - repo: rust-rpm-sequoia #main
+    group: deepin-sysdev-team
+    info: An OpenPGP backend for rpm using Sequoia PGP
+
   - repo: rust-rustc-hash
     group: deepin-sysdev-team
     info: Speed, non-cryptographic hash used in rustc - Rust source code
@@ -9647,6 +9899,14 @@ repos:
   - repo: rust-semver
     group: deepin-sysdev-team
     info: the source for the Rust semver crate
+
+  - repo: rust-sequoia-openpgp #main
+    group: deepin-sysdev-team
+    info: OpenPGP data types and associated machinery - Rust source code
+
+  - repo: rust-sequoia-policy-config #main
+    group: deepin-sysdev-team
+    info: Configure Sequoia using a configuration file - Rust source code
 
   - repo: rust-serde
     group: deepin-sysdev-team
@@ -9868,6 +10128,10 @@ repos:
     group: deepin-sysdev-team
     info: A header only c++ library of semver
 
+  - repo: sendemail #main
+    group: deepin-sysdev-team
+    info:  lightweight, command line SMTP email client
+
   - repo: sensors-applet
     group: deepin-sysdev-team
     info: Display readings from hardware sensors in your Gnome panel
@@ -9919,6 +10183,10 @@ repos:
   - repo: sip6 #main
     group: deepin-sysdev-team
     info: Python bindings generator for C/C++ libraries
+
+  - repo: sirikali #main
+    group: deepin-sysdev-team
+    info: Manage user encrypted volumes
 
   - repo: sitemesh
     group: deepin-sysdev-team
@@ -9974,6 +10242,10 @@ repos:
   - repo: sortable-tablesort.js #main
     group: deepin-sysdev-team
     info: Tiny plain JavaScript table sorter
+
+  - repo: spark-store
+    group: spark-store-deepin
+    info:  Spark APP Store for deepin
 
   - repo: sparse
     group: deepin-sysdev-team
@@ -10189,6 +10461,10 @@ repos:
     group: deepin-sysdev-team
     info: Idle management daemon for Sway
 
+  - repo: switcheroo-control #main
+    group: deepin-sysdev-team
+    info: D-Bus service to check the availability of dual-GPU
+
   - repo: swtpm
     group: deepin-sysdev-team
     info:
@@ -10211,9 +10487,17 @@ repos:
     group: deepin-sysdev-team
     info: boot performance graphing tool
 
+  - repo: systemd-cron
+    group: deepin-sysdev-team
+    info: systemd generator that provides cron daemon & anacron functionality
+
   - repo: tabbar-el #main
     group: deepin-sysdev-team
     info: Emacs minor mode that displays a tab bar at the top
+
+  - repo: taglib
+    group: deepin-sysdev-team
+    info: audio meta-data library
 
   - repo: tao-pegtl  #main
     group: deepin-sysdev-team
@@ -10347,6 +10631,10 @@ repos:
     group: deepin-sysdev-team
     info: Utility for retrieving and analyzing function tracing in the kernel
 
+  - repo: translate-shell
+    group: spark-store-deepin
+    info: Command-line translator using Google Translate, etc.
+
   - repo: tree-sitter
     group: deepin-sysdev-team
     info: Parser generator tool and incremental parsing library
@@ -10358,6 +10646,10 @@ repos:
   - repo: tree-sitter-lua
     group: deepin-sysdev-team
     info: Lua parser for Tree-sitter (source files)
+
+  - repo: tree-sitter-markdown
+    group: deepin-sysdev-team
+    info: markdown parser for Tree-sitter
 
   - repo: tree-sitter-query
     group: deepin-sysdev-team
@@ -10471,6 +10763,10 @@ repos:
     group: deepin-sysdev-team
     info: Convert the system to the merged /usr directories scheme
 
+  - repo: utf8-locale #main
+    group: deepin-sysdev-team
+    info: Detect a UTF-8-capable locale for running programs in
+
   - repo: uvloop #main
     group: deepin-sysdev-team
     info: fast implementation of asyncio event loop on top of libuv
@@ -10514,6 +10810,10 @@ repos:
   - repo: vkfft
     group: deepin-sysdev-team
     info: Vulkan Fast Fourier Transform library
+
+  - repo: vkroots
+    group: deepin-sysdev-team
+    info: vkroots framework
 
   - repo: vncdotool
     group: deepin-sysdev-team
@@ -10631,17 +10931,21 @@ repos:
     group: deepin-sysdev-team
     info: Web application bruteforcer
 
+  - repo: wfview
+    group: deepin-sysdev-team
+    info: Open-source software for the control of modern Icom radios
+
   - repo: wget2 #main
     group: deepin-sysdev-team
     info: file and recursive website downloader
 
-  - repo: wipe
-    group: deepin-sysdev-team
-    info: Provides secure file deletion
-
   - repo: wine
     group: deepin-sysdev-team
     info: Windows API implementation
+
+  - repo: wipe
+    group: deepin-sysdev-team
+    info: Provides secure file deletion
 
   - repo: wireguard
     group: deepin-sysdev-team
@@ -10690,6 +10994,10 @@ repos:
   - repo: wsjtx
     group: deepin-sysdev-team
     info: Weak-signal amateur radio communications
+
+  - repo: wslay
+    group: deepin-sysdev-team
+    info: WebSocket library written in C.
 
   - repo: wtforms #main
     group: deepin-sysdev-team
@@ -10749,6 +11057,10 @@ repos:
     group: deepin-sysdev-team
     info: CD-burner application for Xfce Desktop Environment
 
+  - repo: xfce4-screenshooter
+    group: deepin-sysdev-team
+    info: screenshots utility for Xfce
+
   - repo: xfonts-wqy #main
     group: deepin-sysdev-team
     info: WenQuanYi Bitmap Song CJK font for X
@@ -10800,6 +11112,10 @@ repos:
   - repo: xtrace
     group: deepin-sysdev-team
     info: trace communication between X client and server
+
+  - repo: yade
+    group: deepin-sysdev-team
+    info: Platform for discrete element modeling
 
   - repo: yamllint
     group: deepin-sysdev-team
@@ -10972,326 +11288,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: mkvtoolnix
-    group: deepin-sysdev-team
-    info: Set of command-line tools to work with Matroska files 
-
-  - repo: libmatroska
-    group: deepin-sysdev-team
-    info: extensible open standard audio/video container format
-
-  - repo: libebml
-    group: deepin-sysdev-team
-    info: access library for the EBML format
-
-  - repo: lxqt-archiver #main
-    group: deepin-sysdev-team
-    info: Archiv Manager for LXQt
-
-  - repo: lxqt-branding-debian #main
-    group: deepin-sysdev-team
-    info: Debian branding for LXQt
-
-  - repo: lxqt-menu-data #main
-    group: deepin-sysdev-team
-    info: menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt
-
-  - repo: wfview
-    group: deepin-sysdev-team
-    info: Open-source software for the control of modern Icom radios
-
-  - repo: sendemail #main
-    group: deepin-sysdev-team
-    info:  lightweight, command line SMTP email client
-
-  - repo: qjackctl #main
-    group: deepin-sysdev-team
-    info:  User interface for controlling the JACK sound server
-
-  - repo: android-udev-rules
-    group: deepin-sysdev-team
-    info:  udev rules for Android tool
-
-  - repo: jackd-defaults #main
-    group: deepin-sysdev-team
-    info:  JACK Audio Connection Kit (default server package)
-    
-  - repo: spark-store
-    group: spark-store-deepin
-    info:  Spark APP Store for deepin
-
-  - repo: dtk2widget
-    group: spark-store-deepin
-    info:  Deepin Tool Kit 2 widgets, modified by GXDE OS Team to run well with DTK5
-    
-  - repo: dtk2core
-    group: spark-store-deepin
-    info:  Deepin Tool Kit 2 core, modified by GXDE OS Team to run well with DTK5
-
-  - repo: lutris
-    group: deepin-sysdev-team
-    info: Video game preservation platform
-
-  - repo: lxqt-build-tools-qt5 #main
-    group: deepin-sysdev-team
-    info: Build tools for the LXQt desktop environment
-
-  - repo: libdbusmenu-lxqt #main
-    group: deepin-sysdev-team
-    info: DBusMenu protocol implementation for lxqt - development files
-
-  - repo: gauche #main
-    group: deepin-sysdev-team
-    info: Scheme script engine
-
-  - repo: fuse-archive #main
-    group: deepin-sysdev-team
-    info: Mount an archive or compressed file as a FUSE file system
-
-  - repo: openbangla-keyboard
-    group: deepin-sysdev-team
-    info: Bengali input method
-
-  - repo: yade
-    group: deepin-sysdev-team
-    info: Platform for discrete element modeling
-
-  - repo: libqglviewer
-    group: deepin-sysdev-team
-    info: OpenGL 3D viewer library based on Qt
-
-  - repo: mpfrcplusplus
-    group: deepin-sysdev-team
-    info: multi-precision floating point number class for C++
-
-  - repo: translate-shell
-    group: spark-store-deepin
-    info: Command-line translator using Google Translate, etc.
-
-  - repo: pydbus
-    group: spark-store-deepin
-    info: Pythonic D-Bus library (Python 3)
-
-  - repo: tightvnc
-    group: deepin-sysdev-team
-    info: virtual network computing client software for X
-
-  - repo: ardour
-    group: deepin-sysdev-team
-    info: The digital audio workstation
-
-  - repo: aubio
-    group: deepin-sysdev-team
-    info: Library for audio segmentation
-
-  - repo: taglib
-    group: deepin-sysdev-team
-    info: audio meta-data library
-
-  - repo: lrzip #main
-    group: deepin-sysdev-team
-    info: compression program with a very high compression ratio
-
-  - repo: tree-sitter-markdown
-    group: deepin-sysdev-team
-    info: markdown parser for Tree-sitter
-
-  - repo: bash-pinyin-completion-cpp #main
-    group: deepin-sysdev-team
-    info: Chinese Pinyin completion for bash
-
-  - repo: xfce4-screenshooter
-    group: deepin-sysdev-team
-    info: screenshots utility for Xfce
-
-  - repo: moonlight-qt
-    group: deepin-sysdev-team
-    info: Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine
-
-  - repo: kmscube 
-    group: deepin-sysdev-team
-    info: Example KMS/GBM/EGL application
-
-  - repo: libei  
-    group: deepin-sysdev-team
-    info: Emulated Input client library
-    
-  - repo: ogre #main
-    group: deepin-sysdev-team
-    info: 3D Object-Oriented Graphics Rendering Engine (tools)
-
-  - repo: allegro5 #main
-    group: deepin-sysdev-team
-    info: portable library for cross-platform game and multimedia development
-
-  - repo: imgui #main
-    group: deepin-sysdev-team
-    info: A bloat-free graphical user interface library for C++.
-
-  - repo: libdumb #main
-    group: deepin-sysdev-team
-    info: dynamic universal music bibliotheque
-
-  - repo: contour
-    group: deepin-sysdev-team
-    info: Modern C++ Terminal Emulator
-
-  - repo: boxed-cpp
-    group: deepin-sysdev-team
-    info: Small header-only library for easing primitive type boxing in C++
-
-  - repo: libunicode
-    group: deepin-sysdev-team
-    info: Unicode and UTF-8 C++ library
-
-  - repo: reflection-cpp
-    group: deepin-sysdev-team
-    info: C++ static reflection support library
-
-  - repo: sirikali #main
-    group: deepin-sysdev-team
-    info: Manage user encrypted volumes
-
-  - repo: systemd-cron
-    group: deepin-sysdev-team
-    info: systemd generator that provides cron daemon & anacron functionality
-
-  - repo: cruft-ng
-    group: deepin-sysdev-team
-    info: programs that helps analyse volatile "cruft" files on your system
-
-  - repo: gnustep-gui
-    group: deepin-sysdev-team
-    info: GNUstep GUI Library
-
-  - repo: gnustep-back
-    group: deepin-sysdev-team
-    info: GNUstep GUI Backend
-
-  - repo: libicns
-    group: deepin-sysdev-team
-    info: library for manipulation of the Mac OS icns format
-
-  - repo: pikopixel
-    group: deepin-sysdev-team
-    info: Pixel-art editor
-
-  - repo: gamescope
-    group: deepin-sysdev-team
-    info: Micro-compositor for game scaling
-
-  - repo: eiskaltdcpp
-    group: deepin-sysdev-team
-    info: file sharing program using Direct Connect protocols
-
-  - repo: vkroots
-    group: deepin-sysdev-team
-    info: vkroots framework
-
-  - repo: recastnavigation
-    group: deepin-sysdev-team
-    info: Software implementation of Recast and Detour Navigation
-
-  - repo: wslay
-    group: deepin-sysdev-team
-    info: WebSocket library written in C.
-
-  - repo: godot
-    group: deepin-sysdev-team
-    info: Full 2D and 3D game engine with editor
-
-  - repo: switcheroo-control #main
-    group: deepin-sysdev-team
-    info: D-Bus service to check the availability of dual-GPU
-
-  - repo: alien #main
-    group: deepin-sysdev-team
-    info: convert and install rpm and other packages
-
-  - repo: rpm #main
-    group: deepin-sysdev-team
-    info: package manager for RPM
-
-  - repo: libuser #main
-    group: deepin-sysdev-team
-    info: user and group account administration library
-
-  - repo: fsverity-utils #main
-    group: deepin-sysdev-team
-    info: userspace utilities for fs-verity
-
-  - repo: utf8-locale #main
-    group: deepin-sysdev-team
-    info: Detect a UTF-8-capable locale for running programs in
-
-  - repo: rust-rpm-sequoia #main
-    group: deepin-sysdev-team
-    info: An OpenPGP backend for rpm using Sequoia PGP
-
-  - repo: rust-cdylib-link-lines #main
-    group: deepin-sysdev-team
-    info: Collection of link-lines useful to build correct cdylibs on targets
-
-  - repo: rust-sequoia-openpgp #main
-    group: deepin-sysdev-team
-    info: OpenPGP data types and associated machinery - Rust source code
-
-  - repo: rust-sequoia-policy-config #main
-    group: deepin-sysdev-team
-    info: Configure Sequoia using a configuration file - Rust source code
-
-  - repo: rust-ed25519 #main
-    group: deepin-sysdev-team
-    info: generic Ed25519 signature algorithm - Rust source code
-
-  - repo: rust-curve25519-dalek #main
-    group: deepin-sysdev-team
-    info: A library for arithmetic over the Curve25519 and Ristretto elliptic curves and their associated scalars
-
-  - repo: requests-file #main
-    group: deepin-sysdev-team
-    info: File transport adapter for Requests - Python 3.X
-
-  - repo: libtorrent-rasterbar
-    group: deepin-sysdev-team
-    info: C++ bittorrent library by Rasterbar Software
-
-  - repo: qbittorrent
-    group: deepin-sysdev-team
-    info: bittorrent client based on libtorrent-rasterbar with a Qt5 GUI
-
-  - repo: midicsv
-    group: deepin-sysdev-team
-    info: translate MIDI file to CSV
-
-  - repo: pax
-    group: deepin-sysdev-team
-    info: Portable Archive Interchange (cpio, pax, tar)
-
-  - repo: musescore-general-soundfont-small
-    group: deepin-sysdev-team
-    info: General SoundFont from MuseScore (lossy)
-
-  - repo: portaudio19
-    group: deepin-sysdev-team
-    info: Portable audio I/O
-
-  - repo: musescore3
-    group: deepin-sysdev-team
-    info: cross-platform multi-lingual music composition and notation, v3
-
-  - repo: qpwgraph
-    group: deepin-sysdev-team
-    info: PipeWire Graph Qt GUI Interface
-
-  - repo: retroarch
-    group: deepin-sysdev-team
-    info: Simple fronted for the libretro library
-
-  - repo: pre-commit
-    group: deepin-sysdev-team
-    info: A framework for managing and maintaining multi-language Git pre-commit hooks
-
-  - repo: monit #main
-    group: deepin-sysdev-team
-    info: utility for monitoring and managing daemons or similar programs

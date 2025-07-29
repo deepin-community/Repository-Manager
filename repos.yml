@@ -8118,6 +8118,10 @@ repos:
     group: deepin-sysdev-team
     info: PHP, CSS and JavaScript coding standard analyzer and checker
 
+  - repo: php8.4 #main
+    group: deepin-sysdev-team
+    info: server-side, HTML-embedded scripting language
+
   - repo: phpunit #main
     group: deepin-sysdev-team
     info: Unit testing suite for PHP

@@ -11296,3 +11296,7 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: cgdb #main
+    group: deepin-sysdev-team
+    info: curses-based interface to the GNU Debugger (GDB)
+

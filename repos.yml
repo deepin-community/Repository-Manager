@@ -1827,6 +1827,10 @@ repos:
     group: deepin-sysdev-team
     info: Gmbal-pfl is a JMX instrumentation and monitoring library.
 
+  - repo: gmic
+    group: deepin-sysdev-team
+    info: GREYC's Magic for Image Computing
+
   - repo: gnome-autoar
     group: deepin-sysdev-team
     info: Archives integration support for GNOME

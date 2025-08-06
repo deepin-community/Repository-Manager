@@ -4782,6 +4782,10 @@ repos:
     group: deepin-sysdev-team
     info: A bloat-free graphical user interface library for C++.
 
+  - repo: immer #main
+    group: deepin-sysdev-team
+    info: persistent and immutable data structures
+
   - repo: importlib-resources #main
     group: deepin-sysdev-team
     info: Read resources from Python packages
@@ -5335,9 +5339,17 @@ repos:
     group: deepin-sysdev-team
     info: Desktop Sharing for KDE
 
+  - repo: krita
+    group: deepin-sysdev-team
+    info: pixel-based image manipulation program
+
   - repo: kruler
     group: deepin-sysdev-team
     info: KRuler is a tool for measuring the size, in pixels, of items on the screen.
+
+  - repo: kseexpr #main
+    group: deepin-sysdev-team
+    info: embeddable expression evaluation engine
 
   - repo: ktx
     group: deepin-sysdev-team
@@ -5358,6 +5370,10 @@ repos:
     info:
       Kwrited captures console output (e.g. broadcast messages) and prints it
       in a X window.
+
+  - repo: lager #main
+    group: deepin-sysdev-team
+    info: C++ library for value-oriented design
 
   - repo: larch
     group: deepin-sysdev-team
@@ -5814,6 +5830,10 @@ repos:
   - repo: libjxl-testdata
     group: deepin-sysdev-team
     info: libjxl-testdata contains testdata for libjxl.
+
+  - repo: libkdcraw #main
+    group: deepin-sysdev-team
+    info: RAW picture decoding library
 
   - repo: libkdegames
     group: deepin-sysdev-team
@@ -11287,6 +11307,10 @@ repos:
   - repo: zssh
     group: deepin-pkg
     info: Zmodem SSH
+
+  - repo: zug #main
+    group: deepin-sysdev-team
+    info: C++ library providing transducers
 
   - repo: zutty
     group: deepin-sysdev-team

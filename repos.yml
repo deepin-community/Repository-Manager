@@ -11332,3 +11332,7 @@ repos:
     group: deepin-sysdev-team
     info: curses-based interface to the GNU Debugger (GDB)
 
+  - repo: pstack #main
+    group: deepin-sysdev-team
+    info: Display stack trace of a running process
+

@@ -874,6 +874,10 @@ repos:
     group: deepin-sysdev-team
     info: Implementation of the Debug Adapter Protocol for Python 3
 
+  - repo: debusine #main
+    group: deepin-sysdev-team
+    info: Debusine is a general purpose software factory tailored to the needs of a Debian-based distribution.
+
   - repo: deepdiff #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11

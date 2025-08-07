@@ -508,6 +508,10 @@ repos:
     group: deepin-sysdev-team
     info: C/C++/ObjC language server
 
+  - repo: cgdb #main
+    group: deepin-sysdev-team
+    info: curses-based interface to the GNU Debugger (GDB)
+
   - repo: cgif #main
     group: deepin-sysdev-team
     info: GIF encoder written in C
@@ -8321,6 +8325,10 @@ repos:
     group: deepin-sysdev-team
     info: Extract images from PostScript files
 
+  - repo: pstack #main
+    group: deepin-sysdev-team
+    info: Display stack trace of a running process
+
   - repo: ptex-base #main
     group: deepin-sysdev-team
     info: basic ASCII pTeX library files
@@ -11327,12 +11335,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-
-  - repo: cgdb #main
-    group: deepin-sysdev-team
-    info: curses-based interface to the GNU Debugger (GDB)
-
-  - repo: pstack #main
-    group: deepin-sysdev-team
-    info: Display stack trace of a running process
 

@@ -8277,6 +8277,10 @@ repos:
     info:
       PowerTOP is a Linux tool to diagnose issues with power consumption and power management
 
+  - repo: ppsspp
+    group: deepin-sysdev-team
+    info: PPSSPP can run your PSP games on your PC in full HD resolution
+
   - repo: ppx-here #main
     group: deepin-sysdev-team
     info: OCaml extension node whose value is its source position

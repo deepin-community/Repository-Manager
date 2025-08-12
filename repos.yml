@@ -1064,6 +1064,10 @@ repos:
     group: deepin-sysdev-team
     info: Graphviz to LaTeX converter
 
+  - repo: dotnet8
+    group: deepin-sysdev-team
+    info: .NET CLI tools and runtime 8
+
   - repo: doxygen-awesome-css
     group: deepin-sysdev-team
     info: A CSS theme for Doxygen

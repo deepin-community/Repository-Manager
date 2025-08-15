@@ -11348,3 +11348,18 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: maildir-utils
+    group: deepin-sysdev-team
+    info: Set of utilities to deal with Maildirs (upstream name mu)
+
+  - repo: fbterm
+    group: deepin-sysdev-team
+    info: fast framebuffer based terminal emulator for Linux
+
+  - repo: alpine
+    group: deepin-sysdev-team
+    info: Text-based email client, friendly for novices but powerful
+
+  - repo: mosh
+    group: deepin-sysdev-team
+    info: Mobile shell that supports roaming and intelligent local echo

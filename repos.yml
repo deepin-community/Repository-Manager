@@ -8913,6 +8913,10 @@ repos:
     group: deepin-sysdev-team
     info: mailer is a Python module that simplifies sending email (Python 3)
 
+  - repo: python-mashumaro #main
+    group: deepin-sysdev-team
+    info: fast and well tested serialization library
+
   - repo: python-mechanicalsoup #main
     group: deepin-sysdev-team
     info: library for automating interaction with websites

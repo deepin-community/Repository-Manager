@@ -5993,6 +5993,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl module to manipulate Perl module names
 
+  - repo: libmodus #main
+    group: deepin-sysdev-team
+    info: library for the Modbus protocol
+
   - repo: libmongocrypt #main
     group: deepin-sysdev-team
     info: client-side field level encryption library

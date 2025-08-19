@@ -1983,6 +1983,10 @@ repos:
     group: deepin-sysdev-team
     info: Go programming language compiler - metapackage
 
+  - repo: golang-1.25 #main
+    group: deepin-sysdev-team
+    info: Go programming language
+
   - repo: golang-barcode #main
     group: deepin-sysdev-team
     info: Barcode creation lib for golang

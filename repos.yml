@@ -5993,7 +5993,7 @@ repos:
     group: deepin-sysdev-team
     info: Perl module to manipulate Perl module names
 
-  - repo: libmodus #main
+  - repo: libmodbus #main
     group: deepin-sysdev-team
     info: library for the Modbus protocol
 

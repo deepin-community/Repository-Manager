@@ -146,6 +146,22 @@ repos:
     group: deepin-sysdev-team
     info:  udev rules for Android tool
 
+  - repo: ansible #main
+    group: deepin-sysdev-team
+    info: Configuration management, deployment, and task execution system
+
+  - repo: ansible-core #main
+    group: deepin-sysdev-team
+    info: Configuration management, deployment, and task execution system
+
+  - repo: ansible-lint #main
+    group: deepin-sysdev-team
+    info: lint tool for Ansible playbooks
+
+  - repo: ansible-runner #main
+    group: deepin-sysdev-team
+    info: library that interfaces with Ansible
+
   - repo: antlr4-cpp-runtime #main
     group: deepin-sysdev-team
     info: in order to be imported and to be linked to by means of CMake targets
@@ -7212,6 +7228,10 @@ repos:
     group: deepin-sysdev-team
     info: network packet-altering stream editor
 
+  - repo: network-runner #main
+    group: deepin-sysdev-team
+    info: abstraction of Ansible for interaction with networking devices
+
   - repo: networkmanager-qt6 #main
     group: deepin-sysdev-team
     info: Qt6 wrapper for NetworkManager DBus API
@@ -8560,6 +8580,14 @@ repos:
   - repo: python-annotated-types #main
     group: deepin-sysdev-team
     info: Reusable constraint types to use with typing.Annotated
+
+  - repo: python-ansible-compat #main
+    group: deepin-sysdev-team
+    info: Ansible compatibility goodies
+
+  - repo: python-ansible-pygments #main
+    group: deepin-sysdev-team
+    info: pygments lexer and style Ansible snippets
 
   - repo: python-anyio #main
     group: deepin-sysdev-team

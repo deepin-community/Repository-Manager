@@ -64,6 +64,10 @@ repos:
     group: deepin-sysdev-team
     info: portable library for cross-platform game and multimedia development
 
+  - repo: alpine
+    group: deepin-sysdev-team
+    info: Text-based email client, friendly for novices but powerful
+
   - repo: alsa-tools #main
     group: deepin-sysdev-team
     info: Console based ALSA utilities for specific hardware
@@ -1303,6 +1307,10 @@ repos:
     info:
       Fastfetch is a neofetch-like tool for fetching system information and displaying
       them in a pretty way.
+
+  - repo: fbterm
+    group: deepin-sysdev-team
+    info: fast framebuffer based terminal emulator for Linux
 
   - repo: fcft
     group: deepin-sysdev-team
@@ -6815,6 +6823,10 @@ repos:
     group: deepin-sysdev-team
     info: menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt
 
+  - repo: maildir-utils
+    group: deepin-sysdev-team
+    info: Set of utilities to deal with Maildirs (upstream name mu)
+
   - repo: makedumpfile #main
     group: deepin-sysdev-team
     info: VMcore extraction tool
@@ -7053,6 +7065,10 @@ repos:
   - repo: morfologik-stemming2 #main
     group: deepin-sysdev-team
     info: Finite state automaton and stemming engine library
+
+  - repo: mosh
+    group: deepin-sysdev-team
+    info: Mobile shell that supports roaming and intelligent local echo
 
   - repo: mosquitto #main
     group: deepin-sysdev-team
@@ -11352,18 +11368,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: maildir-utils
-    group: deepin-sysdev-team
-    info: Set of utilities to deal with Maildirs (upstream name mu)
-
-  - repo: fbterm
-    group: deepin-sysdev-team
-    info: fast framebuffer based terminal emulator for Linux
-
-  - repo: alpine
-    group: deepin-sysdev-team
-    info: Text-based email client, friendly for novices but powerful
-
-  - repo: mosh
-    group: deepin-sysdev-team
-    info: Mobile shell that supports roaming and intelligent local echo

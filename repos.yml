@@ -5937,6 +5937,10 @@ repos:
     group: deepin-sysdev-team
     info: Software defined radio support for Mirics hardware
 
+  - repo: libmodbus #main
+    group: deepin-sysdev-team
+    info: library for the Modbus protocol
+
   - repo: libmodule-cpanfile-perl #main
     group: deepin-sysdev-team
     info: format for describing CPAN dependencies of Perl applications
@@ -5992,10 +5996,6 @@ repos:
   - repo: libmodule-util-perl #main
     group: deepin-sysdev-team
     info: Perl module to manipulate Perl module names
-
-  - repo: libmodbus #main
-    group: deepin-sysdev-team
-    info: library for the Modbus protocol
 
   - repo: libmongocrypt #main
     group: deepin-sysdev-team
@@ -7875,6 +7875,10 @@ repos:
   - repo: nvidia-persistenced #main
     group: deepin-sysdev-team
     info: daemon to maintain persistent software state in the NVIDIA driver
+
+  - repo: nvidia-prime #main
+    group: deepin-sysdev-team
+    info: Tools to enable NVIDIA's Prime
 
   - repo: nvme-cli
     group: deepin-sysdev-team
@@ -11404,6 +11408,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: nvidia-prime #main
-    group: deepin-sysdev-team
-    info: Tools to enable NVIDIA's Prime

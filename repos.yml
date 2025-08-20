@@ -16,6 +16,10 @@ repos:
     group: deepin-sysdev-team
     info: Adjust power management settings for Ryzen Mobile Processors.
 
+  - repo: aardvark-dns #main
+    group: deepin-sysdev-team
+    info: Container-focused DNS server
+
   - repo: accessible-pygments # main
     group: deepin-sysdev-team
     info: Collection of accessible pygments styles

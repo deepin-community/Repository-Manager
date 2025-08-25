@@ -5929,6 +5929,10 @@ repos:
     group: deepin-sysdev-team
     info: library for enabling X-WSSE authentication in LWP
 
+  - repo: liblwp-protocol-psgi-perl #main
+    group: deepin-sysdev-team
+    info: override LWP's HTTP/HTTPS backend with your own PSGI application    
+
   - repo: libmatroska
     group: deepin-sysdev-team
     info: extensible open standard audio/video container format

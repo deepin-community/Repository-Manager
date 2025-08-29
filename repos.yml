@@ -410,6 +410,14 @@ repos:
     group: deepin-sysdev-team
     info: bootstrap-html
 
+  - repo: borgbackup #main
+    group: deepin-sysdev-team
+    info: deduplicating and compressing backup program
+
+  - repo: borgmatic #main
+    group: deepin-sysdev-team
+    info: automatically create, prune and verify backups with borgbackup
+
   - repo: box64 #main
     group: deepin-sysdev-team
     info: run amd64 binaries on arm64 without emulating library calls

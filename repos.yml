@@ -414,9 +414,21 @@ repos:
     group: deepin-sysdev-team
     info: deduplicating and compressing backup program
 
+  - repo: borgbackup2 #main
+    group: deepin-sysdev-team
+    info: deduplicating and compressing backup program (version 2.x)
+
+  - repo: borghash #main
+    group: deepin-sysdev-team
+    info: Memory-efficient hash table (implemented in Cython)
+
   - repo: borgmatic #main
     group: deepin-sysdev-team
     info: automatically create, prune and verify backups with borgbackup
+
+  - repo: borgstore #main
+    group: deepin-sysdev-team
+    info: Simple key/value store implementation in Python
 
   - repo: box64 #main
     group: deepin-sysdev-team

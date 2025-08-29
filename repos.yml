@@ -8296,6 +8296,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to manage containers and pods
 
+  - repo: poedit #main
+    group: deepin-sysdev-team
+    info: gettext catalog editor
+
   - repo: poetry #main
     group: deepin-sysdev-team
     info: Python dependency management and packaging made easy

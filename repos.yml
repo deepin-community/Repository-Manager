@@ -5453,6 +5453,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: lazygit
+    group: deepin-sysdev-team
+    info: Simple terminal UI for git commands
+
   - repo: lerc #main
     group: deepin-sysdev-team
     info: Limited Error Raster Compression library.

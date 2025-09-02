@@ -2705,6 +2705,10 @@ repos:
     group: deepin-sysdev-team
     info: Goroutine Leak Detector
 
+  - repo: golang-github-fsmiamoto-git-todo-parser #main
+    group: deepin-sysdev-team
+    info: Small parser for git todo files
+
   - repo: golang-github-fsouza-go-dockerclient #main
     group: deepin-sysdev-team
     info: Docker client library in Go
@@ -3076,6 +3080,10 @@ repos:
   - repo: golang-github-huandu-xstrings
     group: deepin-sysdev-team
     info: A collection of useful string functions in Go.
+
+  - repo: golang-github-humanlogio-humanlog #main
+    group: deepin-sysdev-team
+    info: Logs for humans to read
 
   - repo: golang-github-ianlancetaylor-demangle #main
     group: deepin-sysdev-team

@@ -3165,6 +3165,22 @@ repos:
     group: deepin-sysdev-team
     info: Library for parsing and submitting HTML forms
 
+  - repo: golang-github-jesseduffield-generics #main
+    group: deepin-sysdev-team
+    info: extensions on the official Go generics packages (library)
+
+  - repo: golang-github-jesseduffield-gocui #main
+    group: deepin-sysdev-team
+    info: minimalist console user interfaces Go library
+
+  - repo: golang-github-jesseduffield-kill #main
+    group: deepin-sysdev-team
+    info: simple package for killing processes (library)
+
+  - repo: golang-github-jesseduffield-minimal #main
+    group: deepin-sysdev-team
+    info: Worse versions of packages that already exist (library)
+
   - repo: golang-github-jinzhu-copier #main
     group: deepin-sysdev-team
     info: Copy value from struct to struct and more (library)
@@ -3618,6 +3634,10 @@ repos:
   - repo: golang-github-ovn-org-libovsdb #main
     group: deepin-sysdev-team
     info: OVSDB Client Library
+
+  - repo: golang-github-ozeidan-fuzzy-patricia #main
+    group: deepin-sysdev-team
+    info: Generic patricia trie implemented in Go
 
   - repo: golang-github-patrickmn-go-cache
     group: deepin-sysdev-team

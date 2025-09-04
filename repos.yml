@@ -1028,6 +1028,10 @@ repos:
     group: deepin-sysdev-team
     info: simple distributed compiler client and server
 
+  - repo: distro-rack
+    group: deepin-sysdev-team
+    info: A Qt6-based GUI for managing Distrobox containers
+
   - repo: distrobox
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux

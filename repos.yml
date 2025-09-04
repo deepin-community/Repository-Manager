@@ -9247,6 +9247,10 @@ repos:
     group: deepin-sysdev-team
     info: pure Python implementation of a sliding window memory map manager
 
+  - repo: python-socks #main
+    group: deepin-sysdev-team
+    info: core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
+
   - repo: python-socksipy #main
     group: deepin-sysdev-team
     info: Python 3 SOCKS client module

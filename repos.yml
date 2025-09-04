@@ -724,6 +724,10 @@ repos:
     group: deepin-sysdev-team
     info: Python library for calculating contours of 2D quadrilateral grids
 
+  - repo: converseen #main
+    group: deepin-sysdev-team
+    info: batch image converter and resizer
+
   - repo: cool-retro-term
     group: deepin-sysdev-team
     info: A good looking terminal emulator which mimics the old cathode display.
@@ -1067,6 +1071,10 @@ repos:
   - repo: dmg2img
     group: deepin-sysdev-team
     info: Tool for converting compressed dmg files to hfsplus images
+
+  - repo: dmtx-utils #main
+    group: deepin-sysdev-team
+    info: Utilities for reading and writing Data Matrix 2D barcodes
 
   - repo: docker-compose
     group: deepin-sysdev-team
@@ -8013,6 +8021,10 @@ repos:
     group: deepin-sysdev-team
     info: Tools for the Observational Data Processing (ODB)
 
+  - repo: odr-padenc #main
+    group: deepin-sysdev-team
+    info: This is an encoder for Programme Associated Data
+
   - repo: odt2txt
     group: deepin-sysdev-team
     info:
@@ -8266,6 +8278,10 @@ repos:
     group: deepin-sysdev-team
     info: PHP, CSS and JavaScript coding standard analyzer and checker
 
+  - repo: php-imagick #main
+    group: deepin-sysdev-team
+    info: Provides a wrapper to the ImageMagick library
+
   - repo: php8.4 #main
     group: deepin-sysdev-team
     info: server-side, HTML-embedded scripting language
@@ -8408,6 +8424,10 @@ repos:
   - repo: ppx-let #main
     group: deepin-sysdev-team
     info: ppx rewriter for monadic and applicative bindings
+
+  - repo: pqiv #main
+    group: deepin-sysdev-team
+    info: Powerful image viewer with minimal UI
 
   - repo: pre-commit
     group: deepin-sysdev-team
@@ -9508,6 +9528,10 @@ repos:
     group: deepin-sysdev-team
     info: Robust, High Performance JSON Parser and Generator for R
 
+  - repo: r-cran-magick #main
+    group: deepin-sysdev-team
+    info: advanced graphics and image-processing in GNU R
+
   - repo: r-cran-pkgload #main
     group: deepin-sysdev-team
     info: simulate GNU R package installation and attach
@@ -9712,6 +9736,10 @@ repos:
     group: deepin-sysdev-team
     info:  Radxa system setup utility
 
+  - repo: rss-glx #main
+    group: deepin-sysdev-team
+    info: Really Slick Screensavers GLX Port
+
   - repo: rst2pdf
     group: deepin-sysdev-team
     info: ReportLab-based reStructuredText to PDF renderer
@@ -9749,6 +9777,10 @@ repos:
   - repo: ruby-pygments.rb #main
     group: deepin-sysdev-team
     info: pygments wrapper for Ruby
+
+  - repo: ruby-rmagick #main
+    group: deepin-sysdev-team
+    info: ImageMagick API for Ruby
 
   - repo: ruby-sdbm
     group: deepin-sysdev-team
@@ -10991,6 +11023,10 @@ repos:
     group: deepin-sysdev-team
     info: Guest additions iso image for VirtualBox
 
+  - repo: virtuoso-opensource #main
+    group: deepin-sysdev-team
+    info: high-performance database
+
   - repo: vkfft
     group: deepin-sysdev-team
     info: Vulkan Fast Fourier Transform library
@@ -11158,6 +11194,10 @@ repos:
   - repo: wlsunset
     group: deepin-sysdev-team
     info: Day/night gamma adjustments for Wayland
+
+  - repo: wmaker #main
+    group: deepin-sysdev-team
+    info: Window Maker's own widget set
 
   - repo: wmctrl #main
     group: deepin-sysdev-team

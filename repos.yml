@@ -6749,6 +6749,10 @@ repos:
     group: deepin-sysdev-team
     info: Low-level XTRX hardware abstraction library
 
+  - repo: lighttpd #main
+    group: deepin-sysdev-team
+    info: fast webserver with minimal memory footprint
+
   - repo: lilypond
     group: deepin-sysdev-team
     info: program for typesetting sheet music
@@ -10400,6 +10404,10 @@ repos:
     group: deepin-sysdev-team
     info: Replacement of QtSingleApplication for Qt5
 
+  - repo: sip-tester #main
+    group: deepin-sysdev-team
+    info: Performance testing tool for the SIP protocol
+
   - repo: sip6 #main
     group: deepin-sysdev-team
     info: Python bindings generator for C/C++ libraries
@@ -11210,6 +11218,10 @@ repos:
   - repo: wofi
     group: deepin-sysdev-team
     info: application launcher for wlroots based wayland compositors
+
+  - repo: wolfssl #main
+    group: deepin-sysdev-team
+    info: wolfSSL encryption library
 
   - repo: wpewebkit #main
     group: deepin-sysdev-team

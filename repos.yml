@@ -7854,6 +7854,10 @@ repos:
     group: deepin-sysdev-team
     info: library that helps sorting arrays on multiple keys
 
+  - repo: node-to-buffer #main
+    group: deepin-sysdev-team
+    info: Nodejs library to get a buffer robustly from various variable types
+
   - repo: node-to-regex #main
     group: deepin-sysdev-team
     info: regex generator from string or array of strings

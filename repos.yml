@@ -4487,6 +4487,10 @@ repos:
     group: deepin-sysdev-team
     info: Emacs mode for the dot-language used by graphviz
 
+  - repo: grass
+    group: deepin-sysdev-team
+    info: Geographic Resources Analysis Support System
+
   - repo: greenboot #main
     group: deepin-sysdev-team
     info: Generic Health Check Framework for systemd

@@ -9141,6 +9141,10 @@ repos:
     group: deepin-sysdev-team
     info: progressbar is a text progress bar library for Python (Python 3)
 
+  - repo: python-propcache #main
+    group: deepin-sysdev-team
+    info: Fast property caching (Python)
+
   - repo: python-prov
     group: deepin-sysdev-team
     info:

@@ -57,7 +57,7 @@ repos:
     info: python3-defaults 3.11
 
   - repo: airspyone-host
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Tiny and efficient software defined radio receiver
 
   - repo: alien #main
@@ -827,7 +827,7 @@ repos:
     info: Cubeb is a cross-platform audio library.
 
   - repo: cubicsdr
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Software Defined Radio receiver
 
   - repo: cups-bjnp #main
@@ -1035,7 +1035,7 @@ repos:
     info: Utility to set directory specific environment variables
 
   - repo: direwolf
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Soundcard TNC for APRS
 
   - repo: dirty-equals #main
@@ -1425,7 +1425,7 @@ repos:
     info: Memory Efficient Serialization Library
 
   - repo: fldigi
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: digital modem program for hamradio operators
 
   - repo: flit
@@ -1437,11 +1437,11 @@ repos:
     info: PEP 518 build backend that uses setuptools_scm and flit
 
   - repo: flmsg
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: amateur radio forms management editor
 
   - repo: flrig
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: ham radio transceiver control program
 
   - repo: fluid-soundfont
@@ -1449,7 +1449,7 @@ repos:
     info: Fluid (R3) General MIDI SoundFont (GM)
 
   - repo: fmlrpc
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: fldigi suite XmlRpc library
 
   - repo: folding-mode-el #main
@@ -1663,7 +1663,7 @@ repos:
     info: Extensible Open Source CAx program
 
   - repo: freedv
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Digital Voice mode for ham radio
 
   - repo: friso
@@ -4562,7 +4562,7 @@ repos:
     info: optimized HTTP/1.x, HTTP/2 server
 
   - repo: hackrf
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Software defined radio peripheral
 
   - repo: halibut #main
@@ -4570,7 +4570,7 @@ repos:
     info: yet another free document preparation system
 
   - repo: hamlib
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Run-time library to control radio transceivers and receivers
 
   - repo: haskell-appar #main
@@ -4857,7 +4857,7 @@ repos:
     info: monitor for icecc
 
   - repo: icom
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Software control for ICOM radios with CI-V interface
 
   - repo: icu
@@ -5120,7 +5120,7 @@ repos:
     info: python3-defaults 3.11
 
   - repo: jtdx
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Weak-signal amateur radio communications, JTDX version
 
   - repo: jtreg6
@@ -6326,7 +6326,7 @@ repos:
     info: Support for aptX and aptX HD codec variants.
 
   - repo: libosmosdr
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Software defined radio support for OsmoSDR hardware
 
   - repo: libpanel #main
@@ -9465,7 +9465,7 @@ repos:
     info: QR Code generator library in multiple languages
 
   - repo: qsstv
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Qt-based slow-scan TV and fax
 
   - repo: qt6-graphs
@@ -10445,15 +10445,15 @@ repos:
     info: memory reporting tool
 
   - repo: soapyairspy
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Airspy device support for SoapySDR
 
   - repo: soapyhackrf
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: HackRF device support for SoapySDR
 
   - repo: soapysdr
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: software defined radio interface library
 
   - repo: socket
@@ -10924,7 +10924,7 @@ repos:
     info: Validates classifiers in packages for PyPI
 
   - repo: trustedqsl
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: QSL log signing for the Logbook of the World (LoTW)
 
   - repo: tslib
@@ -11176,7 +11176,7 @@ repos:
     info: Web application bruteforcer
 
   - repo: wfview
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Open-source software for the control of modern Icom radios
 
   - repo: wget2 #main
@@ -11244,7 +11244,7 @@ repos:
     info: HTTP benchmarking tool
 
   - repo: wsjtx
-    group: deepin-sysdev-team
+    group: deepin-hamradio
     info: Weak-signal amateur radio communications
 
   - repo: wslay
@@ -11543,4 +11543,3 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
-

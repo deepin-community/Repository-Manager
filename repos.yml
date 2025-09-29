@@ -5481,6 +5481,10 @@ repos:
     group: deepin-sysdev-team
     info: kwayland-kf5
 
+  - repo: kwin
+    group: deepin-sysdev-team
+    info: KDE window manager
+
   - repo: kwrited
     group: deepin-sysdev-team
     info:

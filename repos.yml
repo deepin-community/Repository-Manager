@@ -8049,6 +8049,10 @@ repos:
     group: deepin-sysdev-team
     info: library of logging for OCaml
 
+  - repo: ocaml-mtime
+    group: deepin-sysdev-team
+    info: monotonic wall-clock time for OCaml
+
   - repo: ocaml-odoc-parser
     group: deepin-sysdev-team
     info: odoc is a documentation generator for OCaml.

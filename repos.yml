@@ -8045,6 +8045,10 @@ repos:
     group: deepin-sysdev-team
     info: POSIX time for OCaml
 
+  - repo: ocaml-rresult
+    group: deepin-sysdev-team
+    info: result value combinators for OCaml
+
   - repo: oceanbase #main
     group: deepin-sysdev-team
     info: OceanBase is a distributed relational database

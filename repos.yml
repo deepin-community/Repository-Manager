@@ -8044,6 +8044,10 @@ repos:
   - repo: ocaml-libvirt
     group: deepin-sysdev-team
     info: OCaml bindings for libvirt
+  
+  - repo: ocaml-logs
+    group: deepin-sysdev-team
+    info: library of logging for OCaml
 
   - repo: ocaml-odoc-parser
     group: deepin-sysdev-team

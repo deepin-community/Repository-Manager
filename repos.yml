@@ -5020,6 +5020,10 @@ repos:
     group: deepin-sysdev-team
     info: CPU feature checking
 
+  - repo: isc-dhcp
+    group: deepin-sysdev-team
+    info: miscellaneous tools for building DHCP client & server
+
   - repo: ismrmrd #main
     group: deepin-sysdev-team
     info: ISMRM Raw Data Format
@@ -5971,6 +5975,10 @@ repos:
     group: deepin-sysdev-team
     info: Low Complexity Communication Codec
 
+  - repo: libldm
+    group: deepin-sysdev-team
+    info: tool & library for managing Microsoft Windows dynamic disks
+
   - repo: libliftoff
     group: deepin-sysdev-team
     info:
@@ -6568,6 +6576,10 @@ repos:
   - repo: libsys-cpuaffinity-perl
     group: deepin-sysdev-team
     info: module to set CPU affinity for processes
+
+  - repo: libsys-virt-perl
+    group: deepin-sysdev-team
+    info: Perl module providing an extension for the libvirt library
 
   - repo: libtecla
     group: deepin-sysdev-team
@@ -7986,6 +7998,10 @@ repos:
       OBS Studio - Free and open source software for live streaming and screen
       recording
 
+  - repo: ocaml-augeas
+    group: deepin-sysdev-team
+    info: OCaml bindings to the Augeas configuration library
+
   - repo: ocaml-bigarray-compat #main
     group: deepin-sysdev-team
     info: compatibility library for Stdlib.Bigarray
@@ -7998,6 +8014,10 @@ repos:
     group: deepin-sysdev-team
     info: convert a filesystem into a static OCaml module
 
+  - repo: ocaml-gettext
+    group: deepin-sysdev-team
+    info: OCaml internationalization library & shared-library
+
   - repo: ocaml-graphics #main
     group: deepin-sysdev-team
     info:
@@ -8008,6 +8028,10 @@ repos:
   - repo: ocaml-intrinsics-kernel #main
     group: deepin-sysdev-team
     info: library of intrinsics for OCaml
+
+  - repo: ocaml-libvirt
+    group: deepin-sysdev-team
+    info: OCaml bindings for libvirt
 
   - repo: ocaml-odoc-parser
     group: deepin-sysdev-team
@@ -10432,6 +10456,10 @@ repos:
     group: deepin-sysdev-team
     info: web-page layout and decoration framework
 
+  - repo: sleuthkit
+    group: deepin-sysdev-team
+    info: library & tools for forensics analysis & volume and filesystem data
+
   - repo: slurp
     group: deepin-sysdev-team
     info: cli utility to select a region in a Wayland compositor
@@ -10680,6 +10708,10 @@ repos:
   - repo: stress-ng
     group: deepin-sysdev-team
     info: tool to load and stress a computer
+
+  - repo: supermin
+    group: deepin-sysdev-team
+    info: tool for building supermin appliances
 
   - repo: supertuxkart
     group: deepin-sysdev-team

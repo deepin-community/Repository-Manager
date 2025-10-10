@@ -5020,6 +5020,10 @@ repos:
     group: deepin-sysdev-team
     info: CPU feature checking
 
+  - repo: isc-dhcp
+    group: deepin-sysdev-team
+    info: miscellaneous tools for DHCP server & client
+
   - repo: ismrmrd #main
     group: deepin-sysdev-team
     info: ISMRM Raw Data Format
@@ -5535,6 +5539,10 @@ repos:
     group: deepin-sysdev-team
     info: audacious D-Bus remote control library
 
+  - repo: libaugeas-ocaml-dev
+    group: deepin-sysdev-team
+    info: OCaml bindings to the Augeas configuration library
+
   - repo: libauthen-simple-passwd-perl
     group: deepin-sysdev-team
     info: Simple Passwd authentication
@@ -5845,6 +5853,10 @@ repos:
     group: deepin-sysdev-team
     info: Gedit Technology - Source code editing widget
 
+  - repo: libgettext-ocaml-dev
+    group: deepin-sysdev-team
+    info: OCaml internationalization library
+
   - repo: libglibutil #main
     group: deepin-sysdev-team
     info: Library of glib utilities
@@ -5970,6 +5982,10 @@ repos:
   - repo: liblc3
     group: deepin-sysdev-team
     info: Low Complexity Communication Codec
+
+  - repo: libldm
+    group: deepin-sysdev-team
+    info: tool & library for managing Microsoft Windows dynamic disks
 
   - repo: libliftoff
     group: deepin-sysdev-team
@@ -6569,6 +6585,10 @@ repos:
     group: deepin-sysdev-team
     info: module to set CPU affinity for processes
 
+  - repo: libsys-virt-perl
+    group: deepin-sysdev-team
+    info: Perl module providing an extension for the libvirt library
+
   - repo: libtecla
     group: deepin-sysdev-team
     info: interactive command line editing facilities
@@ -6649,6 +6669,10 @@ repos:
     group: deepin-sysdev-team
     info: API to access the kernel tracefs directory (development files)
 
+  - repo: libtsk-dev
+    group: deepin-sysdev-team
+    info: library for forensics analysis (development files)
+
   - repo: libtsm #main
     group: deepin-sysdev-team
     info: Terminal-emulator State Machine - development
@@ -6684,6 +6708,10 @@ repos:
   - repo: libuv1 #main
     group: deepin-sysdev-team
     info: asynchronous event notification library
+
+  - repo: libvirt-ocaml-dev
+    group: deepin-sysdev-team
+    info: OCaml bindings for libvirt (development files)
 
   - repo: libvirt-python #main
     group: deepin-sysdev-team
@@ -10432,6 +10460,10 @@ repos:
     group: deepin-sysdev-team
     info: web-page layout and decoration framework
 
+  - repo: sleuthkit
+    group: deepin-sysdev-team
+    info: tools for forensics analysis on volume and filesystem data
+
   - repo: slurp
     group: deepin-sysdev-team
     info: cli utility to select a region in a Wayland compositor
@@ -10680,6 +10712,10 @@ repos:
   - repo: stress-ng
     group: deepin-sysdev-team
     info: tool to load and stress a computer
+
+  - repo: supermin
+    group: deepin-sysdev-team
+    info: tool for building supermin appliances
 
   - repo: supertuxkart
     group: deepin-sysdev-team

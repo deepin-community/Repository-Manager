@@ -4363,6 +4363,10 @@ repos:
     group: deepin-sysdev-team
     info: MongoDB official driver for Go
 
+  - repo: golang-mvdan-sh
+    group: deepin-sysdev-team
+    info: shell parser, formatter, and interpreter
+
   - repo: golang-objx #main
     group: deepin-sysdev-team
     info: Go package for dealing with maps, slices, JSON and other data

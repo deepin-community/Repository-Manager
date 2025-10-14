@@ -4756,7 +4756,7 @@ repos:
     group: deepin-sysdev-team
     info: Linux entropy source using the HAVEGE algorithm
 
-  - repo: helix
+  - repo: hx
     group: deepin-sysdev-team
     info: modal CLI text editor Helix
 

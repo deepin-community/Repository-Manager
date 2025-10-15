@@ -11599,3 +11599,7 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+
+  - repo: aic8800
+    group: deepin-kernel-team
+    info: Aicsemi aic8800 Wi-Fi driver

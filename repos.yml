@@ -36,6 +36,10 @@ repos:
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
 
+  - repo: aic8800
+    group: deepin-kernel
+    info: Aicsemi aic8800 Wi-Fi driver
+
   - repo: aiodns #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -4756,10 +4760,6 @@ repos:
     group: deepin-sysdev-team
     info: Linux entropy source using the HAVEGE algorithm
 
-  - repo: hx
-    group: deepin-sysdev-team
-    info: modal CLI text editor Helix
-
   - repo: hexchat
     group: deepin-sysdev-team
     info: IRC client for X based on X-Chat 2.
@@ -4823,6 +4823,10 @@ repos:
   - repo: hw-probe
     group: deepin-sysdev-team
     info: Tool to check operability of computer hardware
+
+  - repo: hx
+    group: deepin-sysdev-team
+    info: modal CLI text editor Helix
 
   - repo: hyfetch
     group: deepin-sysdev-team
@@ -8044,7 +8048,7 @@ repos:
   - repo: ocaml-libvirt
     group: deepin-sysdev-team
     info: OCaml bindings for libvirt
-  
+
   - repo: ocaml-logs
     group: deepin-sysdev-team
     info: library of logging for OCaml
@@ -11599,3 +11603,4 @@ repos:
   - repo: zydis
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
+

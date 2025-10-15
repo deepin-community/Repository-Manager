@@ -32,6 +32,10 @@ repos:
     group: deepin-sysdev-team
     info: This package shows the information of the ACPI device.
 
+  - repo: afflib
+    group: deepin-sysdev-team
+    info: Advanced Forensics Format Library
+
   - repo: aha
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
@@ -532,9 +536,17 @@ repos:
     group: deepin-sysdev-team
     info: deepin theme and settings for the Calamares Installer
 
+  - repo: camlp4
+    group: deepin-sysdev-team
+    info: Pre Processor Pretty Printer for OCaml
+
   - repo: camlp-streams
     group: deepin-sysdev-team
     info: OCaml library for programming with data streams
+
+  - repo: camomile
+    group: deepin-sysdev-team
+    info: Unicode data for OCaml
 
   - repo: can-utils #main
     group: deepin-sysdev-team
@@ -5499,6 +5511,10 @@ repos:
       Kwrited captures console output (e.g. broadcast messages) and prints it
       in a X window.
 
+  - repo: lablgtk3
+    group: deepin-sysdev-team
+    info: OCaml bindings to Gtk+ version 3 and for libgtksourceview3
+
   - repo: lager #main
     group: deepin-sysdev-team
     info: C++ library for value-oriented design
@@ -5780,6 +5796,10 @@ repos:
   - repo: libev #main
     group: deepin-sysdev-team
     info: static library, header files, and docs for libev
+
+  - repo: libewf
+    group: deepin-sysdev-team
+    info: tools & library for for Expert Witness Compression Format
 
   - repo: libextutils-autoinstall-perl #main
     group: deepin-sysdev-team
@@ -6712,6 +6732,10 @@ repos:
   - repo: libuv1 #main
     group: deepin-sysdev-team
     info: asynchronous event notification library
+
+  - repo: libvhdi
+    group: deepin-sysdev-team
+    info: Virtual Hard Disk image format access library
 
   - repo: libvirt-python #main
     group: deepin-sysdev-team
@@ -8018,6 +8042,10 @@ repos:
     group: deepin-sysdev-team
     info: OCaml bindings to the Augeas configuration library
 
+  - repo: ocaml-benchmark
+    group: deepin-sysdev-team
+    info: OCaml benchmarking library
+
   - repo: ocaml-bigarray-compat #main
     group: deepin-sysdev-team
     info: compatibility library for Stdlib.Bigarray
@@ -8029,6 +8057,10 @@ repos:
   - repo: ocaml-crunch #main
     group: deepin-sysdev-team
     info: convert a filesystem into a static OCaml module
+
+  - repo: ocaml-fileutils
+    group: deepin-sysdev-team
+    info: File manipulation for OCaml
 
   - repo: ocaml-gettext
     group: deepin-sysdev-team

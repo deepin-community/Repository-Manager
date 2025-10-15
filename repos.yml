@@ -32,6 +32,10 @@ repos:
     group: deepin-sysdev-team
     info: This package shows the information of the ACPI device.
 
+  - repo: afflib
+    group: deepin-sysdev-team
+    info: Advanced Forensics Format Library
+
   - repo: aha
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
@@ -5777,6 +5781,10 @@ repos:
     group: deepin-sysdev-team
     info: static library, header files, and docs for libev
 
+  - repo: libewf
+    group: deepin-sysdev-team
+    info: tools & library for for Expert Witness Compression Format
+
   - repo: libextutils-autoinstall-perl #main
     group: deepin-sysdev-team
     info: module to automatically install dependencies via CPAN
@@ -6708,6 +6716,10 @@ repos:
   - repo: libuv1 #main
     group: deepin-sysdev-team
     info: asynchronous event notification library
+
+  - repo: libvhdi
+    group: deepin-sysdev-team
+    info: Virtual Hard Disk image format access library
 
   - repo: libvirt-python #main
     group: deepin-sysdev-team

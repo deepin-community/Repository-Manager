@@ -5583,6 +5583,10 @@ repos:
     group: deepin-sysdev-team
     info: Audio Video Transport Protocol
 
+  - repo: libbfio
+    group: deepin-sysdev-team
+    info: Library to provide basic input/output abstraction
+
   - repo: libbibtex-parser-perl #main
     group: deepin-sysdev-team
     info: Convert LaTeX commands to Unicode

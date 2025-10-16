@@ -540,6 +540,10 @@ repos:
     group: deepin-sysdev-team
     info: Pre Processor Pretty Printer for OCaml
 
+  - repo: camlp5
+    group: deepin-sysdev-team
+    info: Pre Processor Pretty Printer for OCaml - classical version
+
   - repo: camlp-streams
     group: deepin-sysdev-team
     info: OCaml library for programming with data streams
@@ -8061,6 +8065,10 @@ repos:
   - repo: ocaml-bos #main
     group: deepin-sysdev-team
     info: basic OS interaction for OCaml
+
+  - repo: ocaml-cairo2
+    group: deepin-sysdev-team
+    info: OCaml binding for Cairo
 
   - repo: ocaml-crunch #main
     group: deepin-sysdev-team

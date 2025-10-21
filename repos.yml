@@ -596,6 +596,10 @@ repos:
     group: deepin-sysdev-team
     info: chromium
 
+  - repo: chiark-utils
+    group: deepin-sysdev-team
+    info: chromium
+
   - repo: civetweb
     group: deepin-sysdev-team
     info: embeddable web server with optional CGI, SSL and Lua support

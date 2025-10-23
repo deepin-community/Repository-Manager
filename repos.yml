@@ -1290,6 +1290,10 @@ repos:
     group: deepin-sysdev-team
     info: LLVM-to-JavaScript Compiler
 
+  - repo: encfs
+    group: deepin-sysdev-team
+    info: encrypted virtual filesystem
+
   - repo: enchant-2
     group: deepin-sysdev-team
     info: Wrapper library for various spell checker engines (development)

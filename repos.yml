@@ -11656,3 +11656,6 @@ repos:
     group: deepin-sysdev-team
     info: Macau Font
 
+  - repo: trickle #main
+    group: deepin-sysdev-team
+    info: user-space bandwidth shaper

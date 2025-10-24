@@ -1971,6 +1971,10 @@ repos:
     group: deepin-sysdev-team
     info: daemon handling the GNOME session settings
 
+  - repo: gnome-shell
+    group: deepin-sysdev-team
+    info: graphical shell of the GNOME desktop environment
+
   - repo: gnome-themes-extra
     group: deepin-sysdev-team
     info: Provides additional themes and visual elements for GNOME

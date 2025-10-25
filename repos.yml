@@ -7023,6 +7023,10 @@ repos:
     group: deepin-sysdev-team
     info: mode for editing Markdown-formatted text files in GNU Emacs
 
+  - repo: mate-panel
+    group: deepin-sysdev-team
+    info: launcher for MATE desktop environment
+
   - repo: mate-submodules
     group: deepin-sysdev-team
     info: MATE code components provided as Git submodule repository

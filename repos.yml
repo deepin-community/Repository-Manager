@@ -10516,6 +10516,10 @@ repos:
     group: deepin-sysdev-team
     info: deepin uefi shim
 
+  - repo: showtime
+    group: deepin-sysdev-team
+    info: GNOME video player
+
   - repo: simage #main
     group: deepin-sysdev-team
     info: generic interface to various image file format libraries

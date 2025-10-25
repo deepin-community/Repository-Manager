@@ -1975,6 +1975,10 @@ repos:
     group: deepin-sysdev-team
     info: daemon handling the GNOME session settings
 
+  - repo: gnome-terminal
+    group: deepin-sysdev-team
+    info: GNOME terminal emulator
+
   - repo: gnome-themes-extra
     group: deepin-sysdev-team
     info: Provides additional themes and visual elements for GNOME
@@ -8596,6 +8600,10 @@ repos:
   - repo: ptex-base #main
     group: deepin-sysdev-team
     info: basic ASCII pTeX library files
+
+  - repo: ptyxis
+    group: deepin-sysdev-team
+    info: Modern terminal emulator for GNOME
 
   - repo: pv #main
     group: deepin-sysdev-team

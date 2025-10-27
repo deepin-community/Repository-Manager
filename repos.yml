@@ -4,6 +4,10 @@ repos:
     group: sig-deepin-doc-doc-go
     info: deepin 系统的用户手册 https://guide.deepin.org
 
+  - repo: 0ad
+    group: deepin-sysdev-team
+    info: A free, open-source game of ancient warfare
+
   - repo: 3270font
     group: deepin-sysdev-team
     info: A 3270 font in a modern format

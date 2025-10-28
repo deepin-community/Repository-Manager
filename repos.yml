@@ -9772,6 +9772,10 @@ repos:
     group: deepin-sysdev-team
     info: GTK+ Remote Desktop Client
 
+  - repo: renpy
+    group: deepin-sysdev-team
+    info: The Ren'Py Visual Novel Engine
+
   - repo: rephrase
     group: deepin-sysdev-team
     info: Specialized passphrase recovery tool for GnuPG

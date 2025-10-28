@@ -5314,6 +5314,10 @@ repos:
   - repo: kde-dev-utils
     group: deepin-sysdev-team
     info: This package builds kpartloader and kuiviewer.
+  
+  - repo: kdeconnect
+    group: deepin-sysdev-team
+    info: connect smartphones to your desktop devices
 
   - repo: kdeedu-data
     group: deepin-sysdev-team

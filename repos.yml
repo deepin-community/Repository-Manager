@@ -9892,6 +9892,10 @@ repos:
     group: deepin-pkg
     info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
 
+  - repo: ruby3.3
+    group: deepin-pkg
+    info: Interpreter of object-oriented scripting language Ruby
+
   - repo: ruby-afm
     group: deepin-pkg
     info:

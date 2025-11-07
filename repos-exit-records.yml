@@ -5,6 +5,15 @@ repos:
   # - repo: .guide.deepin.org #main (Repository and componet name, use '#' as separator, default componet is main.)
   #   group: sig-deepin-doc-doc-go
   #   notes: no used add removed
+
+  - repo: alsa-tools-gui
+    group: deepin-sysdev-team
+    notes: this is a binary package generated from alsa-tools not a source code package
+
+  - repo: fmlrpc
+    group: deepin-sysdev-team
+    notes: package and source code not found
+
   - repo: ldb
     group: deepin-sysdev-team
     notes: ldb related components have been merged into samba.

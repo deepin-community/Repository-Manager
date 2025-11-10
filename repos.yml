@@ -1939,9 +1939,29 @@ repos:
     group: deepin-sysdev-team
     info: GNOME Bluetooth 3 - everything Bluetooth related for the code GNOME desktop
 
+  - repo: gnome-calculator
+    group: deepin-sysdev-team
+    info: GNOME desktop calculator
+
+  - repo: gnome-calendar
+    group: deepin-sysdev-team
+    info: Calendar application for GNOME
+
+  - repo: gnome-characters
+    group: deepin-sysdev-team
+    info: character map application
+
+  - repo: gnome-clocks
+    group: deepin-sysdev-team
+    info: Simple GNOME app with stopwatch, timer, and world clock support
+
   - repo: gnome-common
     group: deepin-sysdev-team
     info: common scripts and macros to develop with GNOME
+
+  - repo: gnome-contacts
+    group: deepin-sysdev-team
+    info: Contacts manager for GNOME
 
   - repo: gnome-control-center
     group: deepin-sysdev-team
@@ -1954,6 +1974,10 @@ repos:
   - repo: gnome-icon-theme #main
     group: deepin-sysdev-team
     info: This package contains the default icon theme used by the GNOME
+
+  - repo: gnome-maps
+    group: deepin-sysdev-team
+    info: map application for GNOME
 
   - repo: gnome-menus
     group: deepin-sysdev-team
@@ -1971,9 +1995,17 @@ repos:
     group: deepin-sysdev-team
     info: daemon handling the GNOME session settings
 
+  - repo: gnome-system-monitor
+    group: deepin-sysdev-team
+    info: Process viewer and system resource monitor for GNOME
+
   - repo: gnome-terminal
     group: deepin-sysdev-team
     info: GNOME terminal emulator
+
+  - repo: gnome-text-editor
+    group: deepin-sysdev-team
+    info: simple text editor for GNOME
 
   - repo: gnome-themes-extra
     group: deepin-sysdev-team

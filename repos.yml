@@ -6937,6 +6937,10 @@ repos:
     group: deepin-sysdev-team
     info: 2D game development framework based on Lua and OpenGL
 
+  - repo: low-memory-monitor
+    group: deepin-sysdev-team
+    info: Monitors low-memory conditions
+
   - repo: lrzip #main
     group: deepin-sysdev-team
     info: compression program with a very high compression ratio

@@ -10016,6 +10016,10 @@ repos:
       'Macro to ergonomically define an item depending on a large number of #[cfg]
       parameters - feature "core"'
 
+  - repo: rust-chardetng
+    group: deepin-sysdev-team
+    info: Character encoding detector for legacy Web content - Rust source code
+
   - repo: rust-clang-sys
     group: deepin-sysdev-team
     info:
@@ -10105,6 +10109,10 @@ repos:
   - repo: rust-fastrand
     group: deepin-sysdev-team
     info: Simple and fast random number generator - Rust source code
+
+  - repo: rust-foldhash
+    group: deepin-sysdev-team
+    info: Fast, non-cryptographic, minimally DoS-resistant hashing algorithm - Rust source code
 
   - repo: rust-fnv
     group: deepin-sysdev-team

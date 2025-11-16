@@ -10020,6 +10020,18 @@ repos:
     group: deepin-sysdev-team
     info: Parser and formatter for std::time::{Duration, SystemTime}
 
+  - repo: rust-is-docker
+    group: deepin-sysdev-team
+    info:
+      Checks if the process is running inside a Docker container - Rust
+      source code
+
+  - repo: rust-is-wsl
+    group: deepin-sysdev-team
+    info:
+      Checks if the process is running inside Windows Subsystem
+      for Linux - Rust source code
+
   - repo: rust-itoa
     group: deepin-sysdev-team
     info: Fast functions printing integer primitives to io::Write.s
@@ -10079,6 +10091,12 @@ repos:
   - repo: rust-once-cell
     group: deepin-sysdev-team
     info: Attribute macro to require a function can't ever panic.
+
+  - repo: rust-open
+    group: deepin-sysdev-team
+    info:
+      Open a path or URL using the program configured on the system - Rust
+      source code
 
   - repo: rust-os-str-bytes
     group: deepin-sysdev-team
@@ -10205,6 +10223,10 @@ repos:
     info:
       This package contains the source for the Rust smallvec crate, packaged by
       debcargo for use with cargo and dh-cargo.
+
+  - repo: rust-smartstring
+    group: deepin-sysdev-team
+    info: Compact inlined strings - Rust source code
 
   - repo: rust-smawk
     group: deepin-sysdev-team

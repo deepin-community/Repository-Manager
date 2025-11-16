@@ -5239,6 +5239,10 @@ repos:
     group: deepin-sysdev-team
     info: library for reading Mobipocket documents
 
+  - repo: kdesu
+    group: deepin-sysdev-team
+    info: framework to handle super user actions
+
   - repo: kdiff3
     group: deepin-sysdev-team
     info: compares and merges 2 or 3 files or directories

@@ -4637,9 +4637,25 @@ repos:
     group: deepin-hamradio
     info: Run-time library to control radio transceivers and receivers
 
+  - repo: haskell-aeson
+    group: deepin-sysdev-team
+    info: Fast JSON parsing and encoding library
+
+  - repo: haskell-aeson-pretty
+    group: deepin-sysdev-team
+    info: Haskell JSON pretty-printing tool
+
   - repo: haskell-appar #main
     group: deepin-sysdev-team
     info: A simple applicative parser in Parsec style
+
+  - repo: haskell-blaze-html
+    group: deepin-sysdev-team
+    info: HTML combinator library for Haskell
+
+  - repo: haskell-blaze-markup
+    group: deepin-sysdev-team
+    info: blazingly-fast markup combinator library
 
   - repo: haskell-byteorder #main
     group: deepin-sysdev-team
@@ -4669,9 +4685,25 @@ repos:
     group: deepin-sysdev-team
     info: batteries-included conduit, adapters for common libraries
 
+  - repo: haskell-data-default
+    group: deepin-sysdev-team
+    info: class for types with a default value
+
   - repo: haskell-data-fix #main
     group: deepin-sysdev-team
     info: fixpoint data types; documentation
+
+  - repo: haskell-doctemplates
+    group: deepin-sysdev-team
+    info: Pandoc-style document templates
+
+  - repo: haskell-glob
+    group: deepin-sysdev-team
+    info: library matching glob patterns against file paths
+
+  - repo: haskell-gridtables
+    group: deepin-sysdev-team
+    info: parser for reStructuredText-style grid tables
 
   - repo: haskell-hslua-aeson #main
     group: deepin-sysdev-team
@@ -4705,6 +4737,14 @@ repos:
     group: deepin-sysdev-team
     info: Utilities to build Lua modules
 
+  - repo: haskell-http-client
+    group: deepin-sysdev-team
+    info: haskell HTTP client engine
+
+  - repo: haskell-http-client-tls
+    group: deepin-sysdev-team
+    info: haskell http-client backend using connection and tls libraries
+
   - repo: haskell-http-conduit #main
     group: deepin-sysdev-team
     info: HTTP client package with conduit interface and HTTPS support;
@@ -4720,6 +4760,10 @@ repos:
   - repo: haskell-iproute #main
     group: deepin-sysdev-team
     info: Haskell IP routing table
+
+  - repo: haskell-ipynb
+    group: deepin-sysdev-team
+    info: haskell data structure for working with Jupyter notebooks (ipynb).
 
   - repo: haskell-lpeg #main
     group: deepin-sysdev-team
@@ -4744,6 +4788,10 @@ repos:
       Pandoc is a Haskell library for converting from one markup
       format to another
 
+  - repo: haskell-pandoc-types
+    group: deepin-sysdev-team
+    info: Haskell data types to represent structured documents
+
   - repo: haskell-pandoc-lua-marshal #main
     group: deepin-sysdev-team
     info: Use pandoc types in Lua; documentation
@@ -4752,9 +4800,33 @@ repos:
     group: deepin-sysdev-team
     info: Align and Zip type-classes from the common Semialign ancestor
 
+  - repo: haskell-skylighting
+    group: deepin-sysdev-team
+    info: haskell syntax highlighting library
+
   - repo: haskell-strict #main
     group: deepin-sysdev-team
     info: Strict variants of standard Haskell datatypes; documentation
+
+  - repo: haskell-tasty
+    group: deepin-sysdev-team
+    info: Haskell testing framework
+
+  - repo: haskell-tasty-quickcheck
+    group: deepin-sysdev-team
+    info: Haskell testing framework, QuickCheck support
+
+  - repo: haskell-temporary
+    group: deepin-sysdev-team
+    info: haskell temporary files and directories
+
+  - repo: haskell-texmath
+    group: deepin-sysdev-team
+    info: Haskell library to convert LaTeX to MathML
+
+  - repo: haskell-text-conversions
+    group: deepin-sysdev-team
+    info: Haskell library for safe conversions between textual types
 
   - repo: haskell-text-short #main
     group: deepin-sysdev-team
@@ -4775,6 +4847,10 @@ repos:
   - repo: haskell-typed-process #main
     group: deepin-sysdev-team
     info: run external processes, with strong typing of streams
+
+  - repo: haskell-typst
+    group: deepin-sysdev-team
+    info: Parsing and evaluating typst syntax.
 
   - repo: haskell-unicode-collation
     group: deepin-sysdev-team
@@ -4799,6 +4875,10 @@ repos:
   - repo: haskell-xml-types #main
     group: deepin-sysdev-team
     info: basic types for representing XML
+
+  - repo: haskell-yaml
+    group: deepin-sysdev-team
+    info: haskell interface to LibYAML
 
   - repo: hatch-vcs #main
     group: deepin-sysdev-team

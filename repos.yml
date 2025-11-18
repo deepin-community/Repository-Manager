@@ -536,6 +536,10 @@ repos:
     group: deepin-sysdev-team
     info: deepin theme and settings for the Calamares Installer
 
+  - repo: camlp-streams
+    group: deepin-sysdev-team
+    info: OCaml library for programming with data streams
+
   - repo: camlp4
     group: deepin-sysdev-team
     info: Pre Processor Pretty Printer for OCaml
@@ -543,10 +547,6 @@ repos:
   - repo: camlp5
     group: deepin-sysdev-team
     info: Pre Processor Pretty Printer for OCaml - classical version
-
-  - repo: camlp-streams
-    group: deepin-sysdev-team
-    info: OCaml library for programming with data streams
 
   - repo: camomile
     group: deepin-sysdev-team
@@ -596,11 +596,11 @@ repos:
     group: deepin-sysdev-team
     info: hierarchical note taking application
 
-  - repo: chromium
+  - repo: chiark-utils
     group: deepin-sysdev-team
     info: chromium
 
-  - repo: chiark-utils
+  - repo: chromium
     group: deepin-sysdev-team
     info: chromium
 
@@ -1598,6 +1598,10 @@ repos:
     info:
       lxgw-wenkai is a font drives from Fontworks Klee One , which is a free open
       source font
+
+  - repo: fonts-macau #main
+    group: deepin-sysdev-team
+    info: Macau Font
 
   - repo: fonts-material-design-icons-iconfont
     group: deepin-sysdev-team
@@ -4792,13 +4796,13 @@ repos:
       Pandoc is a Haskell library for converting from one markup
       format to another
 
-  - repo: haskell-pandoc-types
-    group: deepin-sysdev-team
-    info: Haskell data types to represent structured documents
-
   - repo: haskell-pandoc-lua-marshal #main
     group: deepin-sysdev-team
     info: Use pandoc types in Lua; documentation
+
+  - repo: haskell-pandoc-types
+    group: deepin-sysdev-team
+    info: Haskell data types to represent structured documents
 
   - repo: haskell-semialign #main
     group: deepin-sysdev-team
@@ -5314,7 +5318,7 @@ repos:
   - repo: kde-dev-utils
     group: deepin-sysdev-team
     info: This package builds kpartloader and kuiviewer.
-  
+
   - repo: kdeconnect
     group: deepin-sysdev-team
     info: connect smartphones to your desktop devices
@@ -6025,6 +6029,10 @@ repos:
     group: deepin-sysdev-team
     info: Gedit Technology - Source code editing widget
 
+  - repo: libgit2
+    group: deepin-sysdev-team
+    info: low-level Git library
+
   - repo: libglibutil #main
     group: deepin-sysdev-team
     info: Library of glib utilities
@@ -6040,10 +6048,6 @@ repos:
   - repo: libguess #main
     group: deepin-sysdev-team
     info: high-speed character set detection library (development)
-
-  - repo: libgit2
-    group: deepin-sysdev-team
-    info: low-level Git library
 
   - repo: libguestfs
     group: deepin-sysdev-team
@@ -10028,10 +10032,6 @@ repos:
     group: deepin-pkg
     info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
 
-  - repo: ruby3.3
-    group: deepin-pkg
-    info: Interpreter of object-oriented scripting language Ruby
-
   - repo: ruby-afm
     group: deepin-pkg
     info:
@@ -10069,6 +10069,10 @@ repos:
   - repo: ruby-sdbm
     group: deepin-sysdev-team
     info: simple file-based key-value store with String keys and values
+
+  - repo: ruby3.3
+    group: deepin-pkg
+    info: Interpreter of object-oriented scripting language Ruby
 
   - repo: runc #main
     group: deepin-sysdev-team
@@ -10222,13 +10226,13 @@ repos:
     group: deepin-sysdev-team
     info: Simple and fast random number generator - Rust source code
 
-  - repo: rust-foldhash
-    group: deepin-sysdev-team
-    info: Fast, non-cryptographic, minimally DoS-resistant hashing algorithm - Rust source code
-
   - repo: rust-fnv
     group: deepin-sysdev-team
     info: Fowler–Noll–Vo hash function.
+
+  - repo: rust-foldhash
+    group: deepin-sysdev-team
+    info: Fast, non-cryptographic, minimally DoS-resistant hashing algorithm - Rust source code
 
   - repo: rust-fxhash
     group: deepin-sysdev-team
@@ -11217,6 +11221,10 @@ repos:
     group: deepin-sysdev-team
     info: A display manager and wayland compositer based on waylib
 
+  - repo: trickle #main
+    group: deepin-sysdev-team
+    info: user-space bandwidth shaper
+
   - repo: trillian #main
     group: deepin-sysdev-team
     info: transparent scalable and cryptographically verifiable data store (library)
@@ -11854,10 +11862,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: fonts-macau #main
-    group: deepin-sysdev-team
-    info: Macau Font
-
-  - repo: trickle #main
-    group: deepin-sysdev-team
-    info: user-space bandwidth shaper

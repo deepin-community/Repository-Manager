@@ -6033,6 +6033,10 @@ repos:
     group: deepin-sysdev-team
     info: high-speed character set detection library (development)
 
+  - repo: libgit2
+    group: deepin-sysdev-team
+    info: low-level Git library
+
   - repo: libguestfs
     group: deepin-sysdev-team
     info: guest disk image management system - development headers
@@ -7555,6 +7559,10 @@ repos:
   - repo: nheko
     group: deepin-sysdev-team
     info: desktop IM client for the Matrix protocol
+
+  - repo: nix
+    group: deepin-sysdev-team
+    info: Purely functional package manager
 
   - repo: nkf
     group: deepin-sysdev-team

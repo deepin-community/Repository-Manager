@@ -40,6 +40,10 @@ repos:
     group: deepin-sysdev-team
     info: Advanced Forensics Format Library
 
+  - repo: agg #main
+    group: deepin-sysdev-team
+    info: AntiGrain Geometry graphical toolkit
+
   - repo: aha
     group: deepin-sysdev-team
     info: ANSI color to HTML converter
@@ -11002,6 +11006,10 @@ repos:
   - repo: supervisor #main
     group: deepin-sysdev-team
     info: System for controlling process state
+
+  - repo: svgpp #main
+    group: deepin-sysdev-team
+    info: SVG-framework with parsers for various syntaxes and adapters.
 
   - repo: sway
     group: deepin-sysdev-team

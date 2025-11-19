@@ -4868,6 +4868,10 @@ repos:
     group: deepin-sysdev-team
     info: Parsing and evaluating typst syntax.
 
+  - repo: haskell-typst-symbols
+    group: deepin-sysdev-team
+    info: symbol and emoji lookup for typst language
+
   - repo: haskell-unicode-collation
     group: deepin-sysdev-team
     info: Haskell implementation of the Unicode Collation Algorithm

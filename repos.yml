@@ -264,6 +264,10 @@ repos:
     group: deepin-sysdev-team
     info: Library header files for Artistic Style
 
+  - repo: asyncpg #main
+    group: deepin-sysdev-team
+    info: asyncio PosgtreSQL driver
+
   - repo: atop
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity

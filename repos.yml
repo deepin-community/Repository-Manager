@@ -7426,6 +7426,10 @@ repos:
     group: deepin-sysdev-team
     info: Provides a customizable Sphinx theme for Matplotlib projects.
 
+  - repo: mplayer #main
+    group: deepin-sysdev-team
+    info: movie player for Unix-like systems
+
   - repo: ms-gsl
     group: deepin-sysdev-team
     info: Microsoft Guidelines Support Library

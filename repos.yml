@@ -5835,6 +5835,10 @@ repos:
     group: deepin-sysdev-team
     info: libcudacxx
 
+  - repo: libcupsfilters #main
+    group: deepin-sysdev-team
+    info: OpenPrinting libcupsfilters
+
   - repo: libdata-perl-perl #main
     group: deepin-sysdev-team
     info: classes wrapping fundamental Perl data types

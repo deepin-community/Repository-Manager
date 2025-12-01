@@ -8196,6 +8196,10 @@ repos:
     group: deepin-sysdev-team
     info: Tools to enable NVIDIA's Prime
 
+  - repo: nvidia-vaapi-driver #main
+    group: deepin-sysdev-team
+    info: nvidia-vaapi-driver
+
   - repo: nvme-cli
     group: deepin-sysdev-team
     info: NVMe management tool
@@ -10019,6 +10023,10 @@ repos:
   - repo: rofi
     group: deepin-sysdev-team
     info: Rofi is a window switcher, application launcher and dmenu replacement
+
+  - repo: roman-numerals #main
+    group: deepin-sysdev-team
+    info: Python library for manipulating well-formed Roman numerals
 
   - repo: rootlesskit #main
     group: deepin-sysdev-team
@@ -11882,6 +11890,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: nvidia-vaapi-driver #main
-    group: deepin-sysdev-team
-    info: nvidia-vaapi-driver

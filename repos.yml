@@ -8590,6 +8590,10 @@ repos:
     group: deepin-sysdev-team
     info: Pixel-art editor
 
+  - repo: pim6sd
+    group: deepin-sysdev-team
+    info: IPv6 Protocol Independent Multicast routing daemon
+
   - repo: pineapple-pictures
     group: deepin-sysdev-team
     info: Pineapple Pictures is a lightweight image viewer

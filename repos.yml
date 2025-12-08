@@ -11898,3 +11898,6 @@ repos:
     group: deepin-sysdev-team
     info: Fortran interface for scientific data access to large binary data
 
+  - repo: hplip-plugin #main
+    group: deepin-sysdev-team
+    info: HP Linux Printing and Imaging System (HPLIP) Plugin.

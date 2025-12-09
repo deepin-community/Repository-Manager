@@ -8158,6 +8158,10 @@ repos:
     group: deepin-sysdev-team
     info: tool to launch modern Javascript scripts
 
+  - repo: nodeenv #main
+    group: deepin-sysdev-team
+    info: Node.js virtual environment builder
+
   - repo: noggit #main
     group: deepin-sysdev-team
     info: Fast streaming JSON parser for Java

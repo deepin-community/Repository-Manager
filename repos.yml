@@ -4940,6 +4940,10 @@ repos:
     group: deepin-sysdev-team
     info: A date and time library based on the C++11/14/17 <chrono> header
 
+  - repo: hplip-plugin #main
+    group: deepin-sysdev-team
+    info: HP Linux Printing and Imaging System (HPLIP) Plugin.
+
   - repo: html-xml-utils
     group: deepin-sysdev-team
     info: HTML and XML manipulation utilities
@@ -7531,6 +7535,10 @@ repos:
   - repo: netavark #main
     group: deepin-sysdev-team
     info: Rust based network stack for containers
+
+  - repo: netcdf-fortran
+    group: deepin-sysdev-team
+    info: Fortran interface for scientific data access to large binary data
 
   - repo: netdata
     group: deepin-sysdev-team
@@ -11894,10 +11902,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: netcdf-fortran
-    group: deepin-sysdev-team
-    info: Fortran interface for scientific data access to large binary data
-
-  - repo: hplip-plugin #main
-    group: deepin-sysdev-team
-    info: HP Linux Printing and Imaging System (HPLIP) Plugin.

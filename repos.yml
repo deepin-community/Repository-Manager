@@ -504,6 +504,10 @@ repos:
     group: deepin-sysdev-team
     info: Bayesian spam filter
 
+  - repo: btest #main
+    group: deepin-sysdev-team
+    info: simple driver for basic unit tests
+
   - repo: btop
     group: deepin-sysdev-team
     info: Modern and colorful command line resource monitor that shows usage and stats

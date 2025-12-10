@@ -9451,6 +9451,10 @@ repos:
       python-prov is a library for W3C Provenance Data Model supporting PROV-JSON
       and PROV-XML import/export.
 
+  - repo: python-ptrace #main
+    group: deepin-sysdev-team
+    info: Python 3 bindings for ptrace
+
   - repo: python-pure-eval #main
     group: deepin-sysdev-team
     info: Safely evaluate Python AST nodes without side effects

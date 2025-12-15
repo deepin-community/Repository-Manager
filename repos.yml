@@ -466,6 +466,10 @@ repos:
     group: deepin-sysdev-team
     info: high-level tracing language for Linux eBPF
 
+  - repo: bpftune
+    group: deepin-sysdev-team
+    info: BPF driven auto-tuning
+
   - repo: bpython
     group: deepin-sysdev-team
     info: fancy interface to the Python 3 interpreter

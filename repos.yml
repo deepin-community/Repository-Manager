@@ -6917,6 +6917,14 @@ repos:
     group: deepin-sysdev-team
     info: libvirt Python 3 bindings
 
+  - repo: libvpl #main
+    group: deepin-sysdev-team
+    info: Intel Video Processing Library -- shared library
+
+  - repo: libvpl-tools #main
+    group: deepin-sysdev-team
+    info: Intel Video Processing Library -- command line tools
+
   - repo: libvterm
     group: deepin-sysdev-team
     info: libvterm is a terminal emulator library.

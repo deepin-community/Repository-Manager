@@ -5184,6 +5184,10 @@ repos:
     group: deepin-sysdev-team
     info: Daemon for IPP USB printer support
 
+  - repo: ipsc
+    group: deepin-sysdev-team
+    info: Intel Implicit SPMD Program Compiler
+
   - repo: iptables-persistent #main
     group: deepin-sysdev-team
     info: iptables-persistent

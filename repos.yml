@@ -9353,6 +9353,10 @@ repos:
     group: deepin-sysdev-team
     info: Launchpad web services client library
 
+  - repo: python-libarchive-c #main
+    group: deepin-sysdev-team
+    info: Python3 interface to libarchive
+
   - repo: python-license-expression
     group: deepin-sysdev-team
     info: small library to handle license expressions

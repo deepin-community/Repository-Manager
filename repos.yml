@@ -11055,6 +11055,10 @@ repos:
     group: deepin-sysdev-team
     info: tool for building supermin appliances
 
+  - repo: supertux
+    group: deepin-sysdev-team
+    info: SuperTux is a classic 2D jump 'n run sidescroller game in a similar style like the original SuperMario games. You play the role of Tux the Penguin, who must rescue Penny from the hands of the evil Nolok.
+
   - repo: supertuxkart
     group: deepin-sysdev-team
     info: 3D arcade racer with a variety of characters, tracks, and modes to play

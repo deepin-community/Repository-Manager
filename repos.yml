@@ -10766,6 +10766,10 @@ repos:
     group: deepin-sysdev-team
     info: deepin uefi shim
 
+  - repo: shotcut
+    group: deepin-sysdev-team
+    info: video editor
+
   - repo: showtime
     group: deepin-sysdev-team
     info: GNOME video player

@@ -11938,3 +11938,6 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: parmetis
+    group: deepin-sysdev-team
+    info: Parallel Graph Partitioning and Sparse Matrix Ordering Shared Libs

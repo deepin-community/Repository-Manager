@@ -11942,7 +11942,7 @@ repos:
     group: deepin-sysdev-team
     info: Parallel Graph Partitioning and Sparse Matrix Ordering Shared Libs
 
-  - repo: grub-efi-loong64-signed
+  - repo: grub-efi-loong64-signed #main
     group: deepin-sysdev-team
     info: GRand Unified Bootloader, version 2 (loong64 UEFI signed by deepin)
 

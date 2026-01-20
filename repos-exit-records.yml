@@ -66,3 +66,7 @@ repos:
   - repo: python-traceback2
     group: deepin-sysdev-team
     notes: Upstream EOL.
+
+  - repo: python-exceptiongroup
+    group: deepin-sysdev-team
+    notes: Not needed anymore

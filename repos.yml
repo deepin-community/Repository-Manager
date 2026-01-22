@@ -7053,6 +7053,10 @@ repos:
     group: deepin-sysdev-team
     info: Modular compiler and toolchain technologies, libraries and headers
 
+  - repo: llvm-toolchain-21 #main
+    group: deepin-sysdev-team
+    info: Modular compiler and toolchain technologies, libraries and headers
+
   - repo: localsearch
     group: deepin-sysdev-team
     info: metadata database, indexer and search tool

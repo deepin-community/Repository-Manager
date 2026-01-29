@@ -11954,6 +11954,6 @@ repos:
     group: deepin-sysdev-team
     info: GRand Unified Bootloader, version 2 (loong64 UEFI signed by deepin)
 
-  - repo: openfec
+  - repo: openfec #main
     group: deepin-sysdev-team
     info: Application-Level Forward Erasure Correction codes (development files)

@@ -4607,6 +4607,10 @@ repos:
     group: deepin-sysdev-team
     info: GRand Unified Bootloader, version 2 (arm64 UEFI signed by deepin)
 
+  - repo: grub-efi-loong64-signed #main
+    group: deepin-sysdev-team
+    info: GRand Unified Bootloader, version 2 (loong64 UEFI signed by deepin)
+
   - repo: gsettings-desktop-schemas
     group: deepin-sysdev-team
     info: GSettings desktop-wide schemas
@@ -8379,6 +8383,10 @@ repos:
     group: deepin-sysdev-team
     info: oneAPI Video Processing Library
 
+  - repo: onnx #main
+    group: deepin-sysdev-team
+    info: ONNX provides an open source format for AI models (development files)
+
   - repo: open-vm-tools #main
     group: deepin-sysdev-team
     info: Open VMware Tools for virtual machines hosted on VMware (CLI)
@@ -8402,6 +8410,10 @@ repos:
   - repo: opendnssec #main
     group: deepin-sysdev-team
     info: library for interfacing PKCS#11 Hardware Security Modules
+
+  - repo: openfec #main
+    group: deepin-sysdev-team
+    info: Application-Level Forward Erasure Correction codes (development files)
 
   - repo: openh264
     group: deepin-sysdev-team
@@ -8527,6 +8539,10 @@ repos:
   - repo: parmap
     group: deepin-sysdev-team
     info: small OCaml library allowing to exploit multicore architectures (development)
+
+  - repo: parmetis
+    group: deepin-sysdev-team
+    info: Parallel Graph Partitioning and Sparse Matrix Ordering Shared Libs
 
   - repo: parole
     group: deepin-sysdev-team
@@ -10955,6 +10971,10 @@ repos:
     group: deepin-sysdev-team
     info: A python binding package for generating sitemap
 
+  - repo: sphinxcontrib-doxylink #main
+    group: deepin-sysdev-team
+    info: Sphinx extension for linking to Doxygen documentation (Python 3)
+
   - repo: sphinxcontrib-github-alt #main
     group: deepin-sysdev-team
     info: Sphinx extension to link to GitHub issues, PRs, commits and users
@@ -11946,22 +11966,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: parmetis
-    group: deepin-sysdev-team
-    info: Parallel Graph Partitioning and Sparse Matrix Ordering Shared Libs
-
-  - repo: grub-efi-loong64-signed #main
-    group: deepin-sysdev-team
-    info: GRand Unified Bootloader, version 2 (loong64 UEFI signed by deepin)
-
-  - repo: openfec #main
-    group: deepin-sysdev-team
-    info: Application-Level Forward Erasure Correction codes (development files)
-
-  - repo: onnx #main
-    group: deepin-sysdev-team
-    info: ONNX provides an open source format for AI models (development files)
-
-  - repo: sphinxcontrib-doxylink #main
-    group: deepin-sysdev-team
-    info: Sphinx extension for linking to Doxygen documentation (Python 3)

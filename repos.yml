@@ -11957,3 +11957,8 @@ repos:
   - repo: openfec #main
     group: deepin-sysdev-team
     info: Application-Level Forward Erasure Correction codes (development files)
+
+  - repo: onnx #main
+    group: deepin-sysdev-team
+    info: ONNX provides an open source format for AI models (development files)
+

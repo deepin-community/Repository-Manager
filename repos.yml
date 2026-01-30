@@ -11962,3 +11962,6 @@ repos:
     group: deepin-sysdev-team
     info: ONNX provides an open source format for AI models (development files)
 
+  - repo: sphinxcontrib-doxylink #main
+    group: deepin-sysdev-team
+    info: Sphinx extension for linking to Doxygen documentation (Python 3)

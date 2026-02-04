@@ -7576,6 +7576,10 @@ repos:
     group: deepin-sysdev-team
     info: A command-line system information tool written in bash
 
+  - repo: neomutt
+    group: deepin-sysdev-team
+    info: command line mail reader based on Mutt, with added features
+
   - repo: netavark #main
     group: deepin-sysdev-team
     info: Rust based network stack for containers

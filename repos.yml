@@ -4872,10 +4872,6 @@ repos:
     group: deepin-sysdev-team
     info: time a computation
 
-  - repo: haskell-tldr #main
-    group: deepin-sysdev-team
-    info: Haskell tldr client with support for updating and viewing tldr pages.
-
   - repo: haskell-typed-process #main
     group: deepin-sysdev-team
     info: run external processes, with strong typing of streams

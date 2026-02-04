@@ -830,6 +830,10 @@ repos:
       This package contains two utilities for inspecting and setting the CPU frequency
       through both the sysfs and procfs CPUFreq kernel interfaces.
 
+  - repo: cpuinfo #main
+    group: deepin-sysdev-team
+    info: CPU INFOrmation library
+
   - repo: crash #main
     group: deepin-sysdev-team
     info: kernel debugging utility, allowing gdb like syntax
@@ -1103,6 +1107,10 @@ repos:
   - repo: distrobox
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux
+
+  - repo: dlpack #main
+    group: deepin-sysdev-team
+    info: Open In Memory Tensor Structure
 
   - repo: dlt-daemon #main
     group: deepin-sysdev-team
@@ -1702,6 +1710,10 @@ repos:
       FORT validator performs the validation of the RPKI repository and serves
       the ROAs to the routers.
 
+  - repo: fp16 #main
+    group: deepin-sysdev-team
+    info: Conversion to/from half-precision floating point formats
+
   - repo: fping
     group: deepin-sysdev-team
     info: sends ICMP ECHO_REQUEST packets to network hosts
@@ -1756,6 +1768,10 @@ repos:
   - repo: fwupd-efi #main
     group: deepin-sysdev-team
     info: EFI executable for fwupd
+
+  - repo: fxdiv #main
+    group: deepin-sysdev-team
+    info: division via fixed-point multiplication by inverse
 
   - repo: fxlinuxprint #main
     group: deepin-sysdev-team
@@ -8375,6 +8391,10 @@ repos:
     group: deepin-sysdev-team
     info: Assembly Constraints and Multibody Dynamics code
 
+  - repo: onednn #main
+    group: deepin-sysdev-team
+    info: oneAPI Deep Neural Network Library (oneDNN)
+
   - repo: onetbb #main
     group: deepin-sysdev-team
     info: parallelism library for C++ - development files
@@ -8386,6 +8406,10 @@ repos:
   - repo: onnx #main
     group: deepin-sysdev-team
     info: ONNX provides an open source format for AI models (development files)
+
+  - repo: onnxruntime #main
+    group: deepin-sysdev-team
+    info: cross-platform inference and training ML accelerator
 
   - repo: open-vm-tools #main
     group: deepin-sysdev-team
@@ -8813,6 +8837,10 @@ repos:
     group: deepin-sysdev-team
     info: Convenience wrapper for building protobufs in Go
 
+  - repo: psimd #main
+    group: deepin-sysdev-team
+    info: Portable 128-bit SIMD intrinsics
+
   - repo: psrip
     group: deepin-sysdev-team
     info: Extract images from PostScript files
@@ -8824,6 +8852,10 @@ repos:
   - repo: ptex-base #main
     group: deepin-sysdev-team
     info: basic ASCII pTeX library files
+
+  - repo: pthreadpool #main
+    group: deepin-sysdev-team
+    info: pthread-based thread pool for C/C++
 
   - repo: ptyxis
     group: deepin-sysdev-team
@@ -10686,6 +10718,10 @@ repos:
     group: deepin-pkg
     info: Safe integer operation library for C
 
+  - repo: safeint #main
+    group: deepin-sysdev-team
+    info: class library for C++ that manages integer overflows
+
   - repo: sakura
     group: deepin-sysdev-team
     info: simple but powerful libvte-based terminal emulator
@@ -11751,6 +11787,10 @@ repos:
     group: deepin-sysdev-team
     info: XML infrastructure and XML catalog file support
 
+  - repo: xnnpack #main
+    group: deepin-sysdev-team
+    info: High-efficiency floating-point neural network inference operators
+
   - repo: xonsh #main
     group: deepin-sysdev-team
     info: Python-powered, cross-platform, Unix-gazing shell language and command prompt
@@ -11966,46 +12006,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: onnxruntime #main
-    group: deepin-sysdev-team
-    info: cross-platform inference and training ML accelerator
-
-  - repo: cpuinfo #main
-    group: deepin-sysdev-team
-    info: CPU INFOrmation library
-
-  - repo: dlpack #main
-    group: deepin-sysdev-team
-    info: Open In Memory Tensor Structure
-
-  - repo: ms-gsl #main
-    group: deepin-sysdev-team
-    info: Microsoft Guidelines Support Library
-
-  - repo: pthreadpool #main
-    group: deepin-sysdev-team
-    info: pthread-based thread pool for C/C++
-
-  - repo: fxdiv #main
-    group: deepin-sysdev-team
-    info: division via fixed-point multiplication by inverse
-
-  - repo: safeint #main
-    group: deepin-sysdev-team
-    info: class library for C++ that manages integer overflows
-
-  - repo: onednn #main
-    group: deepin-sysdev-team
-    info: oneAPI Deep Neural Network Library (oneDNN)
-
-  - repo: xnnpack #main
-    group: deepin-sysdev-team
-    info: High-efficiency floating-point neural network inference operators
-
-  - repo: fp16 #main
-    group: deepin-sysdev-team
-    info: Conversion to/from half-precision floating point formats
-
-  - repo: psimd #main
-    group: deepin-sysdev-team
-    info: Portable 128-bit SIMD intrinsics

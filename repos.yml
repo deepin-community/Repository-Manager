@@ -11966,3 +11966,46 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: onnxruntime #main
+    group: deepin-sysdev-team
+    info: cross-platform inference and training ML accelerator
+
+  - repo: cpuinfo #main
+    group: deepin-sysdev-team
+    info: CPU INFOrmation library
+
+  - repo: dlpack #main
+    group: deepin-sysdev-team
+    info: Open In Memory Tensor Structure
+
+  - repo: ms-gsl #main
+    group: deepin-sysdev-team
+    info: Microsoft Guidelines Support Library
+
+  - repo: pthreadpool #main
+    group: deepin-sysdev-team
+    info: pthread-based thread pool for C/C++
+
+  - repo: fxdiv #main
+    group: deepin-sysdev-team
+    info: division via fixed-point multiplication by inverse
+
+  - repo: safeint #main
+    group: deepin-sysdev-team
+    info: class library for C++ that manages integer overflows
+
+  - repo: onednn #main
+    group: deepin-sysdev-team
+    info: oneAPI Deep Neural Network Library (oneDNN)
+
+  - repo: xnnpack #main
+    group: deepin-sysdev-team
+    info: High-efficiency floating-point neural network inference operators
+
+  - repo: fp16 #main
+    group: deepin-sysdev-team
+    info: Conversion to/from half-precision floating point formats
+
+  - repo: psimd #main
+    group: deepin-sysdev-team
+    info: Portable 128-bit SIMD intrinsics

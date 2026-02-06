@@ -9792,6 +9792,10 @@ repos:
     group: deepin-sysdev-team
     info: ahead of time compiler for Python
 
+  - repo: pytorch
+    group: deepin-sysdev-team
+    info: Tensors and Dynamic neural networks in Python
+
   - repo: pyusb #main
     group: deepin-sysdev-team
     info: USB interface for Python

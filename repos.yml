@@ -12021,3 +12021,31 @@ repos:
   - repo: pysvn #main
     group: deepin-sysdev-team
     info: A(nother) Python 3 interface to Subversion
+
+  - repo: kf6-ktextwidgets #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-ktexteditor #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kuserfeedback #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kpty #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kstatusnotifieritem #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kfilemetadata #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-knotifyconfig #main
+    group: deepin-sysdev-team
+    info: kf6 list

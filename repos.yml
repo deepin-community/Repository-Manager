@@ -12017,3 +12017,7 @@ repos:
   - repo: rabbitvcs #main
     group: deepin-sysdev-team
     info: Command line interface for RabbitVCS
+
+  - repo: pysvn #main
+    group: deepin-sysdev-team
+    info: A(nother) Python 3 interface to Subversion

@@ -5483,6 +5483,10 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kdoctools
 
+  - repo: kf6-kfilemetadata #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-kglobalaccel #main
     group: deepin-sysdev-team
     info: kf6-kglobalaccel
@@ -5535,6 +5539,10 @@ repos:
     group: deepin-sysdev-team
     info: kf6-knotifications
 
+  - repo: kf6-knotifyconfig #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-kpackage #main
     group: deepin-sysdev-team
     info: kf6-kpackage
@@ -5542,6 +5550,10 @@ repos:
   - repo: kf6-kparts #main
     group: deepin-sysdev-team
     info: kf6-kparts
+
+  - repo: kf6-kpty #main
+    group: deepin-sysdev-team
+    info: kf6 list
 
   - repo: kf6-krunner #main
     group: deepin-sysdev-team
@@ -5555,11 +5567,23 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kservice
 
+  - repo: kf6-kstatusnotifieritem #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-ksvg #main
     group: deepin-sysdev-team
     info: kf6-ksvg
 
+  - repo: kf6-ktexteditor #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
   - repo: kf6-ktextwidgets  #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-kuserfeedback #main
     group: deepin-sysdev-team
     info: kf6 list
 
@@ -8993,6 +9017,10 @@ repos:
     group: deepin-sysdev-team
     info: collection of C++ functions for Python's string class methods - development
 
+  - repo: pysvn #main
+    group: deepin-sysdev-team
+    info: A(nother) Python 3 interface to Subversion
+
   - repo: pytables #main
     group: deepin-sysdev-team
     info: python3-defaults 3.11
@@ -9959,6 +9987,10 @@ repos:
   - repo: r-cran-testthat #main
     group: deepin-sysdev-team
     info: GNU R testsuite
+
+  - repo: rabbitvcs #main
+    group: deepin-sysdev-team
+    info: Command line interface for RabbitVCS
 
   - repo: radeontop
     group: deepin-sysdev-team
@@ -12014,38 +12046,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: rabbitvcs #main
-    group: deepin-sysdev-team
-    info: Command line interface for RabbitVCS
-
-  - repo: pysvn #main
-    group: deepin-sysdev-team
-    info: A(nother) Python 3 interface to Subversion
-
-  - repo: kf6-ktextwidgets #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-ktexteditor #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-kuserfeedback #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-kpty #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-kstatusnotifieritem #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-kfilemetadata #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
-  - repo: kf6-knotifyconfig #main
-    group: deepin-sysdev-team
-    info: kf6 list

@@ -1726,6 +1726,10 @@ repos:
     group: deepin-hamradio
     info: Digital Voice mode for ham radio
 
+  - repo: freerdp3 #main
+    group: deepin-sysdev-team
+    info: Free Remote Desktop Protocol library
+
   - repo: friso
     group: deepin-sysdev-team
     info: Friso is an open source high performance Chinese word splitter.

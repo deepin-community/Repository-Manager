@@ -5567,10 +5567,6 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kservice
 
-  - repo: kf6-sonnet #main
-    group: deepin-sysdev-team
-    info: kf6 list
-
   - repo: kf6-kstatusnotifieritem #main
     group: deepin-sysdev-team
     info: kf6 list
@@ -5616,6 +5612,10 @@ repos:
     info: kf6 list
 
   - repo: kf6-solid #main
+    group: deepin-sysdev-team
+    info: kf6 list
+
+  - repo: kf6-sonnet #main
     group: deepin-sysdev-team
     info: kf6 list
 

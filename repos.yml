@@ -8487,6 +8487,10 @@ repos:
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
 
+  - repo: openjdk-25
+    group: deepin-sysdev-team
+    info: OpenJDK Development Kit (JDK)
+
   - repo: openjdk-8
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)

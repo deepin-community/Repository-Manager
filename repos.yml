@@ -9121,6 +9121,10 @@ repos:
     group: deepin-sysdev-team
     info: Core (offline) functionality for the apeye library
 
+  - repo: python-argon2-cffi-bindings #main
+    group: deepin-sysdev-team
+    info: Low-level CFFI bindings for the Argon2 password hashing library
+
   - repo: python-arrow
     group: deepin-sysdev-team
     info: python-arrow is a Python3 library to manipulate dates, times, and timestamps

@@ -9195,6 +9195,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: python-check-jsonschema #main
+    group: deepin-sysdev-team
+    info: JSON Schema CLI and pre-commit hook built on jsonschema
+
   - repo: python-cleo #main
     group: deepin-sysdev-team
     info: create beautiful and testable command-line interfaces

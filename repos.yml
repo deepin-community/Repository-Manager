@@ -10902,6 +10902,10 @@ repos:
     group: deepin-sysdev-team
     info: Parsing gigabytes of JSON per second (development)
 
+  - repo: simdutf #main
+    group: deepin-sysdev-team
+    info: Fast Unicode validation, transcoding and processing library
+
   - repo: singleapplication
     group: deepin-sysdev-team
     info: Replacement of QtSingleApplication for Qt5

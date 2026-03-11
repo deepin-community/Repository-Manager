@@ -1412,7 +1412,7 @@ repos:
       Fastfetch is a neofetch-like tool for fetching system information and displaying
       them in a pretty way.
 
-  - repo: fast-float
+  - repo: fast-float #main
     group: deepin-sysdev-team
     info: Fast and exact implementation of the C++ from_chars functions for float and double types
 

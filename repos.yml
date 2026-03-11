@@ -12074,3 +12074,26 @@ repos:
     group: deepin-sysdev-team
     info: nxagent's libNX_X11 client-part library
 
+  - repo: ruy #main
+    group: deepin-sysdev-team
+    info: ruy is a matrix multiplication library
+
+  - repo: neon-2-sse #main
+    group: deepin-sysdev-team
+    info: simplify ARM to IA32 porting
+
+  - repo: gemmlowp #main
+    group: deepin-sysdev-team
+    info: It only does general matrix multiplication ("GEMM")
+
+  - repo: oourafft #main
+    group: deepin-sysdev-team
+    info: Calculate Discrete Fourier/Cosine/Sine Transforms
+
+  - repo: farmhash #main
+    group: deepin-sysdev-team
+    info: FarmHash provides hash functions for strings and other data
+
+  - repo: tensorflow #main
+    group: deepin-sysdev-team
+    info: Computation using data flow graphs for scalable machine learning

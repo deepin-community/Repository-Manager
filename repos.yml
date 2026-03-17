@@ -11011,6 +11011,10 @@ repos:
       Speex is an audio codec especially designed for compressing voice at low
       bit-rates for applications such as voice over IP (VoIP)
 
+  - repo: sphinxygen #main
+    group: deepin-sysdev-team
+    info: A tool to generate C++ API documentation from Doxygen XML output in Sphinx
+
   - repo: sphinx-argparse-cli #main
     group: deepin-sysdev-team
     info: Sphinx extension to render CLI arguments defined by the argparse module

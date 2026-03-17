@@ -6803,6 +6803,10 @@ repos:
     group: deepin-sysdev-team
     info: easy-to-use HDF library for Java
 
+  - repo: libsoftware-copyright-perl #main
+    group: deepin-sysdev-team
+    info: Perl module to manage copyright statements
+
   - repo: libsoftware-licensemoreutils-perl
     group: deepin-sysdev-team
     info: Software::LicenseMoreUtils Perl module provides more utilities for Software::License

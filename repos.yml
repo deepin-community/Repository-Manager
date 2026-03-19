@@ -12117,3 +12117,7 @@ repos:
   - repo: kleidiai #main
     group: deepin-sysdev-team
     info: Optimized micro-kernel library for AI workloads for Arm CPUs
+
+  - repo: esnacc #main
+    group: deepin-sysdev-team
+    info: Enhanced SNACC ASN.1 compiler for data serialization

@@ -7402,6 +7402,10 @@ repos:
     group: deepin-sysdev-team
     info: Multiplayer infinite-world block sandbox
 
+  - repo: minizip-ng #main
+    group: deepin-sysdev-team
+    info: a minimalistic library that supports compressing, extracting
+
   - repo: missidentify
     group: deepin-sysdev-team
     info: find win32 applications

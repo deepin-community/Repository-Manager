@@ -352,6 +352,10 @@ repos:
     group: deepin-sysdev-team
     info: GNU assembler, linker and binary utilities for ARM Cortex-R/M processors
 
+  - repo: binutils-embedded #main
+    group: deepin-sysdev-team
+    info: GNU assembler, linker and binary utilities for embedded systems
+
   - repo: binutils-mipsen
     group: deepin-sysdev-team
     info: GNU binary utilities for MIPS

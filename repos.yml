@@ -11171,6 +11171,10 @@ repos:
     group: deepin-sysdev-team
     info: bi-directional translator for LLVM/SPIRV
 
+  - repo: spirv-llvm-translator-21 #main
+    group: deepin-sysdev-team
+    info: bi-directional translator for LLVM/SPIRV
+
   - repo: spirv-tools #main
     group: deepin-sysdev-team
     info: bi-directional translator for LLVM/SPIRV

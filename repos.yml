@@ -1871,6 +1871,14 @@ repos:
     group: deepin-sysdev-team
     info: GCC, the GNU Compiler Collection (cross compiler)
 
+  - repo: gcc-16 #main
+    group: deepin-sysdev-team
+    info: GNU C preprocessor
+
+  - repo: gcc-16-cross #main
+    group: deepin-sysdev-team
+    info: GCC, the GNU Compiler Collection (cross compiler)
+
   - repo: gcc-arm-none-eabi #main
     group: deepin-sysdev-team
     info: GCC cross compiler for ARM Cortex-R/M processors

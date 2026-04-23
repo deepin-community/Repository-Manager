@@ -12142,3 +12142,6 @@ repos:
     group: deepin-sysdev-team
     info: Helper library for the PiSP hardware block
 
+  - repo: qt-advanced-docking-system #main
+    group: deepin-sysdev-team
+    info: Advanced Docking System for Qt

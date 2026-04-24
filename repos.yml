@@ -5507,6 +5507,10 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kdoctools
 
+  - repo: kf6-kdnssd #main
+    group: deepin-sysdev-team
+    info: Abstraction to system DNSSD features
+
   - repo: kf6-kfilemetadata #main
     group: deepin-sysdev-team
     info: kf6 list

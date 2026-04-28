@@ -7001,6 +7001,10 @@ repos:
     group: deepin-sysdev-team
     info: libvirt Python 3 bindings
 
+  - repo: libvisual-plugins #main
+    group: deepin-sysdev-team
+    info: audio visualization framework plugins
+
   - repo: libvpl #main
     group: deepin-sysdev-team
     info: Intel Video Processing Library -- shared library

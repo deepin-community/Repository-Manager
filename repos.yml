@@ -11509,6 +11509,10 @@ repos:
     group: deepin-hamradio
     info: QSL log signing for the Logbook of the World (LoTW)
 
+  - repo: ttkthemes #main
+    group: deepin-sysdev-team
+    info: group of image-based themes for Tkinter/Ttk
+
   - repo: tslib
     group: deepin-pkg
     info: Tslib is an abstraction layer for touchscreen panel events.

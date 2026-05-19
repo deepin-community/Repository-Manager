@@ -400,6 +400,10 @@ repos:
     group: deepin-sysdev-team
     info: Bandlimited wavetable-based oscillator plugins for LADSPA hosts
 
+  - repo: blueprint-compiler #main
+    group: deepin-sysdev-team
+    info: Compile Blueprint files to GTKBuilder XML for GNOME
+
   - repo: bm-el #main
     group: deepin-sysdev-team
     info: visual bookmarks for GNU Emacs
@@ -12021,6 +12025,10 @@ repos:
   - repo: zig0.14
     group: deepin-sysdev-team
     info: zig language version 0.14
+
+  - repo: zig0.15 #main
+    group: deepin-sysdev-team
+    info: zig language version 0.15
 
   - repo: zipiosplusplus #main
     group: deepin-sysdev-team

@@ -1943,6 +1943,10 @@ repos:
     group: deepin-sysdev-team
     info: GitHub CLI, GitHub’s official command line tool
 
+  - repo: ghostty #main
+    group: deepin-sysdev-team
+    info: Ghostty is a fast, feature-rich, and cross-platform terminal emulator
+
   - repo: ghp-import #main
     group: deepin-sysdev-team
     info: Easily import docs to your gh-pages branch
@@ -8327,6 +8331,10 @@ repos:
   - repo: nvidia-cuda-toolkit
     group: deepin-sysdev-team
     info: NVIDIA CUDA development toolkit
+
+  - repo: nvidia-egl-gbm #main
+    group: deepin-sysdev-team
+    info: NVIDIA EGL GBM support library
 
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team

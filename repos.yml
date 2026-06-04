@@ -12185,3 +12185,7 @@ repos:
   - repo: qt-advanced-docking-system #main
     group: deepin-sysdev-team
     info: Advanced Docking System for Qt
+
+  - repo: deepin-skf-tool #main
+    group: deepin-sysdev-team
+    info: SKF device management tool for deepin

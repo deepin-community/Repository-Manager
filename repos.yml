@@ -11227,6 +11227,10 @@ repos:
     group: deepin-sysdev-team
     info: recursive piecewise hashing tool
 
+  - repo: sso-mib #main
+    group: deepin-sysdev-team
+    info: SSO MIB - SNMP MIB for Single Sign-On monitoring
+
   - repo: ssh-tools
     group: deepin-sysdev-team
     info: collection of various tools using sshs

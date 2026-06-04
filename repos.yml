@@ -11229,7 +11229,7 @@ repos:
 
   - repo: sso-mib #main
     group: deepin-sysdev-team
-    info: SSO MIB - SNMP MIB for Single Sign-On monitoring
+    info: Single-Sign-On with CA for Entra via Himmelblau
 
   - repo: ssh-tools
     group: deepin-sysdev-team

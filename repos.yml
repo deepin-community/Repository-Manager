@@ -12189,3 +12189,7 @@ repos:
   - repo: qt-advanced-docking-system #main
     group: deepin-sysdev-team
     info: Advanced Docking System for Qt
+
+  - repo: nautilus-python
+    group: deepin-sysdev-team
+    info: Python binding for Nautilus components (Python 3 version)

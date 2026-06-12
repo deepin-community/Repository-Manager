@@ -12193,3 +12193,11 @@ repos:
   - repo: nautilus-python
     group: deepin-sysdev-team
     info: Python binding for Nautilus components (Python 3 version)
+
+  - repo: python-covdefaults
+    group: deepin-sysdev-team
+    info: coverage plugin to provide sensible default settings
+
+  - repo: python-expandvars
+    group: deepin-sysdev-team
+    info: bash-style environment variable expansion in Python

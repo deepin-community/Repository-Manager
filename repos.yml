@@ -12201,3 +12201,7 @@ repos:
   - repo: python-expandvars
     group: deepin-sysdev-team
     info: bash-style environment variable expansion in Python
+
+  - repo: noise-suppression-for-voice #main
+    group: deepin-sysdev-team
+    info: A real-time noise suppression plugin for voice

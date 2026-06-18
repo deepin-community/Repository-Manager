@@ -1943,6 +1943,10 @@ repos:
     group: deepin-sysdev-team
     info: Geographiclib is a C++ library to solve some geodesic problems
 
+  - repo: ggml
+    group: deepin-sysdev-team
+    info: Tensor library for machine learning
+
   - repo: gh
     group: deepin-sysdev-team
     info: GitHub CLI, GitHub’s official command line tool

@@ -7133,6 +7133,10 @@ repos:
     group: deepin-sysdev-team
     info: Linux Infrared Remote Control Daemon
 
+  - repo: llama.cpp
+    group: deepin-sysdev-team
+    info: LLM inference in C/C++
+
   - repo: llvm-toolchain-15 #main
     group: deepin-sysdev-team
     info: LLVM compiler infrastructure

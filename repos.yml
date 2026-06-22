@@ -12213,3 +12213,7 @@ repos:
   - repo: noise-suppression-for-voice #main
     group: deepin-sysdev-team
     info: A real-time noise suppression plugin for voice
+
+  - repo: lintian-ssg #main
+    group: deepin-sysdev-team
+    info: Static Site Generator for Lintian tags' explanations

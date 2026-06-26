@@ -1356,6 +1356,10 @@ repos:
     group: deepin-sysdev-team
     info: Catch common Java mistakes as compile-time errors
 
+  - repo: esnacc #main
+    group: deepin-sysdev-team
+    info: Enhanced SNACC ASN.1 compiler for data serialization
+
   - repo: esptool #main
     group: deepin-sysdev-team
     info: create and flash firmware files to ESP8266 and ESP32 chips
@@ -5523,13 +5527,13 @@ repos:
     group: deepin-sysdev-team
     info: kf6-kded
 
-  - repo: kf6-kdoctools #main
-    group: deepin-sysdev-team
-    info: kf6-kdoctools
-
   - repo: kf6-kdnssd #main
     group: deepin-sysdev-team
     info: Abstraction to system DNSSD features
+
+  - repo: kf6-kdoctools #main
+    group: deepin-sysdev-team
+    info: kf6-kdoctools
 
   - repo: kf6-kfilemetadata #main
     group: deepin-sysdev-team
@@ -5710,6 +5714,10 @@ repos:
   - repo: kitty
     group: deepin-sysdev-team
     info: fast, featureful, GPU based terminal emulator
+
+  - repo: kleidiai #main
+    group: deepin-sysdev-team
+    info: Optimized micro-kernel library for AI workloads for Arm CPUs
 
   - repo: kmscon #main
     group: deepin-sysdev-team
@@ -6689,6 +6697,10 @@ repos:
     group: deepin-sysdev-team
     info: Python 3 bindings for libpillowfight
 
+  - repo: libpisp #main
+    group: deepin-sysdev-team
+    info: Helper library for the PiSP hardware block
+
   - repo: libplack-perl
     group: deepin-sysdev-team
     info: interface between web servers and Perl web applications
@@ -7112,6 +7124,10 @@ repos:
   - repo: linkify-it-py
     group: deepin-sysdev-team
     info: links recognition library with FULL unicode support
+
+  - repo: lintian-ssg #main
+    group: deepin-sysdev-team
+    info: Static Site Generator for Lintian tags' explanations
 
   - repo: linux-config
     group: deepin-sysdev-team
@@ -7645,6 +7661,10 @@ repos:
   - repo: natsort #main
     group: deepin-sysdev-team
     info: Natural sorting for Python
+
+  - repo: nautilus-python
+    group: deepin-sysdev-team
+    info: Python binding for Nautilus components (Python 3 version)
 
   - repo: nbdkit
     group: deepin-sysdev-team
@@ -8317,6 +8337,10 @@ repos:
   - repo: noggit #main
     group: deepin-sysdev-team
     info: Fast streaming JSON parser for Java
+
+  - repo: noise-suppression-for-voice #main
+    group: deepin-sysdev-team
+    info: A real-time noise suppression plugin for voice
 
   - repo: notary #main
     group: deepin-sysdev-team
@@ -9317,6 +9341,10 @@ repos:
     group: deepin-sysdev-team
     info: Additional utilities for click
 
+  - repo: python-covdefaults
+    group: deepin-sysdev-team
+    info: coverage plugin to provide sensible default settings
+
   - repo: python-css-parser
     group: deepin-sysdev-team
     info: CSS parser provides utilities for parsing, serialising CSS in Python.
@@ -9394,6 +9422,10 @@ repos:
     info:
       python-exif is a Python library to extract Exif information from digital
       camera image files.
+
+  - repo: python-expandvars
+    group: deepin-sysdev-team
+    info: bash-style environment variable expansion in Python
 
   - repo: python-fakeredis #main
     group: deepin-sysdev-team
@@ -9975,6 +10007,10 @@ repos:
   - repo: qsstv
     group: deepin-hamradio
     info: Qt-based slow-scan TV and fax
+
+  - repo: qt-advanced-docking-system #main
+    group: deepin-sysdev-team
+    info: Advanced Docking System for Qt
 
   - repo: qt6-graphs
     group: deepin-sysdev-team
@@ -11235,10 +11271,6 @@ repos:
     group: deepin-sysdev-team
     info: recursive piecewise hashing tool
 
-  - repo: sso-mib #main
-    group: deepin-sysdev-team
-    info: Single-Sign-On with CA for Entra via Himmelblau
-
   - repo: ssh-tools
     group: deepin-sysdev-team
     info: collection of various tools using sshs
@@ -11246,6 +11278,10 @@ repos:
   - repo: sshpass
     group: deepin-sysdev-team
     info: Non-interactive ssh password authentication
+
+  - repo: sso-mib #main
+    group: deepin-sysdev-team
+    info: Single-Sign-On with CA for Entra via Himmelblau
 
   - repo: sssd #main
     group: deepin-sysdev-team
@@ -11545,10 +11581,6 @@ repos:
     group: deepin-hamradio
     info: QSL log signing for the Logbook of the World (LoTW)
 
-  - repo: ttkthemes #main
-    group: deepin-sysdev-team
-    info: group of image-based themes for Tkinter/Ttk
-
   - repo: tslib
     group: deepin-pkg
     info: Tslib is an abstraction layer for touchscreen panel events.
@@ -11556,6 +11588,10 @@ repos:
   - repo: tsocks
     group: deepin-sysdev-team
     info: transparent network access through a SOCKS 4 or 5 proxy
+
+  - repo: ttkthemes #main
+    group: deepin-sysdev-team
+    info: group of image-based themes for Tkinter/Ttk
 
   - repo: tuned #main
     group: deepin-sysdev-team
@@ -12182,38 +12218,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: kleidiai #main
-    group: deepin-sysdev-team
-    info: Optimized micro-kernel library for AI workloads for Arm CPUs
-
-  - repo: esnacc #main
-    group: deepin-sysdev-team
-    info: Enhanced SNACC ASN.1 compiler for data serialization
-
-  - repo: libpisp #main
-    group: deepin-sysdev-team
-    info: Helper library for the PiSP hardware block
-
-  - repo: qt-advanced-docking-system #main
-    group: deepin-sysdev-team
-    info: Advanced Docking System for Qt
-
-  - repo: nautilus-python
-    group: deepin-sysdev-team
-    info: Python binding for Nautilus components (Python 3 version)
-
-  - repo: python-covdefaults
-    group: deepin-sysdev-team
-    info: coverage plugin to provide sensible default settings
-
-  - repo: python-expandvars
-    group: deepin-sysdev-team
-    info: bash-style environment variable expansion in Python
-
-  - repo: noise-suppression-for-voice #main
-    group: deepin-sysdev-team
-    info: A real-time noise suppression plugin for voice
-
-  - repo: lintian-ssg #main
-    group: deepin-sysdev-team
-    info: Static Site Generator for Lintian tags' explanations

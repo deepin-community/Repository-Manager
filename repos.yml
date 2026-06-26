@@ -7275,6 +7275,10 @@ repos:
     group: deepin-sysdev-team
     info: Lua client for Neovim
 
+  - repo: lua-resty-core #main
+    group: deepin-sysdev-team
+    info: New FFI-based Lua API for NGINX Lua module
+
   - repo: luametatex #main
     group: deepin-sysdev-team
     info: Next generation ConTeXt processing engine

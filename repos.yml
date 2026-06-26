@@ -7279,6 +7279,10 @@ repos:
     group: deepin-sysdev-team
     info: New FFI-based Lua API for NGINX Lua module
 
+  - repo: lua-resty-lrucache #main
+    group: deepin-sysdev-team
+    info: Simple LRU cache for the ngx_lua module
+
   - repo: luametatex #main
     group: deepin-sysdev-team
     info: Next generation ConTeXt processing engine

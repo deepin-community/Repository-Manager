@@ -5012,6 +5012,10 @@ repos:
     group: deepin-sysdev-team
     info: Highway is a C++ library that provides portable SIMD/vector intrinsics.
 
+  - repo: hipblas
+    group: deepin-sysdev-team
+    info: portable interface for GPU BLAS
+
   - repo: hotspot
     group: dde
     info: GUI tool for performance analysis
@@ -10272,11 +10276,23 @@ repos:
     group: deepin-sysdev-team
     info: real-time audio streaming over the network
 
+  - repo: rocblas
+    group: deepin-sysdev-team
+    info: ROCm library for basic linear algebra
+
   - repo: rocm-cmake
     group: deepin-sysdev-team
     info: AMD ROCm CMake modules
 
   - repo: rocm-device-libs
+    group: deepin-sysdev-team
+    info: AMD specific device-side language runtime libraries
+
+  - repo: rocm-rocm-hipamd
+    group: deepin-sysdev-team
+    info: HIP runtime for AMD GPUs
+
+  - repo: rocm-llvm
     group: deepin-sysdev-team
     info: AMD specific device-side language runtime libraries
 

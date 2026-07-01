@@ -11271,6 +11271,10 @@ repos:
     group: deepin-sysdev-team
     info: FUSE filesystem to mount squashfs archives
 
+  - repo: squid
+    group: deepin-sysdev-team
+    info: Full featured Web Proxy cache (HTTP proxy)
+
   - repo: squirrel3 #main
     group: deepin-sysdev-team
     info: lightweight, high-level, embeddable programming language

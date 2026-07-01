@@ -11513,6 +11513,10 @@ repos:
     group: deepin-sysdev-team
     info: TOML config parser and serializer for C++17
 
+  - repo: tor
+    group: deepin-sysdev-team
+    info: anonymizing overlay network for TCP
+
   - repo: towncrier #main
     group: deepin-sysdev-team
     info: compiler for project news file

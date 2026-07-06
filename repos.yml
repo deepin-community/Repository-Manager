@@ -7201,6 +7201,10 @@ repos:
     group: deepin-sysdev-team
     info: C++ library for flexible logging (development)
 
+  - repo: log4cxx #main
+    group: deepin-sysdev-team
+    info: Logging library for C++
+
   - repo: lolcat
     group: deepin-sysdev-team
     info: colorful cat

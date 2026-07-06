@@ -10788,6 +10788,10 @@ repos:
     group: deepin-sysdev-team
     info: Implementations of string similarity metrics - Rust source code
 
+  - repo: rust-sudo-rs #main
+    group: deepin-sysdev-team
+    info: Rust-based sudo and su implementations
+
   - repo: rust-sval
     group: deepin-sysdev-team
     info: This metapackage enables feature "sval_derive" for the Rust sval crate.

@@ -10887,6 +10887,10 @@ repos:
   - repo: ruy #main
     group: deepin-sysdev-team
     info: ruy is a matrix multiplication library
+    
+  - repo: ruyi
+    group: deepin-sysdev-team
+    info: Package manager for RuyiSDK
 
   - repo: ryzen-smu
     group: deepin-sysdev-team

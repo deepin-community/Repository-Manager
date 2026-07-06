@@ -9703,6 +9703,10 @@ repos:
     group: deepin-sysdev-team
     info: Safely evaluate Python AST nodes without side effects
 
+  - repo: python-pygit2 #main
+    group: deepin-sysdev-team
+    info: Python bindings for libgit2
+
   - repo: python-pynvim
     group: deepin-sysdev-team
     info: Python client and plugin host for Nvim

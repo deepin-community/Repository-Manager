@@ -12250,3 +12250,70 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
+  - repo: doxysphinx
+    group: deepin-sysdev-team
+    info: Doxygen to Sphinx documentation converter
+
+  - repo: hipblas
+    group: deepin-sysdev-team
+    info: ROCm library for Basic Linear Algebra Subprograms
+
+  - repo: hipblas-common
+    group: deepin-sysdev-team
+    info: Common files for hipblas and hipblas64
+
+  - repo: matplotlib
+    group: deepin-sysdev-team
+    info: Python plotting library
+
+  - repo: mpire
+    group: deepin-sysdev-team
+    info: MPI for Python - enhanced multiprocessing
+
+  - repo: myst-nb
+    group: deepin-sysdev-team
+    info: Jupyter Notebook parser for Sphinx
+
+  - repo: pkg-rocm-tools
+    group: deepin-sysdev-team
+    info: ROCm packaging tools
+
+  - repo: rocblas
+    group: deepin-sysdev-team
+    info: ROCm library for GPU-accelerated BLAS
+
+  - repo: rocm-docs-core
+    group: deepin-sysdev-team
+    info: Core documentation utilities for ROCm
+
+  - repo: rocm-hipamd
+    group: deepin-sysdev-team
+    info: AMD ROCm HIP implementation
+
+  - repo: rocm-llvm
+    group: deepin-sysdev-team
+    info: ROCm LLVM compiler infrastructure
+
+  - repo: roctracer
+    group: deepin-sysdev-team
+    info: AMD ROCm profiler/ tracer library
+
+  - repo: sphinx-book-theme
+    group: deepin-sysdev-team
+    info: Sphinx theme for Jupyter Book projects
+
+  - repo: sphinx-data-viewer
+    group: deepin-sysdev-team
+    info: Sphinx extension for viewing data
+
+  - repo: sphinx-external-toc
+    group: deepin-sysdev-team
+    info: Sphinx extension for external table of contents
+
+  - repo: sphinx-needs
+    group: deepin-sysdev-team
+    info: Sphinx extension for requirements management
+
+  - repo: sphinx-tabs
+    group: deepin-sysdev-team
+    info: Sphinx extension for tabbed content

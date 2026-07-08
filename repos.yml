@@ -12317,3 +12317,9 @@ repos:
   - repo: sphinx-tabs
     group: deepin-sysdev-team
     info: Sphinx extension for tabbed content
+
+  - repo: automake-1.17
+    group: deepin-sysdev-team
+    info: Tool for generating GNU Standards-compliant Makefiles
+  Automake is a tool for automatically generating `Makefile.in's from
+  files called `Makefile.am'.

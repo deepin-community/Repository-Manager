@@ -9599,6 +9599,10 @@ repos:
     group: deepin-sysdev-team
     info: Python bindings for iptables
 
+  - repo: python-jq #main
+    group: deepin-sysdev-team
+    info: lightweight and flexible JSON processor (Python3 version)
+
   - repo: python-junit-xml #main
     group: deepin-sysdev-team
     info: creates JUnit XML test result docs readable by tools such as Jenkins

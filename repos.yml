@@ -296,6 +296,12 @@ repos:
     group: deepin-sysdev-team
     info: shell extension to jump to frequently used directories
 
+  - repo: automake-1.17
+    group: deepin-sysdev-team
+    info: Tool for generating GNU Standards-compliant Makefiles
+  Automake is a tool for automatically generating `Makefile.in's from
+  files called `Makefile.am'.
+
   - repo: autopep8 #main
     group: deepin-sysdev-team
     info: tool that automatically formats Python code to conform to PEP 8
@@ -1183,6 +1189,10 @@ repos:
   - repo: doxygen-awesome-css
     group: deepin-sysdev-team
     info: A CSS theme for Doxygen
+
+  - repo: doxysphinx
+    group: deepin-sysdev-team
+    info: Doxygen to Sphinx documentation converter
 
   - repo: dpatch
     group: deepin-sysdev-team
@@ -5012,6 +5022,14 @@ repos:
     group: deepin-sysdev-team
     info: Highway is a C++ library that provides portable SIMD/vector intrinsics.
 
+  - repo: hipblas
+    group: deepin-sysdev-team
+    info: ROCm library for Basic Linear Algebra Subprograms
+
+  - repo: hipblas-common
+    group: deepin-sysdev-team
+    info: Common files for hipblas and hipblas64
+
   - repo: hotspot
     group: dde
     info: GUI tool for performance analysis
@@ -7370,6 +7388,10 @@ repos:
       in web technologies into a single, definitive, math-on-the-web platform supporting
       the major browsers and operating systems.
 
+  - repo: matplotlib
+    group: deepin-sysdev-team
+    info: Python plotting library
+
   - repo: maven-bundle-plugin
     group: deepin-sysdev-team
     info: Maven Bundle Plugin
@@ -7605,6 +7627,10 @@ repos:
   - repo: mpfrcplusplus
     group: deepin-sysdev-team
     info: multi-precision floating point number class for C++
+
+  - repo: mpire
+    group: deepin-sysdev-team
+    info: MPI for Python - enhanced multiprocessing
 
   - repo: mpl-sphinx-theme #main
     group: deepin-sysdev-team
@@ -8841,6 +8867,10 @@ repos:
   - repo: pkg-haskell-tools
     group: deepin-sysdev-team
     info: ghc and haskell develop tools
+
+  - repo: pkg-rocm-tools
+    group: deepin-sysdev-team
+    info: ROCm packaging tools
 
   - repo: planner #main
     group: deepin-sysdev-team
@@ -10280,6 +10310,10 @@ repos:
     group: deepin-sysdev-team
     info: real-time audio streaming over the network
 
+  - repo: rocblas
+    group: deepin-sysdev-team
+    info: ROCm library for GPU-accelerated BLAS
+
   - repo: rocm-cmake
     group: deepin-sysdev-team
     info: AMD ROCm CMake modules
@@ -10287,6 +10321,18 @@ repos:
   - repo: rocm-device-libs
     group: deepin-sysdev-team
     info: AMD specific device-side language runtime libraries
+
+  - repo: rocm-docs-core
+    group: deepin-sysdev-team
+    info: Core documentation utilities for ROCm
+
+  - repo: rocm-hipamd
+    group: deepin-sysdev-team
+    info: AMD ROCm HIP implementation
+
+  - repo: rocm-llvm
+    group: deepin-sysdev-team
+    info: ROCm LLVM compiler infrastructure
 
   - repo: rocm-smi-lib #main
     group: deepin-sysdev-team
@@ -10303,6 +10349,10 @@ repos:
   - repo: roct-thunk-interface
     group: deepin-sysdev-team
     info: Thunk library for AMD KFD (dev)
+
+  - repo: roctracer
+    group: deepin-sysdev-team
+    info: AMD ROCm profiler/ tracer library
 
   - repo: rofi
     group: deepin-sysdev-team
@@ -10891,7 +10941,7 @@ repos:
   - repo: ruy #main
     group: deepin-sysdev-team
     info: ruy is a matrix multiplication library
-    
+
   - repo: ruyi
     group: deepin-sysdev-team
     info: Package manager for RuyiSDK
@@ -11167,9 +11217,21 @@ repos:
     group: deepin-sysdev-team
     info: modern base for Sphinx themes
 
+  - repo: sphinx-book-theme
+    group: deepin-sysdev-team
+    info: Sphinx theme for Jupyter Book projects
+
+  - repo: sphinx-data-viewer
+    group: deepin-sysdev-team
+    info: Sphinx extension for viewing data
+
   - repo: sphinx-design #main
     group: deepin-sysdev-team
     info: A sphinx extension for designing beautiful, view size responsive web components.
+
+  - repo: sphinx-external-toc
+    group: deepin-sysdev-team
+    info: Sphinx extension for external table of contents
 
   - repo: sphinx-favicon #main
     group: deepin-sysdev-team
@@ -11178,6 +11240,10 @@ repos:
   - repo: sphinx-inline-tabs #main
     group: deepin-sysdev-team
     info: Add inline tabbed content to your Sphinx documentation
+
+  - repo: sphinx-needs
+    group: deepin-sysdev-team
+    info: Sphinx extension for requirements management
 
   - repo: sphinx-notfound-page #main
     group: deepin-sysdev-team
@@ -11210,6 +11276,10 @@ repos:
   - repo: sphinx-sitemap # main
     group: deepin-sysdev-team
     info: A python binding package for generating sitemap
+
+  - repo: sphinx-tabs
+    group: deepin-sysdev-team
+    info: Sphinx extension for tabbed content
 
   - repo: sphinxcontrib-doxylink #main
     group: deepin-sysdev-team
@@ -12250,76 +12320,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: doxysphinx
-    group: deepin-sysdev-team
-    info: Doxygen to Sphinx documentation converter
-
-  - repo: hipblas
-    group: deepin-sysdev-team
-    info: ROCm library for Basic Linear Algebra Subprograms
-
-  - repo: hipblas-common
-    group: deepin-sysdev-team
-    info: Common files for hipblas and hipblas64
-
-  - repo: matplotlib
-    group: deepin-sysdev-team
-    info: Python plotting library
-
-  - repo: mpire
-    group: deepin-sysdev-team
-    info: MPI for Python - enhanced multiprocessing
-
-  - repo: myst-nb
-    group: deepin-sysdev-team
-    info: Jupyter Notebook parser for Sphinx
-
-  - repo: pkg-rocm-tools
-    group: deepin-sysdev-team
-    info: ROCm packaging tools
-
-  - repo: rocblas
-    group: deepin-sysdev-team
-    info: ROCm library for GPU-accelerated BLAS
-
-  - repo: rocm-docs-core
-    group: deepin-sysdev-team
-    info: Core documentation utilities for ROCm
-
-  - repo: rocm-hipamd
-    group: deepin-sysdev-team
-    info: AMD ROCm HIP implementation
-
-  - repo: rocm-llvm
-    group: deepin-sysdev-team
-    info: ROCm LLVM compiler infrastructure
-
-  - repo: roctracer
-    group: deepin-sysdev-team
-    info: AMD ROCm profiler/ tracer library
-
-  - repo: sphinx-book-theme
-    group: deepin-sysdev-team
-    info: Sphinx theme for Jupyter Book projects
-
-  - repo: sphinx-data-viewer
-    group: deepin-sysdev-team
-    info: Sphinx extension for viewing data
-
-  - repo: sphinx-external-toc
-    group: deepin-sysdev-team
-    info: Sphinx extension for external table of contents
-
-  - repo: sphinx-needs
-    group: deepin-sysdev-team
-    info: Sphinx extension for requirements management
-
-  - repo: sphinx-tabs
-    group: deepin-sysdev-team
-    info: Sphinx extension for tabbed content
-
-  - repo: automake-1.17
-    group: deepin-sysdev-team
-    info: Tool for generating GNU Standards-compliant Makefiles
-  Automake is a tool for automatically generating `Makefile.in's from
-  files called `Makefile.am'.

@@ -299,8 +299,6 @@ repos:
   - repo: automake-1.17
     group: deepin-sysdev-team
     info: Tool for generating GNU Standards-compliant Makefiles
-  Automake is a tool for automatically generating `Makefile.in's from
-  files called `Makefile.am'.
 
   - repo: autopep8 #main
     group: deepin-sysdev-team

@@ -6225,6 +6225,10 @@ repos:
     group: deepin-sysdev-team
     info: bare-bones HTML parser
 
+  - repo: libhtml-tokeparser-simple-perl #main
+    group: deepin-sysdev-team
+    info: Perl module used to tokenize HTML documents
+
   - repo: libhttp-entity-parser-perl
     group: deepin-sysdev-team
     info: PSGI compliant HTTP Entity Parser
@@ -6551,6 +6555,10 @@ repos:
     group: deepin-sysdev-team
     info: Perl pragma to disable multidimensional array emulation
 
+  - repo: libmldbm-perl #main
+    group: deepin-sysdev-team
+    info: module for storing multidimensional hash structures in perl tied hashes
+
   - repo: libmypaint
     group: deepin-sysdev-team
     info: brush library for mypaint
@@ -6792,6 +6800,10 @@ repos:
   - repo: libre-engine-re2-perl
     group: deepin-sysdev-team
     info: RE2 regex engine
+
+  - repo: libregexp-wildcards-perl #main
+    group: deepin-sysdev-team
+    info: converts wildcard expressions to Perl regular expressions
 
   - repo: librecad
     group: deepin-sysdev-team

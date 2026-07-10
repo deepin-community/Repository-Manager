@@ -10,6 +10,10 @@ repos:
     group: deepin-sysdev-team
     info: this is a binary package build from alsa-tools not a source code package
 
+  - repo: haskell-tldr
+    group: deepin-sysdev-team
+    info: recently dropped by debian upstream, could be replaced by tldr python client
+
   - repo: ldb
     group: deepin-sysdev-team
     notes: ldb related components have been merged into samba.

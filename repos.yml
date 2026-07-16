@@ -12338,3 +12338,6 @@ repos:
     group: deepin-sysdev-team
     info: NVIDIA Container toolkit
 
+  - repo: libnvidia-container #main
+    group: deepin-sysdev-team
+    info: NVIDIA container runtime library

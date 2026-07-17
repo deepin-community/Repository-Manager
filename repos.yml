@@ -10104,6 +10104,10 @@ repos:
     group: deepin-sysdev-team
     info: qtermwidget for Qt 6
 
+  - repo: qtmcp #main
+    group: deepin-sysdev-team
+    info: Qt-based implementation of the Model Context Protocol
+
   - repo: qtpass #main
     group: deepin-sysdev-team
     info: GUI for password manager pass

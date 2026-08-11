@@ -12354,6 +12354,6 @@ repos:
     group: deepin-sysdev-team
     info: read/write encrypted BitLocker volumes
 
-  - repo: edid-decode #main
+  - repo: edid-decode #main 
     group: deepin-sysdev-team
     info: decode the binary EDID information from monitors 

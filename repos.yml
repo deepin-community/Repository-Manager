@@ -12356,4 +12356,4 @@ repos:
 
   - repo: edid-decode #main
     group: deepin-sysdev-team
-    info: decode the binary EDID information from monitors
+    info: decode the binary EDID information from monitors 

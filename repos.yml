@@ -12357,3 +12357,55 @@ repos:
   - repo: edid-decode #main 
     group: deepin-sysdev-team
     info: decode the binary EDID information from monitors 
+
+  - repo: flag-attention
+    group: sig-flagos
+    info: Memory-efficient attention operators for multiple accelerator backends
+
+  - repo: flag-audio
+    group: sig-flagos
+    info: Multi-backend audio processing operator library
+
+  - repo: flag-blas
+    group: sig-flagos
+    info: Multi-backend BLAS operator library
+
+  - repo: flag-dnn
+    group: sig-flagos
+    info: Native C++ DNN graph runtime powered by Triton kernels
+
+  - repo: flag-gems
+    group: sig-flagos
+    info: Efficient general-purpose operator library for PyTorch
+
+  - repo: flagcx
+    group: sig-flagos
+    info: Unified collective communication library for heterogeneous accelerators
+
+  - repo: flagquantum
+    group: sig-flagos
+    info: Distributed quantum state-vector simulator based on PyTorch
+
+  - repo: flagscale
+    group: sig-flagos
+    info: Unified framework for large-scale AI training, inference, and serving
+
+  - repo: flagsparse
+    group: sig-flagos
+    info: GPU sparse matrix operator library based on Triton
+
+  - repo: flagtensor
+    group: sig-flagos
+    info: Multi-backend tensor operator library
+
+  - repo: flagtree
+    group: sig-flagos
+    info: Unified Triton compiler for heterogeneous accelerator backends
+
+  - repo: libflagfft
+    group: sig-flagos
+    info: JIT-compiled GPU FFT library with a C API
+
+  - repo: libtriton-jit
+    group: sig-flagos
+    info: C++ runtime library for compiling and launching Triton kernels

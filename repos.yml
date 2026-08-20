@@ -12357,3 +12357,7 @@ repos:
   - repo: edid-decode #main 
     group: deepin-sysdev-team
     info: decode the binary EDID information from monitors 
+
+  - repo: xserver-xorg-video-qxl #main 
+    group: deepin-sysdev-team
+    info: X.Org X server -- QXL display driver

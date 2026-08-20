@@ -12361,3 +12361,7 @@ repos:
   - repo: xserver-xorg-video-qxl #main 
     group: deepin-sysdev-team
     info: X.Org X server -- QXL display driver
+
+  - repo: rustc-1.95 #main 
+    group: deepin-sysdev-team
+    info: Rust systems programming language

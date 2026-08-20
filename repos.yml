@@ -272,6 +272,10 @@ repos:
     group: deepin-sysdev-team
     info: asyncio PosgtreSQL driver
 
+  - repo: atomgit-cli
+    group: deepin-sysdev-team
+    info: AtomGit CLI - Work seamlessly with AtomGit from the command line
+    
   - repo: atop
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity

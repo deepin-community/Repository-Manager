@@ -104,6 +104,10 @@ repos:
     group: deepin-sysdev-team
     info: linker tools for the amdgcn architecture
 
+  - repo: amdgcn-tools-21
+    group: deepin-sysdev-team
+    info: linker tools for the amdgcn architecture
+
   - repo: aml
     group: deepin-sysdev-team
     info: An event loop library that aims at portability, utility and simplicity

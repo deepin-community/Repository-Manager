@@ -12369,3 +12369,7 @@ repos:
   - repo: rustc-1.95 #main 
     group: deepin-sysdev-team
     info: Rust systems programming language
+    
+  - repo: rust-eza 
+    group: deepin-sysdev-team
+    info: Modern replacement for ls

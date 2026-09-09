@@ -12373,3 +12373,9 @@ repos:
   - repo: rust-eza 
     group: deepin-sysdev-team
     info: Modern replacement for ls
+    
+  - repo: lto-disabled-list #main 
+    group: deepin-sysdev-team
+    info: list of packages not to build with LTO 
+
+    

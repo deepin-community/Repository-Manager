@@ -12378,4 +12378,6 @@ repos:
     group: deepin-sysdev-team
     info: list of packages not to build with LTO 
 
-    
+  - repo: lto-enabled-list #main 
+    group: deepin-sysdev-team
+    info: list of packages to build with LTO 

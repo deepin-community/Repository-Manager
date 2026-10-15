@@ -12385,3 +12385,30 @@ repos:
   - repo: lto-enabled-list #main 
     group: deepin-sysdev-team
     info: list of packages to build with LTO 
+
+  - repo: python-maturin #main 
+    group: deepin-sysdev-team
+    info: Build and publish crates with pyo3
+
+  - repo: python-cryptography-vectors  #main 
+    group: deepin-sysdev-team
+    info: Test vectors for python-cryptography
+
+  - repo: rust-asn1 #main 
+    group: deepin-sysdev-team
+    info: ASN.1 (DER) parser and writer for Rust - Rust source code
+
+  - repo: rust-asn1-derive #main 
+    group: deepin-sysdev-team
+    info: support for asn1 - Rust source code
+ 
+  - repo: rust-itoa #main 
+    group: deepin-sysdev-team
+    info: Fast functions printing integer primitives to io::Write - Rust source code
+
+  - repo: rust-futures-timer #main 
+    group: deepin-sysdev-team
+    info: timeouts for futures - Rust source code
+    
+    
+    

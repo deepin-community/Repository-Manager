@@ -12410,5 +12410,7 @@ repos:
     group: deepin-sysdev-team
     info: timeouts for futures - Rust source code
     
-    
+  - repo: tig #main 
+    group: deepin-sysdev-team
+    info: ncurses-based text-mode interface for Git
     

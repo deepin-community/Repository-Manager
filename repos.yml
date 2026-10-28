@@ -9445,6 +9445,10 @@ repos:
     group: deepin-sysdev-team
     info: Curtsies is a library for interacting with the terminal
 
+  - repo: python-cvss
+    group: deepin-sysdev-team
+    info: CVSS2/3/4 library with interactive calculator for Python
+
   - repo: python-cwcwidth
     group: deepin-sysdev-team
     info: This module provides functions to compute the printable length of a unicode character/string on a terminal

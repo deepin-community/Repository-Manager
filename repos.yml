@@ -275,7 +275,7 @@ repos:
   - repo: atomgit-cli
     group: deepin-sysdev-team
     info: AtomGit CLI - Work seamlessly with AtomGit from the command line
-    
+
   - repo: atop
     group: deepin-sysdev-team
     info: Monitor for system resources and process activity
@@ -1112,6 +1112,10 @@ repos:
       Discus aims to make df prettier, with features such as color, graphs, and
       smart formatting of numbers.
 
+  - repo: dislocker
+    group: deepin-sysdev-team
+    info: read/write encrypted BitLocker volumes
+
   - repo: distance
     group: deepin-sysdev-team
     info: A Python library for comparing sequences
@@ -1289,6 +1293,10 @@ repos:
   - repo: edb-debugger
     group: deepin-sysdev-team
     info: cross platform disassemble debugger
+
+  - repo: edid-decode #main
+    group: deepin-sysdev-team
+    info: decode the binary EDID information from monitors
 
   - repo: edk2
     group: deepin-sysdev-team
@@ -6373,6 +6381,10 @@ repos:
     group: deepin-sysdev-team
     info: Software defined radio support for Mirics hardware
 
+  - repo: libmldbm-perl #main
+    group: deepin-sysdev-team
+    info: module for storing multidimensional hash structures in perl tied hashes
+
   - repo: libmodbus #main
     group: deepin-sysdev-team
     info: library for the Modbus protocol
@@ -6563,10 +6575,6 @@ repos:
     group: deepin-sysdev-team
     info: Perl pragma to disable multidimensional array emulation
 
-  - repo: libmldbm-perl #main
-    group: deepin-sysdev-team
-    info: module for storing multidimensional hash structures in perl tied hashes
-
   - repo: libmypaint
     group: deepin-sysdev-team
     info: brush library for mypaint
@@ -6680,6 +6688,10 @@ repos:
   - repo: libnova
     group: deepin-sysdev-team
     info: celestial mechanics, astrometry and astrodynamics library
+
+  - repo: libnvidia-container #main
+    group: deepin-sysdev-team
+    info: NVIDIA container runtime library
 
   - repo: libnvme #main
     group: deepin-sysdev-team
@@ -6809,13 +6821,13 @@ repos:
     group: deepin-sysdev-team
     info: RE2 regex engine
 
-  - repo: libregexp-wildcards-perl #main
-    group: deepin-sysdev-team
-    info: converts wildcard expressions to Perl regular expressions
-
   - repo: librecad
     group: deepin-sysdev-team
     info: Computer-aided design (CAD) system
+
+  - repo: libregexp-wildcards-perl #main
+    group: deepin-sysdev-team
+    info: converts wildcard expressions to Perl regular expressions
 
   - repo: librist
     group: deepin-sysdev-team
@@ -7272,6 +7284,14 @@ repos:
   - repo: lsprotocol #main
     group: deepin-sysdev-team
     info: Python implementation of the Language Server Protocol
+
+  - repo: lto-disabled-list #main
+    group: deepin-sysdev-team
+    info: list of packages not to build with LTO
+
+  - repo: lto-enabled-list #main
+    group: deepin-sysdev-team
+    info: list of packages to build with LTO
 
   - repo: lua-lpeg
     group: deepin-sysdev-team
@@ -8420,6 +8440,10 @@ repos:
     group: deepin-sysdev-team
     info: python3-defaults 3.11
 
+  - repo: nvidia-container-toolkit #main
+    group: deepin-sysdev-team
+    info: NVIDIA Container toolkit
+
   - repo: nvidia-cuda-toolkit
     group: deepin-sysdev-team
     info: NVIDIA CUDA development toolkit
@@ -8431,6 +8455,10 @@ repos:
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team
     info: Nvidia driver
+
+  - repo: nvidia-graphics-drivers-595
+    group: deepin-sysdev-team
+    info: NVIDIA graphics drivers
 
   - repo: nvidia-modprobe #main
     group: deepin-sysdev-team
@@ -9405,6 +9433,10 @@ repos:
     group: deepin-sysdev-team
     info: coverage plugin to provide sensible default settings
 
+  - repo: python-cryptography-vectors  #main
+    group: deepin-sysdev-team
+    info: Test vectors for python-cryptography
+
   - repo: python-css-parser
     group: deepin-sysdev-team
     info: CSS parser provides utilities for parsing, serialising CSS in Python.
@@ -9668,6 +9700,10 @@ repos:
   - repo: python-mashumaro #main
     group: deepin-sysdev-team
     info: fast and well tested serialization library
+
+  - repo: python-maturin #main
+    group: deepin-sysdev-team
+    info: Build and publish crates with pyo3
 
   - repo: python-mechanicalsoup #main
     group: deepin-sysdev-team
@@ -10478,6 +10514,14 @@ repos:
     group: deepin-sysdev-team
     info: The Arbitrary crate lets you construct arbitrary instances of a type.
 
+  - repo: rust-asn1 #main
+    group: deepin-sysdev-team
+    info: ASN.1 (DER) parser and writer for Rust - Rust source code
+
+  - repo: rust-asn1-derive #main
+    group: deepin-sysdev-team
+    info: support for asn1 - Rust source code
+
   - repo: rust-atty
     group: deepin-sysdev-team
     info:
@@ -10606,6 +10650,10 @@ repos:
     group: deepin-sysdev-team
     info: Type-erased Serialize and Serializer traits.
 
+  - repo: rust-eza
+    group: deepin-sysdev-team
+    info: Modern replacement for ls
+
   - repo: rust-fastrand
     group: deepin-sysdev-team
     info: Simple and fast random number generator - Rust source code
@@ -10617,6 +10665,10 @@ repos:
   - repo: rust-foldhash
     group: deepin-sysdev-team
     info: Fast, non-cryptographic, minimally DoS-resistant hashing algorithm - Rust source code
+
+  - repo: rust-futures-timer #main
+    group: deepin-sysdev-team
+    info: timeouts for futures - Rust source code
 
   - repo: rust-fxhash
     group: deepin-sysdev-team
@@ -10963,6 +11015,10 @@ repos:
   - repo: rustc
     group: deepin-sysdev-team
     info: The Rust Programming Language.
+
+  - repo: rustc-1.95 #main
+    group: deepin-sysdev-team
+    info: Rust systems programming language
 
   - repo: ruy #main
     group: deepin-sysdev-team
@@ -11581,6 +11637,10 @@ repos:
     group: deepin-sysdev-team
     info: The Apache Thrift software framework for scalable cross-language services development
 
+  - repo: tig #main
+    group: deepin-sysdev-team
+    info: ncurses-based text-mode interface for Git
+
   - repo: tigervnc
     group: deepin-sysdev-team
     info: Virtual network computing; Common software needed by servers
@@ -12135,6 +12195,10 @@ repos:
     group: deepin-sysdev-team
     info: Remote Desktop Protocol (RDP) server
 
+  - repo: xserver-xorg-video-qxl #main
+    group: deepin-sysdev-team
+    info: X.Org X server -- QXL display driver
+
   - repo: xserver-xorg-video-siliconmotion #main
     group: deepin-sysdev-team
     info: X.Org X server -- SiliconMotion display driver
@@ -12346,71 +12410,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: nvidia-container-toolkit #main
-    group: deepin-sysdev-team
-    info: NVIDIA Container toolkit
-
-  - repo: libnvidia-container #main
-    group: deepin-sysdev-team
-    info: NVIDIA container runtime library
-
-  - repo: nvidia-graphics-drivers-595
-    group: deepin-sysdev-team
-    info: NVIDIA graphics drivers 
-
-  - repo: dislocker
-    group: deepin-sysdev-team
-    info: read/write encrypted BitLocker volumes
-
-  - repo: edid-decode #main 
-    group: deepin-sysdev-team
-    info: decode the binary EDID information from monitors 
-
-  - repo: xserver-xorg-video-qxl #main 
-    group: deepin-sysdev-team
-    info: X.Org X server -- QXL display driver
-
-  - repo: rustc-1.95 #main 
-    group: deepin-sysdev-team
-    info: Rust systems programming language
-    
-  - repo: rust-eza 
-    group: deepin-sysdev-team
-    info: Modern replacement for ls
-    
-  - repo: lto-disabled-list #main 
-    group: deepin-sysdev-team
-    info: list of packages not to build with LTO 
-
-  - repo: lto-enabled-list #main 
-    group: deepin-sysdev-team
-    info: list of packages to build with LTO 
-
-  - repo: python-maturin #main 
-    group: deepin-sysdev-team
-    info: Build and publish crates with pyo3
-
-  - repo: python-cryptography-vectors  #main 
-    group: deepin-sysdev-team
-    info: Test vectors for python-cryptography
-
-  - repo: rust-asn1 #main 
-    group: deepin-sysdev-team
-    info: ASN.1 (DER) parser and writer for Rust - Rust source code
-
-  - repo: rust-asn1-derive #main 
-    group: deepin-sysdev-team
-    info: support for asn1 - Rust source code
- 
-  - repo: rust-itoa #main 
-    group: deepin-sysdev-team
-    info: Fast functions printing integer primitives to io::Write - Rust source code
-
-  - repo: rust-futures-timer #main 
-    group: deepin-sysdev-team
-    info: timeouts for futures - Rust source code
-    
-  - repo: tig #main 
-    group: deepin-sysdev-team
-    info: ncurses-based text-mode interface for Git
-    

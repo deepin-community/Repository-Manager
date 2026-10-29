@@ -10120,6 +10120,10 @@ repos:
     group: deepin-sysdev-team
     info: Advanced Docking System for Qt
 
+  - repo: qt6-canvaspainter #main
+    group: deepin-sysdev-team
+    info: Qt 6 Canvas Painter
+
   - repo: qt6-graphs
     group: deepin-sysdev-team
     info: Qt 6 Graphs library
@@ -10140,9 +10144,17 @@ repos:
     group: deepin-sysdev-team
     info: Qt 6 Quick 3D Physics
 
+  - repo: qt6-quickeffectmaker #main
+    group: deepin-sysdev-team
+    info: Qt 6 Quick Effect Maker
+
   - repo: qt6-speech #main
     group: deepin-sysdev-team
     info: Qt 6 Speech
+
+  - repo: qt6-tasktree #main
+    group: deepin-sysdev-team
+    info: Qt 6 Task Tree
 
   - repo: qt6mpris #main
     group: deepin-sysdev-team

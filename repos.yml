@@ -11873,6 +11873,10 @@ repos:
     group: deepin-sysdev-team
     info: fast implementation of asyncio event loop on top of libuv
 
+  - repo: v4l2loopback #main
+    group: deepin-sysdev-team
+    info: Source for the v4l2loopback driver (virtual video devices)
+
   - repo: valgrind-if-available #main
     group: deepin-sysdev-team
     info: dependency package to pull in Valgrind if it's available

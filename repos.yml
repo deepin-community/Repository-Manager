@@ -6805,6 +6805,10 @@ repos:
     group: deepin-sysdev-team
     info: Excel file (*.xlsx) reader/writer library for Qt5 (development).
 
+  - repo: libqt5xdg #main
+    group: deepin-sysdev-team
+    info: Implementation of the XDG Specifications for Qt
+
   - repo: libquazip #main
     group: deepin-sysdev-team
     info: C++ wrapper for ZIP/UNZIP (development files)

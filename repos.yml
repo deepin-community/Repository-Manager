@@ -970,6 +970,10 @@ repos:
     group: deepin-sysdev-team
     info: helper script to make the Debian source package
 
+  - repo: debmirror
+    group: deepin-sysdev-team
+    info: Debian partial mirror script, with ftp and package pool support
+
   - repo: debootstrap
     group: deepin-sysdev-team
     info: 自举建立一个基本 Debian 系统

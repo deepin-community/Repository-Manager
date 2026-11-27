@@ -9061,6 +9061,10 @@ repos:
     group: deepin-cicd
     info: regenerate pristine tarballs
 
+  - repo: proftpd-dfsg
+    group: deepin-sysdev-team
+    info: Versatile, virtual-hosting FTP daemon
+
   - repo: progress #main
     group: deepin-sysdev-team
     info: Coreutils Progress Viewer (formerly known as 'cv')

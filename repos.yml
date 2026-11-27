@@ -7614,6 +7614,10 @@ repos:
     group: deepin-sysdev-team
     info: ModSecurity v3 library component
 
+  - repo: modsecurity-crs #main
+    group: deepin-sysdev-team
+    info: OWASP ModSecurity Core Rule Set
+
   - repo: mold
     group: deepin-sysdev-team
     info: A Modern Linker
